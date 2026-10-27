@@ -39,7 +39,8 @@
                 },
                 "template": {
                   "description": "`npc/...` or `object/...`.",
-                  "type": "string"
+                  "type": "string",
+                  "x-lmoxide-ref": ["npc", "object"]
                 }
               },
               "required": ["template"],
@@ -129,7 +130,8 @@
                   "description": "Overrides the buff's own `amount`."
                 },
                 "buff": {
-                  "type": "string"
+                  "type": "string",
+                  "x-lmoxide-ref": ["buff"]
                 },
                 "duration": {
                   "anyOf": [
@@ -164,7 +166,8 @@
               "additionalProperties": false,
               "properties": {
                 "buff": {
-                  "type": "string"
+                  "type": "string",
+                  "x-lmoxide-ref": ["buff"]
                 },
                 "target": {
                   "$ref": "#/$defs/Target"
@@ -212,7 +215,8 @@
                 "effect_package": {
                   "format": "uint32",
                   "minimum": 0,
-                  "type": "integer"
+                  "type": "integer",
+                  "x-lmoxide-client": "effect_package"
                 },
                 "target": {
                   "$ref": "#/$defs/Target"
@@ -252,7 +256,8 @@
                 "window": {
                   "format": "uint32",
                   "minimum": 0,
-                  "type": "integer"
+                  "type": "integer",
+                  "x-lmoxide-client": "window"
                 }
               },
               "required": ["window"],
@@ -269,7 +274,8 @@
               "additionalProperties": false,
               "properties": {
                 "dialogue": {
-                  "type": "string"
+                  "type": "string",
+                  "x-lmoxide-ref": ["dialogue"]
                 }
               },
               "required": ["dialogue"],
@@ -305,7 +311,8 @@
                 "track": {
                   "format": "uint32",
                   "minimum": 0,
-                  "type": "integer"
+                  "type": "integer",
+                  "x-lmoxide-client": "music"
                 }
               },
               "required": ["track"],
@@ -343,7 +350,8 @@
               "additionalProperties": false,
               "properties": {
                 "script": {
-                  "type": "string"
+                  "type": "string",
+                  "x-lmoxide-ref": ["script"]
                 },
                 "wave": {
                   "type": ["string", "null"]
@@ -363,7 +371,8 @@
               "additionalProperties": false,
               "properties": {
                 "script": {
-                  "type": "string"
+                  "type": "string",
+                  "x-lmoxide-ref": ["script"]
                 }
               },
               "required": ["script"],
@@ -381,7 +390,8 @@
               "additionalProperties": false,
               "properties": {
                 "achievement": {
-                  "type": ["string", "null"]
+                  "type": ["string", "null"],
+                  "x-lmoxide-ref": ["achievement"]
                 },
                 "location": {
                   "type": ["string", "null"]
@@ -400,7 +410,8 @@
               "additionalProperties": false,
               "properties": {
                 "achievement": {
-                  "type": "string"
+                  "type": "string",
+                  "x-lmoxide-ref": ["achievement"]
                 }
               },
               "required": ["achievement"],
@@ -436,7 +447,8 @@
               "additionalProperties": false,
               "properties": {
                 "loot": {
-                  "type": "string"
+                  "type": "string",
+                  "x-lmoxide-ref": ["loot"]
                 }
               },
               "required": ["loot"],
@@ -459,7 +471,8 @@
                   "type": "integer"
                 },
                 "item": {
-                  "type": "string"
+                  "type": "string",
+                  "x-lmoxide-ref": ["item"]
                 }
               },
               "required": ["item"],
@@ -572,7 +585,8 @@
           "description": "The client spell / nano id.",
           "format": "uint32",
           "minimum": 0,
-          "type": "integer"
+          "type": "integer",
+          "x-lmoxide-client": "spell"
         },
         "stats": {
           "additionalProperties": true,
@@ -649,7 +663,8 @@
           },
           "maxItems": 3,
           "minItems": 3,
-          "type": ["array", "null"]
+          "type": ["array", "null"],
+          "x-lmoxide-position": true
         },
         "prompt": {
           "description": "Ask first (\"Do you want to travel to X?\").",
@@ -657,7 +672,8 @@
         },
         "world": {
           "description": "The world (`world/...`); none: the same world.",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "x-lmoxide-ref": ["world"]
         }
       },
       "type": "object"
@@ -672,7 +688,8 @@
           "type": "number"
         }
       ],
-      "description": "A length of time: \"1.5s\", \"200ms\", \"2m\", \"1h\", or a number of seconds"
+      "description": "A length of time: \"1.5s\", \"200ms\", \"2m\", \"1h\", or a number of seconds",
+      "x-lmoxide-unit": "duration"
     },
     "GameAction": {
       "additionalProperties": false,
@@ -717,7 +734,8 @@
             "minimum": 0,
             "type": "integer"
           },
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-client": "item"
         },
         "count": {
           "format": "uint32",
@@ -733,7 +751,8 @@
           "description": "The client item it shows.",
           "format": "uint32",
           "minimum": 0,
-          "type": ["integer", "null"]
+          "type": ["integer", "null"],
+          "x-lmoxide-client": "item"
         },
         "kind": {
           "description": "1 = straight, 2 = lobbed.",
@@ -776,7 +795,8 @@
           "type": "number"
         }
       ],
-      "description": "A share: \"20%\" or a fraction (0.2)"
+      "description": "A share: \"20%\" or a fraction (0.2)",
+      "x-lmoxide-unit": "ratio"
     },
     "Source": {
       "description": "Where a value came from, so guesses stay visible next to what live did.",
@@ -835,7 +855,8 @@
           "description": "A random point in an area (`area/...`).",
           "properties": {
             "in_area": {
-              "type": "string"
+              "type": "string",
+              "x-lmoxide-ref": ["area"]
             }
           },
           "required": ["in_area"],
@@ -851,7 +872,8 @@
               },
               "maxItems": 3,
               "minItems": 3,
-              "type": "array"
+              "type": "array",
+              "x-lmoxide-position": true
             }
           },
           "required": ["at"],
@@ -889,7 +911,8 @@
           ]
         },
         "npc": {
-          "type": "string"
+          "type": "string",
+          "x-lmoxide-ref": ["npc"]
         },
         "radius": {
           "format": "float",
@@ -932,7 +955,8 @@
           "description": "One placement or object by id (`spawn/4200/gate-north`).",
           "properties": {
             "placement": {
-              "type": "string"
+              "type": "string",
+              "x-lmoxide-ref": ["spawn", "bouncer", "trigger"]
             }
           },
           "required": ["placement"],
@@ -1029,7 +1053,8 @@
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["skill"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",

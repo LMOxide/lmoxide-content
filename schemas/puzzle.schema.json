@@ -14,10 +14,12 @@
           },
           "maxItems": 3,
           "minItems": 3,
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-position": true
         },
         "rot": {
-          "$ref": "#/$defs/Rot"
+          "$ref": "#/$defs/Rot",
+          "x-lmoxide-rotation": true
         }
       },
       "required": ["pos", "rot", "length"],
@@ -43,7 +45,8 @@
           },
           "maxItems": 3,
           "minItems": 3,
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-position": true
         },
         "pos": {
           "items": {
@@ -52,10 +55,12 @@
           },
           "maxItems": 3,
           "minItems": 3,
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-position": true
         },
         "rot": {
-          "$ref": "#/$defs/Rot"
+          "$ref": "#/$defs/Rot",
+          "x-lmoxide-rotation": true
         }
       },
       "required": ["guid", "pos", "light", "rot", "length"],
@@ -93,7 +98,8 @@
           },
           "maxItems": 3,
           "minItems": 3,
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-position": true
         }
       },
       "required": ["guid", "name", "pos", "out", "beam"],
@@ -112,7 +118,8 @@
           },
           "maxItems": 3,
           "minItems": 3,
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-position": true
         }
       },
       "required": ["name", "pos"],
@@ -180,7 +187,8 @@
                   },
                   "maxItems": 3,
                   "minItems": 3,
-                  "type": "array"
+                  "type": "array",
+                  "x-lmoxide-position": true
                 }
               },
               "required": ["gate", "pos", "mirrors"],
@@ -268,7 +276,8 @@
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["puzzle"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",

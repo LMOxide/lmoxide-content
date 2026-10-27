@@ -14,7 +14,8 @@
           "type": "string"
         },
         "skill": {
-          "type": "string"
+          "type": "string",
+          "x-lmoxide-ref": ["skill"]
         }
       },
       "required": ["skill"],
@@ -34,7 +35,8 @@
           "type": ["integer", "null"]
         },
         "skill": {
-          "type": "string"
+          "type": "string",
+          "x-lmoxide-ref": ["skill"]
         },
         "type": {
           "type": "string"
@@ -46,7 +48,8 @@
             "minimum": 0,
             "type": "integer"
           },
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-client": "spell"
         }
       },
       "required": ["skill", "type"],
@@ -58,7 +61,8 @@
         "achievement": {
           "format": "uint32",
           "minimum": 0,
-          "type": ["integer", "null"]
+          "type": ["integer", "null"],
+          "x-lmoxide-client": "lore"
         },
         "location_picture": {
           "format": "uint32",
@@ -68,7 +72,8 @@
         "location_text": {
           "format": "uint32",
           "minimum": 0,
-          "type": ["integer", "null"]
+          "type": ["integer", "null"],
+          "x-lmoxide-client": "text"
         },
         "rarity": {
           "description": "`common`, `rare`, `epic` (tunables.rarity).",
@@ -78,7 +83,8 @@
           "items": {
             "type": "string"
           },
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-ref": ["region"]
         },
         "source": {
           "description": "`world`, `store`, `membership`, `achievement`, `event`, `club`.",
@@ -96,7 +102,8 @@
       "additionalProperties": false,
       "properties": {
         "item": {
-          "type": "string"
+          "type": "string",
+          "x-lmoxide-ref": ["item"]
         },
         "location": {
           "type": "string"
@@ -154,7 +161,8 @@
         "effect_package": {
           "format": "uint32",
           "minimum": 0,
-          "type": ["integer", "null"]
+          "type": ["integer", "null"],
+          "x-lmoxide-client": "effect_package"
         },
         "look": {
           "description": "The look's name, for reading.",
@@ -164,13 +172,15 @@
           "description": "The look: client monster data (RDB 1010514).",
           "format": "uint32",
           "minimum": 0,
-          "type": ["integer", "null"]
+          "type": ["integer", "null"],
+          "x-lmoxide-client": "monster_data"
         },
         "npc_template": {
           "description": "Client NPC template (TDB 51000 name).",
           "format": "uint32",
           "minimum": 0,
-          "type": ["integer", "null"]
+          "type": ["integer", "null"],
+          "x-lmoxide-client": "npc_template"
         },
         "scale": {
           "format": "float",
@@ -180,7 +190,8 @@
           "description": "Client item template (smashables, buildies, chests, ...).",
           "format": "uint32",
           "minimum": 0,
-          "type": ["integer", "null"]
+          "type": ["integer", "null"],
+          "x-lmoxide-client": "item"
         },
         "visual": {
           "items": {
@@ -251,7 +262,8 @@
           "type": "integer"
         },
         "buff": {
-          "type": "string"
+          "type": "string",
+          "x-lmoxide-ref": ["buff"]
         },
         "price": {
           "format": "float",
@@ -284,7 +296,8 @@
       "type": "string"
     },
     "bag": {
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["item"]
     },
     "click_spells": {
       "description": "The client's left/right click spells.",
@@ -293,14 +306,16 @@
         "minimum": 0,
         "type": "integer"
       },
-      "type": "array"
+      "type": "array",
+      "x-lmoxide-client": "spell"
     },
     "comment": {
       "type": "string"
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["minifig"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
@@ -379,7 +394,8 @@
       "description": "The client minifigure item template.",
       "format": "uint32",
       "minimum": 0,
-      "type": "integer"
+      "type": "integer",
+      "x-lmoxide-client": "item"
     },
     "updated": {
       "description": "Unix time of the last edit.",

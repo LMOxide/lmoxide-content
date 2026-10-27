@@ -14,7 +14,8 @@
         "item": {
           "format": "uint32",
           "minimum": 0,
-          "type": ["integer", "null"]
+          "type": ["integer", "null"],
+          "x-lmoxide-client": "item"
         },
         "once": {
           "type": "boolean"
@@ -79,7 +80,8 @@
       "items": {
         "type": "string"
       },
-      "type": "array"
+      "type": "array",
+      "x-lmoxide-ref": ["achievement"]
     },
     "client_name": {
       "description": "The client's internal name.",
@@ -102,7 +104,8 @@
     "counts": true,
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["achievement"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
@@ -126,10 +129,12 @@
       "description": "The client's lore id (none: a rule-only record).",
       "format": "uint32",
       "minimum": 0,
-      "type": ["integer", "null"]
+      "type": ["integer", "null"],
+      "x-lmoxide-client": "lore"
     },
     "minifigure": {
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["minifig"]
     },
     "n": {
       "format": "uint32",
@@ -140,7 +145,8 @@
       "type": "string"
     },
     "parent": {
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["achievement"]
     },
     "parent_lore": {
       "description": "The client's parent lore id when it isn't an achievement here (2: the tree's root).",
@@ -213,7 +219,8 @@
       "type": "integer"
     },
     "world": {
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["world"]
     }
   },
   "required": ["id"],

@@ -100,7 +100,8 @@
                 "heading": {
                   "default": 0.0,
                   "format": "float",
-                  "type": "number"
+                  "type": "number",
+                  "x-lmoxide-rotation": true
                 },
                 "pos": {
                   "items": {
@@ -109,7 +110,8 @@
                   },
                   "maxItems": 3,
                   "minItems": 3,
-                  "type": "array"
+                  "type": "array",
+                  "x-lmoxide-position": true
                 },
                 "size": {
                   "items": {
@@ -146,7 +148,8 @@
                   },
                   "maxItems": 3,
                   "minItems": 3,
-                  "type": "array"
+                  "type": "array",
+                  "x-lmoxide-position": true
                 },
                 "radius": {
                   "format": "float",
@@ -234,7 +237,8 @@
                   },
                   "maxItems": 3,
                   "minItems": 3,
-                  "type": "array"
+                  "type": "array",
+                  "x-lmoxide-position": true
                 },
                 "rot": {
                   "anyOf": [
@@ -244,7 +248,8 @@
                     {
                       "type": "null"
                     }
-                  ]
+                  ],
+                  "x-lmoxide-rotation": true
                 }
               },
               "required": ["pos"],
@@ -328,7 +333,8 @@
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["area"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",

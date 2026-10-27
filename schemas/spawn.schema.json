@@ -10,7 +10,8 @@
           "type": "number"
         }
       ],
-      "description": "A length of time: \"1.5s\", \"200ms\", \"2m\", \"1h\", or a number of seconds"
+      "description": "A length of time: \"1.5s\", \"200ms\", \"2m\", \"1h\", or a number of seconds",
+      "x-lmoxide-unit": "duration"
     },
     "FightRole": {
       "oneOf": [
@@ -143,7 +144,8 @@
           "description": "Cinematic actors: their item template, AI point and alias.",
           "format": "uint32",
           "minimum": 0,
-          "type": ["integer", "null"]
+          "type": ["integer", "null"],
+          "x-lmoxide-client": "item"
         },
         "look": {
           "type": ["string", "null"]
@@ -201,7 +203,8 @@
       "description": "A spawn's script wave: it spawns when that wave starts.",
       "properties": {
         "script": {
-          "type": "string"
+          "type": "string",
+          "x-lmoxide-ref": ["script"]
         },
         "wave": {
           "type": "string"
@@ -242,7 +245,8 @@
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["spawn"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
@@ -282,7 +286,8 @@
         "minItems": 3,
         "type": "array"
       },
-      "type": "array"
+      "type": "array",
+      "x-lmoxide-position": true
     },
     "pos": {
       "items": {
@@ -291,7 +296,8 @@
       },
       "maxItems": 3,
       "minItems": 3,
-      "type": "array"
+      "type": "array",
+      "x-lmoxide-position": true
     },
     "removed": {
       "description": "Deleted in this feature (the spawn it replaces is gone too).",
@@ -299,7 +305,8 @@
     },
     "replaces": {
       "description": "A world-editor placement that replaced a proposed spawn: that spawn's id.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["spawn"]
     },
     "respawn": {
       "anyOf": [
@@ -325,7 +332,8 @@
         {
           "type": "null"
         }
-      ]
+      ],
+      "x-lmoxide-rotation": true
     },
     "scale": {
       "format": "float",
@@ -350,7 +358,8 @@
     },
     "template": {
       "description": "What it is: `npc/...` for enemies, NPCs and triggers, `object/...` for the rest.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["npc", "object"]
     },
     "updated": {
       "description": "Unix time of the last edit.",

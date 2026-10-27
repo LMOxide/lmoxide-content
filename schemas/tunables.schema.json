@@ -43,7 +43,8 @@
           "type": "number"
         }
       ],
-      "description": "A length of time: \"1.5s\", \"200ms\", \"2m\", \"1h\", or a number of seconds"
+      "description": "A length of time: \"1.5s\", \"200ms\", \"2m\", \"1h\", or a number of seconds",
+      "x-lmoxide-unit": "duration"
     },
     "Loot": {
       "additionalProperties": false,
@@ -198,7 +199,8 @@
           "type": "number"
         }
       ],
-      "description": "A share: \"20%\" or a fraction (0.2)"
+      "description": "A share: \"20%\" or a fraction (0.2)",
+      "x-lmoxide-unit": "ratio"
     }
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",

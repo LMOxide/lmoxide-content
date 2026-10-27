@@ -1,0 +1,234 @@
+{
+  "files": [
+    {
+      "description": "The tree's format version and where the client reference data is",
+      "name": "content",
+      "path": "content.json",
+      "schema": "content.schema.json"
+    },
+    {
+      "description": "Numbers the game runs on that aren't any one record's (regeneration, drop rates, levels ...)",
+      "name": "tunables",
+      "path": "tunables.json",
+      "schema": "tunables.schema.json"
+    },
+    {
+      "description": "Client texts by id (dialogue lines)",
+      "name": "texts",
+      "path": "texts.json",
+      "schema": "texts.schema.json"
+    }
+  ],
+  "format": 1,
+  "kinds": [
+    {
+      "description": "A playfield: `worlds/<playfield>-<slug>/world.json`.",
+      "kind": "world",
+      "list": ["playfield", "kind", "region"],
+      "path": "worlds/<world>/world.json",
+      "per_world": true,
+      "plural": "Worlds",
+      "prefix": "world/",
+      "schema": "world.schema.json",
+      "title": "World"
+    },
+    {
+      "description": "One thing placed in a world: `worlds/<world>/spawns.json`.",
+      "kind": "spawn",
+      "list": ["kind", "template", "wave"],
+      "path": "worlds/<world>/spawns.json",
+      "per_world": true,
+      "plural": "Spawns",
+      "prefix": "spawn/",
+      "schema": "spawn.schema.json",
+      "title": "Spawn"
+    },
+    {
+      "description": "A portal: `worlds/<world>/portals.json`.",
+      "kind": "portal",
+      "list": ["to"],
+      "path": "worlds/<world>/portals.json",
+      "per_world": true,
+      "plural": "Portals",
+      "prefix": "portal/",
+      "schema": "portal.schema.json",
+      "title": "Portal"
+    },
+    {
+      "description": "A jump pad placed in a world: `worlds/<world>/bouncers.json`.",
+      "kind": "bouncer",
+      "list": ["template", "then"],
+      "path": "worlds/<world>/bouncers.json",
+      "per_world": true,
+      "plural": "Bouncers",
+      "prefix": "bouncer/",
+      "schema": "bouncer.schema.json",
+      "title": "Bouncer"
+    },
+    {
+      "description": "A named area or point: `worlds/<world>/areas.json`.",
+      "kind": "area",
+      "list": ["role"],
+      "path": "worlds/<world>/areas.json",
+      "per_world": true,
+      "plural": "Areas",
+      "prefix": "area/",
+      "schema": "area.schema.json",
+      "title": "Area"
+    },
+    {
+      "description": "A trigger: `worlds/<world>/triggers.json`.",
+      "kind": "trigger",
+      "list": ["on", "once", "look"],
+      "path": "worlds/<world>/triggers.json",
+      "per_world": true,
+      "plural": "Triggers",
+      "prefix": "trigger/",
+      "schema": "trigger.schema.json",
+      "title": "Trigger"
+    },
+    {
+      "description": "A puzzle the server runs: `worlds/<world>/puzzles.json`.",
+      "kind": "puzzle",
+      "list": [],
+      "path": "worlds/<world>/puzzles.json",
+      "per_world": true,
+      "plural": "Puzzles",
+      "prefix": "puzzle/",
+      "schema": "puzzle.schema.json",
+      "title": "Puzzle"
+    },
+    {
+      "description": "A scripted event: `worlds/<world>/scripts/<slug>.json`. Its waves spawn the spawns that\nname them.",
+      "kind": "script",
+      "list": ["area", "start", "status"],
+      "path": "worlds/<world>/scripts/",
+      "per_world": true,
+      "plural": "Scripts",
+      "prefix": "script/",
+      "schema": "script.schema.json",
+      "title": "Script"
+    },
+    {
+      "description": "Several worlds that share their minifigure drops (\"Pirate World\").",
+      "kind": "region",
+      "list": ["worlds"],
+      "path": "regions/",
+      "per_world": false,
+      "plural": "Regions",
+      "prefix": "region/",
+      "schema": "region.schema.json",
+      "title": "Region"
+    },
+    {
+      "description": "An NPC or enemy: `npcs/<slug>.json`.",
+      "kind": "npc",
+      "list": ["kind", "level", "faction"],
+      "path": "npcs/",
+      "per_world": false,
+      "plural": "NPCs",
+      "prefix": "npc/",
+      "schema": "npc.schema.json",
+      "title": "NPC"
+    },
+    {
+      "description": "Who fights whom: `factions/<slug>.json`.",
+      "kind": "faction",
+      "list": ["enemies"],
+      "path": "factions/",
+      "per_world": false,
+      "plural": "Factions",
+      "prefix": "faction/",
+      "schema": "faction.schema.json",
+      "title": "Faction"
+    },
+    {
+      "description": "A kind of object: `objects/<slug>.json`.",
+      "kind": "object",
+      "list": ["kind", "level"],
+      "path": "objects/",
+      "per_world": false,
+      "plural": "Objects",
+      "prefix": "object/",
+      "schema": "object.schema.json",
+      "title": "Object"
+    },
+    {
+      "description": "A skill (ability, attack, nano): `skills/<slug>.json`.",
+      "kind": "skill",
+      "list": ["minifigure", "ai_category", "cooldown"],
+      "path": "skills/",
+      "per_world": false,
+      "plural": "Skills",
+      "prefix": "skill/",
+      "schema": "skill.schema.json",
+      "title": "Skill"
+    },
+    {
+      "description": "A buff, debuff, upgrade or passive: `buffs/<slug>.json`.",
+      "kind": "buff",
+      "list": ["duration", "stacking"],
+      "path": "buffs/",
+      "per_world": false,
+      "plural": "Buffs",
+      "prefix": "buff/",
+      "schema": "buff.schema.json",
+      "title": "Buff"
+    },
+    {
+      "description": "A loot table (several enemies or objects can share one): `loot/<slug>.json`.",
+      "kind": "loot",
+      "list": ["rolls"],
+      "path": "loot/",
+      "per_world": false,
+      "plural": "Loot tables",
+      "prefix": "loot/",
+      "schema": "loot.schema.json",
+      "title": "Loot table"
+    },
+    {
+      "description": "An item: `items/<slug>.json`.",
+      "kind": "item",
+      "list": ["kind", "template"],
+      "path": "items/",
+      "per_world": false,
+      "plural": "Items",
+      "prefix": "item/",
+      "schema": "item.schema.json",
+      "title": "Item"
+    },
+    {
+      "description": "A playable minifigure: `minifigures/<slug>.json`. New ones need client patches (the\ncollection comes from the client's data); their numbers are free to change.",
+      "kind": "minifig",
+      "list": ["series", "template"],
+      "path": "minifigures/",
+      "per_world": false,
+      "plural": "Minifigures",
+      "prefix": "minifig/",
+      "schema": "minifig.schema.json",
+      "title": "Minifigure"
+    },
+    {
+      "description": "An NPC dialogue: `dialogues/<slug>.json`. Its lines are client text ids (`texts.json`).",
+      "kind": "dialogue",
+      "list": ["npc", "world"],
+      "path": "dialogues/",
+      "per_world": false,
+      "plural": "Dialogues",
+      "prefix": "dialogue/",
+      "schema": "dialogue.schema.json",
+      "title": "Dialogue"
+    },
+    {
+      "description": "An achievement (the client's lore tree), or a rule-only key (`category:`, `drop:`,\n`find:`): `achievements/<slug>.json`.",
+      "kind": "achievement",
+      "list": ["title", "kind", "lore"],
+      "path": "achievements/",
+      "per_world": false,
+      "plural": "Achievements",
+      "prefix": "achievement/",
+      "schema": "achievement.schema.json",
+      "title": "Achievement"
+    }
+  ]
+}

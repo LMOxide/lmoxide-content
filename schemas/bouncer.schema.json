@@ -10,7 +10,8 @@
           "type": "number"
         }
       ],
-      "description": "A length of time: \"1.5s\", \"200ms\", \"2m\", \"1h\", or a number of seconds"
+      "description": "A length of time: \"1.5s\", \"200ms\", \"2m\", \"1h\", or a number of seconds",
+      "x-lmoxide-unit": "duration"
     },
     "Rot": {
       "anyOf": [
@@ -129,7 +130,8 @@
           "description": "Cinematic actors: their item template, AI point and alias.",
           "format": "uint32",
           "minimum": 0,
-          "type": ["integer", "null"]
+          "type": ["integer", "null"],
+          "x-lmoxide-client": "item"
         },
         "look": {
           "type": ["string", "null"]
@@ -182,7 +184,8 @@
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["bouncer"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
@@ -212,18 +215,21 @@
       },
       "maxItems": 3,
       "minItems": 3,
-      "type": "array"
+      "type": "array",
+      "x-lmoxide-position": true
     },
     "removed": {
       "type": "boolean"
     },
     "replaces": {
       "description": "The world-editor bouncer this one replaced.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["bouncer"]
     },
     "requires_built": {
       "description": "Works only after this buildie spawn is built.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["spawn"]
     },
     "rev": {
       "description": "Revision, raised by every saved edit (for merging concurrent edits).",
@@ -239,7 +245,8 @@
         {
           "type": "null"
         }
-      ]
+      ],
+      "x-lmoxide-rotation": true
     },
     "scale": {
       "format": "float",
@@ -270,7 +277,8 @@
       },
       "maxItems": 3,
       "minItems": 3,
-      "type": ["array", "null"]
+      "type": ["array", "null"],
+      "x-lmoxide-position": true
     },
     "target_by": {
       "description": "How the landing point was found (`name`, `adjacent`, `chain`, `demo`, `onward`, ...).",
@@ -278,11 +286,13 @@
     },
     "template": {
       "description": "Its kind (`object/...` with `bouncer`): look and launch.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["object"]
     },
     "then": {
       "description": "The next pad of a route (thrown on without stopping).",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["bouncer"]
     },
     "updated": {
       "description": "Unix time of the last edit.",

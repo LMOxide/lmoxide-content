@@ -10,7 +10,8 @@
         },
         "loot": {
           "description": "What opening it gives.",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "x-lmoxide-ref": ["loot"]
         },
         "loot_type": {
           "description": "1 free, 2 members.",
@@ -27,7 +28,8 @@
         "spawn_effect_package": {
           "format": "uint32",
           "minimum": 0,
-          "type": ["integer", "null"]
+          "type": ["integer", "null"],
+          "x-lmoxide-client": "effect_package"
         },
         "unused": {
           "description": "Not dropped (the client's Endless chests).",
@@ -192,11 +194,13 @@
     "effect_package": {
       "format": "uint32",
       "minimum": 0,
-      "type": ["integer", "null"]
+      "type": ["integer", "null"],
+      "x-lmoxide-client": "effect_package"
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["item"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
@@ -214,12 +218,14 @@
       "type": ["string", "null"]
     },
     "minifigure": {
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["minifig"]
     },
     "monster_data": {
       "format": "uint32",
       "minimum": 0,
-      "type": ["integer", "null"]
+      "type": ["integer", "null"],
+      "x-lmoxide-client": "monster_data"
     },
     "name": {
       "type": "string"
@@ -256,7 +262,8 @@
       "description": "The client item template.",
       "format": "uint32",
       "minimum": 0,
-      "type": ["integer", "null"]
+      "type": ["integer", "null"],
+      "x-lmoxide-client": "item"
     },
     "tokens": {
       "description": "The tokens it adds to (stars, potions, part tokens ...).",

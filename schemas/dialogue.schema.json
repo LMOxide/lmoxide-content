@@ -58,7 +58,8 @@
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["dialogue"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
@@ -79,7 +80,8 @@
       "description": "Who speaks: the client's name text id and the name.",
       "format": "uint32",
       "minimum": 0,
-      "type": ["integer", "null"]
+      "type": ["integer", "null"],
+      "x-lmoxide-client": "text"
     },
     "order": {
       "default": 0,
@@ -95,7 +97,8 @@
       },
       "maxItems": 3,
       "minItems": 3,
-      "type": ["array", "null"]
+      "type": ["array", "null"],
+      "x-lmoxide-position": true
     },
     "rev": {
       "description": "Revision, raised by every saved edit (for merging concurrent edits).",
@@ -132,7 +135,8 @@
         "minimum": 0,
         "type": "integer"
       },
-      "type": "array"
+      "type": "array",
+      "x-lmoxide-client": "text"
     },
     "updated": {
       "description": "Unix time of the last edit.",
@@ -141,7 +145,8 @@
       "type": "integer"
     },
     "world": {
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["world"]
     }
   },
   "required": ["id", "texts"],

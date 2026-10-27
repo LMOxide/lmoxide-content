@@ -53,7 +53,8 @@
             },
             "type": "array"
           },
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-client": "monster_data"
         },
         "rivals_about": {
           "type": "string"
@@ -109,7 +110,8 @@
           },
           "maxItems": 3,
           "minItems": 3,
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-position": true
         },
         "restoration": {
           "format": "uint32",
@@ -124,7 +126,8 @@
             {
               "type": "null"
             }
-          ]
+          ],
+          "x-lmoxide-rotation": true
         },
         "shady": {
           "type": ["boolean", "null"]
@@ -246,7 +249,8 @@
         "$ref": "#/$defs/Point"
       },
       "description": "Arrival when coming back from another world (`world/...` -> point).",
-      "type": "object"
+      "type": "object",
+      "x-lmoxide-ref-key": ["world"]
     },
     "arrival_guid": {
       "description": "The client's resurrection point guid of `arrival`.",
@@ -270,7 +274,8 @@
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["world"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
@@ -301,7 +306,8 @@
         "minimum": 0,
         "type": "integer"
       },
-      "type": "array"
+      "type": "array",
+      "x-lmoxide-client": "music"
     },
     "name": {
       "type": "string"
@@ -320,11 +326,13 @@
       "description": "The client's playfield id.",
       "format": "uint32",
       "minimum": 0,
-      "type": "integer"
+      "type": "integer",
+      "x-lmoxide-client": "playfield"
     },
     "region": {
       "description": "The region it belongs to (`region/...`): which minifigures drop here.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["region"]
     },
     "respawn_points": {
       "items": {
@@ -365,7 +373,8 @@
       "description": "The client teleport window that leads here.",
       "format": "uint32",
       "minimum": 0,
-      "type": ["integer", "null"]
+      "type": ["integer", "null"],
+      "x-lmoxide-client": "window"
     }
   },
   "required": ["id", "playfield"],

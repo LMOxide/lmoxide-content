@@ -60,11 +60,13 @@
       "items": {
         "type": "string"
       },
-      "type": "array"
+      "type": "array",
+      "x-lmoxide-ref": ["faction"]
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["faction"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",

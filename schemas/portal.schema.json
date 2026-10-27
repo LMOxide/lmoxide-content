@@ -24,7 +24,8 @@
           },
           "maxItems": 3,
           "minItems": 3,
-          "type": ["array", "null"]
+          "type": ["array", "null"],
+          "x-lmoxide-position": true
         },
         "prompt": {
           "description": "Ask first (\"Do you want to travel to X?\").",
@@ -32,7 +33,8 @@
         },
         "world": {
           "description": "The world (`world/...`); none: the same world.",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "x-lmoxide-ref": ["world"]
         }
       },
       "type": "object"
@@ -95,7 +97,8 @@
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["portal"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
@@ -115,7 +118,8 @@
       },
       "maxItems": 3,
       "minItems": 3,
-      "type": "array"
+      "type": "array",
+      "x-lmoxide-position": true
     },
     "radius": {
       "description": "Walk-in radius (m).",
@@ -158,7 +162,8 @@
       "description": "The client teleport window it opens (none: straight to `to`).",
       "format": "uint32",
       "minimum": 0,
-      "type": ["integer", "null"]
+      "type": ["integer", "null"],
+      "x-lmoxide-client": "window"
     }
   },
   "required": ["id", "pos", "to"],

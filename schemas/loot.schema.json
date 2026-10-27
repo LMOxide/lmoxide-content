@@ -9,7 +9,8 @@
           "items": {
             "type": "string"
           },
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-ref": ["item"]
         },
         "hearts": {
           "anyOf": [
@@ -27,7 +28,8 @@
           "items": {
             "type": "string"
           },
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-ref": ["item"]
         },
         "minifig_bags": {
           "anyOf": [
@@ -71,7 +73,8 @@
         },
         "table": {
           "description": "Another table rolled too.",
-          "type": ["string", "null"]
+          "type": ["string", "null"],
+          "x-lmoxide-ref": ["loot"]
         }
       },
       "type": "object"
@@ -133,7 +136,8 @@
           "items": {
             "type": "string"
           },
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-ref": ["world"]
         }
       },
       "type": "object"
@@ -162,7 +166,8 @@
           "items": {
             "type": "string"
           },
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-ref": ["minifig"]
         }
       ],
       "description": "Minifigure parts or bags: from these minifigures, or from what the world drops."
@@ -183,7 +188,8 @@
           "type": "array"
         }
       ],
-      "description": "A number, or [min, max]"
+      "description": "A number, or [min, max]",
+      "x-lmoxide-unit": "range"
     },
     "Ratio": {
       "anyOf": [
@@ -195,7 +201,8 @@
           "type": "number"
         }
       ],
-      "description": "A share: \"20%\" or a fraction (0.2)"
+      "description": "A share: \"20%\" or a fraction (0.2)",
+      "x-lmoxide-unit": "ratio"
     },
     "Source": {
       "description": "Where a value came from, so guesses stay visible next to what live did.",
@@ -261,7 +268,8 @@
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
-      "type": ["string", "null"]
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["loot"]
     },
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
