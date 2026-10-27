@@ -1,0 +1,29 @@
+# Checks every push and pull request with lmoxide-content (from the lmoxide repository, private
+# for now: the LMOXIDE_READ_TOKEN secret is a fine-grained token that can read it).
+name: check
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: lmoxide
+        uses: actions/checkout@v4
+        with:
+          repository: LMOxide/lmoxide
+          token: ${{ secrets.LMOXIDE_READ_TOKEN }}
+          path: lmoxide
+      - name: this content, where lmoxide expects it
+        run: rm -rf lmoxide/content
+      - uses: actions/checkout@v4
+        with:
+          path: lmoxide/content
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: lmoxide
+      - name: check
+        working-directory: lmoxide
+        run: cargo run -q -p lmoxide-content -- check --warnings
+      - name: canonical form
+        working-directory: lmoxide
+        run: cargo run -q -p lmoxide-content -- fmt --check
