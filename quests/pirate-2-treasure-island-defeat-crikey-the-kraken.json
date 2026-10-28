@@ -1,0 +1,35 @@
+{
+  "id": "quest/pirate-2-treasure-island-defeat-crikey-the-kraken",
+  "name": "Defeat Crikey the Kraken",
+  "main": 61,
+  "hash": "BWVT",
+  "client_name": "[Pirate 2 - Treasure Island] Defeat Crikey the Kraken",
+  "kind": "area",
+  "world": "world/treasure-island",
+  "area": "area/4500/quest-boss",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 22,
+  "steps": [
+    {
+      "quest": 75,
+      "hash": "C4BW",
+      "goals": [
+        {
+          "goal": 113,
+          "hash": "2KRZ",
+          "text": "Defeat Crikey the Kraken",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Crikey the Kraken"],
+          "marker": {
+            "pos": [466.3, 96.3, 404.7],
+            "radius": 29.6
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

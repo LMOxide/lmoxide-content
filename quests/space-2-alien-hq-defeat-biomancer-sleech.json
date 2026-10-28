@@ -1,0 +1,38 @@
+{
+  "id": "quest/space-2-alien-hq-defeat-biomancer-sleech",
+  "name": "Defeat Biomancer Sleech",
+  "main": 89,
+  "hash": "AVZW",
+  "client_name": "[Space 2 - Alien HQ] Defeat Biomancer Sleech",
+  "kind": "area",
+  "world": "world/alien-command-center",
+  "area": "area/3500/quest-overlord",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 62,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 129,
+      "hash": "HPLO",
+      "goals": [
+        {
+          "goal": 170,
+          "hash": "QFX5",
+          "text": "Defeat Biomancer Sleech",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Biomancer Sleech"],
+          "marker": {
+            "pos": [159.9, 80.1, 244.0],
+            "radius": 20.7
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

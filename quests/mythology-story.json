@@ -1,0 +1,149 @@
+{
+  "id": "quest/mythology-story",
+  "name": "Mythology World",
+  "main": 17,
+  "hash": "QA06",
+  "client_name": "[Story Quest - Mythology] Mythology World",
+  "kind": "story",
+  "world": "world/mythology-mountains",
+  "rewards": [
+    [492220, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 25,
+      "hash": "U3FC",
+      "goals": [
+        {
+          "goal": 32,
+          "hash": "FY69",
+          "text": "Go to the Mythology Entrance",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 207,
+      "hash": "EBGH",
+      "goals": [
+        {
+          "goal": 250,
+          "hash": "PX18",
+          "text": "Travel to the LEGO Center",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 193,
+      "hash": "8FKB",
+      "goals": [
+        {
+          "goal": 236,
+          "hash": "FEYF",
+          "text": "Talk to Zeus in Mythology World",
+          "kind": "talk"
+        }
+      ]
+    },
+    {
+      "quest": 194,
+      "hash": "Z26P",
+      "goals": [
+        {
+          "goal": 237,
+          "hash": "0AHO",
+          "text": "Find someone to make you a toga",
+          "kind": "talk"
+        }
+      ]
+    },
+    {
+      "quest": 195,
+      "hash": "S7Y4",
+      "goals": [
+        {
+          "goal": 238,
+          "hash": "NMPE",
+          "text": "Find Medusa's Lair",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 196,
+      "hash": "A8EA",
+      "goals": [
+        {
+          "goal": 239,
+          "hash": "59MF",
+          "text": "Rescue Battle Goddess from Medusa's Lair",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 197,
+      "hash": "5SF2",
+      "goals": [
+        {
+          "goal": 240,
+          "hash": "R1KN",
+          "text": "Get the Key to the Underworld",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 198,
+      "hash": "I67G",
+      "goals": [
+        {
+          "goal": 241,
+          "hash": "3S33",
+          "text": "Pass through the Underworld Gate",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 199,
+      "hash": "LDS3",
+      "goals": [
+        {
+          "goal": 242,
+          "hash": "1DPQ",
+          "text": "Disrupt Hades' plan",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 200,
+      "hash": "AS2R",
+      "goals": [
+        {
+          "goal": 243,
+          "hash": "1QZA",
+          "text": "Go to the Armory",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 201,
+      "hash": "EQCY",
+      "goals": [
+        {
+          "goal": 244,
+          "hash": "KPE1",
+          "text": "Travel to the LEGO Center",
+          "kind": "locate"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "Story order not known (only the Pirate World's was in the capture): the client's order."
+}

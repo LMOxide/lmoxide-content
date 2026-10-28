@@ -1,0 +1,39 @@
+{
+  "id": "quest/pirate-2-treasure-island-take-control-of-the-beach",
+  "name": "Take control of the beach",
+  "main": 58,
+  "hash": "J7MZ",
+  "client_name": "[Pirate 2 - Treasure Island] Take control of the beach",
+  "kind": "area",
+  "world": "world/treasure-island",
+  "area": "area/4500/quest-nativebeach",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 20,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 72,
+      "hash": "ACXG",
+      "goals": [
+        {
+          "goal": 110,
+          "hash": "52EI",
+          "text": "Take control of the beach",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [113.7, 106.3, 114.0],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

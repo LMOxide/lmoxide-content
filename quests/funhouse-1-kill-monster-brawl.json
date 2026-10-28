@@ -1,0 +1,42 @@
+{
+  "id": "quest/funhouse-1-kill-monster-brawl",
+  "name": "Monster Brawl",
+  "main": 180,
+  "hash": "DCP2",
+  "client_name": "[Funhouse - 1 - Kill] Monster Brawl",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 144,
+  "steps": [
+    {
+      "quest": 291,
+      "hash": "VTZQ",
+      "goals": [
+        {
+          "goal": 343,
+          "hash": "EF5X",
+          "text": "Defeat enough enemies to unlock the next level",
+          "kind": "defeat",
+          "counts": "kills",
+          "count": 25
+        }
+      ]
+    },
+    {
+      "quest": 293,
+      "hash": "5OYL",
+      "goals": [
+        {
+          "goal": 346,
+          "hash": "V8B4",
+          "text": "Reach the exit before the timer runs out",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

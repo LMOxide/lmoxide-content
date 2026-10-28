@@ -1,0 +1,34 @@
+{
+  "id": "quest/space-2-pa-alien-crystal-station-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 167,
+  "hash": "TYJU",
+  "client_name": "[Space 2 - PA - Alien Crystal Station] Defeat the champion",
+  "kind": "area",
+  "world": "world/alien-crystal-station",
+  "area": "area/1612/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 133,
+  "steps": [
+    {
+      "quest": 267,
+      "hash": "RPNW",
+      "goals": [
+        {
+          "goal": 318,
+          "hash": "NB4I",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [235.0, 15.0, 240.9],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

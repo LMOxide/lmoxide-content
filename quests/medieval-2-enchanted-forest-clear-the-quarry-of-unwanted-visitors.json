@@ -1,0 +1,39 @@
+{
+  "id": "quest/medieval-2-enchanted-forest-clear-the-quarry-of-unwanted-visitors",
+  "name": "Clear the Quarry of unwanted visitors",
+  "main": 70,
+  "hash": "1M5F",
+  "client_name": "[Medieval 2 - Enchanted Forest] Clear the Quarry of unwanted visitors",
+  "kind": "area",
+  "world": "world/enchanted-forest",
+  "area": "area/5210/quest-quarry",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 53,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 105,
+      "hash": "GPW4",
+      "goals": [
+        {
+          "goal": 146,
+          "hash": "52DG",
+          "text": "Clear the Quarry of unwanted visitors",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [289.0, 42.1, 89.1],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

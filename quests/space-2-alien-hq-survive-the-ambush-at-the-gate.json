@@ -1,0 +1,39 @@
+{
+  "id": "quest/space-2-alien-hq-survive-the-ambush-at-the-gate",
+  "name": "Survive the ambush at the gate",
+  "main": 103,
+  "hash": "VEWJ",
+  "client_name": "[Space 2 - Alien HQ] Survive the ambush at the gate",
+  "kind": "area",
+  "world": "world/alien-command-center",
+  "area": "area/3500/quest-firstencounter",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 72,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 143,
+      "hash": "O9MY",
+      "goals": [
+        {
+          "goal": 184,
+          "hash": "3LUA",
+          "text": "Survive the ambush at the gate",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [83.9, 71.9, 208.3],
+            "radius": 20.7
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

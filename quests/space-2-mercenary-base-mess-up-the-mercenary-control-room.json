@@ -1,0 +1,35 @@
+{
+  "id": "quest/space-2-mercenary-base-mess-up-the-mercenary-control-room",
+  "name": "Mess up the Mercenary Control Room",
+  "main": 104,
+  "hash": "P8IR",
+  "client_name": "[Space 2 - Mercenary Base] Mess up the Mercenary Control Room",
+  "kind": "area",
+  "world": "world/shadow-centurion-base",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 76,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 144,
+      "hash": "5ZYY",
+      "goals": [
+        {
+          "goal": 185,
+          "hash": "V4DZ",
+          "text": "Mess up the Mercenary Control Room",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

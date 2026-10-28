@@ -1,0 +1,33 @@
+{
+  "id": "quest/dino-1-gauntlet-find-a-way-to-open-the-door",
+  "name": "Find a way to open the door",
+  "main": 129,
+  "hash": "55YK",
+  "client_name": "[Dino 1 - Gauntlet] Find a way to open the door",
+  "kind": "area",
+  "world": "world/gauntlet",
+  "area": "area/6300/quest-mirrorroom",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 100,
+  "steps": [
+    {
+      "quest": 223,
+      "hash": "M8V2",
+      "goals": [
+        {
+          "goal": 266,
+          "hash": "7UHN",
+          "text": "Find a way to open the door",
+          "kind": "trigger",
+          "marker": {
+            "pos": [155.8, 46.2, 173.2],
+            "radius": 16.2
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate", "todo"]
+}

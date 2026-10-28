@@ -116,6 +116,75 @@
         "exit": [370839]
       },
       "source": "client"
+    },
+    {
+      "id": "area/3300/quest-platform",
+      "name": "Quest_Platform",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [101.6, 87.57],
+            [128.18, 86.95],
+            [128.56, 114.82],
+            [103.02, 115.75]
+          ],
+          "heights": [28.146572, 38.146572]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3300/quest-quarters",
+      "name": "Quest_Quarters",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [151.2, 93.16],
+            [199.99, 90.28],
+            [192.07, 147.58],
+            [192.04, 169.08],
+            [149.48, 171.76]
+          ],
+          "heights": [20.806507, 30.806507]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3300/quest-garage",
+      "name": "Quest_Garage",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [234.88, 167.83],
+            [251.81, 167.34],
+            [253.53, 185.15],
+            [235.33, 184.69]
+          ],
+          "heights": [22.221401, 32.2214]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3300/quest-boss",
+      "name": "Quest_Boss",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [248.08, 215.53],
+            [266.83, 195.97],
+            [295.74, 223.92],
+            [274.57, 240.78]
+          ],
+          "heights": [32.302883, 42.302883]
+        }
+      },
+      "source": "client"
     }
   ]
 }

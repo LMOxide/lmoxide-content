@@ -1,0 +1,34 @@
+{
+  "id": "quest/myth-1-pa-abandoned-temple-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 171,
+  "hash": "QJK2",
+  "client_name": "[Myth 1 - PA - Abandoned Temple] Defeat the champion",
+  "kind": "area",
+  "world": "world/abandoned-temple",
+  "area": "area/1653/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 137,
+  "steps": [
+    {
+      "quest": 271,
+      "hash": "7R0T",
+      "goals": [
+        {
+          "goal": 322,
+          "hash": "FVCU",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [228.4, 6.4, 246.8],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

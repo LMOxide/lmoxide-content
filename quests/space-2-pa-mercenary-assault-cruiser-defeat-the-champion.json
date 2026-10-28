@@ -1,0 +1,34 @@
+{
+  "id": "quest/space-2-pa-mercenary-assault-cruiser-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 168,
+  "hash": "YCTY",
+  "client_name": "[Space 2 - PA - Mercenary Assault Cruiser] Defeat the champion",
+  "kind": "area",
+  "world": "world/mercenary-assault-cruiser",
+  "area": "area/1622/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 134,
+  "steps": [
+    {
+      "quest": 268,
+      "hash": "JNOO",
+      "goals": [
+        {
+          "goal": 319,
+          "hash": "UFMG",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [286.5, 32.5, 141.6],
+            "radius": 56.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

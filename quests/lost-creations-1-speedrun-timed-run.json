@@ -1,0 +1,28 @@
+{
+  "id": "quest/lost-creations-1-speedrun-timed-run",
+  "name": "Timed Run",
+  "main": 136,
+  "hash": "PJA5",
+  "client_name": "[Lost Creations - 1 - Speedrun] Timed Run",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 106,
+  "steps": [
+    {
+      "quest": 230,
+      "hash": "5BWO",
+      "goals": [
+        {
+          "goal": 274,
+          "hash": "N2ZX",
+          "text": "Reach the end before the timer runs out",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

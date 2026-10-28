@@ -1,0 +1,39 @@
+{
+  "id": "quest/medieval-1-ruined-fort-smash-up-the-armory",
+  "name": "Smash up the Armory",
+  "main": 79,
+  "hash": "KIV6",
+  "client_name": "[Medieval 1 - Ruined Fort] Smash up the Armory",
+  "kind": "area",
+  "world": "world/ruined-fort",
+  "area": "area/5300/quest-armoury",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 47,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 99,
+      "hash": "RXJH",
+      "goals": [
+        {
+          "goal": 140,
+          "hash": "KYTZ",
+          "text": "Smash up the Armory",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [247.1, 42.9, 246.2],
+            "radius": 42.5
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "quest/tutorial-clear-the-pirate-presence-from-the-area",
+  "name": "Clear the Pirate presence from the area",
+  "main": 47,
+  "hash": "SHY5",
+  "client_name": "[Tutorial] Clear the Pirate presence from the area",
+  "kind": "area",
+  "world": "world/tutorial",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "steps": [
+    {
+      "quest": 61,
+      "hash": "ZICU",
+      "task": "Destroy the color drains and their guards",
+      "goals": [
+        {
+          "goal": 99,
+          "hash": "V0LU",
+          "text": "Smash the ghostly pirates!",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

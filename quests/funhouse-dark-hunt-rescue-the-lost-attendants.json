@@ -1,0 +1,42 @@
+{
+  "id": "quest/funhouse-dark-hunt-rescue-the-lost-attendants",
+  "name": "Rescue the lost attendants",
+  "main": 185,
+  "hash": "O4VB",
+  "client_name": "[Funhouse - Dark Hunt] Rescue the lost attendants",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "steps": [
+    {
+      "quest": 301,
+      "hash": "11M7",
+      "goals": [
+        {
+          "goal": 354,
+          "hash": "EKM5",
+          "text": "Rescue the lost test subjects",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "quest": 302,
+      "hash": "PFTT",
+      "goals": [
+        {
+          "goal": 355,
+          "hash": "9HWF",
+          "text": "Reach the exit before the timer runs out",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

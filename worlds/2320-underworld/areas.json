@@ -550,6 +550,25 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/2320/quest-witches",
+      "name": "Quest_Witches",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [98.82, 243.73],
+            [90.0, 241.93],
+            [97.29, 220.62],
+            [125.74, 218.55],
+            [121.84, 248.45],
+            [110.58, 246.14]
+          ],
+          "heights": [62.90249, 72.90249]
+        }
+      },
+      "source": "client"
     }
   ]
 }

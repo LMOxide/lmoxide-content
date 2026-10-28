@@ -1,0 +1,35 @@
+{
+  "id": "quest/holiday-winter-2014-defeat-the-crunch",
+  "name": "Defeat the Crunch",
+  "main": 176,
+  "hash": "ZH5M",
+  "client_name": "[Holiday Winter 2014] Defeat the Crunch",
+  "kind": "area",
+  "world": "world/winter-pass",
+  "area": "area/1410/quest-crunch",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 142,
+  "steps": [
+    {
+      "quest": 276,
+      "hash": "8SQJ",
+      "goals": [
+        {
+          "goal": 327,
+          "hash": "TA51",
+          "text": "Defeat the Crunch",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Crunch"],
+          "marker": {
+            "pos": [324.7, 93.7, 155.3],
+            "radius": 19.7
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

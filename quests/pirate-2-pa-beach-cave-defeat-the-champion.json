@@ -1,0 +1,37 @@
+{
+  "id": "quest/pirate-2-pa-beach-cave-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 149,
+  "hash": "DLFJ",
+  "client_name": "[Pirate 2 - PA - Beach Cave] Defeat the champion",
+  "kind": "area",
+  "world": "world/beach-cave",
+  "area": "area/1642/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 115,
+  "rewards": [
+    [584677, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 249,
+      "hash": "QWJ9",
+      "goals": [
+        {
+          "goal": 300,
+          "hash": "WDR8",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [285.0, 15.0, 257.1],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

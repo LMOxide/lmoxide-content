@@ -1,0 +1,39 @@
+{
+  "id": "quest/dino-1-outdoor-collect-airplane-parts-within-the-swamp",
+  "name": "Collect airplane parts within the Swamp",
+  "main": 123,
+  "hash": "671P",
+  "client_name": "[Dino 1 - Outdoor] Collect airplane parts within the Swamp",
+  "kind": "area",
+  "world": "world/dinosaur-rise",
+  "area": "area/6200/quest-swamp",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 93,
+  "rewards": [
+    [525783, 30046],
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 216,
+      "hash": "29ZU",
+      "goals": [
+        {
+          "goal": 259,
+          "hash": "N4OY",
+          "text": "Collect airplane parts within the Swamp",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [139.0, 61.0, 111.0],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "live"
+}

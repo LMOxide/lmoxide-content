@@ -1,0 +1,34 @@
+{
+  "id": "quest/myth-1-pa-ancient-ruins-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 172,
+  "hash": "G7UB",
+  "client_name": "[Myth 1 - PA - Ancient Ruins] Defeat the champion",
+  "kind": "area",
+  "world": "world/ancient-ruins",
+  "area": "area/1630/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 138,
+  "steps": [
+    {
+      "quest": 272,
+      "hash": "E6UN",
+      "goals": [
+        {
+          "goal": 323,
+          "hash": "7MQR",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [155.0, 56.5, 118.6],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

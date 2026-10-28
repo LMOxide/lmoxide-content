@@ -1,0 +1,37 @@
+{
+  "id": "quest/dino-1-outdoor-return-the-egg-to-the-nest",
+  "name": "Return the egg to the nest",
+  "main": 126,
+  "hash": "SHKE",
+  "client_name": "[Dino 1 - Outdoor] Return the egg to the nest",
+  "kind": "area",
+  "world": "world/dinosaur-rise",
+  "area": "area/6200/quest-tarpit",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 95,
+  "rewards": [
+    [526086, 30046],
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 218,
+      "hash": "H15P",
+      "goals": [
+        {
+          "goal": 261,
+          "hash": "HSZ6",
+          "text": "Return the egg to the nest",
+          "kind": "trigger",
+          "marker": {
+            "pos": [310.6, 71.7, 170.7],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate", "todo"]
+}

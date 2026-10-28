@@ -1,0 +1,40 @@
+{
+  "id": "quest/medieval-2-enchanted-forest-make-the-dark-forest-passage-safer",
+  "name": "Make the Dark Forest passage safer",
+  "main": 64,
+  "hash": "4DR4",
+  "client_name": "[Medieval 2 - Enchanted Forest] Make the Dark Forest passage safer",
+  "kind": "area",
+  "world": "world/enchanted-forest",
+  "area": "area/5210/quest-darkspiderforest",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 38,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 88,
+      "hash": "IJ1U",
+      "task": "Make the road to Grandmas Visitor safer",
+      "goals": [
+        {
+          "goal": 126,
+          "hash": "4TBE",
+          "text": "Make the Dark Forest passage safer",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [359.1, 43.2, 144.6],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

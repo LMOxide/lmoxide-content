@@ -1,0 +1,34 @@
+{
+  "id": "quest/medieval-1-pa-spiders-nest-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 154,
+  "hash": "X2V0",
+  "client_name": "[Medieval 1 - PA - Spiders Nest] Defeat the champion",
+  "kind": "area",
+  "world": "world/spider-s-nest",
+  "area": "area/5610/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 120,
+  "steps": [
+    {
+      "quest": 254,
+      "hash": "8EJR",
+      "goals": [
+        {
+          "goal": 305,
+          "hash": "O0E6",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [286.5, 15.0, 251.1],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

@@ -200,6 +200,82 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/5310/quest-courtyard",
+      "name": "Quest_Courtyard",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [184.25, 189.76],
+            [243.45, 189.76],
+            [243.41, 236.44],
+            [219.1, 238.29],
+            [219.4, 256.16],
+            [211.07, 256.09],
+            [211.11, 266.06],
+            [182.79, 264.33]
+          ],
+          "heights": [23.780697, 38.780697]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5310/quest-library",
+      "name": "Quest_Library",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [226.73, 315.14],
+            [242.86, 315.63],
+            [243.24, 319.32],
+            [250.55, 319.31],
+            [250.55, 311.94],
+            [259.5, 311.76],
+            [259.39, 338.39],
+            [227.97, 340.64]
+          ],
+          "heights": [40.289158, 50.289158]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5310/quest-secretlab",
+      "name": "Quest_SecretLab",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [201.48, 354.91],
+            [229.14, 354.98],
+            [229.15, 383.11],
+            [201.47, 383.03]
+          ],
+          "heights": [45.48294, 55.48294]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5310/quest-boss",
+      "name": "Quest_Boss",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [337.01, 339.77],
+            [355.77, 321.15],
+            [378.98, 343.89],
+            [359.39, 364.28]
+          ],
+          "heights": [58.100883, 68.10088]
+        }
+      },
+      "source": "client"
     }
   ]
 }

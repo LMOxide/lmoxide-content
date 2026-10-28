@@ -1,0 +1,39 @@
+{
+  "id": "quest/space-1-space-colony-fight-the-shadow-centurion-takeover",
+  "name": "Fight the Shadow Centurion takeover",
+  "main": 93,
+  "hash": "RI5Z",
+  "client_name": "[Space 1 - Space Colony] Fight the Shadow Centurion takeover",
+  "kind": "area",
+  "world": "world/space-colony",
+  "area": "area/3200/quest-spacetown",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 66,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 133,
+      "hash": "J6SF",
+      "goals": [
+        {
+          "goal": 174,
+          "hash": "8Y3N",
+          "text": "Fight the Shadow Centurion takeover",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [406.9, 124.0, 459.3],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

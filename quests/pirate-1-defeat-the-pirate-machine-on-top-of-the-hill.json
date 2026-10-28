@@ -1,0 +1,35 @@
+{
+  "id": "quest/pirate-1-defeat-the-pirate-machine-on-top-of-the-hill",
+  "name": "Defeat the pirate machine on top of the hill",
+  "main": 44,
+  "hash": "LJV9",
+  "client_name": "[Pirate 1] Defeat the pirate machine on top of the hill",
+  "kind": "area",
+  "world": "world/isle-of-yarr",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 16,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 58,
+      "hash": "UQR3",
+      "goals": [
+        {
+          "goal": 96,
+          "hash": "Z837",
+          "text": "Defeat the pirate machine on top of the hill",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

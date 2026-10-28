@@ -1,0 +1,36 @@
+{
+  "id": "quest/dino-1-gauntlet-rebuild-the-statues",
+  "name": "Rebuild the statues",
+  "main": 128,
+  "hash": "Y71L",
+  "client_name": "[Dino 1 - Gauntlet] Rebuild the statues",
+  "kind": "area",
+  "world": "world/gauntlet",
+  "area": "area/6300/quest-tikiroom",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 102,
+  "steps": [
+    {
+      "quest": 225,
+      "hash": "7FKH",
+      "goals": [
+        {
+          "goal": 268,
+          "hash": "4ZUQ",
+          "text": "Rebuild the statues",
+          "kind": "trigger",
+          "counts": "builds",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [276.2, 44.2, 172.4],
+            "radius": 18.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

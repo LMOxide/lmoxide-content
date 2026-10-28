@@ -1,0 +1,32 @@
+{
+  "id": "quest/pirate-1-trials-loot-the-chests-before-their-timer-runs-out",
+  "name": "Loot the chests before their timer runs out",
+  "main": 34,
+  "hash": "FL1I",
+  "client_name": "[Pirate 1 - Trials] Loot the chests before their timer runs out",
+  "kind": "area",
+  "world": "world/pirate-trials",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 31,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 48,
+      "hash": "DA6Q",
+      "goals": [
+        {
+          "goal": 86,
+          "hash": "QMO3",
+          "text": "Loot the chests before their timer runs out",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

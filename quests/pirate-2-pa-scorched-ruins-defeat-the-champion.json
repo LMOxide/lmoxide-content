@@ -1,0 +1,37 @@
+{
+  "id": "quest/pirate-2-pa-scorched-ruins-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 152,
+  "hash": "PV3U",
+  "client_name": "[Pirate 2 - PA - Scorched Ruins] Defeat the champion",
+  "kind": "area",
+  "world": "world/scorched-ruins",
+  "area": "area/1672/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 118,
+  "rewards": [
+    [584677, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 252,
+      "hash": "5X9Z",
+      "goals": [
+        {
+          "goal": 303,
+          "hash": "EX51",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [243.4, 14.0, 273.1],
+            "radius": 55.2
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

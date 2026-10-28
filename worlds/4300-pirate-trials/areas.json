@@ -163,6 +163,128 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/4300/quest-cannonshooting1",
+      "name": "Quest_CannonShooting1",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [182.57, 214.03],
+            [226.6, 215.02],
+            [227.14, 244.2],
+            [184.2, 242.71]
+          ],
+          "heights": [32.069725, 42.069725]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4300/quest-cannondodge2",
+      "name": "Quest_CannonDodge2",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [144.05, 263.76],
+            [176.43, 266.53],
+            [193.05, 282.49],
+            [191.18, 291.44],
+            [139.38, 292.89],
+            [139.41, 280.47]
+          ],
+          "heights": [32.167892, 42.167892]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4300/quest-solvecannondodge2",
+      "name": "Quest_SolveCannonDodge2",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [139.76, 282.23],
+            [140.46, 282.19],
+            [140.59, 291.82],
+            [139.67, 291.83]
+          ],
+          "heights": [38.40459, 48.40459]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4300/quest-whackpirate2",
+      "name": "Quest_WhackPirate2",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [119.45, 270.86],
+            [136.64, 270.33],
+            [139.09, 287.15],
+            [137.44, 302.36],
+            [118.83, 299.58]
+          ],
+          "heights": [37.206665, 47.206665]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4300/quest-cannontraining2",
+      "name": "Quest_CannonTraining2",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [63.42, 276.72],
+            [102.84, 279.04],
+            [104.04, 319.19],
+            [62.5, 321.21]
+          ],
+          "heights": [35.258137, 45.258137]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4300/quest-cannondodge1",
+      "name": "Quest_CannonDodge1",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [95.22, 183.5],
+            [147.89, 183.28],
+            [147.64, 192.43],
+            [94.75, 191.81]
+          ],
+          "heights": [29.999979, 39.999977]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4300/quest-solvecannondodge1",
+      "name": "Quest_SolveCannonDodge1",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [144.58, 183.51],
+            [145.29, 183.47],
+            [145.42, 193.1],
+            [144.5, 193.11]
+          ],
+          "heights": [31.144531, 41.14453]
+        }
+      },
+      "source": "client"
     }
   ]
 }

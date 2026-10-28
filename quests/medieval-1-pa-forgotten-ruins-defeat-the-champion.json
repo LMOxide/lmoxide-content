@@ -1,0 +1,34 @@
+{
+  "id": "quest/medieval-1-pa-forgotten-ruins-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 155,
+  "hash": "M154",
+  "client_name": "[Medieval 1 - PA - Forgotten Ruins] Defeat the champion",
+  "kind": "area",
+  "world": "world/forgotten-ruins",
+  "area": "area/1652/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 121,
+  "steps": [
+    {
+      "quest": 255,
+      "hash": "RX3M",
+      "goals": [
+        {
+          "goal": 306,
+          "hash": "0060",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [228.4, 6.4, 246.8],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "quest/medieval-2-enchanted-forest-mountain-descent",
+  "name": "Mountain Descent",
+  "main": 68,
+  "hash": "YBG7",
+  "client_name": "[Medieval 2 - Enchanted Forest] Mountain Descent",
+  "kind": "area",
+  "world": "world/enchanted-forest",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 52,
+  "steps": [
+    {
+      "quest": 104,
+      "hash": "YMDA",
+      "goals": [
+        {
+          "goal": 145,
+          "hash": "YJTW",
+          "text": "Mountain Descent",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

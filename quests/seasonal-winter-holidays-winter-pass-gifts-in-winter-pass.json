@@ -1,0 +1,31 @@
+{
+  "id": "quest/seasonal-winter-holidays-winter-pass-gifts-in-winter-pass",
+  "name": "Gifts in Winter Pass",
+  "main": 175,
+  "hash": "PHXU",
+  "client_name": "[Seasonal - Winter Holidays - Winter Pass] Gifts in Winter Pass",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 141,
+  "steps": [
+    {
+      "quest": 275,
+      "hash": "CVM6",
+      "goals": [
+        {
+          "goal": 326,
+          "hash": "RWN1",
+          "text": "Collect Gifts in the Winter Pass",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

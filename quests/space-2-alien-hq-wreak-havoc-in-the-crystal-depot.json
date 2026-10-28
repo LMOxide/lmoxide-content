@@ -1,0 +1,39 @@
+{
+  "id": "quest/space-2-alien-hq-wreak-havoc-in-the-crystal-depot",
+  "name": "Wreak havoc in the Crystal Depot",
+  "main": 101,
+  "hash": "7YNG",
+  "client_name": "[Space 2 - Alien HQ] Wreak havoc in the Crystal Depot",
+  "kind": "area",
+  "world": "world/alien-command-center",
+  "area": "area/3500/quest-crystallab",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 73,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 141,
+      "hash": "C9VT",
+      "goals": [
+        {
+          "goal": 182,
+          "hash": "COUO",
+          "text": "Wreak havoc in the Crystal Depot",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [240.1, 77.2, 259.9],
+            "radius": 53.2
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

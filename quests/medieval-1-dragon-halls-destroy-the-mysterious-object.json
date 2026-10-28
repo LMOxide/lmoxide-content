@@ -1,0 +1,38 @@
+{
+  "id": "quest/medieval-1-dragon-halls-destroy-the-mysterious-object",
+  "name": "Destroy the Mysterious Object",
+  "main": 66,
+  "hash": "4BNH",
+  "client_name": "[Medieval 1 - Dragon Halls] Destroy the Mysterious Object",
+  "kind": "area",
+  "world": "world/dragon-halls",
+  "area": "area/5500/quest-ritual",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 40,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 90,
+      "hash": "RJFV",
+      "goals": [
+        {
+          "goal": 128,
+          "hash": "1Z66",
+          "text": "Destroy the Mysterious Object",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Mysterious Object"],
+          "marker": {
+            "pos": [211.2, 57.4, 224.2],
+            "radius": 17.3
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

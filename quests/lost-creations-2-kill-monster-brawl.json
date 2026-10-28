@@ -1,0 +1,43 @@
+{
+  "id": "quest/lost-creations-2-kill-monster-brawl",
+  "name": "Monster Brawl",
+  "main": 138,
+  "hash": "01TV",
+  "client_name": "[Lost Creations - 2 - Kill] Monster Brawl",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 107,
+  "steps": [
+    {
+      "quest": 232,
+      "hash": "3GAX",
+      "goals": [
+        {
+          "goal": 276,
+          "hash": "F2M1",
+          "text": "Defeat enough enemies to unlock the next level",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "quest": 239,
+      "hash": "HD8W",
+      "goals": [
+        {
+          "goal": 287,
+          "hash": "7T4U",
+          "text": "Reach the exit before the timer runs out",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

@@ -1,0 +1,34 @@
+{
+  "id": "quest/medieval-2-pa-infested-keep-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 159,
+  "hash": "F7FC",
+  "client_name": "[Medieval 2 - PA - Infested Keep] Defeat the champion",
+  "kind": "area",
+  "world": "world/infested-keep",
+  "area": "area/1674/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 125,
+  "steps": [
+    {
+      "quest": 259,
+      "hash": "O9F6",
+      "goals": [
+        {
+          "goal": 310,
+          "hash": "DZ60",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [243.4, 14.0, 273.1],
+            "radius": 55.2
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "quest/space-1-police-hq-beat-the-mercenary-forces",
+  "name": "Beat the Mercenary forces",
+  "main": 100,
+  "hash": "0L4P",
+  "client_name": "[Space 1 - Police HQ] Beat the Mercenary forces",
+  "kind": "area",
+  "world": "world/space-command-hq",
+  "area": "area/3300/quest-garage",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 70,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 140,
+      "hash": "R1X3",
+      "goals": [
+        {
+          "goal": 181,
+          "hash": "3OPK",
+          "text": "Beat the Mercenary forces",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [243.9, 22.2, 176.3],
+            "radius": 13.1
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

@@ -514,6 +514,57 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/3310/quest-research",
+      "name": "Quest_Research",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [204.26, 223.29],
+            [221.38, 223.55],
+            [220.52, 255.28],
+            [203.73, 254.93]
+          ],
+          "heights": [32.504795, 42.504795]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3310/quest-port",
+      "name": "Quest_Port",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [194.79, 184.87],
+            [220.48, 184.25],
+            [221.14, 217.62],
+            [194.22, 217.54]
+          ],
+          "heights": [37.64386, 47.64386]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3310/quest-boss",
+      "name": "Quest_Boss",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [353.12, 356.58],
+            [369.73, 375.53],
+            [353.29, 394.22],
+            [334.69, 374.66]
+          ],
+          "heights": [12.868721, 22.868721]
+        }
+      },
+      "source": "client"
     }
   ]
 }

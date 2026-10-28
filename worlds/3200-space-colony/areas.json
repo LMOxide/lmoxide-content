@@ -543,6 +543,101 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/3200/quest-colonists",
+      "name": "Quest_Colonists",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [145.77, 66.05],
+            [186.24, 63.65],
+            [193.18, -1.39],
+            [256.66, 0.34],
+            [258.71, 74.9],
+            [222.08, 127.37],
+            [129.23, 129.33]
+          ],
+          "heights": [92.34328, 102.34328]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3200/quest-biodome",
+      "name": "Quest_Biodome",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [454.13, 87.68],
+            [518.16, 88.24],
+            [521.91, 262.72],
+            [422.87, 264.67],
+            [423.68, 196.09]
+          ],
+          "heights": [114.120186, 124.120186]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3200/quest-crystalmine",
+      "name": "Quest_CrystalMine",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [162.01, 311.55],
+            [214.91, 312.78],
+            [307.17, 297.97],
+            [291.4, 433.73],
+            [144.08, 429.53]
+          ],
+          "heights": [116.98519, 126.98519]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3200/quest-spacetown",
+      "name": "Quest_SpaceTown",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [342.63, 409.2],
+            [468.41, 406.75],
+            [480.42, 508.99],
+            [336.14, 512.45]
+          ],
+          "heights": [123.95649, 133.95648]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3200/quest-mercs",
+      "name": "Quest_Mercs",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [267.46, 52.24],
+            [284.06, 53.31],
+            [289.03, 46.08],
+            [294.41, 20.98],
+            [334.13, 18.26],
+            [336.93, 48.21],
+            [368.09, 49.78],
+            [402.28, 165.19],
+            [204.41, 166.99]
+          ],
+          "heights": [109.29294, 119.29294]
+        }
+      },
+      "source": "client"
     }
   ]
 }

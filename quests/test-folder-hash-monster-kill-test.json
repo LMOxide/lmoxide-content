@@ -1,0 +1,24 @@
+{
+  "id": "quest/test-folder-hash-monster-kill-test",
+  "name": "folder hash monster kill test",
+  "main": 135,
+  "hash": "CSCC",
+  "client_name": "[test] folder hash monster kill test",
+  "kind": "test",
+  "cooldown_id": 105,
+  "steps": [
+    {
+      "quest": 229,
+      "hash": "XGAH",
+      "goals": [
+        {
+          "goal": 273,
+          "hash": "8LX2",
+          "text": "folder hash monster kill test",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

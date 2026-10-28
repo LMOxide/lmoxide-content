@@ -1,0 +1,39 @@
+{
+  "id": "quest/pirate-1-smash-the-wagons-and-supplies",
+  "name": "Smash the wagons and supplies",
+  "main": 39,
+  "hash": "0IYM",
+  "client_name": "[Pirate 1] Smash the wagons and supplies",
+  "kind": "area",
+  "world": "world/isle-of-yarr",
+  "area": "area/4200/quest-farm",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 13,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 53,
+      "hash": "LLFE",
+      "goals": [
+        {
+          "goal": 91,
+          "hash": "AD1M",
+          "text": "Smash the wagons and supplies",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [136.4, 65.3, 245.7],
+            "radius": 59.2
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

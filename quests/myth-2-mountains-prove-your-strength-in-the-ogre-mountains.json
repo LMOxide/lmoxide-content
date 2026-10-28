@@ -1,0 +1,40 @@
+{
+  "id": "quest/myth-2-mountains-prove-your-strength-in-the-ogre-mountains",
+  "name": "Prove your strength in the Ogre Mountains",
+  "main": 21,
+  "hash": "K4AK",
+  "client_name": "[Myth 2 - Mountains] Prove your strength in the Ogre Mountains",
+  "kind": "area",
+  "world": "world/mythology-mountains",
+  "area": "area/2210/quest-ogre-mountains",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 4,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 33,
+      "hash": "VEXW",
+      "task": "Destroy the war banners in the mountain",
+      "goals": [
+        {
+          "goal": 66,
+          "hash": "SC34",
+          "text": "Prove your strength in the Ogre Mountains",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [240.8, 39.9, 323.6],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

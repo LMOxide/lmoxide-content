@@ -1,0 +1,39 @@
+{
+  "id": "quest/medieval-2-enchanted-forest-fight-the-infestation-in-the-cursed-forest",
+  "name": "Fight the infestation in the Cursed Forest",
+  "main": 71,
+  "hash": "Q1D5",
+  "client_name": "[Medieval 2 - Enchanted Forest] Fight the infestation in the Cursed Forest",
+  "kind": "area",
+  "world": "world/enchanted-forest",
+  "area": "area/5210/quest-spiderforest",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 51,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 103,
+      "hash": "NPYZ",
+      "goals": [
+        {
+          "goal": 144,
+          "hash": "WTTF",
+          "text": "Fight the infestation in the Cursed Forest",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [219.1, 49.2, 187.6],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

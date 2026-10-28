@@ -1,0 +1,54 @@
+{
+  "id": "quest/test-snow-harpies-1",
+  "name": "Snow harpies 1",
+  "main": 23,
+  "hash": "491A",
+  "client_name": "[ test] Snow harpies 1",
+  "kind": "test",
+  "steps": [
+    {
+      "quest": 36,
+      "hash": "A37M",
+      "task": "kill harpies task 2",
+      "description": "this is the second task",
+      "goals": [
+        {
+          "goal": 69,
+          "hash": "8K6C",
+          "text": "kill harpies goal 4 task 2",
+          "kind": "trigger",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "quest": 35,
+      "hash": "26F8",
+      "task": "kill harpies task 1",
+      "description": "this is the first task",
+      "goals": [
+        {
+          "goal": 68,
+          "hash": "GBV9",
+          "text": "kill harpies goal 3 phase 2",
+          "kind": "trigger",
+          "count": 3
+        },
+        {
+          "goal": 70,
+          "hash": "4J65",
+          "text": "kill harpies goal 1 phase 1",
+          "kind": "trigger"
+        },
+        {
+          "goal": 71,
+          "hash": "VPCE",
+          "text": "kill harpies goal 2 phase 2",
+          "kind": "trigger",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

@@ -393,6 +393,75 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/4310/quest-lefthand",
+      "name": "Quest_LeftHand",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [349.01, 193.56],
+            [375.44, 193.55],
+            [380.13, 225.88],
+            [348.36, 228.95]
+          ],
+          "heights": [36.349495, 46.349495]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4310/quest-loadingbay",
+      "name": "Quest_LoadingBay",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [338.2, 258.49],
+            [388.78, 257.16],
+            [387.25, 296.41],
+            [338.41, 297.92]
+          ],
+          "heights": [49.47879, 59.47879]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4310/quest-prison",
+      "name": "Quest_Prison",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [311.1, 142.86],
+            [342.5, 143.33],
+            [341.68, 171.54],
+            [326.47, 176.59],
+            [311.7, 169.44]
+          ],
+          "heights": [57.79657, 67.79657]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4310/quest-boss",
+      "name": "Quest_Boss",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [348.67, 142.34],
+            [369.33, 119.17],
+            [410.65, 157.98],
+            [384.98, 179.87]
+          ],
+          "heights": [52.00969, 62.00969]
+        }
+      },
+      "source": "client"
     }
   ]
 }

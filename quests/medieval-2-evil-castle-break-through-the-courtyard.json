@@ -1,0 +1,39 @@
+{
+  "id": "quest/medieval-2-evil-castle-break-through-the-courtyard",
+  "name": "Break through the Courtyard",
+  "main": 83,
+  "hash": "IX0H",
+  "client_name": "[Medieval 2 - Evil Castle] Break through the Courtyard",
+  "kind": "area",
+  "world": "world/sorcerer-s-keep",
+  "area": "area/5310/quest-courtyard",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 57,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 109,
+      "hash": "SYHD",
+      "goals": [
+        {
+          "goal": 150,
+          "hash": "361P",
+          "text": "Break through the Courtyard",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [214.3, 23.8, 237.1],
+            "radius": 56.1
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

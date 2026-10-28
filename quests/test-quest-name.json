@@ -1,0 +1,74 @@
+{
+  "id": "quest/test-quest-name",
+  "name": "quest name",
+  "main": 24,
+  "hash": "PXU2",
+  "client_name": "[test] quest name",
+  "kind": "test",
+  "steps": [
+    {
+      "quest": 92,
+      "hash": "C743",
+      "task": "success task name",
+      "description": "success task desc",
+      "goals": [
+        {
+          "goal": 130,
+          "hash": "QK92",
+          "text": "success phase 1 goal name",
+          "kind": "trigger"
+        },
+        {
+          "goal": 133,
+          "hash": "R0E7",
+          "text": "success phase 2 goal name",
+          "kind": "trigger",
+          "count": 2
+        },
+        {
+          "goal": 134,
+          "hash": "CU3X",
+          "text": "success phase 3 goal name",
+          "kind": "trigger",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "quest": 93,
+      "hash": "SK9D",
+      "task": "fail task name",
+      "description": "fail task desc",
+      "goals": [
+        {
+          "goal": 131,
+          "hash": "EIAV",
+          "text": "fail goal name",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 37,
+      "hash": "UT2E",
+      "task": "task name",
+      "description": "task desc",
+      "goals": [
+        {
+          "goal": 72,
+          "hash": "O2Z6",
+          "text": "goal name 1",
+          "kind": "trigger"
+        },
+        {
+          "goal": 132,
+          "hash": "GLW5",
+          "text": "goal name 2",
+          "kind": "trigger",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

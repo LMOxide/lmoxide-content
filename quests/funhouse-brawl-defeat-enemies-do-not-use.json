@@ -1,0 +1,42 @@
+{
+  "id": "quest/funhouse-brawl-defeat-enemies-do-not-use",
+  "name": "Defeat enemies (do not use)",
+  "main": 182,
+  "hash": "BHKJ",
+  "client_name": "[Funhouse - Brawl] Defeat enemies (do not use)",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "steps": [
+    {
+      "quest": 296,
+      "hash": "ZWMF",
+      "goals": [
+        {
+          "goal": 349,
+          "hash": "NBPV",
+          "text": "Defeat enemies",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "quest": 297,
+      "hash": "ABQP",
+      "goals": [
+        {
+          "goal": 350,
+          "hash": "ATBA",
+          "text": "Reach the exit before the timer runs out",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

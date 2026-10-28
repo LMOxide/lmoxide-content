@@ -1,0 +1,39 @@
+{
+  "id": "quest/medieval-1-ruined-fort-cleanse-the-graveyard",
+  "name": "Cleanse the Graveyard",
+  "main": 80,
+  "hash": "78G1",
+  "client_name": "[Medieval 1 - Ruined Fort] Cleanse the Graveyard",
+  "kind": "area",
+  "world": "world/ruined-fort",
+  "area": "area/5300/quest-graveyard",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 49,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 101,
+      "hash": "PE0M",
+      "goals": [
+        {
+          "goal": 142,
+          "hash": "FMS1",
+          "text": "Cleanse the Graveyard",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [331.4, 41.8, 270.7],
+            "radius": 31.3
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

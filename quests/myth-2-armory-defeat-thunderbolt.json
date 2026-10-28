@@ -1,0 +1,38 @@
+{
+  "id": "quest/myth-2-armory-defeat-thunderbolt",
+  "name": "Defeat Thunderbolt",
+  "main": 120,
+  "hash": "Z8F7",
+  "client_name": "[Myth 2 - Armory] Defeat Thunderbolt",
+  "kind": "area",
+  "world": "world/armory",
+  "area": "area/2310/quest-boss",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 90,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 205,
+      "hash": "KPEK",
+      "goals": [
+        {
+          "goal": 248,
+          "hash": "G9F6",
+          "text": "Defeat Thunderbolt",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Thunderbolt"],
+          "marker": {
+            "pos": [321.2, 39.6, 425.8],
+            "radius": 19.4
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

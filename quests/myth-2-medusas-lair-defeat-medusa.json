@@ -1,0 +1,35 @@
+{
+  "id": "quest/myth-2-medusas-lair-defeat-medusa",
+  "name": "Defeat Medusa",
+  "main": 116,
+  "hash": "85H1",
+  "client_name": "[Myth 2 - Medusas Lair] Defeat Medusa",
+  "kind": "area",
+  "world": "world/medusa-s-lair",
+  "area": "area/2300/quest-medusa",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 104,
+  "steps": [
+    {
+      "quest": 191,
+      "hash": "E2HS",
+      "goals": [
+        {
+          "goal": 234,
+          "hash": "M4MD",
+          "text": "Defeat Medusa",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Medusa"],
+          "marker": {
+            "pos": [217.6, -0.0, 257.3],
+            "radius": 23.8
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "quest/space-1-police-hq-fend-off-the-invaders",
+  "name": "Fend off the invaders",
+  "main": 99,
+  "hash": "255X",
+  "client_name": "[Space 1 - Police HQ] Fend off the invaders",
+  "kind": "area",
+  "world": "world/space-command-hq",
+  "area": "area/3300/quest-platform",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 69,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 139,
+      "hash": "G6I0",
+      "goals": [
+        {
+          "goal": 180,
+          "hash": "UF3Q",
+          "text": "Fend off the invaders",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [115.3, 28.1, 101.3],
+            "radius": 19.4
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

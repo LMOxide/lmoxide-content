@@ -1,0 +1,36 @@
+{
+  "id": "quest/pirate-1-trials-run-safely-through-the-cannonball-course-2",
+  "name": "Run safely through the Cannonball course",
+  "main": 113,
+  "hash": "KE6G",
+  "client_name": "[Pirate 1 - Trials] Run safely through the Cannonball course",
+  "kind": "area",
+  "world": "world/pirate-trials",
+  "area": "area/4300/quest-cannondodge2",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 85,
+  "rewards": [
+    [421808, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 175,
+      "hash": "LLXE",
+      "goals": [
+        {
+          "goal": 218,
+          "hash": "8BAA",
+          "text": "Run safely through the Cannonball course",
+          "kind": "trigger",
+          "marker": {
+            "pos": [163.9, 32.2, 279.6],
+            "radius": 29.7
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate", "todo"]
+}

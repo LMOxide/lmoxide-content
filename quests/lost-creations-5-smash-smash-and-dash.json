@@ -1,0 +1,42 @@
+{
+  "id": "quest/lost-creations-5-smash-smash-and-dash",
+  "name": "Smash and Dash",
+  "main": 141,
+  "hash": "TRRD",
+  "client_name": "[Lost Creations - 5 - Smash] Smash and Dash",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "steps": [
+    {
+      "quest": 242,
+      "hash": "YEQQ",
+      "goals": [
+        {
+          "goal": 293,
+          "hash": "5IBT",
+          "text": "Reach the exit before the timer runs out",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 235,
+      "hash": "0OKC",
+      "goals": [
+        {
+          "goal": 279,
+          "hash": "OS84",
+          "text": "Smash enough smashies to unlock the next level",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

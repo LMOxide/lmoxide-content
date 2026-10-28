@@ -285,6 +285,23 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/2300/quest-medusa",
+      "name": "Quest_Medusa",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [201.82, 240.73],
+            [233.24, 240.6],
+            [234.29, 274.13],
+            [200.9, 273.61]
+          ],
+          "heights": [-0.000004, 9.999996]
+        }
+      },
+      "source": "client"
     }
   ]
 }

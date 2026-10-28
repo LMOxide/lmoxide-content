@@ -1,0 +1,35 @@
+{
+  "id": "quest/myth-2-forge-defeat-the-gorgon-zola",
+  "name": "Defeat the Gorgon Zola",
+  "main": 30,
+  "hash": "126R",
+  "client_name": "[Myth 2 - Forge] Defeat the Gorgon Zola",
+  "kind": "area",
+  "world": "world/mythology-mountains",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 10,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 43,
+      "hash": "HU5E",
+      "task": "Defeat Slither, the Gorgon Mistress",
+      "goals": [
+        {
+          "goal": 78,
+          "hash": "HN5V",
+          "text": "Defeat the Gorgon Zola",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Gorgon Zola"]
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

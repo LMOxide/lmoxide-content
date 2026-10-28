@@ -1,0 +1,29 @@
+{
+  "id": "quest/wrath-of-the-cyclop",
+  "name": "Wrath of the Cyclop",
+  "main": 7,
+  "hash": "MY7O",
+  "client_name": "Wrath of the Cyclop",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "steps": [
+    {
+      "quest": 10,
+      "hash": "4PKK",
+      "task": "Seek and Destroy 5 Cyclop",
+      "description": "Fulfull the request of the Wise cyclop by eliminating 5 of his brethren.",
+      "goals": [
+        {
+          "goal": 10,
+          "hash": "X0AO",
+          "text": "DestroyCyclop Goal",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

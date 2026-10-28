@@ -1,0 +1,34 @@
+{
+  "id": "quest/space-2-pa-cave-of-the-exiled-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 165,
+  "hash": "OZAQ",
+  "client_name": "[Space 2 - PA - Cave of the Exiled] Defeat the champion",
+  "kind": "area",
+  "world": "world/cave-of-the-exiled",
+  "area": "area/1602/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 131,
+  "steps": [
+    {
+      "quest": 265,
+      "hash": "XSX9",
+      "goals": [
+        {
+          "goal": 316,
+          "hash": "RIDX",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [286.5, 15.0, 251.1],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

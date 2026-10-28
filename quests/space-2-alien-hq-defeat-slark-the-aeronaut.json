@@ -1,0 +1,38 @@
+{
+  "id": "quest/space-2-alien-hq-defeat-slark-the-aeronaut",
+  "name": "Defeat Slark, the Aeronaut",
+  "main": 102,
+  "hash": "4Q0H",
+  "client_name": "[Space 2 - Alien HQ] Defeat Slark, the Aeronaut",
+  "kind": "area",
+  "world": "world/alien-command-center",
+  "area": "area/3500/quest-ufo",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 74,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 142,
+      "hash": "ZNW8",
+      "goals": [
+        {
+          "goal": 183,
+          "hash": "EHH5",
+          "text": "Defeat Slark, the Aeronaut",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Slark"],
+          "marker": {
+            "pos": [326.3, 89.8, 244.0],
+            "radius": 17.3
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

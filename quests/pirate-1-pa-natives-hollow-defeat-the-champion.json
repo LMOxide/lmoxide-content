@@ -1,0 +1,36 @@
+{
+  "id": "quest/pirate-1-pa-natives-hollow-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 147,
+  "hash": "2NXR",
+  "client_name": "[Pirate 1 - PA - Natives Hollow] Defeat the champion",
+  "kind": "area",
+  "world": "world/natives-hollow",
+  "area": "area/1640/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 113,
+  "rewards": [
+    [584677, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 247,
+      "hash": "GZ2X",
+      "goals": [
+        {
+          "goal": 298,
+          "hash": "NANG",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [285.0, 15.0, 257.1],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "live"
+}

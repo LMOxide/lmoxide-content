@@ -1,0 +1,32 @@
+{
+  "id": "quest/pirate-1-defeat-guardsman-bob-and-escape-into-the-farmlands",
+  "name": "Defeat Guardsman Bob and escape into the farmlands",
+  "main": 46,
+  "hash": "ICXH",
+  "client_name": "[Pirate 1] Defeat Guardsman Bob and escape into the farmlands",
+  "kind": "area",
+  "world": "world/isle-of-yarr",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 18,
+  "steps": [
+    {
+      "quest": 60,
+      "hash": "JL1N",
+      "goals": [
+        {
+          "goal": 98,
+          "hash": "G6RR",
+          "text": "Defeat Guardsman Bob and escape into the farmlands",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

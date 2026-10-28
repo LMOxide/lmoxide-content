@@ -1,0 +1,39 @@
+{
+  "id": "quest/space-1-space-colony-sabotage-the-shadow-centurion-outpost",
+  "name": "Sabotage the Shadow Centurion outpost",
+  "main": 90,
+  "hash": "2PU2",
+  "client_name": "[Space 1 - Space Colony] Sabotage the Shadow Centurion outpost",
+  "kind": "area",
+  "world": "world/space-colony",
+  "area": "area/3200/quest-mercs",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 63,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 130,
+      "hash": "J0D1",
+      "goals": [
+        {
+          "goal": 171,
+          "hash": "DYFR",
+          "text": "Sabotage the Shadow Centurion outpost",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [309.0, 109.3, 69.0],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

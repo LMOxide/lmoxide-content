@@ -1,0 +1,39 @@
+{
+  "id": "quest/pirate-2-smash-your-way-through-the-pirate-camp",
+  "name": "Smash your way through the pirate camp",
+  "main": 50,
+  "hash": "V3O9",
+  "client_name": "[Pirate 2] Smash your way through the pirate camp",
+  "kind": "area",
+  "world": "world/volcano-island",
+  "area": "area/4210/quest-piratefort",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 37,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 64,
+      "hash": "80IZ",
+      "goals": [
+        {
+          "goal": 102,
+          "hash": "W0ST",
+          "text": "Smash your way through the pirate camp",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [178.7, 75.9, 206.2],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

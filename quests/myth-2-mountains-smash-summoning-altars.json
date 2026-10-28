@@ -1,0 +1,36 @@
+{
+  "id": "quest/myth-2-mountains-smash-summoning-altars",
+  "name": "Smash summoning altars",
+  "main": 20,
+  "hash": "Z01H",
+  "client_name": "[Myth 2 - Mountains] Smash summoning altars",
+  "kind": "area",
+  "world": "world/mythology-mountains",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 2,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 32,
+      "hash": "ZWV1",
+      "task": "Stop the ritual by destroying the Evil Altars",
+      "goals": [
+        {
+          "goal": 65,
+          "hash": "JQMR",
+          "text": "Smash summoning altars",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

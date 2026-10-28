@@ -1,0 +1,27 @@
+{
+  "id": "quest/lost-creations-1-speedrun-outdated-volcano",
+  "name": "OUTDATED Volcano",
+  "main": 137,
+  "hash": "0IB0",
+  "client_name": "[Lost Creations - 1 - Speedrun] OUTDATED Volcano",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "steps": [
+    {
+      "quest": 231,
+      "hash": "FJ76",
+      "goals": [
+        {
+          "goal": 275,
+          "hash": "BE5W",
+          "text": "Reach the end before the timer runs out",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

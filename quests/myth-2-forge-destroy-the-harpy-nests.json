@@ -1,0 +1,39 @@
+{
+  "id": "quest/myth-2-forge-destroy-the-harpy-nests",
+  "name": "Destroy the harpy nests",
+  "main": 25,
+  "hash": "KHJ8",
+  "client_name": "[Myth 2 - Forge] Destroy the harpy nests",
+  "kind": "area",
+  "world": "world/mythology-mountains",
+  "area": "area/2210/quest-harpy",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 8,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 38,
+      "hash": "4W8F",
+      "goals": [
+        {
+          "goal": 73,
+          "hash": "8W5B",
+          "text": "Destroy the harpy nests",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [54.6, 44.3, 441.7],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

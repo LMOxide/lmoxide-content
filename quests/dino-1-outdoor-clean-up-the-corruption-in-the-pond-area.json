@@ -1,0 +1,40 @@
+{
+  "id": "quest/dino-1-outdoor-clean-up-the-corruption-in-the-pond-area",
+  "name": "Clean up the corruption in the Pond area",
+  "main": 125,
+  "hash": "1F8L",
+  "client_name": "[Dino 1 - Outdoor] Clean up the corruption in the Pond area",
+  "kind": "area",
+  "world": "world/dinosaur-rise",
+  "area": "area/6200/quest-pond",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 92,
+  "rewards": [
+    [526084, 30046],
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 215,
+      "hash": "75KK",
+      "goals": [
+        {
+          "goal": 258,
+          "hash": "ZT5O",
+          "text": "Clean up the corruption in the Pond area",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [229.6, 35.8, 67.3],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

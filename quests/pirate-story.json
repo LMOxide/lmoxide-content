@@ -1,0 +1,303 @@
+{
+  "id": "quest/pirate-story",
+  "name": "Pirate World",
+  "main": 45,
+  "hash": "I2FR",
+  "client_name": "[Story Quest - Pirate] Pirate World",
+  "kind": "story",
+  "world": "world/isle-of-yarr",
+  "rewards": [
+    [462486, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 279,
+      "hash": "S1M7",
+      "goals": [
+        {
+          "goal": 330,
+          "hash": "YMQL",
+          "text": "Follow the Video Game Guy",
+          "kind": "defeat"
+        }
+      ]
+    },
+    {
+      "quest": 78,
+      "hash": "WPZW",
+      "goals": [
+        {
+          "goal": 116,
+          "hash": "OOPN",
+          "text": "Travel to the Pirate World",
+          "kind": "locate",
+          "marker": {
+            "pos": [63.5, 70.9, 15.5],
+            "radius": 5.0
+          }
+        }
+      ]
+    },
+    {
+      "quest": 186,
+      "hash": "JDIM",
+      "goals": [
+        {
+          "goal": 229,
+          "hash": "X7OF",
+          "text": "Follow the arrow in your minimap",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 79,
+      "hash": "B00R",
+      "goals": [
+        {
+          "goal": 117,
+          "hash": "0JSA",
+          "text": "Build a cannon to smash the wall",
+          "kind": "locate",
+          "marker": {
+            "pos": [140.4, 64.0, 107.5],
+            "radius": 10.0
+          }
+        }
+      ]
+    },
+    {
+      "quest": 185,
+      "hash": "MJ0R",
+      "goals": [
+        {
+          "goal": 228,
+          "hash": "9AQ4",
+          "text": "Talk to Swashbuckler",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 177,
+      "hash": "X2DM",
+      "goals": [
+        {
+          "goal": 220,
+          "hash": "E5D8",
+          "text": "Smash down the wall",
+          "kind": "destroy",
+          "marker": {
+            "pos": [230.6, 16.0, 258.0],
+            "radius": 5.0
+          }
+        }
+      ]
+    },
+    {
+      "quest": 80,
+      "hash": "AWD5",
+      "goals": [
+        {
+          "goal": 118,
+          "hash": "ALPQ",
+          "text": "Escape from the Prison",
+          "kind": "trigger",
+          "marker": {
+            "pos": [176.8, 74.6, 398.3],
+            "radius": 5.0
+          }
+        }
+      ]
+    },
+    {
+      "quest": 178,
+      "hash": "G09Z",
+      "goals": [
+        {
+          "goal": 221,
+          "hash": "FBRB",
+          "text": "Recruit Island Warrior at the Monkey Cave",
+          "kind": "trigger",
+          "marker": {
+            "pos": [329.0, 18.6, 273.9],
+            "radius": 10.0
+          }
+        }
+      ]
+    },
+    {
+      "quest": 281,
+      "hash": "5T0Y",
+      "goals": [
+        {
+          "goal": 332,
+          "hash": "0JSC",
+          "text": "Rescue Revolutionary Soldier from the Dragoon Dwelling",
+          "kind": "trigger",
+          "marker": {
+            "pos": [140.4, 64.0, 107.5],
+            "radius": 10.0
+          }
+        }
+      ]
+    },
+    {
+      "quest": 282,
+      "hash": "ECC1",
+      "goals": [
+        {
+          "goal": 333,
+          "hash": "CFBT",
+          "text": "Recruit a third member of the crew",
+          "kind": "talk"
+        }
+      ]
+    },
+    {
+      "quest": 286,
+      "hash": "3AWU",
+      "goals": [
+        {
+          "goal": 337,
+          "hash": "H1DR",
+          "text": "Sneak into the Jacket Fort",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 287,
+      "hash": "05R7",
+      "goals": [
+        {
+          "goal": 338,
+          "hash": "AKJH",
+          "text": "Investigate the Jacket Fort",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 280,
+      "hash": "M6UQ",
+      "goals": [
+        {
+          "goal": 331,
+          "hash": "K0TT",
+          "text": "Travel through the Jungle",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 81,
+      "hash": "UR9U",
+      "goals": [
+        {
+          "goal": 119,
+          "hash": "KSKL",
+          "text": "Reach the Pirate Town",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 179,
+      "hash": "1NIZ",
+      "goals": [
+        {
+          "goal": 222,
+          "hash": "ATSN",
+          "text": "Find Captain Pete in the Tavern",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 82,
+      "hash": "2ED7",
+      "goals": [
+        {
+          "goal": 120,
+          "hash": "Y0U7",
+          "text": "Complete the Pirate Trials",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 85,
+      "hash": "093Q",
+      "goals": [
+        {
+          "goal": 123,
+          "hash": "NER2",
+          "text": "Sail to Volcano Island",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 183,
+      "hash": "ZHKB",
+      "goals": [
+        {
+          "goal": 226,
+          "hash": "5YHB",
+          "text": "Explore the island to find Captain Dreadleg",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 181,
+      "hash": "3X4P",
+      "goals": [
+        {
+          "goal": 224,
+          "hash": "VBVF",
+          "text": "Find a passage through the Volcano",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 83,
+      "hash": "KGLG",
+      "goals": [
+        {
+          "goal": 121,
+          "hash": "9HSH",
+          "text": "Find Captain Dreadleg's hideout",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 86,
+      "hash": "M29O",
+      "goals": [
+        {
+          "goal": 124,
+          "hash": "WZ4U",
+          "text": "Find and face Captain Dreadleg",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 87,
+      "hash": "KI3X",
+      "goals": [
+        {
+          "goal": 125,
+          "hash": "PM25",
+          "text": "Travel to the LEGO Center",
+          "kind": "locate"
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

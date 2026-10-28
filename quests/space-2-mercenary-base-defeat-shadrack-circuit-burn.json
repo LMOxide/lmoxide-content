@@ -1,0 +1,38 @@
+{
+  "id": "quest/space-2-mercenary-base-defeat-shadrack-circuit-burn",
+  "name": "Defeat Shadrack Circuit-burn",
+  "main": 106,
+  "hash": "55HB",
+  "client_name": "[Space 2 - Mercenary Base] Defeat Shadrack Circuit-burn",
+  "kind": "area",
+  "world": "world/shadow-centurion-base",
+  "area": "area/3310/quest-research",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 78,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 146,
+      "hash": "CW46",
+      "goals": [
+        {
+          "goal": 187,
+          "hash": "BTTX",
+          "text": "Defeat Shadrack Circuit-burn",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Shadrack Circuit-burn"],
+          "marker": {
+            "pos": [212.5, 32.5, 239.3],
+            "radius": 18.1
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

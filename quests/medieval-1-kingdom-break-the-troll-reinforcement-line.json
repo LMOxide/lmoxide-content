@@ -1,0 +1,39 @@
+{
+  "id": "quest/medieval-1-kingdom-break-the-troll-reinforcement-line",
+  "name": "Break the Troll reinforcement line",
+  "main": 75,
+  "hash": "NP6J",
+  "client_name": "[Medieval 1 - Kingdom] Break the Troll reinforcement line",
+  "kind": "area",
+  "world": "world/kingdom",
+  "area": "area/5200/quest-trollcamp",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 46,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 98,
+      "hash": "WAJ3",
+      "goals": [
+        {
+          "goal": 139,
+          "hash": "8071",
+          "text": "Break the Troll reinforcement line",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [386.9, 15.6, 42.8],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

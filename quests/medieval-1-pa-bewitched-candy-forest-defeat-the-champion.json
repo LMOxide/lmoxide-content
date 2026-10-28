@@ -1,0 +1,34 @@
+{
+  "id": "quest/medieval-1-pa-bewitched-candy-forest-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 156,
+  "hash": "T2LM",
+  "client_name": "[Medieval 1 - PA - Bewitched Candy Forest] Defeat the champion",
+  "kind": "area",
+  "world": "world/bewitched-candy-forest",
+  "area": "area/1682/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 122,
+  "steps": [
+    {
+      "quest": 256,
+      "hash": "0I3Y",
+      "goals": [
+        {
+          "goal": 307,
+          "hash": "JKVH",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [243.4, 14.0, 273.1],
+            "radius": 55.2
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

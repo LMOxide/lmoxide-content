@@ -1,0 +1,39 @@
+{
+  "id": "quest/space-1-space-colony-collect-dna-samples-within-the-biosquares",
+  "name": "Collect DNA samples within the Biosquares",
+  "main": 91,
+  "hash": "6Z0W",
+  "client_name": "[Space 1 - Space Colony] Collect DNA samples within the Biosquares",
+  "kind": "area",
+  "world": "world/space-colony",
+  "area": "area/3200/quest-biodome",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 64,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 131,
+      "hash": "JNET",
+      "goals": [
+        {
+          "goal": 172,
+          "hash": "GVQF",
+          "text": "Collect DNA samples within the Biosquares",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [468.1, 114.1, 179.9],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

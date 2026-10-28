@@ -1,0 +1,39 @@
+{
+  "id": "quest/pirate-2-stop-the-monkeys-menacing-the-beach",
+  "name": "Stop the Monkeys menacing the beach",
+  "main": 62,
+  "hash": "T8KB",
+  "client_name": "[Pirate 2] Stop the Monkeys menacing the beach",
+  "kind": "area",
+  "world": "world/volcano-island",
+  "area": "area/4210/quest-beach",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 26,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 77,
+      "hash": "RPTW",
+      "goals": [
+        {
+          "goal": 115,
+          "hash": "XLZ4",
+          "text": "Stop the Monkeys menacing the beach",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [89.3, 62.9, 77.1],
+            "radius": 59.8
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

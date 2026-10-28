@@ -1,0 +1,35 @@
+{
+  "id": "quest/medieval-2-evil-castle-defeat-the-dark-sorcerer",
+  "name": "Defeat the Dark Sorcerer",
+  "main": 82,
+  "hash": "RM6K",
+  "client_name": "[Medieval 2 - Evil Castle] Defeat the Dark Sorcerer",
+  "kind": "area",
+  "world": "world/sorcerer-s-keep",
+  "area": "area/5310/quest-boss",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 56,
+  "steps": [
+    {
+      "quest": 108,
+      "hash": "FPE8",
+      "goals": [
+        {
+          "goal": 149,
+          "hash": "FUBB",
+          "text": "Defeat the Dark Sorcerer",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Dark Sorcerer"],
+          "marker": {
+            "pos": [357.8, 58.1, 342.3],
+            "radius": 22.1
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

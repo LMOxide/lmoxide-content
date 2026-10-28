@@ -1,0 +1,37 @@
+{
+  "id": "quest/pirate-1-pa-dragoon-dwelling-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 145,
+  "hash": "S2Q5",
+  "client_name": "[Pirate 1 - PA - Dragoon Dwelling] Defeat the champion",
+  "kind": "area",
+  "world": "world/dragoon-dwelling",
+  "area": "area/1632/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 111,
+  "rewards": [
+    [584677, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 245,
+      "hash": "KIKS",
+      "goals": [
+        {
+          "goal": 296,
+          "hash": "T95R",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [155.0, 56.5, 118.6],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

@@ -35,6 +35,11 @@
           "const": "note",
           "description": "A world-editor note's area.",
           "type": "string"
+        },
+        {
+          "const": "quest",
+          "description": "An area quest's region (the client's `Quest_*` bounded areas).",
+          "type": "string"
         }
       ]
     },

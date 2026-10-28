@@ -1,0 +1,39 @@
+{
+  "id": "quest/pirate-2-grotto-free-the-captured-prisoners",
+  "name": "Free the captured prisoners",
+  "main": 55,
+  "hash": "PB6O",
+  "client_name": "[Pirate 2 - Grotto] Free the captured prisoners",
+  "kind": "area",
+  "world": "world/pirate-grotto",
+  "area": "area/4310/quest-prison",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 35,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 69,
+      "hash": "SDBV",
+      "goals": [
+        {
+          "goal": 107,
+          "hash": "A49R",
+          "text": "Free the captured prisoners",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [326.7, 57.8, 160.8],
+            "radius": 23.7
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

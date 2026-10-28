@@ -1,0 +1,21 @@
+{
+  "areas": [
+    {
+      "id": "area/1673/quest-micro",
+      "name": "Quest_Micro",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [197.57, 242.32],
+            [282.17, 240.08],
+            [282.5, 311.51],
+            [211.44, 298.51]
+          ],
+          "heights": [14.018192, 24.018192]
+        }
+      },
+      "source": "client"
+    }
+  ]
+}

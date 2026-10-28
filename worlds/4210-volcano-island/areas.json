@@ -153,6 +153,84 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/4210/quest-beach",
+      "name": "Quest_Beach",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [73.29, 65.16],
+            [77.52, 69.57],
+            [85.35, 71.61],
+            [96.63, 59.9],
+            [104.95, 44.28],
+            [120.85, 52.18],
+            [118.85, 78.43],
+            [105.34, 132.09],
+            [55.8, 126.6],
+            [54.31, 71.25]
+          ],
+          "heights": [62.921974, 72.921974]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4210/quest-native",
+      "name": "Quest_Native",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [198.73, 130.7],
+            [191.48, 96.17],
+            [189.93, 66.62],
+            [210.39, 56.12],
+            [267.17, 75.66],
+            [264.76, 113.69]
+          ],
+          "heights": [71.32559, 81.32559]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4210/quest-piratefort",
+      "name": "Quest_PirateFort",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [125.34, 222.42],
+            [129.07, 201.51],
+            [147.74, 172.58],
+            [265.37, 173.59],
+            [264.92, 231.54],
+            [139.7, 235.68]
+          ],
+          "heights": [75.94584, 85.94584]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4210/quest-scorchedcity",
+      "name": "Quest_ScorchedCity",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [410.23, 339.99],
+            [464.19, 336.0],
+            [475.52, 402.0],
+            [407.8, 400.65]
+          ],
+          "heights": [70.1221, 80.1221]
+        }
+      },
+      "source": "client"
     }
   ]
 }

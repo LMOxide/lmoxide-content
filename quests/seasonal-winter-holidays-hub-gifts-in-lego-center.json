@@ -1,0 +1,31 @@
+{
+  "id": "quest/seasonal-winter-holidays-hub-gifts-in-lego-center",
+  "name": "Gifts in LEGO Center",
+  "main": 173,
+  "hash": "BOXW",
+  "client_name": "[Seasonal - Winter Holidays - Hub] Gifts in LEGO Center",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 139,
+  "steps": [
+    {
+      "quest": 273,
+      "hash": "TYDO",
+      "goals": [
+        {
+          "goal": 324,
+          "hash": "XDJV",
+          "text": "Collect Gifts in the LEGO Center",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

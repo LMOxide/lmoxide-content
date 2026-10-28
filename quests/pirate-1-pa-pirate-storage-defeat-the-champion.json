@@ -1,0 +1,37 @@
+{
+  "id": "quest/pirate-1-pa-pirate-storage-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 148,
+  "hash": "OYE5",
+  "client_name": "[Pirate 1 - PA - Pirate Storage] Defeat the champion",
+  "kind": "area",
+  "world": "world/pirate-storage",
+  "area": "area/4630/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 114,
+  "rewards": [
+    [584677, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 248,
+      "hash": "HC23",
+      "goals": [
+        {
+          "goal": 299,
+          "hash": "9IRH",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [228.4, 6.4, 246.8],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

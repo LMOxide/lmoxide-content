@@ -1,0 +1,31 @@
+{
+  "id": "quest/seasonal-winter-holidays-isle-o-yarr-gifts-in-winterland-village",
+  "name": "Gifts in Winterland Village",
+  "main": 174,
+  "hash": "9QKE",
+  "client_name": "[Seasonal - Winter Holidays - Isle o Yarr] Gifts in Winterland Village",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 140,
+  "steps": [
+    {
+      "quest": 274,
+      "hash": "APOR",
+      "goals": [
+        {
+          "goal": 325,
+          "hash": "H0PI",
+          "text": "Collect Gifts in the Winterland Village",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

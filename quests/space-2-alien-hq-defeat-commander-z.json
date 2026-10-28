@@ -1,0 +1,35 @@
+{
+  "id": "quest/space-2-alien-hq-defeat-commander-z",
+  "name": "Defeat Commander Z",
+  "main": 110,
+  "hash": "TOQU",
+  "client_name": "[Space 2 - Alien HQ] Defeat Commander Z",
+  "kind": "area",
+  "world": "world/alien-command-center",
+  "area": "area/3500/quest-boss",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 81,
+  "steps": [
+    {
+      "quest": 168,
+      "hash": "EKM6",
+      "goals": [
+        {
+          "goal": 209,
+          "hash": "EGHI",
+          "text": "Defeat Commander Z",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Commander Z"],
+          "marker": {
+            "pos": [326.4, 109.5, 414.2],
+            "radius": 20.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

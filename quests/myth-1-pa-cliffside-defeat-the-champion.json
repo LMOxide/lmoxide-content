@@ -1,0 +1,34 @@
+{
+  "id": "quest/myth-1-pa-cliffside-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 169,
+  "hash": "MZQ9",
+  "client_name": "[Myth 1 - PA - Cliffside] Defeat the champion",
+  "kind": "area",
+  "world": "world/cliffside",
+  "area": "area/1690/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 135,
+  "steps": [
+    {
+      "quest": 269,
+      "hash": "OU34",
+      "goals": [
+        {
+          "goal": 320,
+          "hash": "SXZ4",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [349.8, 38.7, 147.1],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

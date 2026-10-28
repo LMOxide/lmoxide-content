@@ -1,0 +1,38 @@
+{
+  "id": "quest/pirate-2-grotto-defeat-skimpy-bob",
+  "name": "Defeat Skimpy Bob",
+  "main": 53,
+  "hash": "9SAG",
+  "client_name": "[Pirate 2 - Grotto] Defeat Skimpy Bob",
+  "kind": "area",
+  "world": "world/pirate-grotto",
+  "area": "area/4310/quest-lefthand",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 34,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 67,
+      "hash": "BZ7A",
+      "goals": [
+        {
+          "goal": 105,
+          "hash": "IH5I",
+          "text": "Defeat Skimpy Bob",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Skimpy Bob"],
+          "marker": {
+            "pos": [363.2, 36.3, 210.5],
+            "radius": 23.7
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

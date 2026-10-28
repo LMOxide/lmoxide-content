@@ -1,0 +1,35 @@
+{
+  "id": "quest/dino-1-gauntlet-defeat-t-rex",
+  "name": "Defeat T-Rex",
+  "main": 133,
+  "hash": "GKKF",
+  "client_name": "[Dino 1 - Gauntlet] Defeat T-Rex",
+  "kind": "area",
+  "world": "world/gauntlet",
+  "area": "area/6300/quest-bossroom",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 98,
+  "steps": [
+    {
+      "quest": 221,
+      "hash": "C7LG",
+      "goals": [
+        {
+          "goal": 264,
+          "hash": "RISD",
+          "text": "Defeat T-Rex",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["T-Rex"],
+          "marker": {
+            "pos": [467.7, 55.6, 228.8],
+            "radius": 19.3
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

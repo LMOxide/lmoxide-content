@@ -1,0 +1,36 @@
+{
+  "id": "quest/space-1-space-colony-reclaim-the-research-stations",
+  "name": "Reclaim the research stations",
+  "main": 109,
+  "hash": "OLUD",
+  "client_name": "[Space 1 - Space Colony] Reclaim the research stations",
+  "kind": "area",
+  "world": "world/space-colony",
+  "area": "area/3200/quest-colonists",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 82,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 167,
+      "hash": "0JWE",
+      "goals": [
+        {
+          "goal": 208,
+          "hash": "DXX1",
+          "text": "Reclaim the research stations",
+          "kind": "trigger",
+          "marker": {
+            "pos": [198.8, 92.3, 65.8],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate", "todo"]
+}

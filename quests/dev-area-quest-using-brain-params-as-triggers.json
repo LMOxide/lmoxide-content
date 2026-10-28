@@ -1,0 +1,23 @@
+{
+  "id": "quest/dev-area-quest-using-brain-params-as-triggers",
+  "name": "Area Quest using brain params as triggers",
+  "main": 143,
+  "hash": "B24B",
+  "client_name": "[DEV] Area Quest using brain params as triggers",
+  "kind": "test",
+  "steps": [
+    {
+      "quest": 243,
+      "hash": "EZBB",
+      "goals": [
+        {
+          "goal": 294,
+          "hash": "5047",
+          "text": "brain params please work",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

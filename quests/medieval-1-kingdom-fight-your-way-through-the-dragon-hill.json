@@ -1,0 +1,39 @@
+{
+  "id": "quest/medieval-1-kingdom-fight-your-way-through-the-dragon-hill",
+  "name": "Fight your way through the Dragon Hill",
+  "main": 74,
+  "hash": "VLBE",
+  "client_name": "[Medieval 1 - Kingdom] Fight your way through the Dragon Hill",
+  "kind": "area",
+  "world": "world/kingdom",
+  "area": "area/5200/quest-dragonhill",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 43,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 95,
+      "hash": "U4OX",
+      "goals": [
+        {
+          "goal": 136,
+          "hash": "DMFH",
+          "text": "Fight your way through the Dragon Hill",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [329.1, 27.7, 212.5],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

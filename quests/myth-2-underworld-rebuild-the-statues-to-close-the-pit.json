@@ -1,0 +1,36 @@
+{
+  "id": "quest/myth-2-underworld-rebuild-the-statues-to-close-the-pit",
+  "name": "Rebuild the statues to close the pit",
+  "main": 33,
+  "hash": "AH5L",
+  "client_name": "[Myth 2 - Underworld] Rebuild the statues to close the pit",
+  "kind": "area",
+  "world": "world/underworld",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 11,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 47,
+      "hash": "AC2D",
+      "task": "Rebuild the statues to their former glory",
+      "goals": [
+        {
+          "goal": 84,
+          "hash": "NUIQ",
+          "text": "Rebuild the statues to close the pit",
+          "kind": "trigger",
+          "counts": "builds",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

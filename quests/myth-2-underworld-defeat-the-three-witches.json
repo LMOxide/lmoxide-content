@@ -1,0 +1,36 @@
+{
+  "id": "quest/myth-2-underworld-defeat-the-three-witches",
+  "name": "Defeat the three Witches",
+  "main": 121,
+  "hash": "HRAT",
+  "client_name": "[Myth 2 - Underworld] Defeat the three Witches",
+  "kind": "area",
+  "world": "world/underworld",
+  "area": "area/2320/quest-witches",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 91,
+  "steps": [
+    {
+      "quest": 206,
+      "hash": "2BR3",
+      "goals": [
+        {
+          "goal": 249,
+          "hash": "I8E7",
+          "text": "Defeat the three Witches",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [107.4, 62.9, 236.6],
+            "radius": 25.7
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

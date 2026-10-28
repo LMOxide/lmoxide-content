@@ -1,0 +1,38 @@
+{
+  "id": "quest/pirate-1-free-the-pirate-prisoners",
+  "name": "Free the pirate prisoners",
+  "main": 41,
+  "hash": "W7Y4",
+  "client_name": "[Pirate 1] Free the pirate prisoners",
+  "kind": "area",
+  "world": "world/isle-of-yarr",
+  "area": "area/4200/quest-native",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 14,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 55,
+      "hash": "WML7",
+      "goals": [
+        {
+          "goal": 93,
+          "hash": "R02G",
+          "text": "Free the pirate prisoners",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 8,
+          "max": 100,
+          "marker": {
+            "pos": [176.8, 74.0, 398.3],
+            "radius": 20.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "live"
+}

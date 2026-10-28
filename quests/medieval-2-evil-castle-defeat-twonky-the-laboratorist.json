@@ -1,0 +1,38 @@
+{
+  "id": "quest/medieval-2-evil-castle-defeat-twonky-the-laboratorist",
+  "name": "Defeat Twonky, the Laboratorist",
+  "main": 88,
+  "hash": "6U4F",
+  "client_name": "[Medieval 2 - Evil Castle] Defeat Twonky, the Laboratorist",
+  "kind": "area",
+  "world": "world/sorcerer-s-keep",
+  "area": "area/5310/quest-secretlab",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 61,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 126,
+      "hash": "FVSN",
+      "goals": [
+        {
+          "goal": 167,
+          "hash": "WVOH",
+          "text": "Defeat Twonky, the Laboratorist",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Twonky"],
+          "marker": {
+            "pos": [215.3, 45.5, 369.0],
+            "radius": 19.8
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

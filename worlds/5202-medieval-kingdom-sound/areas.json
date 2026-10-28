@@ -24,6 +24,126 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/5202/quest-villageknight",
+      "name": "Quest_VillageKnight",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [88.35, 210.18],
+            [98.59, 210.01],
+            [98.95, 212.76],
+            [113.08, 212.27],
+            [113.11, 237.4],
+            [87.79, 239.01]
+          ],
+          "heights": [14.218193, 24.218193]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5202/quest-siege",
+      "name": "Quest_Siege",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [101.04, 55.83],
+            [138.75, 43.96],
+            [173.35, 81.02],
+            [171.58, 126.69],
+            [147.07, 127.61],
+            [140.48, 141.16],
+            [114.8, 142.23],
+            [108.4, 154.46],
+            [80.01, 155.96],
+            [65.19, 139.8],
+            [56.75, 95.26]
+          ],
+          "heights": [8.089897, 18.089897]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5202/quest-dragonhill",
+      "name": "Quest_DragonHill",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [311.87, 273.54],
+            [291.64, 181.78],
+            [304.09, 178.74],
+            [314.6, 183.21],
+            [376.09, 184.51],
+            [376.2, 272.94]
+          ],
+          "heights": [27.71299, 37.71299]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5202/quest-trollcamp",
+      "name": "Quest_TrollCamp",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [331.06, 0.7],
+            [437.46, -4.29],
+            [443.57, 26.6],
+            [403.34, 71.66],
+            [374.68, 76.96],
+            [324.17, 74.95]
+          ],
+          "heights": [15.553108, 25.553108]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5202/quest-candywitch",
+      "name": "Quest_CandyWitch",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [410.6, 103.43],
+            [423.2, 79.05],
+            [493.21, 79.4],
+            [509.75, 197.1],
+            [467.3, 177.37],
+            [390.6, 171.44],
+            [389.73, 108.09]
+          ],
+          "heights": [16.193218, 26.193218]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5202/quest-mountainclimb",
+      "name": "Quest_MountainClimb",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [463.47, 202.37],
+            [476.45, 180.9],
+            [507.24, 200.94],
+            [510.55, 331.82],
+            [443.21, 326.78],
+            [414.94, 243.04]
+          ],
+          "heights": [25.107796, 35.107796]
+        }
+      },
+      "source": "client"
     }
   ]
 }

@@ -1,0 +1,34 @@
+{
+  "id": "quest/medieval-2-pa-mysterious-crystal-cave-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 158,
+  "hash": "X1K7",
+  "client_name": "[Medieval 2 - PA - Mysterious Crystal Cave] Defeat the champion",
+  "kind": "area",
+  "world": "world/mysterious-crystal-cave",
+  "area": "area/5620/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 124,
+  "steps": [
+    {
+      "quest": 258,
+      "hash": "2GOX",
+      "goals": [
+        {
+          "goal": 309,
+          "hash": "QJ7K",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [235.0, 15.0, 240.9],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

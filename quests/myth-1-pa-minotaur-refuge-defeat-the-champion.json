@@ -1,0 +1,34 @@
+{
+  "id": "quest/myth-1-pa-minotaur-refuge-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 170,
+  "hash": "GZ3Z",
+  "client_name": "[Myth 1 - PA - Minotaur Refuge] Defeat the champion",
+  "kind": "area",
+  "world": "world/minotaur-refuge",
+  "area": "area/1675/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 136,
+  "steps": [
+    {
+      "quest": 270,
+      "hash": "V6UA",
+      "goals": [
+        {
+          "goal": 321,
+          "hash": "5ZU5",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [243.4, 14.0, 273.1],
+            "radius": 55.2
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

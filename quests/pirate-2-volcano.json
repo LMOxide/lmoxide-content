@@ -1,0 +1,32 @@
+{
+  "id": "quest/pirate-2-volcano",
+  "name": "Volcano",
+  "main": 51,
+  "hash": "4QM3",
+  "client_name": "[Pirate 2] Volcano",
+  "kind": "area",
+  "world": "world/volcano-island",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 27,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 65,
+      "hash": "URXM",
+      "goals": [
+        {
+          "goal": 103,
+          "hash": "HMNC",
+          "text": "Volcano",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

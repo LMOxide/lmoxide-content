@@ -1,0 +1,40 @@
+{
+  "id": "quest/dino-1-outdoor-gather-fire-embers-for-the-caveman",
+  "name": "Gather fire embers for the caveman",
+  "main": 124,
+  "hash": "HU4Y",
+  "client_name": "[Dino 1 - Outdoor] Gather fire embers for the caveman",
+  "kind": "area",
+  "world": "world/dinosaur-rise",
+  "area": "area/6200/quest-volcano",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 94,
+  "rewards": [
+    [526088, 30046],
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 217,
+      "hash": "4Z54",
+      "goals": [
+        {
+          "goal": 260,
+          "hash": "9OD7",
+          "text": "Gather fire embers for the Caveman",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [73.2, 68.6, 210.1],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

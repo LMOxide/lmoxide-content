@@ -1,0 +1,36 @@
+{
+  "id": "quest/space-1-police-hq-defeat-battle-bot-x-15",
+  "name": "Defeat Battle Bot X-15",
+  "main": 111,
+  "hash": "N9BJ",
+  "client_name": "[Space 1 - Police HQ] Defeat Battle Bot X-15",
+  "kind": "area",
+  "world": "world/space-command-hq",
+  "area": "area/3300/quest-boss",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 83,
+  "steps": [
+    {
+      "quest": 170,
+      "hash": "OVHZ",
+      "goals": [
+        {
+          "goal": 213,
+          "hash": "7CWT",
+          "text": "Defeat Battle Bot X-15",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 15,
+          "max": 100,
+          "marker": {
+            "pos": [271.3, 32.3, 219.1],
+            "radius": 24.9
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

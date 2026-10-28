@@ -1,0 +1,39 @@
+{
+  "id": "quest/medieval-2-enchanted-forest-help-grandma-collect-her-apples",
+  "name": "Help Grandma collect her Apples",
+  "main": 86,
+  "hash": "2AFF",
+  "client_name": "[Medieval 2 - Enchanted Forest] Help Grandma collect her Apples",
+  "kind": "area",
+  "world": "world/enchanted-forest",
+  "area": "area/5210/quest-redridinghood",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 59,
+  "rewards": [
+    [637115, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 122,
+      "hash": "QCLU",
+      "goals": [
+        {
+          "goal": 163,
+          "hash": "OVIT",
+          "text": "Help Grandma collect her Apples",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [201.1, 49.2, 91.9],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

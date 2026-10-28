@@ -1,0 +1,35 @@
+{
+  "id": "quest/space-2-mercenary-base-defeat-the-alien-queen",
+  "name": "Defeat the Alien Queen",
+  "main": 107,
+  "hash": "4JPE",
+  "client_name": "[Space 2 - Mercenary Base] Defeat the Alien Queen",
+  "kind": "area",
+  "world": "world/shadow-centurion-base",
+  "area": "area/3310/quest-boss",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 79,
+  "steps": [
+    {
+      "quest": 147,
+      "hash": "P36W",
+      "goals": [
+        {
+          "goal": 188,
+          "hash": "D8Z1",
+          "text": "Defeat the Alien Queen",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Alien Queen"],
+          "marker": {
+            "pos": [352.7, 12.9, 375.2],
+            "radius": 19.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

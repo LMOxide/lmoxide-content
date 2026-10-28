@@ -1,0 +1,39 @@
+{
+  "id": "quest/pirate-2-treasure-island-defeat-the-guardians-of-the-pirate-bay",
+  "name": "Defeat the guardians of the Pirate Bay",
+  "main": 60,
+  "hash": "CAR4",
+  "client_name": "[Pirate 2 - Treasure Island] Defeat the guardians of the Pirate Bay",
+  "kind": "area",
+  "world": "world/treasure-island",
+  "area": "area/4500/quest-piratebay",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 21,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 74,
+      "hash": "2JUG",
+      "goals": [
+        {
+          "goal": 112,
+          "hash": "00HW",
+          "text": "Defeat the guardians of the Pirate Bay",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [304.7, 107.8, 295.0],
+            "radius": 29.5
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

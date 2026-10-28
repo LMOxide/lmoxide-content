@@ -1,0 +1,22 @@
+{
+  "id": "quest/dev-quest-tester",
+  "name": "Quest Tester",
+  "main": 178,
+  "hash": "TDVU",
+  "client_name": "[DEV] Quest Tester",
+  "kind": "test",
+  "steps": [
+    {
+      "quest": 278,
+      "hash": "HU7J",
+      "goals": [
+        {
+          "goal": 329,
+          "hash": "ZDGJ",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

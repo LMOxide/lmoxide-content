@@ -1,0 +1,34 @@
+{
+  "id": "quest/pirate-1-trials-defeat-captain-pete-in-a-friendly-duel",
+  "name": "Defeat Captain Pete in a friendly duel",
+  "main": 38,
+  "hash": "P9R5",
+  "client_name": "[Pirate 1 - Trials] Defeat Captain Pete in a friendly duel",
+  "kind": "area",
+  "world": "world/pirate-trials",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 32,
+  "rewards": [
+    [246023, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 52,
+      "hash": "0V1B",
+      "goals": [
+        {
+          "goal": 90,
+          "hash": "HHE5",
+          "text": "Defeat Captain Pete in a friendly duel",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Captain Pete"]
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

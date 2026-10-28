@@ -1,0 +1,122 @@
+{
+  "id": "quest/dino-story",
+  "name": "Dino World",
+  "main": 122,
+  "hash": "7UIF",
+  "client_name": "[Story Quest - Dino] Dino World",
+  "kind": "story",
+  "world": "world/dinosaur-rise",
+  "steps": [
+    {
+      "quest": 227,
+      "hash": "4TYR",
+      "goals": [
+        {
+          "goal": 270,
+          "hash": "6BRI",
+          "text": "Take the plane to Dinosaur Rise",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 208,
+      "hash": "7MQX",
+      "goals": [
+        {
+          "goal": 251,
+          "hash": "3K9Q",
+          "text": "Travel to Dinosaur Rise",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 209,
+      "hash": "91RX",
+      "goals": [
+        {
+          "goal": 252,
+          "hash": "YPFX",
+          "text": "Complete the Pilot's task",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 210,
+      "hash": "PJM7",
+      "goals": [
+        {
+          "goal": 253,
+          "hash": "I8D5",
+          "text": "Find Dino Tracker at the Base Camp",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 211,
+      "hash": "0RJH",
+      "goals": [
+        {
+          "goal": 254,
+          "hash": "GBWD",
+          "text": "Gather elemental puzzle pieces",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 212,
+      "hash": "9BMX",
+      "goals": [
+        {
+          "goal": 255,
+          "hash": "80PZ",
+          "text": "Solve the \"puzzle\"",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 213,
+      "hash": "81HI",
+      "goals": [
+        {
+          "goal": 256,
+          "hash": "4A44",
+          "text": "Test your mettle inside the Gauntlet",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 214,
+      "hash": "UG23",
+      "goals": [
+        {
+          "goal": 257,
+          "hash": "HCUX",
+          "text": "Explore the Lost Creations",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 285,
+      "hash": "KAU3",
+      "goals": [
+        {
+          "goal": 336,
+          "hash": "ODCB",
+          "text": "Find Dino Tracker at the Base Camp",
+          "kind": "locate"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "Story order not known (only the Pirate World's was in the capture): the client's order."
+}

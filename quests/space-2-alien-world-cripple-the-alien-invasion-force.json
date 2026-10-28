@@ -1,0 +1,39 @@
+{
+  "id": "quest/space-2-alien-world-cripple-the-alien-invasion-force",
+  "name": "Cripple the Alien Invasion Force",
+  "main": 96,
+  "hash": "OAVU",
+  "client_name": "[Space 2 - Alien World] Cripple the Alien Invasion Force",
+  "kind": "area",
+  "world": "world/planet-s-dark-side",
+  "area": "area/3210/quest-alienbase",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 75,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 136,
+      "hash": "25JK",
+      "goals": [
+        {
+          "goal": 177,
+          "hash": "VEYR",
+          "text": "Cripple the Alien Invasion Force",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [398.2, 120.4, 462.7],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

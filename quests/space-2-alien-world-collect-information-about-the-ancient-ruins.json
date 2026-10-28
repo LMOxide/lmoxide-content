@@ -1,0 +1,39 @@
+{
+  "id": "quest/space-2-alien-world-collect-information-about-the-ancient-ruins",
+  "name": "Collect information about the Ancient Ruins",
+  "main": 95,
+  "hash": "1MC2",
+  "client_name": "[Space 2 - Alien World] Collect information about the Ancient Ruins",
+  "kind": "area",
+  "world": "world/planet-s-dark-side",
+  "area": "area/3210/quest-ruins",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 80,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 135,
+      "hash": "BND1",
+      "goals": [
+        {
+          "goal": 176,
+          "hash": "SL20",
+          "text": "Collect information about the Ancient Ruins",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [126.6, 496.1, 227.9],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

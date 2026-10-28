@@ -1,0 +1,40 @@
+{
+  "id": "quest/funhouse-cauldron-fill-up-the-cauldron",
+  "name": "Fill up the Cauldron",
+  "main": 181,
+  "hash": "KYSJ",
+  "client_name": "[Funhouse - Cauldron] Fill up the Cauldron",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 145,
+  "steps": [
+    {
+      "quest": 294,
+      "hash": "WZCD",
+      "goals": [
+        {
+          "goal": 347,
+          "hash": "P3H7",
+          "text": "Fill up the Cauldron",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 295,
+      "hash": "0GAW",
+      "goals": [
+        {
+          "goal": 348,
+          "hash": "X6I2",
+          "text": "Reach the exit before the timer runs out",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

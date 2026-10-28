@@ -153,6 +153,81 @@
         "exit": [319409]
       },
       "source": "client"
+    },
+    {
+      "id": "area/5300/quest-storage",
+      "name": "Quest_Storage",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [159.92, 175.52],
+            [185.48, 175.55],
+            [185.7, 200.25],
+            [158.42, 200.45]
+          ],
+          "heights": [36.516, 46.516]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5300/quest-armoury",
+      "name": "Quest_Armoury",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [224.44, 214.55],
+            [270.6, 210.82],
+            [268.3, 281.33],
+            [224.99, 278.08]
+          ],
+          "heights": [42.92379, 52.92379]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5300/quest-graveyard",
+      "name": "Quest_Graveyard",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [304.55, 256.28],
+            [328.6, 256.15],
+            [328.78, 263.02],
+            [337.08, 263.09],
+            [337.14, 256.2],
+            [344.39, 255.98],
+            [343.7, 279.44],
+            [339.73, 280.79],
+            [337.8, 285.2],
+            [338.05, 293.66],
+            [305.12, 287.81]
+          ],
+          "heights": [41.769505, 51.769505]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5300/quest-boss",
+      "name": "Quest_Boss",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [335.32, 296.21],
+            [361.2, 296.18],
+            [361.15, 320.25],
+            [335.51, 320.56]
+          ],
+          "heights": [48.628273, 58.628273]
+        }
+      },
+      "source": "client"
     }
   ]
 }

@@ -1,0 +1,46 @@
+{
+  "id": "quest/funhouse-object-hunt-defeat-the-three-champions",
+  "name": "Defeat the three champions",
+  "main": 184,
+  "hash": "4BDU",
+  "client_name": "[Funhouse - Object Hunt] Defeat the three champions",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "steps": [
+    {
+      "quest": 299,
+      "hash": "R3JH",
+      "goals": [
+        {
+          "goal": 352,
+          "hash": "0067",
+          "text": "Defeat the three champions",
+          "kind": "trigger",
+          "counts": "champions",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "quest": 300,
+      "hash": "LKVX",
+      "goals": [
+        {
+          "goal": 353,
+          "hash": "05G0",
+          "text": "Reach the exit before the timer runs out",
+          "kind": "trigger",
+          "marker": {
+            "pos": [140.1, 56.0, 321.4],
+            "radius": 1.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

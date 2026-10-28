@@ -1,0 +1,36 @@
+{
+  "id": "quest/pirate-1-pa-monkey-cave-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 144,
+  "hash": "WRR6",
+  "client_name": "[Pirate 1 - PA - Monkey Cave] Defeat the champion",
+  "kind": "area",
+  "world": "world/monkey-cave",
+  "area": "area/1643/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 110,
+  "rewards": [
+    [584677, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 244,
+      "hash": "GDKY",
+      "goals": [
+        {
+          "goal": 295,
+          "hash": "WTR3",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [285.0, 15.0, 257.1],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "live"
+}

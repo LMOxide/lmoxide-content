@@ -1,0 +1,57 @@
+{
+  "areas": [
+    {
+      "id": "area/30022/quest-areaquest",
+      "name": "Quest_AreaQuest",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [98.05, 140.83],
+            [103.64, 137.79],
+            [107.54, 138.91],
+            [114.27, 149.25],
+            [105.2, 156.71],
+            [97.03, 148.31]
+          ],
+          "heights": [5.806566, 15.806566]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/30022/quest-folderhash",
+      "name": "Quest_FolderHash",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [127.96, 87.67],
+            [160.37, 87.63],
+            [160.64, 120.58],
+            [127.98, 120.8]
+          ],
+          "heights": [5.190201, 15.190201]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/30022/quest-brainparams",
+      "name": "Quest_BrainParams",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [207.16, 8.58],
+            [239.16, 8.65],
+            [238.58, 40.17],
+            [207.34, 40.78]
+          ],
+          "heights": [5.598083, 15.598083]
+        }
+      },
+      "source": "client"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "id": "quest/dino-1-gauntlet-find-your-way-trough-the-maze",
+  "name": "Find your way trough the maze",
+  "main": 132,
+  "hash": "LI8P",
+  "client_name": "[Dino 1 - Gauntlet] Find your way trough the maze",
+  "kind": "area",
+  "world": "world/gauntlet",
+  "area": "area/6300/quest-mazeroom",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 99,
+  "steps": [
+    {
+      "quest": 222,
+      "hash": "2SSU",
+      "goals": [
+        {
+          "goal": 265,
+          "hash": "IJ0Y",
+          "text": "Find your way through the maze",
+          "kind": "trigger",
+          "marker": {
+            "pos": [403.7, 56.3, 196.5],
+            "radius": 30.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate", "todo"]
+}

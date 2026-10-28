@@ -1,0 +1,37 @@
+{
+  "id": "quest/pirate-1-pa-jacket-cellar-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 146,
+  "hash": "JBJ8",
+  "client_name": "[Pirate 1 - PA - Jacket Cellar] Defeat the champion",
+  "kind": "area",
+  "world": "world/jacket-cellar",
+  "area": "area/1670/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 112,
+  "rewards": [
+    [584677, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 246,
+      "hash": "W8BE",
+      "goals": [
+        {
+          "goal": 297,
+          "hash": "IGNQ",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [243.4, 14.0, 273.1],
+            "radius": 55.2
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

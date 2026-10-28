@@ -1,0 +1,28 @@
+{
+  "id": "quest/holiday-winter-2014-escape-the-snow-prison",
+  "name": "Escape the snow prison",
+  "main": 177,
+  "hash": "6LHN",
+  "client_name": "[Holiday Winter 2014] Escape the snow prison",
+  "kind": "area",
+  "world": "world/winter-pass",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "steps": [
+    {
+      "quest": 277,
+      "hash": "CNWR",
+      "goals": [
+        {
+          "goal": 328,
+          "hash": "HEP3",
+          "text": "Escape the snow prison",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

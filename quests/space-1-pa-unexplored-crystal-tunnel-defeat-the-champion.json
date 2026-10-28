@@ -1,0 +1,29 @@
+{
+  "id": "quest/space-1-pa-unexplored-crystal-tunnel-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 163,
+  "hash": "VYQY",
+  "client_name": "[Space 1 - PA - Unexplored Crystal Tunnel] Defeat the champion",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 129,
+  "steps": [
+    {
+      "quest": 263,
+      "hash": "BG5C",
+      "goals": [
+        {
+          "goal": 314,
+          "hash": "CI5T",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

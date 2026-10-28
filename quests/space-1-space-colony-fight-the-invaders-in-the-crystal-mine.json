@@ -1,0 +1,39 @@
+{
+  "id": "quest/space-1-space-colony-fight-the-invaders-in-the-crystal-mine",
+  "name": "Fight the invaders in the Crystal Mine",
+  "main": 92,
+  "hash": "E59I",
+  "client_name": "[Space 1 - Space Colony] Fight the invaders in the Crystal Mine",
+  "kind": "area",
+  "world": "world/space-colony",
+  "area": "area/3200/quest-crystalmine",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 65,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 132,
+      "hash": "L08P",
+      "goals": [
+        {
+          "goal": 173,
+          "hash": "S2S5",
+          "text": "Fight the invaders in the Crystal Mine",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [223.9, 117.0, 357.1],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

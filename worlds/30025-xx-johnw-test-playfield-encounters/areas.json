@@ -1,0 +1,21 @@
+{
+  "areas": [
+    {
+      "id": "area/30025/quest-apple",
+      "name": "Quest_Apple",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [87.32, 220.34],
+            [115.35, 221.42],
+            [112.35, 244.43],
+            [84.92, 245.25]
+          ],
+          "heights": [13.821472, 23.821472]
+        }
+      },
+      "source": "client"
+    }
+  ]
+}

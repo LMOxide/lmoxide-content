@@ -1,0 +1,39 @@
+{
+  "id": "quest/pirate-2-grotto-smash-the-loading-bay",
+  "name": "Smash the loading bay",
+  "main": 54,
+  "hash": "BSRV",
+  "client_name": "[Pirate 2 - Grotto] Smash the loading bay",
+  "kind": "area",
+  "world": "world/pirate-grotto",
+  "area": "area/4310/quest-loadingbay",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 36,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 68,
+      "hash": "SCKB",
+      "goals": [
+        {
+          "goal": 106,
+          "hash": "HTRM",
+          "text": "Smash the loading bay",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [363.2, 49.5, 277.5],
+            "radius": 32.7
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

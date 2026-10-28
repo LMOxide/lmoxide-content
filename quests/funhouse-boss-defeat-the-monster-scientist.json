@@ -1,0 +1,43 @@
+{
+  "id": "quest/funhouse-boss-defeat-the-monster-scientist",
+  "name": "Defeat the Monster Scientist",
+  "main": 183,
+  "hash": "H5XA",
+  "client_name": "[Funhouse - Boss] Defeat the Monster Scientist",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "steps": [
+    {
+      "quest": 298,
+      "hash": "CUPL",
+      "goals": [
+        {
+          "goal": 351,
+          "hash": "E1YU",
+          "text": "Defend the Tesla Tower",
+          "kind": "trigger",
+          "count": 9,
+          "max": 90
+        }
+      ]
+    },
+    {
+      "quest": 303,
+      "hash": "OTRG",
+      "goals": [
+        {
+          "goal": 356,
+          "hash": "ES1M",
+          "text": "Defeat the Monster Scientist",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Monster Scientist"]
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

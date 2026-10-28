@@ -1,0 +1,32 @@
+{
+  "id": "quest/myth-2-underworld-defeat-hades-lord-of-the-underworld",
+  "name": "Defeat Hades, Lord of the Underworld",
+  "main": 29,
+  "hash": "K7GF",
+  "client_name": "[Myth 2 - Underworld] Defeat Hades, Lord of the Underworld",
+  "kind": "area",
+  "world": "world/underworld",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 9,
+  "steps": [
+    {
+      "quest": 42,
+      "hash": "F8XH",
+      "task": "Defeat Hades, the Lord of the Underworld",
+      "goals": [
+        {
+          "goal": 77,
+          "hash": "E235",
+          "text": "Defeat Hades, the Lord of the Underworld",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Hades"]
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

@@ -1,0 +1,35 @@
+{
+  "id": "quest/medieval-1-dragon-halls-defeat-redwing-the-firequeen",
+  "name": "Defeat Redwing the Firequeen",
+  "main": 67,
+  "hash": "VHVL",
+  "client_name": "[Medieval 1 - Dragon Halls] Defeat Redwing the Firequeen",
+  "kind": "area",
+  "world": "world/dragon-halls",
+  "area": "area/5500/quest-boss",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 41,
+  "steps": [
+    {
+      "quest": 91,
+      "hash": "LHZ7",
+      "goals": [
+        {
+          "goal": 129,
+          "hash": "8O0R",
+          "text": "Defeat Redwing the Firequeen",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Redwing the Firequeen"],
+          "marker": {
+            "pos": [435.6, 115.5, 483.1],
+            "radius": 18.4
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

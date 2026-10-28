@@ -1,0 +1,36 @@
+{
+  "id": "quest/medieval-1-ruined-fort-solve-the-jester-s-puzzle",
+  "name": "Solve the Jester's Puzzle",
+  "main": 78,
+  "hash": "WVPJ",
+  "client_name": "[Medieval 1 - Ruined Fort] Solve the Jester's Puzzle",
+  "kind": "area",
+  "world": "world/ruined-fort",
+  "area": "area/5300/quest-storage",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 50,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 102,
+      "hash": "RKPY",
+      "goals": [
+        {
+          "goal": 143,
+          "hash": "EFO2",
+          "text": "Solve the Jester's Puzzle",
+          "kind": "trigger",
+          "marker": {
+            "pos": [172.4, 36.5, 187.9],
+            "radius": 18.7
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate", "todo"]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "quest/dev-the-arena-of-minos",
+  "name": "The Arena of Minos",
+  "main": 8,
+  "hash": "7AFE",
+  "client_name": "[DEV] The Arena of Minos",
+  "kind": "test",
+  "rewards": [
+    [2019, 34000]
+  ],
+  "steps": [
+    {
+      "quest": 11,
+      "hash": "F9RV",
+      "task": "Minotaurs!",
+      "description": "Defend yourself against the Minotaurs!",
+      "goals": [
+        {
+          "goal": 11,
+          "hash": "TGF0",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 12,
+      "hash": "LD5K",
+      "task": "Cyclops!",
+      "description": "Defend yourself against the Cyclops!",
+      "goals": [
+        {
+          "goal": 12,
+          "hash": "QHOT",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 13,
+      "hash": "6J0O",
+      "task": "Champion of the arena",
+      "description": "Defeat the Champion of the Arena.",
+      "goals": [
+        {
+          "goal": 13,
+          "hash": "0ZQT",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

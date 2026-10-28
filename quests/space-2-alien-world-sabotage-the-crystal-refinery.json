@@ -1,0 +1,39 @@
+{
+  "id": "quest/space-2-alien-world-sabotage-the-crystal-refinery",
+  "name": "Sabotage the Crystal Refinery",
+  "main": 97,
+  "hash": "OU8L",
+  "client_name": "[Space 2 - Alien World] Sabotage the Crystal Refinery",
+  "kind": "area",
+  "world": "world/planet-s-dark-side",
+  "area": "area/3210/quest-refinery",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 68,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 137,
+      "hash": "FGFQ",
+      "goals": [
+        {
+          "goal": 178,
+          "hash": "P5GY",
+          "text": "Sabotage the Crystal Refinery",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [419.1, 120.2, 357.5],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

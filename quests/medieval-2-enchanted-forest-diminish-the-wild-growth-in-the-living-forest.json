@@ -1,0 +1,35 @@
+{
+  "id": "quest/medieval-2-enchanted-forest-diminish-the-wild-growth-in-the-living-forest",
+  "name": "Diminish the wild growth in the Living Forest",
+  "main": 69,
+  "hash": "04QT",
+  "client_name": "[Medieval 2 - Enchanted Forest] Diminish the wild growth in the Living Forest",
+  "kind": "area",
+  "world": "world/enchanted-forest",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 54,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 106,
+      "hash": "BV91",
+      "goals": [
+        {
+          "goal": 147,
+          "hash": "6PS6",
+          "text": "Diminish the wild growth in the Living Forest",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

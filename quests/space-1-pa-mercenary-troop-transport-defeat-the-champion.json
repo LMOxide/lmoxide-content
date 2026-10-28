@@ -1,0 +1,34 @@
+{
+  "id": "quest/space-1-pa-mercenary-troop-transport-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 164,
+  "hash": "WOM9",
+  "client_name": "[Space 1 - PA - Mercenary Troop Transport] Defeat the champion",
+  "kind": "area",
+  "world": "world/mercenary-troop-transport",
+  "area": "area/1620/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 130,
+  "steps": [
+    {
+      "quest": 264,
+      "hash": "1E8S",
+      "goals": [
+        {
+          "goal": 315,
+          "hash": "SQUW",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [286.5, 32.5, 141.6],
+            "radius": 56.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

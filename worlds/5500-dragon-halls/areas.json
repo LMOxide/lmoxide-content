@@ -83,6 +83,79 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/5500/quest-arena",
+      "name": "Quest_Arena",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [391.33, 291.29],
+            [416.4, 291.35],
+            [416.19, 308.84],
+            [391.57, 308.85]
+          ],
+          "heights": [69.50166, 79.50166]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5500/quest-ritual",
+      "name": "Quest_Ritual",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [198.8, 212.09],
+            [223.4, 212.06],
+            [223.42, 236.4],
+            [199.02, 236.19]
+          ],
+          "heights": [57.446426, 67.44643]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5500/quest-boss",
+      "name": "Quest_Boss",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [440.61, 465.39],
+            [452.65, 479.42],
+            [430.62, 500.05],
+            [418.39, 487.45]
+          ],
+          "heights": [115.54352, 125.54352]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/5500/quest-guardroom",
+      "name": "Quest_Guardroom",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [232.82, 237.34],
+            [257.93, 235.8],
+            [286.83, 213.94],
+            [361.71, 213.02],
+            [363.76, 287.45],
+            [364.66, 326.74],
+            [326.65, 324.02],
+            [321.35, 274.7],
+            [233.1, 270.03]
+          ],
+          "heights": [63.341415, 73.341415]
+        }
+      },
+      "source": "client"
     }
   ]
 }

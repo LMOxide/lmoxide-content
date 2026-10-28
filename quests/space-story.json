@@ -1,0 +1,257 @@
+{
+  "id": "quest/space-story",
+  "name": "Space World",
+  "main": 108,
+  "hash": "G1BP",
+  "client_name": "[Story Quest - Space] Space World",
+  "kind": "story",
+  "world": "world/space-colony",
+  "rewards": [
+    [462488, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 155,
+      "hash": "ERJC",
+      "goals": [
+        {
+          "goal": 196,
+          "hash": "J6MT",
+          "text": "Help the Railheads retake the Spaceport",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 156,
+      "hash": "G1CS",
+      "goals": [
+        {
+          "goal": 197,
+          "hash": "0BLI",
+          "text": "Board the Shuttle",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 157,
+      "hash": "E152",
+      "goals": [
+        {
+          "goal": 198,
+          "hash": "U5AL",
+          "text": "Find the source of the strange signal",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 159,
+      "hash": "GU6R",
+      "goals": [
+        {
+          "goal": 200,
+          "hash": "UC8W",
+          "text": "Jump through the Portal",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 160,
+      "hash": "QJSY",
+      "goals": [
+        {
+          "goal": 201,
+          "hash": "U3DU",
+          "text": "Infiltrate the Alien Facility",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 161,
+      "hash": "RK4R",
+      "goals": [
+        {
+          "goal": 202,
+          "hash": "7XSG",
+          "text": "Follow the transport beams",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 162,
+      "hash": "6KY3",
+      "goals": [
+        {
+          "goal": 203,
+          "hash": "MATJ",
+          "text": "Use the Transporters to reach the Hidden Base",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 163,
+      "hash": "ZRYY",
+      "goals": [
+        {
+          "goal": 204,
+          "hash": "3EJ9",
+          "text": "Enter the Hidden Base",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 164,
+      "hash": "Y6JW",
+      "goals": [
+        {
+          "goal": 205,
+          "hash": "JAYO",
+          "text": "Find the Source of the Alien Presence",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 165,
+      "hash": "LQBN",
+      "goals": [
+        {
+          "goal": 206,
+          "hash": "1RYD",
+          "text": "Find the Alien Queen",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 166,
+      "hash": "OHE9",
+      "goals": [
+        {
+          "goal": 207,
+          "hash": "HMGJ",
+          "text": "End the Alien Invasion",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 169,
+      "hash": "939F",
+      "goals": [
+        {
+          "goal": 212,
+          "hash": "PIJN",
+          "text": "Report to the officer in charge",
+          "kind": "talk"
+        }
+      ]
+    },
+    {
+      "quest": 171,
+      "hash": "NZMA",
+      "goals": [
+        {
+          "goal": 214,
+          "hash": "3XT2",
+          "text": "Report to the Space Miner",
+          "kind": "talk"
+        }
+      ]
+    },
+    {
+      "quest": 153,
+      "hash": "OXP2",
+      "goals": [
+        {
+          "goal": 194,
+          "hash": "37G8",
+          "text": "Travel to the Mining Outpost",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 154,
+      "hash": "1FF4",
+      "goals": [
+        {
+          "goal": 195,
+          "hash": "VJMG",
+          "text": "Join the Railhead Assault Team",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 150,
+      "hash": "HF06",
+      "goals": [
+        {
+          "goal": 191,
+          "hash": "MS41",
+          "text": "Take back the Space Command HQ",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 151,
+      "hash": "GSDR",
+      "goals": [
+        {
+          "goal": 192,
+          "hash": "143V",
+          "text": "Travel to the LEGO Center",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 152,
+      "hash": "4TIR",
+      "goals": [
+        {
+          "goal": 193,
+          "hash": "CZGR",
+          "text": "Take the elevator out of the HQ",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 148,
+      "hash": "XQ65",
+      "goals": [
+        {
+          "goal": 189,
+          "hash": "CLH1",
+          "text": "Go to the Space Entrance",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 149,
+      "hash": "I4SX",
+      "goals": [
+        {
+          "goal": 190,
+          "hash": "RGMB",
+          "text": "Fight your way to the Space Command HQ",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "Story order not known (only the Pirate World's was in the capture): the client's order."
+}

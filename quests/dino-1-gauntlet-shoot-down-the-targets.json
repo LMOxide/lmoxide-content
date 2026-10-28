@@ -1,0 +1,33 @@
+{
+  "id": "quest/dino-1-gauntlet-shoot-down-the-targets",
+  "name": "Shoot down the targets",
+  "main": 130,
+  "hash": "5449",
+  "client_name": "[Dino 1 - Gauntlet] Shoot down the targets",
+  "kind": "area",
+  "world": "world/gauntlet",
+  "area": "area/6300/quest-shootingroom",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 101,
+  "steps": [
+    {
+      "quest": 224,
+      "hash": "F90H",
+      "goals": [
+        {
+          "goal": 267,
+          "hash": "CCVB",
+          "text": "Shoot down the targets",
+          "kind": "trigger",
+          "marker": {
+            "pos": [310.0, 46.8, 172.7],
+            "radius": 14.2
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate", "todo"]
+}

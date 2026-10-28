@@ -1,0 +1,80 @@
+{
+  "areas": [
+    {
+      "id": "area/4502/quest-nativebeach",
+      "name": "Quest_NativeBeach",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [79.59, 75.64],
+            [167.74, 67.1],
+            [162.32, 138.38],
+            [143.23, 135.74],
+            [126.19, 114.36],
+            [103.43, 110.25],
+            [79.29, 110.22],
+            [76.58, 94.15]
+          ],
+          "heights": [106.277214, 116.277214]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4502/quest-krakenworship",
+      "name": "Quest_KrakenWorship",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [100.73, 196.4],
+            [141.48, 193.87],
+            [151.1, 215.71],
+            [150.98, 233.38],
+            [100.66, 236.03]
+          ],
+          "heights": [111.53443, 121.53443]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4502/quest-piratebay",
+      "name": "Quest_Piratebay",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [275.74, 289.38],
+            [299.5, 285.93],
+            [319.38, 281.66],
+            [328.5, 294.68],
+            [327.25, 311.83],
+            [282.84, 311.4]
+          ],
+          "heights": [107.82533, 117.82533]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/4502/quest-boss",
+      "name": "Quest_Boss",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [439.02, 412.31],
+            [468.41, 383.33],
+            [483.04, 386.97],
+            [483.8, 408.14],
+            [457.37, 432.9]
+          ],
+          "heights": [96.34943, 106.34943]
+        }
+      },
+      "source": "client"
+    }
+  ]
+}

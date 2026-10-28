@@ -1,0 +1,29 @@
+{
+  "id": "quest/temp-myth-defeat-the-enslaved-minotaurs-within-medusa-s-lair",
+  "name": "Defeat the Enslaved Minotaurs within Medusa's Lair",
+  "main": 12,
+  "hash": "D8YK",
+  "client_name": "[temp myth]Defeat the Enslaved Minotaurs within Medusa's Lair",
+  "kind": "test",
+  "rewards": [
+    [19859, 34001]
+  ],
+  "steps": [
+    {
+      "quest": 19,
+      "hash": "JR4O",
+      "goals": [
+        {
+          "goal": 19,
+          "hash": "6GHP",
+          "text": "Defeat the enemies within Medusa's Lair",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

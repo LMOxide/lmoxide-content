@@ -1,0 +1,40 @@
+{
+  "id": "quest/myth-2-mountains-ruffle-up-the-mountain-pass-dwellers",
+  "name": "Ruffle up the Mountain Pass dwellers",
+  "main": 118,
+  "hash": "GUXL",
+  "client_name": "[Myth 2 - Mountains] Ruffle up the Mountain Pass dwellers",
+  "kind": "area",
+  "world": "world/mythology-mountains",
+  "area": "area/2210/quest-satyr",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 88,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 203,
+      "hash": "KQDA",
+      "task": "Fight your way through the Harpy Nest",
+      "goals": [
+        {
+          "goal": 246,
+          "hash": "ZF3I",
+          "text": "Ruffle up the Mountain Pass dwellers",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [119.9, 37.9, 395.1],
+            "radius": 37.8
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

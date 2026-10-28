@@ -1,0 +1,38 @@
+{
+  "id": "quest/medieval-1-dragon-halls-defeat-the-dragon-guardians",
+  "name": "Defeat the Dragon Guardians",
+  "main": 85,
+  "hash": "9TDY",
+  "client_name": "[Medieval 1 - Dragon Halls] Defeat the Dragon Guardians",
+  "kind": "area",
+  "world": "world/dragon-halls",
+  "area": "area/5500/quest-guardroom",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 58,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 121,
+      "hash": "AJ8Y",
+      "goals": [
+        {
+          "goal": 162,
+          "hash": "L8SY",
+          "text": "Defeat the Dragon Guardians",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Dragon Guardians"],
+          "marker": {
+            "pos": [305.4, 63.3, 264.8],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

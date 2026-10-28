@@ -1,0 +1,34 @@
+{
+  "id": "quest/space-2-pa-ancient-space-ruins-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 166,
+  "hash": "GC7O",
+  "client_name": "[Space 2 - PA - Ancient Space Ruins] Defeat the champion",
+  "kind": "area",
+  "world": "world/ancient-space-ruins",
+  "area": "area/1635/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 132,
+  "steps": [
+    {
+      "quest": 266,
+      "hash": "NLYX",
+      "goals": [
+        {
+          "goal": 317,
+          "hash": "Y0VM",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [155.0, 56.5, 118.6],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

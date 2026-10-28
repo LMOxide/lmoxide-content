@@ -1,0 +1,39 @@
+{
+  "id": "quest/pirate-2-destroy-the-fire-fiends-and-fire-totems",
+  "name": "Destroy the fire fiends and fire totems",
+  "main": 52,
+  "hash": "QRZC",
+  "client_name": "[Pirate 2] Destroy the fire fiends and fire totems",
+  "kind": "area",
+  "world": "world/volcano-island",
+  "area": "area/4210/quest-scorchedcity",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 24,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 66,
+      "hash": "PJJU",
+      "goals": [
+        {
+          "goal": 104,
+          "hash": "0NOD",
+          "text": "Destroy the fire fiends and fire totems",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [439.4, 70.1, 369.7],
+            "radius": 48.5
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

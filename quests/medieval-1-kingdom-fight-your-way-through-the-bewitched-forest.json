@@ -1,0 +1,39 @@
+{
+  "id": "quest/medieval-1-kingdom-fight-your-way-through-the-bewitched-forest",
+  "name": "Fight your way through the Bewitched Forest",
+  "main": 76,
+  "hash": "LGHP",
+  "client_name": "[Medieval 1 - Kingdom] Fight your way through the Bewitched Forest",
+  "kind": "area",
+  "world": "world/kingdom",
+  "area": "area/5200/quest-candywitch",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 42,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 94,
+      "hash": "BLQ8",
+      "goals": [
+        {
+          "goal": 135,
+          "hash": "7XP7",
+          "text": "Fight your way through the Bewitched Forest",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [440.6, 16.2, 130.8],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

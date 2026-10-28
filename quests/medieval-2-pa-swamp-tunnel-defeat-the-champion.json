@@ -1,0 +1,34 @@
+{
+  "id": "quest/medieval-2-pa-swamp-tunnel-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 160,
+  "hash": "N5GV",
+  "client_name": "[Medieval 2 - PA - Swamp Tunnel] Defeat the champion",
+  "kind": "area",
+  "world": "world/swamp-tunnel",
+  "area": "area/1634/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 126,
+  "steps": [
+    {
+      "quest": 260,
+      "hash": "1ZCZ",
+      "goals": [
+        {
+          "goal": 311,
+          "hash": "EGOK",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [155.0, 56.5, 118.6],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

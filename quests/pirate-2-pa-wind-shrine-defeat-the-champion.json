@@ -1,0 +1,37 @@
+{
+  "id": "quest/pirate-2-pa-wind-shrine-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 150,
+  "hash": "5PHN",
+  "client_name": "[Pirate 2 - PA - Wind Shrine] Defeat the champion",
+  "kind": "area",
+  "world": "world/wind-shrine",
+  "area": "area/1650/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 116,
+  "rewards": [
+    [584677, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 250,
+      "hash": "N2NI",
+      "goals": [
+        {
+          "goal": 301,
+          "hash": "5WO7",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [228.4, 6.4, 246.8],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "quest/pirate-2-defeat-the-spider-hermit",
+  "name": "Defeat the spider hermit",
+  "main": 49,
+  "hash": "9DX8",
+  "client_name": "[Pirate 2] Defeat the spider hermit",
+  "kind": "area",
+  "world": "world/volcano-island",
+  "area": "area/4210/quest-native",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 23,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 63,
+      "hash": "XX5P",
+      "task": "Defeat the hermit shaman",
+      "goals": [
+        {
+          "goal": 101,
+          "hash": "5PK8",
+          "text": "Defeat the hermit shaman",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [220.4, 71.3, 89.8],
+            "radius": 50.4
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

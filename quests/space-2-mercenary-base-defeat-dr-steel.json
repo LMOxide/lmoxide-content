@@ -1,0 +1,38 @@
+{
+  "id": "quest/space-2-mercenary-base-defeat-dr-steel",
+  "name": "Defeat Dr. Steel",
+  "main": 105,
+  "hash": "3C2G",
+  "client_name": "[Space 2 - Mercenary Base] Defeat Dr. Steel",
+  "kind": "area",
+  "world": "world/shadow-centurion-base",
+  "area": "area/3310/quest-port",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 77,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 145,
+      "hash": "WGM4",
+      "goals": [
+        {
+          "goal": 186,
+          "hash": "7FKS",
+          "text": "Defeat Dr. Steel",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Dr. Steel"],
+          "marker": {
+            "pos": [207.7, 37.6, 201.1],
+            "radius": 21.3
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

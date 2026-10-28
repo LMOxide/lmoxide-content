@@ -369,6 +369,225 @@
         "exit": [521510, 526872]
       },
       "source": "client"
+    },
+    {
+      "id": "area/6300/quest-buzzroom",
+      "name": "Quest_BuzzRoom",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [174.87, 156.66],
+            [222.39, 156.54],
+            [221.99, 186.39],
+            [174.52, 186.88]
+          ],
+          "heights": [43.35675, 53.35675]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/6300/quest-buzzroomcomplete",
+      "name": "Quest_BuzzRoomComplete",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [211.55, 157.71],
+            [217.38, 173.05],
+            [211.64, 187.71]
+          ],
+          "heights": [44.511562, 54.511562]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/6300/quest-tikiroom",
+      "name": "Quest_TikiRoom",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [265.3, 158.8],
+            [287.3, 158.55],
+            [287.36, 185.77],
+            [264.81, 186.32]
+          ],
+          "heights": [44.23189, 54.23189]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/6300/quest-mirrorroom",
+      "name": "Quest_MirrorRoom",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [143.66, 163.8],
+            [167.98, 163.9],
+            [168.93, 182.22],
+            [142.83, 182.76]
+          ],
+          "heights": [46.21691, 56.21691]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/6300/quest-mirrorroomcomplete",
+      "name": "Quest_MirrorRoomComplete",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [161.33, 157.71],
+            [167.17, 173.05],
+            [161.43, 187.71]
+          ],
+          "heights": [44.511562, 54.511562]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/6300/quest-mazeroom",
+      "name": "Quest_MazeRoom",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [383.03, 174.82],
+            [423.89, 175.14],
+            [424.23, 217.96],
+            [383.57, 218.15]
+          ],
+          "heights": [56.311584, 66.311584]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/6300/quest-mazeroomcomplete",
+      "name": "Quest_MazeRoomComplete",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [417.03, 190.93],
+            [418.47, 201.24],
+            [413.73, 200.82],
+            [409.99, 196.56]
+          ],
+          "heights": [56.441822, 66.44182]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/6300/quest-bossroom",
+      "name": "Quest_BossRoom",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [448.43, 230.43],
+            [469.54, 209.99],
+            [486.91, 226.95],
+            [465.84, 248.0]
+          ],
+          "heights": [55.64451, 65.6445]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/6300/quest-dodgeroom",
+      "name": "Quest_DodgeRoom",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [327.87, 156.82],
+            [374.64, 156.6],
+            [374.38, 208.75],
+            [327.39, 208.14]
+          ],
+          "heights": [45.29094, 55.290936]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/6300/quest-dodgeroomcomplete",
+      "name": "Quest_DodgeRoomComplete",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [363.8, 191.25],
+            [364.51, 191.21],
+            [364.64, 200.84],
+            [363.72, 200.85]
+          ],
+          "heights": [56.128372, 66.12837]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/6300/quest-shootingroom",
+      "name": "Quest_ShootingRoom",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [299.36, 163.57],
+            [320.43, 164.33],
+            [320.99, 181.72],
+            [299.41, 181.31]
+          ],
+          "heights": [46.762733, 56.762733]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/6300/quest-pressureplateroom",
+      "name": "Quest_PressurePlateRoom",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [232.36, 160.23],
+            [255.07, 160.34],
+            [254.57, 180.84],
+            [232.32, 181.34]
+          ],
+          "heights": [47.5, 57.5]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/6300/quest-pressureplateroomcomplete",
+      "name": "Quest_PressurePlateRoomComplete",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [249.65, 160.73],
+            [252.19, 160.84],
+            [251.69, 181.34],
+            [249.62, 181.84]
+          ],
+          "heights": [47.5, 57.5]
+        }
+      },
+      "source": "client"
     }
   ]
 }

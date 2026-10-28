@@ -1,0 +1,52 @@
+{
+  "id": "quest/dev-quest-example",
+  "name": "Quest Example",
+  "main": 31,
+  "hash": "CDVS",
+  "client_name": "[DEV] Quest Example",
+  "kind": "test",
+  "steps": [
+    {
+      "quest": 44,
+      "hash": "JTK4",
+      "task": "Quest Task Name 1",
+      "description": "Quest Task 1 Description",
+      "goals": [
+        {
+          "goal": 79,
+          "hash": "KW4W",
+          "text": "Quest Goal Name 1 - Task 1",
+          "kind": "trigger"
+        },
+        {
+          "goal": 80,
+          "hash": "CXRI",
+          "text": "Quest Goal Name 2 - Task 1",
+          "kind": "trigger",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "quest": 45,
+      "hash": "5HDP",
+      "task": "Quest Task Name 2",
+      "description": "Quest Task Name 2 Description",
+      "goals": [
+        {
+          "goal": 81,
+          "hash": "W048",
+          "text": "Quest Goal Name 1 - Task 2 - Phase 1",
+          "kind": "trigger"
+        },
+        {
+          "goal": 82,
+          "hash": "K3QR",
+          "text": "Quest Goal Name 1 - Task 2 - Phase 2",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

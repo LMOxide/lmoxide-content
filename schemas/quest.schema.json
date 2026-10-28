@@ -1,0 +1,365 @@
+{
+  "$defs": {
+    "Duration": {
+      "anyOf": [
+        {
+          "pattern": "^\\s*-?[0-9.]+\\s*(ms|s|m|h)?\\s*$",
+          "type": "string"
+        },
+        {
+          "type": "number"
+        }
+      ],
+      "description": "A length of time: \"1.5s\", \"200ms\", \"2m\", \"1h\", or a number of seconds",
+      "x-lmoxide-unit": "duration"
+    },
+    "GoalKind": {
+      "description": "What kind of goal the client draws (the goal type in QuestFullUpdateIIR,\n`quests::*QuestGoal::GetGoalType`).",
+      "oneOf": [
+        {
+          "const": "defeat",
+          "description": "Defeat an enemy (12, \"destroy character\"); the tracker names it.",
+          "type": "string"
+        },
+        {
+          "const": "locate",
+          "description": "Reach a place (9, \"locate district\").",
+          "type": "string"
+        },
+        {
+          "const": "talk",
+          "description": "Talk to an NPC (21).",
+          "type": "string"
+        },
+        {
+          "const": "destroy",
+          "description": "Smash a smashable (25, \"destroy destructible\").",
+          "type": "string"
+        },
+        {
+          "const": "trigger",
+          "description": "Anything the server decides (22, \"external trigger\"): most area quests.",
+          "type": "string"
+        },
+        {
+          "const": "escort",
+          "description": "Escort an NPC (2).",
+          "type": "string"
+        },
+        {
+          "const": "get_item",
+          "description": "Get an item (23).",
+          "type": "string"
+        }
+      ]
+    },
+    "QuestGoal": {
+      "additionalProperties": false,
+      "description": "One goal of a quest step.",
+      "properties": {
+        "anywhere": {
+          "description": "Counts anywhere in the world; otherwise only inside the quest's area.",
+          "type": "boolean"
+        },
+        "count": {
+          "description": "How many are needed.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "counts": {
+          "description": "What counts toward it, as an achievement's `counts`: `kills`, `smashes`, `builds` or\n`kills_or_smashes`. None: nothing the server counts yet.",
+          "type": ["string", "null"]
+        },
+        "enemies": {
+          "description": "The enemies or smashables that count, by name (`@<category>` for a smash rule category's);\nempty: any.",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "goal": {
+          "description": "The client's goal id.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "hash": {
+          "description": "The client's hash of the goal (`resolvegoal <hash>` in dialogue texts).",
+          "type": ["string", "null"]
+        },
+        "kind": {
+          "$ref": "#/$defs/GoalKind",
+          "default": "trigger"
+        },
+        "marker": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/QuestMarker"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "The minimap arrow."
+        },
+        "max": {
+          "description": "The progress bar's maximum the client shows (live: 100 for most area quests); each one\ncounted adds `max / count` rounded up. None: the count.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "text": {
+          "description": "The client's goal text (TDB 50304): what the tracker shows.",
+          "type": ["string", "null"]
+        }
+      },
+      "required": ["goal"],
+      "type": "object"
+    },
+    "QuestKind": {
+      "description": "How the client's quest tracker shows a quest (the main quest's type, MainQuestUpdateIIR_c).",
+      "oneOf": [
+        {
+          "const": "story",
+          "description": "A world's story line (client type 5): gold compass, gold text and progress bar; hidden in\nthe Lost Creations.",
+          "type": "string"
+        },
+        {
+          "const": "area",
+          "description": "An area quest (client type 1): silver compass (in the Lost Creations the \"endless\" one),\nwhite text, blue progress bar. Runs while the player is in its `area`.",
+          "type": "string"
+        },
+        {
+          "const": "test",
+          "description": "A test or development quest of the client's data (client types 0, 3, 4): never started.",
+          "type": "string"
+        }
+      ]
+    },
+    "QuestMarker": {
+      "additionalProperties": false,
+      "description": "Where a goal's minimap arrow points.",
+      "properties": {
+        "pos": {
+          "items": {
+            "format": "float",
+            "type": "number"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "type": "array",
+          "x-lmoxide-position": true
+        },
+        "radius": {
+          "description": "How near counts as there (m).",
+          "format": "float",
+          "type": "number"
+        }
+      },
+      "required": ["pos", "radius"],
+      "type": "object"
+    },
+    "QuestStep": {
+      "additionalProperties": false,
+      "description": "One quest of a main quest (the client's \"quest\"; a story line's step).",
+      "properties": {
+        "description": {
+          "type": ["string", "null"]
+        },
+        "goals": {
+          "items": {
+            "$ref": "#/$defs/QuestGoal"
+          },
+          "type": "array"
+        },
+        "hash": {
+          "type": ["string", "null"]
+        },
+        "quest": {
+          "description": "The client's quest id.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "task": {
+          "description": "The client's task name and description (TDB 50301, 50302), when they say something.",
+          "type": ["string", "null"]
+        }
+      },
+      "required": ["quest", "goals"],
+      "type": "object"
+    },
+    "Source": {
+      "description": "Where a value came from, so guesses stay visible next to what live did.",
+      "oneOf": [
+        {
+          "const": "client",
+          "description": "Extracted from the game client's data.",
+          "type": "string"
+        },
+        {
+          "const": "live",
+          "description": "Seen in a capture of the live server (LMO_Captures.cap).",
+          "type": "string"
+        },
+        {
+          "const": "demo",
+          "description": "Seen in the recorded 2015 demo session.",
+          "type": "string"
+        },
+        {
+          "const": "footage",
+          "description": "Taken from video footage of live.",
+          "type": "string"
+        },
+        {
+          "const": "server",
+          "description": "Values the server used before they were moved into content (docs/TUNABLES.md).",
+          "type": "string"
+        },
+        {
+          "const": "proposed",
+          "description": "Proposed by a tool from client data (navmesh, names, ...), not seen live.",
+          "type": "string"
+        },
+        {
+          "const": "surveyed",
+          "description": "Placed or confirmed by someone in the world editor.",
+          "type": "string"
+        },
+        {
+          "const": "guess",
+          "description": "A plain guess.",
+          "type": "string"
+        }
+      ]
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "A main quest (the client's quest giver list, RDB 1000104): a world's story line or an\narea quest, its quests in order (`steps`) and their goals: `quests/<slug>.json`.",
+  "properties": {
+    "area": {
+      "description": "An area quest's region: entering it starts the quest (or resumes it), leaving pauses it.",
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["area"]
+    },
+    "author": {
+      "type": "string"
+    },
+    "client_name": {
+      "description": "The client's internal name (\"[Pirate 1] Free the pirate prisoners\").",
+      "type": ["string", "null"]
+    },
+    "comment": {
+      "type": "string"
+    },
+    "cooldown": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Duration"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "How long after completing it before it starts again."
+    },
+    "cooldown_id": {
+      "description": "The client's cooldown id (QuestCooldownIIR).",
+      "format": "uint32",
+      "minimum": 0,
+      "type": ["integer", "null"]
+    },
+    "extends": {
+      "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["quest"]
+    },
+    "feature": {
+      "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
+      "type": "string"
+    },
+    "hash": {
+      "type": ["string", "null"]
+    },
+    "id": {
+      "description": "Its id: `quest/<slug>`. Stable: other records refer to it.",
+      "type": "string"
+    },
+    "kind": {
+      "$ref": "#/$defs/QuestKind",
+      "default": "area"
+    },
+    "main": {
+      "description": "The client's main quest id.",
+      "format": "uint32",
+      "minimum": 0,
+      "type": ["integer", "null"]
+    },
+    "name": {
+      "type": "string"
+    },
+    "repeatable": {
+      "description": "Can be done again after its cooldown.",
+      "type": "boolean"
+    },
+    "rev": {
+      "description": "Revision, raised by every saved edit (for merging concurrent edits).",
+      "format": "uint64",
+      "minimum": 0,
+      "type": "integer"
+    },
+    "rewards": {
+      "description": "The client's rewards (template, category) as its data lists them; not given yet.",
+      "items": {
+        "items": {
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "maxItems": 2,
+        "minItems": 2,
+        "type": "array"
+      },
+      "type": "array"
+    },
+    "source": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Source"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "steps": {
+      "items": {
+        "$ref": "#/$defs/QuestStep"
+      },
+      "type": "array"
+    },
+    "tags": {
+      "description": "Labels for sorting work out (\"approximate\", \"todo\", \"verified\", ...).",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "updated": {
+      "description": "Unix time of the last edit.",
+      "format": "uint64",
+      "minimum": 0,
+      "type": "integer"
+    },
+    "world": {
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["world"]
+    }
+  },
+  "required": ["id", "steps"],
+  "title": "Quest",
+  "type": "object"
+}

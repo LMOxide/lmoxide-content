@@ -1,0 +1,39 @@
+{
+  "id": "quest/pirate-1-trials-build-a-cannon-and-shoot-down-the-targets",
+  "name": "Build a cannon and shoot down the targets",
+  "main": 35,
+  "hash": "1TNS",
+  "client_name": "[Pirate 1 - Trials] Build a cannon and shoot down the targets",
+  "kind": "area",
+  "world": "world/pirate-trials",
+  "area": "area/4300/quest-cannonshooting1",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 29,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 49,
+      "hash": "2ZZF",
+      "goals": [
+        {
+          "goal": 87,
+          "hash": "TXYQ",
+          "text": "Build a cannon and shoot down the targets",
+          "kind": "trigger",
+          "counts": "builds",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [205.1, 32.1, 229.0],
+            "radius": 27.1
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

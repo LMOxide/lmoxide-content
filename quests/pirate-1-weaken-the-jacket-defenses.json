@@ -1,0 +1,39 @@
+{
+  "id": "quest/pirate-1-weaken-the-jacket-defenses",
+  "name": "Weaken the Jacket defenses",
+  "main": 40,
+  "hash": "PKCN",
+  "client_name": "[Pirate 1] Weaken the Jacket defenses",
+  "kind": "area",
+  "world": "world/isle-of-yarr",
+  "area": "area/4200/quest-fort",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 12,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 54,
+      "hash": "X13G",
+      "goals": [
+        {
+          "goal": 92,
+          "hash": "RNOZ",
+          "text": "Weaken the Jacket defenses",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [275.3, 63.6, 300.1],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

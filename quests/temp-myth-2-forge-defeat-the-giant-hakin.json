@@ -1,0 +1,25 @@
+{
+  "id": "quest/temp-myth-2-forge-defeat-the-giant-hakin",
+  "name": "Defeat the Giant Hakin",
+  "main": 28,
+  "hash": "ZHLP",
+  "client_name": "[temp Myth 2 - Forge] Defeat the Giant Hakin",
+  "kind": "test",
+  "steps": [
+    {
+      "quest": 41,
+      "hash": "U9AQ",
+      "goals": [
+        {
+          "goal": 76,
+          "hash": "SY3U",
+          "text": "Defeat the Giant Hakin",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Giant Hakin"]
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

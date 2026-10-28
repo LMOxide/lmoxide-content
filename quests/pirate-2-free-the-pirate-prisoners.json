@@ -1,0 +1,35 @@
+{
+  "id": "quest/pirate-2-free-the-pirate-prisoners",
+  "name": "Free the pirate prisoners",
+  "main": 48,
+  "hash": "VJ2Q",
+  "client_name": "[Pirate 2] Free the pirate prisoners",
+  "kind": "area",
+  "world": "world/volcano-island",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 25,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 62,
+      "hash": "33IG",
+      "goals": [
+        {
+          "goal": 100,
+          "hash": "WQJ7",
+          "text": "Free the pirate prisoners",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "quest/temp-myth-2-forge-defeat-the-giant-rhys",
+  "name": "Defeat the Giant Rhys",
+  "main": 27,
+  "hash": "9B9C",
+  "client_name": "[temp Myth 2 - Forge] Defeat the Giant Rhys",
+  "kind": "test",
+  "steps": [
+    {
+      "quest": 40,
+      "hash": "ZWOC",
+      "goals": [
+        {
+          "goal": 75,
+          "hash": "Y3QW",
+          "text": "Defeat the Giant Rhys",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Giant Rhys"]
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

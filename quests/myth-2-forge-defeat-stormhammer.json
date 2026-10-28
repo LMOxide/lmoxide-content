@@ -1,0 +1,32 @@
+{
+  "id": "quest/myth-2-forge-defeat-stormhammer",
+  "name": "Defeat Stormhammer",
+  "main": 26,
+  "hash": "3V8N",
+  "client_name": "[Myth 2 - Forge] Defeat Stormhammer",
+  "kind": "area",
+  "world": "world/mythology-mountains",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 5,
+  "steps": [
+    {
+      "quest": 39,
+      "hash": "LU9V",
+      "task": "Defeat the Giant Dale",
+      "goals": [
+        {
+          "goal": 74,
+          "hash": "DBO3",
+          "text": "Defeat Stormhammer",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Stormhammer"]
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

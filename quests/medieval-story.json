@@ -1,0 +1,197 @@
+{
+  "id": "quest/medieval-story",
+  "name": "Medieval World",
+  "main": 84,
+  "hash": "X04B",
+  "client_name": "[Story Quest - Medieval] Medieval World",
+  "kind": "story",
+  "world": "world/kingdom",
+  "rewards": [
+    [462487, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 124,
+      "hash": "INH6",
+      "goals": [
+        {
+          "goal": 165,
+          "hash": "KM38",
+          "text": "Search the Kingdom to find the Jester",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 128,
+      "hash": "3IOS",
+      "goals": [
+        {
+          "goal": 169,
+          "hash": "MUK4",
+          "text": "Reach the Sorcerer's Chamber",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 125,
+      "hash": "IXYQ",
+      "goals": [
+        {
+          "goal": 166,
+          "hash": "CPIJ",
+          "text": "Go to the Kingdom",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 111,
+      "hash": "LJBR",
+      "goals": [
+        {
+          "goal": 152,
+          "hash": "24IC",
+          "text": "Ask the townsfolk about suspicious activity",
+          "kind": "talk"
+        }
+      ]
+    },
+    {
+      "quest": 173,
+      "hash": "KFTR",
+      "goals": [
+        {
+          "goal": 216,
+          "hash": "WHS5",
+          "text": "Go to the Castle Entrance",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 118,
+      "hash": "VM2F",
+      "goals": [
+        {
+          "goal": 159,
+          "hash": "4H62",
+          "text": "Counter the Sorcerer's Plan",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 120,
+      "hash": "DUMP",
+      "goals": [
+        {
+          "goal": 161,
+          "hash": "DN3X",
+          "text": "Travel to the LEGO Center",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 127,
+      "hash": "X9RN",
+      "goals": [
+        {
+          "goal": 168,
+          "hash": "3UX1",
+          "text": "Collect magic crystals at the Quarry",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 112,
+      "hash": "8U4H",
+      "goals": [
+        {
+          "goal": 153,
+          "hash": "VB6T",
+          "text": "Find the Jester at the Ruined Fort",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 113,
+      "hash": "Q5PW",
+      "goals": [
+        {
+          "goal": 154,
+          "hash": "I502",
+          "text": "Confront the Jester about the stolen Crown",
+          "kind": "talk"
+        }
+      ]
+    },
+    {
+      "quest": 114,
+      "hash": "E5HJ",
+      "goals": [
+        {
+          "goal": 155,
+          "hash": "MZD8",
+          "text": "Find the Sorcerer's Tower",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 115,
+      "hash": "VBIG",
+      "goals": [
+        {
+          "goal": 156,
+          "hash": "OEA3",
+          "text": "Ask the Faerie Queen about the Magical Barrier",
+          "kind": "talk"
+        }
+      ]
+    },
+    {
+      "quest": 116,
+      "hash": "F3HG",
+      "goals": [
+        {
+          "goal": 157,
+          "hash": "XOAJ",
+          "text": "Return to the Faerie Queen",
+          "kind": "talk"
+        }
+      ]
+    },
+    {
+      "quest": 117,
+      "hash": "ILDI",
+      "goals": [
+        {
+          "goal": 158,
+          "hash": "WEZY",
+          "text": "Go to the Sorcerer's Keep",
+          "kind": "locate"
+        }
+      ]
+    },
+    {
+      "quest": 188,
+      "hash": "EXK6",
+      "goals": [
+        {
+          "goal": 231,
+          "hash": "5DBM",
+          "text": "Find the Jester",
+          "kind": "locate"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "Story order not known (only the Pirate World's was in the capture): the client's order."
+}

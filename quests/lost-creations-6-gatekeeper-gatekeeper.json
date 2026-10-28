@@ -1,0 +1,42 @@
+{
+  "id": "quest/lost-creations-6-gatekeeper-gatekeeper",
+  "name": "Gatekeeper",
+  "main": 142,
+  "hash": "KDFL",
+  "client_name": "[Lost Creations - 6 - Gatekeeper] Gatekeeper",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 109,
+  "steps": [
+    {
+      "quest": 237,
+      "hash": "5MFY",
+      "goals": [
+        {
+          "goal": 283,
+          "hash": "LYXM",
+          "text": "Reach the exit before the timer runs out",
+          "kind": "trigger"
+        }
+      ]
+    },
+    {
+      "quest": 236,
+      "hash": "I2L6",
+      "goals": [
+        {
+          "goal": 280,
+          "hash": "YPCH",
+          "text": "Defeat the Gatekeeper",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Gatekeeper"]
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

@@ -1,0 +1,39 @@
+{
+  "id": "quest/medieval-1-kingdom-disrupt-the-troll-siege",
+  "name": "Disrupt the Troll siege",
+  "main": 73,
+  "hash": "FEE1",
+  "client_name": "[Medieval 1 - Kingdom] Disrupt the Troll siege",
+  "kind": "area",
+  "world": "world/kingdom",
+  "area": "area/5200/quest-siege",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 45,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 97,
+      "hash": "L32O",
+      "goals": [
+        {
+          "goal": 138,
+          "hash": "OQN0",
+          "text": "Disrupt the Troll siege",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [117.9, 8.1, 114.9],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

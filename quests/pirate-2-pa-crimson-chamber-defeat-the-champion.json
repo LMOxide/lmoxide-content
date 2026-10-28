@@ -1,0 +1,37 @@
+{
+  "id": "quest/pirate-2-pa-crimson-chamber-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 151,
+  "hash": "KQIF",
+  "client_name": "[Pirate 2 - PA - Crimson Chamber] Defeat the champion",
+  "kind": "area",
+  "world": "world/crimson-chamber",
+  "area": "area/1633/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 117,
+  "rewards": [
+    [584677, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 251,
+      "hash": "E2KT",
+      "goals": [
+        {
+          "goal": 302,
+          "hash": "YHIZ",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [155.0, 56.5, 118.6],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

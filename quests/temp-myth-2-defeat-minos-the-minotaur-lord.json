@@ -1,0 +1,26 @@
+{
+  "id": "quest/temp-myth-2-defeat-minos-the-minotaur-lord",
+  "name": "Defeat Minos the minotaur lord",
+  "main": 22,
+  "hash": "M3NT",
+  "client_name": "[temp Myth 2] Defeat Minos the minotaur lord",
+  "kind": "test",
+  "steps": [
+    {
+      "quest": 34,
+      "hash": "JXOK",
+      "description": "Minos and his minotaurs have taken control over this ancient temple. Defeat Minos to weaken the moral among the minotaurs.",
+      "goals": [
+        {
+          "goal": 67,
+          "hash": "LSFX",
+          "text": "Defeat Minos the minotaur lord",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Minos the minotaur lord"]
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

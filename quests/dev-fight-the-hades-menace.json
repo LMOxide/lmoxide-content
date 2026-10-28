@@ -1,0 +1,43 @@
+{
+  "id": "quest/dev-fight-the-hades-menace",
+  "name": "Fight the Hades Menace",
+  "main": 18,
+  "hash": "DEU7",
+  "client_name": "[DEV] Fight the Hades Menace",
+  "kind": "test",
+  "steps": [
+    {
+      "quest": 30,
+      "hash": "QEXM",
+      "task": "Build Protective Mirrors",
+      "goals": [
+        {
+          "goal": 62,
+          "hash": "42UH",
+          "text": "Defeat Minotaurs",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Minotaurs"]
+        },
+        {
+          "goal": 63,
+          "hash": "F7R6",
+          "text": "Defeat Cyclops",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Cyclops"]
+        },
+        {
+          "goal": 61,
+          "hash": "1AH4",
+          "text": "Build Protective Mirrors",
+          "kind": "trigger",
+          "counts": "builds",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

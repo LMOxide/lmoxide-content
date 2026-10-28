@@ -1,0 +1,27 @@
+{
+  "id": "quest/dev-area-quest-test",
+  "name": "Area Quest Test",
+  "main": 10,
+  "hash": "IF4G",
+  "client_name": "[DEV] Area Quest Test",
+  "kind": "test",
+  "steps": [
+    {
+      "quest": 17,
+      "hash": "GP84",
+      "task": "Clean the area",
+      "description": "Clean the area description",
+      "goals": [
+        {
+          "goal": 23,
+          "hash": "QIPT",
+          "text": "Destroy Characters",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Characters"]
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

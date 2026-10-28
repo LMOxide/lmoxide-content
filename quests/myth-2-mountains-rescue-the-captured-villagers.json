@@ -1,0 +1,36 @@
+{
+  "id": "quest/myth-2-mountains-rescue-the-captured-villagers",
+  "name": "Rescue the captured villagers",
+  "main": 19,
+  "hash": "R028",
+  "client_name": "[Myth 2 - Mountains] Rescue the captured villagers",
+  "kind": "area",
+  "world": "world/mythology-mountains",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 3,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 31,
+      "hash": "UCM1",
+      "task": "Defeat harpies and satyrs",
+      "goals": [
+        {
+          "goal": 64,
+          "hash": "KP1P",
+          "text": "Rescue the captured villagers",
+          "kind": "trigger",
+          "counts": "smashes",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

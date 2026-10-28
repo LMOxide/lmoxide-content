@@ -235,6 +235,17 @@
       "prefix": "achievement/",
       "schema": "achievement.schema.json",
       "title": "Achievement"
+    },
+    {
+      "description": "A main quest (the client's quest giver list, RDB 1000104): a world's story line or an\narea quest, its quests in order (`steps`) and their goals: `quests/<slug>.json`.",
+      "kind": "quest",
+      "list": ["kind", "world", "area"],
+      "path": "quests/",
+      "per_world": false,
+      "plural": "Quests",
+      "prefix": "quest/",
+      "schema": "quest.schema.json",
+      "title": "Quest"
     }
   ]
 }

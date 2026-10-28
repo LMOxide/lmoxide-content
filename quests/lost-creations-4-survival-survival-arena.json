@@ -1,0 +1,43 @@
+{
+  "id": "quest/lost-creations-4-survival-survival-arena",
+  "name": "Survival Arena",
+  "main": 140,
+  "hash": "9P97",
+  "client_name": "[Lost Creations - 4 - Survival] Survival Arena",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 108,
+  "steps": [
+    {
+      "quest": 234,
+      "hash": "YV7G",
+      "goals": [
+        {
+          "goal": 278,
+          "hash": "DAQH",
+          "text": "Survive the assault to unlock the next level",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "quest": 241,
+      "hash": "ZS1K",
+      "goals": [
+        {
+          "goal": 291,
+          "hash": "1LXI",
+          "text": "Reach the exit before the timer runs out",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

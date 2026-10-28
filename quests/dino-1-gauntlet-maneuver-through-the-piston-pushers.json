@@ -1,0 +1,33 @@
+{
+  "id": "quest/dino-1-gauntlet-maneuver-through-the-piston-pushers",
+  "name": "Maneuver through the piston pushers",
+  "main": 131,
+  "hash": "E6TM",
+  "client_name": "[Dino 1 - Gauntlet] Maneuver through the piston pushers",
+  "kind": "area",
+  "world": "world/gauntlet",
+  "area": "area/6300/quest-dodgeroom",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 97,
+  "steps": [
+    {
+      "quest": 220,
+      "hash": "YFKC",
+      "goals": [
+        {
+          "goal": 263,
+          "hash": "0R13",
+          "text": "Maneuver through the piston pushers",
+          "kind": "trigger",
+          "marker": {
+            "pos": [351.1, 45.3, 182.6],
+            "radius": 35.1
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate", "todo"]
+}

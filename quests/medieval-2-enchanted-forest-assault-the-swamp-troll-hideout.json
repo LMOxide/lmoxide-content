@@ -1,0 +1,39 @@
+{
+  "id": "quest/medieval-2-enchanted-forest-assault-the-swamp-troll-hideout",
+  "name": "Assault the Swamp Troll Hideout",
+  "main": 72,
+  "hash": "IIJX",
+  "client_name": "[Medieval 2 - Enchanted Forest] Assault the Swamp Troll Hideout",
+  "kind": "area",
+  "world": "world/enchanted-forest",
+  "area": "area/5210/quest-trollvillage",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 55,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 107,
+      "hash": "32C6",
+      "goals": [
+        {
+          "goal": 148,
+          "hash": "JMEW",
+          "text": "Assault the Swamp Troll Hideout",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [441.8, 39.5, 234.6],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "quest/pirate-1-isle-of-yarr-help-the-scientist-collect-golden-bananas",
+  "name": "Help the Scientist collect Golden Bananas",
+  "main": 114,
+  "hash": "I4AP",
+  "client_name": "[Pirate 1 - Isle of Yarr]Help the Scientist collect Golden Bananas",
+  "kind": "area",
+  "world": "world/isle-of-yarr",
+  "area": "area/4200/quest-scientist",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 86,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 189,
+      "hash": "ZURX",
+      "goals": [
+        {
+          "goal": 232,
+          "hash": "Y05P",
+          "text": "Help the Scientist collect Golden Bananas",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [371.3, 69.4, 402.9],
+            "radius": 25.9
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

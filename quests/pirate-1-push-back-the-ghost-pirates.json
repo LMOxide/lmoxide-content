@@ -1,0 +1,40 @@
+{
+  "id": "quest/pirate-1-push-back-the-ghost-pirates",
+  "name": "Push back the Ghost Pirates",
+  "main": 43,
+  "hash": "JTLE",
+  "client_name": "[Pirate 1] Push back the Ghost Pirates",
+  "kind": "area",
+  "world": "world/isle-of-yarr",
+  "area": "area/4200/quest-treasurehunt",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 15,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 57,
+      "hash": "TLIQ",
+      "task": "Recover the pirate treasures",
+      "goals": [
+        {
+          "goal": 95,
+          "hash": "EE0N",
+          "text": "Push back the Ghost Pirates",
+          "kind": "trigger",
+          "counts": "kills",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [446.2, 62.9, 252.5],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

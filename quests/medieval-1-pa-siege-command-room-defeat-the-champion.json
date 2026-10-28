@@ -1,0 +1,34 @@
+{
+  "id": "quest/medieval-1-pa-siege-command-room-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 153,
+  "hash": "ZHGW",
+  "client_name": "[Medieval 1 - PA - Siege Command Room] Defeat the champion",
+  "kind": "area",
+  "world": "world/siege-command-room",
+  "area": "area/1673/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 119,
+  "steps": [
+    {
+      "quest": 253,
+      "hash": "7YFR",
+      "goals": [
+        {
+          "goal": 304,
+          "hash": "WRAZ",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [243.4, 14.0, 273.1],
+            "radius": 55.2
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

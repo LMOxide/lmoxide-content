@@ -1,0 +1,39 @@
+{
+  "id": "quest/space-2-alien-world-gather-research-data-within-the-swamp",
+  "name": "Gather research data within the Swamp",
+  "main": 94,
+  "hash": "E45H",
+  "client_name": "[Space 2 - Alien World] Gather research data within the Swamp",
+  "kind": "area",
+  "world": "world/planet-s-dark-side",
+  "area": "area/3210/quest-swamp",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 67,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 134,
+      "hash": "5Z6K",
+      "goals": [
+        {
+          "goal": 175,
+          "hash": "LT6M",
+          "text": "Gather research data within the Swamp",
+          "kind": "trigger",
+          "counts": "kills_or_smashes",
+          "count": 3,
+          "max": 100,
+          "marker": {
+            "pos": [59.5, 492.1, 108.1],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

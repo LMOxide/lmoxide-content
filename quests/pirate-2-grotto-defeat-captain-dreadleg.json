@@ -1,0 +1,35 @@
+{
+  "id": "quest/pirate-2-grotto-defeat-captain-dreadleg",
+  "name": "Defeat Captain Dreadleg",
+  "main": 56,
+  "hash": "FWRP",
+  "client_name": "[Pirate 2 - Grotto] Defeat Captain Dreadleg",
+  "kind": "area",
+  "world": "world/pirate-grotto",
+  "area": "area/4310/quest-boss",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 33,
+  "steps": [
+    {
+      "quest": 70,
+      "hash": "R20N",
+      "goals": [
+        {
+          "goal": 108,
+          "hash": "OA99",
+          "text": "Defeat Captain Dreadleg",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Captain Dreadleg"],
+          "marker": {
+            "pos": [378.4, 52.0, 149.8],
+            "radius": 33.3
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

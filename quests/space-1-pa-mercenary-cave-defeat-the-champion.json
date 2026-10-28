@@ -1,0 +1,34 @@
+{
+  "id": "quest/space-1-pa-mercenary-cave-defeat-the-champion",
+  "name": "Defeat the champion",
+  "main": 161,
+  "hash": "8ERU",
+  "client_name": "[Space 1 - PA - Mercenary Cave] Defeat the champion",
+  "kind": "area",
+  "world": "world/mercenary-cave",
+  "area": "area/1600/quest-micro",
+  "repeatable": true,
+  "cooldown": "82800s",
+  "cooldown_id": 127,
+  "steps": [
+    {
+      "quest": 261,
+      "hash": "SKAF",
+      "goals": [
+        {
+          "goal": 312,
+          "hash": "ALX2",
+          "text": "Defeat the champion",
+          "kind": "defeat",
+          "counts": "champions",
+          "marker": {
+            "pos": [286.0, 15.0, 251.0],
+            "radius": 60.0
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

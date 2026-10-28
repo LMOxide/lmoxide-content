@@ -1,0 +1,21 @@
+{
+  "areas": [
+    {
+      "id": "area/1302/quest-tutorial",
+      "name": "Quest_Tutorial",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [319.73, 250.26],
+            [348.75, 249.61],
+            [352.87, 287.17],
+            [315.04, 288.17]
+          ],
+          "heights": [28.043957, 38.043957]
+        }
+      },
+      "source": "client"
+    }
+  ]
+}

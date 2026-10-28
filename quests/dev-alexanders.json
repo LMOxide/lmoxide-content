@@ -1,0 +1,24 @@
+{
+  "id": "quest/dev-alexanders",
+  "name": "ALEXANDERS",
+  "main": 11,
+  "hash": "CW72",
+  "client_name": "[DEV] ALEXANDERS",
+  "kind": "test",
+  "steps": [
+    {
+      "quest": 18,
+      "hash": "4ZM9",
+      "task": "TASK NAME",
+      "description": "TASK DESC",
+      "goals": [
+        {
+          "goal": 18,
+          "hash": "FRW6",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

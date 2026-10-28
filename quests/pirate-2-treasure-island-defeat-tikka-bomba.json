@@ -1,0 +1,38 @@
+{
+  "id": "quest/pirate-2-treasure-island-defeat-tikka-bomba",
+  "name": "Defeat Tikka Bomba",
+  "main": 59,
+  "hash": "EHTR",
+  "client_name": "[Pirate 2 - Treasure Island] Defeat Tikka Bomba",
+  "kind": "area",
+  "world": "world/treasure-island",
+  "area": "area/4500/quest-krakenworship",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 19,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 73,
+      "hash": "O33K",
+      "goals": [
+        {
+          "goal": 111,
+          "hash": "G2BQ",
+          "text": "Defeat Tikka Bomba",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Tikka Bomba"],
+          "marker": {
+            "pos": [129.0, 111.5, 214.6],
+            "radius": 35.5
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

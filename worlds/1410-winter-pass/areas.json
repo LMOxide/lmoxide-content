@@ -35,6 +35,23 @@
       },
       "doors": {},
       "source": "client"
+    },
+    {
+      "id": "area/1410/quest-crunch",
+      "name": "Quest_Crunch",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [312.8, 141.47],
+            [336.98, 140.41],
+            [336.48, 171.16],
+            [312.73, 168.25]
+          ],
+          "heights": [93.746475, 103.746475]
+        }
+      },
+      "source": "client"
     }
   ]
 }

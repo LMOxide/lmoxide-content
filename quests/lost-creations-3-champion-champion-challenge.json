@@ -1,0 +1,43 @@
+{
+  "id": "quest/lost-creations-3-champion-champion-challenge",
+  "name": "Champion Challenge",
+  "main": 139,
+  "hash": "8VRO",
+  "client_name": "[Lost Creations - 3 - Champion] Champion Challenge",
+  "kind": "area",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "steps": [
+    {
+      "quest": 233,
+      "hash": "R4F5",
+      "description": "Defeat the 3 Champions before time runs out.",
+      "goals": [
+        {
+          "goal": 277,
+          "hash": "P33W",
+          "text": "Defeat 3 Champions to unlock the next level",
+          "kind": "defeat",
+          "counts": "champions",
+          "count": 3,
+          "max": 100
+        }
+      ]
+    },
+    {
+      "quest": 240,
+      "hash": "QWS0",
+      "goals": [
+        {
+          "goal": 289,
+          "hash": "SLBC",
+          "text": "Reach the exit before the timer runs out",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client",
+  "tags": ["todo"],
+  "comment": "No Quest_* area matched: not started by the server."
+}

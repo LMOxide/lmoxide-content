@@ -1,0 +1,27 @@
+{
+  "id": "quest/dev-christianh-quest-reward-test",
+  "name": "ChristianH Quest Reward Test",
+  "main": 32,
+  "hash": "QBDR",
+  "client_name": "[DEV] ChristianH Quest Reward Test",
+  "kind": "test",
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 46,
+      "hash": "XCL1",
+      "task": "Quest Reward Test",
+      "description": "Test",
+      "goals": [
+        {
+          "goal": 83,
+          "hash": "43NI",
+          "kind": "trigger"
+        }
+      ]
+    }
+  ],
+  "source": "client"
+}

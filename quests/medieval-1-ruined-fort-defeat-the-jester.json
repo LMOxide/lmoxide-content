@@ -1,0 +1,35 @@
+{
+  "id": "quest/medieval-1-ruined-fort-defeat-the-jester",
+  "name": "Defeat the Jester",
+  "main": 81,
+  "hash": "WHGC",
+  "client_name": "[Medieval 1 - Ruined Fort] Defeat the Jester",
+  "kind": "area",
+  "world": "world/ruined-fort",
+  "area": "area/5300/quest-boss",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 48,
+  "steps": [
+    {
+      "quest": 100,
+      "hash": "VYL4",
+      "goals": [
+        {
+          "goal": 141,
+          "hash": "2EI7",
+          "text": "Defeat the Jester",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Jester"],
+          "marker": {
+            "pos": [348.3, 48.6, 308.3],
+            "radius": 17.7
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}

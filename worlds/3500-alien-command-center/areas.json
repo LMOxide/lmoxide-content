@@ -103,6 +103,91 @@
         "exit": [365829]
       },
       "source": "client"
+    },
+    {
+      "id": "area/3500/quest-firstencounter",
+      "name": "Quest_FirstEncounter",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [72.16, 191.97],
+            [96.22, 191.81],
+            [96.22, 224.86],
+            [71.17, 224.58]
+          ],
+          "heights": [71.91802, 81.91802]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3500/quest-overlord",
+      "name": "Quest_Overlord",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [148.15, 227.67],
+            [172.2, 227.51],
+            [172.2, 260.56],
+            [147.16, 260.28]
+          ],
+          "heights": [80.122894, 90.122894]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3500/quest-crystallab",
+      "name": "Quest_CrystalLab",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [204.11, 223.34],
+            [275.17, 223.19],
+            [278.46, 296.8],
+            [202.6, 296.21]
+          ],
+          "heights": [77.22494, 87.22494]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3500/quest-ufo",
+      "name": "Quest_UFO",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [314.55, 232.07],
+            [338.6, 232.2],
+            [338.6, 255.98],
+            [313.56, 255.69]
+          ],
+          "heights": [89.78576, 99.78576]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/3500/quest-boss",
+      "name": "Quest_Boss",
+      "role": "quest",
+      "shape": {
+        "polygon": {
+          "points": [
+            [306.61, 414.23],
+            [325.25, 394.92],
+            [345.4, 413.58],
+            [328.54, 434.14]
+          ],
+          "heights": [109.45019, 119.45019]
+        }
+      },
+      "source": "client"
     }
   ]
 }

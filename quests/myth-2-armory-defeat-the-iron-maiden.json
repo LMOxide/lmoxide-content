@@ -1,0 +1,38 @@
+{
+  "id": "quest/myth-2-armory-defeat-the-iron-maiden",
+  "name": "Defeat the Iron Maiden",
+  "main": 119,
+  "hash": "5YL0",
+  "client_name": "[Myth 2 - Armory] Defeat the Iron Maiden",
+  "kind": "area",
+  "world": "world/armory",
+  "area": "area/2310/quest-sawevent",
+  "repeatable": true,
+  "cooldown": "3600s",
+  "cooldown_id": 89,
+  "rewards": [
+    [160904, 30046]
+  ],
+  "steps": [
+    {
+      "quest": 204,
+      "hash": "WWWU",
+      "goals": [
+        {
+          "goal": 247,
+          "hash": "7RKD",
+          "text": "Defeat the Iron Maiden",
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Iron Maiden"],
+          "marker": {
+            "pos": [209.5, 36.2, 371.5],
+            "radius": 27.9
+          }
+        }
+      ]
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"]
+}
