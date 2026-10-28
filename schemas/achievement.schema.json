@@ -4,6 +4,10 @@
       "additionalProperties": false,
       "description": "A smash or collect rule a world editor added to an achievement.",
       "properties": {
+        "comment": {
+          "description": "What the editor who made the rule noted.",
+          "type": "string"
+        },
         "enemies": {
           "description": "Enemy names (`@category` for a category's).",
           "items": {
