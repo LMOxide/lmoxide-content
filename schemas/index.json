@@ -17,6 +17,12 @@
       "name": "texts",
       "path": "texts.json",
       "schema": "texts.schema.json"
+    },
+    {
+      "description": "The features records can belong to beyond live, feature and other: titles, comments, what each was copied from",
+      "name": "features",
+      "path": "features.json",
+      "schema": "features.schema.json"
     }
   ],
   "format": 1,

@@ -1,0 +1,55 @@
+{
+  "$defs": {
+    "Feature": {
+      "properties": {
+        "author": {
+          "default": "",
+          "type": "string"
+        },
+        "comment": {
+          "type": "string"
+        },
+        "copied_from": {
+          "description": "The feature it was copied from.",
+          "type": ["string", "null"]
+        },
+        "id": {
+          "description": "`feature/christmas-event/2026`: lowercase letters, digits and `-`, parts joined by `/`.",
+          "type": "string"
+        },
+        "title": {
+          "default": "",
+          "description": "\"2026\" (the last part's title; the path's titles come from the parents).",
+          "type": "string"
+        },
+        "updated": {
+          "default": 0,
+          "format": "uint64",
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": ["id"],
+      "type": "object"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "description": "`features.json` (the content tree's; formerly in a set's folder): the features beyond the\ncategories.",
+  "properties": {
+    "features": {
+      "default": [],
+      "items": {
+        "$ref": "#/$defs/Feature"
+      },
+      "type": "array"
+    },
+    "format": {
+      "format": "uint32",
+      "minimum": 0,
+      "type": "integer"
+    }
+  },
+  "required": ["format"],
+  "title": "FeaturesFile",
+  "type": "object"
+}
