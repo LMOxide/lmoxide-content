@@ -9,7 +9,8 @@
   },
   "loot": {
     "share_range": 60.0,
-    "bag_lifetime": "60s",
+    "bag_lifetime": "240s",
+    "bag_public_after": "90s",
     "bag_template": 1209,
     "bag_dynel_type": 51322,
     "bag_interaction_radius": 50,
@@ -32,9 +33,10 @@
     }
   },
   "npc": {
-    "regen_delay": "5s",
+    "regen_delay": "10s",
     "regen_tick": "1s",
-    "regen_share": "5%"
+    "regen_share": "5%",
+    "regen_share_in_combat": "0.5%"
   },
   "progression": {
     "minifigure_xp": {

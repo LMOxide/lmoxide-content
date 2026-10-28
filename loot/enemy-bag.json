@@ -1,0 +1,73 @@
+{
+  "id": "loot/enemy-bag",
+  "name": "Enemy bag",
+  "rolls": 1,
+  "entries": [
+    {
+      "weight": 70,
+      "drop": {
+        "stars": 1
+      }
+    },
+    {
+      "weight": 23,
+      "drop": {
+        "stars": 2
+      }
+    },
+    {
+      "weight": 7,
+      "drop": {
+        "stars": 3
+      }
+    },
+    {
+      "chance": "31%",
+      "drop": {
+        "hearts": 1
+      },
+      "when": {
+        "bonus_stat": "orb_chance"
+      }
+    },
+    {
+      "chance": "0.5%",
+      "drop": {
+        "potions": 1
+      }
+    },
+    {
+      "chance": "0.5%",
+      "drop": {
+        "minifig_parts": {
+          "from": "world",
+          "count": 1
+        }
+      }
+    },
+    {
+      "chance": "0.1%",
+      "drop": {
+        "minifig_bags": {
+          "from": "world",
+          "count": 1
+        }
+      }
+    },
+    {
+      "chance": "0.5%",
+      "drop": {
+        "items": ["item/25-minifigure-xp"]
+      }
+    },
+    {
+      "chance": "0.1%",
+      "drop": {
+        "items": ["item/100-minifigure-xp"]
+      }
+    }
+  ],
+  "source": "live",
+  "tags": ["approximate"],
+  "comment": "A regular enemy's bag: 1-3 single stars (live small bags: 1 star 150, 2 stars 50, 3 stars 12), a health orb in about 31%. Potions, parts, minifigure bags and star bundles: none in 249 live kills, so small chances, not 0. Rates from the live capture (LMO_Captures.cap 2016, research/live-capture-findings-2026-10-27.md, docs/TUNABLES.md)."
+}

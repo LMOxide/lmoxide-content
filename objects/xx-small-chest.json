@@ -8,7 +8,7 @@
   },
   "level": 1,
   "health": 20,
-  "loot": "loot/smashable",
+  "loot": "loot/smashable-chest",
   "client": {
     "dynel_type": 51321,
     "loot_table": 201

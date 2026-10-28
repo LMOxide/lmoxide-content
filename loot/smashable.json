@@ -4,32 +4,14 @@
   "rolls": 1,
   "entries": [
     {
+      "chance": "71%",
       "drop": {
-        "stars": [1, 2]
-      }
-    },
-    {
-      "chance": "2%",
-      "drop": {
-        "items": ["item/25-minifigure-xp"]
-      }
-    },
-    {
-      "chance": "3%",
-      "drop": {
-        "potions": 1
-      }
-    },
-    {
-      "chance": "4%",
-      "drop": {
-        "minifig_parts": {
-          "from": "world",
-          "count": 1
-        }
-      }
+        "table": "loot/smashable-bag"
+      },
+      "comment": "live: a bag from 69-73% of 215 smashes"
     }
   ],
-  "source": "server",
-  "comment": "loot.rs roll(): stars as recorded (smashables 1-2, enemies 3), the rest proposed (docs/TUNABLES.md)."
+  "source": "live",
+  "tags": ["approximate"],
+  "comment": "Whether a smashable drops a bag; what is in it: loot/smashable-bag (chests and cages: loot/smashable-chest). Rates from the live capture (LMO_Captures.cap 2016, research/live-capture-findings-2026-10-27.md, docs/TUNABLES.md)."
 }

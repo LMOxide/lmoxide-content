@@ -62,6 +62,10 @@
         "bag_lifetime": {
           "$ref": "#/$defs/Duration"
         },
+        "bag_public_after": {
+          "$ref": "#/$defs/Duration",
+          "description": "A bag nobody has looted from opens to every player after this long."
+        },
         "bag_template": {
           "format": "uint32",
           "minimum": 0,
@@ -90,6 +94,7 @@
       "required": [
         "share_range",
         "bag_lifetime",
+        "bag_public_after",
         "bag_template",
         "bag_dynel_type",
         "bag_interaction_radius",
@@ -122,17 +127,21 @@
       "properties": {
         "regen_delay": {
           "$ref": "#/$defs/Duration",
-          "description": "Out of combat for this long before health comes back."
+          "description": "Out of combat this long after the last hit taken, enemy attack or damage dealt to an\nenemy before health comes back at `regen_share`."
         },
         "regen_share": {
           "$ref": "#/$defs/Ratio",
-          "description": "Share of maximum health per tick."
+          "description": "Share of maximum health per tick out of combat (rounded down)."
+        },
+        "regen_share_in_combat": {
+          "$ref": "#/$defs/Ratio",
+          "description": "Share of maximum health per tick in combat (rounded down)."
         },
         "regen_tick": {
           "$ref": "#/$defs/Duration"
         }
       },
-      "required": ["regen_delay", "regen_tick", "regen_share"],
+      "required": ["regen_delay", "regen_tick", "regen_share", "regen_share_in_combat"],
       "type": "object"
     },
     "Progression": {

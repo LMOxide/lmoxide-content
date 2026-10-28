@@ -1,0 +1,25 @@
+{
+  "id": "loot/smashable-chest",
+  "name": "Smashable chest or cage",
+  "rolls": 1,
+  "entries": [
+    {
+      "drop": {
+        "stars": [4, 5],
+        "hearts": 1
+      }
+    },
+    {
+      "chance": "0.5%",
+      "drop": {
+        "minifig_parts": {
+          "from": "world",
+          "count": 1
+        }
+      }
+    }
+  ],
+  "source": "live",
+  "tags": ["approximate"],
+  "comment": "Smashable chests and cages always dropped a health orb and 4-5 stars on live. Parts: none seen, so a small chance. from the live capture (LMO_Captures.cap 2016, research/live-capture-findings-2026-10-27.md, docs/TUNABLES.md)."
+}

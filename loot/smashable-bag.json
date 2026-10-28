@@ -1,0 +1,52 @@
+{
+  "id": "loot/smashable-bag",
+  "name": "Smashable bag",
+  "rolls": 1,
+  "entries": [
+    {
+      "weight": 75,
+      "drop": {
+        "stars": 1
+      }
+    },
+    {
+      "weight": 25,
+      "drop": {
+        "stars": 2
+      }
+    },
+    {
+      "chance": "26%",
+      "drop": {
+        "hearts": 1
+      },
+      "when": {
+        "bonus_stat": "orb_chance"
+      }
+    },
+    {
+      "chance": "0.3%",
+      "drop": {
+        "potions": 1
+      }
+    },
+    {
+      "chance": "0.3%",
+      "drop": {
+        "minifig_parts": {
+          "from": "world",
+          "count": 1
+        }
+      }
+    },
+    {
+      "chance": "0.3%",
+      "drop": {
+        "items": ["item/25-minifigure-xp"]
+      }
+    }
+  ],
+  "source": "live",
+  "tags": ["approximate"],
+  "comment": "A smashable's bag: 1-2 single stars, a health orb in about 26%. Potions, parts and star bundles: none in 215 live smashes, so small chances, not 0. Rates from the live capture (LMO_Captures.cap 2016, research/live-capture-findings-2026-10-27.md, docs/TUNABLES.md)."
+}

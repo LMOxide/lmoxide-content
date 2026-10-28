@@ -5,30 +5,46 @@
   "entries": [
     {
       "drop": {
-        "stars": 5
+        "stars": [10, 11]
       }
     },
     {
+      "weight": 3,
       "drop": {
-        "items": ["item/100-minifigure-xp"]
+        "items": ["item/25-minifigure-xp", "item/25-minifigure-xp", "item/25-minifigure-xp"]
       }
     },
     {
-      "chance": "30%",
+      "weight": 1,
       "drop": {
-        "items": ["item/250-minifigure-xp"]
+        "items": ["item/25-minifigure-xp", "item/25-minifigure-xp", "item/25-minifigure-xp", "item/25-minifigure-xp"]
       }
     },
     {
-      "chance": "5%",
+      "weight": 1,
       "drop": {
-        "items": ["item/1000-minifigure-xp"]
+        "items": [
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp"
+        ]
       }
     },
     {
-      "chance": "100%",
+      "weight": 1,
       "drop": {
-        "potions": 1
+        "items": [
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp"
+        ]
       }
     },
     {
@@ -36,20 +52,39 @@
       "drop": {
         "minifig_parts": {
           "from": "world",
-          "count": 3
+          "count": [1, 2]
         }
       }
     },
     {
-      "chance": "50%",
+      "chance": "75%",
+      "drop": {
+        "hearts": 1
+      },
+      "when": {
+        "bonus_stat": "orb_chance"
+      },
+      "comment": "live: usually an orb"
+    },
+    {
+      "chance": "25%",
+      "drop": {
+        "potions": 1
+      },
+      "comment": "live: sometimes a potion"
+    },
+    {
+      "chance": "2%",
       "drop": {
         "minifig_bags": {
           "from": "world",
           "count": 1
         }
-      }
+      },
+      "comment": "none in 4 live chests; a small chance, not 0"
     }
   ],
-  "source": "server",
-  "comment": "loot.rs roll(): stars as recorded (smashables 1-2, enemies 3), the rest proposed (docs/TUNABLES.md)."
+  "source": "live",
+  "tags": ["approximate"],
+  "comment": "A Member Super Chest: 75-185 stars on live (10-11 single stars and three to seven 25-star bundles), 1-2 parts of that world, usually an orb, sometimes a potion (4 opened). Rates from the live capture (LMO_Captures.cap 2016, research/live-capture-findings-2026-10-27.md, docs/TUNABLES.md)."
 }

@@ -5,60 +5,41 @@
   "entries": [
     {
       "drop": {
-        "stars": 10
-      }
-    },
-    {
-      "drop": {
-        "items": ["item/100-minifigure-xp"]
-      }
-    },
-    {
-      "chance": "25%",
-      "drop": {
-        "items": ["item/250-minifigure-xp"]
-      }
-    },
-    {
-      "chance": "5%",
-      "drop": {
-        "items": ["item/1000-minifigure-xp"]
-      }
-    },
-    {
-      "chance": "100%",
-      "drop": {
+        "stars": 2,
         "hearts": 1
       },
+      "comment": "live: a small bag of 2 stars and a health orb"
+    },
+    {
+      "chance": "85%",
+      "drop": {
+        "chest": ["item/member-super-chest"]
+      },
       "when": {
-        "bonus_stat": "orb_chance"
-      }
+        "members_only": true
+      },
+      "comment": "live: usually a Member Super Chest (most of 8 boss bags)"
     },
     {
-      "chance": "100%",
-      "drop": {
-        "potions": 1
-      }
-    },
-    {
-      "chance": "100%",
-      "drop": {
-        "minifig_parts": {
-          "from": "world",
-          "count": 2
-        }
-      }
-    },
-    {
-      "chance": "40%",
+      "chance": "10%",
       "drop": {
         "minifig_bags": {
           "from": "world",
           "count": 1
         }
-      }
+      },
+      "comment": "live: once in 8 boss bags"
     },
     {
+      "chance": "10%",
+      "drop": {
+        "potions": 1,
+        "items": ["item/25-minifigure-xp"]
+      },
+      "comment": "live: the Jail Warden's bag had a potion and a 25-star bundle"
+    },
+    {
+      "chance": "2%",
       "drop": {
         "chest": [
           "item/super-chest",
@@ -70,17 +51,20 @@
           "item/super-chest-580944"
         ]
       },
-      "comment": "a free and a member chest side by side, as live placed them"
+      "comment": "a free Super Chest: none seen on live, so a small chance"
     },
     {
+      "chance": "1%",
       "drop": {
-        "chest": ["item/member-super-chest"]
+        "minifig_parts": {
+          "from": "world",
+          "count": 1
+        }
       },
-      "when": {
-        "members_only": true
-      }
+      "comment": "parts came from the chest on live; a small chance, not 0"
     }
   ],
-  "source": "server",
-  "comment": "loot.rs roll(): stars as recorded (smashables 1-2, enemies 3), the rest proposed (docs/TUNABLES.md)."
+  "source": "live",
+  "tags": ["approximate"],
+  "comment": "A boss's bag. 9 live boss kills, 8 bags. Rates from the live capture (LMO_Captures.cap 2016, research/live-capture-findings-2026-10-27.md, docs/TUNABLES.md)."
 }

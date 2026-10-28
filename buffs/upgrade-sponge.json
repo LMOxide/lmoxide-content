@@ -9,7 +9,7 @@
         "then": [
           {
             "heal": {
-              "amount": "1%",
+              "amount": "0.5%",
               "target": "self"
             }
           }
@@ -17,5 +17,7 @@
       }
     }
   ],
-  "source": "server"
+  "source": "live",
+  "tags": ["approximate"],
+  "comment": "Live capture 2016: +10 per hit on a 1924-health minifigure (about 0.5%); whether live healed a share or a flat amount is unknown."
 }

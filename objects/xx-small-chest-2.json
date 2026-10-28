@@ -10,6 +10,6 @@
   },
   "level": 1,
   "health": 20,
-  "loot": "loot/smashable",
+  "loot": "loot/smashable-chest",
   "source": "client"
 }
