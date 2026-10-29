@@ -387,6 +387,66 @@
       },
       "source": "client",
       "comment": "RDB 1040010:7100 uniqueid 654420 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/7100/buildjumpie-1-target",
+      "name": "Buildjumpie_1_target",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [248.25, 34.0, 78.75]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7100 guid 528650 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7100/jumpie-1-target",
+      "name": "jumpie_1_target",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [279.48, 49.26, 90.99]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7100 guid 521319 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7100/jumpie-2-target",
+      "name": "jumpie_2_target",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [282.58, 62.95, 99.86]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7100 guid 521321 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7100/buildjumpie-3-target",
+      "name": "Buildjumpie_3_target",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [347.25, 62.25, 112.25]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7100 guid 528697 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7100/buildjumpie-4-target",
+      "name": "Buildjumpie_4_target",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [394.25, 70.25, 143.75]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7100 guid 528731 (invisible_monsterdata)"
     }
   ]
 }

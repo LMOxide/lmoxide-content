@@ -19,7 +19,15 @@
   "exit_door": 595129,
   "quest": "quest/lost-creations-4-survival-survival-arena",
   "end_area": "area/7400/end",
+  "variants": [
+    {
+      "id": "monster-lab",
+      "name": "Monster Laboratory (test)",
+      "weight": 0
+    }
+  ],
+  "script": "script/7400/survival",
   "source": "guess",
   "tags": ["approximate", "todo"],
-  "comment": "Start position guessed beside the button (the client has none): check it in game."
+  "comment": "Start position guessed beside the button (the client has none): check it in game. Variant monster-lab is for testing only (weight 0: never picked; `!lc variant monster-lab`): the real variants come from the user's list."
 }

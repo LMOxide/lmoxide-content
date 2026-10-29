@@ -1,0 +1,18 @@
+{
+  "id": "npc/gatekeeper-alien-mindslicer",
+  "extends": "npc/space-alien-mindslicer",
+  "name": "Gatekeeper (Alien Mindslicer)",
+  "kind": "boss",
+  "render": {
+    "monster_data": 386089,
+    "npc_template": 2395,
+    "look": "space_alien_mindslicer"
+  },
+  "level": 15,
+  "stats": {
+    "health": 9198
+  },
+  "source": "surveyed",
+  "tags": ["approximate"],
+  "comment": "A Gatekeeper's Realm variant (user, research/lmoxide-notes/gatekeeper-variants.md): look space_alien_mindslicer 386089. npc_template 2395 is one of the client's 14 \"Gatekeeper\" names (TDB 51000), paired in order (a guess); level 15 and 7x a regular level-15 enemy's life (boss rank) are guesses. Summon/buff skills (adds) not added yet."
+}

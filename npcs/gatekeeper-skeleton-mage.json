@@ -1,0 +1,19 @@
+{
+  "id": "npc/gatekeeper-skeleton-mage",
+  "name": "Gatekeeper (Skeleton Mage)",
+  "kind": "boss",
+  "render": {
+    "monster_data": 101917,
+    "npc_template": 2397,
+    "look": "skeleton_mage"
+  },
+  "level": 15,
+  "stats": {
+    "health": 9198
+  },
+  "attack": "skill/spell-2029",
+  "loot": "loot/enemy",
+  "source": "surveyed",
+  "tags": ["approximate"],
+  "comment": "A Gatekeeper's Realm variant (user, research/lmoxide-notes/gatekeeper-variants.md): look skeleton_mage 101917. npc_template 2397 is one of the client's 14 \"Gatekeeper\" names (TDB 51000), paired in order (a guess); level 15 and 7x a regular level-15 enemy's life (boss rank) are guesses. Summon/buff skills (adds) not added yet."
+}

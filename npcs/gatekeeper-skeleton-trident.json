@@ -1,0 +1,18 @@
+{
+  "id": "npc/gatekeeper-skeleton-trident",
+  "extends": "npc/skeleton-trident",
+  "name": "Gatekeeper (Skeleton Trident)",
+  "kind": "boss",
+  "render": {
+    "monster_data": 99330,
+    "npc_template": 2416,
+    "look": "skeleton_trident"
+  },
+  "level": 15,
+  "stats": {
+    "health": 9198
+  },
+  "source": "surveyed",
+  "tags": ["approximate"],
+  "comment": "A Gatekeeper's Realm variant (user, research/lmoxide-notes/gatekeeper-variants.md): look skeleton_trident 99330. npc_template 2416 is one of the client's 14 \"Gatekeeper\" names (TDB 51000), paired in order (a guess); level 15 and 7x a regular level-15 enemy's life (boss rank) are guesses. Summon/buff skills (adds) not added yet."
+}

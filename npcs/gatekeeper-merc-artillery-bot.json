@@ -1,0 +1,19 @@
+{
+  "id": "npc/gatekeeper-merc-artillery-bot",
+  "name": "Gatekeeper (Merc Artillery Bot)",
+  "kind": "boss",
+  "render": {
+    "monster_data": 359202,
+    "npc_template": 2410,
+    "look": "bot_artillery_merc"
+  },
+  "level": 15,
+  "stats": {
+    "health": 9198
+  },
+  "attack": "skill/spell-2029",
+  "loot": "loot/enemy",
+  "source": "surveyed",
+  "tags": ["approximate"],
+  "comment": "A Gatekeeper's Realm variant (user, research/lmoxide-notes/gatekeeper-variants.md): look bot_artillery_merc 359202. npc_template 2410 is one of the client's 14 \"Gatekeeper\" names (TDB 51000), paired in order (a guess); level 15 and 7x a regular level-15 enemy's life (boss rank) are guesses. Summon/buff skills (adds) not added yet."
+}

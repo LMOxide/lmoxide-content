@@ -395,6 +395,42 @@
       },
       "source": "client",
       "comment": "RDB 1040010:7301 uniqueid 578907 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/7301/jumpie-1-target",
+      "name": "jumpie_1_target",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [280.8, 150.0, 179.05]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7301 guid 547494 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7301/jumpie-2-target",
+      "name": "jumpie_2_target",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [315.43, 129.12, 169.17]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7301 guid 547496 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7301/jumpie-3-target",
+      "name": "jumpie_3_target",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [328.37, 132.66, 199.26]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7301 guid 547498 (invisible_monsterdata)"
     }
   ]
 }

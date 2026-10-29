@@ -93,6 +93,179 @@
         "bounds": [3.4028235e+38, 3.4028235e+38, 3.4028235e+38, -3.4028235e+38, -3.4028235e+38, -3.4028235e+38]
       },
       "source": "client"
+    },
+    {
+      "id": "spawn/7400/monster-lab-w1-nw-1-giant-spider",
+      "kind": "enemy",
+      "template": "npc/giant-spider",
+      "at": "area/7400/nw-1",
+      "count": 2,
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w1"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 1's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monster-lab-w1-ne-1-crimson-leg-crawler",
+      "kind": "enemy",
+      "template": "npc/crimson-leg-crawler",
+      "at": "area/7400/ne-1",
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w1"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 1's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monster-lab-w1-ne-3-harpy-raider",
+      "kind": "enemy",
+      "template": "npc/harpy-raider",
+      "at": "area/7400/ne-3",
+      "count": 2,
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w1"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 1's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monster-lab-w1-se-2-banshee",
+      "kind": "enemy",
+      "template": "npc/banshee",
+      "at": "area/7400/se-2",
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w1"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 1's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monster-lab-w1-se-4-spectre",
+      "kind": "enemy",
+      "template": "npc/spectre",
+      "at": "area/7400/se-4",
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w1"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 1's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monster-lab-w2-nw-2-mantis-nymph",
+      "kind": "enemy",
+      "template": "npc/mantis-nymph",
+      "at": "area/7400/nw-2",
+      "count": 2,
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w2"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 2's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monster-lab-w2-ne-2-forest-treeman",
+      "kind": "enemy",
+      "template": "npc/forest-treeman",
+      "at": "area/7400/ne-2",
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w2"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 2's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monster-lab-w2-se-1-forest-leafling",
+      "kind": "enemy",
+      "template": "npc/forest-leafling",
+      "at": "area/7400/se-1",
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w2"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 2's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monster-lab-w2-se-3-plant-monster",
+      "kind": "enemy",
+      "template": "npc/plant-monster",
+      "at": "area/7400/se-3",
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w2"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 2's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monster-lab-w3-nw-3-skeleton-fighter",
+      "kind": "enemy",
+      "template": "npc/skeleton-fighter",
+      "at": "area/7400/nw-3",
+      "count": 2,
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w3"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 3's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monster-lab-w3-ne-4-shade",
+      "kind": "enemy",
+      "template": "npc/shade",
+      "at": "area/7400/ne-4",
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w3"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 3's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monster-lab-w3-se-1-skeleton-axeman",
+      "kind": "enemy",
+      "template": "npc/skeleton-axeman",
+      "at": "area/7400/se-1",
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w3"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 3's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monster-lab-w3-nw-4-witch",
+      "kind": "enemy",
+      "template": "npc/witch",
+      "at": "area/7400/nw-4",
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w3"
+      },
+      "variants": ["monster-lab"],
+      "source": "live",
+      "comment": "Test variant: live Monster Laboratory (8030) wave 3's enemies, put on Jungle Arena's pads by hand."
     }
   ]
 }

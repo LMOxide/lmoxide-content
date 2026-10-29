@@ -425,6 +425,10 @@
           "type": ["string", "null"],
           "x-lmoxide-ref": ["lc"]
         },
+        "gatekeeper_adds_vanish": {
+          "description": "The Gatekeeper defeated, the enemies its skills summoned go too (unknown on live; the\nuser's guess: they stay and fight on).",
+          "type": "boolean"
+        },
         "gatekeeper_every": {
           "description": "Every this many levels the Gatekeeper's level comes (5, 10, ...), and only then.",
           "format": "uint32",
@@ -488,6 +492,11 @@
           "$ref": "#/$defs/Duration",
           "description": "After the whole team of a player is smashed, before they go to the Treasure Chamber (the\n\"You were smashed!\" splash)."
         },
+        "spawn_spread": {
+          "description": "How far (m) the second and later enemies of a spawn's `count` land from its point, when\nthe point gives no `spread` (live Monster Laboratory: 1.0-1.6 m).",
+          "format": "float",
+          "type": "number"
+        },
         "timer_buff": {
           "description": "The client's buffs: the level timer (the HUD's clock), no equipping, no rebuilds; the\nstart button's arrow.",
           "format": "uint32",
@@ -505,6 +514,16 @@
         "warmup": {
           "$ref": "#/$defs/Duration",
           "description": "The countdown after Start, before the start gate opens."
+        },
+        "wave_particle": {
+          "description": "The pads' spawn particle (live: 542337, blue).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "wave_telegraph": {
+          "$ref": "#/$defs/Duration",
+          "description": "Before a level's wave spawns, each point it uses shows `wave_particle` this long (live\nMonster Laboratory: 2.0 s, then the enemies; the only pause between waves)."
         }
       },
       "required": [
@@ -529,7 +548,11 @@
         "cant_equip_buff",
         "cant_resurrect_buff",
         "button_arrow_buff",
-        "button_effect"
+        "button_effect",
+        "spawn_spread",
+        "wave_telegraph",
+        "wave_particle",
+        "gatekeeper_adds_vanish"
       ],
       "type": "object"
     },
@@ -862,6 +885,7 @@
         "enemy_loot": "",
         "entry_door": 0,
         "entry_world": "",
+        "gatekeeper_adds_vanish": false,
         "gatekeeper_every": 0,
         "invitation_time": "0s",
         "level_time": "0s",
@@ -871,12 +895,15 @@
         "reward_chest_pos": [0.0, 0.0, 0.0],
         "reward_pools": [],
         "smashed_delay": "0s",
+        "spawn_spread": 0.0,
         "timer_buff": 0,
         "treasure_arrival": {
           "pos": [0.0, 0.0, 0.0]
         },
         "treasure_chamber": "",
-        "warmup": "0s"
+        "warmup": "0s",
+        "wave_particle": 0,
+        "wave_telegraph": "0s"
       },
       "description": "The Lost Creations runs (docs/LOST-CREATIONS.md; the levels are `lc` records)."
     },

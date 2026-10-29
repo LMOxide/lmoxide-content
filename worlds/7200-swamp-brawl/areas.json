@@ -445,6 +445,42 @@
       },
       "source": "client",
       "comment": "RDB 1040010:7200 uniqueid 577010 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/7200/invisible-monsterdata-531458",
+      "name": "invisible_monsterdata-531458",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [225.64, 42.99, 267.94]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7200 guid 531458 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7200/invisible-monsterdata-531849",
+      "name": "invisible_monsterdata-531849",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [261.49, 42.99, 257.99]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7200 guid 531849 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7200/invisible-monsterdata-531851",
+      "name": "invisible_monsterdata-531851",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [261.85, 42.99, 302.27]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7200 guid 531851 (invisible_monsterdata)"
     }
   ]
 }

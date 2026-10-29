@@ -274,6 +274,92 @@
       },
       "source": "client",
       "comment": "RDB 1040010:7300 uniqueid 577026 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/7300/jumpie-1-target",
+      "name": "jumpie_1_target",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [259.08, 44.18, 149.92]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7300 guid 532161 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7300/explosive-crate-spell-point",
+      "name": "explosive crate spell point",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [353.88, 56.64, 123.59],
+          "rot": 2.343
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7300 guid 541912 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7300/invisible-monsterdata-532164",
+      "name": "invisible_monsterdata-532164",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [277.36, 44.99, 143.0]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7300 guid 532164 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7300/invisible-monsterdata-532165",
+      "name": "invisible_monsterdata-532165",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [278.69, 44.99, 128.78]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7300 guid 532165 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7300/invisible-monsterdata-532166",
+      "name": "invisible_monsterdata-532166",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [238.15, 36.99, 135.88]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7300 guid 532166 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7300/invisible-monsterdata-532167",
+      "name": "invisible_monsterdata-532167",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [331.25, 56.99, 135.99]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7300 guid 532167 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7300/explosive-crate-spell-point-541916",
+      "name": "explosive crate spell point-541916",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [359.84, 56.64, 127.77],
+          "rot": 1.384
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7300 guid 541916 (invisible_monsterdata)"
     }
   ]
 }

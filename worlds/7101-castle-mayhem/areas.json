@@ -352,6 +352,66 @@
       },
       "source": "client",
       "comment": "RDB 1040010:7101 uniqueid 576962 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/7101/jumpie-1-target",
+      "name": "jumpie_1_target",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [259.08, 44.18, 149.92]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7101 guid 521401 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7101/invisible-monsterdata-521404",
+      "name": "invisible_monsterdata-521404",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [277.36, 44.99, 143.0]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7101 guid 521404 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7101/invisible-monsterdata-521405",
+      "name": "invisible_monsterdata-521405",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [278.69, 44.99, 128.78]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7101 guid 521405 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7101/invisible-monsterdata-521406",
+      "name": "invisible_monsterdata-521406",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [238.15, 36.99, 135.88]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7101 guid 521406 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7101/jumpie-1-target-548647",
+      "name": "jumpie_1_target-548647",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [334.08, 56.0, 134.7]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7101 guid 548647 (invisible_monsterdata)"
     }
   ]
 }

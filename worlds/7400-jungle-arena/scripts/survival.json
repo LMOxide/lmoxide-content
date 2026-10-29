@@ -1,0 +1,28 @@
+{
+  "id": "script/7400/survival",
+  "name": "Survival waves",
+  "waves": [
+    {
+      "id": "w1",
+      "name": "Wave 1"
+    },
+    {
+      "id": "w2",
+      "name": "Wave 2",
+      "trigger": {
+        "wave_cleared": "w1"
+      }
+    },
+    {
+      "id": "w3",
+      "name": "Wave 3",
+      "trigger": {
+        "wave_cleared": "w2"
+      }
+    }
+  ],
+  "reference": "Quest 140 goal 278 \"Survive the assault to unlock the next level\" counts 3 (client): 3 waves. Live Monster Laboratory (8030, same arena): the pads showed particle 542337 for 2.0 s, then the wave came; the next wave came once a wave was down.",
+  "status": "approved",
+  "source": "client",
+  "comment": "Started by lost_creations.rs when the start gate opens. Each wave cleared counts 1 of 3; the third completes the objective. The enemies are per level variant (spawns.json)."
+}

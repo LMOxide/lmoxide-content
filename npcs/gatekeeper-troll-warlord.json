@@ -1,0 +1,18 @@
+{
+  "id": "npc/gatekeeper-troll-warlord",
+  "extends": "npc/troll-warlord",
+  "name": "Gatekeeper (Troll Warlord)",
+  "kind": "boss",
+  "render": {
+    "monster_data": 327846,
+    "npc_template": 2403,
+    "look": "troll_heavy_hitter_war"
+  },
+  "level": 15,
+  "stats": {
+    "health": 9198
+  },
+  "source": "surveyed",
+  "tags": ["approximate"],
+  "comment": "A Gatekeeper's Realm variant (user, research/lmoxide-notes/gatekeeper-variants.md): look troll_heavy_hitter_war 327846. npc_template 2403 is one of the client's 14 \"Gatekeeper\" names (TDB 51000), paired in order (a guess); level 15 and 7x a regular level-15 enemy's life (boss rank) are guesses. Summon/buff skills (adds) not added yet."
+}

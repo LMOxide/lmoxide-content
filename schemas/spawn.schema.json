@@ -227,6 +227,11 @@
       "format": "double",
       "type": ["number", "null"]
     },
+    "at": {
+      "description": "A named point (`area/...` with a `point` shape, a marker) it stands on instead of `pos`:\nits position and facing (the loader fills `pos`, and `rot` when the spawn has none).",
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["area"]
+    },
     "author": {
       "type": "string"
     },
@@ -242,6 +247,12 @@
     },
     "comment": {
       "type": "string"
+    },
+    "count": {
+      "description": "How many spawn here: the first on the spot, the others within the point's `spread`\n(script waves).",
+      "format": "uint32",
+      "minimum": 0,
+      "type": "integer"
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
@@ -290,6 +301,7 @@
       "x-lmoxide-position": true
     },
     "pos": {
+      "description": "Where it stands; with `at`, taken from that point (leave it out).",
       "items": {
         "format": "float",
         "type": "number"
@@ -342,6 +354,7 @@
           "type": "null"
         }
       ],
+      "description": "Facing; none: the point's (`at`), else 0 (north).",
       "x-lmoxide-rotation": true
     },
     "scale": {
@@ -395,7 +408,7 @@
       "description": "Spawned by a script wave instead of with the world."
     }
   },
-  "required": ["id", "kind", "pos"],
+  "required": ["id", "kind"],
   "title": "Spawn",
   "type": "object"
 }

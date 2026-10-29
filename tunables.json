@@ -260,7 +260,11 @@
     "cant_equip_buff": 537723,
     "cant_resurrect_buff": 537829,
     "button_arrow_buff": 577484,
-    "button_effect": 474576
+    "button_effect": 474576,
+    "spawn_spread": 1.5,
+    "wave_telegraph": "2s",
+    "wave_particle": 542337,
+    "gatekeeper_adds_vanish": false
   },
   "health": {
     "potion_heal": "80%",

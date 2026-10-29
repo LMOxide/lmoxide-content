@@ -1,0 +1,14 @@
+{
+  "id": "script/7600/gatekeeper",
+  "name": "The Gatekeeper",
+  "waves": [
+    {
+      "id": "w1",
+      "name": "Gatekeeper"
+    }
+  ],
+  "reference": "User: one random Gatekeeper per level, at 240.0 42.0 277.0 facing west; only its defeat completes quest 142 goal 280.",
+  "status": "approved",
+  "source": "surveyed",
+  "comment": "Started by lost_creations.rs when the start gate opens; one spawn per variant (the level copy's variant picks the Gatekeeper). Its adds come from its own skills and never count."
+}

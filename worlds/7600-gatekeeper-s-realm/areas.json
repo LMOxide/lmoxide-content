@@ -130,6 +130,19 @@
       },
       "source": "client",
       "comment": "RDB 1040010:7600 uniqueid 577056 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/7600/gatekeeper",
+      "name": "Gatekeeper",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [240.0, 42.0, 277.0],
+          "rot": -1.571
+        }
+      },
+      "source": "surveyed",
+      "comment": "Where the Gatekeeper stands, facing west (user, 2026-10-29; the client has no point here)."
     }
   ]
 }

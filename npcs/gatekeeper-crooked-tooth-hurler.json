@@ -1,0 +1,19 @@
+{
+  "id": "npc/gatekeeper-crooked-tooth-hurler",
+  "name": "Gatekeeper (Crooked Tooth Hurler)",
+  "kind": "boss",
+  "render": {
+    "monster_data": 355217,
+    "npc_template": 2391,
+    "look": "medieval_ogre_hurler_ranged_summon_war"
+  },
+  "level": 15,
+  "stats": {
+    "health": 9198
+  },
+  "attack": "skill/spell-2029",
+  "loot": "loot/enemy",
+  "source": "surveyed",
+  "tags": ["approximate"],
+  "comment": "A Gatekeeper's Realm variant (user, research/lmoxide-notes/gatekeeper-variants.md): look medieval_ogre_hurler_ranged_summon_war 355217. npc_template 2391 is one of the client's 14 \"Gatekeeper\" names (TDB 51000), paired in order (a guess); level 15 and 7x a regular level-15 enemy's life (boss rank) are guesses. Summon/buff skills (adds) not added yet."
+}

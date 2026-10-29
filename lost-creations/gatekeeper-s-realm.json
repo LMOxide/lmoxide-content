@@ -19,9 +19,63 @@
   "exit_door": 595131,
   "quest": "quest/lost-creations-6-gatekeeper-gatekeeper",
   "end_area": "area/7600/end",
-  "gatekeeper": {
-    "pos": [239.9, 42.2, 277.1],
-    "rot": -1.571
-  },
+  "variants": [
+    {
+      "id": "forest-treeman",
+      "name": "Forest Treeman",
+      "weight": 1
+    },
+    {
+      "id": "green-drake",
+      "name": "Green Drake",
+      "weight": 1
+    },
+    {
+      "id": "red-drake",
+      "name": "Red Drake",
+      "weight": 1
+    },
+    {
+      "id": "ghost-pirate-grenadier",
+      "name": "Ghost Pirate Grenadier",
+      "weight": 1
+    },
+    {
+      "id": "crooked-tooth-hurler",
+      "name": "Crooked Tooth Hurler",
+      "weight": 1
+    },
+    {
+      "id": "alien-mindslicer",
+      "name": "Alien Mindslicer",
+      "weight": 1
+    },
+    {
+      "id": "skeleton-mage",
+      "name": "Skeleton Mage",
+      "weight": 1
+    },
+    {
+      "id": "troll-warlord",
+      "name": "Troll Warlord",
+      "weight": 1
+    },
+    {
+      "id": "alien-reaper-overlord",
+      "name": "Alien Reaper Overlord",
+      "weight": 1
+    },
+    {
+      "id": "merc-artillery-bot",
+      "name": "Merc Artillery Bot",
+      "weight": 1
+    },
+    {
+      "id": "skeleton-trident",
+      "name": "Skeleton Trident",
+      "weight": 1
+    }
+  ],
+  "script": "script/7600/gatekeeper",
   "source": "server"
 }

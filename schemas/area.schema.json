@@ -493,6 +493,11 @@
         }
       ]
     },
+    "spread": {
+      "description": "A point enemies spawn on (`at`): how far (m) the second and later ones of a spawn's\n`count` land from it; none: tunables `lost_creations.spawn_spread`.",
+      "format": "float",
+      "type": ["number", "null"]
+    },
     "suffix": {
       "type": ["string", "null"]
     },

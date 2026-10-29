@@ -94,6 +94,149 @@
         "bounds": [-0.5, -0.0, -0.567, 0.5, 1.986, 0.565]
       },
       "source": "client"
+    },
+    {
+      "id": "spawn/7600/gatekeeper-forest-treeman",
+      "name": "Gatekeeper",
+      "kind": "enemy",
+      "template": "npc/gatekeeper-forest-treeman",
+      "at": "area/7600/gatekeeper",
+      "wave": {
+        "script": "script/7600/gatekeeper",
+        "wave": "w1"
+      },
+      "variants": ["forest-treeman"],
+      "source": "surveyed"
+    },
+    {
+      "id": "spawn/7600/gatekeeper-green-drake",
+      "name": "Gatekeeper",
+      "kind": "enemy",
+      "template": "npc/gatekeeper-green-drake",
+      "at": "area/7600/gatekeeper",
+      "wave": {
+        "script": "script/7600/gatekeeper",
+        "wave": "w1"
+      },
+      "variants": ["green-drake"],
+      "source": "surveyed"
+    },
+    {
+      "id": "spawn/7600/gatekeeper-red-drake",
+      "name": "Gatekeeper",
+      "kind": "enemy",
+      "template": "npc/gatekeeper-red-drake",
+      "at": "area/7600/gatekeeper",
+      "wave": {
+        "script": "script/7600/gatekeeper",
+        "wave": "w1"
+      },
+      "variants": ["red-drake"],
+      "source": "surveyed"
+    },
+    {
+      "id": "spawn/7600/gatekeeper-ghost-pirate-grenadier",
+      "name": "Gatekeeper",
+      "kind": "enemy",
+      "template": "npc/gatekeeper-ghost-pirate-grenadier",
+      "at": "area/7600/gatekeeper",
+      "wave": {
+        "script": "script/7600/gatekeeper",
+        "wave": "w1"
+      },
+      "variants": ["ghost-pirate-grenadier"],
+      "source": "surveyed"
+    },
+    {
+      "id": "spawn/7600/gatekeeper-crooked-tooth-hurler",
+      "name": "Gatekeeper",
+      "kind": "enemy",
+      "template": "npc/gatekeeper-crooked-tooth-hurler",
+      "at": "area/7600/gatekeeper",
+      "wave": {
+        "script": "script/7600/gatekeeper",
+        "wave": "w1"
+      },
+      "variants": ["crooked-tooth-hurler"],
+      "source": "surveyed"
+    },
+    {
+      "id": "spawn/7600/gatekeeper-alien-mindslicer",
+      "name": "Gatekeeper",
+      "kind": "enemy",
+      "template": "npc/gatekeeper-alien-mindslicer",
+      "at": "area/7600/gatekeeper",
+      "wave": {
+        "script": "script/7600/gatekeeper",
+        "wave": "w1"
+      },
+      "variants": ["alien-mindslicer"],
+      "source": "surveyed"
+    },
+    {
+      "id": "spawn/7600/gatekeeper-skeleton-mage",
+      "name": "Gatekeeper",
+      "kind": "enemy",
+      "template": "npc/gatekeeper-skeleton-mage",
+      "at": "area/7600/gatekeeper",
+      "wave": {
+        "script": "script/7600/gatekeeper",
+        "wave": "w1"
+      },
+      "variants": ["skeleton-mage"],
+      "source": "surveyed"
+    },
+    {
+      "id": "spawn/7600/gatekeeper-troll-warlord",
+      "name": "Gatekeeper",
+      "kind": "enemy",
+      "template": "npc/gatekeeper-troll-warlord",
+      "at": "area/7600/gatekeeper",
+      "wave": {
+        "script": "script/7600/gatekeeper",
+        "wave": "w1"
+      },
+      "variants": ["troll-warlord"],
+      "source": "surveyed"
+    },
+    {
+      "id": "spawn/7600/gatekeeper-alien-reaper-overlord",
+      "name": "Gatekeeper",
+      "kind": "enemy",
+      "template": "npc/gatekeeper-alien-reaper-overlord",
+      "at": "area/7600/gatekeeper",
+      "wave": {
+        "script": "script/7600/gatekeeper",
+        "wave": "w1"
+      },
+      "variants": ["alien-reaper-overlord"],
+      "source": "surveyed"
+    },
+    {
+      "id": "spawn/7600/gatekeeper-merc-artillery-bot",
+      "name": "Gatekeeper",
+      "kind": "enemy",
+      "template": "npc/gatekeeper-merc-artillery-bot",
+      "at": "area/7600/gatekeeper",
+      "wave": {
+        "script": "script/7600/gatekeeper",
+        "wave": "w1"
+      },
+      "variants": ["merc-artillery-bot"],
+      "source": "surveyed"
+    },
+    {
+      "id": "spawn/7600/gatekeeper-skeleton-trident",
+      "name": "Gatekeeper",
+      "kind": "enemy",
+      "template": "npc/gatekeeper-skeleton-trident",
+      "at": "area/7600/gatekeeper",
+      "wave": {
+        "script": "script/7600/gatekeeper",
+        "wave": "w1"
+      },
+      "variants": ["skeleton-trident"],
+      "source": "surveyed"
     }
   ]
 }

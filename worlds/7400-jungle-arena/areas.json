@@ -152,6 +152,225 @@
       },
       "source": "client",
       "comment": "RDB 1040010:7400 uniqueid 578928 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/7400/nw-1",
+      "name": "NW_1",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [234.15, 42.0, 297.23],
+          "rot": 2.882
+        }
+      },
+      "source": "client",
+      "tags": ["approximate"],
+      "comment": "RDB 1000057:7400 guid 537396 (invisible_monsterdata); facing area/7400/center (guess: live's Monster Laboratory pads faced roughly the centre, up to 30° off)"
+    },
+    {
+      "id": "area/7400/nw-2",
+      "name": "NW_2",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [236.69, 42.0, 297.23],
+          "rot": 3.016
+        }
+      },
+      "source": "client",
+      "tags": ["approximate"],
+      "comment": "RDB 1000057:7400 guid 537435 (invisible_monsterdata); facing area/7400/center (guess: live's Monster Laboratory pads faced roughly the centre, up to 30° off)"
+    },
+    {
+      "id": "area/7400/nw-3",
+      "name": "NW_3",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [239.8, 42.0, 297.23],
+          "rot": -3.098
+        }
+      },
+      "source": "client",
+      "tags": ["approximate"],
+      "comment": "RDB 1000057:7400 guid 537436 (invisible_monsterdata); facing area/7400/center (guess: live's Monster Laboratory pads faced roughly the centre, up to 30° off)"
+    },
+    {
+      "id": "area/7400/nw-4",
+      "name": "NW_4",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [242.35, 42.0, 297.23],
+          "rot": -2.96
+        }
+      },
+      "source": "client",
+      "tags": ["approximate"],
+      "comment": "RDB 1000057:7400 guid 537437 (invisible_monsterdata); facing area/7400/center (guess: live's Monster Laboratory pads faced roughly the centre, up to 30° off)"
+    },
+    {
+      "id": "area/7400/ne-1",
+      "name": "NE_1",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [254.1, 42.0, 288.4],
+          "rot": -2.128
+        }
+      },
+      "source": "client",
+      "tags": ["approximate"],
+      "comment": "RDB 1000057:7400 guid 537438 (invisible_monsterdata); facing area/7400/center (guess: live's Monster Laboratory pads faced roughly the centre, up to 30° off)"
+    },
+    {
+      "id": "area/7400/ne-2",
+      "name": "NE_2",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [254.1, 42.0, 285.86],
+          "rot": -1.997
+        }
+      },
+      "source": "client",
+      "tags": ["approximate"],
+      "comment": "RDB 1000057:7400 guid 537439 (invisible_monsterdata); facing area/7400/center (guess: live's Monster Laboratory pads faced roughly the centre, up to 30° off)"
+    },
+    {
+      "id": "area/7400/ne-3",
+      "name": "NE_3",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [254.1, 42.0, 271.43],
+          "rot": -1.106
+        }
+      },
+      "source": "client",
+      "tags": ["approximate"],
+      "comment": "RDB 1000057:7400 guid 537440 (invisible_monsterdata); facing area/7400/center (guess: live's Monster Laboratory pads faced roughly the centre, up to 30° off)"
+    },
+    {
+      "id": "area/7400/ne-4",
+      "name": "NE_4",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [254.1, 42.0, 268.89],
+          "rot": -0.981
+        }
+      },
+      "source": "client",
+      "tags": ["approximate"],
+      "comment": "RDB 1000057:7400 guid 537441 (invisible_monsterdata); facing area/7400/center (guess: live's Monster Laboratory pads faced roughly the centre, up to 30° off)"
+    },
+    {
+      "id": "area/7400/se-1",
+      "name": "SE_1",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [242.35, 42.0, 261.27],
+          "rot": -0.187
+        }
+      },
+      "source": "client",
+      "tags": ["approximate"],
+      "comment": "RDB 1000057:7400 guid 537442 (invisible_monsterdata); facing area/7400/center (guess: live's Monster Laboratory pads faced roughly the centre, up to 30° off)"
+    },
+    {
+      "id": "area/7400/se-2",
+      "name": "SE_2",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [239.8, 42.0, 261.27],
+          "rot": -0.045
+        }
+      },
+      "source": "client",
+      "tags": ["approximate"],
+      "comment": "RDB 1000057:7400 guid 537443 (invisible_monsterdata); facing area/7400/center (guess: live's Monster Laboratory pads faced roughly the centre, up to 30° off)"
+    },
+    {
+      "id": "area/7400/se-3",
+      "name": "SE_3",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [236.69, 42.0, 261.27],
+          "rot": 0.13
+        }
+      },
+      "source": "client",
+      "tags": ["approximate"],
+      "comment": "RDB 1000057:7400 guid 537444 (invisible_monsterdata); facing area/7400/center (guess: live's Monster Laboratory pads faced roughly the centre, up to 30° off)"
+    },
+    {
+      "id": "area/7400/se-4",
+      "name": "SE_4",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [234.15, 42.0, 261.27],
+          "rot": 0.267
+        }
+      },
+      "source": "client",
+      "tags": ["approximate"],
+      "comment": "RDB 1000057:7400 guid 537445 (invisible_monsterdata); facing area/7400/center (guess: live's Monster Laboratory pads faced roughly the centre, up to 30° off)"
+    },
+    {
+      "id": "area/7400/invisible-monsterdata-534573",
+      "name": "invisible_monsterdata-534573",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [248.75, 42.99, 295.22],
+          "rot": 0.518
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7400 guid 534573 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7400/invisible-monsterdata-541332",
+      "name": "invisible_monsterdata-541332",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [247.68, 42.99, 262.99],
+          "rot": 1.694
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7400 guid 541332 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7400/invisible-monsterdata-541391",
+      "name": "invisible_monsterdata-541391",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [271.76, 43.76, 274.55],
+          "rot": 2.576
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7400 guid 541391 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7400/center",
+      "name": "Center",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [239.0, 42.3, 279.0]
+        }
+      },
+      "source": "guess",
+      "comment": "The arena's centre: where Monster Laboratory's (8030, same layout) tesla coil stands. The spawn points face it."
     }
   ]
 }

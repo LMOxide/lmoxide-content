@@ -210,26 +210,6 @@
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
       "type": "string"
     },
-    "gatekeeper": {
-      "anyOf": [
-        {
-          "$ref": "#/$defs/Point"
-        },
-        {
-          "type": "null"
-        }
-      ],
-      "description": "Where the Gatekeeper stands (Gatekeeper's Realm).",
-      "x-lmoxide-position": true
-    },
-    "gatekeepers": {
-      "description": "The Gatekeepers one is picked from (`npc/...`).",
-      "items": {
-        "type": "string"
-      },
-      "type": "array",
-      "x-lmoxide-ref": ["npc"]
-    },
     "id": {
       "description": "Its id: `lc/<slug>`. Stable: other records refer to it.",
       "type": "string"
@@ -251,6 +231,11 @@
       "format": "uint64",
       "minimum": 0,
       "type": "integer"
+    },
+    "script": {
+      "description": "The waves (Survival, Gatekeeper): started when the start gate opens. Each wave cleared\ncounts one toward the objective; the script over completes it.",
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["script"]
     },
     "source": {
       "anyOf": [
@@ -284,6 +269,7 @@
       "type": "integer"
     },
     "variants": {
+      "description": "One is picked for each copy of the level; spawns naming none of them are in all.",
       "items": {
         "$ref": "#/$defs/LcVariant"
       },

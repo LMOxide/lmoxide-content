@@ -1,0 +1,199 @@
+{
+  "areas": [
+    {
+      "id": "area/7401/invisible-monsterdata-548491",
+      "name": "invisible_monsterdata-548491",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [214.72, 44.49, 274.06]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548491 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/nw-1",
+      "name": "NW_1",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [234.15, 42.0, 297.23]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548493 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/nw-2",
+      "name": "NW_2",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [236.69, 42.0, 297.23]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548494 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/nw-3",
+      "name": "NW_3",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [239.8, 42.0, 297.23]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548495 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/nw-4",
+      "name": "NW_4",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [242.35, 42.0, 297.23]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548496 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/ne-1",
+      "name": "NE_1",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [254.1, 42.0, 288.4]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548497 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/ne-2",
+      "name": "NE_2",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [254.1, 42.0, 285.86]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548498 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/ne-3",
+      "name": "NE_3",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [254.1, 42.0, 271.43]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548499 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/ne-4",
+      "name": "NE_4",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [254.1, 42.0, 268.89]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548500 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/se-1",
+      "name": "SE_1",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [242.35, 42.0, 261.27]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548501 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/se-2",
+      "name": "SE_2",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [239.8, 42.0, 261.27]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548502 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/se-3",
+      "name": "SE_3",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [236.69, 42.0, 261.27]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548503 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/se-4",
+      "name": "SE_4",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [234.15, 42.0, 261.27]
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548504 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/invisible-monsterdata-548505",
+      "name": "invisible_monsterdata-548505",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [248.75, 42.99, 295.22],
+          "rot": 0.518
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548505 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/invisible-monsterdata-548506",
+      "name": "invisible_monsterdata-548506",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [247.68, 42.99, 262.99],
+          "rot": 1.694
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548506 (invisible_monsterdata)"
+    },
+    {
+      "id": "area/7401/invisible-monsterdata-548507",
+      "name": "invisible_monsterdata-548507",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [271.76, 43.76, 274.55],
+          "rot": 2.576
+        }
+      },
+      "source": "client",
+      "comment": "RDB 1000057:7401 guid 548507 (invisible_monsterdata)"
+    }
+  ]
+}
