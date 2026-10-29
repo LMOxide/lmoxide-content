@@ -1,5 +1,25 @@
 {
   "$defs": {
+    "AchievementMinifigs": {
+      "description": "Who a completed Lost Creations level counts for.",
+      "oneOf": [
+        {
+          "const": "unsmashed",
+          "description": "The equipped minifigures not smashed in the run (user's rule).",
+          "type": "string"
+        },
+        {
+          "const": "team",
+          "description": "Every equipped minifigure.",
+          "type": "string"
+        },
+        {
+          "const": "active",
+          "description": "Only the active one.",
+          "type": "string"
+        }
+      ]
+    },
     "Champions": {
       "additionalProperties": false,
       "description": "Champions' element auras (script 3722 \"champion aura random selector\"): entering combat, a\nchampion casts its zone's element's aura (a random one where the zone has none).",
@@ -385,6 +405,11 @@
       "additionalProperties": false,
       "description": "The Lost Creations: how a run goes (docs/LOST-CREATIONS.md).",
       "properties": {
+        "achievement_minifigs": {
+          "$ref": "#/$defs/AchievementMinifigs",
+          "default": "unsmashed",
+          "description": "Which of a player's minifigures a completed level counts for (the levels 5, 10 and 15\nachievements)."
+        },
         "button_arrow_buff": {
           "format": "uint32",
           "minimum": 0,
@@ -887,6 +912,7 @@
     "lost_creations": {
       "$ref": "#/$defs/LostCreations",
       "default": {
+        "achievement_minifigs": "unsmashed",
         "button_arrow_buff": 0,
         "button_effect": 0,
         "cant_equip_buff": 0,

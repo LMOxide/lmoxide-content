@@ -264,7 +264,8 @@
     "spawn_spread": 1.5,
     "wave_telegraph": "2s",
     "wave_particle": 542337,
-    "gatekeeper_adds_vanish": false
+    "gatekeeper_adds_vanish": false,
+    "achievement_minifigs": "unsmashed"
   },
   "health": {
     "potion_heal": "80%",
