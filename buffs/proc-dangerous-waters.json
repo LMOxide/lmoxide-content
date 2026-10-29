@@ -1,0 +1,24 @@
+{
+  "id": "buff/proc-dangerous-waters",
+  "name": "Dangerous Waters",
+  "nano": 423320,
+  "duration": "2s",
+  "effects": [
+    {
+      "proc": {
+        "on": "interval",
+        "every_time": "500ms",
+        "then": [
+          {
+            "damage": {
+              "mod": 0.05
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "source": "client",
+  "tags": ["approximate"],
+  "comment": "Applied by an upgrade's proc (procs.rs). From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json). 423320: WeaponHit AbilityMod 0.05 every 50 cs; the nano has no TimeExist, the 2 s are assumed."
+}

@@ -4,6 +4,7 @@
   "playfield": 5300,
   "kind": "pocket",
   "region": "region/medieval-world",
+  "super_region": 5000,
   "level": {
     "cap": 15
   },

@@ -4,6 +4,7 @@
   "playfield": 6200,
   "kind": "open",
   "region": "region/dino-world",
+  "super_region": 6000,
   "level": {
     "cap": 30
   },

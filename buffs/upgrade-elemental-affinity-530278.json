@@ -2,7 +2,15 @@
   "id": "buff/upgrade-elemental-affinity-530278",
   "name": "Upgrade: Elemental Affinity",
   "nano": 530278,
+  "effects": [
+    {
+      "stat": {
+        "stat": "elemental_affinity",
+        "op": "add",
+        "value": 1
+      }
+    }
+  ],
   "source": "client",
-  "tags": ["todo"],
-  "comment": "No client-side game actions: the effect was server script, not known yet."
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): spell line 5008: DoElementalAffinity (script 1793) casts the role's affinity buff (tunables elements.affinity) in a zone of the minifigure's element."
 }

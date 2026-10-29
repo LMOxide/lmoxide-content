@@ -172,6 +172,11 @@
       "minimum": 0,
       "type": "integer"
     },
+    "reward": {
+      "description": "The reward: a loot bag dropped at the player from this table (the lore node's reward\nscript, field 7: `spawnloot` of the \"Stars Small/Medium/Large/Very Large\" tables).\nNone: `stars` are given directly.",
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["loot"]
+    },
     "rule": {
       "anyOf": [
         {
@@ -198,6 +203,7 @@
       ]
     },
     "stars": {
+      "description": "AchievementRewardValue: the stars the client shows as the reward.",
       "format": "uint32",
       "minimum": 0,
       "type": ["integer", "null"]

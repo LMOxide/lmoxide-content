@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "nature",
   "region": "region/mythology-world",
+  "super_region": 2000,
   "minifigure": "minifig/mountain-climber",
   "parts": ["minifig/warrior-woman", "minifig/pretzel-girl"],
   "arrival": {

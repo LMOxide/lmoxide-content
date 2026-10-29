@@ -30,6 +30,14 @@
       "stars_1000": "item/1000-minifigure-xp",
       "stars_25": "item/25-minifigure-xp",
       "stars_250": "item/250-minifigure-xp"
+    },
+    "power_per_level": 100,
+    "power_caps": {
+      "2000": 2500,
+      "3000": 2000,
+      "4000": 1000,
+      "5000": 1500,
+      "6000": 3000
     }
   },
   "npc": {
@@ -51,7 +59,14 @@
       "8": 2100,
       "9": 3000
     },
-    "rank_player_level": [3, 6, 9, 12, 15, 18, 21, 24, 27]
+    "rank_player_level": [3, 6, 9, 12, 15, 18, 21, 24, 27],
+    "level_caps": {
+      "2000": 21,
+      "3000": 19,
+      "4000": 11,
+      "5000": 15,
+      "6000": 30
+    }
   },
   "npc_life": {
     "interpolation": "linear between the listed levels, and beyond the first two / last two",
@@ -212,6 +227,44 @@
     "cant_resurrect_buff": 537829,
     "button_arrow_buff": 577484,
     "button_effect": 474576
+  },
+  "health": {
+    "potion_heal": "80%",
+    "barely_alive_below": "5%",
+    "barely_alive_tag": 3681,
+    "level_up_knockaway": {
+      "radius": 3.0,
+      "distance": 3.0,
+      "speed": 50.0,
+      "spell": 423601
+    }
+  },
+  "smashed": {
+    "rebuild_by_level": {
+      "1": "300s",
+      "16": "1200s",
+      "21": "3600s",
+      "26": "7200s"
+    },
+    "free_rebuild": "60s",
+    "free_super_regions": [1300, 4000],
+    "everyone_member": true,
+    "knockaway": {
+      "radius": 3.0,
+      "distance": 3.0,
+      "speed": 50.0,
+      "spell": 465935
+    },
+    "immunity": "2s",
+    "immunity_nano": 465943
+  },
+  "elements": {
+    "wrong_element": "buff/wrong-element-soft",
+    "affinity": {
+      "builder": "buff/elemental-affinity-builder",
+      "defender": "buff/elemental-affinity-defender",
+      "striker": "buff/elemental-affinity-striker"
+    }
   },
   "more": {
     "achievements.area_names": {

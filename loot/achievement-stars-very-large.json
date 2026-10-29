@@ -1,0 +1,22 @@
+{
+  "id": "loot/achievement-stars-very-large",
+  "name": "Achievement reward: Stars Very Large",
+  "client_table": 10542,
+  "rolls": 1,
+  "entries": [
+    {
+      "drop": {
+        "items": [
+          "item/1000-minifigure-xp",
+          "item/1000-minifigure-xp",
+          "item/1000-minifigure-xp",
+          "item/1000-minifigure-xp",
+          "item/1000-minifigure-xp"
+        ]
+      }
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"],
+  "comment": "The achievement reward scripts' \"Reward: Stars Very Large\" (spawnloot of table 10542). Its contents were server data; the stars the achievements show as their reward (5000) are assumed, as star bundles."
+}

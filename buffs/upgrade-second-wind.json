@@ -6,7 +6,7 @@
     {
       "proc": {
         "on": "health_below",
-        "below": "20%",
+        "below": "21%",
         "lockout": "600s",
         "then": [
           {
@@ -14,10 +14,17 @@
               "amount": "50%",
               "target": "self"
             }
+          },
+          {
+            "effect": {
+              "effect_package": 356332,
+              "target": "self"
+            }
           }
         ]
       }
     }
   ],
-  "source": "server"
+  "source": "client",
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1098: hit below 21% health and no lockout 464971 (600 s): heal 50%, effect 356332."
 }

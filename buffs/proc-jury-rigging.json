@@ -1,0 +1,16 @@
+{
+  "id": "buff/proc-jury-rigging",
+  "name": "Jury Rigging",
+  "nano": 423346,
+  "effects": [
+    {
+      "stat": {
+        "stat": "build_speed",
+        "op": "add",
+        "value": "5%"
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Applied by an upgrade's proc (procs.rs). From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json). 423346: CreativityBuildMod +0.05 while in combat."
+}

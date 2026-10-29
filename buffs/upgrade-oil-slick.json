@@ -2,7 +2,30 @@
   "id": "buff/upgrade-oil-slick",
   "name": "Upgrade: Oil Slick",
   "nano": 443622,
+  "effects": [
+    {
+      "proc": {
+        "on": "special_attack",
+        "then": [
+          {
+            "command": {
+              "name": "upgrade.oil_slick",
+              "args": {
+                "drop_every": "250ms",
+                "effect_package": 458873,
+                "every": "500ms",
+                "for": "1s",
+                "nano": 504814,
+                "pulses": 4,
+                "radius": 1.0,
+                "weaken": "10%"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
   "source": "client",
-  "tags": ["todo"],
-  "comment": "No client-side game actions: the effect was server script, not known yet."
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1725: a special cast puts 443624 on the caster for 1 s, which drops 443625 every 5 cs: a ground effect (effect 458873) of 4 pulses 0.5 s apart of 443626: radius 1, 504814 (the enemy's damage -10%). How often a puddle is dropped is assumed (every 0.25 s, not 5 cs)."
 }

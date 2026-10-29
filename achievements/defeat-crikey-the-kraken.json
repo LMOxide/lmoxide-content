@@ -8,6 +8,7 @@
   "points": 50,
   "kind": "defeat",
   "stars": 500,
+  "reward": "loot/achievement-stars-medium",
   "target": "Crikey the Kraken",
   "source": "client"
 }

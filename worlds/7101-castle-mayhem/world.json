@@ -3,6 +3,7 @@
   "name": "Castle Mayhem",
   "playfield": 7101,
   "kind": "instance",
+  "super_region": 7000,
   "arrival": {
     "pos": [280.0, 45.75, 135.5],
     "rot": 0.0

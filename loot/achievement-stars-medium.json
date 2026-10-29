@@ -1,0 +1,16 @@
+{
+  "id": "loot/achievement-stars-medium",
+  "name": "Achievement reward: Stars Medium",
+  "client_table": 1085,
+  "rolls": 1,
+  "entries": [
+    {
+      "drop": {
+        "items": ["item/250-minifigure-xp", "item/250-minifigure-xp"]
+      }
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"],
+  "comment": "The achievement reward scripts' \"Reward: Stars Medium\" (spawnloot of table 1085). Its contents were server data; the stars the achievements show as their reward (500) are assumed, as star bundles."
+}

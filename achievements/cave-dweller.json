@@ -8,6 +8,7 @@
   "points": 100,
   "kind": "all",
   "stars": 500,
+  "reward": "loot/achievement-stars-medium",
   "children": [
     "achievement/lifting-the-siege",
     "achievement/don-t-follow-the-lights",

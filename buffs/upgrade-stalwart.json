@@ -2,7 +2,35 @@
   "id": "buff/upgrade-stalwart",
   "name": "Upgrade: Stalwart",
   "nano": 435837,
+  "effects": [
+    {
+      "stat": {
+        "stat": "cc_immunity_channelling",
+        "op": "add",
+        "value": 1
+      }
+    },
+    {
+      "proc": {
+        "on": "damaged",
+        "channelling": true,
+        "then": [
+          {
+            "command": {
+              "name": "upgrade.retaliate",
+              "args": {
+                "ability_mod": 0.25,
+                "item": 464663,
+                "range": 12.5,
+                "speed": 10.0,
+                "spell": 464661
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
   "source": "client",
-  "tags": ["todo"],
-  "comment": "No client-side game actions: the effect was server script, not known yet."
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): scripts 1025/1090: while a special is cast: 435890 (NanoResistance: no crowd control) and 464659; each hit taken fires 464661 back at the attacker (projectile 464663, speed 1000, range 12.5 m; it casts 464664: WeaponHit AbilityMod 0.25)."
 }

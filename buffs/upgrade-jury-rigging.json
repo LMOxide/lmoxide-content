@@ -2,7 +2,21 @@
   "id": "buff/upgrade-jury-rigging",
   "name": "Upgrade: Jury Rigging",
   "nano": 421239,
+  "effects": [
+    {
+      "proc": {
+        "on": "in_combat",
+        "then": [
+          {
+            "apply_buff": {
+              "buff": "buff/proc-jury-rigging",
+              "target": "self"
+            }
+          }
+        ]
+      }
+    }
+  ],
   "source": "client",
-  "tags": ["todo"],
-  "comment": "No client-side game actions: the effect was server script, not known yet."
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1007: entering combat casts 423346 (CreativityBuildMod +0.05, build 5% faster), leaving combat removes it."
 }

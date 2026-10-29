@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "shadow",
   "region": "region/mythology-world",
+  "super_region": 2000,
   "minifigure": "minifig/barbarian",
   "parts": ["minifig/warrior-woman", "minifig/pretzel-girl"],
   "arrival": {

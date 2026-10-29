@@ -11,5 +11,6 @@
   "find": "BA_Explore_Forge",
   "place": "Lightningblast's Garden",
   "stars": 500,
+  "reward": "loot/achievement-stars-medium",
   "source": "client"
 }

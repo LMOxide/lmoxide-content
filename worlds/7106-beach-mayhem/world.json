@@ -3,6 +3,7 @@
   "name": "Beach Mayhem",
   "playfield": 7106,
   "kind": "other",
+  "super_region": 7000,
   "arrival": {
     "pos": [159.0, 152.0, 137.5],
     "rot": 0.0

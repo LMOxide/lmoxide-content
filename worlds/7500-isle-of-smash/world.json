@@ -3,6 +3,7 @@
   "name": "Isle of Smash",
   "playfield": 7500,
   "kind": "instance",
+  "super_region": 7000,
   "arrival": {
     "pos": [187.5, 152.19, 147.0],
     "rot": 0.0

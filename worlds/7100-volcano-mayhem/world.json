@@ -3,6 +3,7 @@
   "name": "Volcano Mayhem",
   "playfield": 7100,
   "kind": "instance",
+  "super_region": 7000,
   "arrival": {
     "pos": [174.0, 45.36, 113.75],
     "rot": 0.0

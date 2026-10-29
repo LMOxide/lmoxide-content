@@ -10,7 +10,13 @@
         "then": [
           {
             "heal": {
-              "amount": "2%",
+              "amount": "1%",
+              "target": "self"
+            }
+          },
+          {
+            "effect": {
+              "effect_package": 356332,
               "target": "self"
             }
           }
@@ -18,5 +24,6 @@
       }
     }
   ],
-  "source": "server"
+  "source": "client",
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): scripts 1014/1012: while a special is cast, each hit taken heals 1% of the maximum and plays effect 356332."
 }

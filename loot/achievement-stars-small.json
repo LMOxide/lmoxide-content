@@ -1,0 +1,16 @@
+{
+  "id": "loot/achievement-stars-small",
+  "name": "Achievement reward: Stars Small",
+  "client_table": 1084,
+  "rolls": 1,
+  "entries": [
+    {
+      "drop": {
+        "items": ["item/250-minifigure-xp"]
+      }
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"],
+  "comment": "The achievement reward scripts' \"Reward: Stars Small\" (spawnloot of table 1084). Its contents were server data; the stars the achievements show as their reward (250) are assumed, as star bundles."
+}

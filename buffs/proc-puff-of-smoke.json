@@ -1,0 +1,30 @@
+{
+  "id": "buff/proc-puff-of-smoke",
+  "name": "Choking Gas",
+  "nano": 447648,
+  "duration": "2s",
+  "effects": [
+    {
+      "stat": {
+        "stat": "damage",
+        "op": "add",
+        "value": "-10%"
+      }
+    },
+    {
+      "proc": {
+        "on": "interval",
+        "every_time": "500ms",
+        "then": [
+          {
+            "damage": {
+              "mod": 0.05
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Applied by an upgrade's proc (procs.rs). From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json). 447648: TimeExist 200, StatMultiplier FinalDamageMultiplier -10 on the target, WeaponHit AbilityMod 0.05 every 50 cs."
+}

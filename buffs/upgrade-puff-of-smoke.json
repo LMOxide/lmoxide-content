@@ -2,7 +2,20 @@
   "id": "buff/upgrade-puff-of-smoke",
   "name": "Upgrade: Puff of Smoke",
   "nano": 447647,
+  "effects": [
+    {
+      "proc": {
+        "on": "normal_hit",
+        "then": [
+          {
+            "apply_buff": {
+              "buff": "buff/proc-puff-of-smoke"
+            }
+          }
+        ]
+      }
+    }
+  ],
   "source": "client",
-  "tags": ["todo"],
-  "comment": "No client-side game actions: the effect was server script, not known yet."
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1052: each normal hit casts 447648 on the target for 2 s: its damage -10% and WeaponHit AbilityMod 0.05 every 50 cs."
 }

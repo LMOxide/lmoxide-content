@@ -4,6 +4,7 @@
   "playfield": 1300,
   "kind": "open",
   "region": "region/pirate-world",
+  "super_region": 1300,
   "arrival": {
     "pos": [61.21, 47.0, 216.73],
     "rot": 6.086

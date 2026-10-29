@@ -12,11 +12,12 @@
               "name": "upgrade.damage_field",
               "args": {
                 "ability_mod": 0.05,
-                "at": "self",
+                "at": "target",
                 "effect_package": 442041,
-                "every": "1s",
-                "pulses": 6,
-                "radius": 3.0
+                "every": "500ms",
+                "pulses": 5,
+                "radius": 3.0,
+                "spell": 439672
               }
             }
           }
@@ -24,5 +25,6 @@
       }
     }
   ],
-  "source": "server"
+  "source": "client",
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1712: a special's killing blow casts 439668 at the target: ground effect Arg1 50 / Arg2 5 (5 pulses 0.5 s apart) of 439670: radius 3, 439672 WeaponHit AbilityMod 0.05; effect 442041."
 }

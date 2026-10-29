@@ -3,6 +3,7 @@
   "name": "Lost Champions in Space",
   "playfield": 7301,
   "kind": "instance",
+  "super_region": 7000,
   "arrival": {
     "pos": [167.0, 153.41, 138.0],
     "rot": 0.0

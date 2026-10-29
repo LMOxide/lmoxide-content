@@ -3,6 +3,7 @@
   "name": "Lunar Brawl",
   "playfield": 7202,
   "kind": "instance",
+  "super_region": 7000,
   "arrival": {
     "pos": [231.5, 43.87, 280.0],
     "rot": 0.0

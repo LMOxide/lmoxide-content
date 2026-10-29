@@ -3,6 +3,7 @@
   "name": "Jungle Mayhem",
   "playfield": 7102,
   "kind": "other",
+  "super_region": 7000,
   "arrival": {
     "pos": [169.0, 40.05, 136.5],
     "rot": 0.0

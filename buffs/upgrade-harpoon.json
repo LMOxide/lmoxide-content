@@ -2,7 +2,22 @@
   "id": "buff/upgrade-harpoon",
   "name": "Upgrade: Harpoon",
   "nano": 421172,
+  "effects": [
+    {
+      "proc": {
+        "on": "normal_hit",
+        "then": [
+          {
+            "knockback": {
+              "distance": 10.0,
+              "speed": 50.0,
+              "pull": true
+            }
+          }
+        ]
+      }
+    }
+  ],
   "source": "client",
-  "tags": ["todo"],
-  "comment": "No client-side game actions: the effect was server script, not known yet."
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1710: each normal hit casts 423324 on the target: Knockaway Distance 10, Speed 50 towards the caster (\"pull the enemies closer\")."
 }

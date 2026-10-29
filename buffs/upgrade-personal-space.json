@@ -5,7 +5,7 @@
   "effects": [
     {
       "proc": {
-        "on": "special_kill",
+        "on": "kill",
         "then": [
           {
             "apply_buff": {
@@ -18,10 +18,11 @@
               "name": "upgrade.damage_field",
               "args": {
                 "ability_mod": 0.05,
-                "at": "target",
+                "at": "self",
                 "every": "250ms",
                 "for": "3s",
-                "radius": 3.0
+                "radius": 3.0,
+                "spell": 531688
               }
             }
           }
@@ -29,5 +30,6 @@
       }
     }
   ],
-  "source": "server"
+  "source": "client",
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1809: any killing blow -> 531687 on the caster (3 s), pulsing 531689 every 25 cs: radius 3 around the caster, 531688 WeaponHit AbilityMod 0.05."
 }

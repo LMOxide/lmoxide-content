@@ -1,0 +1,16 @@
+{
+  "id": "loot/power-ups",
+  "name": "Power-ups",
+  "client_table": 10281,
+  "rolls": 1,
+  "entries": [
+    {
+      "drop": {
+        "hearts": 1
+      }
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"],
+  "comment": "Resourceful's table (\"You find more power-ups\"). Its contents were server data; a health orb is assumed (the Defense and Power Orb items have no mesh, so were probably unused)."
+}

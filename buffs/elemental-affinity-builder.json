@@ -1,0 +1,16 @@
+{
+  "id": "buff/elemental-affinity-builder",
+  "name": "Elemental Affinity (Builder)",
+  "nano": 529232,
+  "effects": [
+    {
+      "stat": {
+        "stat": "build_speed",
+        "op": "add",
+        "value": "20%"
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "DoElementalAffinity (script 1793): cast by role on a minifigure with the Elemental Affinity upgrade in a zone of its element."
+}

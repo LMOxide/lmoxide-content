@@ -3,6 +3,7 @@
   "name": "Gatekeeper's Realm",
   "playfield": 7600,
   "kind": "instance",
+  "super_region": 7000,
   "arrival": {
     "pos": [245.5, 44.05, 271.0],
     "rot": 0.0

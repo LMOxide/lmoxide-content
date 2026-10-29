@@ -8,10 +8,18 @@
       "stat": {
         "stat": "MovementMultiplier",
         "op": "add",
-        "value": 50
+        "value": 30
+      }
+    },
+    {
+      "stat": {
+        "stat": "CharacterCollisionFlag",
+        "op": "add",
+        "value": 4
       }
     }
   ],
-  "source": "server",
-  "comment": "Applied by an upgrade's proc (procs.rs); values from the client's \"XX_passive generic\" nanos or assumed (docs/TUNABLES.md)."
+  "source": "client",
+  "tags": ["approximate"],
+  "comment": "Applied by an upgrade's proc (procs.rs). From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json). 465318: TempChangeStat MovementMultiplier +30 and CharacterCollisionFlag 4 (walk through enemies); it has no TimeExist, the 3 s are assumed."
 }

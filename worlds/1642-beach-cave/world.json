@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "nature",
   "region": "region/pirate-world",
+  "super_region": 4000,
   "minifigure": "minifig/lifeguard-guy",
   "parts": ["minifig/cyclops", "minifig/sea-captain"],
   "arrival": {

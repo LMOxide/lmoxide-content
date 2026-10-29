@@ -8,5 +8,6 @@
   "points": 100,
   "kind": "manual",
   "stars": 5000,
+  "reward": "loot/achievement-stars-very-large",
   "source": "client"
 }

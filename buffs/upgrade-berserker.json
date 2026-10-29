@@ -5,7 +5,7 @@
   "effects": [
     {
       "proc": {
-        "on": "attack",
+        "on": "hit",
         "every": 5,
         "then": [
           {
@@ -18,5 +18,6 @@
       }
     }
   ],
-  "source": "server"
+  "source": "client",
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1004: counts hits (each enemy hit, normal and special) on 522446 up to 3, the 4th casts 423317 (+100% damage), the next hit removes it: every 5th hit is doubled."
 }

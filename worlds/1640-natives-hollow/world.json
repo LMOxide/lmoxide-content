@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "magic",
   "region": "region/pirate-world",
+  "super_region": 4000,
   "minifigure": "minifig/paleontologist",
   "parts": ["minifig/hollywood-starlet", "minifig/saxophone-player"],
   "arrival": {

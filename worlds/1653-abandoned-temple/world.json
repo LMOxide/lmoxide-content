@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "light",
   "region": "region/mythology-world",
+  "super_region": 2000,
   "minifigure": "minifig/genie-girl",
   "parts": ["minifig/warrior-woman", "minifig/pretzel-girl"],
   "arrival": {

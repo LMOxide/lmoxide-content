@@ -8,6 +8,7 @@
   "points": 100,
   "kind": "defeat",
   "stars": 500,
+  "reward": "loot/achievement-stars-medium",
   "target": "Pieromancer Elementius",
   "source": "client"
 }

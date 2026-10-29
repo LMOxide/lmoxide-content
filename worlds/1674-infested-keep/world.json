@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "shadow",
   "region": "region/medieval-world",
+  "super_region": 5000,
   "minifigure": "minifig/heroic-knight",
   "parts": ["minifig/roller-derby-girl", "minifig/roman-commander"],
   "arrival": {

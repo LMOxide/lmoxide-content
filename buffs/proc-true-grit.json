@@ -10,8 +10,15 @@
         "op": "add",
         "value": 0.9
       }
+    },
+    {
+      "stat": {
+        "stat": "cc_immunity",
+        "op": "add",
+        "value": 1
+      }
     }
   ],
-  "source": "server",
-  "comment": "Applied by an upgrade's proc (procs.rs); values from the client's \"XX_passive generic\" nanos or assumed (docs/TUNABLES.md)."
+  "source": "client",
+  "comment": "Applied by an upgrade's proc (procs.rs). From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json). 380600: TimeExist 500, MitigationOverrideFlat 0.9, NanoResistance strain 800 (crowd control immunity)."
 }

@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "light",
   "region": "region/medieval-world",
+  "super_region": 5000,
   "minifigure": "minifig/prospector",
   "parts": ["minifig/roller-derby-girl", "minifig/roman-commander"],
   "level": {

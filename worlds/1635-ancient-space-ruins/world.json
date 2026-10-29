@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "shadow",
   "region": "region/space-world",
+  "super_region": 3000,
   "minifigure": "minifig/snake-charmer",
   "parts": ["minifig/hollywood-starlet", "minifig/bumblebee-girl"],
   "arrival": {

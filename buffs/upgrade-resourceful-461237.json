@@ -4,12 +4,19 @@
   "nano": 461237,
   "effects": [
     {
-      "stat": {
-        "stat": "orb_chance",
-        "op": "add",
-        "value": "15%"
+      "proc": {
+        "on": "kill",
+        "chance": "5%",
+        "then": [
+          {
+            "drop": {
+              "loot": "loot/power-ups"
+            }
+          }
+        ]
       }
     }
   ],
-  "source": "server"
+  "source": "client",
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1061: any killing blow, 5% -> spawnloot(table 10281, \"power-ups\") at the target."
 }

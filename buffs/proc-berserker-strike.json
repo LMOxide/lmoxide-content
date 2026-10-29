@@ -2,7 +2,7 @@
   "id": "buff/proc-berserker-strike",
   "name": "Berserker Strike",
   "nano": 423317,
-  "duration": "1s",
+  "ends_on": "hit",
   "effects": [
     {
       "stat": {
@@ -12,6 +12,6 @@
       }
     }
   ],
-  "source": "server",
-  "comment": "Applied by an upgrade's proc (procs.rs); lasts for the hits of the attack that set it off (tunables combat.this_attack)."
+  "source": "client",
+  "comment": "Applied by an upgrade's proc (procs.rs). From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json). 423317: FinalDamageMultiplier +1.0, removed by the next hit."
 }

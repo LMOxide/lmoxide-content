@@ -3,6 +3,7 @@
   "name": "Treasure Chamber",
   "playfield": 7001,
   "kind": "pocket",
+  "super_region": 7000,
   "arrival": {
     "pos": [141.32, 40.0, 135.89],
     "rot": 4.81

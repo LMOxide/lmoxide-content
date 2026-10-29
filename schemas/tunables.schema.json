@@ -46,6 +46,78 @@
       "description": "A length of time: \"1.5s\", \"200ms\", \"2m\", \"1h\", or a number of seconds",
       "x-lmoxide-unit": "duration"
     },
+    "Elements": {
+      "additionalProperties": false,
+      "description": "Zone elements (the playfield controllers 464871 / 517564 / 517102 and DoElementalAffinity).",
+      "properties": {
+        "affinity": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Elemental Affinity (an upgrade with the stat `elemental_affinity`) in a zone of the\nminifigure's element: its role (`striker`, `defender`, `builder`) -> buff.",
+          "type": "object",
+          "x-lmoxide-ref": ["buff"]
+        },
+        "wrong_element": {
+          "description": "A minifigure whose element isn't the zone's gets this buff (the controller's Wrong\nElement; which controller each zone used is unknown).",
+          "type": ["string", "null"],
+          "x-lmoxide-ref": ["buff"]
+        }
+      },
+      "type": "object"
+    },
+    "Health": {
+      "additionalProperties": false,
+      "description": "Potions, health orbs and level-ups (the server Lua shipped with the client).",
+      "properties": {
+        "barely_alive_below": {
+          "$ref": "#/$defs/Ratio",
+          "description": "Drinking one at or below this share of health adds `barely_alive_tag` (\"Close Call!\")."
+        },
+        "barely_alive_tag": {
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer",
+          "x-lmoxide-client": "lore"
+        },
+        "level_up_knockaway": {
+          "$ref": "#/$defs/Knockaway",
+          "description": "A level-up heals fully and knocks the enemies around away (script 990, spell 423601)."
+        },
+        "potion_heal": {
+          "$ref": "#/$defs/Ratio",
+          "description": "A Potion of Health heals this share of the maximum (script 464: `life * 0.8`)."
+        }
+      },
+      "required": ["potion_heal", "barely_alive_below", "barely_alive_tag", "level_up_knockaway"],
+      "type": "object"
+    },
+    "Knockaway": {
+      "additionalProperties": false,
+      "description": "A push away from a point (the client's AreaKnockaway: Radius, Distance, Speed).",
+      "properties": {
+        "distance": {
+          "format": "float",
+          "type": "number"
+        },
+        "radius": {
+          "format": "float",
+          "type": "number"
+        },
+        "speed": {
+          "format": "float",
+          "type": "number"
+        },
+        "spell": {
+          "description": "The client spell that does it (shown).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        }
+      },
+      "required": ["radius", "distance", "speed"],
+      "type": "object"
+    },
     "Loot": {
       "additionalProperties": false,
       "properties": {
@@ -77,6 +149,22 @@
           },
           "description": "Items the loot rules name (`star`, `health_orb`, `potion`, `stars_25`, ...).",
           "type": "object"
+        },
+        "power_caps": {
+          "additionalProperties": {
+            "format": "uint32",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "description": "Super-region -> the highest loot power level its chests and quest rewards roll at\n(DoSuperChestPowerLevel: Pirate 1000, Medieval 1500, Space 2000, Mythology 2500, Dino 3000).",
+          "type": "object"
+        },
+        "power_per_level": {
+          "default": 0,
+          "description": "Loot power level per player level (the server Lua: `playerLevel * 100`).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
         },
         "share_range": {
           "description": "Teammates within this distance of a kill get their own bag (m).",
@@ -337,6 +425,15 @@
     "Progression": {
       "additionalProperties": false,
       "properties": {
+        "level_caps": {
+          "additionalProperties": {
+            "format": "uint32",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "description": "Super-region (world `super_region`) -> the level cap there; none: no cap.",
+          "type": "object"
+        },
         "minifigure_xp": {
           "additionalProperties": {
             "format": "uint32",
@@ -418,6 +515,59 @@
         }
       ],
       "description": "Which way something faces: a heading (radians about the up axis) or a quaternion\n`[x, y, z, w]` as the client stores it."
+    },
+    "Smashed": {
+      "additionalProperties": false,
+      "description": "Smashed minifigures (scripts 973 and 3804, \"minifigure swapper smashed\").",
+      "properties": {
+        "everyone_member": {
+          "description": "Whether players count as members (LMOxide: everyone is).",
+          "type": "boolean"
+        },
+        "free_rebuild": {
+          "$ref": "#/$defs/Duration",
+          "description": "The rebuild time of members (a subscribed account or UseMemberSmashedTimer) and in\n`free_super_regions`."
+        },
+        "free_super_regions": {
+          "items": {
+            "format": "uint32",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "type": "array"
+        },
+        "immunity": {
+          "$ref": "#/$defs/Duration",
+          "description": "... and the next minifigure can't be hurt for this long (465943, MitigationOverrideFlat 100)."
+        },
+        "immunity_nano": {
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer",
+          "x-lmoxide-client": "nano"
+        },
+        "knockaway": {
+          "$ref": "#/$defs/Knockaway",
+          "description": "The swap pushes the enemies around away (465935) ..."
+        },
+        "rebuild_by_level": {
+          "additionalProperties": {
+            "$ref": "#/$defs/Duration"
+          },
+          "description": "Rebuild time by player level: the entry of the highest listed level at or below the\nplayer's.",
+          "type": "object"
+        }
+      },
+      "required": [
+        "rebuild_by_level",
+        "free_rebuild",
+        "free_super_regions",
+        "everyone_member",
+        "knockaway",
+        "immunity",
+        "immunity_nano"
+      ],
+      "type": "object"
     }
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -426,6 +576,25 @@
   "properties": {
     "combat": {
       "$ref": "#/$defs/Combat"
+    },
+    "elements": {
+      "$ref": "#/$defs/Elements",
+      "default": {},
+      "description": "Zone elements: Wrong Element and Elemental Affinity."
+    },
+    "health": {
+      "$ref": "#/$defs/Health",
+      "default": {
+        "barely_alive_below": "0%",
+        "barely_alive_tag": 0,
+        "level_up_knockaway": {
+          "distance": 0.0,
+          "radius": 0.0,
+          "speed": 0.0
+        },
+        "potion_heal": "0%"
+      },
+      "description": "Potions, health orbs and level-ups."
     },
     "loot": {
       "$ref": "#/$defs/Loot"
@@ -479,6 +648,23 @@
     },
     "rarity": {
       "$ref": "#/$defs/Rarity"
+    },
+    "smashed": {
+      "$ref": "#/$defs/Smashed",
+      "default": {
+        "everyone_member": false,
+        "free_rebuild": "0s",
+        "free_super_regions": [],
+        "immunity": "0s",
+        "immunity_nano": 0,
+        "knockaway": {
+          "distance": 0.0,
+          "radius": 0.0,
+          "speed": 0.0
+        },
+        "rebuild_by_level": {}
+      },
+      "description": "Smashed minifigures: rebuild time, the swap's knockaway and immunity."
     },
     "story_quests": {
       "additionalProperties": {

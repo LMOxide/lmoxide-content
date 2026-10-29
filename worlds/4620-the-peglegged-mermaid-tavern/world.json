@@ -3,6 +3,7 @@
   "name": "The Peglegged Mermaid Tavern",
   "playfield": 4620,
   "kind": "pocket",
+  "super_region": 4000,
   "level": {
     "cap": 11
   },

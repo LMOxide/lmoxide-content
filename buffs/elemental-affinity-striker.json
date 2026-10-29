@@ -1,0 +1,16 @@
+{
+  "id": "buff/elemental-affinity-striker",
+  "name": "Elemental Affinity (Striker)",
+  "nano": 529230,
+  "effects": [
+    {
+      "stat": {
+        "stat": "damage",
+        "op": "add",
+        "value": "10%"
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "DoElementalAffinity (script 1793): cast by role on a minifigure with the Elemental Affinity upgrade in a zone of its element."
+}

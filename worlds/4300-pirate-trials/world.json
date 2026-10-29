@@ -4,6 +4,7 @@
   "playfield": 4300,
   "kind": "pocket",
   "region": "region/pirate-world",
+  "super_region": 4000,
   "level": {
     "cap": 11
   },

@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "light",
   "region": "region/space-world",
+  "super_region": 3000,
   "minifigure": "minifig/lady-robot",
   "parts": ["minifig/alien-avenger", "minifig/plumber"],
   "arrival": {

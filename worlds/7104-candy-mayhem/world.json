@@ -3,6 +3,7 @@
   "name": "Candy Mayhem",
   "playfield": 7104,
   "kind": "instance",
+  "super_region": 7000,
   "arrival": {
     "pos": [210.5, 35.87, 111.0],
     "rot": 0.0

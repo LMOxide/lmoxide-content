@@ -1,0 +1,16 @@
+{
+  "id": "loot/professional",
+  "name": "Professional",
+  "client_table": 211,
+  "rolls": 1,
+  "entries": [
+    {
+      "drop": {
+        "hearts": 1
+      }
+    }
+  ],
+  "source": "guess",
+  "tags": ["approximate"],
+  "comment": "Professional's table (\"you may receive a power-up\"). Its contents were server data; a health orb is assumed."
+}

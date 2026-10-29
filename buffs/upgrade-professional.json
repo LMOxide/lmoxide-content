@@ -6,16 +6,17 @@
     {
       "proc": {
         "on": "special_kill",
-        "chance": "25%",
+        "chance": "5%",
         "then": [
           {
             "drop": {
-              "loot": "loot/health-orb"
+              "loot": "loot/professional"
             }
           }
         ]
       }
     }
   ],
-  "source": "server"
+  "source": "client",
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 998: a killing blow by the special, 5% -> spawnloot(table 211) at the target."
 }

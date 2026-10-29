@@ -3,6 +3,7 @@
   "name": "LEGO Center",
   "playfield": 1200,
   "kind": "hub",
+  "super_region": 4000,
   "arrival": {
     "pos": [329.8, 48.1, 66.7],
     "rot": 3.93

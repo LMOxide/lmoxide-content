@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "nature",
   "region": "region/pirate-world",
+  "super_region": 4000,
   "minifigure": "minifig/revolutionary-soldier",
   "parts": ["minifig/hollywood-starlet", "minifig/saxophone-player"],
   "arrival": {

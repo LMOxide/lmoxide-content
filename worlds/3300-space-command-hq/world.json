@@ -4,6 +4,7 @@
   "playfield": 3300,
   "kind": "pocket",
   "region": "region/space-world",
+  "super_region": 3000,
   "level": {
     "cap": 19
   },

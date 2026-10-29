@@ -7,6 +7,7 @@
   "text": "Smash 100000 Smashies.",
   "points": 100,
   "kind": "counter",
+  "reward": "loot/achievement-stars-large",
   "counter": [3000126, 100000],
   "source": "client"
 }

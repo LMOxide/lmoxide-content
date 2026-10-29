@@ -3,6 +3,7 @@
   "name": "Volcano Brawl",
   "playfield": 7201,
   "kind": "instance",
+  "super_region": 7000,
   "arrival": {
     "pos": [268.5, 43.9, 281.0],
     "rot": 0.0

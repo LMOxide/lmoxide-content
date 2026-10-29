@@ -3,6 +3,7 @@
   "name": "Jungle Arena",
   "playfield": 7400,
   "kind": "instance",
+  "super_region": 7000,
   "arrival": {
     "pos": [243.5, 44.15, 279.5],
     "rot": 0.0

@@ -182,6 +182,7 @@
         },
         {
           "additionalProperties": false,
+          "description": "Knocks the target away (`radius`: everyone around the owner), or pulls it closer.",
           "properties": {
             "knockback": {
               "additionalProperties": false,
@@ -190,7 +191,15 @@
                   "format": "float",
                   "type": "number"
                 },
+                "pull": {
+                  "type": "boolean"
+                },
                 "radius": {
+                  "format": "float",
+                  "type": ["number", "null"]
+                },
+                "speed": {
+                  "description": "The client's Knockaway Speed, taken as m/s as actions.rs does (default 25).",
                   "format": "float",
                   "type": ["number", "null"]
                 },

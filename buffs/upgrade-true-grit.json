@@ -6,7 +6,7 @@
     {
       "proc": {
         "on": "health_below",
-        "below": "20%",
+        "below": "21%",
         "lockout": "300s",
         "then": [
           {
@@ -19,5 +19,6 @@
       }
     }
   ],
-  "source": "server"
+  "source": "client",
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 909: hit below 21% health and no blocker 467885 (300 s; the text says 10 minutes): 380600 for 5 s."
 }

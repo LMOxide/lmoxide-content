@@ -8,6 +8,7 @@
   "points": 50,
   "kind": "counter",
   "stars": 500,
+  "reward": "loot/achievement-stars-medium",
   "counter": [3000126, 5000],
   "source": "client"
 }

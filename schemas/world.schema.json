@@ -385,6 +385,12 @@
         }
       ]
     },
+    "super_region": {
+      "description": "The client's super-region (RDB 1000052, the server Lua's `playfield.superregion`):\n1300 tutorial, 2000 Mythology, 3000 Space, 4000 Pirate (with the hub), 5000 Medieval,\n6000 Dino, 7000 Lost Creations; none: not in the table. Level caps, chest loot power\nand the smashed-minifigure timer go by it.",
+      "format": "uint32",
+      "minimum": 0,
+      "type": ["integer", "null"]
+    },
     "tags": {
       "description": "Labels for sorting work out (\"approximate\", \"todo\", \"verified\", ...).",
       "items": {

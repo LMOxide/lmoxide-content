@@ -8,5 +8,6 @@
   "points": 50,
   "kind": "manual",
   "stars": 500,
+  "reward": "loot/achievement-stars-medium",
   "source": "client"
 }

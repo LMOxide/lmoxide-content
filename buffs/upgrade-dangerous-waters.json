@@ -2,7 +2,21 @@
   "id": "buff/upgrade-dangerous-waters",
   "name": "Upgrade: Dangerous Waters",
   "nano": 421251,
+  "effects": [
+    {
+      "proc": {
+        "on": "special_hit",
+        "target_slowed": true,
+        "then": [
+          {
+            "apply_buff": {
+              "buff": "buff/proc-dangerous-waters"
+            }
+          }
+        ]
+      }
+    }
+  ],
   "source": "client",
-  "tags": ["todo"],
-  "comment": "No client-side game actions: the effect was server script, not known yet."
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1030: a special's hit on a target in stacking line 802 or 803 (slowed or stunned) casts 423320 on it: WeaponHit AbilityMod 0.05 every 50 cs (its length is assumed)."
 }

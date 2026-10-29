@@ -3,6 +3,7 @@
   "name": "Swamp Brawl",
   "playfield": 7200,
   "kind": "instance",
+  "super_region": 7000,
   "arrival": {
     "pos": [238.0, 44.07, 279.0],
     "rot": 0.0

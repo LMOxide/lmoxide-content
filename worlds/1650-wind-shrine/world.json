@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "light",
   "region": "region/pirate-world",
+  "super_region": 4000,
   "minifigure": "minifig/skydiver",
   "parts": ["minifig/cyclops", "minifig/sea-captain"],
   "arrival": {

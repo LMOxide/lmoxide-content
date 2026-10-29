@@ -1,0 +1,30 @@
+{
+  "id": "buff/wrong-element-medium",
+  "name": "Wrong Element",
+  "nano": 517565,
+  "effects": [
+    {
+      "stat": {
+        "stat": "damage",
+        "op": "add",
+        "value": "-50%"
+      }
+    },
+    {
+      "stat": {
+        "stat": "defense",
+        "op": "add",
+        "value": "-99%"
+      }
+    },
+    {
+      "stat": {
+        "stat": "build_speed",
+        "op": "add",
+        "value": "-50%"
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "The playfield controllers (464871 Soft / 517564 Medium / 517102 Harsh, scripts 1095/1536/1535) cast it on a minifigure whose element isn't the zone's (TimeExist 999999)."
+}

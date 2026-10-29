@@ -257,6 +257,12 @@
     "author": {
       "type": "string"
     },
+    "client_table": {
+      "description": "The client loot table id the server scripts name (`engine.gethashfromloot(id, ...)`);\nits contents were server data.",
+      "format": "uint32",
+      "minimum": 0,
+      "type": ["integer", "null"]
+    },
     "comment": {
       "type": "string"
     },

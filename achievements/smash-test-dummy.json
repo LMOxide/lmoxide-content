@@ -7,6 +7,7 @@
   "text": "Complete the Monster Trials achievements.",
   "points": 100,
   "kind": "all",
+  "reward": "loot/achievement-stars-large",
   "children": [
     "achievement/the-golden-ticket",
     "achievement/the-fearless",

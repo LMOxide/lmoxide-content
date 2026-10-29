@@ -2,7 +2,29 @@
   "id": "buff/upgrade-equalizing-burst",
   "name": "Upgrade: Equalizing Burst",
   "nano": 531646,
+  "effects": [
+    {
+      "proc": {
+        "on": "kill",
+        "then": [
+          {
+            "knockback": {
+              "distance": 2.0,
+              "speed": 25.0,
+              "radius": 3.0,
+              "target": "self"
+            }
+          },
+          {
+            "effect": {
+              "effect_package": 538034,
+              "target": "self"
+            }
+          }
+        ]
+      }
+    }
+  ],
   "source": "client",
-  "tags": ["todo"],
-  "comment": "No client-side game actions: the effect was server script, not known yet."
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1808: a killing blow casts 531647 around the caster: radius 3, 531648 (Knockaway Distance 2, Speed 25); effect 538034."
 }

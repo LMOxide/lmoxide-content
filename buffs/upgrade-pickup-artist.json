@@ -2,7 +2,21 @@
   "id": "buff/upgrade-pickup-artist",
   "name": "Upgrade: Pickup Artist",
   "nano": 421229,
+  "effects": [
+    {
+      "proc": {
+        "on": "pickup",
+        "then": [
+          {
+            "apply_buff": {
+              "buff": "buff/proc-pickup-artist",
+              "target": "self"
+            }
+          }
+        ]
+      }
+    }
+  ],
   "source": "client",
-  "tags": ["todo"],
-  "comment": "No client-side game actions: the effect was server script, not known yet."
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 999: casting a power-up orb (92295 Defense, 21018 Health, 92307 Power) casts 426597: speed +50 for 2 s."
 }

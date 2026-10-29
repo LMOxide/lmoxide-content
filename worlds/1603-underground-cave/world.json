@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "nature",
   "region": "region/space-world",
+  "super_region": 3000,
   "minifigure": "minifig/scientist",
   "parts": ["minifig/alien-avenger", "minifig/plumber"],
   "arrival": {

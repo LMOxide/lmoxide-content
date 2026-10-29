@@ -4,5 +4,5 @@
   "nano": 421244,
   "source": "client",
   "tags": ["todo"],
-  "comment": "No client-side game actions: the effect was server script, not known yet."
+  "comment": "Script 1005: after a special completes, 427922: ModifySpellLineCooldown {spell line 160, Arg1 75, Value1 1} (CoreItemHolder::ModifyTemplateCooldown: with a percentage the remaining cooldown lock becomes 75% of itself). Not done: the special's recharge is the client's recast timer, and how the server changed it is not known."
 }

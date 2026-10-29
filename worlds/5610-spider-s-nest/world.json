@@ -4,6 +4,7 @@
   "playfield": 5610,
   "kind": "pocket",
   "element": "nature",
+  "super_region": 5000,
   "minifigure": "minifig/spooky-girl",
   "parts": ["minifig/forest-maiden", "minifig/fortune-teller"],
   "level": {

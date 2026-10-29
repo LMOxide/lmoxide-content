@@ -5,17 +5,20 @@
   "effects": [
     {
       "proc": {
-        "on": "normal_attack",
+        "on": "normal_hit",
         "every": 3,
+        "count_for": "2s",
         "then": [
           {
             "knockback": {
-              "distance": 4.0
+              "distance": 2.0,
+              "speed": 75.0
             }
           }
         ]
       }
     }
   ],
-  "source": "server"
+  "source": "client",
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1041: each normal hit counts on 522250 (TimeExist 2 s); the 3rd hit casts 439816 on that target: Knockaway Distance 2, Speed 75."
 }

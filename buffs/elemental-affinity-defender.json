@@ -1,0 +1,16 @@
+{
+  "id": "buff/elemental-affinity-defender",
+  "name": "Elemental Affinity (Defender)",
+  "nano": 529231,
+  "effects": [
+    {
+      "stat": {
+        "stat": "defense",
+        "op": "add",
+        "value": "20%"
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "DoElementalAffinity (script 1793): cast by role on a minifigure with the Elemental Affinity upgrade in a zone of its element."
+}

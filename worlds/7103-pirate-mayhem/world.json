@@ -3,6 +3,7 @@
   "name": "Pirate Mayhem",
   "playfield": 7103,
   "kind": "other",
+  "super_region": 7000,
   "arrival": {
     "pos": [317.5, 53.08, 111.0],
     "rot": 0.0

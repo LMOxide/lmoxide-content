@@ -5,8 +5,9 @@
   "effects": [
     {
       "proc": {
-        "on": "normal_attack",
+        "on": "normal_hit",
         "every": 3,
+        "count_for": "1s",
         "then": [
           {
             "apply_buff": {
@@ -18,5 +19,6 @@
       }
     }
   ],
-  "source": "server"
+  "source": "client",
+  "comment": "From the server Lua shipped with the client (research/lmoxide-notes/client-survey/stats-and-minigames.md, stats_upgrade_lua.json): script 1027: normal hits count on 437986 (TimeExist 1 s); the 3rd casts 526233 (+10% damage, no TimeExist: its 3 s is assumed)."
 }

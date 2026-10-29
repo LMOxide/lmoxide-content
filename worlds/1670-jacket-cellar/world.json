@@ -5,6 +5,7 @@
   "kind": "pocket",
   "element": "tech",
   "region": "region/pirate-world",
+  "super_region": 4000,
   "minifigure": "minifig/pizza-delivery-man",
   "parts": ["minifig/hollywood-starlet", "minifig/saxophone-player"],
   "arrival": {

@@ -4,6 +4,7 @@
   "playfield": 6300,
   "kind": "pocket",
   "region": "region/dino-world",
+  "super_region": 6000,
   "level": {
     "cap": 30
   },

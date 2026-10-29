@@ -8,6 +8,7 @@
   "points": 25,
   "kind": "any",
   "stars": 250,
+  "reward": "loot/achievement-stars-small",
   "minifigure": "minifig/trendsetter",
   "n": 5,
   "source": "client"
