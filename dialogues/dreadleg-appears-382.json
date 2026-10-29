@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/dreadleg-appears-382",
+  "name": "Cinematic Start Dreadleg Appears",
+  "texts": [382, 383, 384, 385],
+  "world": "world/isle-of-yarr",
+  "npc_name": 1668,
+  "npc": "Cinematic Start Dreadleg Appears",
+  "start": "trigger",
+  "pos": [373.81, 68.28, 347.41],
+  "order": 105,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 385 on BA_Cine_DreadlegAppears1 (3.6 m from Cine_Dreadleg1); 541 Dreadleg Appears, K0TT (tools/content/story_dialogues.py)"
+}

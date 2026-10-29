@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/dino-volcano-caveman-674",
+  "name": "Caveman",
+  "texts": [674, 675, 1001, 676, 677, 1002, 1003, 1004, 1005, 678],
+  "world": "world/dinosaur-rise",
+  "npc_name": 1928,
+  "npc": "Caveman",
+  "start": "trigger",
+  "pos": [107.35, 68.69, 186.16],
+  "order": 158,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area Cine_DQ2_Cutscene3 1.3 m from its markers and the Caveman's spawn (the owner); 1001-1005 use its actors (Battle Goddess, Elementius); 915 XX_D_Volcano_Knubot (tools/content/story_dialogues.py)"
+}

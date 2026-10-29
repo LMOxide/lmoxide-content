@@ -85,6 +85,20 @@
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
     },
     {
+      "id": "trigger/3300/story-ba-cine-preboss-fight1",
+      "name": "BA_Cine_Preboss Fight1",
+      "area": "area/3300/ba-cine-preboss-fight1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-hq-preboss-330"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-hq-preboss-330: likely (reconstructed): area 'BA_Cine_Preboss Fight1' 26 m from its markers in Space Command HQ; the Queen and Shadrack (492-494, 523 use their actors); epilogue 331 gives 485 XX_S4 (tools/content/import_story.py)"
+    },
+    {
       "id": "trigger/3300/story-ba-head-robot1",
       "name": "BA_Head_Robot1",
       "area": "area/3300/ba-head-robot1",

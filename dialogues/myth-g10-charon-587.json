@@ -1,0 +1,13 @@
+{
+  "id": "dialogue/myth-g10-charon-587",
+  "name": "Cinematic Start Charon",
+  "texts": [587, 588, 975, 976, 977, 978, 979, 980, 981, 982, 983, 984, 985, 986, 591],
+  "world": "world/underworld",
+  "npc": "Charon",
+  "start": "trigger",
+  "pos": [186.7, 52.28, 159.64],
+  "order": 150,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 591 on Cine_G10_Cutscene1 (Charon's spawn 9 m away speaks as the owner); 975-986 use its actors; 674 XX_G10 (tools/content/story_dialogues.py)"
+}

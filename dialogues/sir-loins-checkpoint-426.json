@@ -1,0 +1,15 @@
+{
+  "id": "dialogue/sir-loins-checkpoint-426",
+  "name": "Sir Loin",
+  "texts": [426, 427, 887, 428, 429, 430, 431, 432, 433, 434],
+  "world": "world/kingdom",
+  "npc_name": 1716,
+  "npc": "Sir Loin",
+  "start": "trigger",
+  "pos": [332.46, 20.0, 138.36],
+  "requires": [426],
+  "order": 118,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: Story_WallCheckpoint1 is 3 m from its 7 markers and Sir Loin's spawn (it resolved 24IC by name before: that goal is the Knights' epilogue 277); 887 answers 427; epilogue 434 gives 561 Sir Loins Checkpoint, resolves KM38 (tools/content/story_dialogues.py)"
+}

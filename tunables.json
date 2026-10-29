@@ -253,6 +253,7 @@
         "text": 13,
         "length": "46.68s",
         "requires": [437],
+        "then_dialogue": "dialogue/space-world-news-466",
         "comment": "guess: arriving at the hub once Medieval World is done (437 Another Cube Piece)"
       },
       "after-mythology": {
@@ -260,6 +261,7 @@
         "text": 18,
         "length": "31.16s",
         "requires": [676],
+        "then_dialogue": "dialogue/dino-world-news-633",
         "comment": "guess: arriving at the hub once Mythology World is done (676 XX_G12, 'Disrupt Hades' plan')"
       },
       "after-pirate-fort": {
@@ -276,6 +278,7 @@
         "text": 11,
         "length": "35.01s",
         "requires": [316],
+        "then_dialogue": "dialogue/medieval-world-news-267",
         "comment": "guess: arriving at the hub once Pirate World is done (316 Captain Dreadleg, its last beat; the last step is 'Travel to the LEGO Center')"
       },
       "after-space": {
@@ -283,6 +286,7 @@
         "text": 16,
         "length": "45.53s",
         "requires": [492],
+        "then_dialogue": "dialogue/mythology-world-news-530",
         "comment": "guess: arriving at the hub once Space World is done (492, 'End the Alien Invasion')"
       },
       "after-t-rex": {
@@ -310,6 +314,7 @@
         "text": 19,
         "length": "72.5s",
         "tag": 4283,
+        "then_dialogue": "dialogue/dino-d01-crash-620",
         "comment": "likely: BA_Cine_Intro (actors there), flag 4283 Cine_Dino_Intro"
       },
       "game-intro": {
@@ -331,6 +336,7 @@
         "text": 12,
         "length": "58.18s",
         "unless": [425],
+        "then_dialogue": "dialogue/the-kings-court-272",
         "comment": "guess: arriving in the Kingdom (the arrival point is in BA_Story_AutoTeleportToThroneRoom1), before the King's Court (425)"
       },
       "mythology-intro": {
@@ -338,6 +344,7 @@
         "text": 17,
         "length": "44.93s",
         "tag": 4282,
+        "then_dialogue": "dialogue/myth-g01-zeus-572",
         "comment": "likely: BA_Medieval_Intro in Mythology Mountains (Zeus and Artemis actors there), flag 4282 Cine_Mythology_Intro"
       },
       "pirate-intro": {
@@ -353,6 +360,7 @@
         "text": 14,
         "length": "28.2s",
         "tag": 4285,
+        "then_dialogue": "dialogue/space-s02-briefing-327",
         "comment": "likely: BA_Space_Intro (actors at its height), flag 4285 Cine_Space_Intro"
       }
     },
@@ -366,6 +374,16 @@
       "53": [67],
       "61": [75],
       "84": [113, 116, 124, 173]
+    },
+    "spawn_minifigures": {
+      "5WM9": "minifig/pizza-delivery-man",
+      "7LLT": "minifig/swashbuckler",
+      "7WZE": "minifig/space-miner",
+      "8G4X": "minifig/wizard",
+      "9UO2": "minifig/battle-goddess",
+      "GQKS": "minifig/jester",
+      "RG5K": "minifig/revolutionary-soldier",
+      "SIKZ": "minifig/island-warrior"
     }
   },
   "more": {

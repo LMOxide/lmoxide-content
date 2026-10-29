@@ -20,19 +20,15 @@
       "id": "trigger/4620/story-ba-cine-thepeglegmermaid1",
       "name": "BA_Cine_ThePeglegMermaid1",
       "area": "area/4620/ba-cine-thepeglegmermaid1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 156
-            }
+          "dialogue": {
+            "dialogue": "dialogue/the-pegleg-mermaid-155"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely: sets The Pegleg Mermaid (310) with text 156; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "the-pegleg-mermaid-155: likely (reconstructed): was the silent beat 156 on BA_Cine_ThePeglegMermaid1 (4.8 m from 11 of its 12 markers); Pete's actor 'Pete' links 866-870 ('is there anybody you don't owe money?' - 'Err...Dreadleg?' - 'Don't ye be mentionin' that scallywag') and 380/381 (THE PIRATE TRIALS!); 176 duplicates 173 (left out); 310, ATSN (tools/content/import_story.py)"
     },
     {
       "id": "trigger/4620/story-story-reachtavern",

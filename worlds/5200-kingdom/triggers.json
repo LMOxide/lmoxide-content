@@ -304,6 +304,34 @@
       "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
     },
     {
+      "id": "trigger/5200/story-ba-cine-cityguards1",
+      "name": "BA_Cine_CityGuards1",
+      "area": "area/5200/ba-cine-cityguards1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/kingnapped-278"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "kingnapped-278: likely (reconstructed): area BA_Cine_CityGuards1 1.7 m from Cine_KnightSpawn2 and the Knight spawn; Knight1 is the owner, Knight2 a client actor; epilogue 277 (before 278, as the Medieval texts put them) gives 426 Kingnapped!, resolves 24IC (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5200/story-ba-cine-thekingscourt1",
+      "name": "BA_Cine_TheKingsCourt1",
+      "area": "area/5200/ba-cine-thekingscourt1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/the-kings-court-272"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "the-kings-court-272: likely (reconstructed): after the Medieval intro cinematic (then_dialogue: the arrival point is in BA_Story_AutoTeleportToThroneRoom1, whose 'teleport to the throne room' is 272's {moveactortopos playerActor TP_ThroneRoom}); also on BA_Cine_TheKingsCourt1 (9.1 m from its 3 markers) and BA_Story_TeleportToThroneRoom_CinematicFailed (when the intro was seen); 416-419 (the Wizard answers the King) use its actors; epilogue 276 gives 425, resolves CPIJ 'Go to the Kingdom', spawns 8G4X (the Wizard's minifigure bag: Lua 4048 'XX_give wizard bag tag' sets 4242 Received Wizard) and teleports to the Kingdom's arrival point (88.3, 24.5, 256) (tools/content/import_story.py)"
+    },
+    {
       "id": "trigger/5200/story-ba-head-dragonhalls1",
       "name": "BA_Head_DragonHalls1",
       "area": "area/5200/ba-head-dragonhalls1",
@@ -427,22 +455,50 @@
       "comment": "medieval-intro: guess: arriving in the Kingdom (the arrival point is in BA_Story_AutoTeleportToThroneRoom1), before the King's Court (425) (tools/content/import_story.py)"
     },
     {
-      "id": "trigger/5200/story-story-wallcheckpoint1",
-      "name": "Story_WallCheckpoint1",
-      "area": "area/5200/story-wallcheckpoint1",
+      "id": "trigger/5200/story-ba-story-teleporttothroneroom-cinematicfailed",
+      "name": "BA_Story_TeleportToThroneRoom_CinematicFailed",
+      "area": "area/5200/ba-story-teleporttothroneroom-cinematicfailed",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/the-kings-court-272"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "the-kings-court-272: likely (reconstructed): after the Medieval intro cinematic (then_dialogue: the arrival point is in BA_Story_AutoTeleportToThroneRoom1, whose 'teleport to the throne room' is 272's {moveactortopos playerActor TP_ThroneRoom}); also on BA_Cine_TheKingsCourt1 (9.1 m from its 3 markers) and BA_Story_TeleportToThroneRoom_CinematicFailed (when the intro was seen); 416-419 (the Wizard answers the King) use its actors; epilogue 276 gives 425, resolves CPIJ 'Go to the Kingdom', spawns 8G4X (the Wizard's minifigure bag: Lua 4048 'XX_give wizard bag tag' sets 4242 Received Wizard) and teleports to the Kingdom's arrival point (88.3, 24.5, 256) (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5200/story-story-spawnmedievalquest",
+      "name": "Story_SpawnMedievalQuest",
+      "area": "area/5200/story-spawnmedievalquest",
       "once": "per_player",
       "actions": [
         {
           "command": {
-            "name": "story_goal",
+            "name": "story_beat",
             "args": {
-              "goal": "24IC"
+              "text": 271
             }
           }
         }
       ],
       "source": "guess",
-      "comment": "guess (name): resolves story goal 24IC (tools/content/import_story.py)"
+      "comment": "guess: Story_SpawnMedievalQuest in the Kingdom runs text 271 '[Medieval Quest]{spawn KFTR}' (the Video Game Guy's epilogue) for whoever arrives without the Medieval story line (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5200/story-story-wallcheckpoint1",
+      "name": "Story_WallCheckpoint1",
+      "area": "area/5200/story-wallcheckpoint1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/sir-loins-checkpoint-426"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "sir-loins-checkpoint-426: likely (reconstructed): Story_WallCheckpoint1 is 3 m from its 7 markers and Sir Loin's spawn (it resolved 24IC by name before: that goal is the Knights' epilogue 277); 887 answers 427; epilogue 434 gives 561 Sir Loins Checkpoint, resolves KM38 (tools/content/import_story.py)"
     }
   ]
 }

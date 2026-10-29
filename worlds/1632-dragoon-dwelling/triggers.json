@@ -32,6 +32,20 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/1632/story-cine-rescue-revolutionary-soulder1",
+      "name": "Cine_Rescue_Revolutionary_Soulder1",
+      "area": "area/1632/cine-rescue-revolutionary-soulder1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/rescue-revolutionary-soldier-778"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "rescue-revolutionary-soldier-778: likely (reconstructed): as the live Island Warrior rescue (773, area Cine_Rescue_Island_Warrior1): area Cine_Rescue_Revolutionary_Soulder1 13.8 m from its 10 markers (1632); epilogue 779 gives 4142 Rescue Revolutionary Soldier, resolves 0JSC (the Pirate line's step after FBRB, capture order); 849-853 use its actors (RevoSoldier, Swashbuckler, IslandWarrior) (tools/content/import_story.py)"
     }
   ]
 }

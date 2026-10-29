@@ -1370,9 +1370,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 490 XX_S9 (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 388880 (extract_server_areas.py)"
     },
     {
@@ -1397,9 +1395,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 491 The Alien Queen, text 348 (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 388882 (extract_server_areas.py)"
     },
     {
@@ -1417,9 +1413,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 4243 XX_S09.5_AtTheBuilderRuins, text 920 (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 637023 (extract_server_areas.py)"
     },
     {

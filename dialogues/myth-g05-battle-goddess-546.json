@@ -1,0 +1,15 @@
+{
+  "id": "dialogue/myth-g05-battle-goddess-546",
+  "name": "XX_Cinematic Start G05",
+  "texts": [546, 547, 548, 962, 963, 550, 964, 551, 552, 553, 554, 965, 617, 966, 555],
+  "world": "world/medusa-s-lair",
+  "npc_name": 1830,
+  "npc": "XX_Cinematic Start G05",
+  "start": "boss",
+  "pos": [221.51, 4.18, 259.38],
+  "defeated": "Medusa",
+  "order": 145,
+  "source": "guess",
+  "tags": ["reconstructed", "guess"],
+  "comment": "guess: Battle Goddess freed from stone - after Medusa (no area: its 9 markers are 25 m from G04's); 962-966 and 617 use its actors; epilogue 555 gives 669 XX_G05, resolves 59MF, spawns 9UO2 (tools/content/story_dialogues.py)"
+}

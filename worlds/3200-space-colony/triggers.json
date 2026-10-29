@@ -379,6 +379,76 @@
       "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
     },
     {
+      "id": "trigger/3200/story-ba-cine-mercsatmines1",
+      "name": "BA_Cine_MercsAtMines1",
+      "area": "area/3200/ba-cine-mercsatmines1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-mercs-at-mines-495"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-mercs-at-mines-495: likely (reconstructed): area BA_Cine_MercsAtMines1 15.6 m from its markers; 585 XX_MercsAtTheMines (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-cine-s02",
+      "name": "BA_Cine_S02",
+      "area": "area/3200/ba-cine-s02",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-s02-briefing-327"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-s02-briefing-327: likely (reconstructed): area BA_Cine_S02 19 m from its 12 markers (the briefing soldiers); epilogue 328 gives 483 XX_S2, resolves PIJN (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-cine-s03-meansoldier1",
+      "name": "BA_Cine_S03_MeanSoldier1",
+      "area": "area/3200/ba-cine-s03-meansoldier1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-s03-mean-soldier-487"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-s03-mean-soldier-487: guess (reconstructed): area BA_Cine_S03_MeanSoldier1 1.8 m from its markers; 491/529/901 (the alien scares him off: his runaway marker) placed before the epilogue 489 (484 XX_S3, spawns 5PJB) - their order is a guess (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-cine-s07",
+      "name": "BA_Cine_S07",
+      "area": "area/3200/ba-cine-s07",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-meet-the-space-miner-334"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-meet-the-space-miner-334: likely (reconstructed): area BA_Cine_S07 7.5 m from its markers; 498-499 and 904-910 (the Pizza Guy 'spy', sharing the crystals) use its actors; epilogue 335 gives 587 XX_S07_MeetTheSpaceMiner, resolves 37G8 (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-cine-s08",
+      "name": "BA_Cine_S08",
+      "area": "area/3200/ba-cine-s08",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-help-fear-337"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-help-fear-337: likely (reconstructed): area BA_Cine_S08 1.8 m from its markers; the odds of the crystal raid (911-913, 500, 501, 514) use its actors; epilogue 336 gives 588 XX_S08_Help_F.E.A.R, resolves VJMG (tools/content/import_story.py)"
+    },
+    {
       "id": "trigger/3200/story-ba-head-alienshiredmercs1",
       "name": "BA_Head_AliensHiredMercs1",
       "area": "area/3200/ba-head-alienshiredmercs1",

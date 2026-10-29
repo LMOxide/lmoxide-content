@@ -71,55 +71,43 @@
       "id": "trigger/2310/story-cine-g06-cutscene1",
       "name": "Cine_G06_Cutscene1",
       "area": "area/2310/cine-g06-cutscene1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 559
-            }
+          "dialogue": {
+            "dialogue": "dialogue/myth-g06-puzzle-lock-556"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_G06 (670) with text 559; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "myth-g06-puzzle-lock-556: likely (reconstructed): was the silent beat 559 on Cine_G06_Cutscene1; 670 XX_G06 (tools/content/import_story.py)"
     },
     {
       "id": "trigger/2310/story-cine-g07-cutscene1",
       "name": "Cine_G07_Cutscene1",
       "area": "area/2310/cine-g07-cutscene1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 567
-            }
+          "dialogue": {
+            "dialogue": "dialogue/myth-g07-thunderbolt-560"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_G07 (671) with text 567; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "myth-g07-thunderbolt-560: likely (reconstructed): was the silent beat 567 on Cine_G07_Cutscene1; 671 XX_G07 (tools/content/import_story.py)"
     },
     {
       "id": "trigger/2310/story-cine-g08-cutscene1",
       "name": "Cine_G08_Cutscene1",
       "area": "area/2310/cine-g08-cutscene1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 571
-            }
+          "dialogue": {
+            "dialogue": "dialogue/myth-g08-the-key-568"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_G08 (672) with text 571; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "myth-g08-the-key-568: likely (reconstructed): was the silent beat 571 on Cine_G08_Cutscene1 (now after G07's 671: Thunderbolt is beaten first); 960/961 (chicken wings) use its actors; 672 XX_G08, R1KN (tools/content/import_story.py)"
     },
     {
       "id": "trigger/2310/story-head-entrance1",

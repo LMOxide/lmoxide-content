@@ -193,9 +193,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 4301 XX_Gamer Questgiver Dino Info (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:1200 guid 463222 (extract_server_areas.py)"
     },
     {

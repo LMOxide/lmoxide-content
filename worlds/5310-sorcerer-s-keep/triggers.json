@@ -15,6 +15,20 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/5310/story-ba-cine-placeholder1",
+      "name": "BA_Cine_Placeholder1",
+      "area": "area/5310/ba-cine-placeholder1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/defeated-elementius-308"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "defeated-elementius-308: guess (reconstructed): BA_Cine_Placeholder1 of the Sorcerer's Keep is 19.5 m from all 5 of its markers, past the boss (Evil Sorcerer at (329, 309)); 'Surrender Elementius, you are beaten!'; 457-463 and 897-900 use its actors (the King arrives); epilogue 309 gives 437 Another Cube Piece, resolves 4H62 (tools/content/import_story.py)"
     }
   ]
 }

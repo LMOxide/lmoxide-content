@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/dino-d01-crash-620",
+  "name": "Pilot",
+  "texts": [620, 622, 623, 624, 993, 994, 626, 795, 628, 995, 627, 796, 621],
+  "world": "world/dinosaur-rise",
+  "npc_name": 1922,
+  "npc": "Pilot",
+  "start": "trigger",
+  "pos": [145.86, 64.0, 46.34],
+  "order": 154,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 621 on Cine_D01_Cutscene1 (2 m from its markers; the Pilot's spawn is the Explorer who speaks as the owner); 993-995 and 795/796 are the Explorer's; 909 XX_D01, 6BRI, spawns 29ZU (the plane parts) (tools/content/story_dialogues.py)"
+}

@@ -38,6 +38,35 @@
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
     },
     {
+      "id": "trigger/1200/story-ba-cine-gamerquestgiver1",
+      "name": "BA_Cine_GamerQuestgiver1",
+      "area": "area/1200/ba-cine-gamerquestgiver1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/medieval-world-news-267"
+          }
+        },
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-world-news-466"
+          }
+        },
+        {
+          "dialogue": {
+            "dialogue": "dialogue/mythology-world-news-530"
+          }
+        },
+        {
+          "dialogue": {
+            "dialogue": "dialogue/dino-world-news-633"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "medieval-world-news-267: likely (reconstructed): the Video Game Guy at the LEGO Center (BA_Cine_GamerQuestgiver1 is 3 m from his live spawn): 'Hope you had fun in the Pirate World!'; epilogue 271 '[Medieval Quest]{spawn KFTR}' starts the Medieval story line; after Pirate World (316, as the after-pirate-world cinematic it follows), before Medieval World is done (437); space-world-news-466: likely (reconstructed): the Video Game Guy at the LEGO Center (his area, Cine_SpaceMiner1 3.8 m away): the Space Miner's distress call; epilogue 467 '[Space Quest]{spawn XQ65}' starts the Space story line; after Medieval World (437); mythology-world-news-530: likely (reconstructed): the Video Game Guy at the LEGO Center: 'Did you have fun in Space?' and the stone tablet; epilogue 576 '[Mythology Quest]{spawn U3FC}' starts the Mythology story line; after Space World (492); dino-world-news-633: likely (reconstructed): the Video Game Guy at the LEGO Center ('[DINO WORLD]', the crystal artifacts of Dinosaur Rise); epilogue 634 '[Dino Quest]{resolvegoal 3K9Q}' starts the Dino story line; after Mythology World (676) (tools/content/import_story.py)"
+    },
+    {
       "id": "trigger/1200/story-ba-story-found-dinoentrance1",
       "name": "BA_Story_Found_DinoEntrance1",
       "area": "area/1200/ba-story-found-dinoentrance1",

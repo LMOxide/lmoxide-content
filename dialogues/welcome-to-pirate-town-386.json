@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/welcome-to-pirate-town-386",
+  "name": "Cinematic Start Welcome to Pirate Town",
+  "texts": [386, 387, 843, 845, 863, 864, 865, 846, 394],
+  "world": "world/isle-of-yarr",
+  "npc_name": 1669,
+  "npc": "Cinematic Start Welcome to Pirate Town",
+  "start": "trigger",
+  "pos": [437.09, 68.24, 159.31],
+  "order": 106,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 394 on BA_Cine_WelcomeToPirateTown1 (2 m from its 7 markers; the live capture spawned 'Cinematic Start Welcome to Pirate Town' here); 843/845/846 (council, 'this way!') and 863-865 (Revo, Island Warrior: 'aren't you a pirate captain?') use its actors; 542, KSKL (tools/content/story_dialogues.py)"
+}

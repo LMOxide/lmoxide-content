@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/dreadleg-volcano-404",
+  "name": "Cinematic Start Dreadleg Volcano",
+  "texts": [404, 405, 406, 407, 408],
+  "world": "world/volcano-island",
+  "npc_name": 1673,
+  "npc": "Cinematic Start Dreadleg Volcano",
+  "start": "trigger",
+  "pos": [190.51, 84.22, 201.81],
+  "order": 110,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 408 on BA_Cine_DreadlegVolcano1; 439, 5YHB (tools/content/story_dialogues.py)"
+}

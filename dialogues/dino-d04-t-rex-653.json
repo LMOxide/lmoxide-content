@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/dino-d04-t-rex-653",
+  "name": "XX_Cinematic Start D04",
+  "texts": [653, 655, 657, 658, 659, 660, 661],
+  "world": "world/gauntlet",
+  "npc_name": 1925,
+  "npc": "XX_Cinematic Start D04",
+  "start": "trigger",
+  "pos": [448.35, 58.4, 210.19],
+  "order": 160,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 661 on Cine_D04_Cutscene1 (4.2 m from its markers); 912 XX_D04 (tools/content/story_dialogues.py)"
+}

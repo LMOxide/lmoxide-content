@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/space-shadrack-503",
+  "name": "Cinematic Start S11",
+  "texts": [503, 504, 935, 936, 937, 938, 939, 505],
+  "world": "world/shadow-centurion-base",
+  "npc_name": 1737,
+  "npc": "Cinematic Start S11",
+  "start": "trigger",
+  "pos": [232.4, 32.11, 201.25],
+  "order": 136,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area BA_Cine_S11 3.1 m from its markers; 592 XX_S11_Shadrack_BossFight (tools/content/story_dialogues.py)"
+}

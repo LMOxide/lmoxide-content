@@ -68,22 +68,32 @@
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
     },
     {
-      "id": "trigger/4310/story-ba-cine-intotheskull1",
-      "name": "BA_Cine_IntoTheSkull1",
-      "area": "area/4310/ba-cine-intotheskull1",
-      "once": "per_player",
+      "id": "trigger/4310/story-ba-cine-dreadleg1",
+      "name": "BA_Cine_Dreadleg1",
+      "area": "area/4310/ba-cine-dreadleg1",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 204
-            }
+          "dialogue": {
+            "dialogue": "dialogue/captain-dreadleg-127"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely: sets Into the skull (315) with text 204; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "captain-dreadleg-127: likely (reconstructed): area BA_Cine_Dreadleg1 3.8 m from its markers (Cine_PlayerAtPreBoss1: before the boss); 316 Captain Dreadleg (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4310/story-ba-cine-intotheskull1",
+      "name": "BA_Cine_IntoTheSkull1",
+      "area": "area/4310/ba-cine-intotheskull1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/into-the-skull-200"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "into-the-skull-200: likely (reconstructed): was the silent beat 204 on BA_Cine_IntoTheSkull1 (2.8 m from Cine_DreadlegAppears1); 315, 9HSH (tools/content/import_story.py)"
     }
   ]
 }

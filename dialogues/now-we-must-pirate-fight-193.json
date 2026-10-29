@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/now-we-must-pirate-fight-193",
+  "name": "Cinematic Start Now we must pirate fight",
+  "texts": [193, 195, 194, 197, 199],
+  "world": "world/pirate-trials",
+  "npc_name": 991,
+  "npc": "Cinematic Start Now we must pirate fight",
+  "start": "trigger",
+  "pos": [84.98, 35.75, 271.05],
+  "order": 108,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area BA_Cine_NowWeMustPirateFight 2.3 m from its markers; 311 'Now we must pirate fight!' (its epilogue 199 sets no tag: played once) (tools/content/story_dialogues.py)"
+}

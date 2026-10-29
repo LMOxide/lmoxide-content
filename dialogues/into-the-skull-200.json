@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/into-the-skull-200",
+  "name": "Cinematic Start Into the Skull",
+  "texts": [200, 201, 203, 204],
+  "world": "world/pirate-grotto",
+  "npc_name": 1011,
+  "npc": "Cinematic Start Into the Skull",
+  "start": "trigger",
+  "pos": [280.88, 41.0, 167.75],
+  "order": 111,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 204 on BA_Cine_IntoTheSkull1 (2.8 m from Cine_DreadlegAppears1); 315, 9HSH (tools/content/story_dialogues.py)"
+}

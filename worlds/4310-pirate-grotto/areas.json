@@ -824,9 +824,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 316 Captain Dreadleg, text 134 (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:4310 guid 233309 (extract_server_areas.py)"
     },
     {

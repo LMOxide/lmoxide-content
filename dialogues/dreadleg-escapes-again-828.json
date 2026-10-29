@@ -1,0 +1,15 @@
+{
+  "id": "dialogue/dreadleg-escapes-again-828",
+  "name": "Cinematic Start Dreadleg Escapes Again",
+  "texts": [828, 829, 830, 831, 833, 841, 834, 836, 840],
+  "world": "world/isle-of-yarr",
+  "npc_name": 2728,
+  "npc": "Cinematic Start Dreadleg Escapes Again",
+  "start": "trigger",
+  "pos": [311.17, 69.43, 318.97],
+  "requires": [4161],
+  "order": 104,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area Cinematic_Dreadleg1 19.9 m from its 11 markers (Cine_*AfterFight*); epilogue 840 gives 4183 Dreadleg Escapes Again, resolves AKJH (Pirate step after H1DR) and teleports; needs 4161 (inside the fort) (tools/content/story_dialogues.py)"
+}

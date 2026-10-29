@@ -83,6 +83,48 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/3310/story-ba-cine-s11",
+      "name": "BA_Cine_S11",
+      "area": "area/3310/ba-cine-s11",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-shadrack-503"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-shadrack-503: likely (reconstructed): area BA_Cine_S11 3.1 m from its markers; 592 XX_S11_Shadrack_BossFight (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3310/story-ba-cine-s12",
+      "name": "BA_Cine_S12",
+      "area": "area/3310/ba-cine-s12",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-victory-over-shadrack-506"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-victory-over-shadrack-506: likely (reconstructed): area BA_Cine_S12 2.6 m from its markers (after the Shadrack fight: needs 592); 593 XX_S12VictoryoverShadrack (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3310/story-ba-cine-s13",
+      "name": "BA_Cine_S13",
+      "area": "area/3310/ba-cine-s13",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-alien-queen-349"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-alien-queen-349: likely (reconstructed): area BA_Cine_S13 4.5 m from its 7 markers; 942-944 (the Space Miner bargains) use its actors; epilogue 348 gives 491 The Alien Queen, resolves 1RYD (tools/content/import_story.py)"
     }
   ]
 }

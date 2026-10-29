@@ -1,0 +1,16 @@
+{
+  "id": "dialogue/my-kingdom-for-a-crown-288",
+  "name": "Cinematic Start My Kingdom for a Crown",
+  "texts": [288, 289, 291, 447, 888, 448, 449, 450, 889, 890, 891, 451, 892, 893, 452, 287],
+  "world": "world/ruined-fort",
+  "npc_name": 1237,
+  "npc": "Cinematic Start My Kingdom for a Crown",
+  "start": "boss",
+  "pos": [348.6, 50.27, 315.78],
+  "defeated": "boss",
+  "requires": [562],
+  "order": 121,
+  "source": "guess",
+  "tags": ["reconstructed", "guess"],
+  "comment": "guess: the Jester: 'I surrender, I'm beaten' - after the Ruined Fort's boss (its markers 25 m past the boss arena's BA_Cine_WorkingForTheEnemy1); 447-452 and 888-893 use its actors; epilogue 287 gives 431, spawns GQKS (the Jester joins), resolves I502 (tools/content/story_dialogues.py)"
+}

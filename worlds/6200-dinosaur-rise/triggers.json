@@ -337,55 +337,137 @@
       "id": "trigger/6200/story-cine-d01-cutscene1",
       "name": "Cine_D01_Cutscene1",
       "area": "area/6200/cine-d01-cutscene1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 621
-            }
+          "dialogue": {
+            "dialogue": "dialogue/dino-d01-crash-620"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_D01 (909) with text 621; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "dino-d01-crash-620: likely (reconstructed): was the silent beat 621 on Cine_D01_Cutscene1 (2 m from its markers; the Pilot's spawn is the Explorer who speaks as the owner); 993-995 and 795/796 are the Explorer's; 909 XX_D01, 6BRI, spawns 29ZU (the plane parts) (tools/content/import_story.py)"
     },
     {
       "id": "trigger/6200/story-cine-d02-cutscene1",
       "name": "Cine_D02_Cutscene1",
       "area": "area/6200/cine-d02-cutscene1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 646
-            }
+          "dialogue": {
+            "dialogue": "dialogue/dino-d02-dino-tracker-635"
+          }
+        },
+        {
+          "dialogue": {
+            "dialogue": "dialogue/dino-d03-expedition-694"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_D02 (910) with text 646; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "dino-d02-dino-tracker-635: likely (reconstructed): was the silent beat 646 on Cine_D02_Cutscene1/2 (2-6 m from its 9 markers); Swashbuckler's 'Treasures?!' (1010-1012, Cine_CampSwashbuckler1) and the adventurers' 652 use its actors; 910 XX_D02, I8D5; dino-d03-expedition-694: guess (reconstructed): the same camp ('You have all the pieces already?'): after the four elemental pieces (GBWD); 691-693 and 798 use its actors; epilogue 695 gives 911 XX_D03, resolves ODCB, spawns WGPC. The older 647-651 (resolves GBWD itself) is left out (tools/content/import_story.py)"
     },
     {
       "id": "trigger/6200/story-cine-d02-cutscene2",
       "name": "Cine_D02_Cutscene2",
       "area": "area/6200/cine-d02-cutscene2",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 646
-            }
+          "dialogue": {
+            "dialogue": "dialogue/dino-d02-dino-tracker-635"
+          }
+        },
+        {
+          "dialogue": {
+            "dialogue": "dialogue/dino-d03-expedition-694"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_D02 (910) with text 646; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "dino-d02-dino-tracker-635: likely (reconstructed): was the silent beat 646 on Cine_D02_Cutscene1/2 (2-6 m from its 9 markers); Swashbuckler's 'Treasures?!' (1010-1012, Cine_CampSwashbuckler1) and the adventurers' 652 use its actors; 910 XX_D02, I8D5; dino-d03-expedition-694: guess (reconstructed): the same camp ('You have all the pieces already?'): after the four elemental pieces (GBWD); 691-693 and 798 use its actors; epilogue 695 gives 911 XX_D03, resolves ODCB, spawns WGPC. The older 647-651 (resolves GBWD itself) is left out (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-cine-dq1-cutscene1",
+      "name": "Cine_DQ1_Cutscene1",
+      "area": "area/6200/cine-dq1-cutscene1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/dino-springs-scuba-diver-669"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "dino-springs-scuba-diver-669: likely (reconstructed): area Cine_DQ1_Cutscene1 3.7 m from its markers and the Deep Sea Diver's spawn (the owner); 996-1000 use its actors (Wizard, Jester); 916 XX_D_Springs_Knubot (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-cine-dq2-cutscene1",
+      "name": "Cine_DQ2_Cutscene1",
+      "area": "area/6200/cine-dq2-cutscene1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/dino-volcano-caveman-674"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "dino-volcano-caveman-674: likely (reconstructed): area Cine_DQ2_Cutscene3 1.3 m from its markers and the Caveman's spawn (the owner); 1001-1005 use its actors (Battle Goddess, Elementius); 915 XX_D_Volcano_Knubot (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-cine-dq2-cutscene2",
+      "name": "Cine_DQ2_Cutscene2",
+      "area": "area/6200/cine-dq2-cutscene2",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/dino-volcano-caveman-674"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "dino-volcano-caveman-674: likely (reconstructed): area Cine_DQ2_Cutscene3 1.3 m from its markers and the Caveman's spawn (the owner); 1001-1005 use its actors (Battle Goddess, Elementius); 915 XX_D_Volcano_Knubot (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-cine-dq2-cutscene3",
+      "name": "Cine_DQ2_Cutscene3",
+      "area": "area/6200/cine-dq2-cutscene3",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/dino-volcano-caveman-674"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "dino-volcano-caveman-674: likely (reconstructed): area Cine_DQ2_Cutscene3 1.3 m from its markers and the Caveman's spawn (the owner); 1001-1005 use its actors (Battle Goddess, Elementius); 915 XX_D_Volcano_Knubot (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-cine-dq3-cutscene1",
+      "name": "Cine_DQ3_Cutscene1",
+      "area": "area/6200/cine-dq3-cutscene1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/dino-tar-pits-zookeeper-679"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "dino-tar-pits-zookeeper-679: likely (reconstructed): area Cine_DQ3_Cutscene2 5.1 m from its marker and the Zookeeper's spawn (the owner); 1006-1009 (the Space Miner: 'ethical tests?') use its actor; 914 XX_D_Tar_Pits_Knubot (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-cine-dq3-cutscene2",
+      "name": "Cine_DQ3_Cutscene2",
+      "area": "area/6200/cine-dq3-cutscene2",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/dino-tar-pits-zookeeper-679"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "dino-tar-pits-zookeeper-679: likely (reconstructed): area Cine_DQ3_Cutscene2 5.1 m from its marker and the Zookeeper's spawn (the owner); 1006-1009 (the Space Miner: 'ethical tests?') use its actor; 914 XX_D_Tar_Pits_Knubot (tools/content/import_story.py)"
     }
   ]
 }

@@ -160,26 +160,6 @@
       "source": "client"
     },
     {
-      "id": "area/1643/cine-rescue-island-warrior1",
-      "name": "Cine_Rescue_Island_Warrior1",
-      "role": "story",
-      "shape": {
-        "polygon": {
-          "points": [
-            [306.51, 279.76],
-            [293.34, 257.64],
-            [302.34, 229.15],
-            [361.69, 249.71],
-            [353.16, 297.25]
-          ],
-          "heights": [11.754, 21.754]
-        }
-      },
-      "category": "cinematic",
-      "source": "client",
-      "comment": "RDB 1000053:1643 guid 618100 (tools/content/import_story.py)"
-    },
-    {
       "id": "area/1643/ba-teleportexit",
       "name": "BA_TeleportExit",
       "role": "trigger",
@@ -498,6 +478,26 @@
       },
       "source": "client",
       "comment": "RDB 1040010:1643 uniqueid 634687 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1643/cine-rescue-island-warrior1",
+      "name": "Cine_Rescue_Island_Warrior1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [306.51, 279.76],
+            [293.34, 257.64],
+            [302.34, 229.15],
+            [361.69, 249.71],
+            [353.16, 297.25]
+          ],
+          "heights": [11.754, 21.754]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:1643 guid 618100 (tools/content/import_story.py)"
     }
   ]
 }

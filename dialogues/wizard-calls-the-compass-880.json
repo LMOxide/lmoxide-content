@@ -1,0 +1,15 @@
+{
+  "id": "dialogue/wizard-calls-the-compass-880",
+  "name": "Cinematic Start Dreadleg Defeated",
+  "texts": [880, 881, 882, 883, 884, 885, 886],
+  "world": "world/pirate-grotto",
+  "npc_name": 1219,
+  "npc": "Cinematic Start Dreadleg Defeated",
+  "start": "after_dialogue",
+  "pos": [387.75, 58.0, 154.66],
+  "follows": 259,
+  "order": 114,
+  "source": "guess",
+  "tags": ["reconstructed", "guess"],
+  "comment": "guess: the Wizard's failed summoning spell right after Dreadleg's defeat (its actors at the same spot; Swashbuckler: 'to get to either of them, we need to go through LEGO Center'); no epilogue of its own (tools/content/story_dialogues.py)"
+}

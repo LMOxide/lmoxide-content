@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/space-s02-briefing-327",
+  "name": "Cinematic Start Space S03",
+  "texts": [327, 329, 486, 328],
+  "world": "world/space-colony",
+  "npc_name": 1729,
+  "npc": "Cinematic Start Space S03",
+  "start": "trigger",
+  "pos": [29.27, 142.14, 12.25],
+  "order": 126,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area BA_Cine_S02 19 m from its 12 markers (the briefing soldiers); epilogue 328 gives 483 XX_S2, resolves PIJN (tools/content/story_dialogues.py)"
+}

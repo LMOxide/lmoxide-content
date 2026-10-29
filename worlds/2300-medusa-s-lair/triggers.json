@@ -54,19 +54,15 @@
       "id": "trigger/2300/story-cine-g04-cutscene1",
       "name": "Cine_G04_Cutscene1",
       "area": "area/2300/cine-g04-cutscene1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 597
-            }
+          "dialogue": {
+            "dialogue": "dialogue/myth-g04-medusa-595"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_G04 (668) with text 597; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "myth-g04-medusa-595: likely (reconstructed): was the silent beat 597 on Cine_G04_Cutscene1 (1 m from its markers); 615 uses Medusa; 668 XX_G04 (tools/content/import_story.py)"
     },
     {
       "id": "trigger/2300/story-head-lair1",

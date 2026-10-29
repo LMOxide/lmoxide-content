@@ -56,6 +56,10 @@
     "comment": {
       "type": "string"
     },
+    "defeated": {
+      "description": "Started (`start: boss`) when the player defeats this NPC (by name; `boss`: any boss)\nin its world.",
+      "type": ["string", "null"]
+    },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
       "type": ["string", "null"],
@@ -66,6 +70,13 @@
       "type": "string"
     },
     "follows": true,
+    "goals": {
+      "description": "... and these story goals resolved (hashes).",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
     "id": {
       "description": "Its id: `dialogue/<slug>`. Stable: other records refer to it.",
       "type": "string"
@@ -99,6 +110,15 @@
       "minItems": 3,
       "type": ["array", "null"],
       "x-lmoxide-position": true
+    },
+    "requires": {
+      "description": "It starts only for a player with all of these tags (lore flags, achievements) ...",
+      "items": {
+        "format": "uint32",
+        "minimum": 0,
+        "type": "integer"
+      },
+      "type": "array"
     },
     "rev": {
       "description": "Revision, raised by every saved edit (for merging concurrent edits).",
@@ -137,6 +157,15 @@
       },
       "type": "array",
       "x-lmoxide-client": "text"
+    },
+    "unless": {
+      "description": "... and none of these.",
+      "items": {
+        "format": "uint32",
+        "minimum": 0,
+        "type": "integer"
+      },
+      "type": "array"
     },
     "updated": {
       "description": "Unix time of the last edit.",

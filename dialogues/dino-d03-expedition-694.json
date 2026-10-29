@@ -1,0 +1,16 @@
+{
+  "id": "dialogue/dino-d03-expedition-694",
+  "name": "Paleontologist",
+  "texts": [694, 691, 798, 692, 693, 695],
+  "world": "world/dinosaur-rise",
+  "npc_name": 2833,
+  "npc": "Paleontologist",
+  "start": "trigger",
+  "pos": [198.33, 70.12, 180.03],
+  "requires": [910],
+  "goals": ["GBWD"],
+  "order": 156,
+  "source": "guess",
+  "tags": ["reconstructed", "guess"],
+  "comment": "guess: the same camp ('You have all the pieces already?'): after the four elemental pieces (GBWD); 691-693 and 798 use its actors; epilogue 695 gives 911 XX_D03, resolves ODCB, spawns WGPC. The older 647-651 (resolves GBWD itself) is left out (tools/content/story_dialogues.py)"
+}

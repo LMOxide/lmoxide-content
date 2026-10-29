@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/rescue-pizza-guy-783",
+  "name": "Cinematic Rescue Pizza Guy",
+  "texts": [783, 784, 785, 786, 860, 861, 862, 787, 788],
+  "world": "world/jacket-cellar",
+  "npc_name": 2684,
+  "npc": "Cinematic Rescue Pizza Guy",
+  "start": "trigger",
+  "pos": [245.86, 13.43, 265.83],
+  "order": 101,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area Cine_Rescue_Pizza_Guy1 14.3 m from its 11 markers (1670); epilogue 788 gives 4143, resolves CFBT (next Pirate step); 860 answers 786 (\"didn't tip me last time?\" - \"No...that was someone else\") (tools/content/story_dialogues.py)"
+}

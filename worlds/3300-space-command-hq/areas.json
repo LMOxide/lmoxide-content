@@ -531,9 +531,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 568 XX_S3.3_HQ Preboss Scene (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:3300 guid 464046 (extract_server_areas.py)"
     },
     {

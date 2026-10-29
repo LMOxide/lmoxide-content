@@ -54,57 +54,43 @@
       "id": "trigger/6300/story-cine-d04-cutscene1",
       "name": "Cine_D04_Cutscene1",
       "area": "area/6300/cine-d04-cutscene1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 661
-            }
+          "dialogue": {
+            "dialogue": "dialogue/dino-d04-t-rex-653"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_D04 (912) with text 661; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "dino-d04-t-rex-653: likely (reconstructed): was the silent beat 661 on Cine_D04_Cutscene1 (4.2 m from its markers); 912 XX_D04 (tools/content/import_story.py)"
     },
     {
       "id": "trigger/6300/story-cine-d06-cutscene1",
       "name": "Cine_D06_Cutscene1",
       "area": "area/6300/cine-d06-cutscene1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "requires": [1540],
-              "text": 690
-            }
+          "dialogue": {
+            "dialogue": "dialogue/dino-d06-party-685"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_D06 (1985) with text 690; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "dino-d06-party-685: likely (reconstructed): was the silent beat 690 on Cine_D06_Cutscene1/Fallback1 (after the T-Rex, achievement 1540); the Video Game Guy's spawn there is the owner; 1018-1024 (why he hired the T-Rex) use its actors; 1985 XX_D06, DanceParty (tools/content/import_story.py)"
     },
     {
       "id": "trigger/6300/story-cine-d06-cutscenefallback1",
       "name": "Cine_D06_CutsceneFallback1",
       "area": "area/6300/cine-d06-cutscenefallback1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "requires": [1540],
-              "text": 690
-            }
+          "dialogue": {
+            "dialogue": "dialogue/dino-d06-party-685"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_D06 (1985) with text 690; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "dino-d06-party-685: likely (reconstructed): was the silent beat 690 on Cine_D06_Cutscene1/Fallback1 (after the T-Rex, achievement 1540); the Video Game Guy's spawn there is the owner; 1018-1024 (why he hired the T-Rex) use its actors; 1985 XX_D06, DanceParty (tools/content/import_story.py)"
     }
   ]
 }

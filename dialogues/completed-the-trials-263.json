@@ -1,0 +1,15 @@
+{
+  "id": "dialogue/completed-the-trials-263",
+  "name": "Cinematic Start Completed The Trials",
+  "texts": [263, 395, 264, 265, 396, 397, 398, 399, 400, 401, 403, 402, 871, 266],
+  "world": "world/pirate-trials",
+  "npc_name": 1233,
+  "npc": "Cinematic Start Completed The Trials",
+  "start": "boss",
+  "pos": [89.83, 40.77, 255.26],
+  "defeated": "Captain Pete",
+  "order": 109,
+  "source": "guess",
+  "tags": ["reconstructed", "guess"],
+  "comment": "guess: Pete: 'Ye win!' - after beating him in the trials (Cine_PeteWin1 16.5 m from the fight's area); epilogue 266 resolves Y0U7 'Complete the Pirate Trials', gives 312 and plays BecomeAPirate; 395-403 and 871 use its actors; started when Captain Pete is defeated in the Pirate Trials (guess) (tools/content/story_dialogues.py)"
+}

@@ -83,6 +83,20 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/4300/story-ba-cine-nowwemustpiratefight",
+      "name": "BA_Cine_NowWeMustPirateFight",
+      "area": "area/4300/ba-cine-nowwemustpiratefight",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/now-we-must-pirate-fight-193"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "now-we-must-pirate-fight-193: likely (reconstructed): area BA_Cine_NowWeMustPirateFight 2.3 m from its markers; 311 'Now we must pirate fight!' (its epilogue 199 sets no tag: played once) (tools/content/import_story.py)"
     }
   ]
 }

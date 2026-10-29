@@ -17,22 +17,32 @@
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
     },
     {
-      "id": "trigger/5300/story-ba-cine-workingfortheenemy1",
-      "name": "BA_Cine_WorkingForTheEnemy1",
-      "area": "area/5300/ba-cine-workingfortheenemy1",
-      "once": "per_player",
+      "id": "trigger/5300/story-ba-cine-placeholder1",
+      "name": "BA_Cine_Placeholder1",
+      "area": "area/5300/ba-cine-placeholder1",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 446
-            }
+          "dialogue": {
+            "dialogue": "dialogue/the-realm-of-jest-283"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely: sets Working for the Enemy (562) with text 446; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "the-realm-of-jest-283: likely (reconstructed): the calibration (user's live footage: the Jester says 283, 284, 285 at about (148.8, 42.1, 115.1)): area BA_Cine_Placeholder1 5.6 m from Cine_DummySpawn1; epilogue 282 (removes 283's Dummy) gives 430, resolves VB6T (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5300/story-ba-cine-workingfortheenemy1",
+      "name": "BA_Cine_WorkingForTheEnemy1",
+      "area": "area/5300/ba-cine-workingfortheenemy1",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/working-for-the-enemy-436"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "working-for-the-enemy-436: likely (reconstructed): was the silent beat 446 on BA_Cine_WorkingForTheEnemy1; 562 (tools/content/import_story.py)"
     }
   ]
 }

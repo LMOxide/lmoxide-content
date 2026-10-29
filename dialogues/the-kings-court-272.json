@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/the-kings-court-272",
+  "name": "Cinematic Start The Kings Court",
+  "texts": [272, 273, 274, 275, 416, 417, 418, 419, 276],
+  "world": "world/kingdom",
+  "npc_name": 1344,
+  "npc": "Cinematic Start The Kings Court",
+  "start": "trigger",
+  "pos": [115.45, 23.58, 266.39],
+  "order": 116,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: after the Medieval intro cinematic (then_dialogue: the arrival point is in BA_Story_AutoTeleportToThroneRoom1, whose 'teleport to the throne room' is 272's {moveactortopos playerActor TP_ThroneRoom}); also on BA_Cine_TheKingsCourt1 (9.1 m from its 3 markers) and BA_Story_TeleportToThroneRoom_CinematicFailed (when the intro was seen); 416-419 (the Wizard answers the King) use its actors; epilogue 276 gives 425, resolves CPIJ 'Go to the Kingdom', spawns 8G4X (the Wizard's minifigure bag: Lua 4048 'XX_give wizard bag tag' sets 4242 Received Wizard) and teleports to the Kingdom's arrival point (88.3, 24.5, 256) (tools/content/story_dialogues.py)"
+}

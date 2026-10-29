@@ -279,9 +279,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 4143 Rescue Pizza Guy, text 788 (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:1670 guid 618235 (extract_server_areas.py)"
     },
     {

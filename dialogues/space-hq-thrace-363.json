@@ -1,0 +1,16 @@
+{
+  "id": "dialogue/space-hq-thrace-363",
+  "name": "XX_Cinematic Start S3.5",
+  "texts": [363, 362, 902, 364],
+  "world": "world/space-command-hq",
+  "npc_name": 1608,
+  "npc": "XX_Cinematic Start S3.5",
+  "start": "boss",
+  "pos": [274.81, 36.1, 222.86],
+  "defeated": "boss",
+  "requires": [485],
+  "order": 129,
+  "source": "guess",
+  "tags": ["reconstructed", "guess"],
+  "comment": "guess: Thrace: 'you sure helped us out' - after the HQ's boss; 362 uses its actor Sergeant_Thrace; epilogue 364 gives 501 XX_S3.5, resolves MS41 (tools/content/story_dialogues.py)"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/space-s03-mean-soldier-487",
+  "name": "Cinematic Start Space S04",
+  "texts": [487, 488, 491, 529, 901, 489],
+  "world": "world/space-colony",
+  "npc_name": 1732,
+  "npc": "Cinematic Start Space S04",
+  "start": "trigger",
+  "pos": [480.16, 116.53, 84.92],
+  "order": 127,
+  "source": "guess",
+  "tags": ["reconstructed", "guess"],
+  "comment": "guess: area BA_Cine_S03_MeanSoldier1 1.8 m from its markers; 491/529/901 (the alien scares him off: his runaway marker) placed before the epilogue 489 (484 XX_S3, spawns 5PJB) - their order is a guess (tools/content/story_dialogues.py)"
+}

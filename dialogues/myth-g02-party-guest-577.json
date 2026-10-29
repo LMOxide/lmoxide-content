@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/myth-g02-party-guest-577",
+  "name": "Commoner",
+  "texts": [577, 578, 579, 580],
+  "world": "world/mythology-mountains",
+  "npc_name": 1825,
+  "npc": "Commoner",
+  "start": "trigger",
+  "pos": [30.1, 16.0, 243.91],
+  "order": 142,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 580 on Cine_G02_Cutscene1 (16 m from its 6 markers); the party guest (owner) is the nearest Commoner; 666 XX_G02, spawns RQJT (tools/content/story_dialogues.py)"
+}

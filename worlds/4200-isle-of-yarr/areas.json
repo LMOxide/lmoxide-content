@@ -2780,9 +2780,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 4143 Rescue Pizza Guy, text 788 (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:4200 guid 634407 (extract_server_areas.py)"
     },
     {
@@ -2845,9 +2843,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 316 Captain Dreadleg, text 134 (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:4200 guid 634404 (extract_server_areas.py)"
     },
     {

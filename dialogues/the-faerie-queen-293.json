@@ -1,0 +1,13 @@
+{
+  "id": "dialogue/the-faerie-queen-293",
+  "name": "Fairy Queen",
+  "texts": [293, 294, 295, 296, 453, 895, 894, 454, 292],
+  "world": "world/enchanted-forest",
+  "npc": "Fairy Queen",
+  "start": "trigger",
+  "pos": [285.98, 49.25, 153.25],
+  "order": 122,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 292 on BA_Cine_TheFaerieQueen1 (2.3 m from its 4 markers and the Fairy Queen's spawn); speaker label 'BEFORE Quest is done'; 433, OEA3 (tools/content/story_dialogues.py)"
+}

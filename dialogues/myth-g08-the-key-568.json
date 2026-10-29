@@ -1,0 +1,15 @@
+{
+  "id": "dialogue/myth-g08-the-key-568",
+  "name": "XX_Cinematic Start G08",
+  "texts": [568, 569, 960, 961, 570, 618, 571],
+  "world": "world/armory",
+  "npc_name": 1841,
+  "npc": "XX_Cinematic Start G08",
+  "start": "trigger",
+  "pos": [305.15, 41.0, 410.47],
+  "requires": [671],
+  "order": 148,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 571 on Cine_G08_Cutscene1 (now after G07's 671: Thunderbolt is beaten first); 960/961 (chicken wings) use its actors; 672 XX_G08, R1KN (tools/content/story_dialogues.py)"
+}

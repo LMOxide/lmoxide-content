@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/the-pegleg-mermaid-155",
+  "name": "Cinematic Start The Pegleg Mermaid",
+  "texts": [155, 157, 866, 867, 868, 869, 166, 167, 870, 380, 381, 170, 171, 172, 173, 174, 175, 177, 156],
+  "world": "world/the-peglegged-mermaid-tavern",
+  "npc_name": 982,
+  "npc": "Cinematic Start The Pegleg Mermaid",
+  "start": "trigger",
+  "pos": [227.16, 42.0, 173.63],
+  "order": 107,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 156 on BA_Cine_ThePeglegMermaid1 (4.8 m from 11 of its 12 markers); Pete's actor 'Pete' links 866-870 ('is there anybody you don't owe money?' - 'Err...Dreadleg?' - 'Don't ye be mentionin' that scallywag') and 380/381 (THE PIRATE TRIALS!); 176 duplicates 173 (left out); 310, ATSN (tools/content/story_dialogues.py)"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "dialogue/medieval-world-news-267",
+  "name": "Video Game Guy",
+  "texts": [267, 268, 468, 270, 269, 464, 271],
+  "world": "world/lego-center",
+  "npc_name": 1725,
+  "npc": "Video Game Guy",
+  "start": "trigger",
+  "pos": [286.64, 46.25, 73.71],
+  "requires": [316],
+  "unless": [437],
+  "order": 115,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: the Video Game Guy at the LEGO Center (BA_Cine_GamerQuestgiver1 is 3 m from his live spawn): 'Hope you had fun in the Pirate World!'; epilogue 271 '[Medieval Quest]{spawn KFTR}' starts the Medieval story line; after Pirate World (316, as the after-pirate-world cinematic it follows), before Medieval World is done (437) (tools/content/story_dialogues.py)"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/myth-g09-the-trap-581",
+  "name": "XX_Cinematic Start G09",
+  "texts": [581, 582, 583, 972, 973, 974, 584, 585, 586],
+  "world": "world/underworld",
+  "npc_name": 1844,
+  "npc": "XX_Cinematic Start G09",
+  "start": "trigger",
+  "pos": [104.31, 63.02, 250.14],
+  "order": 149,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 586 on Cine_G09_Cutscene1; 972-974 (why betray us?) use its actors; 673 XX_G09 (tools/content/story_dialogues.py)"
+}

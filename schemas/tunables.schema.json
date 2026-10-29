@@ -675,6 +675,14 @@
           "default": "100%",
           "description": "A quest pickup quest's `dropped_by` defeat drops one of its pickups this often (not in the\nclient)."
         },
+        "spawn_minifigures": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "A dialogue's `spawn <hash>` that is no quest: the minifigure whose bag it drops 1 m from\nthe player (`[Give Swashbuckler]{spawn 7LLT 1 m}`; the other hashes are guesses by the\ntexts' words, docs/TUNABLES.md \"Story\").",
+          "type": "object",
+          "x-lmoxide-ref": ["minifig"]
+        },
         "window_quests": {
           "additionalProperties": {
             "items": {

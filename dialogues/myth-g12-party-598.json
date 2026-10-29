@@ -1,0 +1,15 @@
+{
+  "id": "dialogue/myth-g12-party-598",
+  "name": "XX_Cinematic Start G12",
+  "texts": [598, 599, 600, 601, 602, 603, 604, 605, 989, 606, 990, 991, 607, 992, 619, 608],
+  "world": "world/underworld",
+  "npc_name": 1847,
+  "npc": "XX_Cinematic Start G12",
+  "start": "boss",
+  "pos": [384.56, 24.75, 354.75],
+  "defeated": "Hades",
+  "order": 152,
+  "source": "guess",
+  "tags": ["reconstructed", "guess"],
+  "comment": "guess: Hades: 'Ouch! I give up!' - after Hades (its markers 33 m from G11's area); 989-992 (Zeus) use its actors; epilogue 608 gives 676 XX_G12, resolves 1DPQ (tools/content/story_dialogues.py)"
+}

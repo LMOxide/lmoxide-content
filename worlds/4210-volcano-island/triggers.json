@@ -283,19 +283,15 @@
       "id": "trigger/4210/story-ba-cine-dreadlegvolcano1",
       "name": "BA_Cine_DreadlegVolcano1",
       "area": "area/4210/ba-cine-dreadlegvolcano1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 408
-            }
+          "dialogue": {
+            "dialogue": "dialogue/dreadleg-volcano-404"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely: sets Dreadleg Volcano (439) with text 408; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "dreadleg-volcano-404: likely (reconstructed): was the silent beat 408 on BA_Cine_DreadlegVolcano1; 439, 5YHB (tools/content/import_story.py)"
     },
     {
       "id": "trigger/4210/story-ba-head-ghostvillage1",

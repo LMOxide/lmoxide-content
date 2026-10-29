@@ -783,9 +783,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 236766 (extract_server_areas.py)"
     },
     {

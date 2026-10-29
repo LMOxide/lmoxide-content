@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/rescue-revolutionary-soldier-778",
+  "name": "Cinematic Rescue Revolutionary Soldier",
+  "texts": [778, 780, 849, 850, 851, 852, 853, 782, 779],
+  "world": "world/dragoon-dwelling",
+  "npc_name": 2683,
+  "npc": "Cinematic Rescue Revolutionary Soldier",
+  "start": "trigger",
+  "pos": [141.7, 57.8, 96.85],
+  "order": 100,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: as the live Island Warrior rescue (773, area Cine_Rescue_Island_Warrior1): area Cine_Rescue_Revolutionary_Soulder1 13.8 m from its 10 markers (1632); epilogue 779 gives 4142 Rescue Revolutionary Soldier, resolves 0JSC (the Pirate line's step after FBRB, capture order); 849-853 use its actors (RevoSoldier, Swashbuckler, IslandWarrior) (tools/content/story_dialogues.py)"
+}

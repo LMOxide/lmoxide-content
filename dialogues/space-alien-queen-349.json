@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/space-alien-queen-349",
+  "name": "Cinematic Start S13",
+  "texts": [349, 350, 510, 942, 511, 943, 512, 513, 522, 944, 348],
+  "world": "world/shadow-centurion-base",
+  "npc_name": 1513,
+  "npc": "Cinematic Start S13",
+  "start": "trigger",
+  "pos": [335.29, 9.89, 358.92],
+  "order": 138,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area BA_Cine_S13 4.5 m from its 7 markers; 942-944 (the Space Miner bargains) use its actors; epilogue 348 gives 491 The Alien Queen, resolves 1RYD (tools/content/story_dialogues.py)"
+}

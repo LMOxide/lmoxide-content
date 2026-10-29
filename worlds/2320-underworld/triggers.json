@@ -88,55 +88,43 @@
       "id": "trigger/2320/story-cine-g09-cutscene1",
       "name": "Cine_G09_Cutscene1",
       "area": "area/2320/cine-g09-cutscene1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 586
-            }
+          "dialogue": {
+            "dialogue": "dialogue/myth-g09-the-trap-581"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_G09 (673) with text 586; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "myth-g09-the-trap-581: likely (reconstructed): was the silent beat 586 on Cine_G09_Cutscene1; 972-974 (why betray us?) use its actors; 673 XX_G09 (tools/content/import_story.py)"
     },
     {
       "id": "trigger/2320/story-cine-g10-cutscene1",
       "name": "Cine_G10_Cutscene1",
       "area": "area/2320/cine-g10-cutscene1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 591
-            }
+          "dialogue": {
+            "dialogue": "dialogue/myth-g10-charon-587"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_G10 (674) with text 591; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "myth-g10-charon-587: likely (reconstructed): was the silent beat 591 on Cine_G10_Cutscene1 (Charon's spawn 9 m away speaks as the owner); 975-986 use its actors; 674 XX_G10 (tools/content/import_story.py)"
     },
     {
       "id": "trigger/2320/story-cine-g11-cutscene1",
       "name": "Cine_G11_Cutscene1",
       "area": "area/2320/cine-g11-cutscene1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 594
-            }
+          "dialogue": {
+            "dialogue": "dialogue/myth-g11-hades-592"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely (number): sets XX_G11 (675) with text 594; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "myth-g11-hades-592: likely (reconstructed): was the silent beat 594 on Cine_G11_Cutscene1; 675 XX_G11 (tools/content/import_story.py)"
     },
     {
       "id": "trigger/2320/story-head-entrance1",

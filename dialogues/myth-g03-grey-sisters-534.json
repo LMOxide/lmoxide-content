@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/myth-g03-grey-sisters-534",
+  "name": "XX_Cinematic Start G03",
+  "texts": [534, 535, 536, 537, 538, 539, 540, 541, 542, 957, 954, 958, 955, 959, 545],
+  "world": "world/mythology-mountains",
+  "npc_name": 1827,
+  "npc": "XX_Cinematic Start G03",
+  "start": "trigger",
+  "pos": [46.34, 48.86, 345.9],
+  "order": 143,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 545 on Cine_G03_Cutscene1 (1.3 m from its markers); 954-959 ('a toga in your future', the Wizard's 'But-') use its actors (956 duplicates 954); 667 XX_G03, 0AHO (tools/content/story_dialogues.py)"
+}

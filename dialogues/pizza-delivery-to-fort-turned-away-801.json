@@ -1,0 +1,15 @@
+{
+  "id": "dialogue/pizza-delivery-to-fort-turned-away-801",
+  "name": "Cinematic Start Pizza Delivery To Fort",
+  "texts": [801, 805, 803, 804, 802],
+  "world": "world/isle-of-yarr",
+  "npc_name": 2721,
+  "npc": "Cinematic Start Pizza Delivery To Fort",
+  "start": "trigger",
+  "pos": [231.74, 64.34, 280.49],
+  "unless": [4143],
+  "order": 103,
+  "source": "guess",
+  "tags": ["reconstructed", "guess"],
+  "comment": "guess: the same gate 'Without Pizza Guy' (speaker labels of 801/802): the guard turns the crew away; epilogue 802 gives nothing; 805/806 and 803/856, 804/855 are duplicates (806, 855, 856 left out) (tools/content/story_dialogues.py)"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/myth-g11-hades-592",
+  "name": "XX_Cinematic Start G11",
+  "texts": [592, 593, 987, 988, 594],
+  "world": "world/underworld",
+  "npc_name": 1846,
+  "npc": "XX_Cinematic Start G11",
+  "start": "trigger",
+  "pos": [360.62, 22.79, 331.45],
+  "order": 151,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 594 on Cine_G11_Cutscene1; 675 XX_G11 (tools/content/story_dialogues.py)"
+}

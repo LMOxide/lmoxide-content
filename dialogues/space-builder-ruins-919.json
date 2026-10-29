@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/space-builder-ruins-919",
+  "name": "Cinematic Start S09.5",
+  "texts": [919, 921, 922, 923, 920],
+  "world": "world/planet-s-dark-side",
+  "npc_name": 2781,
+  "npc": "Cinematic Start S09.5",
+  "start": "trigger",
+  "pos": [111.71, 499.2, 187.34],
+  "order": 135,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area BA_Cine_S095 1.6 m from its markers; 4243 XX_S09.5_AtTheBuilderRuins (tools/content/story_dialogues.py)"
+}

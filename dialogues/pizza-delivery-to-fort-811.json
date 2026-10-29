@@ -1,0 +1,15 @@
+{
+  "id": "dialogue/pizza-delivery-to-fort-811",
+  "name": "Cinematic Start Pizza Delivery To Fort",
+  "texts": [811, 857, 808, 807, 858, 859, 809, 810],
+  "world": "world/isle-of-yarr",
+  "npc_name": 2721,
+  "npc": "Cinematic Start Pizza Delivery To Fort",
+  "start": "trigger",
+  "pos": [231.74, 64.34, 280.49],
+  "requires": [4143],
+  "order": 102,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: the live capture spawned 'Cinematic Start Pizza Delivery To Fort' on Isle of Yarr; area Cine_PizzaDeliveryTrigger1 4.2 m from its 17 markers; speaker label 'With Pizza Guy' -> needs 4143 (Pizza Guy rescued); epilogue 810 gives 4161 Stop at the Fort Gate, resolves H1DR; 857-859 (Pizza Guy, 'even the bad guys tip') use its actors (tools/content/story_dialogues.py)"
+}

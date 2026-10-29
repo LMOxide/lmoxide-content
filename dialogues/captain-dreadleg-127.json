@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/captain-dreadleg-127",
+  "name": "Cinematic Start Captain Dreadleg",
+  "texts": [127, 128, 131, 132, 134],
+  "world": "world/pirate-grotto",
+  "npc_name": 965,
+  "npc": "Cinematic Start Captain Dreadleg",
+  "start": "trigger",
+  "pos": [356.52, 56.0, 124.83],
+  "order": 112,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area BA_Cine_Dreadleg1 3.8 m from its markers (Cine_PlayerAtPreBoss1: before the boss); 316 Captain Dreadleg (tools/content/story_dialogues.py)"
+}

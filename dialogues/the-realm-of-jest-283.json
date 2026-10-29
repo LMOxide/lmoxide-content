@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/the-realm-of-jest-283",
+  "name": "Cinematic Start The Realm of Jest",
+  "texts": [283, 284, 285, 282],
+  "world": "world/ruined-fort",
+  "npc_name": 1234,
+  "npc": "Cinematic Start The Realm of Jest",
+  "start": "trigger",
+  "pos": [149.11, 42.0, 116.39],
+  "order": 119,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: the calibration (user's live footage: the Jester says 283, 284, 285 at about (148.8, 42.1, 115.1)): area BA_Cine_Placeholder1 5.6 m from Cine_DummySpawn1; epilogue 282 (removes 283's Dummy) gives 430, resolves VB6T (tools/content/story_dialogues.py)"
+}

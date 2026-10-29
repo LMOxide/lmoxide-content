@@ -1,0 +1,16 @@
+{
+  "id": "dialogue/dino-world-news-633",
+  "name": "Video Game Guy",
+  "texts": [633, 629, 630, 631, 634],
+  "world": "world/lego-center",
+  "npc_name": 1725,
+  "npc": "Video Game Guy",
+  "start": "trigger",
+  "pos": [286.64, 46.25, 73.71],
+  "requires": [676],
+  "unless": [909],
+  "order": 153,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: the Video Game Guy at the LEGO Center ('[DINO WORLD]', the crystal artifacts of Dinosaur Rise); epilogue 634 '[Dino Quest]{resolvegoal 3K9Q}' starts the Dino story line; after Mythology World (676) (tools/content/story_dialogues.py)"
+}

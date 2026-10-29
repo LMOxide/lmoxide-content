@@ -1040,9 +1040,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 492 XX_S11, text 352 (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 407740 (extract_server_areas.py)"
     },
     {
@@ -1061,9 +1059,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 592 XX_S11_Shadrack_BossFight, text 505 (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 464237 (extract_server_areas.py)"
     },
     {
@@ -1082,9 +1078,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 593 XX_S12VictoryoverShadrack, text 509 (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 464238 (extract_server_areas.py)"
     },
     {

@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/myth-g06-puzzle-lock-556",
+  "name": "XX_Cinematic Start G06",
+  "texts": [556, 557, 558, 559],
+  "world": "world/armory",
+  "npc_name": 1833,
+  "npc": "XX_Cinematic Start G06",
+  "start": "trigger",
+  "pos": [293.13, 40.0, 397.78],
+  "order": 146,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 559 on Cine_G06_Cutscene1; 670 XX_G06 (tools/content/story_dialogues.py)"
+}

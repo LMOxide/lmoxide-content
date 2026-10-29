@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/space-mercs-at-mines-495",
+  "name": "Cinematic Start Space S06",
+  "texts": [495, 497, 903, 496],
+  "world": "world/space-colony",
+  "npc_name": 1730,
+  "npc": "Cinematic Start Space S06",
+  "start": "trigger",
+  "pos": [192.44, 123.97, 285.14],
+  "order": 130,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area BA_Cine_MercsAtMines1 15.6 m from its markers; 585 XX_MercsAtTheMines (tools/content/story_dialogues.py)"
+}

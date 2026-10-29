@@ -1,0 +1,16 @@
+{
+  "id": "dialogue/crossing-the-barrier-314",
+  "name": "Cinematic Start Crossing the Barrier",
+  "texts": [314, 316, 896, 317, 318, 319, 320, 321],
+  "world": "world/enchanted-forest",
+  "npc_name": 1248,
+  "npc": "Fairy Queen",
+  "start": "trigger",
+  "pos": [285.98, 49.25, 153.25],
+  "requires": [433],
+  "goals": ["3UX1"],
+  "order": 123,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: the same place, speaker label 'AFTER Quest is done' (the power crystals, goal 3UX1); 896 ('Beautiful!') answers 316; epilogue 321 gives 434 Crossing the Barrier, resolves XOAJ (tools/content/story_dialogues.py)"
+}

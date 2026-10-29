@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/defeated-elementius-308",
+  "name": "Cinematic Start Defeated Elementius",
+  "texts": [308, 310, 311, 312, 313, 457, 458, 459, 460, 461, 462, 463, 897, 898, 899, 900, 309],
+  "world": "world/sorcerer-s-keep",
+  "npc_name": 1363,
+  "npc": "Cinematic Start Defeated Elementius",
+  "start": "trigger",
+  "pos": [342.22, 66.27, 325.47],
+  "order": 124,
+  "source": "guess",
+  "tags": ["reconstructed", "guess"],
+  "comment": "guess: BA_Cine_Placeholder1 of the Sorcerer's Keep is 19.5 m from all 5 of its markers, past the boss (Evil Sorcerer at (329, 309)); 'Surrender Elementius, you are beaten!'; 457-463 and 897-900 use its actors (the King arrives); epilogue 309 gives 437 Another Cube Piece, resolves 4H62 (tools/content/story_dialogues.py)"
+}

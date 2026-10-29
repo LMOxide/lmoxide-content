@@ -231,6 +231,48 @@
       "comment": "black-hole: likely: BA_Black_Hole_Cinematic by the portal, flag 4281 Cine_Space_BlackHole (tools/content/import_story.py)"
     },
     {
+      "id": "trigger/3210/story-ba-cine-s09",
+      "name": "BA_Cine_S09",
+      "area": "area/3210/ba-cine-s09",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-science-facility-361"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-science-facility-361: likely (reconstructed): area BA_Cine_S09 2.3 m from its 7 markers (next to where 341 lands the player); the compass finds the alien signal (914-918); epilogue 360 gives 488 XX_S7, resolves 3XT2 (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3210/story-ba-cine-s095",
+      "name": "BA_Cine_S095",
+      "area": "area/3210/ba-cine-s095",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-builder-ruins-919"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-builder-ruins-919: likely (reconstructed): area BA_Cine_S095 1.6 m from its markers; 4243 XX_S09.5_AtTheBuilderRuins (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3210/story-ba-cine-s10",
+      "name": "BA_Cine_S10",
+      "area": "area/3210/ba-cine-s10",
+      "actions": [
+        {
+          "dialogue": {
+            "dialogue": "dialogue/space-black-hole-343"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-black-hole-343: likely (reconstructed): area BA_Cine_S10 5.9 m from its markers; the alien trooper (927-934, Cine_HoleAlien1 = 342's marker); epilogue 342 gives 489 XX_S8, spawns FXMI, resolves UC8W (tools/content/import_story.py)"
+    },
+    {
       "id": "trigger/3210/story-ba-head-alienbossencounter1",
       "name": "BA_Head_AlienBossEncounter1",
       "area": "area/3210/ba-head-alienbossencounter1",

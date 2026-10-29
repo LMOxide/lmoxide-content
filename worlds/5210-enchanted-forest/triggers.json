@@ -250,19 +250,20 @@
       "id": "trigger/5210/story-ba-cine-thefaeriequeen1",
       "name": "BA_Cine_TheFaerieQueen1",
       "area": "area/5210/ba-cine-thefaeriequeen1",
-      "once": "per_player",
       "actions": [
         {
-          "command": {
-            "name": "story_beat",
-            "args": {
-              "text": 292
-            }
+          "dialogue": {
+            "dialogue": "dialogue/the-faerie-queen-293"
+          }
+        },
+        {
+          "dialogue": {
+            "dialogue": "dialogue/crossing-the-barrier-314"
           }
         }
       ],
       "source": "guess",
-      "comment": "likely: sets The Faerie Queen (433) with text 292; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+      "comment": "the-faerie-queen-293: likely (reconstructed): was the silent beat 292 on BA_Cine_TheFaerieQueen1 (2.3 m from its 4 markers and the Fairy Queen's spawn); speaker label 'BEFORE Quest is done'; 433, OEA3; crossing-the-barrier-314: likely (reconstructed): the same place, speaker label 'AFTER Quest is done' (the power crystals, goal 3UX1); 896 ('Beautiful!') answers 316; epilogue 321 gives 434 Crossing the Barrier, resolves XOAJ (tools/content/import_story.py)"
     },
     {
       "id": "trigger/5210/story-ba-head-barrier1",

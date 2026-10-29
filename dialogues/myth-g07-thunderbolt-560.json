@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/myth-g07-thunderbolt-560",
+  "name": "XX_Cinematic Start G07",
+  "texts": [560, 561, 562, 563, 564, 565, 566, 567],
+  "world": "world/armory",
+  "npc_name": 1835,
+  "npc": "XX_Cinematic Start G07",
+  "start": "trigger",
+  "pos": [303.21, 35.55, 403.24],
+  "order": 147,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: was the silent beat 567 on Cine_G07_Cutscene1; 671 XX_G07 (tools/content/story_dialogues.py)"
+}

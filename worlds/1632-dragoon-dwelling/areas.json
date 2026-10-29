@@ -302,9 +302,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 4142 Rescue Revolutionary Soldier, text 779 (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:1632 guid 618172 (extract_server_areas.py)"
     },
     {

@@ -1,0 +1,15 @@
+{
+  "id": "dialogue/space-victory-over-shadrack-506",
+  "name": "Cinematic Start S12",
+  "texts": [506, 507, 508, 940, 941, 509],
+  "world": "world/shadow-centurion-base",
+  "npc_name": 1738,
+  "npc": "Cinematic Start S12",
+  "start": "trigger",
+  "pos": [208.09, 41.1, 212.3],
+  "requires": [592],
+  "order": 137,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area BA_Cine_S12 2.6 m from its markers (after the Shadrack fight: needs 592); 593 XX_S12VictoryoverShadrack (tools/content/story_dialogues.py)"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "dialogue/dreadleg-defeated-259",
+  "name": "Cinematic Start Dreadleg Defeated",
+  "texts": [259, 260, 261, 873, 872, 874, 875, 876, 877, 878, 879, 262],
+  "world": "world/pirate-grotto",
+  "npc_name": 1219,
+  "npc": "Cinematic Start Dreadleg Defeated",
+  "start": "boss",
+  "pos": [384.26, 58.0, 157.32],
+  "defeated": "Captain Dreadleg",
+  "requires": [316],
+  "order": 113,
+  "source": "guess",
+  "tags": ["reconstructed", "guess"],
+  "comment": "guess: Swashbuckler: 'Stand down, Dreadleg. You're beaten!' - after the boss (markers 43 m past BA_Cine_Dreadleg1); 872-879 use its actors (the curse breaks, Smith is back); epilogue 262 gives 423 The First Keystone, resolves WZ4U; the content's proposed Captain Dreadleg stands in 4210, not here, so this waits for a boss in 4310 (tools/content/story_dialogues.py)"
+}

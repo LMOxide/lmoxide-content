@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/space-black-hole-343",
+  "name": "XX_Cinematic Start S8",
+  "texts": [343, 344, 369, 370, 371, 924, 925, 926, 927, 928, 929, 930, 931, 932, 933, 934, 342],
+  "world": "world/planet-s-dark-side",
+  "npc_name": 1511,
+  "npc": "XX_Cinematic Start S8",
+  "start": "trigger",
+  "pos": [369.17, 115.03, 437.87],
+  "order": 134,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area BA_Cine_S10 5.9 m from its markers; the alien trooper (927-934, Cine_HoleAlien1 = 342's marker); epilogue 342 gives 489 XX_S8, spawns FXMI, resolves UC8W (tools/content/story_dialogues.py)"
+}

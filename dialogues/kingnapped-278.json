@@ -1,0 +1,15 @@
+{
+  "id": "dialogue/kingnapped-278",
+  "name": "Knight",
+  "texts": [278, 280, 281, 420, 421, 422, 423, 424, 425, 277],
+  "world": "world/kingdom",
+  "npc_name": 1342,
+  "npc": "Knight",
+  "start": "trigger",
+  "pos": [95.85, 11.68, 175.76],
+  "requires": [425],
+  "order": 117,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area BA_Cine_CityGuards1 1.7 m from Cine_KnightSpawn2 and the Knight spawn; Knight1 is the owner, Knight2 a client actor; epilogue 277 (before 278, as the Medieval texts put them) gives 426 Kingnapped!, resolves 24IC (tools/content/story_dialogues.py)"
+}

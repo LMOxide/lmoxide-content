@@ -968,9 +968,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to goal CPIJ 'Go to the Kingdom' (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 642220 (extract_server_areas.py)"
     },
     {
@@ -1103,9 +1101,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: the King's Court beat (tag 425, text 276 resolves CPIJ 'Go to the Kingdom', spawns 8G4X) teleports out of the throne room: the destination is unknown",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 331129 (extract_server_areas.py)"
     },
     {
@@ -1124,9 +1120,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: hand-matched to tag 561 Sir Loins Checkpoint, text 434 (guess); not run",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 344051 (extract_server_areas.py)"
     },
     {
@@ -1451,9 +1445,7 @@
         }
       },
       "category": "cinematic",
-      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
-      "tags": ["todo"],
       "comment": "RDB 1000053:5202 guid 323917 (extract_server_areas.py)"
     },
     {

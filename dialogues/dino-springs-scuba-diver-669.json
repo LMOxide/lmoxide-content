@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/dino-springs-scuba-diver-669",
+  "name": "Deep Sea Diver",
+  "texts": [669, 670, 996, 997, 998, 999, 671, 1000, 672, 673],
+  "world": "world/dinosaur-rise",
+  "npc_name": 1927,
+  "npc": "Deep Sea Diver",
+  "start": "trigger",
+  "pos": [249.22, 37.02, 80.27],
+  "order": 157,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: area Cine_DQ1_Cutscene1 3.7 m from its markers and the Deep Sea Diver's spawn (the owner); 996-1000 use its actors (Wizard, Jester); 916 XX_D_Springs_Knubot (tools/content/story_dialogues.py)"
+}
