@@ -143,6 +143,23 @@
       },
       "source": "surveyed",
       "comment": "Where the Gatekeeper stands, facing west (user, 2026-10-29; the client has no point here)."
+    },
+    {
+      "id": "area/7600/test-spot",
+      "name": "test spot",
+      "role": "marker",
+      "shape": {
+        "point": {
+          "pos": [234.78, 42.0, 277.93],
+          "rot": -1.571
+        }
+      },
+      "source": "surveyed",
+      "tags": ["review"],
+      "comment": "Saved in game with !point.",
+      "rev": 1,
+      "author": "host",
+      "updated": 1793312430
     }
   ]
 }

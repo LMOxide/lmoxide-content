@@ -21,6 +21,11 @@
   "end_area": "area/7400/end",
   "variants": [
     {
+      "id": "monkeys",
+      "name": "Monkeys (temporary)",
+      "weight": 1
+    },
+    {
       "id": "monster-lab",
       "name": "Monster Laboratory (test)",
       "weight": 0

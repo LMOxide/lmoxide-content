@@ -266,6 +266,90 @@
       "variants": ["monster-lab"],
       "source": "live",
       "comment": "Test variant: live Monster Laboratory (8030) wave 3's enemies, put on Jungle Arena's pads by hand."
+    },
+    {
+      "id": "spawn/7400/monkeys-w1-nw-1",
+      "kind": "enemy",
+      "template": "npc/monkey",
+      "at": "area/7400/nw-1",
+      "count": 2,
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w1"
+      },
+      "variants": ["monkeys"],
+      "source": "guess",
+      "comment": "Temporary test variant (user, 2026-10-29): monkeys until the real Jungle Arena list comes."
+    },
+    {
+      "id": "spawn/7400/monkeys-w1-ne-3",
+      "kind": "enemy",
+      "template": "npc/monkey",
+      "at": "area/7400/ne-3",
+      "count": 2,
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w1"
+      },
+      "variants": ["monkeys"],
+      "source": "guess",
+      "comment": "Temporary test variant (user, 2026-10-29): monkeys until the real Jungle Arena list comes."
+    },
+    {
+      "id": "spawn/7400/monkeys-w2-nw-3",
+      "kind": "enemy",
+      "template": "npc/monkey",
+      "at": "area/7400/nw-3",
+      "count": 2,
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w2"
+      },
+      "variants": ["monkeys"],
+      "source": "guess",
+      "comment": "Temporary test variant (user, 2026-10-29): monkeys until the real Jungle Arena list comes."
+    },
+    {
+      "id": "spawn/7400/monkeys-w2-se-2",
+      "kind": "enemy",
+      "template": "npc/monkey",
+      "at": "area/7400/se-2",
+      "count": 2,
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w2"
+      },
+      "variants": ["monkeys"],
+      "source": "guess",
+      "comment": "Temporary test variant (user, 2026-10-29): monkeys until the real Jungle Arena list comes."
+    },
+    {
+      "id": "spawn/7400/monkeys-w3-ne-1",
+      "kind": "enemy",
+      "template": "npc/monkey",
+      "at": "area/7400/ne-1",
+      "count": 3,
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w3"
+      },
+      "variants": ["monkeys"],
+      "source": "guess",
+      "comment": "Temporary test variant (user, 2026-10-29): monkeys until the real Jungle Arena list comes."
+    },
+    {
+      "id": "spawn/7400/monkeys-w3-se-4",
+      "kind": "enemy",
+      "template": "npc/monkey",
+      "at": "area/7400/se-4",
+      "count": 3,
+      "wave": {
+        "script": "script/7400/survival",
+        "wave": "w3"
+      },
+      "variants": ["monkeys"],
+      "source": "guess",
+      "comment": "Temporary test variant (user, 2026-10-29): monkeys until the real Jungle Arena list comes."
     }
   ]
 }
