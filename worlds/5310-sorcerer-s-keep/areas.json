@@ -296,7 +296,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 318707; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -316,7 +318,9 @@
       },
       "category": "encounter",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 318708; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -355,7 +359,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "cannon_catapult: cannon / catapult shots (training, dodging, siege); what fires, where and how often is unknown (cannon.rs runs only 4600's fort cannon, jumppad.rs the catapult pads)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 310483 (extract_server_areas.py)"
     },
     {
@@ -376,7 +382,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "cannon_catapult: cannon / catapult shots (training, dodging, siege); what fires, where and how often is unknown (cannon.rs runs only 4600's fort cannon, jumppad.rs the catapult pads)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 316522 (extract_server_areas.py)"
     },
     {
@@ -395,7 +403,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "cannon_catapult: cannon / catapult shots (training, dodging, siege); what fires, where and how often is unknown (cannon.rs runs only 4600's fort cannon, jumppad.rs the catapult pads)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 310558 (extract_server_areas.py)"
     },
     {
@@ -415,7 +425,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "cannon_catapult: cannon / catapult shots (training, dodging, siege); what fires, where and how often is unknown (cannon.rs runs only 4600's fort cannon, jumppad.rs the catapult pads)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 316521 (extract_server_areas.py)"
     },
     {
@@ -437,7 +449,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 310656 (extract_server_areas.py)"
     },
     {
@@ -456,7 +470,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 316591 (extract_server_areas.py)"
     },
     {
@@ -477,7 +493,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 329166 (extract_server_areas.py)"
     },
     {
@@ -496,7 +514,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 316569 (extract_server_areas.py)"
     },
     {
@@ -538,7 +558,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: the Evil Sorcerer's grill fire (candidate spells 318445 / 463750 / 463751 \"evil sorcerer grill1-3 castable\": a 144 s ground fire, nano 319122, 3 m, AbilityMod 0.25); likely cast in the boss fight, not on entering",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 463958 (extract_server_areas.py)"
     },
     {
@@ -557,7 +579,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: the Evil Sorcerer's grill fire (candidate spells 318445 / 463750 / 463751 \"evil sorcerer grill1-3 castable\": a 144 s ground fire, nano 319122, 3 m, AbilityMod 0.25); likely cast in the boss fight, not on entering",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 463959 (extract_server_areas.py)"
     },
     {
@@ -576,7 +600,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: the Evil Sorcerer's grill fire (candidate spells 318445 / 463750 / 463751 \"evil sorcerer grill1-3 castable\": a 144 s ground fire, nano 319122, 3 m, AbilityMod 0.25); likely cast in the boss fight, not on entering",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 463960 (extract_server_areas.py)"
     },
     {
@@ -601,7 +627,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 356523 (extract_server_areas.py)"
     },
     {
@@ -619,7 +647,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to goal WEZY 'Go to the Sorcerer's Keep' (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 350947 (extract_server_areas.py)"
     },
     {
@@ -637,7 +667,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5310 guid 344019 (extract_server_areas.py)"
     },
     {

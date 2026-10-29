@@ -36,7 +36,9 @@
       },
       "category": "other",
       "scry": 529106,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8060 guid 656590; Scry 529106 ba_broadcast (extract_server_areas.py)"
     },
     {
@@ -56,7 +58,9 @@
       },
       "category": "other",
       "scry": 529106,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8060 guid 656591; Scry 529106 ba_broadcast (extract_server_areas.py)"
     },
     {
@@ -74,7 +78,9 @@
         }
       },
       "category": "other",
+      "todo": "story: Funhouse talking head: one of the intro pushers 4725 / 4726 / 4728 / 4729, which one per world unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8060 guid 659826 (extract_server_areas.py)"
     },
     {
@@ -94,7 +100,9 @@
       },
       "category": "quest_story",
       "scry": 529106,
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8060 guid 662026; Scry 529106 ba_broadcast (extract_server_areas.py)"
     },
     {
@@ -114,7 +122,9 @@
       },
       "category": "quest_story",
       "scry": 529106,
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8060 guid 662027; Scry 529106 ba_broadcast (extract_server_areas.py)"
     },
     {
@@ -134,7 +144,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8060 guid 657426 (extract_server_areas.py)"
     },
     {
@@ -156,7 +168,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8060 guid 657427 (extract_server_areas.py)"
     },
     {
@@ -176,7 +190,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8060 guid 657428 (extract_server_areas.py)"
     },
     {
@@ -201,7 +217,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8060 guid 657429 (extract_server_areas.py)"
     },
     {
@@ -221,7 +239,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8060 guid 657430 (extract_server_areas.py)"
     },
     {
@@ -240,7 +260,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8060 guid 657500 (extract_server_areas.py)"
     },
     {

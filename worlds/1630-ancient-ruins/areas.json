@@ -35,7 +35,9 @@
         }
       },
       "category": "teleport",
+      "todo": "teleport: teleports who walks in; the destination is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1630 guid 462973 (extract_server_areas.py)"
     },
     {
@@ -77,83 +79,6 @@
       "category": "kill_volume",
       "source": "client",
       "comment": "RDB 1000053:1630 guid 418289 (extract_server_areas.py)"
-    },
-    {
-      "id": "area/1630/ba-spawnchampion",
-      "name": "BA_SpawnChampion",
-      "role": "trigger",
-      "shape": {
-        "polygon": {
-          "points": [
-            [130.51, 64.47],
-            [210.39, 59.73],
-            [203.16, 158.19],
-            [126.24, 138.42]
-          ],
-          "heights": [57.043, 67.043]
-        }
-      },
-      "category": "spawn_ambush",
-      "source": "client",
-      "comment": "RDB 1000053:1632 guid 462634 (extract_server_areas.py)"
-    },
-    {
-      "id": "area/1630/ba-npcadds",
-      "name": "BA_NPCAdds",
-      "role": "trigger",
-      "shape": {
-        "polygon": {
-          "points": [
-            [124.14, 109.52],
-            [140.02, 113.35],
-            [153.87, 109.57],
-            [140.18, 129.45]
-          ],
-          "heights": [62.331, 72.331]
-        }
-      },
-      "category": "spawn_ambush",
-      "source": "client",
-      "comment": "RDB 1000053:1632 guid 635471 (extract_server_areas.py)"
-    },
-    {
-      "id": "area/1630/ba-catchdcplayers",
-      "name": "BA_CatchDCPlayers",
-      "role": "trigger",
-      "shape": {
-        "polygon": {
-          "points": [
-            [126.87, 95.98],
-            [160.94, 95.21],
-            [161.11, 135.1],
-            [125.44, 133.88]
-          ],
-          "heights": [64.002, 74.002]
-        }
-      },
-      "category": "other",
-      "source": "client",
-      "comment": "RDB 1000053:1632 guid 642815 (extract_server_areas.py)"
-    },
-    {
-      "id": "area/1630/cine-rescue-revolutionary-soulder1",
-      "name": "Cine_Rescue_Revolutionary_Soulder1",
-      "role": "story",
-      "shape": {
-        "polygon": {
-          "points": [
-            [122.87, 70.47],
-            [145.69, 71.51],
-            [145.9, 80.89],
-            [169.94, 125.98],
-            [124.08, 135.39]
-          ],
-          "heights": [57.804, 67.804]
-        }
-      },
-      "category": "cinematic",
-      "source": "client",
-      "comment": "RDB 1000053:1632 guid 618172 (extract_server_areas.py)"
     },
     {
       "id": "area/1630/wall-collision0-579195",

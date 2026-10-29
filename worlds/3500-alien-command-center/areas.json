@@ -205,7 +205,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3500 guid 390175; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -227,7 +229,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3500 guid 390176; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -246,7 +250,9 @@
       },
       "category": "encounter",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3500 guid 390177; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -399,7 +405,9 @@
       },
       "category": "encounter",
       "scry": 56641,
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3500 guid 564880; Scry 56641 ? (extract_server_areas.py)"
     },
     {
@@ -419,7 +427,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3500 guid 387370 (extract_server_areas.py)"
     },
     {
@@ -465,7 +475,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3500 guid 365855 (extract_server_areas.py)"
     },
     {
@@ -484,7 +496,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3500 guid 391072 (extract_server_areas.py)"
     },
     {
@@ -530,7 +544,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3500 guid 365451 (extract_server_areas.py)"
     },
     {
@@ -553,7 +569,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3500 guid 365838 (extract_server_areas.py)"
     },
     {

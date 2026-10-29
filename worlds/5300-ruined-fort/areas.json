@@ -245,7 +245,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 304715; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -264,7 +266,9 @@
       },
       "category": "encounter",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 304716; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -303,7 +307,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 321878 (extract_server_areas.py)"
     },
     {
@@ -322,7 +328,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 321983 (extract_server_areas.py)"
     },
     {
@@ -341,7 +349,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 321984 (extract_server_areas.py)"
     },
     {
@@ -360,7 +370,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 321985 (extract_server_areas.py)"
     },
     {
@@ -379,7 +391,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 321986 (extract_server_areas.py)"
     },
     {
@@ -398,7 +412,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 321987 (extract_server_areas.py)"
     },
     {
@@ -417,7 +433,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 321988 (extract_server_areas.py)"
     },
     {
@@ -436,7 +454,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 321989 (extract_server_areas.py)"
     },
     {
@@ -455,7 +475,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 321990 (extract_server_areas.py)"
     },
     {
@@ -474,7 +496,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 314631 (extract_server_areas.py)"
     },
     {
@@ -493,7 +517,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 314743 (extract_server_areas.py)"
     },
     {
@@ -545,7 +571,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 358474 (extract_server_areas.py)"
     },
     {
@@ -595,7 +623,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 356532 (extract_server_areas.py)"
     },
     {
@@ -613,7 +643,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5300 guid 337897 (extract_server_areas.py)"
     },
     {

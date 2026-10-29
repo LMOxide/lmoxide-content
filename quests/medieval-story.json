@@ -197,5 +197,5 @@
   ],
   "source": "client",
   "tags": ["todo"],
-  "comment": "Story order not known (only the Pirate World's was in the capture): the client's order."
+  "comment": "Story order not known (only the Pirate World's was in the capture): the client's order. Not implemented yet: the quarry crystals (goal 3UX1, items 464315-464318) drop nowhere, as no client data or capture says what drops them (docs/WORLD-CONTENT.md \"Not implemented yet\")."
 }

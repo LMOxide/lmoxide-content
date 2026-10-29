@@ -481,7 +481,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4310 guid 186173; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -501,7 +503,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4310 guid 186174; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -521,7 +525,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4310 guid 186176; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -541,7 +547,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4310 guid 186177; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -644,7 +652,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4310 guid 238259 (extract_server_areas.py)"
     },
     {
@@ -688,7 +698,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4310 guid 358477 (extract_server_areas.py)"
     },
     {
@@ -730,7 +742,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4310 guid 233761 (extract_server_areas.py)"
     },
     {
@@ -749,7 +763,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4310 guid 233762 (extract_server_areas.py)"
     },
     {
@@ -768,7 +784,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4310 guid 356176 (extract_server_areas.py)"
     },
     {
@@ -806,7 +824,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 316 Captain Dreadleg, text 134 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4310 guid 233309 (extract_server_areas.py)"
     },
     {
@@ -826,7 +846,9 @@
       },
       "category": "teleport",
       "scry": 18602,
+      "todo": "teleport: Scry 18602 teleportplayerboundedarea_wazu: teleports who walks in; the destination was a script parameter (lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4312 guid 208647; Scry 18602 teleportplayerboundedarea_wazu (extract_server_areas.py)"
     },
     {
@@ -846,7 +868,9 @@
       },
       "category": "teleport",
       "scry": 18602,
+      "todo": "teleport: Scry 18602 teleportplayerboundedarea_wazu: teleports who walks in; the destination was a script parameter (lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4312 guid 208648; Scry 18602 teleportplayerboundedarea_wazu (extract_server_areas.py)"
     },
     {
@@ -866,7 +890,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4312 guid 208651; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {

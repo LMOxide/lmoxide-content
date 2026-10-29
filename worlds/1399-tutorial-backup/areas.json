@@ -52,7 +52,9 @@
       },
       "category": "teleport",
       "scry": 18602,
+      "todo": "teleport: Scry 18602 teleportplayerboundedarea_wazu: teleports who walks in; the destination was a script parameter (lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500131; Scry 18602 teleportplayerboundedarea_wazu (extract_server_areas.py)"
     },
     {
@@ -92,7 +94,9 @@
       },
       "category": "other",
       "scry": 176480,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500133; Scry 176480 boundedarea_castspellonself (extract_server_areas.py)"
     },
     {
@@ -117,7 +121,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500134 (extract_server_areas.py)"
     },
     {
@@ -136,7 +142,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500135 (extract_server_areas.py)"
     },
     {
@@ -154,7 +162,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500136 (extract_server_areas.py)"
     },
     {
@@ -174,7 +184,9 @@
       },
       "category": "spawn_ambush",
       "scry": 276794,
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500137; Scry 276794 ba_setxp (extract_server_areas.py)"
     },
     {
@@ -193,7 +205,9 @@
       },
       "category": "spawn_ambush",
       "scry": 276794,
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500138; Scry 276794 ba_setxp (extract_server_areas.py)"
     },
     {
@@ -213,7 +227,9 @@
       },
       "category": "spawn_ambush",
       "scry": 276794,
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500139; Scry 276794 ba_setxp (extract_server_areas.py)"
     },
     {
@@ -233,7 +249,9 @@
       },
       "category": "spawn_ambush",
       "scry": 276794,
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500140; Scry 276794 ba_setxp (extract_server_areas.py)"
     },
     {
@@ -274,7 +292,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500143 (extract_server_areas.py)"
     },
     {
@@ -292,7 +312,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500144 (extract_server_areas.py)"
     },
     {
@@ -310,7 +332,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500145 (extract_server_areas.py)"
     },
     {
@@ -330,7 +354,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500146 (extract_server_areas.py)"
     },
     {
@@ -348,7 +374,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500148 (extract_server_areas.py)"
     },
     {
@@ -366,7 +394,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1399 guid 500149 (extract_server_areas.py)"
     },
     {

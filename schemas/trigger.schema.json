@@ -1081,6 +1081,10 @@
       },
       "type": "array"
     },
+    "todo": {
+      "description": "Not implemented yet (with the `todo` tag): what is missing for it to work as on live\n(docs/WORLD-CONTENT.md \"Not implemented yet\").",
+      "type": ["string", "null"]
+    },
     "updated": {
       "description": "Unix time of the last edit.",
       "format": "uint64",

@@ -586,7 +586,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 176495; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -606,7 +608,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 176496; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -625,7 +629,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 493333; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -735,7 +741,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 160062 (extract_server_areas.py)"
     },
     {
@@ -802,7 +810,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 238822 (extract_server_areas.py)"
     },
     {
@@ -820,7 +830,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 493749 (extract_server_areas.py)"
     },
     {
@@ -840,7 +852,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: a floor that breaks under the player; what breaks and where they fall unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 491017 (extract_server_areas.py)"
     },
     {
@@ -858,7 +872,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 495044 (extract_server_areas.py)"
     },
     {
@@ -904,7 +920,9 @@
       },
       "category": "encounter",
       "scry": 56641,
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 492108; Scry 56641 ? (extract_server_areas.py)"
     },
     {
@@ -925,7 +943,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 161147 (extract_server_areas.py)"
     },
     {
@@ -971,7 +991,9 @@
       },
       "category": "encounter",
       "scry": 56641,
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 487720; Scry 56641 ? (extract_server_areas.py)"
     },
     {
@@ -990,7 +1012,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 487730 (extract_server_areas.py)"
     },
     {
@@ -1011,7 +1035,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 154415 (extract_server_areas.py)"
     },
     {
@@ -1032,7 +1058,9 @@
       },
       "category": "other",
       "scry": 24774,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:2320 guid 157719; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
     },
     {

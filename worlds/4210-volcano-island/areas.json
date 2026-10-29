@@ -249,7 +249,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 197760; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -269,7 +271,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 197761; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -289,7 +293,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 197762; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -309,7 +315,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 197763; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -330,7 +338,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 448304; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -352,7 +362,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 448305; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -518,7 +530,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 636116; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -558,7 +572,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601817 (extract_server_areas.py)"
     },
     {
@@ -576,7 +592,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601827 (extract_server_areas.py)"
     },
     {
@@ -594,7 +612,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601838 (extract_server_areas.py)"
     },
     {
@@ -612,7 +632,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601839 (extract_server_areas.py)"
     },
     {
@@ -630,7 +652,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601840 (extract_server_areas.py)"
     },
     {
@@ -648,7 +672,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601841 (extract_server_areas.py)"
     },
     {
@@ -666,7 +692,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 225748 (extract_server_areas.py)"
     },
     {
@@ -684,7 +712,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601189 (extract_server_areas.py)"
     },
     {
@@ -704,7 +734,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601373 (extract_server_areas.py)"
     },
     {
@@ -722,7 +754,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: lava balls / bricks falling on who walks in (candidate spells 600554 / 600594 \"pirate pf volcano island lava summon ball / explosion buff\": lava balls at random points 1-7 m around their target); timing and which spell unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 241145 (extract_server_areas.py)"
     },
     {
@@ -740,7 +774,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: lava balls / bricks falling on who walks in (candidate spells 600554 / 600594 \"pirate pf volcano island lava summon ball / explosion buff\": lava balls at random points 1-7 m around their target); timing and which spell unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 241146 (extract_server_areas.py)"
     },
     {
@@ -759,7 +795,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: lava balls / bricks falling on who walks in (candidate spells 600554 / 600594 \"pirate pf volcano island lava summon ball / explosion buff\": lava balls at random points 1-7 m around their target); timing and which spell unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 241147 (extract_server_areas.py)"
     },
     {
@@ -777,7 +815,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: lava balls / bricks falling on who walks in (candidate spells 600554 / 600594 \"pirate pf volcano island lava summon ball / explosion buff\": lava balls at random points 1-7 m around their target); timing and which spell unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 241148 (extract_server_areas.py)"
     },
     {
@@ -795,7 +835,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: lava balls / bricks falling on who walks in (candidate spells 600554 / 600594 \"pirate pf volcano island lava summon ball / explosion buff\": lava balls at random points 1-7 m around their target); timing and which spell unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 241149 (extract_server_areas.py)"
     },
     {
@@ -813,7 +855,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: lava balls / bricks falling on who walks in (candidate spells 600554 / 600594 \"pirate pf volcano island lava summon ball / explosion buff\": lava balls at random points 1-7 m around their target); timing and which spell unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 241150 (extract_server_areas.py)"
     },
     {
@@ -831,7 +875,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: lava balls / bricks falling on who walks in (candidate spells 600554 / 600594 \"pirate pf volcano island lava summon ball / explosion buff\": lava balls at random points 1-7 m around their target); timing and which spell unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 241151 (extract_server_areas.py)"
     },
     {
@@ -849,7 +895,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: lava balls / bricks falling on who walks in (candidate spells 600554 / 600594 \"pirate pf volcano island lava summon ball / explosion buff\": lava balls at random points 1-7 m around their target); timing and which spell unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 241152 (extract_server_areas.py)"
     },
     {
@@ -868,7 +916,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: lava balls / bricks falling on who walks in (candidate spells 600554 / 600594 \"pirate pf volcano island lava summon ball / explosion buff\": lava balls at random points 1-7 m around their target); timing and which spell unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 600468 (extract_server_areas.py)"
     },
     {
@@ -887,7 +937,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: lava balls / bricks falling on who walks in (candidate spells 600554 / 600594 \"pirate pf volcano island lava summon ball / explosion buff\": lava balls at random points 1-7 m around their target); timing and which spell unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601364 (extract_server_areas.py)"
     },
     {
@@ -906,7 +958,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: lava balls / bricks falling on who walks in (candidate spells 600554 / 600594 \"pirate pf volcano island lava summon ball / explosion buff\": lava balls at random points 1-7 m around their target); timing and which spell unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601724 (extract_server_areas.py)"
     },
     {
@@ -926,7 +980,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: a trap set off by walking in; what it does is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 600564 (extract_server_areas.py)"
     },
     {
@@ -946,7 +1002,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: a trap set off by walking in; what it does is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601267 (extract_server_areas.py)"
     },
     {
@@ -966,7 +1024,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: a trap set off by walking in; what it does is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601284 (extract_server_areas.py)"
     },
     {
@@ -986,7 +1046,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: a trap set off by walking in; what it does is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4210 guid 601308 (extract_server_areas.py)"
     },
     {
@@ -3159,7 +3221,9 @@
       },
       "category": "spawn_ambush",
       "scry": 24774,
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347452; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
     },
     {
@@ -3182,7 +3246,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347453 (extract_server_areas.py)"
     },
     {
@@ -3200,7 +3266,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347454 (extract_server_areas.py)"
     },
     {
@@ -3223,7 +3291,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347455 (extract_server_areas.py)"
     },
     {
@@ -3243,7 +3313,9 @@
       },
       "category": "spawn_ambush",
       "scry": 24774,
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347456; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
     },
     {
@@ -3266,7 +3338,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347457 (extract_server_areas.py)"
     },
     {
@@ -3286,7 +3360,9 @@
       },
       "category": "spawn_ambush",
       "scry": 24774,
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347458; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
     },
     {
@@ -3306,7 +3382,9 @@
       },
       "category": "spawn_ambush",
       "scry": 24774,
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347459; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
     },
     {
@@ -3329,7 +3407,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347460 (extract_server_areas.py)"
     },
     {
@@ -3349,7 +3429,9 @@
       },
       "category": "spawn_ambush",
       "scry": 24774,
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347461; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
     },
     {
@@ -3372,7 +3454,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347462 (extract_server_areas.py)"
     },
     {
@@ -3392,7 +3476,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347463 (extract_server_areas.py)"
     },
     {
@@ -3412,7 +3498,9 @@
       },
       "category": "spawn_ambush",
       "scry": 24774,
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347464; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
     },
     {
@@ -3431,7 +3519,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347473 (extract_server_areas.py)"
     },
     {
@@ -3450,7 +3540,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347476 (extract_server_areas.py)"
     },
     {
@@ -3468,7 +3560,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4212 guid 347481 (extract_server_areas.py)"
     },
     {

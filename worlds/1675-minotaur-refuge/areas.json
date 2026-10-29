@@ -16,6 +16,190 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/1675/ba-bonecage",
+      "name": "BA_Bonecage",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [232.1, 277.47],
+            [242.74, 274.01],
+            [242.68, 281.09]
+          ],
+          "heights": [18.322, 28.322]
+        }
+      },
+      "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
+      "source": "client",
+      "tags": ["todo"],
+      "comment": "RDB 1000053:1675 guid 489880 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1675/ba-cells",
+      "name": "BA_Cells",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [249.0, 276.41],
+            [245.05, 271.33],
+            [259.18, 281.06],
+            [260.58, 285.45],
+            [253.73, 283.61],
+            [249.7, 280.54],
+            [248.72, 278.31]
+          ],
+          "heights": [19.565, 29.565]
+        }
+      },
+      "category": "other",
+      "todo": "other: purpose unknown (name only)",
+      "source": "client",
+      "tags": ["todo"],
+      "comment": "RDB 1000053:1675 guid 489936 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1675/ba-teleport",
+      "name": "BA_Teleport",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [237.68, 226.87],
+            [246.21, 227.02],
+            [246.68, 236.37],
+            [237.15, 236.26]
+          ],
+          "heights": [19.183, 29.183]
+        }
+      },
+      "category": "teleport",
+      "todo": "teleport: teleports who walks in; the destination is unknown",
+      "source": "client",
+      "tags": ["todo"],
+      "comment": "RDB 1000053:1675 guid 484605 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1675/clearhate-entrance",
+      "name": "ClearHate_Entrance",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [231.08, 242.31],
+            [238.5, 243.81],
+            [238.42, 248.78],
+            [231.24, 251.28]
+          ],
+          "heights": [17.471, 27.471]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:1675 guid 623252; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1675/fallthroughworld",
+      "name": "FallThroughWorld",
+      "role": "kill",
+      "shape": {
+        "polygon": {
+          "points": [
+            [-3.52, 4.9],
+            [517.4, 4.23],
+            [514.35, 522.94],
+            [-2.24, 521.26]
+          ],
+          "heights": [-6.175, 3.825]
+        }
+      },
+      "category": "kill_volume",
+      "source": "client",
+      "comment": "RDB 1000053:1675 guid 484606 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1675/wall-collision1-485249",
+      "name": "collision1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [239.74, 235.08],
+            [239.62, 229.54],
+            [244.61, 230.37],
+            [245.96, 238.04],
+            [245.61, 250.73],
+            [249.58, 251.61],
+            [249.76, 257.23],
+            [245.14, 257.51],
+            [245.04, 273.35],
+            [242.21, 273.56],
+            [242.21, 269.87],
+            [241.41, 269.81],
+            [241.41, 281.78],
+            [243.38, 282.65],
+            [243.43, 284.36],
+            [246.21, 284.4],
+            [246.87, 282.14],
+            [246.72, 271.98],
+            [246.54, 266.65],
+            [256.43, 266.55],
+            [256.42, 263.33],
+            [254.21, 262.56],
+            [254.62, 262.56],
+            [254.36, 250.99],
+            [258.72, 251.48],
+            [262.41, 253.89],
+            [261.04, 263.69],
+            [259.57, 263.51],
+            [259.57, 266.55],
+            [261.5, 267.97],
+            [261.75, 273.25],
+            [257.3, 273.4],
+            [257.25, 278.32],
+            [261.65, 278.34],
+            [261.71, 285.86],
+            [257.66, 285.94],
+            [257.59, 289.57],
+            [246.61, 289.53],
+            [245.64, 287.55],
+            [243.43, 287.55],
+            [243.33, 289.48],
+            [234.41, 289.79],
+            [234.41, 269.94],
+            [233.77, 269.85],
+            [233.38, 271.91],
+            [230.77, 270.55],
+            [230.77, 258.6],
+            [238.05, 258.2],
+            [238.91, 255.37],
+            [238.79, 249.42],
+            [237.34, 248.78],
+            [233.78, 250.15],
+            [231.81, 248.25],
+            [231.59, 245.38],
+            [233.95, 242.68],
+            [237.01, 243.17],
+            [238.87, 245.59],
+            [239.34, 243.22],
+            [238.94, 241.83],
+            [239.34, 236.18]
+          ],
+          "heights": [15.387, 27.387]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:1675 uniqueid 485249 (extract_server_areas.py)"
     }
   ]
 }

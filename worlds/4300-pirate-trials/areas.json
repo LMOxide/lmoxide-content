@@ -302,7 +302,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 185171; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -322,7 +324,9 @@
       },
       "category": "encounter",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 185172; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -341,7 +345,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 245885; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -468,7 +474,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 184986 (extract_server_areas.py)"
     },
     {
@@ -488,7 +496,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 234848 (extract_server_areas.py)"
     },
     {
@@ -511,7 +521,9 @@
       },
       "category": "quest_story",
       "scry": 230545,
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 238912; Scry 230545 sen_ba_playercounter (extract_server_areas.py)"
     },
     {
@@ -554,7 +566,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "cannon_catapult: cannon / catapult shots (training, dodging, siege); what fires, where and how often is unknown (cannon.rs runs only 4600's fort cannon, jumppad.rs the catapult pads)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 232241 (extract_server_areas.py)"
     },
     {
@@ -573,7 +587,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 237407 (extract_server_areas.py)"
     },
     {
@@ -592,7 +608,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 239001 (extract_server_areas.py)"
     },
     {
@@ -662,7 +680,9 @@
       },
       "category": "encounter",
       "scry": 56641,
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 566140; Scry 56641 ? (extract_server_areas.py)"
     },
     {
@@ -681,7 +701,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 184990 (extract_server_areas.py)"
     },
     {
@@ -699,7 +721,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 238313 (extract_server_areas.py)"
     },
     {
@@ -717,7 +741,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 249662 (extract_server_areas.py)"
     },
     {
@@ -736,7 +762,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "cannon_catapult: cannon / catapult shots (training, dodging, siege); what fires, where and how often is unknown (cannon.rs runs only 4600's fort cannon, jumppad.rs the catapult pads)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 214989 (extract_server_areas.py)"
     },
     {
@@ -755,7 +783,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4300 guid 236766 (extract_server_areas.py)"
     },
     {

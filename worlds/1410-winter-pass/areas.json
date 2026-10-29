@@ -69,7 +69,9 @@
         }
       },
       "category": "teleport",
+      "todo": "teleport: teleports who walks in; the destination is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1410 guid 578048 (extract_server_areas.py)"
     },
     {
@@ -88,7 +90,9 @@
         }
       },
       "category": "teleport",
+      "todo": "teleport: teleports who walks in; the destination is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1410 guid 579606 (extract_server_areas.py)"
     },
     {
@@ -108,7 +112,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1410 guid 585246; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -128,7 +134,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1410 guid 585252; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -166,7 +174,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: snowballs rolling at the player (candidate spells 579191 / 580992 \"XX_Snowball\"); the time trial's start, end and buff removal are unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1410 guid 581421 (extract_server_areas.py)"
     },
     {
@@ -184,7 +194,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: snowballs rolling at the player (candidate spells 579191 / 580992 \"XX_Snowball\"); the time trial's start, end and buff removal are unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1410 guid 581422 (extract_server_areas.py)"
     },
     {
@@ -202,7 +214,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: snowballs rolling at the player (candidate spells 579191 / 580992 \"XX_Snowball\"); the time trial's start, end and buff removal are unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1410 guid 582800 (extract_server_areas.py)"
     },
     {
@@ -221,7 +235,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: snowballs rolling at the player (candidate spells 579191 / 580992 \"XX_Snowball\"); the time trial's start, end and buff removal are unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1410 guid 579148 (extract_server_areas.py)"
     },
     {
@@ -267,7 +283,9 @@
       },
       "category": "encounter",
       "scry": 56641,
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1410 guid 582836; Scry 56641 ? (extract_server_areas.py)"
     },
     {
@@ -313,7 +331,9 @@
       },
       "category": "encounter",
       "scry": 56641,
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1410 guid 581855; Scry 56641 ? (extract_server_areas.py)"
     },
     {

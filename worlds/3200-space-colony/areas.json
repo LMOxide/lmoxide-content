@@ -655,7 +655,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 375834; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -674,7 +676,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 375835; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -694,7 +698,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 375836; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -714,7 +720,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 375837; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -733,7 +741,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 375838; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -753,7 +763,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 389204; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -773,7 +785,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 389241; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -794,7 +808,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 389242; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -814,7 +830,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 448783; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -836,7 +854,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 448784; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -1075,7 +1095,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 663760 (extract_server_areas.py)"
     },
     {
@@ -1098,7 +1120,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 641581 (extract_server_areas.py)"
     },
     {
@@ -1124,7 +1148,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 641798 (extract_server_areas.py)"
     },
     {
@@ -1143,7 +1169,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 374065 (extract_server_areas.py)"
     },
     {
@@ -1162,7 +1190,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 374199 (extract_server_areas.py)"
     },
     {
@@ -1184,7 +1214,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 635838 (extract_server_areas.py)"
     },
     {
@@ -1206,7 +1238,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 380610 (extract_server_areas.py)"
     },
     {
@@ -1230,7 +1264,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 389355 (extract_server_areas.py)"
     },
     {
@@ -1251,7 +1287,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 397927 (extract_server_areas.py)"
     },
     {
@@ -1272,7 +1310,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 389747 (extract_server_areas.py)"
     },
     {
@@ -1623,7 +1663,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 483 XX_S2, text 328 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 403357 (extract_server_areas.py)"
     },
     {
@@ -1642,7 +1684,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 484 XX_S3, text 489 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 464012 (extract_server_areas.py)"
     },
     {
@@ -1661,7 +1705,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 585 XX_MercsAtTheMines, text 496 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 464038 (extract_server_areas.py)"
     },
     {
@@ -1680,7 +1726,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 587 XX_S07_MeetTheSpaceMiner, text 335 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 403359 (extract_server_areas.py)"
     },
     {
@@ -1698,7 +1746,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 588 XX_S08_Help_F.E.A.R, text 336 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3200 guid 403360 (extract_server_areas.py)"
     },
     {

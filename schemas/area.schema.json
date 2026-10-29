@@ -503,6 +503,10 @@
       },
       "type": "array"
     },
+    "todo": {
+      "description": "Not implemented yet (with the `todo` tag): what the server would have to do here and\nwhat is still unknown (docs/WORLD-CONTENT.md \"Not implemented yet\").",
+      "type": ["string", "null"]
+    },
     "updated": {
       "description": "Unix time of the last edit.",
       "format": "uint64",

@@ -582,7 +582,9 @@
         }
       },
       "category": "teleport",
+      "todo": "teleport: teleports who walks in; the destination is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 387785 (extract_server_areas.py)"
     },
     {
@@ -601,7 +603,9 @@
       },
       "category": "hate_res",
       "scry": 210657,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 403937; Scry 210657 boundedarea_discoverresurrectionpoint_rcox (extract_server_areas.py)"
     },
     {
@@ -620,7 +624,9 @@
       },
       "category": "hate_res",
       "scry": 210657,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 403938; Scry 210657 boundedarea_discoverresurrectionpoint_rcox (extract_server_areas.py)"
     },
     {
@@ -639,7 +645,9 @@
       },
       "category": "encounter",
       "scry": 210657,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 403939; Scry 210657 boundedarea_discoverresurrectionpoint_rcox (extract_server_areas.py)"
     },
     {
@@ -791,7 +799,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 362154 (extract_server_areas.py)"
     },
     {
@@ -809,7 +819,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 368399 (extract_server_areas.py)"
     },
     {
@@ -828,7 +840,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 388183 (extract_server_areas.py)"
     },
     {
@@ -872,7 +886,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 387619 (extract_server_areas.py)"
     },
     {
@@ -917,7 +933,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 387859 (extract_server_areas.py)"
     },
     {
@@ -958,7 +976,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to goal U3DU 'Infiltrate the Alien Facility' (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 407739 (extract_server_areas.py)"
     },
     {
@@ -976,7 +996,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to goal JAYO 'Find the Source of the Alien Presence' (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 408806 (extract_server_areas.py)"
     },
     {
@@ -1018,7 +1040,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 492 XX_S11, text 352 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 407740 (extract_server_areas.py)"
     },
     {
@@ -1037,7 +1061,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 592 XX_S11_Shadrack_BossFight, text 505 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 464237 (extract_server_areas.py)"
     },
     {
@@ -1056,7 +1082,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 593 XX_S12VictoryoverShadrack, text 509 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 464238 (extract_server_areas.py)"
     },
     {
@@ -1075,7 +1103,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 492 XX_S11, text 352 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3310 guid 637082 (extract_server_areas.py)"
     },
     {

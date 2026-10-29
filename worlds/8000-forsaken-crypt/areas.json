@@ -17,7 +17,9 @@
       },
       "category": "other",
       "scry": 529106,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8000 guid 654343; Scry 529106 ba_broadcast (extract_server_areas.py)"
     },
     {
@@ -37,7 +39,9 @@
       },
       "category": "other",
       "scry": 529106,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8000 guid 654344; Scry 529106 ba_broadcast (extract_server_areas.py)"
     },
     {
@@ -74,7 +78,9 @@
         }
       },
       "category": "other",
+      "todo": "story: Funhouse talking head: one of the intro pushers 4725 / 4726 / 4728 / 4729, which one per world unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8000 guid 659813 (extract_server_areas.py)"
     },
     {

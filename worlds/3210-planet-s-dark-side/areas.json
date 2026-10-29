@@ -348,7 +348,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 358739 (extract_server_areas.py)"
     },
     {
@@ -368,7 +370,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 378413; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -388,7 +392,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 378414; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -408,7 +414,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 378415; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -428,7 +436,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 378416; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -448,7 +458,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 449064; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -468,7 +480,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 462373; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -633,7 +647,9 @@
       },
       "category": "hazard",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 636109; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -660,7 +676,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 377026 (extract_server_areas.py)"
     },
     {
@@ -700,7 +718,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 408798 (extract_server_areas.py)"
     },
     {
@@ -722,7 +742,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 408799 (extract_server_areas.py)"
     },
     {
@@ -749,7 +771,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 408800 (extract_server_areas.py)"
     },
     {
@@ -815,7 +839,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 408801 (extract_server_areas.py)"
     },
     {
@@ -852,7 +878,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 408802 (extract_server_areas.py)"
     },
     {
@@ -870,7 +898,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 397499 (extract_server_areas.py)"
     },
     {
@@ -997,7 +1027,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "jump: jump sounds and fake jump pads around jumps (jumppad.rs runs the pads); what they set off is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 465021 (extract_server_areas.py)"
     },
     {
@@ -1016,7 +1048,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "jump: jump sounds and fake jump pads around jumps (jumppad.rs runs the pads); what they set off is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 465041 (extract_server_areas.py)"
     },
     {
@@ -1035,7 +1069,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "jump: jump sounds and fake jump pads around jumps (jumppad.rs runs the pads); what they set off is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 465042 (extract_server_areas.py)"
     },
     {
@@ -1054,7 +1090,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "jump: jump sounds and fake jump pads around jumps (jumppad.rs runs the pads); what they set off is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 465043 (extract_server_areas.py)"
     },
     {
@@ -1073,7 +1111,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "jump: jump sounds and fake jump pads around jumps (jumppad.rs runs the pads); what they set off is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 465308 (extract_server_areas.py)"
     },
     {
@@ -1092,7 +1132,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "jump: jump sounds and fake jump pads around jumps (jumppad.rs runs the pads); what they set off is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 465309 (extract_server_areas.py)"
     },
     {
@@ -1111,7 +1153,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "jump: jump sounds and fake jump pads around jumps (jumppad.rs runs the pads); what they set off is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 465310 (extract_server_areas.py)"
     },
     {
@@ -1130,7 +1174,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "jump: jump sounds and fake jump pads around jumps (jumppad.rs runs the pads); what they set off is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 465311 (extract_server_areas.py)"
     },
     {
@@ -1149,7 +1195,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "jump: jump sounds and fake jump pads around jumps (jumppad.rs runs the pads); what they set off is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 465312 (extract_server_areas.py)"
     },
     {
@@ -1168,7 +1216,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "jump: jump sounds and fake jump pads around jumps (jumppad.rs runs the pads); what they set off is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 465313 (extract_server_areas.py)"
     },
     {
@@ -1187,7 +1237,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "jump: jump sounds and fake jump pads around jumps (jumppad.rs runs the pads); what they set off is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 465314 (extract_server_areas.py)"
     },
     {
@@ -1206,7 +1258,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "jump: jump sounds and fake jump pads around jumps (jumppad.rs runs the pads); what they set off is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 465315 (extract_server_areas.py)"
     },
     {
@@ -1316,7 +1370,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 490 XX_S9 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 388880 (extract_server_areas.py)"
     },
     {
@@ -1341,7 +1397,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 491 The Alien Queen, text 348 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 388882 (extract_server_areas.py)"
     },
     {
@@ -1359,7 +1417,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 4243 XX_S09.5_AtTheBuilderRuins, text 920 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 637023 (extract_server_areas.py)"
     },
     {
@@ -1397,7 +1457,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:3210 guid 659845 (extract_server_areas.py)"
     },
     {

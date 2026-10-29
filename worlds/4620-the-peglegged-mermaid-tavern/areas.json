@@ -161,7 +161,9 @@
       },
       "category": "teleport",
       "scry": 18602,
+      "todo": "teleport: Scry 18602 teleportplayerboundedarea_wazu: teleports who walks in; the destination was a script parameter (lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4620 guid 214911; Scry 18602 teleportplayerboundedarea_wazu (extract_server_areas.py)"
     },
     {

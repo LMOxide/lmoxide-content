@@ -1,0 +1,37 @@
+{
+  "triggers": [
+    {
+      "id": "trigger/1603/clearhate-start",
+      "name": "ClearHate_Start",
+      "area": "area/1603/clearhate-start",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/1603/fallthroughworld",
+      "name": "FallThroughWorld",
+      "area": "area/1603/fallthroughworld",
+      "actions": [
+        {
+          "teleport": {
+            "to": {
+              "command": "nearest_respawn"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    }
+  ]
+}

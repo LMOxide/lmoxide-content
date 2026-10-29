@@ -628,7 +628,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 513632 (extract_server_areas.py)"
     },
     {
@@ -667,7 +669,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 513633 (extract_server_areas.py)"
     },
     {
@@ -708,7 +712,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 513634 (extract_server_areas.py)"
     },
     {
@@ -739,7 +745,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 599920 (extract_server_areas.py)"
     },
     {
@@ -759,7 +767,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 599921 (extract_server_areas.py)"
     },
     {
@@ -782,7 +792,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 521602 (extract_server_areas.py)"
     },
     {
@@ -807,7 +819,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 522448 (extract_server_areas.py)"
     },
     {
@@ -834,7 +848,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 513870 (extract_server_areas.py)"
     },
     {
@@ -853,7 +869,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 513871 (extract_server_areas.py)"
     },
     {
@@ -886,7 +904,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 513872 (extract_server_areas.py)"
     },
     {
@@ -912,7 +932,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 513873 (extract_server_areas.py)"
     },
     {
@@ -938,7 +960,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 513874 (extract_server_areas.py)"
     },
     {
@@ -964,7 +988,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 513875 (extract_server_areas.py)"
     },
     {
@@ -990,7 +1016,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 515359 (extract_server_areas.py)"
     },
     {
@@ -1016,7 +1044,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 515360 (extract_server_areas.py)"
     },
     {
@@ -1042,7 +1072,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 515361 (extract_server_areas.py)"
     },
     {
@@ -1068,7 +1100,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 515362 (extract_server_areas.py)"
     },
     {
@@ -1117,7 +1151,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 515364 (extract_server_areas.py)"
     },
     {
@@ -1138,7 +1174,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 528812 (extract_server_areas.py)"
     },
     {
@@ -1326,7 +1364,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 521582 (extract_server_areas.py)"
     },
     {
@@ -1345,7 +1385,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 521583 (extract_server_areas.py)"
     },
     {
@@ -1364,7 +1406,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 521584 (extract_server_areas.py)"
     },
     {
@@ -1383,7 +1427,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 528558 (extract_server_areas.py)"
     },
     {
@@ -1402,7 +1448,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 521585 (extract_server_areas.py)"
     },
     {
@@ -1421,7 +1469,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 521586 (extract_server_areas.py)"
     },
     {
@@ -1484,7 +1534,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 515546; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -1562,7 +1614,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 530500 (extract_server_areas.py)"
     },
     {
@@ -1581,7 +1635,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6200 guid 530504 (extract_server_areas.py)"
     },
     {

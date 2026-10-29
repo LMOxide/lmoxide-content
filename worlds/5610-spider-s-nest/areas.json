@@ -41,7 +41,9 @@
       },
       "category": "other",
       "scry": 24774,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5610 guid 352352; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
     },
     {
@@ -82,7 +84,9 @@
         }
       },
       "category": "teleport",
+      "todo": "teleport: teleports who walks in; the destination is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5610 guid 462953 (extract_server_areas.py)"
     },
     {
@@ -122,7 +126,9 @@
       },
       "category": "other",
       "scry": 24774,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5610 guid 352353; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
     },
     {

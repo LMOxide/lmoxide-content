@@ -147,7 +147,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4610 guid 641968 (extract_server_areas.py)"
     },
     {
@@ -186,7 +188,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4610 guid 238277 (extract_server_areas.py)"
     },
     {
@@ -224,7 +228,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4610 guid 576202 (extract_server_areas.py)"
     },
     {
@@ -243,7 +249,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4610 guid 576753 (extract_server_areas.py)"
     },
     {
@@ -261,7 +269,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4610 guid 576259 (extract_server_areas.py)"
     },
     {
@@ -281,7 +291,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4610 guid 616941; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -301,7 +313,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4610 guid 616997; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -320,7 +334,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4610 guid 600396 (extract_server_areas.py)"
     },
     {

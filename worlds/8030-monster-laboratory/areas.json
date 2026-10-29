@@ -101,7 +101,9 @@
       },
       "category": "other",
       "scry": 529106,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8030 guid 656801; Scry 529106 ba_broadcast (extract_server_areas.py)"
     },
     {
@@ -121,7 +123,9 @@
       },
       "category": "other",
       "scry": 529106,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8030 guid 656800; Scry 529106 ba_broadcast (extract_server_areas.py)"
     },
     {
@@ -142,7 +146,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 4730 FunhouseBossKnubot, text 1030 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8030 guid 659832 (extract_server_areas.py)"
     },
     {
@@ -165,7 +171,9 @@
       },
       "category": "other",
       "scry": 24774,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8030 guid 662123; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
     },
     {
@@ -188,7 +196,9 @@
       },
       "category": "other",
       "scry": 24774,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8030 guid 662124; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
     },
     {
@@ -207,7 +217,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:8030 guid 662088 (extract_server_areas.py)"
     },
     {

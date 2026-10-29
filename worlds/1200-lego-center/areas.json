@@ -193,7 +193,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 4301 XX_Gamer Questgiver Dino Info (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1200 guid 463222 (extract_server_areas.py)"
     },
     {
@@ -212,7 +214,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 4723 XX_F01_Come into the Funhouse, text 1027 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1200 guid 659772 (extract_server_areas.py)"
     },
     {
@@ -230,7 +234,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1200 guid 660006 (extract_server_areas.py)"
     },
     {
@@ -248,7 +254,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1202 guid 346058 (extract_server_areas.py)"
     },
     {

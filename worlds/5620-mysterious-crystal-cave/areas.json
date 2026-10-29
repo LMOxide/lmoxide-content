@@ -35,7 +35,9 @@
         }
       },
       "category": "teleport",
+      "todo": "teleport: teleports who walks in; the destination is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5620 guid 462961 (extract_server_areas.py)"
     },
     {

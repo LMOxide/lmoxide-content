@@ -437,7 +437,9 @@
       },
       "category": "spawn_ambush",
       "scry": 529106,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 598699; Scry 529106 ba_broadcast (extract_server_areas.py)"
     },
     {
@@ -456,7 +458,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 634817; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -475,7 +479,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 598783; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -494,7 +500,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 598805; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -514,7 +522,9 @@
       },
       "category": "spawn_ambush",
       "scry": 276794,
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 198598; Scry 276794 ba_setxp (extract_server_areas.py)"
     },
     {
@@ -534,7 +544,9 @@
       },
       "category": "spawn_ambush",
       "scry": 276794,
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 221521; Scry 276794 ba_setxp (extract_server_areas.py)"
     },
     {
@@ -554,7 +566,9 @@
       },
       "category": "quest_story",
       "scry": 276794,
+      "todo": "setxp: Scry 276794 ba_setxp: sets the player's XP; the value was a script parameter (lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 599791; Scry 276794 ba_setxp (extract_server_areas.py)"
     },
     {
@@ -573,7 +587,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 609757; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -592,7 +608,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 599198; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -612,7 +630,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 600319; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -632,7 +652,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 609860; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -652,7 +674,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 636542; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -671,7 +695,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 599308; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -690,7 +716,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 599343; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -734,7 +762,9 @@
       },
       "category": "encounter",
       "scry": 597467,
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 609780; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -752,7 +782,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 275122 (extract_server_areas.py)"
     },
     {
@@ -771,7 +803,9 @@
       },
       "category": "spawn_ambush",
       "scry": 597467,
+      "todo": "escort: the tutorial escort chain (Scry 597467 genericsendmessagetoself): messages to the escort NPC's script (lost); tutorial.rs runs the escort without them",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 600455; Scry 597467 genericsendmessagetoself (extract_server_areas.py)"
     },
     {
@@ -845,7 +879,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 624574 (extract_server_areas.py)"
     },
     {
@@ -884,7 +920,9 @@
       },
       "category": "other",
       "scry": 176480,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 236439; Scry 176480 boundedarea_castspellonself (extract_server_areas.py)"
     },
     {
@@ -904,7 +942,9 @@
       },
       "category": "quest_story",
       "scry": 276794,
+      "todo": "setxp: Scry 276794 ba_setxp: sets the player's XP; the value was a script parameter (lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1300 guid 599792; Scry 276794 ba_setxp (extract_server_areas.py)"
     },
     {
@@ -924,7 +964,9 @@
       },
       "category": "teleport",
       "scry": 18602,
+      "todo": "teleport: Scry 18602 teleportplayerboundedarea_wazu: teleports who walks in; the destination was a script parameter (lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1302 guid 226771; Scry 18602 teleportplayerboundedarea_wazu (extract_server_areas.py)"
     },
     {
@@ -943,7 +985,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1302 guid 226772 (extract_server_areas.py)"
     },
     {
@@ -962,7 +1006,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1302 guid 226775 (extract_server_areas.py)"
     },
     {
@@ -981,7 +1027,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1302 guid 226778 (extract_server_areas.py)"
     },
     {
@@ -1634,7 +1682,9 @@
           [108.19, 44.03, 255.48]
         ]
       ],
+      "todo": "territory: roaming space with paths (RDB 1000050); NPCs don't wander by territories yet",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000050:1300 territory, category no category = no category value (extract_server_areas.py)"
     },
     {
@@ -1826,7 +1876,9 @@
           [193.47, 30.06, 269.72]
         ]
       ],
+      "todo": "territory: roaming space with paths (RDB 1000050); NPCs don't wander by territories yet",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000050:1300 territory, category no category = no category value (extract_server_areas.py)"
     },
     {
@@ -2028,7 +2080,9 @@
           [213.78, 44.0, 257.08]
         ]
       ],
+      "todo": "territory: roaming space with paths (RDB 1000050); NPCs don't wander by territories yet",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000050:1300 territory, category no category = no category value (extract_server_areas.py)"
     }
   ]

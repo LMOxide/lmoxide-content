@@ -36,7 +36,9 @@
         }
       },
       "category": "teleport",
+      "todo": "teleport: teleports who walks in; the destination is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1650 guid 462945 (extract_server_areas.py)"
     },
     {
@@ -78,46 +80,6 @@
       "category": "kill_volume",
       "source": "client",
       "comment": "RDB 1000053:1650 guid 421717 (extract_server_areas.py)"
-    },
-    {
-      "id": "area/1650/clearhate-start",
-      "name": "ClearHate_Start",
-      "role": "trigger",
-      "shape": {
-        "polygon": {
-          "points": [
-            [232.55, 256.46],
-            [235.56, 255.17],
-            [237.82, 256.69],
-            [237.76, 260.72],
-            [234.73, 262.0],
-            [231.84, 258.91]
-          ],
-          "heights": [16.709, 26.709]
-        }
-      },
-      "category": "hate_res",
-      "scry": 601883,
-      "source": "client",
-      "comment": "RDB 1000053:1652 guid 623300; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
-    },
-    {
-      "id": "area/1650/ba-ambush",
-      "name": "BA_Ambush",
-      "role": "trigger",
-      "shape": {
-        "polygon": {
-          "points": [
-            [213.06, 230.11],
-            [213.41, 251.92],
-            [206.55, 246.47]
-          ],
-          "heights": [7.719, 17.719]
-        }
-      },
-      "category": "spawn_ambush",
-      "source": "client",
-      "comment": "RDB 1000053:1652 guid 442984 (extract_server_areas.py)"
     },
     {
       "id": "area/1650/wall-collision-boss-circle1-617254",

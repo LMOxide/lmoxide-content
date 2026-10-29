@@ -173,7 +173,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 331693; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -193,7 +195,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 331694; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -213,7 +217,9 @@
       },
       "category": "encounter",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 331695; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -338,7 +344,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 358471 (extract_server_areas.py)"
     },
     {
@@ -379,7 +387,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335199 (extract_server_areas.py)"
     },
     {
@@ -398,7 +408,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335200 (extract_server_areas.py)"
     },
     {
@@ -417,7 +429,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335201 (extract_server_areas.py)"
     },
     {
@@ -436,7 +450,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335202 (extract_server_areas.py)"
     },
     {
@@ -455,7 +471,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335203 (extract_server_areas.py)"
     },
     {
@@ -474,7 +492,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335204 (extract_server_areas.py)"
     },
     {
@@ -493,7 +513,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335205 (extract_server_areas.py)"
     },
     {
@@ -512,7 +534,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335206 (extract_server_areas.py)"
     },
     {
@@ -531,7 +555,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335207 (extract_server_areas.py)"
     },
     {
@@ -550,7 +576,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335208 (extract_server_areas.py)"
     },
     {
@@ -569,7 +597,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335209 (extract_server_areas.py)"
     },
     {
@@ -588,7 +618,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335210 (extract_server_areas.py)"
     },
     {
@@ -607,7 +639,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335211 (extract_server_areas.py)"
     },
     {
@@ -626,7 +660,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335212 (extract_server_areas.py)"
     },
     {
@@ -645,7 +681,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335213 (extract_server_areas.py)"
     },
     {
@@ -664,7 +702,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 335214 (extract_server_areas.py)"
     },
     {
@@ -687,7 +727,9 @@
         }
       },
       "category": "other",
+      "todo": "hazard: poisons who walks in (Scry 176480 boundedarea_castspellonself: the spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 358472 (extract_server_areas.py)"
     },
     {
@@ -727,7 +769,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 355493 (extract_server_areas.py)"
     },
     {
@@ -745,7 +789,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 356164 (extract_server_areas.py)"
     },
     {
@@ -763,7 +809,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 350672 (extract_server_areas.py)"
     },
     {
@@ -781,7 +829,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 350673 (extract_server_areas.py)"
     },
     {
@@ -799,7 +849,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 350674 (extract_server_areas.py)"
     },
     {
@@ -817,7 +869,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 350675 (extract_server_areas.py)"
     },
     {
@@ -835,7 +889,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 350676 (extract_server_areas.py)"
     },
     {
@@ -854,7 +910,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 319460 (extract_server_areas.py)"
     },
     {
@@ -872,7 +930,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 356168 (extract_server_areas.py)"
     },
     {
@@ -913,7 +973,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 324849 (extract_server_areas.py)"
     },
     {
@@ -932,7 +994,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 324850 (extract_server_areas.py)"
     },
     {
@@ -955,7 +1019,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 356531 (extract_server_areas.py)"
     },
     {
@@ -973,7 +1039,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 338321 (extract_server_areas.py)"
     },
     {
@@ -992,7 +1060,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 338322 (extract_server_areas.py)"
     },
     {
@@ -1010,7 +1080,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 350271 (extract_server_areas.py)"
     },
     {
@@ -1028,7 +1100,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 350272 (extract_server_areas.py)"
     },
     {
@@ -1046,7 +1120,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 350273 (extract_server_areas.py)"
     },
     {
@@ -1064,7 +1140,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 355499 (extract_server_areas.py)"
     },
     {
@@ -1082,7 +1160,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5500 guid 355968 (extract_server_areas.py)"
     },
     {

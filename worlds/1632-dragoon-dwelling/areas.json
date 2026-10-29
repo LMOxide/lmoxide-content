@@ -161,6 +161,234 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/1632/ba-teleport",
+      "name": "BA_Teleport",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [127.86, 148.58],
+            [136.39, 148.74],
+            [136.85, 158.08],
+            [127.33, 157.98]
+          ],
+          "heights": [70.391, 80.391]
+        }
+      },
+      "category": "teleport",
+      "todo": "teleport: teleports who walks in; the destination is unknown",
+      "source": "client",
+      "tags": ["todo"],
+      "comment": "RDB 1000053:1632 guid 462935 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1632/clearhate-entrance",
+      "name": "ClearHate_Entrance",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [127.23, 134.8],
+            [133.4, 137.39],
+            [134.86, 138.92],
+            [134.52, 141.92],
+            [131.84, 143.06],
+            [128.61, 141.52]
+          ],
+          "heights": [70.862, 80.862]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:1632 guid 623320; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1632/fallthroughworld",
+      "name": "FallThroughWorld",
+      "role": "kill",
+      "shape": {
+        "polygon": {
+          "points": [
+            [-4.04, -2.03],
+            [516.88, -2.7],
+            [513.82, 516.01],
+            [-2.76, 514.34]
+          ],
+          "heights": [0.0, 10.0]
+        }
+      },
+      "category": "kill_volume",
+      "source": "client",
+      "comment": "RDB 1000053:1632 guid 422938 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1632/ba-spawnchampion",
+      "name": "BA_SpawnChampion",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [130.51, 64.47],
+            [210.39, 59.73],
+            [203.16, 158.19],
+            [126.24, 138.42]
+          ],
+          "heights": [57.043, 67.043]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:1632 guid 462634 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1632/ba-npcadds",
+      "name": "BA_NPCAdds",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [124.14, 109.52],
+            [140.02, 113.35],
+            [153.87, 109.57],
+            [140.18, 129.45]
+          ],
+          "heights": [62.331, 72.331]
+        }
+      },
+      "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
+      "source": "client",
+      "tags": ["todo"],
+      "comment": "RDB 1000053:1632 guid 635471 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1632/ba-catchdcplayers",
+      "name": "BA_CatchDCPlayers",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [126.87, 95.98],
+            [160.94, 95.21],
+            [161.11, 135.1],
+            [125.44, 133.88]
+          ],
+          "heights": [64.002, 74.002]
+        }
+      },
+      "category": "other",
+      "todo": "other: purpose unknown (name only)",
+      "source": "client",
+      "tags": ["todo"],
+      "comment": "RDB 1000053:1632 guid 642815 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1632/cine-rescue-revolutionary-soulder1",
+      "name": "Cine_Rescue_Revolutionary_Soulder1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [122.87, 70.47],
+            [145.69, 71.51],
+            [145.9, 80.89],
+            [169.94, 125.98],
+            [124.08, 135.39]
+          ],
+          "heights": [57.804, 67.804]
+        }
+      },
+      "category": "cinematic",
+      "todo": "story: hand-matched to tag 4142 Rescue Revolutionary Soldier, text 779 (guess); not run",
+      "source": "client",
+      "tags": ["todo"],
+      "comment": "RDB 1000053:1632 guid 618172 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1632/wall-collision-generic-cave0-460931",
+      "name": "collision_generic_cave0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [154.38, 143.34],
+            [149.68, 142.94],
+            [143.85, 143.81],
+            [135.87, 151.63],
+            [127.94, 151.52],
+            [128.56, 146.15],
+            [130.16, 135.93],
+            [138.83, 136.73],
+            [141.3, 135.67],
+            [145.33, 136.51],
+            [154.36, 136.9],
+            [175.68, 136.49],
+            [176.48, 135.46],
+            [176.23, 120.7],
+            [181.88, 119.89],
+            [181.85, 88.38],
+            [180.63, 87.48],
+            [168.64, 87.47],
+            [168.46, 84.91],
+            [168.43, 79.74],
+            [143.57, 79.74],
+            [143.57, 96.8],
+            [151.7, 96.8],
+            [151.7, 112.49],
+            [153.82, 112.98],
+            [158.94, 112.67],
+            [158.94, 134.27],
+            [156.31, 133.53],
+            [144.74, 133.69],
+            [144.81, 126.68],
+            [141.61, 126.67],
+            [141.53, 128.3],
+            [143.5, 128.81],
+            [143.29, 133.54],
+            [136.78, 133.43],
+            [136.3, 128.39],
+            [138.67, 128.33],
+            [138.04, 126.58],
+            [135.56, 126.66],
+            [133.78, 126.22],
+            [131.87, 125.82],
+            [129.6, 124.47],
+            [128.7, 97.18],
+            [136.37, 97.18],
+            [136.37, 75.99],
+            [168.37, 75.99],
+            [168.72, 69.13],
+            [175.28, 69.05],
+            [175.78, 71.99],
+            [183.62, 72.52],
+            [189.12, 80.23],
+            [191.76, 80.36],
+            [191.06, 87.4],
+            [186.6, 87.83],
+            [186.6, 120.08],
+            [191.83, 120.08],
+            [191.83, 148.77],
+            [172.02, 148.77],
+            [169.98, 145.18],
+            [169.92, 142.73],
+            [165.8, 143.14],
+            [164.95, 144.19],
+            [159.94, 143.88]
+          ],
+          "heights": [67.8, 77.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:1632 uniqueid 460931 (extract_server_areas.py)"
     }
   ]
 }

@@ -229,7 +229,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 304696; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -253,7 +255,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 304697; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -274,7 +278,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 304698; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -295,7 +301,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 304699; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -315,7 +323,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 304700; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -465,7 +475,9 @@
         }
       },
       "category": "teleport",
+      "todo": "teleport: teleports who walks in; the destination is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 356229 (extract_server_areas.py)"
     },
     {
@@ -623,7 +635,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339691 (extract_server_areas.py)"
     },
     {
@@ -642,7 +656,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339692 (extract_server_areas.py)"
     },
     {
@@ -661,7 +677,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339693 (extract_server_areas.py)"
     },
     {
@@ -680,7 +698,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339694 (extract_server_areas.py)"
     },
     {
@@ -699,7 +719,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339695 (extract_server_areas.py)"
     },
     {
@@ -718,7 +740,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339696 (extract_server_areas.py)"
     },
     {
@@ -737,7 +761,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 342351 (extract_server_areas.py)"
     },
     {
@@ -756,7 +782,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339716 (extract_server_areas.py)"
     },
     {
@@ -775,7 +803,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339755 (extract_server_areas.py)"
     },
     {
@@ -794,7 +824,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339756 (extract_server_areas.py)"
     },
     {
@@ -813,7 +845,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339757 (extract_server_areas.py)"
     },
     {
@@ -832,7 +866,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339758 (extract_server_areas.py)"
     },
     {
@@ -851,7 +887,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339759 (extract_server_areas.py)"
     },
     {
@@ -870,7 +908,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 356394 (extract_server_areas.py)"
     },
     {
@@ -889,7 +929,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 356395 (extract_server_areas.py)"
     },
     {
@@ -908,7 +950,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339760 (extract_server_areas.py)"
     },
     {
@@ -927,7 +971,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339784 (extract_server_areas.py)"
     },
     {
@@ -946,7 +992,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339785 (extract_server_areas.py)"
     },
     {
@@ -965,7 +1013,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339786 (extract_server_areas.py)"
     },
     {
@@ -984,7 +1034,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 356396 (extract_server_areas.py)"
     },
     {
@@ -1003,7 +1055,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: spiders jumping down on who walks in; spiders, spell and timing unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 356397 (extract_server_areas.py)"
     },
     {
@@ -1022,7 +1076,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339605 (extract_server_areas.py)"
     },
     {
@@ -1041,7 +1097,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339645 (extract_server_areas.py)"
     },
     {
@@ -1060,7 +1118,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339655 (extract_server_areas.py)"
     },
     {
@@ -1079,7 +1139,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 339656 (extract_server_areas.py)"
     },
     {
@@ -1098,7 +1160,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 356398 (extract_server_areas.py)"
     },
     {
@@ -1117,7 +1181,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 356399 (extract_server_areas.py)"
     },
     {
@@ -1144,7 +1210,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 342480 (extract_server_areas.py)"
     },
     {
@@ -1174,7 +1242,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 342481 (extract_server_areas.py)"
     },
     {
@@ -1198,7 +1268,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 342482 (extract_server_areas.py)"
     },
     {
@@ -1229,7 +1301,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 342483 (extract_server_areas.py)"
     },
     {
@@ -1310,7 +1384,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 342484 (extract_server_areas.py)"
     },
     {
@@ -1339,7 +1415,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 342485 (extract_server_areas.py)"
     },
     {
@@ -1359,7 +1437,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to goal OEA3 'Ask the Faerie Queen about the Magical Barrier' (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5210 guid 308110 (extract_server_areas.py)"
     },
     {
@@ -1502,7 +1582,9 @@
         "sight": true,
         "open_line": true
       },
+      "todo": "wall_opening: Enchanted Forest barrier (matches the server's BA_FirstBarrier1/2); what opened it and how the server tells the client is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1040010:5210 uniqueid 289067 (extract_server_areas.py)"
     },
     {
@@ -1526,7 +1608,9 @@
         "sight": true,
         "open_line": true
       },
+      "todo": "wall_opening: Enchanted Forest barrier (matches the server's BA_FirstBarrier1/2); what opened it and how the server tells the client is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1040010:5210 uniqueid 289068 (extract_server_areas.py)"
     },
     {
@@ -1550,7 +1634,9 @@
         "sight": true,
         "open_line": true
       },
+      "todo": "wall_opening: Enchanted Forest barrier (matches the server's BA_FirstBarrier1/2); what opened it and how the server tells the client is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1040010:5210 uniqueid 339761 (extract_server_areas.py)"
     },
     {
@@ -1576,7 +1662,9 @@
         "sight": true,
         "open_line": true
       },
+      "todo": "wall_opening: Enchanted Forest barrier (matches the server's BA_FirstBarrier1/2); what opened it and how the server tells the client is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1040010:5210 uniqueid 289069 (extract_server_areas.py)"
     },
     {

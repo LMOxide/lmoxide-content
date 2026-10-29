@@ -90,7 +90,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:7200 guid 530907 (extract_server_areas.py)"
     },
     {
@@ -130,7 +132,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: slows (or hurts) who walks in (tar, swamp, vines); the spell is unknown (Scry 176480 boundedarea_castspellonself where set: its spell parameter is lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:7200 guid 530967 (extract_server_areas.py)"
     },
     {
@@ -149,7 +153,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:7200 guid 532091 (extract_server_areas.py)"
     },
     {

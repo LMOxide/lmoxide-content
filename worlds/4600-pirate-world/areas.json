@@ -263,7 +263,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4600 guid 249694 (extract_server_areas.py)"
     },
     {
@@ -303,7 +305,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to goal OOPN 'Travel to the Pirate World' (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4600 guid 238305 (extract_server_areas.py)"
     },
     {
@@ -343,7 +347,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4600 guid 616889 (extract_server_areas.py)"
     },
     {
@@ -364,7 +370,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4600 guid 616890 (extract_server_areas.py)"
     },
     {

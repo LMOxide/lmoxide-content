@@ -390,7 +390,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4500 guid 227882 (extract_server_areas.py)"
     },
     {
@@ -410,7 +412,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4500 guid 227883 (extract_server_areas.py)"
     },
     {
@@ -430,7 +434,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4500 guid 356479 (extract_server_areas.py)"
     },
     {
@@ -450,7 +456,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4500 guid 237107 (extract_server_areas.py)"
     },
     {
@@ -469,7 +477,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4500 guid 430543 (extract_server_areas.py)"
     },
     {
@@ -515,7 +525,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4500 guid 430545 (extract_server_areas.py)"
     },
     {
@@ -534,7 +546,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4500 guid 237139 (extract_server_areas.py)"
     },
     {
@@ -580,7 +594,9 @@
         }
       },
       "category": "encounter",
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4500 guid 430721 (extract_server_areas.py)"
     },
     {
@@ -600,7 +616,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4500 guid 430722 (extract_server_areas.py)"
     },
     {
@@ -622,7 +640,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4500 guid 197917; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -641,7 +661,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4500 guid 197919; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -661,7 +683,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4500 guid 197920; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -791,7 +815,9 @@
       },
       "category": "teleport",
       "scry": 18602,
+      "todo": "teleport: Scry 18602 teleportplayerboundedarea_wazu: teleports who walks in; the destination was a script parameter (lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4502 guid 208414; Scry 18602 teleportplayerboundedarea_wazu (extract_server_areas.py)"
     },
     {
@@ -811,7 +837,9 @@
       },
       "category": "teleport",
       "scry": 18602,
+      "todo": "teleport: Scry 18602 teleportplayerboundedarea_wazu: teleports who walks in; the destination was a script parameter (lost)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4502 guid 208415; Scry 18602 teleportplayerboundedarea_wazu (extract_server_areas.py)"
     },
     {
@@ -831,7 +859,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:4502 guid 208417; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -1743,7 +1773,9 @@
         "pathing": true,
         "open_line": true
       },
+      "todo": "wall_opening: blocks the Kraken bay (Crikey); what opened it and how the server tells the client is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1040010:4500 uniqueid 596192 (extract_server_areas.py)"
     },
     {
@@ -2127,7 +2159,9 @@
           [299.1, 113.51, 291.04]
         ]
       ],
+      "todo": "territory: roaming space with paths (RDB 1000050); NPCs don't wander by territories yet",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000050:4500 territory, category Community = 1 (extract_server_areas.py)"
     }
   ]

@@ -376,7 +376,9 @@
         }
       },
       "category": "teleport",
+      "todo": "teleport: teleports who walks in; the destination is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 344456 (extract_server_areas.py)"
     },
     {
@@ -396,7 +398,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 304678; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -416,7 +420,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 304679; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -437,7 +443,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 304680; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -459,7 +467,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 304681; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -479,7 +489,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 356112; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -499,7 +511,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 458320; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -665,7 +679,9 @@
       },
       "category": "hate_res",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 636547; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -706,7 +722,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "cannon_catapult: cannon / catapult shots (training, dodging, siege); what fires, where and how often is unknown (cannon.rs runs only 4600's fort cannon, jumppad.rs the catapult pads)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 337826 (extract_server_areas.py)"
     },
     {
@@ -727,7 +745,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "cannon_catapult: cannon / catapult shots (training, dodging, siege); what fires, where and how often is unknown (cannon.rs runs only 4600's fort cannon, jumppad.rs the catapult pads)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 338127 (extract_server_areas.py)"
     },
     {
@@ -748,7 +768,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "cannon_catapult: cannon / catapult shots (training, dodging, siege); what fires, where and how often is unknown (cannon.rs runs only 4600's fort cannon, jumppad.rs the catapult pads)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 338128 (extract_server_areas.py)"
     },
     {
@@ -770,7 +792,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 636554 (extract_server_areas.py)"
     },
     {
@@ -792,7 +816,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 636664 (extract_server_areas.py)"
     },
     {
@@ -813,7 +839,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 636670 (extract_server_areas.py)"
     },
     {
@@ -834,7 +862,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "cannon_catapult: cannon / catapult shots (training, dodging, siege); what fires, where and how often is unknown (cannon.rs runs only 4600's fort cannon, jumppad.rs the catapult pads)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 338081 (extract_server_areas.py)"
     },
     {
@@ -855,7 +885,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "cannon_catapult: cannon / catapult shots (training, dodging, siege); what fires, where and how often is unknown (cannon.rs runs only 4600's fort cannon, jumppad.rs the catapult pads)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 338082 (extract_server_areas.py)"
     },
     {
@@ -876,7 +908,9 @@
         }
       },
       "category": "speed_or_jump",
+      "todo": "cannon_catapult: cannon / catapult shots (training, dodging, siege); what fires, where and how often is unknown (cannon.rs runs only 4600's fort cannon, jumppad.rs the catapult pads)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 338083 (extract_server_areas.py)"
     },
     {
@@ -913,7 +947,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 461549 (extract_server_areas.py)"
     },
     {
@@ -932,7 +968,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to goal CPIJ 'Go to the Kingdom' (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 642220 (extract_server_areas.py)"
     },
     {
@@ -1065,7 +1103,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: the King's Court beat (tag 425, text 276 resolves CPIJ 'Go to the Kingdom', spawns 8G4X) teleports out of the throne room: the destination is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 331129 (extract_server_areas.py)"
     },
     {
@@ -1084,7 +1124,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: hand-matched to tag 561 Sir Loins Checkpoint, text 434 (guess); not run",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 344051 (extract_server_areas.py)"
     },
     {
@@ -1122,7 +1164,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 462994 (extract_server_areas.py)"
     },
     {
@@ -1141,7 +1185,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 462995 (extract_server_areas.py)"
     },
     {
@@ -1160,7 +1206,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 462996 (extract_server_areas.py)"
     },
     {
@@ -1179,7 +1227,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5200 guid 462997 (extract_server_areas.py)"
     },
     {
@@ -1358,7 +1408,9 @@
         }
       },
       "category": "spawn_ambush",
+      "todo": "ambush: spawns enemies when entered; which and how many are unknown (encounter.rs runs only the ambush areas extract_world_content.py made)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5202 guid 323909 (extract_server_areas.py)"
     },
     {
@@ -1379,7 +1431,9 @@
         }
       },
       "category": "quest_story",
+      "todo": "quest_counter: a player counter, GUI popup or quest helper; what it counted or showed is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5202 guid 323910 (extract_server_areas.py)"
     },
     {
@@ -1397,7 +1451,9 @@
         }
       },
       "category": "cinematic",
+      "todo": "story: no lore flag, dialogue or goal matched; what it played is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:5202 guid 323917 (extract_server_areas.py)"
     },
     {

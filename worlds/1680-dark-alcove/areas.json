@@ -33,7 +33,9 @@
         }
       },
       "category": "teleport",
+      "todo": "teleport: teleports who walks in; the destination is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:1680 guid 462959 (extract_server_areas.py)"
     },
     {
@@ -75,28 +77,6 @@
       "category": "kill_volume",
       "source": "client",
       "comment": "RDB 1000053:1680 guid 439576 (extract_server_areas.py)"
-    },
-    {
-      "id": "area/1680/ba-shroomspawn",
-      "name": "BA_ShroomSpawn",
-      "role": "trigger",
-      "shape": {
-        "polygon": {
-          "points": [
-            [228.12, 256.83],
-            [229.35, 255.8],
-            [231.17, 255.81],
-            [232.33, 257.4],
-            [231.71, 259.16],
-            [230.0, 259.97],
-            [228.26, 258.83]
-          ],
-          "heights": [18.329, 28.329]
-        }
-      },
-      "category": "spawn_ambush",
-      "source": "client",
-      "comment": "RDB 1000053:1682 guid 461236 (extract_server_areas.py)"
     },
     {
       "id": "area/1680/wall-collision2-579023",

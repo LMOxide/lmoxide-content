@@ -606,7 +606,9 @@
       },
       "category": "other",
       "scry": 230545,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 501330; Scry 230545 sen_ba_playercounter (extract_server_areas.py)"
     },
     {
@@ -625,7 +627,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 521237 (extract_server_areas.py)"
     },
     {
@@ -644,7 +648,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 506180 (extract_server_areas.py)"
     },
     {
@@ -662,7 +668,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 505965 (extract_server_areas.py)"
     },
     {
@@ -681,7 +689,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 505966 (extract_server_areas.py)"
     },
     {
@@ -700,7 +710,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 521238 (extract_server_areas.py)"
     },
     {
@@ -720,7 +732,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 508901 (extract_server_areas.py)"
     },
     {
@@ -739,7 +753,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 521239 (extract_server_areas.py)"
     },
     {
@@ -785,7 +801,9 @@
       },
       "category": "encounter",
       "scry": 56641,
+      "todo": "encounter: a boss or event helper area (Outside, NoLogin: leaving or logging in mid-fight); what it did is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 521509; Scry 56641 ? (extract_server_areas.py)"
     },
     {
@@ -1285,7 +1303,9 @@
         }
       },
       "category": "hazard",
+      "todo": "hazard: a trap set off by walking in; what it does is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 503015 (extract_server_areas.py)"
     },
     {
@@ -1306,7 +1326,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 516785 (extract_server_areas.py)"
     },
     {
@@ -1325,7 +1347,9 @@
         }
       },
       "category": "door_wall_shield",
+      "todo": "door: a door, shield or barrier switched when entered; the walls they sit on are client walls the client keeps on, or doors encounter.rs / gates.rs open",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 521240 (extract_server_areas.py)"
     },
     {
@@ -1344,7 +1368,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 523052 (extract_server_areas.py)"
     },
     {
@@ -1422,7 +1448,9 @@
         }
       },
       "category": "plate_puzzle",
+      "todo": "puzzle: a puzzle step (plates, statues, braziers, whack-a-pirate, bone cages); the rules are unknown (plates.rs, mirrors.rs, tiki.rs run the Gauntlet's and Medusa's)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 521241 (extract_server_areas.py)"
     },
     {
@@ -2012,7 +2040,9 @@
       },
       "category": "other",
       "scry": 56641,
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 526876; Scry 56641 ? (extract_server_areas.py)"
     },
     {
@@ -2030,7 +2060,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 523283 (extract_server_areas.py)"
     },
     {
@@ -2048,7 +2080,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 527323 (extract_server_areas.py)"
     },
     {
@@ -2066,7 +2100,9 @@
         }
       },
       "category": "other",
+      "todo": "other: purpose unknown (name only)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 565265 (extract_server_areas.py)"
     },
     {
@@ -2105,7 +2141,9 @@
       },
       "category": "encounter",
       "scry": 174337,
+      "todo": "res: Scry 174337 boundedarea_discoverresurrectionpoint: discovers the respawn point here (all are known already; whether live limited respawns to discovered points is unknown)",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1000053:6300 guid 522137; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
     },
     {
@@ -2176,7 +2214,9 @@
         "by": "client",
         "movement": true
       },
+      "todo": "wall_opening: the Gauntlet's mirror room walls (movement only); what opened them and how the server tells the client is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1040010:6300 uniqueid 635883 (extract_server_areas.py)"
     },
     {
@@ -2201,7 +2241,9 @@
         "by": "client",
         "movement": true
       },
+      "todo": "wall_opening: the Gauntlet's mirror room walls (movement only); what opened them and how the server tells the client is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1040010:6300 uniqueid 635887 (extract_server_areas.py)"
     },
     {
@@ -2226,7 +2268,9 @@
         "by": "client",
         "movement": true
       },
+      "todo": "wall_opening: the Gauntlet's mirror room walls (movement only); what opened them and how the server tells the client is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1040010:6300 uniqueid 635888 (extract_server_areas.py)"
     },
     {
@@ -2251,7 +2295,9 @@
         "by": "client",
         "movement": true
       },
+      "todo": "wall_opening: the Gauntlet's mirror room walls (movement only); what opened them and how the server tells the client is unknown",
       "source": "client",
+      "tags": ["todo"],
       "comment": "RDB 1040010:6300 uniqueid 635889 (extract_server_areas.py)"
     },
     {
