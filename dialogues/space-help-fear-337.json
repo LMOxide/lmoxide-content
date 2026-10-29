@@ -7,7 +7,7 @@
   "npc": "XX_Cinematic Start S5",
   "start": "trigger",
   "pos": [354.85, 123.56, 355.3],
-  "order": 132,
+  "order": 133,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: area BA_Cine_S08 1.8 m from its markers; the odds of the crystal raid (911-913, 500, 501, 514) use its actors; epilogue 336 gives 588 XX_S08_Help_F.E.A.R, resolves VJMG (tools/content/story_dialogues.py)"

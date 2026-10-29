@@ -12,5 +12,5 @@
   "order": 113,
   "source": "guess",
   "tags": ["reconstructed", "guess"],
-  "comment": "guess: Swashbuckler: 'Stand down, Dreadleg. You're beaten!' - after the boss (markers 43 m past BA_Cine_Dreadleg1); 872-879 use its actors (the curse breaks, Smith is back); epilogue 262 gives 423 The First Keystone, resolves WZ4U; the content's proposed Captain Dreadleg stands in 4210, not here, so this waits for a boss in 4310 (tools/content/story_dialogues.py)"
+  "comment": "guess: Swashbuckler: 'Stand down, Dreadleg. You're beaten!' - after the boss (markers 43 m past BA_Cine_Dreadleg1); 872-879 use its actors (the curse breaks, Smith is back); epilogue 262 gives 423 The First Keystone, resolves WZ4U; the Pirate Grotto's boss is Captain Dreadleg (BossEncounter_Start_Dreadleg, TDB 51000 801; the content's proposed 'Captain Blackheart' there, renamed, at Cine_Escape1 where 127 sends him: 'Come and face me!') (tools/content/story_dialogues.py)"
 }

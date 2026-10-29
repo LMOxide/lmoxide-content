@@ -9,7 +9,7 @@
   "pos": [348.75, 14.0, 385.5],
   "defeated": "Alien Queen",
   "requires": [491],
-  "order": 139,
+  "order": 140,
   "source": "guess",
   "tags": ["reconstructed", "guess"],
   "comment": "guess: 'You smashed the Queen and saved the day all by yourself?' - after the Alien Queen (its 13 markers 30 m from BA_Cine_S13); 945-950 and 515-521 use its actors (order by wording); epilogue 352 gives 492 XX_S11, spawns 7WZE, resolves HMGJ (tools/content/story_dialogues.py)"

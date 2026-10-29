@@ -2,12 +2,15 @@
   "spawns": [
     {
       "id": "spawn/5310/evil-sorcerer",
-      "name": "Evil Sorcerer",
+      "name": "Pieromancer Elementius",
       "kind": "enemy",
       "template": "npc/evil-sorcerer",
-      "pos": [329.1, 63.68, 308.58],
-      "anchor": "Res_Boss",
-      "source": "proposed"
+      "pos": [358.27, 69.1, 343.43],
+      "rot": 0.758,
+      "anchor": "Cine_DummySpawn1",
+      "source": "proposed",
+      "tags": ["approximate"],
+      "comment": "the Sorcerer's Keep's boss is Elementius (achievement Medieval_Story_Defeat Pieromancer Elementius, TDB 51000 1158; monsterdata medieval_evil_sorcerer, whose template 637134 speaks as [Elementius] in 1002); moved from Res_Boss (329.1, 308.6), outside his room, to Cine_DummySpawn1, where danger-at-the-bridge (302) shows him casting the crowning spell; his defeat starts defeated-elementius (guess; docs/TUNABLES.md 'Story bosses')"
     },
     {
       "id": "spawn/5310/gremlin-melee-greenforest",
@@ -332,7 +335,9 @@
       "pos": [354.3, 67.1, 341.94],
       "rot": -2.652,
       "anchor": "Cine_WizardSpawn1",
-      "source": "client"
+      "requires": [437],
+      "source": "client",
+      "comment": "shown after Elementius' defeat (437 Another Cube Piece, epilogue 309 of defeated-elementius, whose scene this marker is: the user, 2026-10-29; docs/TUNABLES.md 'Story bosses')"
     },
     {
       "id": "spawn/5310/court-jester",
@@ -342,7 +347,9 @@
       "pos": [352.92, 67.1, 341.76],
       "rot": -2.849,
       "anchor": "Cine_JesterSpawn1",
-      "source": "client"
+      "requires": [437],
+      "source": "client",
+      "comment": "shown after Elementius' defeat (437 Another Cube Piece, epilogue 309 of defeated-elementius, whose scene this marker is: the user, 2026-10-29; docs/TUNABLES.md 'Story bosses')"
     },
     {
       "id": "spawn/5310/xx-crate",

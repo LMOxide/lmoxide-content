@@ -7,7 +7,7 @@
   "npc": "XX_Cinematic Start S4",
   "start": "trigger",
   "pos": [250.31, 126.0, 407.83],
-  "order": 131,
+  "order": 132,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: area BA_Cine_S07 7.5 m from its markers; 498-499 and 904-910 (the Pizza Guy 'spy', sharing the crystals) use its actors; epilogue 335 gives 587 XX_S07_MeetTheSpaceMiner, resolves 37G8 (tools/content/story_dialogues.py)"

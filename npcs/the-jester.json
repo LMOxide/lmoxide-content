@@ -1,0 +1,23 @@
+{
+  "id": "npc/the-jester",
+  "name": "The Jester",
+  "kind": "enemy",
+  "render": {
+    "monster_data": 350304
+  },
+  "level": 12,
+  "stats": {
+    "health": 7500
+  },
+  "attack": "skill/spell-2029",
+  "skills": [
+    {
+      "skill": "skill/smack-196233",
+      "weight": 1
+    }
+  ],
+  "skills_from": "generic",
+  "loot": "loot/enemy",
+  "source": "guess",
+  "comment": "the Ruined Fort's boss (BossEncounter_Start_Harlequin; monsterdata 350304 medieval_harlequin, TDB 51000 1175/1187 'The Jester'); level and health as the map's proposed boss (Troll Warlord: 12, 7500); his own castables (harlequin jack 319936 / taunt 356449) aren't in the content yet, so the generic smack of his minions (docs/TUNABLES.md 'Story bosses')"
+}

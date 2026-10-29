@@ -5,9 +5,11 @@
       "name": "Captain Pete",
       "kind": "enemy",
       "template": "npc/captain-pete",
-      "pos": [221.75, 35.11, 252.5],
-      "anchor": "Res_Boss",
-      "source": "proposed"
+      "pos": [84.24, 40.1, 267.72],
+      "anchor": "Cine_CaptainSpawn1",
+      "source": "proposed",
+      "tags": ["approximate"],
+      "comment": "moved from Res_Boss (221.8, 252.5), 140 m from his arena, to where the pre-fight conversation 193 ('Now we must pirate fight!') brings him on: Cine_CaptainSpawn1, by BossEncounter_Start_Pete; his defeat starts completed-the-trials (guess; docs/TUNABLES.md 'Story bosses')"
     },
     {
       "id": "spawn/4300/pirate-musketeer",

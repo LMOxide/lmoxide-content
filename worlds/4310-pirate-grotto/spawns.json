@@ -2,12 +2,15 @@
   "spawns": [
     {
       "id": "spawn/4310/captain-blackheart",
-      "name": "Captain Blackheart",
+      "name": "Captain Dreadleg",
       "kind": "enemy",
       "template": "npc/captain-blackheart",
-      "pos": [349.4, 58.35, 109.13],
-      "anchor": "res_boss",
-      "source": "proposed"
+      "pos": [374.59, 58.0, 143.78],
+      "rot": -2.356,
+      "anchor": "Cine_Escape1",
+      "source": "proposed",
+      "tags": ["approximate"],
+      "comment": "the Pirate Grotto's boss is Captain Dreadleg (BossEncounter_Start_Dreadleg, TDB 51000 801, achievement Pirate_Story_Defeat Captain Dreadleg); 'Captain Blackheart' was a name made from the monsterdata pirate_captain_blackheart, Dreadleg's model (his other spawns use its _no_death copy; the arena's Blackheart shields are the Dreadleg arena's); moved from res_boss to Cine_Escape1, where the pre-boss conversation 127 sends him ('Come and face me!'), in BA_Dreadleg_BossArea; his defeat starts dreadleg-defeated (guess; docs/TUNABLES.md 'Story bosses')"
     },
     {
       "id": "spawn/4310/pirate-islander-hunter",
@@ -402,7 +405,9 @@
       "pos": [387.75, 58.0, 154.66],
       "rot": -2.02,
       "anchor": "Cine_WizardSpawn1",
-      "source": "client"
+      "requires": [423],
+      "source": "client",
+      "comment": "shown after Dreadleg's defeat (423 The First Keystone, epilogue 262 of dreadleg-defeated, whose scene this marker is; docs/TUNABLES.md 'Story bosses')"
     },
     {
       "id": "spawn/4310/revolutionary-soldier",

@@ -7,7 +7,7 @@
   "npc": "XX_Cinematic Start G09",
   "start": "trigger",
   "pos": [104.31, 63.02, 250.14],
-  "order": 149,
+  "order": 150,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: was the silent beat 586 on Cine_G09_Cutscene1; 972-974 (why betray us?) use its actors; 673 XX_G09 (tools/content/story_dialogues.py)"

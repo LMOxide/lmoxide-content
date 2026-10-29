@@ -7,7 +7,7 @@
   "npc": "Cinematic Start Space S05",
   "start": "trigger",
   "pos": [255.65, 32.8, 203.0],
-  "order": 128,
+  "order": 129,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: area 'BA_Cine_Preboss Fight1' 26 m from its markers in Space Command HQ; the Queen and Shadrack (492-494, 523 use their actors); epilogue 331 gives 485 XX_S4 (tools/content/story_dialogues.py)"

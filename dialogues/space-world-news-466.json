@@ -9,7 +9,7 @@
   "pos": [286.64, 46.25, 73.71],
   "requires": [437],
   "unless": [492],
-  "order": 125,
+  "order": 126,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: the Video Game Guy at the LEGO Center (his area, Cine_SpaceMiner1 3.8 m away): the Space Miner's distress call; epilogue 467 '[Space Quest]{spawn XQ65}' starts the Space story line; after Medieval World (437) (tools/content/story_dialogues.py)"

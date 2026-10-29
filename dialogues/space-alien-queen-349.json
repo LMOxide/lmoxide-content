@@ -7,7 +7,7 @@
   "npc": "Cinematic Start S13",
   "start": "trigger",
   "pos": [335.29, 9.89, 358.92],
-  "order": 138,
+  "order": 139,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: area BA_Cine_S13 4.5 m from its 7 markers; 942-944 (the Space Miner bargains) use its actors; epilogue 348 gives 491 The Alien Queen, resolves 1RYD (tools/content/story_dialogues.py)"

@@ -23,12 +23,12 @@
       "actions": [
         {
           "dialogue": {
-            "dialogue": "dialogue/defeated-elementius-308"
+            "dialogue": "dialogue/danger-at-the-bridge-302"
           }
         }
       ],
       "source": "guess",
-      "comment": "defeated-elementius-308: guess (reconstructed): BA_Cine_Placeholder1 of the Sorcerer's Keep is 19.5 m from all 5 of its markers, past the boss (Evil Sorcerer at (329, 309)); 'Surrender Elementius, you are beaten!'; 457-463 and 897-900 use its actors (the King arrives); epilogue 309 gives 437 Another Cube Piece, resolves 4H62 (tools/content/import_story.py)"
+      "comment": "danger-at-the-bridge-302: likely (reconstructed): Elementius prepares the crowning spell before his fight: its marker Cine_DummySpawn1 (358.3, 69.1, 343.4) is in the Sorcerer's Keep's boss room (Quest_Boss); BA_Cine_Placeholder1, at the room's entrance by BossEncounter_Start_EvilSorcerer, is 21 m from it; epilogue 303 gives 436 Danger at the Bridge, resolves MUK4 'Reach the Sorcerer's Chamber' (the lore flag's name aside, the goal and the marker put it in the chamber); 304-306, 455, 456 use its actor Elementius (order: the TDB's, 455-456 'the magic words' last) (tools/content/import_story.py)"
     }
   ]
 }

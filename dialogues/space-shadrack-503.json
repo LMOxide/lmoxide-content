@@ -7,7 +7,7 @@
   "npc": "Cinematic Start S11",
   "start": "trigger",
   "pos": [232.4, 32.11, 201.25],
-  "order": 136,
+  "order": 137,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: area BA_Cine_S11 3.1 m from its markers; 592 XX_S11_Shadrack_BossFight (tools/content/story_dialogues.py)"

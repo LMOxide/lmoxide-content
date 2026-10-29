@@ -7,7 +7,7 @@
   "npc": "XX_Cinematic Start G04",
   "start": "trigger",
   "pos": [196.8, 8.14, 257.31],
-  "order": 144,
+  "order": 145,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: was the silent beat 597 on Cine_G04_Cutscene1 (1 m from its markers); 615 uses Medusa; 668 XX_G04 (tools/content/story_dialogues.py)"

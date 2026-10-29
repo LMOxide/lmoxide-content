@@ -7,7 +7,7 @@
   "npc": "XX_Cinematic Start S6",
   "start": "trigger",
   "pos": [116.5, 491.08, 67.27],
-  "order": 133,
+  "order": 134,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: area BA_Cine_S09 2.3 m from its 7 markers (next to where 341 lands the player); the compass finds the alien signal (914-918); epilogue 360 gives 488 XX_S7, resolves 3XT2 (tools/content/story_dialogues.py)"

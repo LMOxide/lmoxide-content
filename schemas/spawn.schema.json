@@ -308,6 +308,15 @@
       "type": ["string", "null"],
       "x-lmoxide-ref": ["spawn"]
     },
+    "requires": {
+      "description": "Shown only to a player with all of these tags (a story NPC that belongs to a scene\nafter a story event, e.g. the lore flag its conversation gives); none: to everyone.",
+      "items": {
+        "format": "uint32",
+        "minimum": 0,
+        "type": "integer"
+      },
+      "type": "array"
+    },
     "respawn": {
       "anyOf": [
         {

@@ -542,7 +542,9 @@
       "pos": [349.81, 50.43, 315.87],
       "rot": -2.635,
       "anchor": "Cine_Jester1",
-      "source": "client"
+      "requires": [431],
+      "source": "client",
+      "comment": "shown after the Jester's defeat (431 My Kingdom for a Crown, epilogue 287 of my-kingdom-for-a-crown, whose scene this marker is; docs/TUNABLES.md 'Story bosses')"
     },
     {
       "id": "spawn/5300/wizard",
@@ -552,7 +554,9 @@
       "pos": [347.39, 50.1, 315.7],
       "rot": 1.258,
       "anchor": "Cine_Wizard1",
-      "source": "client"
+      "requires": [431],
+      "source": "client",
+      "comment": "shown after the Jester's defeat (431 My Kingdom for a Crown, epilogue 287 of my-kingdom-for-a-crown, whose scene this marker is; docs/TUNABLES.md 'Story bosses')"
     },
     {
       "id": "spawn/5300/xx-crate",
@@ -2003,6 +2007,18 @@
         "look": "empty_monsterdata_1x1x1"
       },
       "source": "client"
+    },
+    {
+      "id": "spawn/5300/the-jester",
+      "name": "The Jester",
+      "kind": "enemy",
+      "template": "npc/the-jester",
+      "pos": [347.39, 51.0, 323.11],
+      "rot": 1.148,
+      "anchor": "Cine_WorkingJester1",
+      "source": "guess",
+      "tags": ["approximate"],
+      "comment": "the Ruined Fort's boss is the Jester (BossEncounter_Start_Harlequin, monsterdata medieval_harlequin, TDB 51000 1175 'The Jester', the harlequin jack/taunt castables): at Cine_WorkingJester1, where working-for-the-enemy (436-445, at the arena's entrance) leaves him before the fight; hidden while that conversation shows him; his defeat starts my-kingdom-for-a-crown. The proposed Troll Warlord stays (docs/TUNABLES.md 'Story bosses')"
     }
   ]
 }

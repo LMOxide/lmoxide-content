@@ -8,7 +8,7 @@
   "start": "trigger",
   "pos": [341.16, 61.1, 208.46],
   "requires": [1540],
-  "order": 162,
+  "order": 163,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: was the silent beat 690 on Cine_D06_Cutscene1/Fallback1 (after the T-Rex, achievement 1540); the Video Game Guy's spawn there is the owner; 1018-1024 (why he hired the T-Rex) use its actors; 1985 XX_D06, DanceParty (tools/content/story_dialogues.py)"

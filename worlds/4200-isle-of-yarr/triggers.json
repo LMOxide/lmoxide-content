@@ -301,7 +301,9 @@
           }
         }
       ],
+      "todo": "story: the beta conversation Escape from the Fort (texts 88-91, 180-191, Captain Pete) is not rebuilt (user, 2026-10-29: keep it, don't implement it, don't delete it); live played 822 instead (the Swashbuckler in the jail, recorded), which resolves the same goal ALPQ; only this beat's server side runs (tag 309, ALPQ)",
       "source": "guess",
+      "tags": ["todo"],
       "comment": "likely: sets Escape from the fort (309) with text 181; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
     },
     {

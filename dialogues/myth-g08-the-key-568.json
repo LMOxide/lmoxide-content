@@ -8,7 +8,7 @@
   "start": "trigger",
   "pos": [305.15, 41.0, 410.47],
   "requires": [671],
-  "order": 148,
+  "order": 149,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: was the silent beat 571 on Cine_G08_Cutscene1 (now after G07's 671: Thunderbolt is beaten first); 960/961 (chicken wings) use its actors; 672 XX_G08, R1KN (tools/content/story_dialogues.py)"

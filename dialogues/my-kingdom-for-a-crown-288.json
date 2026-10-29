@@ -7,10 +7,10 @@
   "npc": "Cinematic Start My Kingdom for a Crown",
   "start": "boss",
   "pos": [348.6, 50.27, 315.78],
-  "defeated": "boss",
+  "defeated": "The Jester",
   "requires": [562],
   "order": 121,
   "source": "guess",
   "tags": ["reconstructed", "guess"],
-  "comment": "guess: the Jester: 'I surrender, I'm beaten' - after the Ruined Fort's boss (its markers 25 m past the boss arena's BA_Cine_WorkingForTheEnemy1); 447-452 and 888-893 use its actors; epilogue 287 gives 431, spawns GQKS (the Jester joins), resolves I502 (tools/content/story_dialogues.py)"
+  "comment": "guess: the Jester: 'I surrender, I'm beaten' - after the Ruined Fort's boss, the Jester himself (BossEncounter_Start_Harlequin, monsterdata medieval_harlequin, TDB 51000 1175 'The Jester'; spawn/5300/the-jester at Cine_WorkingJester1, where 436-445 leave him); its markers 25 m past the arena's BA_Cine_WorkingForTheEnemy1; 447-452 and 888-893 use its actors; epilogue 287 gives 431, spawns GQKS (the Jester joins), resolves I502 (tools/content/story_dialogues.py)"
 }

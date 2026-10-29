@@ -7,7 +7,7 @@
   "npc": "Cinematic Start S09.5",
   "start": "trigger",
   "pos": [111.71, 499.2, 187.34],
-  "order": 135,
+  "order": 136,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: area BA_Cine_S095 1.6 m from its markers; 4243 XX_S09.5_AtTheBuilderRuins (tools/content/story_dialogues.py)"

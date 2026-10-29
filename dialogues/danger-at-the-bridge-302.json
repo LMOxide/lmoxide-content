@@ -1,0 +1,14 @@
+{
+  "id": "dialogue/danger-at-the-bridge-302",
+  "name": "Cinematic Start Danger at the Bridge",
+  "texts": [302, 304, 305, 306, 455, 456, 303],
+  "world": "world/sorcerer-s-keep",
+  "npc_name": 1332,
+  "npc": "Cinematic Start Danger at the Bridge",
+  "start": "trigger",
+  "pos": [342.22, 66.27, 325.47],
+  "order": 124,
+  "source": "guess",
+  "tags": ["reconstructed", "likely"],
+  "comment": "likely: Elementius prepares the crowning spell before his fight: its marker Cine_DummySpawn1 (358.3, 69.1, 343.4) is in the Sorcerer's Keep's boss room (Quest_Boss); BA_Cine_Placeholder1, at the room's entrance by BossEncounter_Start_EvilSorcerer, is 21 m from it; epilogue 303 gives 436 Danger at the Bridge, resolves MUK4 'Reach the Sorcerer's Chamber' (the lore flag's name aside, the goal and the marker put it in the chamber); 304-306, 455, 456 use its actor Elementius (order: the TDB's, 455-456 'the magic words' last) (tools/content/story_dialogues.py)"
+}

@@ -7,7 +7,7 @@
   "npc": "XX_Cinematic Start S8",
   "start": "trigger",
   "pos": [369.17, 115.03, 437.87],
-  "order": 134,
+  "order": 135,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: area BA_Cine_S10 5.9 m from its markers; the alien trooper (927-934, Cine_HoleAlien1 = 342's marker); epilogue 342 gives 489 XX_S8, spawns FXMI, resolves UC8W (tools/content/story_dialogues.py)"

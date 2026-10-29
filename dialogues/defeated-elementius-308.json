@@ -5,10 +5,11 @@
   "world": "world/sorcerer-s-keep",
   "npc_name": 1363,
   "npc": "Cinematic Start Defeated Elementius",
-  "start": "trigger",
-  "pos": [342.22, 66.27, 325.47],
-  "order": 124,
+  "start": "boss",
+  "pos": [356.33, 67.22, 338.93],
+  "defeated": "Pieromancer Elementius",
+  "order": 125,
   "source": "guess",
   "tags": ["reconstructed", "guess"],
-  "comment": "guess: BA_Cine_Placeholder1 of the Sorcerer's Keep is 19.5 m from all 5 of its markers, past the boss (Evil Sorcerer at (329, 309)); 'Surrender Elementius, you are beaten!'; 457-463 and 897-900 use its actors (the King arrives); epilogue 309 gives 437 Another Cube Piece, resolves 4H62 (tools/content/story_dialogues.py)"
+  "comment": "guess: 'Surrender Elementius, you are beaten!' - after the Sorcerer's Keep's boss, Elementius (the achievement Medieval_Story_Defeat Pieromancer Elementius, TDB 51000 1158; the content's Evil Sorcerer, renamed, at Cine_DummySpawn1 where 302 shows him); its 5 markers are in the boss room; 457-463 and 897-900 use its actors (the King arrives); epilogue 309 gives 437 Another Cube Piece, resolves 4H62 (tools/content/story_dialogues.py)"
 }

@@ -7,7 +7,7 @@
   "npc": "XX_Cinematic Start G07",
   "start": "trigger",
   "pos": [303.21, 35.55, 403.24],
-  "order": 147,
+  "order": 148,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: was the silent beat 567 on Cine_G07_Cutscene1; 671 XX_G07 (tools/content/story_dialogues.py)"

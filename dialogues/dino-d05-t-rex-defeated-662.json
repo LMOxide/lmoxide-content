@@ -8,7 +8,7 @@
   "start": "boss",
   "pos": [472.07, 59.0, 232.98],
   "defeated": "T-Rex",
-  "order": 161,
+  "order": 162,
   "source": "guess",
   "tags": ["reconstructed", "guess"],
   "comment": "guess: T-Rex: 'Ouch! Au! You win!' - after the T-Rex (its markers 22 m from the party's area); 1013-1017 use its actors; epilogue 668 gives 913 XX_D05, resolves 4A44 (tools/content/story_dialogues.py)"

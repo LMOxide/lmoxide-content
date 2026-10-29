@@ -7,7 +7,7 @@
   "npc": "Zeus",
   "start": "trigger",
   "pos": [29.98, 14.07, 215.13],
-  "order": 141,
+  "order": 142,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: was the silent beat 575 on Cine_G01_Cutscene1 (Zeus's live spawn is in it; he speaks as the owner); 951/953 (the toga) are Zeus's; 665 XX_G01, FEYF (tools/content/story_dialogues.py)"

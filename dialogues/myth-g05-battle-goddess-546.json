@@ -8,7 +8,7 @@
   "start": "boss",
   "pos": [221.51, 4.18, 259.38],
   "defeated": "Medusa",
-  "order": 145,
+  "order": 146,
   "source": "guess",
   "tags": ["reconstructed", "guess"],
   "comment": "guess: Battle Goddess freed from stone - after Medusa (no area: its 9 markers are 25 m from G04's); 962-966 and 617 use its actors; epilogue 555 gives 669 XX_G05, resolves 59MF, spawns 9UO2 (tools/content/story_dialogues.py)"

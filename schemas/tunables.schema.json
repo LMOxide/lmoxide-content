@@ -679,7 +679,7 @@
           "additionalProperties": {
             "type": "string"
           },
-          "description": "A dialogue's `spawn <hash>` that is no quest: the minifigure whose bag it drops 1 m from\nthe player (`[Give Swashbuckler]{spawn 7LLT 1 m}`; the other hashes are guesses by the\ntexts' words, docs/TUNABLES.md \"Story\").",
+          "description": "A dialogue's `spawn <hash>` that is no quest: the minifigure it gives, straight into the\ncollection with the client's \"You got a new minifigure\" window\n(`[Give Swashbuckler]{spawn 7LLT 1 m}`; the other hashes are guesses by the texts' words,\ndocs/TUNABLES.md \"Story\").",
           "type": "object",
           "x-lmoxide-ref": ["minifig"]
         },

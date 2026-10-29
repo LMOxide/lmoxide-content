@@ -8,7 +8,7 @@
   "start": "trigger",
   "pos": [208.09, 41.1, 212.3],
   "requires": [592],
-  "order": 137,
+  "order": 138,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: area BA_Cine_S12 2.6 m from its markers (after the Shadrack fight: needs 592); 593 XX_S12VictoryoverShadrack (tools/content/story_dialogues.py)"

@@ -9,7 +9,7 @@
   "pos": [286.64, 46.25, 73.71],
   "requires": [492],
   "unless": [676],
-  "order": 140,
+  "order": 141,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: the Video Game Guy at the LEGO Center: 'Did you have fun in Space?' and the stone tablet; epilogue 576 '[Mythology Quest]{spawn U3FC}' starts the Mythology story line; after Space World (492) (tools/content/story_dialogues.py)"

@@ -7,7 +7,7 @@
   "npc": "Zookeeper",
   "start": "trigger",
   "pos": [285.67, 72.31, 130.58],
-  "order": 159,
+  "order": 160,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
   "comment": "likely: area Cine_DQ3_Cutscene2 5.1 m from its marker and the Zookeeper's spawn (the owner); 1006-1009 (the Space Miner: 'ethical tests?') use its actor; 914 XX_D_Tar_Pits_Knubot (tools/content/story_dialogues.py)"
