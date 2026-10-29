@@ -1,0 +1,45 @@
+{
+  "id": "loot/story-medieval-conclusion",
+  "name": "Story reward: Medieval World conclusion",
+  "client_table": 582,
+  "rolls": 1,
+  "entries": [
+    {
+      "drop": {
+        "stars": [3, 4]
+      }
+    },
+    {
+      "drop": {
+        "items": ["item/25-minifigure-xp", "item/25-minifigure-xp", "item/25-minifigure-xp"]
+      }
+    },
+    {
+      "chance": "100%",
+      "drop": {
+        "hearts": 1
+      },
+      "when": {
+        "bonus_stat": "orb_chance"
+      },
+      "power_tier": 1000
+    },
+    {
+      "drop": {
+        "chest": ["item/member-super-chest"]
+      },
+      "power_tier": 4000
+    },
+    {
+      "drop": {
+        "minifig_bags": {
+          "from": "world",
+          "count": 1
+        }
+      },
+      "power_tier": 3
+    }
+  ],
+  "source": "guess",
+  "comment": "Script 1067 (XX_Story Quest Reward ... Conclusion 462487). A world's last story step: modeled on loot/quest-normal plus a Member Super Chest and a minifigure bag of the world, a guess (contents were server data)."
+}

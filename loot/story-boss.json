@@ -1,0 +1,23 @@
+{
+  "id": "loot/story-boss",
+  "name": "Story reward: Boss",
+  "client_table": 219,
+  "rolls": 1,
+  "entries": [
+    {
+      "drop": {
+        "stars": 2,
+        "hearts": 1
+      },
+      "power_tier": 1000
+    },
+    {
+      "drop": {
+        "chest": ["item/member-super-chest"]
+      },
+      "power_tier": 4000
+    }
+  ],
+  "source": "guess",
+  "comment": "Script 1064 (XX_Story Quest Reward Boss 462484, Item Story Bosses 527146). Modeled on the live boss bags (2 stars, an orb, a Member Super Chest), a guess."
+}

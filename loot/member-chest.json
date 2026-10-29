@@ -54,7 +54,8 @@
           "from": "world",
           "count": [1, 2]
         }
-      }
+      },
+      "power_tier": 5000
     },
     {
       "chance": "75%",
@@ -64,6 +65,7 @@
       "when": {
         "bonus_stat": "orb_chance"
       },
+      "power_tier": 1000,
       "comment": "live: usually an orb"
     },
     {
@@ -81,6 +83,7 @@
           "count": 1
         }
       },
+      "power_tier": 3,
       "comment": "none in 4 live chests; a small chance, not 0"
     }
   ],

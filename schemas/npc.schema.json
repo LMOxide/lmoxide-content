@@ -684,6 +684,12 @@
           "format": "float",
           "type": ["number", "null"]
         },
+        "power_level": {
+          "description": "Its loot power level (the client's NPC stat `PowerLevel` 499); none: level x tunables\n`loot.npc_power`.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
         "run": {
           "format": "float",
           "type": ["number", "null"]

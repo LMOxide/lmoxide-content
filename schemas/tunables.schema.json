@@ -240,6 +240,18 @@
           "description": "Items the loot rules name (`star`, `health_orb`, `potion`, `stars_25`, ...).",
           "type": "object"
         },
+        "npc_power": {
+          "default": 0,
+          "description": "An enemy's or smashable's loot power level per its level, when its template has no\n`stats.power_level` (the client's NPC PowerLevel stat 499).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "power": {
+          "$ref": "#/$defs/LootPower",
+          "default": {},
+          "description": "How a roll's loot power level changes what drops."
+        },
         "power_caps": {
           "additionalProperties": {
             "format": "uint32",
@@ -255,6 +267,31 @@
           "format": "uint32",
           "minimum": 0,
           "type": "integer"
+        },
+        "quest_power_caps": {
+          "additionalProperties": {
+            "format": "uint32",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "description": "Quest rewards (the \"Quest Completion Loot Spawner\" scripts): playfield thousands\n(`4000` = 4000-4999) -> the highest power there; other playfields (the hub,\nmicro-dungeons) aren't capped.",
+          "type": "object"
+        },
+        "quest_power_floors": {
+          "additionalProperties": {
+            "format": "uint32",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "description": "Quest rewards: playfield thousands -> the lowest power there (the scripts' Dino branch\nuses math.max where the others use math.min: at least 3000 in 6000-6999).",
+          "type": "object"
+        },
+        "quest_rewards": {
+          "additionalProperties": {
+            "$ref": "#/$defs/QuestReward"
+          },
+          "description": "A quest's reward item (client template, the quest's `rewards`) -> the loot bag it drops at\nthe player when the quest (or story step) is done.",
+          "type": "object"
         },
         "share_range": {
           "description": "Teammates within this distance of a kill get their own bag (m).",
@@ -279,6 +316,58 @@
         "tables",
         "items"
       ],
+      "type": "object"
+    },
+    "LootPower": {
+      "additionalProperties": false,
+      "description": "How the loot power level (player or NPC level x 100, capped by super-region; the client's\n`gethashfromloot(table, power, ...)`) changes a roll. The live tables' scaling was server\ndata: every curve is (power, factor) points, linear between them and flat beyond the ends;\nnone: factor 1.",
+      "properties": {
+        "bags": {
+          "description": "Chances of entries that drop minifigure bags times this.",
+          "items": {
+            "items": {
+              "format": "double",
+              "type": "number"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "type": "array"
+          },
+          "type": "array"
+        },
+        "parts": {
+          "description": "Chances of entries that drop minifigure parts times this.",
+          "items": {
+            "items": {
+              "format": "double",
+              "type": "number"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "type": "array"
+          },
+          "type": "array"
+        },
+        "stars": {
+          "description": "Single stars (`stars` counts) times this, rounded (never below 1 when the entry drops any).",
+          "items": {
+            "items": {
+              "format": "double",
+              "type": "number"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "type": "array"
+          },
+          "type": "array"
+        },
+        "tier_window": {
+          "description": "Entries with a `power_tier` above power + this are skipped; none: tiers don't limit drops.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        }
+      },
       "type": "object"
     },
     "LostCreations": {
@@ -544,6 +633,24 @@
         }
       },
       "required": ["minifigure_xp", "rank_player_level"],
+      "type": "object"
+    },
+    "QuestReward": {
+      "additionalProperties": false,
+      "description": "What a quest's reward item drops.",
+      "properties": {
+        "power": {
+          "description": "A fixed power level (its script passes a number, e.g. 0); none: the quest rule (the\nplayer's level x `power_per_level`, `quest_power_caps`, `quest_power_floors`).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "table": {
+          "type": "string",
+          "x-lmoxide-ref": ["loot"]
+        }
+      },
+      "required": ["table"],
       "type": "object"
     },
     "Rarity": {

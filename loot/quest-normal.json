@@ -1,0 +1,30 @@
+{
+  "id": "loot/quest-normal",
+  "name": "Quest reward: Normal",
+  "client_table": 218,
+  "rolls": 1,
+  "entries": [
+    {
+      "drop": {
+        "stars": [3, 4]
+      }
+    },
+    {
+      "drop": {
+        "items": ["item/25-minifigure-xp", "item/25-minifigure-xp", "item/25-minifigure-xp"]
+      }
+    },
+    {
+      "chance": "100%",
+      "drop": {
+        "hearts": 1
+      },
+      "when": {
+        "bonus_stat": "orb_chance"
+      },
+      "power_tier": 1000
+    }
+  ],
+  "source": "live",
+  "comment": "Live (LMO_Captures.cap 2016): 5 area-quest completions (Isle of Yarr, the jail, a Pirate micro-dungeon; levels 1-3 and 30, power 100-1000) each dropped a bag of 3-4 single stars, three 25-star bundles and a health orb (78-79 stars) with QuestRewardUpdateIIR; no change with power. Script 555 (XX_Quest Completion Loot Spawner Item Normal 160904, also Grandma Visitor 637115)."
+}

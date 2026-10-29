@@ -1,0 +1,46 @@
+{
+  "id": "loot/story-checkpoint",
+  "name": "Story reward: Extraordinary checkpoint",
+  "client_table": 580,
+  "rolls": 1,
+  "entries": [
+    {
+      "drop": {
+        "stars": [3, 4]
+      }
+    },
+    {
+      "drop": {
+        "items": [
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp"
+        ]
+      }
+    },
+    {
+      "chance": "100%",
+      "drop": {
+        "hearts": 1
+      },
+      "when": {
+        "bonus_stat": "orb_chance"
+      },
+      "power_tier": 1000
+    },
+    {
+      "chance": "25%",
+      "drop": {
+        "minifig_parts": {
+          "from": "world",
+          "count": 1
+        }
+      },
+      "power_tier": 5000
+    }
+  ],
+  "source": "guess",
+  "comment": "Script 1065 (XX_Story Quest Reward Extraordinary Checkpoint 462485). Contents were server data and no capture has this table: modeled on loot/quest-normal (live 78-79 stars), a guess. Five 25-star bundles and a part 25%."
+}

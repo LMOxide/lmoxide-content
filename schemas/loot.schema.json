@@ -99,6 +99,12 @@
         "drop": {
           "$ref": "#/$defs/LootBundle"
         },
+        "power_tier": {
+          "description": "The client's `PowerTier` of what it drops (1000 health orb ... 4000 Super Chests, 5000\nminifigure parts): a roll at a lower loot power can skip it (tunables\n`loot.power.tier_window`).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
         "weight": {
           "description": "Or: one of the weighted entries is picked per roll.",
           "format": "uint32",

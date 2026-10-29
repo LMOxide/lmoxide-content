@@ -1,0 +1,36 @@
+{
+  "id": "loot/story-long",
+  "name": "Story reward: Long",
+  "client_table": 663,
+  "rolls": 1,
+  "entries": [
+    {
+      "drop": {
+        "stars": [3, 4]
+      }
+    },
+    {
+      "drop": {
+        "items": [
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp",
+          "item/25-minifigure-xp"
+        ]
+      }
+    },
+    {
+      "chance": "100%",
+      "drop": {
+        "hearts": 1
+      },
+      "when": {
+        "bonus_stat": "orb_chance"
+      },
+      "power_tier": 1000
+    }
+  ],
+  "source": "guess",
+  "comment": "Script 1121 (XX_Story Quest Reward Long 467887). Contents were server data and no capture has this table: modeled on loot/quest-normal (live 78-79 stars), a guess. Long: five 25-star bundles."
+}

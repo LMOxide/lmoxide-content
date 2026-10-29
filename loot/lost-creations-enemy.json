@@ -11,6 +11,7 @@
       "when": {
         "bonus_stat": "orb_chance"
       },
+      "power_tier": 1000,
       "comment": "the enemy bag's heart chance"
     }
   ],

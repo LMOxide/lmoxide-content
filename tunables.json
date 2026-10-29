@@ -38,7 +38,70 @@
       "4000": 1000,
       "5000": 1500,
       "6000": 3000
-    }
+    },
+    "npc_power": 100,
+    "quest_power_caps": {
+      "2000": 2500,
+      "3000": 2000,
+      "4000": 1000,
+      "5000": 1500
+    },
+    "quest_power_floors": {
+      "6000": 3000
+    },
+    "quest_rewards": {
+      "160904": {
+        "table": "loot/quest-normal"
+      },
+      "246023": {
+        "table": "loot/pirate-trials-captain-pete",
+        "power": 0
+      },
+      "421808": {
+        "table": "loot/quest-short"
+      },
+      "421811": {
+        "table": "loot/quest-long"
+      },
+      "462445": {
+        "table": "loot/story-normal"
+      },
+      "462484": {
+        "table": "loot/story-boss"
+      },
+      "462485": {
+        "table": "loot/story-checkpoint"
+      },
+      "462486": {
+        "table": "loot/story-pirate-conclusion"
+      },
+      "462487": {
+        "table": "loot/story-medieval-conclusion"
+      },
+      "462488": {
+        "table": "loot/story-space-conclusion"
+      },
+      "467887": {
+        "table": "loot/story-long"
+      },
+      "492220": {
+        "table": "loot/story-mythology-conclusion"
+      },
+      "527146": {
+        "table": "loot/story-boss"
+      },
+      "528935": {
+        "table": "loot/story-dino-conclusion"
+      },
+      "584677": {
+        "table": "loot/micro-dungeon-super-chest",
+        "power": 0
+      },
+      "637115": {
+        "table": "loot/quest-normal"
+      }
+    },
+    "power": {}
   },
   "npc": {
     "regen_delay": "10s",

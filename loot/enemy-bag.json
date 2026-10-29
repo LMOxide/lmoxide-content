@@ -28,7 +28,8 @@
       },
       "when": {
         "bonus_stat": "orb_chance"
-      }
+      },
+      "power_tier": 1000
     },
     {
       "chance": "0.5%",
@@ -43,7 +44,8 @@
           "from": "world",
           "count": 1
         }
-      }
+      },
+      "power_tier": 5000
     },
     {
       "chance": "0.1%",
@@ -52,7 +54,8 @@
           "from": "world",
           "count": 1
         }
-      }
+      },
+      "power_tier": 3
     },
     {
       "chance": "0.5%",

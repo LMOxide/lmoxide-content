@@ -1,0 +1,16 @@
+{
+  "id": "loot/micro-dungeon-super-chest",
+  "name": "Quest reward: Micro-dungeon Super Chest",
+  "client_table": 725,
+  "rolls": 1,
+  "entries": [
+    {
+      "drop": {
+        "chest": ["item/member-super-chest"]
+      },
+      "power_tier": 4000
+    }
+  ],
+  "source": "live",
+  "comment": "Script 3726 (XX_Quest Completion Loot Spawner Item MicroDungeon Super Chest 584677; power 0). Live (LMO_Captures.cap): completing a Pirate micro-dungeon's quest dropped a bag with a Member Super Chest (template 482474, opened: 85-86 stars, 1-2 parts, an orb; the same as item/member-super-chest's table), at levels 3 and 30."
+}

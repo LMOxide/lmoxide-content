@@ -6,7 +6,8 @@
     {
       "drop": {
         "hearts": 1
-      }
+      },
+      "power_tier": 1000
     }
   ],
   "source": "server"

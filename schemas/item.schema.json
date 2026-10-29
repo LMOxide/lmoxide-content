@@ -13,6 +13,12 @@
           "type": ["string", "null"],
           "x-lmoxide-ref": ["loot"]
         },
+        "loot_power_level": {
+          "description": "Its own loot power level (the client's `LootPowerLevel` 1431; DoSuperChestPowerLevel uses\nit before the player's level). No client chest has one.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
         "loot_type": {
           "description": "1 free, 2 members.",
           "format": "uint32",
@@ -24,7 +30,9 @@
           "minimum": 0,
           "type": ["integer", "null"]
         },
-        "offset": true,
+        "offset": {
+          "description": "Where its loot drops from the chest, in cm (the client's `Loot_Offset{X,Y,Z}Pos`, u32\ntwo's complement as the client data has them; none: 0)."
+        },
         "spawn_effect_package": {
           "format": "uint32",
           "minimum": 0,

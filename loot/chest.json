@@ -32,7 +32,8 @@
           "from": "world",
           "count": 2
         }
-      }
+      },
+      "power_tier": 5000
     },
     {
       "chance": "25%",
@@ -41,7 +42,8 @@
           "from": "world",
           "count": 1
         }
-      }
+      },
+      "power_tier": 3
     }
   ],
   "source": "server",

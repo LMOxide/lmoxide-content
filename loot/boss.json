@@ -8,6 +8,7 @@
         "stars": 2,
         "hearts": 1
       },
+      "power_tier": 1000,
       "comment": "live: a small bag of 2 stars and a health orb"
     },
     {
@@ -18,6 +19,7 @@
       "when": {
         "members_only": true
       },
+      "power_tier": 4000,
       "comment": "live: usually a Member Super Chest (most of 8 boss bags)"
     },
     {
@@ -28,6 +30,7 @@
           "count": 1
         }
       },
+      "power_tier": 3,
       "comment": "live: once in 8 boss bags"
     },
     {
@@ -51,6 +54,7 @@
           "item/super-chest-580944"
         ]
       },
+      "power_tier": 4000,
       "comment": "a free Super Chest: none seen on live, so a small chance"
     },
     {
@@ -61,6 +65,7 @@
           "count": 1
         }
       },
+      "power_tier": 5000,
       "comment": "parts came from the chest on live; a small chance, not 0"
     }
   ],
