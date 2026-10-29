@@ -180,16 +180,19 @@
   },
   "minifigure_model": {
     "formulas": {
+      "creativity_rating": "max(0, (int(CreativityBaseFig*Level*MinifigureStarFactor) + CreativityRatingAll) * (CreativityEffectMin + MinifigureLevel*CreativityEffectPerLevel)) * FinalCreativityMultiplier * GlobalCreativityModifier (AttackUtils_c::CalculateCreativityRating); a buildie's progress per 0.1 s tick = the builder's rating x build speed buffs",
       "life": "floor(((Level*HealthPerLevel + MinifigureLife) + LifeAdjust) * LifeMultiplier + 0.5); LifeMultiplier = prod(1 + StatMultiplier%/100)",
       "power_rating": "(int(PowerBaseFig*Level*MinifigureStarFactor) + PowerRatingAll + PowerRating[dt]) * (PowerEffectMin + MinifigureLevel*PowerEffectPerLevel) * GlobalPowerModifier; dt 1000..1004 -> PowerRating1..4,5",
       "raw_damage": "power_rating * AbilityMod * FinalDamageMultiplier * (1 + V*(2r-1)), r in [0,1), V = AttackUtils_DamageFlagVariance"
     },
     "player_defaults": {
       "CreativityEffectMin": 1.0,
+      "CreativityEffectPerLevel": 0.0,
       "CreativityRatingAll": 50,
       "DefenseEffectMin": 1.0,
       "DefenseRatingAll": 50,
       "DefenseRatingTarget": 1550,
+      "FinalCreativityMultiplier": 1.0,
       "FinalDamageMultiplier": 1.0,
       "FinalDefenseMultiplier": 1.0,
       "HealthBase": 250,
@@ -201,7 +204,7 @@
       "PowerEffectPerLevel": 0.0,
       "PowerRatingAll": 50
     },
-    "source": "client: SimpleChar_t::CalculateLife, AttackUtils_c::CalculatePowerRating/CalculateRawDamage; tweaks RDB 1000516; player defaults from the recorded original session",
+    "source": "client: SimpleChar_t::CalculateLife, AttackUtils_c::CalculatePowerRating/CalculateCreativityRating/CalculateRawDamage; tweaks RDB 1000516; player defaults from the recorded original session",
     "tweaks": {
       "AttackUtils_DamageFlagVariance": 0.1,
       "AttackUtils_GlobalCreativityModifier": 1.0,
