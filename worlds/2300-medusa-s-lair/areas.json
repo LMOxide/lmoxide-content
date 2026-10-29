@@ -302,6 +302,419 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/2300/ba-teleportentrance",
+      "name": "BA_TeleportEntrance",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [74.89, 362.07],
+            [75.48, 351.67],
+            [83.85, 354.82],
+            [83.85, 360.07]
+          ],
+          "heights": [31.25, 36.25]
+        }
+      },
+      "category": "teleport",
+      "scry": 18602,
+      "source": "client",
+      "comment": "RDB 1000053:2300 guid 22086; Scry 18602 teleportplayerboundedarea_wazu (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/res-boss",
+      "name": "Res_Boss",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [145.21, 272.09],
+            [155.19, 266.79],
+            [164.1, 277.83]
+          ],
+          "heights": [10.049, 20.049]
+        }
+      },
+      "category": "encounter",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:2300 guid 474451; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/clearhate-boss",
+      "name": "ClearHate_Boss",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [148.52, 267.31],
+            [152.63, 266.45],
+            [154.31, 267.94],
+            [154.53, 270.77],
+            [152.7, 272.22],
+            [148.49, 273.35]
+          ],
+          "heights": [9.805, 19.805]
+        }
+      },
+      "category": "encounter",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:2300 guid 623274; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/clearhate-entrance",
+      "name": "ClearHate_Entrance",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [60.05, 354.42],
+            [64.78, 356.26],
+            [64.63, 358.95],
+            [61.15, 361.21]
+          ],
+          "heights": [31.251, 41.251]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:2300 guid 623275; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/fallthroughworld",
+      "name": "FallThroughWorld",
+      "role": "kill",
+      "shape": {
+        "polygon": {
+          "points": [
+            [-4.04, -2.03],
+            [516.88, -2.7],
+            [513.82, 516.01],
+            [-2.76, 514.34]
+          ],
+          "heights": [0.0, 3.0]
+        }
+      },
+      "category": "kill_volume",
+      "source": "client",
+      "comment": "RDB 1000053:2300 guid 464800 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/occlusionshield-medusa",
+      "name": "OcclusionShield_Medusa",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [201.77, 242.22],
+            [201.77, 274.22]
+          ],
+          "heights": [2.698, 12.698]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:2300 boundedareas_collision guid 575936 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/boss-nologin",
+      "name": "Boss_NoLogin",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [203.51, 263.22],
+            [203.51, 251.22],
+            [200.77, 251.22],
+            [200.77, 238.81],
+            [233.71, 238.31],
+            [233.71, 274.72],
+            [200.77, 274.72],
+            [200.77, 263.22]
+          ],
+          "heights": [2.262, 12.262]
+        }
+      },
+      "category": "encounter",
+      "scry": 56641,
+      "source": "client",
+      "comment": "RDB 1000053:2300 guid 575937; Scry 56641 ? (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/ba-doorcollision3",
+      "name": "BA_DoorCollision3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [151.83, 277.57],
+            [163.62, 279.46],
+            [158.57, 284.41]
+          ],
+          "heights": [12.781, 22.781]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:2300 guid 495090 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/ba-doorcollision1",
+      "name": "BA_DoorCollision1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [94.11, 303.93],
+            [101.12, 313.6],
+            [94.05, 313.53]
+          ],
+          "heights": [26.092, 36.092]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:2300 guid 474073 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/ba-doorcollision2",
+      "name": "BA_DoorCollision2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [135.27, 304.68],
+            [147.06, 306.57],
+            [142.01, 311.52]
+          ],
+          "heights": [18.605, 28.605]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:2300 guid 495091 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/cine-g04-cutscene1",
+      "name": "Cine_G04_Cutscene1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [201.56, 263.28],
+            [191.83, 263.37],
+            [192.03, 251.39],
+            [201.79, 251.2]
+          ],
+          "heights": [8.145, 18.145]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:2300 guid 482645 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/head-lair1",
+      "name": "Head_Lair1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [73.72, 352.34],
+            [63.63, 356.17],
+            [59.87, 347.0],
+            [74.77, 344.21]
+          ],
+          "heights": [32.0, 42.0]
+        }
+      },
+      "category": "talking_head",
+      "source": "client",
+      "comment": "RDB 1000053:2300 guid 482646 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/wall-collision0-637254",
+      "name": "Collision0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [80.38, 353.18],
+            [80.38, 360.15],
+            [65.32, 359.97],
+            [63.61, 359.62],
+            [61.52, 360.69],
+            [58.52, 359.52],
+            [58.69, 356.59],
+            [60.74, 354.42],
+            [64.17, 355.3],
+            [65.16, 353.68],
+            [65.48, 337.91],
+            [72.72, 336.84],
+            [74.8, 328.96],
+            [73.86, 327.69],
+            [72.17, 328.61],
+            [66.28, 328.37],
+            [66.63, 306.46],
+            [88.67, 306.36],
+            [105.9, 306.43],
+            [120.47, 305.71],
+            [120.7, 314.0],
+            [118.91, 314.27],
+            [119.08, 315.67],
+            [121.05, 315.63],
+            [122.08, 313.89],
+            [127.45, 313.65],
+            [137.12, 314.15],
+            [138.34, 309.29],
+            [138.24, 303.94],
+            [138.42, 290.92],
+            [143.91, 290.11],
+            [151.29, 290.28],
+            [151.16, 291.64],
+            [153.26, 291.26],
+            [154.09, 289.69],
+            [154.25, 281.86],
+            [154.08, 272.67],
+            [152.27, 272.47],
+            [149.88, 272.4],
+            [148.52, 270.66],
+            [148.65, 268.56],
+            [150.11, 266.83],
+            [153.42, 266.66],
+            [154.09, 254.71],
+            [154.64, 243.83],
+            [168.85, 243.63],
+            [168.0, 250.39],
+            [172.7, 250.35],
+            [172.41, 255.34],
+            [170.87, 255.42],
+            [171.12, 256.74],
+            [172.59, 256.59],
+            [173.73, 255.86],
+            [173.98, 252.68],
+            [178.03, 254.5],
+            [201.6, 254.09],
+            [202.09, 250.15],
+            [202.51, 241.23],
+            [232.58, 241.23],
+            [232.58, 250.69],
+            [234.12, 250.51],
+            [241.39, 249.92],
+            [242.5, 247.71],
+            [242.09, 242.43],
+            [256.33, 242.43],
+            [255.5, 248.19],
+            [255.43, 249.41],
+            [261.67, 250.17],
+            [261.67, 255.78],
+            [256.51, 256.39],
+            [232.35, 255.81],
+            [232.6, 272.68],
+            [201.26, 272.66],
+            [201.3, 264.83],
+            [201.67, 260.62],
+            [176.63, 260.57],
+            [175.62, 263.42],
+            [173.27, 264.5],
+            [173.38, 261.9],
+            [173.29, 259.76],
+            [171.24, 259.56],
+            [171.28, 260.55],
+            [172.48, 261.77],
+            [172.57, 264.53],
+            [170.56, 264.43],
+            [167.97, 265.55],
+            [167.47, 267.32],
+            [168.94, 272.85],
+            [161.73, 272.49],
+            [159.92, 273.44],
+            [160.32, 275.7],
+            [160.47, 292.86],
+            [159.6, 296.22],
+            [153.42, 296.39],
+            [153.11, 294.24],
+            [151.23, 294.45],
+            [151.13, 295.54],
+            [152.65, 295.92],
+            [152.71, 304.63],
+            [144.58, 304.52],
+            [144.18, 318.91],
+            [143.12, 320.21],
+            [139.94, 320.41],
+            [139.23, 319.31],
+            [135.27, 319.53],
+            [130.03, 319.89],
+            [125.96, 319.54],
+            [121.47, 320.3],
+            [121.09, 318.35],
+            [119.13, 318.45],
+            [119.1, 321.2],
+            [105.89, 320.5],
+            [105.84, 312.08],
+            [104.42, 311.71],
+            [88.35, 311.71],
+            [88.62, 319.76],
+            [87.52, 320.17],
+            [87.45, 322.21],
+            [88.46, 322.91],
+            [88.56, 327.03],
+            [86.76, 328.66],
+            [81.49, 328.69],
+            [80.18, 327.96],
+            [79.03, 330.27],
+            [79.61, 336.83],
+            [79.1, 343.36],
+            [72.88, 344.33],
+            [72.05, 347.42],
+            [72.43, 353.36],
+            [80.02, 354.24]
+          ],
+          "heights": [10.848, 33.248]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2300 uniqueid 637254 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2300/wall-collision1-637255",
+      "name": "Collision1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [81.2, 312.94],
+            [73.5, 312.94],
+            [73.5, 321.19],
+            [81.09, 321.04]
+          ],
+          "heights": [28.002, 33.002]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2300 uniqueid 637255 (extract_server_areas.py)"
     }
   ]
 }

@@ -1,0 +1,122 @@
+{
+  "triggers": [
+    {
+      "id": "trigger/2500/clearhate-firstboss",
+      "name": "ClearHate_FirstBoss",
+      "area": "area/2500/clearhate-firstboss",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/2500/clearhate-secondboss",
+      "name": "ClearHate_SecondBoss",
+      "area": "area/2500/clearhate-secondboss",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/2500/clearhate-cliffs",
+      "name": "ClearHate_Cliffs",
+      "area": "area/2500/clearhate-cliffs",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/2500/clearhate-harpyboss",
+      "name": "ClearHate_HarpyBoss",
+      "area": "area/2500/clearhate-harpyboss",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/2500/clearhate-boss",
+      "name": "ClearHate_Boss",
+      "area": "area/2500/clearhate-boss",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/2500/clearhate-entrance",
+      "name": "ClearHate_Entrance",
+      "area": "area/2500/clearhate-entrance",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/2500/fallthroughworld",
+      "name": "FallThroughWorld",
+      "area": "area/2500/fallthroughworld",
+      "actions": [
+        {
+          "teleport": {
+            "to": {
+              "command": "nearest_respawn"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    }
+  ]
+}

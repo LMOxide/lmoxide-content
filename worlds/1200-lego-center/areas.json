@@ -47,6 +47,502 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/1200/fallthroughworld",
+      "name": "FallThroughWorld",
+      "role": "kill",
+      "shape": {
+        "polygon": {
+          "points": [
+            [21.51, 495.45],
+            [7.26, 6.39],
+            [496.76, 6.64],
+            [503.32, 502.02]
+          ],
+          "heights": [12.255, 22.255]
+        }
+      },
+      "category": "kill_volume",
+      "scry": 24774,
+      "source": "client",
+      "comment": "RDB 1000053:1200 guid 356329; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/ba-story-space-found-spaceport1",
+      "name": "BA_Story_Space_Found_Spaceport1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [298.62, 93.04],
+            [298.26, 100.15],
+            [290.48, 100.49]
+          ],
+          "heights": [51.912, 61.912]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:1200 guid 399856 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/ba-story-space-found-castleentrance1",
+      "name": "BA_Story_Space_Found_CastleEntrance1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [320.03, 109.85],
+            [317.71, 116.58],
+            [311.85, 111.16]
+          ],
+          "heights": [47.308, 57.308]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:1200 guid 413322 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/ba-story-found-mythentrance1",
+      "name": "BA_Story_Found_MythEntrance1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [280.05, 110.42],
+            [279.65, 117.53],
+            [271.86, 117.82]
+          ],
+          "heights": [49.75, 59.75]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:1200 guid 488937 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/ba-story-found-dinoentrance1",
+      "name": "BA_Story_Found_DinoEntrance1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [278.61, 68.5],
+            [285.72, 68.45],
+            [286.73, 83.34]
+          ],
+          "heights": [44.823, 54.823]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:1200 guid 527181 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/story-arriveathub",
+      "name": "Story_ArriveAtHub",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [331.64, 71.22],
+            [325.15, 66.43],
+            [332.65, 62.78]
+          ],
+          "heights": [46.704, 56.704]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:1200 guid 346144 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/story-arriveathubbackup",
+      "name": "Story_ArriveAtHubBackup",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [327.99, 68.44],
+            [331.47, 68.44],
+            [331.6, 65.13],
+            [328.05, 65.03]
+          ],
+          "heights": [46.704, 56.704]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:1200 guid 464377 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/ba-cine-gamerquestgiver1",
+      "name": "BA_Cine_GamerQuestgiver1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [278.2, 60.31],
+            [294.32, 65.51],
+            [295.13, 84.28],
+            [278.9, 84.73]
+          ],
+          "heights": [46.25, 56.25]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:1200 guid 463222 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/ba-cine-funhouseentrance1",
+      "name": "BA_Cine_FunhouseEntrance1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [361.49, 52.09],
+            [372.0, 65.3],
+            [370.55, 83.99],
+            [360.51, 83.57]
+          ],
+          "heights": [46.91, 56.91]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:1200 guid 659772 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/cine-cleanfunhousecinematicmarkers1",
+      "name": "Cine_CleanFunhouseCinematicMarkers1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [331.79, 71.18],
+            [325.3, 66.39],
+            [332.8, 62.75]
+          ],
+          "heights": [48.1, 58.1]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:1200 guid 660006 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/ba-cine-placeholder1",
+      "name": "BA_Cine_Placeholder1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [309.0, 46.0],
+            [301.0, 42.0],
+            [304.0, 35.0]
+          ],
+          "heights": [54.0, 64.0]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:1202 guid 346058 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/wall-boundedareacollection-town0-667503",
+      "name": "BoundedAreaCollection_town0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [317.5, 53.5],
+            [342.54, 53.5],
+            [346.58, 58.47],
+            [345.54, 59.67],
+            [345.54, 63.97],
+            [346.73, 65.58],
+            [348.3, 66.59],
+            [348.38, 68.84],
+            [346.43, 71.83],
+            [346.71, 73.82],
+            [345.35, 74.61],
+            [345.18, 82.16],
+            [341.26, 82.16],
+            [341.26, 83.34],
+            [334.31, 83.34],
+            [331.97, 85.5],
+            [330.99, 85.5],
+            [328.09, 83.32],
+            [326.89, 82.22],
+            [322.64, 82.22],
+            [322.09, 83.44],
+            [317.28, 80.51]
+          ],
+          "heights": [48.0, 58.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:1200 uniqueid 667503 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/wall-boundedareacollection-pirate0-667504",
+      "name": "BoundedAreaCollection_pirate0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [328.75, 95.25],
+            [336.25, 95.25],
+            [337.25, 100.5],
+            [335.75, 103.25],
+            [334.0, 106.75],
+            [336.25, 113.0],
+            [333.25, 114.5],
+            [332.5, 111.5],
+            [331.68, 111.03],
+            [330.51, 107.29],
+            [330.75, 113.25],
+            [329.5, 121.5],
+            [325.25, 122.25],
+            [323.0, 118.5],
+            [322.85, 115.77],
+            [319.07, 114.62],
+            [319.73, 111.8],
+            [323.81, 112.74]
+          ],
+          "heights": [52.5, 62.5]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:1200 uniqueid 667504 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/wall-boundedareacollection-pirate1-667505",
+      "name": "BoundedAreaCollection_pirate1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [308.47, 95.25],
+            [323.51, 95.25],
+            [325.34, 100.65],
+            [324.38, 103.15],
+            [321.49, 103.95],
+            [318.98, 103.58],
+            [318.05, 107.49],
+            [322.95, 107.52],
+            [322.8, 111.88],
+            [319.96, 111.51],
+            [318.94, 115.05],
+            [321.1, 116.95],
+            [315.48, 119.46],
+            [313.9, 116.6],
+            [313.54, 116.52],
+            [313.7, 121.97],
+            [309.92, 122.2],
+            [310.44, 119.12],
+            [310.45, 116.44],
+            [309.95, 116.13],
+            [310.02, 107.44],
+            [308.5, 106.98]
+          ],
+          "heights": [47.211, 57.211]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:1200 uniqueid 667505 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/wall-boundedareacollection-pirate2-667506",
+      "name": "BoundedAreaCollection_pirate2",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [291.48, 94.85],
+            [298.31, 94.9],
+            [298.29, 101.18],
+            [296.66, 102.43],
+            [291.54, 102.69],
+            [291.54, 106.85],
+            [289.67, 106.77],
+            [289.53, 102.69],
+            [289.21, 103.08],
+            [289.17, 112.61],
+            [290.84, 115.61],
+            [290.49, 118.93],
+            [290.53, 122.0],
+            [290.98, 124.19],
+            [286.91, 123.93],
+            [287.42, 121.83],
+            [287.46, 118.73],
+            [284.98, 120.39],
+            [284.18, 121.94],
+            [280.22, 120.91],
+            [281.81, 114.58],
+            [285.56, 113.08],
+            [285.56, 109.83],
+            [283.56, 108.33],
+            [286.1, 99.18],
+            [289.73, 98.21]
+          ],
+          "heights": [54.0, 64.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:1200 uniqueid 667506 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/wall-boundedareacollection-pirate3-667507",
+      "name": "BoundedAreaCollection_pirate3",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [266.68, 94.87],
+            [276.42, 95.46],
+            [276.33, 99.79],
+            [277.06, 99.86],
+            [277.12, 102.83],
+            [276.27, 105.41],
+            [273.57, 107.29],
+            [273.57, 112.16],
+            [280.39, 112.07],
+            [280.17, 116.49],
+            [279.52, 118.4],
+            [277.55, 118.42],
+            [274.35, 120.45],
+            [274.35, 123.47],
+            [271.13, 123.45],
+            [271.13, 120.35],
+            [269.91, 119.59],
+            [270.08, 112.5],
+            [270.52, 107.86],
+            [268.87, 106.45],
+            [266.61, 106.32]
+          ],
+          "heights": [47.875, 57.875]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:1200 uniqueid 667507 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/wall-boundedareacollection-town1-667508",
+      "name": "BoundedAreaCollection_town1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [361.41, 82.55],
+            [356.89, 83.26],
+            [356.53, 62.69],
+            [360.69, 61.91],
+            [363.12, 59.48],
+            [364.06, 55.08],
+            [372.38, 55.64],
+            [371.88, 61.09],
+            [368.06, 63.98],
+            [369.56, 70.86],
+            [365.45, 78.85]
+          ],
+          "heights": [47.576, 57.576]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:1200 uniqueid 667508 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/1200/wall-boundedareacollection-pirate4-667509",
+      "name": "BoundedAreaCollection_pirate4",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [282.97, 56.96],
+            [287.58, 54.99],
+            [287.63, 51.57],
+            [290.1, 48.07],
+            [294.82, 47.46],
+            [297.52, 50.01],
+            [297.8, 60.55],
+            [295.72, 63.72],
+            [293.24, 63.2],
+            [292.5, 61.91],
+            [289.65, 61.13],
+            [288.55, 60.57],
+            [288.3, 58.65],
+            [286.18, 58.63],
+            [285.11, 60.01],
+            [285.19, 68.49],
+            [287.21, 70.08],
+            [288.22, 71.5],
+            [286.4, 73.32],
+            [287.04, 74.26],
+            [288.5, 72.86],
+            [290.12, 74.23],
+            [289.58, 75.72],
+            [287.65, 77.69],
+            [287.68, 78.68],
+            [288.04, 81.18],
+            [286.0, 81.11],
+            [285.43, 82.09],
+            [285.05, 84.24],
+            [280.18, 84.41],
+            [280.4, 71.48],
+            [282.26, 71.19],
+            [281.57, 60.14]
+          ],
+          "heights": [45.821, 50.821]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:1200 uniqueid 667509 (extract_server_areas.py)"
     }
   ]
 }

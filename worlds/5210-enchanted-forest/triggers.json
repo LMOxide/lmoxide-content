@@ -1,0 +1,250 @@
+{
+  "triggers": [
+    {
+      "id": "trigger/5210/clearhate-start",
+      "name": "ClearHate_Start",
+      "area": "area/5210/clearhate-start",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/5210/clearhate-grandma",
+      "name": "ClearHate_Grandma",
+      "area": "area/5210/clearhate-grandma",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/5210/clearhate-wolf",
+      "name": "ClearHate_Wolf",
+      "area": "area/5210/clearhate-wolf",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/5210/clearhate-faerie",
+      "name": "ClearHate_Faerie",
+      "area": "area/5210/clearhate-faerie",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/5210/clearhate-spidercave",
+      "name": "ClearHate_SpiderCave",
+      "area": "area/5210/clearhate-spidercave",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/5210/clearhate-trollcamp",
+      "name": "ClearHate_TrollCamp",
+      "area": "area/5210/clearhate-trollcamp",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/5210/ba-speedbuff-1",
+      "name": "BA_Speedbuff_1",
+      "area": "area/5210/ba-speedbuff-1",
+      "requires": [
+        {
+          "state": {
+            "target": {
+              "placement": "spawn/5210/speed-pad-ba-speedbuff-1"
+            },
+            "state": "built"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "apply_buff": {
+            "buff": "buff/speed-pad"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/5210/ba-speedbuff-2",
+      "name": "BA_Speedbuff_2",
+      "area": "area/5210/ba-speedbuff-2",
+      "requires": [
+        {
+          "state": {
+            "target": {
+              "placement": "spawn/5210/speed-pad-ba-speedbuff-2"
+            },
+            "state": "built"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "apply_buff": {
+            "buff": "buff/speed-pad"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/5210/ba-speedbuff-3",
+      "name": "BA_Speedbuff_3",
+      "area": "area/5210/ba-speedbuff-3",
+      "requires": [
+        {
+          "state": {
+            "target": {
+              "placement": "spawn/5210/speed-pad-ba-speedbuff-3"
+            },
+            "state": "built"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "apply_buff": {
+            "buff": "buff/speed-pad"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/5210/ba-speedbuff-4",
+      "name": "BA_Speedbuff_4",
+      "area": "area/5210/ba-speedbuff-4",
+      "requires": [
+        {
+          "state": {
+            "target": {
+              "placement": "spawn/5210/speed-pad-ba-speedbuff-4"
+            },
+            "state": "built"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "apply_buff": {
+            "buff": "buff/speed-pad"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/5210/ba-speedbuff-5",
+      "name": "BA_Speedbuff_5",
+      "area": "area/5210/ba-speedbuff-5",
+      "requires": [
+        {
+          "state": {
+            "target": {
+              "placement": "spawn/5210/speed-pad-ba-speedbuff-5"
+            },
+            "state": "built"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "apply_buff": {
+            "buff": "buff/speed-pad"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/5210/ba-speedbuff-6",
+      "name": "BA_Speedbuff_6",
+      "area": "area/5210/ba-speedbuff-6",
+      "requires": [
+        {
+          "state": {
+            "target": {
+              "placement": "spawn/5210/speed-pad-ba-speedbuff-6"
+            },
+            "state": "built"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "apply_buff": {
+            "buff": "buff/speed-pad"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    }
+  ]
+}

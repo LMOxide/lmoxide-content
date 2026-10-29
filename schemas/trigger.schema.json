@@ -549,6 +549,32 @@
         }
       ]
     },
+    "Condition": {
+      "description": "What must hold for a trigger to go off.",
+      "oneOf": [
+        {
+          "additionalProperties": false,
+          "description": "An object is in this state (a buildie spawn `built`, a wall area `open` / `closed`).",
+          "properties": {
+            "state": {
+              "additionalProperties": false,
+              "properties": {
+                "state": {
+                  "type": "string"
+                },
+                "target": {
+                  "$ref": "#/$defs/Target"
+                }
+              },
+              "required": ["target", "state"],
+              "type": "object"
+            }
+          },
+          "required": ["state"],
+          "type": "object"
+        }
+      ]
+    },
     "Destination": {
       "additionalProperties": false,
       "description": "Where a portal, trigger or teleport takes a player.",
@@ -937,11 +963,11 @@
         },
         {
           "additionalProperties": false,
-          "description": "One placement or object by id (`spawn/4200/gate-north`).",
+          "description": "One placement or object by id (`spawn/4200/gate-north`; a wall `area/...`).",
           "properties": {
             "placement": {
               "type": "string",
-              "x-lmoxide-ref": ["spawn", "bouncer", "trigger"]
+              "x-lmoxide-ref": ["spawn", "bouncer", "trigger", "area"]
             }
           },
           "required": ["placement"],
@@ -974,6 +1000,11 @@
         "$ref": "#/$defs/Action"
       },
       "type": "array"
+    },
+    "area": {
+      "description": "The area it covers (`area/...`), instead of a shape of its own.",
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["area"]
     },
     "author": {
       "type": "string"
@@ -1009,6 +1040,13 @@
     },
     "removed": {
       "type": "boolean"
+    },
+    "requires": {
+      "description": "It goes off only while all of these hold.",
+      "items": {
+        "$ref": "#/$defs/Condition"
+      },
+      "type": "array"
     },
     "rev": {
       "description": "Revision, raised by every saved edit (for merging concurrent edits).",

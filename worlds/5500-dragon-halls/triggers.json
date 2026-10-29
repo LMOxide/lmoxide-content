@@ -1,0 +1,88 @@
+{
+  "triggers": [
+    {
+      "id": "trigger/5500/clearhate-start",
+      "name": "ClearHate_Start",
+      "area": "area/5500/clearhate-start",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/5500/clearhate-ritual",
+      "name": "ClearHate_Ritual",
+      "area": "area/5500/clearhate-ritual",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/5500/clearhate-halls",
+      "name": "ClearHate_Halls",
+      "area": "area/5500/clearhate-halls",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/5500/clearhate-boss",
+      "name": "ClearHate_Boss",
+      "area": "area/5500/clearhate-boss",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/5500/fallthroughworld",
+      "name": "FallThroughWorld",
+      "area": "area/5500/fallthroughworld",
+      "actions": [
+        {
+          "teleport": {
+            "to": {
+              "command": "nearest_respawn"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    }
+  ]
+}

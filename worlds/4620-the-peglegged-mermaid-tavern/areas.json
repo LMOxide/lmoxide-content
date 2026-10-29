@@ -143,6 +143,115 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/4620/ba-teleporttoyarr",
+      "name": "BA_TeleportToYarr",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [220.86, 132.52],
+            [232.34, 130.86],
+            [233.64, 144.76],
+            [222.41, 144.15]
+          ],
+          "heights": [40.8, 50.8]
+        }
+      },
+      "category": "teleport",
+      "scry": 18602,
+      "source": "client",
+      "comment": "RDB 1000053:4620 guid 214911; Scry 18602 teleportplayerboundedarea_wazu (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4620/fallthroughworld",
+      "name": "FallThroughWorld",
+      "role": "kill",
+      "shape": {
+        "polygon": {
+          "points": [
+            [127.01, 290.33],
+            [145.13, 111.89],
+            [308.32, 108.64],
+            [320.57, 293.89]
+          ],
+          "heights": [23.312, 33.312]
+        }
+      },
+      "category": "kill_volume",
+      "scry": 24774,
+      "source": "client",
+      "comment": "RDB 1000053:4620 guid 356253; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4620/story-reachtavern",
+      "name": "Story_ReachTavern",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [221.68, 155.41],
+            [232.84, 154.79],
+            [230.98, 161.61]
+          ],
+          "heights": [41.281, 51.281]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:4620 guid 238271 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4620/ba-cine-thepeglegmermaid1",
+      "name": "BA_Cine_ThePeglegMermaid1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [214.75, 186.75],
+            [222.41, 163.34],
+            [234.72, 161.7],
+            [236.75, 182.75]
+          ],
+          "heights": [42.0, 52.0]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:4620 guid 235913 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4620/wall-collision0-472189",
+      "name": "collision0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [223.31, 137.74],
+            [230.63, 137.61],
+            [231.21, 142.91],
+            [231.74, 191.73],
+            [224.16, 191.73],
+            [224.16, 175.25],
+            [216.38, 175.25],
+            [216.38, 161.13],
+            [222.13, 161.13],
+            [224.35, 160.02],
+            [224.35, 137.35]
+          ],
+          "heights": [43.1, 55.1]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4620 uniqueid 472189 (extract_server_areas.py)"
     }
   ]
 }

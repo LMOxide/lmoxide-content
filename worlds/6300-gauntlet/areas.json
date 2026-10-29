@@ -588,6 +588,1979 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/6300/ba-room1",
+      "name": "BA_Room1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [160.35, 156.78],
+            [217.92, 153.8],
+            [218.05, 189.25],
+            [161.04, 186.04]
+          ],
+          "heights": [45.205, 55.205]
+        }
+      },
+      "category": "other",
+      "scry": 230545,
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 501330; Scry 230545 sen_ba_playercounter (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-buzzroomcollision",
+      "name": "BA_BuzzRoomCollision",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [171.45, 177.48],
+            [171.45, 164.67],
+            [173.16, 164.67],
+            [173.16, 177.51]
+          ],
+          "heights": [46.385, 56.385]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 521237 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-buzzroom-door",
+      "name": "BA_BuzzRoom_Door",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [218.81, 163.32],
+            [218.43, 180.06],
+            [213.24, 176.64],
+            [213.12, 167.65]
+          ],
+          "heights": [46.276, 56.276]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 506180 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-buildietrigger1",
+      "name": "BA_TikiRoom_BuildieTrigger1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [248.3, 164.94],
+            [253.92, 172.22],
+            [248.48, 178.82]
+          ],
+          "heights": [47.0, 57.0]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 505965 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-buildietrigger2",
+      "name": "BA_TikiRoom_BuildieTrigger2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [265.52, 158.23],
+            [287.37, 158.79],
+            [287.92, 186.69],
+            [264.72, 187.34]
+          ],
+          "heights": [46.93, 56.93]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 505966 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroomcollision",
+      "name": "BA_TikiRoomCollision",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [256.66, 177.65],
+            [256.66, 164.83],
+            [258.38, 164.83],
+            [258.38, 177.67]
+          ],
+          "heights": [46.385, 56.385]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 521238 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-setupmirrors",
+      "name": "BA_SetupMirrors",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [121.65, 170.8],
+            [129.61, 164.32],
+            [135.57, 162.81],
+            [135.95, 179.92],
+            [128.88, 179.76]
+          ],
+          "heights": [43.591, 53.591]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 508901 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-mirrorroomcollision",
+      "name": "BA_MirrorRoomCollision",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [138.9, 177.7],
+            [138.9, 164.89],
+            [140.61, 164.89],
+            [140.61, 177.73]
+          ],
+          "heights": [46.385, 56.385]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 521239 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/bossocclusionshield",
+      "name": "BossOcclusionShield",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [470.16, 210.08],
+            [447.53, 232.71]
+          ],
+          "heights": [57.95, 67.95]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:6300 boundedareas_collision guid 521508 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/bossencounter-outside",
+      "name": "BossEncounter_Outside",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [456.57, 225.95],
+            [464.97, 217.37],
+            [463.39, 215.89],
+            [469.76, 209.53],
+            [512.69, 249.89],
+            [492.09, 277.22],
+            [446.78, 232.51],
+            [454.91, 224.38]
+          ],
+          "heights": [58.908, 68.908]
+        }
+      },
+      "category": "encounter",
+      "scry": 56641,
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 521509; Scry 56641 ? (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/bossocclusionshieldback",
+      "name": "BossOcclusionShieldBack",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [477.24, 232.64],
+            [471.5, 238.54]
+          ],
+          "heights": [56.103, 66.103]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:6300 boundedareas_collision guid 623106 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/bossocclusionshieldfront",
+      "name": "BossOcclusionShieldFront",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [454.86, 225.44],
+            [459.94, 220.7],
+            [464.53, 215.81]
+          ],
+          "heights": [56.103, 66.103]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:6300 boundedareas_collision guid 623107 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/boss-collisionwall-1",
+      "name": "boss_collisionwall_1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [465.94, 243.02],
+            [452.28, 228.73]
+          ],
+          "heights": [59.0, 69.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:6300 boundedareas_collision guid 623016 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/boss-collisionwall-2",
+      "name": "boss_collisionwall_2",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [479.13, 244.42],
+            [471.96, 237.42],
+            [468.69, 239.87],
+            [466.83, 240.92],
+            [464.13, 242.56]
+          ],
+          "heights": [59.0, 69.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:6300 boundedareas_collision guid 623020 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/boss-collisionwall-3",
+      "name": "boss_collisionwall_3",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [466.7, 212.12],
+            [482.4, 227.99]
+          ],
+          "heights": [59.0, 69.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:6300 boundedareas_collision guid 623021 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/boss-collisionwall-4",
+      "name": "boss_collisionwall_4",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [481.35, 225.02],
+            [476.09, 233.0],
+            [480.52, 236.2]
+          ],
+          "heights": [59.0, 69.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:6300 boundedareas_collision guid 623022 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/boss-collisionwall-5",
+      "name": "boss_collisionwall_5",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [462.43, 217.06],
+            [463.56, 218.05],
+            [465.01, 216.41],
+            [472.27, 215.98]
+          ],
+          "heights": [59.0, 69.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:6300 boundedareas_collision guid 623023 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/boss-collisionwall-6",
+      "name": "boss_collisionwall_6",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [450.72, 231.21],
+            [456.93, 224.32],
+            [455.04, 222.43]
+          ],
+          "heights": [59.0, 69.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:6300 boundedareas_collision guid 623024 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston3-1",
+      "name": "BA_Piston3_1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [341.18, 191.25],
+            [342.68, 191.25],
+            [342.68, 196.12],
+            [341.18, 196.12]
+          ],
+          "heights": [54.692, 64.692]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518892 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston3-2",
+      "name": "BA_Piston3_2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [345.59, 191.25],
+            [347.09, 191.25],
+            [347.09, 196.12],
+            [345.59, 196.12]
+          ],
+          "heights": [54.692, 64.692]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518893 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston3-3",
+      "name": "BA_Piston3_3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [349.01, 191.25],
+            [350.51, 191.25],
+            [350.51, 196.12],
+            [349.01, 196.12]
+          ],
+          "heights": [54.692, 64.692]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518894 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston3-4",
+      "name": "BA_Piston3_4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [353.36, 191.25],
+            [354.86, 191.25],
+            [354.86, 196.12],
+            [353.36, 196.12]
+          ],
+          "heights": [54.692, 64.692]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518895 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston3-5",
+      "name": "BA_Piston3_5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [356.54, 191.25],
+            [358.04, 191.25],
+            [358.04, 196.12],
+            [356.54, 196.12]
+          ],
+          "heights": [54.692, 64.692]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518896 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston2-1",
+      "name": "BA_Piston2_1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [353.46, 180.1],
+            [354.96, 180.1],
+            [354.96, 184.97],
+            [353.46, 184.97]
+          ],
+          "heights": [52.195, 62.195]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518897 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston2-2",
+      "name": "BA_Piston2_2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [348.89, 180.1],
+            [350.39, 180.1],
+            [350.39, 184.97],
+            [348.89, 184.97]
+          ],
+          "heights": [52.195, 62.195]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518898 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston2-3",
+      "name": "BA_Piston2_3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [345.73, 180.1],
+            [347.23, 180.1],
+            [347.23, 184.97],
+            [345.73, 184.97]
+          ],
+          "heights": [52.195, 62.195]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518899 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston2-4",
+      "name": "BA_Piston2_4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [340.75, 180.1],
+            [342.25, 180.1],
+            [342.25, 184.97],
+            [340.75, 184.97]
+          ],
+          "heights": [52.195, 62.195]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518900 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston2-5",
+      "name": "BA_Piston2_5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [337.53, 180.1],
+            [339.03, 180.1],
+            [339.03, 184.97],
+            [337.53, 184.97]
+          ],
+          "heights": [52.195, 62.195]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518901 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston1-1",
+      "name": "BA_Piston1_1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [340.7, 168.75],
+            [342.2, 168.75],
+            [342.2, 173.63],
+            [340.7, 173.63]
+          ],
+          "heights": [45.06, 55.06]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518820 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston1-2",
+      "name": "BA_Piston1_2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [345.69, 168.75],
+            [347.19, 168.75],
+            [347.19, 173.63],
+            [345.69, 173.63]
+          ],
+          "heights": [45.06, 55.06]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518902 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston1-4",
+      "name": "BA_Piston1_4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [353.43, 168.75],
+            [354.93, 168.75],
+            [354.93, 173.63],
+            [353.43, 173.63]
+          ],
+          "heights": [45.06, 55.06]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518903 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston1-5",
+      "name": "BA_Piston1_5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [356.58, 168.75],
+            [358.08, 168.75],
+            [358.08, 173.63],
+            [356.58, 173.63]
+          ],
+          "heights": [45.06, 55.06]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518904 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-piston1-3",
+      "name": "BA_Piston1_3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [348.88, 168.75],
+            [350.38, 168.75],
+            [350.38, 173.63],
+            [348.88, 173.63]
+          ],
+          "heights": [45.06, 55.06]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 518905 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-room5-pistondodge",
+      "name": "BA_Room5_PistonDodge",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [320.5, 150.0],
+            [376.47, 150.81],
+            [376.58, 209.61],
+            [322.0, 209.5]
+          ],
+          "heights": [42.774, 52.774]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503015 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-shootingroomcontroller",
+      "name": "BA_ShootingRoomController",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [290.0, 160.0],
+            [333.53, 160.03],
+            [332.72, 177.65],
+            [324.45, 178.16],
+            [324.49, 182.91],
+            [289.38, 183.21]
+          ],
+          "heights": [45.083, 55.083]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 516785 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-shootingroomcollision",
+      "name": "BA_ShootingRoomCollision",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [299.71, 178.53],
+            [299.71, 165.72],
+            [301.43, 165.72],
+            [301.43, 178.56]
+          ],
+          "heights": [46.385, 56.385]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 521240 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-ballistaposition",
+      "name": "BA_BallistaPosition",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [290.23, 178.53],
+            [290.23, 165.72],
+            [291.95, 165.72],
+            [291.95, 178.56]
+          ],
+          "heights": [46.385, 56.385]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 523052 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/cine-d04-cutscene1",
+      "name": "Cine_D04_Cutscene1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [440.19, 209.77],
+            [447.66, 202.14],
+            [460.05, 209.2],
+            [445.48, 219.67]
+          ],
+          "heights": [58.4, 68.4]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 513897 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/cine-d06-cutscenefallback1",
+      "name": "Cine_D06_CutsceneFallback1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [483.48, 233.68],
+            [504.47, 250.15],
+            [490.36, 264.85],
+            [474.1, 244.9]
+          ],
+          "heights": [60.0, 70.0]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 528792 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/cine-d06-cutscene1",
+      "name": "Cine_D06_Cutscene1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [423.95, 252.92],
+            [93.94, 213.23],
+            [104.23, 117.21],
+            [432.78, 156.9],
+            [504.56, 245.62],
+            [487.5, 264.9]
+          ],
+          "heights": [61.098, 71.098]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 522004 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-pressureplateroomcollision",
+      "name": "BA_PressurePlateRoomCollision",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [227.31, 177.65],
+            [227.31, 164.83],
+            [229.03, 164.83],
+            [229.03, 177.67]
+          ],
+          "heights": [46.385, 56.385]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 521241 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate6",
+      "name": "BA_TikiRoom_Plate6",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [233.69, 164.32],
+            [236.28, 164.31],
+            [236.19, 166.61],
+            [233.72, 166.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503374 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate12",
+      "name": "BA_TikiRoom_Plate12",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [236.19, 164.32],
+            [238.78, 164.31],
+            [238.69, 166.61],
+            [236.22, 166.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503416 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate14",
+      "name": "BA_TikiRoom_Plate14",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [238.69, 174.32],
+            [241.28, 174.31],
+            [241.19, 176.61],
+            [238.72, 176.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503418 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate18",
+      "name": "BA_TikiRoom_Plate18",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [238.69, 164.32],
+            [241.28, 164.31],
+            [241.19, 166.61],
+            [238.72, 166.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503855 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate24",
+      "name": "BA_TikiRoom_Plate24",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [241.19, 164.32],
+            [243.78, 164.31],
+            [243.69, 166.61],
+            [241.22, 166.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503861 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate26",
+      "name": "BA_TikiRoom_Plate26",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [243.69, 174.32],
+            [246.28, 174.31],
+            [246.19, 176.61],
+            [243.72, 176.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503863 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate17",
+      "name": "BA_TikiRoom_Plate17",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [238.69, 166.82],
+            [241.28, 166.81],
+            [241.19, 169.11],
+            [238.72, 169.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503854 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate23",
+      "name": "BA_TikiRoom_Plate23",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [241.19, 166.82],
+            [243.78, 166.81],
+            [243.69, 169.11],
+            [241.22, 169.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503860 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate25",
+      "name": "BA_TikiRoom_Plate25",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [243.69, 176.82],
+            [246.28, 176.81],
+            [246.19, 179.11],
+            [243.72, 179.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503862 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate3",
+      "name": "BA_TikiRoom_Plate3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [233.69, 171.82],
+            [236.28, 171.81],
+            [236.19, 174.11],
+            [233.72, 174.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503371 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate11",
+      "name": "BA_TikiRoom_Plate11",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [236.19, 166.82],
+            [238.78, 166.81],
+            [238.69, 169.11],
+            [236.22, 169.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503415 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate13",
+      "name": "BA_TikiRoom_Plate13",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [238.69, 176.82],
+            [241.28, 176.81],
+            [241.19, 179.11],
+            [238.72, 179.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503417 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate19",
+      "name": "BA_TikiRoom_Plate19",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [241.19, 176.82],
+            [243.78, 176.81],
+            [243.69, 179.11],
+            [241.22, 179.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503856 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate20",
+      "name": "BA_TikiRoom_Plate20",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [241.19, 174.32],
+            [243.78, 174.31],
+            [243.69, 176.61],
+            [241.22, 176.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503857 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate21",
+      "name": "BA_TikiRoom_Plate21",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [241.19, 171.82],
+            [243.78, 171.81],
+            [243.69, 174.11],
+            [241.22, 174.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503858 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate22",
+      "name": "BA_TikiRoom_Plate22",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [241.19, 169.32],
+            [243.78, 169.31],
+            [243.69, 171.61],
+            [241.22, 171.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503859 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate27",
+      "name": "BA_TikiRoom_Plate27",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [243.69, 171.82],
+            [246.28, 171.81],
+            [246.19, 174.11],
+            [243.72, 174.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503864 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate28",
+      "name": "BA_TikiRoom_Plate28",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [243.69, 169.32],
+            [246.28, 169.31],
+            [246.19, 171.61],
+            [243.72, 171.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503865 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate29",
+      "name": "BA_TikiRoom_Plate29",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [243.69, 166.82],
+            [246.28, 166.81],
+            [246.19, 169.11],
+            [243.72, 169.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503866 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate30",
+      "name": "BA_TikiRoom_Plate30",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [243.69, 164.32],
+            [246.28, 164.31],
+            [246.19, 166.61],
+            [243.72, 166.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503867 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate1",
+      "name": "BA_TikiRoom_Plate1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [233.69, 176.82],
+            [236.28, 176.81],
+            [236.19, 179.11],
+            [233.72, 179.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503312 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate2",
+      "name": "BA_TikiRoom_Plate2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [233.69, 174.32],
+            [236.28, 174.31],
+            [236.19, 176.61],
+            [233.72, 176.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503370 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate4",
+      "name": "BA_TikiRoom_Plate4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [233.69, 169.32],
+            [236.28, 169.31],
+            [236.19, 171.61],
+            [233.72, 171.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503372 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate5",
+      "name": "BA_TikiRoom_Plate5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [233.69, 166.82],
+            [236.28, 166.81],
+            [236.19, 169.11],
+            [233.72, 169.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503373 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate7",
+      "name": "BA_TikiRoom_Plate7",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [236.19, 176.82],
+            [238.78, 176.81],
+            [238.69, 179.11],
+            [236.22, 179.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503375 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate8",
+      "name": "BA_TikiRoom_Plate8",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [236.19, 174.32],
+            [238.78, 174.31],
+            [238.69, 176.61],
+            [236.22, 176.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503376 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate9",
+      "name": "BA_TikiRoom_Plate9",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [236.19, 171.82],
+            [238.78, 171.81],
+            [238.69, 174.11],
+            [236.22, 174.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503377 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate10",
+      "name": "BA_TikiRoom_Plate10",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [236.19, 169.32],
+            [238.78, 169.31],
+            [238.69, 171.61],
+            [236.22, 171.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503378 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate15",
+      "name": "BA_TikiRoom_Plate15",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [238.69, 171.82],
+            [241.28, 171.81],
+            [241.19, 174.11],
+            [238.72, 174.09]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503419 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-tikiroom-plate16",
+      "name": "BA_TikiRoom_Plate16",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [238.69, 169.32],
+            [241.28, 169.31],
+            [241.19, 171.61],
+            [238.72, 171.59]
+          ],
+          "heights": [44.5, 54.5]
+        }
+      },
+      "category": "plate_puzzle",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 503420 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/pressureroom-start",
+      "name": "PressureRoom_Start",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [231.61, 181.95],
+            [231.68, 160.4],
+            [248.33, 160.49],
+            [248.26, 181.28]
+          ],
+          "heights": [45.503, 55.503]
+        }
+      },
+      "category": "other",
+      "scry": 56641,
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 526876; Scry 56641 ? (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-footprint",
+      "name": "BA_FootPrint",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [370.32, 189.32],
+            [372.4, 200.3],
+            [367.68, 201.94]
+          ],
+          "heights": [54.689, 64.689]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 523283 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-t-rex-rawr",
+      "name": "BA_T-Rex_Rawr",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [291.43, 165.46],
+            [298.2, 174.36],
+            [291.51, 176.64]
+          ],
+          "heights": [46.805, 56.805]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 527323 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/ba-t-rex-rawr2",
+      "name": "BA_T-Rex_Rawr2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [419.94, 190.1],
+            [426.71, 198.99],
+            [420.02, 201.28]
+          ],
+          "heights": [56.787, 66.787]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 565265 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/fallthroughworld",
+      "name": "FallThroughWorld",
+      "role": "kill",
+      "shape": {
+        "polygon": {
+          "points": [
+            [-171.38, -2.03],
+            [349.55, -2.7],
+            [346.49, 516.01],
+            [-170.09, 514.34]
+          ],
+          "heights": [-0.753, 0.247]
+        }
+      },
+      "category": "kill_volume",
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 501544 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/res-boss",
+      "name": "Res_Boss",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [427.26, 182.71],
+            [447.71, 188.25],
+            [433.63, 205.43],
+            [424.34, 200.65]
+          ],
+          "heights": [55.756, 65.756]
+        }
+      },
+      "category": "encounter",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 522137; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/clearhate-start",
+      "name": "ClearHate_Start",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [111.55, 182.02],
+            [113.42, 182.4],
+            [114.56, 184.5],
+            [113.53, 186.62],
+            [111.03, 187.19],
+            [109.14, 186.24],
+            [108.96, 183.48]
+          ],
+          "heights": [45.493, 55.493]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 624771; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/clearhate-boss",
+      "name": "ClearHate_Boss",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [435.49, 186.73],
+            [437.35, 187.12],
+            [438.5, 189.21],
+            [437.47, 191.34],
+            [434.97, 191.91],
+            [433.08, 190.96],
+            [432.89, 188.19]
+          ],
+          "heights": [56.04, 66.04]
+        }
+      },
+      "category": "encounter",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:6300 guid 624772; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/wall-mirror-collision-1-635883",
+      "name": "Mirror_Collision_1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [147.88, 178.21],
+            [148.15, 177.69],
+            [147.73, 177.18],
+            [147.14, 177.3],
+            [146.99, 177.92],
+            [147.31, 178.26]
+          ],
+          "heights": [47.376, 57.376]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:6300 uniqueid 635883 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/wall-mirror-collision-2-635887",
+      "name": "Mirror_Collision_2",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [153.44, 174.77],
+            [153.71, 174.25],
+            [153.29, 173.74],
+            [152.7, 173.86],
+            [152.55, 174.48],
+            [152.87, 174.82]
+          ],
+          "heights": [47.376, 57.376]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:6300 uniqueid 635887 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/wall-mirror-collision-3-635888",
+      "name": "Mirror_Collision_3",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [148.36, 170.23],
+            [148.63, 169.71],
+            [148.21, 169.2],
+            [147.62, 169.32],
+            [147.47, 169.94],
+            [147.79, 170.28]
+          ],
+          "heights": [47.376, 57.376]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:6300 uniqueid 635888 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/wall-mirror-collision-4-635889",
+      "name": "Mirror_Collision_4",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [152.91, 166.48],
+            [153.18, 165.96],
+            [152.76, 165.45],
+            [152.17, 165.57],
+            [152.02, 166.19],
+            [152.33, 166.53]
+          ],
+          "heights": [47.376, 57.376]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:6300 uniqueid 635889 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/wall-collision0-623033",
+      "name": "Collision0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [123.51, 159.87],
+            [126.62, 160.88],
+            [127.43, 167.16],
+            [127.97, 168.28],
+            [144.49, 168.48],
+            [144.72, 164.13],
+            [159.78, 164.13],
+            [159.73, 169.76],
+            [158.4, 169.82],
+            [158.41, 170.21],
+            [160.47, 169.99],
+            [160.47, 168.27],
+            [176.04, 168.27],
+            [176.72, 165.79],
+            [176.89, 160.49],
+            [215.56, 160.49],
+            [215.56, 170.11],
+            [216.47, 170.11],
+            [216.47, 168.16],
+            [232.24, 168.16],
+            [232.24, 164.12],
+            [246.96, 164.12],
+            [247.58, 170.0],
+            [248.33, 170.0],
+            [248.33, 168.08],
+            [261.25, 168.08],
+            [261.92, 169.57],
+            [265.27, 169.34],
+            [265.27, 160.65],
+            [287.09, 160.65],
+            [287.55, 170.34],
+            [288.61, 170.18],
+            [288.61, 168.24],
+            [303.48, 168.24],
+            [304.02, 169.52],
+            [308.02, 169.52],
+            [307.95, 168.18],
+            [307.41, 163.78],
+            [313.53, 163.78],
+            [313.1, 166.05],
+            [316.05, 168.03],
+            [316.04, 169.64],
+            [320.59, 169.68],
+            [320.84, 168.13],
+            [336.6, 168.2],
+            [336.6, 162.75],
+            [338.92, 160.94],
+            [365.68, 160.94],
+            [367.09, 163.27],
+            [367.06, 167.4],
+            [340.17, 167.4],
+            [340.17, 165.59],
+            [339.45, 165.59],
+            [339.45, 169.99],
+            [367.07, 169.99],
+            [367.62, 170.82],
+            [367.62, 179.64],
+            [361.45, 179.64],
+            [360.55, 176.45],
+            [359.43, 176.45],
+            [359.43, 181.39],
+            [365.95, 181.39],
+            [365.95, 186.22],
+            [367.61, 186.71],
+            [367.53, 190.17],
+            [360.6, 190.17],
+            [360.55, 184.79],
+            [334.42, 184.79],
+            [334.42, 190.26],
+            [328.33, 190.26],
+            [328.33, 181.13],
+            [356.49, 181.13],
+            [356.49, 177.34],
+            [355.73, 177.34],
+            [355.55, 179.48],
+            [336.87, 179.22],
+            [336.99, 175.06],
+            [360.69, 175.06],
+            [360.65, 173.87],
+            [335.08, 173.87],
+            [333.21, 174.83],
+            [315.92, 174.83],
+            [315.92, 176.21],
+            [317.3, 176.32],
+            [317.77, 180.67],
+            [305.91, 180.67],
+            [306.11, 178.6],
+            [305.39, 177.83],
+            [304.04, 177.77],
+            [303.87, 175.16],
+            [307.94, 175.16],
+            [307.94, 174.39],
+            [303.06, 174.39],
+            [301.91, 175.17],
+            [288.55, 175.17],
+            [288.55, 173.97],
+            [287.49, 173.97],
+            [287.0, 183.09],
+            [283.6, 185.25],
+            [271.46, 184.48],
+            [265.5, 182.74],
+            [265.5, 174.9],
+            [264.84, 174.43],
+            [261.5, 174.43],
+            [260.75, 174.85],
+            [248.46, 174.85],
+            [248.26, 174.13],
+            [247.34, 174.13],
+            [246.83, 178.49],
+            [239.5, 178.64],
+            [238.91, 179.29],
+            [232.5, 179.29],
+            [232.14, 174.83],
+            [216.62, 174.83],
+            [216.62, 174.01],
+            [215.49, 174.01],
+            [215.16, 183.02],
+            [208.97, 183.35],
+            [176.65, 183.35],
+            [176.65, 174.97],
+            [160.06, 174.97],
+            [160.06, 174.02],
+            [158.41, 173.78],
+            [158.41, 174.26],
+            [159.2, 174.96],
+            [158.2, 176.51],
+            [159.06, 178.06],
+            [157.77, 179.51],
+            [144.75, 179.51],
+            [144.02, 174.86],
+            [127.25, 174.86],
+            [126.63, 178.69],
+            [124.18, 181.72],
+            [114.24, 182.16],
+            [115.02, 184.78],
+            [114.59, 186.69],
+            [111.97, 188.08],
+            [109.24, 186.96],
+            [108.37, 184.4],
+            [109.06, 182.3],
+            [105.48, 181.92],
+            [104.74, 177.59],
+            [105.05, 160.36],
+            [110.04, 159.91],
+            [111.32, 162.92],
+            [111.69, 165.2],
+            [109.58, 167.36],
+            [111.2, 168.73],
+            [114.34, 167.6],
+            [114.25, 146.73],
+            [118.22, 146.73],
+            [118.22, 167.65],
+            [119.63, 167.98],
+            [120.97, 166.21],
+            [120.83, 163.11],
+            [121.99, 161.12]
+          ],
+          "heights": [48.0, 54.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:6300 uniqueid 623033 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/6300/wall-collision1-623034",
+      "name": "Collision1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [328.87, 198.1],
+            [328.87, 192.01],
+            [336.32, 191.84],
+            [336.36, 188.79],
+            [336.69, 185.88],
+            [359.42, 185.99],
+            [358.93, 190.4],
+            [340.07, 190.4],
+            [340.07, 188.43],
+            [339.53, 188.43],
+            [339.53, 190.96],
+            [340.11, 192.05],
+            [385.02, 192.05],
+            [385.02, 185.01],
+            [386.63, 185.01],
+            [386.63, 184.26],
+            [384.53, 184.26],
+            [384.53, 176.67],
+            [398.95, 176.67],
+            [398.95, 185.08],
+            [414.97, 185.08],
+            [414.97, 192.27],
+            [433.03, 192.27],
+            [433.19, 191.46],
+            [432.27, 189.14],
+            [433.31, 186.65],
+            [436.12, 186.05],
+            [438.44, 187.47],
+            [438.79, 190.01],
+            [436.89, 192.51],
+            [436.71, 195.74],
+            [457.92, 216.75],
+            [460.48, 219.15],
+            [463.7, 218.14],
+            [468.08, 213.83],
+            [483.39, 228.44],
+            [477.9, 233.74],
+            [478.64, 236.31],
+            [483.29, 241.66],
+            [489.29, 242.05],
+            [494.79, 240.36],
+            [499.84, 243.12],
+            [501.75, 246.71],
+            [504.36, 247.36],
+            [502.05, 252.18],
+            [500.58, 257.67],
+            [498.41, 261.45],
+            [491.36, 265.02],
+            [487.5, 264.19],
+            [486.69, 260.16],
+            [478.74, 256.8],
+            [477.18, 255.02],
+            [481.82, 251.58],
+            [480.76, 247.76],
+            [478.93, 247.35],
+            [478.59, 246.3],
+            [480.59, 243.79],
+            [478.86, 242.06],
+            [477.74, 242.86],
+            [473.76, 239.32],
+            [468.34, 242.4],
+            [465.64, 243.13],
+            [459.78, 236.23],
+            [453.26, 228.4],
+            [458.14, 223.51],
+            [457.76, 220.89],
+            [456.07, 219.21],
+            [454.81, 218.72],
+            [433.18, 197.42],
+            [429.36, 198.88],
+            [415.7, 198.88],
+            [415.55, 199.89],
+            [407.99, 199.89],
+            [407.99, 191.09],
+            [406.34, 191.86],
+            [391.48, 191.94],
+            [392.11, 185.03],
+            [393.65, 185.03],
+            [393.65, 183.99],
+            [389.5, 183.99],
+            [389.5, 185.44],
+            [391.02, 185.44],
+            [391.02, 193.0],
+            [406.74, 193.0],
+            [406.74, 207.89],
+            [400.03, 207.89],
+            [400.07, 206.49],
+            [398.93, 206.49],
+            [398.93, 209.89],
+            [399.56, 209.89],
+            [399.56, 209.07],
+            [406.82, 209.07],
+            [406.82, 215.86],
+            [400.07, 215.86],
+            [400.07, 214.72],
+            [398.54, 214.72],
+            [398.54, 215.74],
+            [392.11, 215.74],
+            [392.11, 201.06],
+            [402.37, 201.06],
+            [402.37, 199.73],
+            [390.97, 199.73],
+            [390.97, 215.9],
+            [384.79, 215.9],
+            [384.79, 199.84],
+            [383.26, 198.89],
+            [367.28, 198.89],
+            [367.67, 197.99],
+            [361.38, 197.84],
+            [359.63, 195.76],
+            [334.49, 195.76],
+            [333.54, 198.16]
+          ],
+          "heights": [57.0, 63.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:6300 uniqueid 623034 (extract_server_areas.py)"
     }
   ]
 }

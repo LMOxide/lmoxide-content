@@ -1,0 +1,122 @@
+{
+  "triggers": [
+    {
+      "id": "trigger/2210/clearhate-satyr",
+      "name": "ClearHate_satyr",
+      "area": "area/2210/clearhate-satyr",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/2210/clearhate-medusa",
+      "name": "ClearHate_medusa",
+      "area": "area/2210/clearhate-medusa",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/2210/clearhate-canyon",
+      "name": "ClearHate_canyon",
+      "area": "area/2210/clearhate-canyon",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/2210/clearhate-forge",
+      "name": "ClearHate_forge",
+      "area": "area/2210/clearhate-forge",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/2210/clearhate-armory",
+      "name": "ClearHate_armory",
+      "area": "area/2210/clearhate-armory",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/2210/clearhate-underworld",
+      "name": "ClearHate_underworld",
+      "area": "area/2210/clearhate-underworld",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/2210/fallthroughworld",
+      "name": "FallThroughWorld",
+      "area": "area/2210/fallthroughworld",
+      "actions": [
+        {
+          "teleport": {
+            "to": {
+              "command": "nearest_respawn"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "triggers": [
+    {
+      "id": "trigger/3210/clearhate-swampentrance",
+      "name": "ClearHate_SwampEntrance",
+      "area": "area/3210/clearhate-swampentrance",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/3210/clearhate-ruins",
+      "name": "ClearHate_Ruins",
+      "area": "area/3210/clearhate-ruins",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/3210/clearhate-ancienttemple",
+      "name": "ClearHate_AncientTemple",
+      "area": "area/3210/clearhate-ancienttemple",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/3210/clearhate-refuelingstation",
+      "name": "ClearHate_RefuelingStation",
+      "area": "area/3210/clearhate-refuelingstation",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/3210/clearhate-mercenarybase",
+      "name": "ClearHate_MercenaryBase",
+      "area": "area/3210/clearhate-mercenarybase",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/3210/clearhate-alienbase",
+      "name": "ClearHate_AlienBase",
+      "area": "area/3210/clearhate-alienbase",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/3210/clearhate-aliencommancenter",
+      "name": "ClearHate_AlienCommanCenter",
+      "area": "area/3210/clearhate-aliencommancenter",
+      "actions": [
+        {
+          "command": {
+            "name": "clear_hate",
+            "args": {
+              "for": "5s"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/3210/ba-speedbuff-1",
+      "name": "BA_Speedbuff_1",
+      "area": "area/3210/ba-speedbuff-1",
+      "requires": [
+        {
+          "state": {
+            "target": {
+              "placement": "spawn/3210/speed-pad-ba-speedbuff-1"
+            },
+            "state": "built"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "apply_buff": {
+            "buff": "buff/speed-pad"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/3210/ba-speedbuff-2",
+      "name": "BA_Speedbuff_2",
+      "area": "area/3210/ba-speedbuff-2",
+      "requires": [
+        {
+          "state": {
+            "target": {
+              "placement": "spawn/3210/speed-pad-ba-speedbuff-2"
+            },
+            "state": "built"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "apply_buff": {
+            "buff": "buff/speed-pad"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/3210/ba-speedbuff-3",
+      "name": "BA_Speedbuff_3",
+      "area": "area/3210/ba-speedbuff-3",
+      "requires": [
+        {
+          "state": {
+            "target": {
+              "placement": "spawn/3210/speed-pad-ba-speedbuff-3"
+            },
+            "state": "built"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "apply_buff": {
+            "buff": "buff/speed-pad"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/3210/ba-speedbuff-4",
+      "name": "BA_Speedbuff_4",
+      "area": "area/3210/ba-speedbuff-4",
+      "requires": [
+        {
+          "state": {
+            "target": {
+              "placement": "spawn/3210/speed-pad-ba-speedbuff-4"
+            },
+            "state": "built"
+          }
+        }
+      ],
+      "actions": [
+        {
+          "apply_buff": {
+            "buff": "buff/speed-pad"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    }
+  ]
+}

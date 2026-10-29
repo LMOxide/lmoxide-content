@@ -1,0 +1,20 @@
+{
+  "triggers": [
+    {
+      "id": "trigger/4620/fallthroughworld",
+      "name": "FallThroughWorld",
+      "area": "area/4620/fallthroughworld",
+      "actions": [
+        {
+          "teleport": {
+            "to": {
+              "command": "nearest_respawn"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    }
+  ]
+}

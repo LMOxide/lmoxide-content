@@ -211,6 +211,3387 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/5210/res-grandma",
+      "name": "Res_Grandma",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [128.41, 168.01],
+            [129.77, 135.6],
+            [141.55, 137.42],
+            [139.65, 169.35]
+          ],
+          "heights": [51.206, 61.206]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 304696; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/res-wolf",
+      "name": "Res_Wolf",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [215.27, 96.61],
+            [223.37, 96.94],
+            [229.36, 95.55],
+            [234.36, 91.85],
+            [249.92, 100.45],
+            [246.37, 117.34],
+            [226.81, 123.88],
+            [219.79, 118.34]
+          ],
+          "heights": [49.987, 59.987]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 304697; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/res-faerie",
+      "name": "Res_Faerie",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [273.33, 196.77],
+            [263.26, 183.09],
+            [259.46, 167.89],
+            [285.46, 184.19],
+            [282.45, 198.05]
+          ],
+          "heights": [46.421, 56.421]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 304698; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/res-spidercave",
+      "name": "Res_SpiderCave",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [407.28, 153.83],
+            [421.25, 148.28],
+            [434.49, 147.5],
+            [433.3, 172.44],
+            [406.13, 168.28]
+          ],
+          "heights": [41.767, 51.767]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 304699; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/res-trollcamp",
+      "name": "Res_TrollCamp",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [421.01, 328.82],
+            [454.49, 327.79],
+            [453.07, 346.83],
+            [421.26, 346.69]
+          ],
+          "heights": [54.088, 64.088]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 304700; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/clearhate-start",
+      "name": "ClearHate_Start",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [28.48, 148.13],
+            [31.54, 143.7],
+            [39.33, 143.95],
+            [40.96, 153.62],
+            [31.33, 154.07]
+          ],
+          "heights": [77.114, 87.114]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 623152; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/clearhate-grandma",
+      "name": "ClearHate_Grandma",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [132.91, 171.59],
+            [134.28, 125.6],
+            [180.17, 125.42],
+            [173.82, 165.95]
+          ],
+          "heights": [51.708, 61.708]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 623158; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/clearhate-wolf",
+      "name": "ClearHate_Wolf",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [215.39, 96.56],
+            [223.45, 97.0],
+            [229.76, 95.42],
+            [236.53, 90.86],
+            [251.03, 101.85],
+            [244.29, 122.84],
+            [226.38, 123.02],
+            [219.69, 118.32]
+          ],
+          "heights": [50.485, 60.485]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 623159; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/clearhate-faerie",
+      "name": "ClearHate_Faerie",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [273.96, 196.56],
+            [254.84, 183.0],
+            [248.3, 147.9],
+            [260.84, 115.75],
+            [293.96, 117.05],
+            [298.46, 123.87],
+            [294.87, 135.05],
+            [294.82, 164.64],
+            [284.89, 195.45]
+          ],
+          "heights": [47.541, 57.541]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 623160; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/clearhate-spidercave",
+      "name": "ClearHate_SpiderCave",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [407.28, 153.83],
+            [421.27, 148.28],
+            [434.49, 147.5],
+            [433.3, 172.44],
+            [406.13, 168.28]
+          ],
+          "heights": [42.053, 52.053]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 623161; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/clearhate-trollcamp",
+      "name": "ClearHate_TrollCamp",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [421.01, 328.82],
+            [454.49, 327.79],
+            [453.07, 346.83],
+            [421.26, 346.69]
+          ],
+          "heights": [54.255, 64.255]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 623162; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-teleportnet",
+      "name": "BA_TeleportNet",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [-1.86, -2.45],
+            [515.64, -4.01],
+            [517.9, 519.87],
+            [-1.06, 514.42]
+          ],
+          "heights": [-1.47, 8.53]
+        }
+      },
+      "category": "teleport",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 356229 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-speedbuff-1",
+      "name": "BA_Speedbuff_1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [155.67, 142.0],
+            [156.49, 141.14],
+            [157.25, 141.09],
+            [158.61, 141.87],
+            [158.61, 143.12],
+            [157.63, 144.05],
+            [156.24, 143.94],
+            [155.58, 143.06]
+          ],
+          "heights": [52.92, 62.92]
+        }
+      },
+      "category": "speed_or_jump",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 447013 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-speedbuff-2",
+      "name": "BA_Speedbuff_2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [229.99, 101.4],
+            [230.27, 102.45],
+            [229.95, 103.58],
+            [228.9, 104.06],
+            [227.85, 103.73],
+            [227.19, 102.96],
+            [227.29, 101.77],
+            [227.96, 101.06],
+            [229.08, 100.91]
+          ],
+          "heights": [50.998, 60.998]
+        }
+      },
+      "category": "speed_or_jump",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 447014 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-speedbuff-3",
+      "name": "BA_Speedbuff_3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [274.95, 161.78],
+            [275.35, 160.77],
+            [276.43, 160.24],
+            [277.82, 160.76],
+            [278.14, 161.86],
+            [277.7, 162.91],
+            [276.55, 163.46],
+            [275.52, 163.03]
+          ],
+          "heights": [46.923, 56.923]
+        }
+      },
+      "category": "speed_or_jump",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 447015 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-speedbuff-4",
+      "name": "BA_Speedbuff_4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [420.17, 150.42],
+            [420.4, 149.4],
+            [421.13, 148.66],
+            [422.57, 148.61],
+            [423.26, 149.62],
+            [423.23, 150.85],
+            [422.35, 151.65],
+            [420.96, 151.42]
+          ],
+          "heights": [44.859, 54.859]
+        }
+      },
+      "category": "speed_or_jump",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 447016 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-speedbuff-5",
+      "name": "BA_Speedbuff_5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [428.82, 315.66],
+            [429.42, 316.38],
+            [429.48, 317.77],
+            [428.58, 318.56],
+            [427.19, 318.37],
+            [426.48, 317.48],
+            [426.61, 316.28],
+            [427.63, 315.5]
+          ],
+          "heights": [54.857, 64.857]
+        }
+      },
+      "category": "speed_or_jump",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 447017 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-speedbuff-6",
+      "name": "BA_Speedbuff_6",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [67.92, 139.52],
+            [68.67, 138.9],
+            [69.73, 138.59],
+            [70.73, 139.22],
+            [70.9, 140.62],
+            [70.42, 141.5],
+            [69.08, 141.65],
+            [68.02, 140.73]
+          ],
+          "heights": [72.87, 82.87]
+        }
+      },
+      "category": "speed_or_jump",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 447724 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-firstbarrier1",
+      "name": "BA_FirstBarrier1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [103.25, 167.19],
+            [107.81, 167.19],
+            [107.81, 167.85],
+            [103.25, 167.85]
+          ],
+          "heights": [53.06, 63.06]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339691 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-firstbarrier2",
+      "name": "BA_FirstBarrier2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [107.91, 167.19],
+            [112.47, 167.19],
+            [112.47, 167.85],
+            [107.91, 167.85]
+          ],
+          "heights": [53.06, 63.06]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339692 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-firstbarrier3",
+      "name": "BA_FirstBarrier3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [112.6, 167.19],
+            [117.16, 167.19],
+            [117.16, 167.85],
+            [112.6, 167.85]
+          ],
+          "heights": [53.06, 63.06]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339693 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-firstbarrier4",
+      "name": "BA_FirstBarrier4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [103.25, 168.21],
+            [107.81, 168.21],
+            [107.81, 168.75],
+            [103.25, 168.75]
+          ],
+          "heights": [53.06, 63.06]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339694 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-firstbarrier5",
+      "name": "BA_FirstBarrier5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [108.02, 168.21],
+            [112.57, 168.21],
+            [112.57, 168.75],
+            [108.02, 168.75]
+          ],
+          "heights": [53.06, 63.06]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339695 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-firstbarrier6",
+      "name": "BA_FirstBarrier6",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [112.62, 168.21],
+            [117.17, 168.21],
+            [117.17, 168.75],
+            [112.62, 168.75]
+          ],
+          "heights": [53.06, 63.06]
+        }
+      },
+      "category": "door_wall_shield",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339696 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-grandma",
+      "name": "BA_Grandma",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [133.69, 125.28],
+            [182.12, 124.89],
+            [174.99, 166.32],
+            [133.43, 171.35]
+          ],
+          "heights": [52.389, 62.389]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 342351 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump1",
+      "name": "BA_SpiderJump1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [247.14, 220.11],
+            [247.05, 216.39],
+            [247.82, 216.43],
+            [247.82, 219.83]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339716 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump2",
+      "name": "BA_SpiderJump2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [247.14, 216.31],
+            [247.05, 212.68],
+            [247.82, 212.72],
+            [247.82, 216.31]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339755 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump3",
+      "name": "BA_SpiderJump3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [247.14, 212.71],
+            [247.05, 208.92],
+            [247.82, 208.96],
+            [247.82, 212.75]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339756 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump4",
+      "name": "BA_SpiderJump4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [248.54, 220.09],
+            [248.46, 216.4],
+            [249.23, 216.44],
+            [249.23, 219.81]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339757 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump5",
+      "name": "BA_SpiderJump5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [248.54, 216.26],
+            [248.46, 212.77],
+            [249.23, 212.81],
+            [249.23, 216.25]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339758 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump6",
+      "name": "BA_SpiderJump6",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [248.54, 212.72],
+            [248.46, 208.94],
+            [249.23, 208.98],
+            [249.23, 212.74]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339759 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump11",
+      "name": "BA_SpiderJump11",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [247.14, 208.69],
+            [247.05, 204.9],
+            [247.82, 204.94],
+            [247.82, 208.72]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 356394 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump12",
+      "name": "BA_SpiderJump12",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [248.54, 208.82],
+            [248.46, 204.33],
+            [249.23, 204.37],
+            [249.23, 208.83]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 356395 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump7",
+      "name": "BA_SpiderJump7",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [165.74, 226.22],
+            [171.14, 226.22],
+            [171.14, 227.0],
+            [165.74, 227.0]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339760 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump8",
+      "name": "BA_SpiderJump8",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [171.42, 226.22],
+            [174.51, 226.22],
+            [174.51, 227.0],
+            [171.42, 227.0]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339784 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump9",
+      "name": "BA_SpiderJump9",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [166.2, 227.75],
+            [171.15, 227.75],
+            [171.15, 228.54],
+            [166.2, 228.53]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339785 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump10",
+      "name": "BA_SpiderJump10",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [171.37, 227.75],
+            [174.51, 227.75],
+            [174.51, 228.54],
+            [171.37, 228.53]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339786 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump13",
+      "name": "BA_SpiderJump13",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [174.71, 226.22],
+            [178.34, 226.22],
+            [178.34, 227.0],
+            [174.71, 227.0]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 356396 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-spiderjump14",
+      "name": "BA_SpiderJump14",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [174.7, 227.75],
+            [179.96, 227.75],
+            [179.96, 228.54],
+            [174.7, 228.53]
+          ],
+          "heights": [52.47, 62.47]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 356397 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-fairievillage1",
+      "name": "BA_FairieVillage1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [294.8, 147.62],
+            [294.76, 142.56],
+            [295.69, 142.77],
+            [295.69, 147.33]
+          ],
+          "heights": [46.193, 56.193]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339605 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-fairievillage2",
+      "name": "BA_FairieVillage2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [294.77, 142.54],
+            [294.77, 140.1],
+            [295.65, 140.11],
+            [295.64, 142.52]
+          ],
+          "heights": [46.193, 56.193]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339645 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-fairievillage3",
+      "name": "BA_FairieVillage3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [296.55, 151.73],
+            [296.47, 142.75],
+            [297.25, 142.79],
+            [297.22, 151.73]
+          ],
+          "heights": [46.193, 56.193]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339655 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-fairievillage4",
+      "name": "BA_FairieVillage4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [296.54, 142.59],
+            [296.45, 139.99],
+            [297.23, 140.0],
+            [297.22, 142.57]
+          ],
+          "heights": [46.193, 56.193]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 339656 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-fairievillage5",
+      "name": "BA_FairieVillage5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [294.76, 140.0],
+            [294.73, 137.17],
+            [295.64, 137.17],
+            [295.64, 139.92]
+          ],
+          "heights": [46.193, 56.193]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 356398 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-fairievillage6",
+      "name": "BA_FairieVillage6",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [296.47, 139.83],
+            [296.39, 137.23],
+            [297.16, 137.23],
+            [297.16, 139.81]
+          ],
+          "heights": [46.193, 56.193]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 356399 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-swamp1",
+      "name": "BA_Swamp1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [414.67, 225.72],
+            [419.42, 228.48],
+            [424.27, 228.12],
+            [426.13, 229.27],
+            [428.33, 230.74],
+            [430.94, 231.14],
+            [429.69, 232.81],
+            [429.02, 232.9],
+            [427.11, 231.25],
+            [418.15, 236.43],
+            [409.18, 229.82],
+            [411.46, 221.23]
+          ],
+          "heights": [42.325, 52.325]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 342480 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-swamp2",
+      "name": "BA_Swamp2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [435.45, 228.84],
+            [441.16, 227.67],
+            [444.35, 230.88],
+            [444.2, 235.68],
+            [445.81, 239.69],
+            [442.04, 241.92],
+            [441.85, 243.93],
+            [440.9, 245.19],
+            [439.5, 245.49],
+            [438.21, 243.39],
+            [434.47, 245.3],
+            [430.92, 238.2],
+            [433.47, 235.79],
+            [435.22, 233.47],
+            [435.61, 230.91]
+          ],
+          "heights": [43.201, 53.201]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 342481 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-swamp3",
+      "name": "BA_Swamp3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [412.45, 241.75],
+            [422.05, 238.94],
+            [424.32, 242.76],
+            [427.21, 241.14],
+            [434.48, 254.09],
+            [427.34, 252.44],
+            [419.29, 252.15],
+            [417.29, 249.19],
+            [410.94, 247.04]
+          ],
+          "heights": [41.822, 51.822]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 342482 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-swamp4",
+      "name": "BA_Swamp4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [414.67, 254.18],
+            [412.74, 257.32],
+            [411.73, 260.55],
+            [412.35, 266.9],
+            [414.15, 271.81],
+            [417.67, 274.76],
+            [423.5, 275.94],
+            [425.89, 275.8],
+            [430.39, 282.22],
+            [423.21, 281.86],
+            [420.25, 283.0],
+            [407.69, 283.1],
+            [404.55, 279.29],
+            [400.13, 262.49],
+            [404.64, 259.8],
+            [404.25, 257.87]
+          ],
+          "heights": [40.856, 50.856]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 342483 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-swamp5",
+      "name": "BA_Swamp5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [425.97, 260.03],
+            [430.27, 263.28],
+            [434.84, 262.22],
+            [439.63, 259.93],
+            [444.08, 260.2],
+            [449.13, 259.26],
+            [450.92, 257.03],
+            [452.09, 253.58],
+            [451.95, 249.4],
+            [451.86, 246.62],
+            [455.2, 242.03],
+            [455.26, 239.55],
+            [452.19, 233.6],
+            [451.68, 230.47],
+            [451.96, 225.09],
+            [449.74, 222.18],
+            [446.98, 220.73],
+            [444.23, 220.11],
+            [443.47, 217.42],
+            [441.67, 215.21],
+            [438.24, 213.35],
+            [437.15, 212.64],
+            [456.35, 212.33],
+            [456.41, 219.13],
+            [457.42, 219.84],
+            [457.13, 221.22],
+            [455.01, 222.93],
+            [454.88, 227.65],
+            [458.67, 226.44],
+            [460.88, 224.67],
+            [463.46, 227.39],
+            [467.28, 228.33],
+            [470.59, 228.45],
+            [470.55, 231.31],
+            [474.5, 231.48],
+            [474.58, 238.68],
+            [471.8, 238.79],
+            [470.88, 240.3],
+            [464.15, 240.01],
+            [464.16, 244.92],
+            [471.69, 244.86],
+            [472.14, 247.61],
+            [474.58, 247.66],
+            [473.49, 249.7],
+            [472.11, 251.28],
+            [469.3, 251.75],
+            [464.09, 251.44],
+            [460.65, 253.77],
+            [459.26, 258.94],
+            [458.86, 264.72],
+            [456.65, 266.53],
+            [453.86, 267.83],
+            [450.66, 267.66],
+            [451.5, 264.04],
+            [447.18, 262.94],
+            [445.35, 269.7],
+            [442.53, 269.37],
+            [439.82, 280.31],
+            [437.06, 281.55],
+            [435.8, 279.67],
+            [436.17, 272.77],
+            [429.3, 268.17],
+            [422.78, 268.07],
+            [419.81, 265.72],
+            [419.13, 263.01],
+            [421.96, 260.38]
+          ],
+          "heights": [42.705, 52.705]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 342484 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-swamp6",
+      "name": "BA_Swamp6",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [427.14, 219.81],
+            [435.51, 221.94],
+            [436.55, 217.74],
+            [438.4, 218.53],
+            [439.56, 220.6],
+            [435.63, 222.09],
+            [427.04, 221.26],
+            [421.39, 219.54],
+            [419.85, 217.7],
+            [419.17, 214.25],
+            [419.89, 212.9],
+            [420.72, 213.12],
+            [420.93, 215.17],
+            [427.87, 217.05]
+          ],
+          "heights": [42.589, 52.589]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 342485 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/story-faerievillage",
+      "name": "Story_FaerieVillage",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [281.8, 155.0],
+            [278.13, 149.82],
+            [282.17, 136.3],
+            [297.04, 138.69],
+            [296.21, 157.83]
+          ],
+          "heights": [46.66, 56.66]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 308110 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-head-barrier1",
+      "name": "BA_Head_Barrier1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [103.68, 171.78],
+            [100.01, 166.6],
+            [104.64, 159.3],
+            [116.77, 152.56],
+            [118.09, 174.62]
+          ],
+          "heights": [54.0, 64.0]
+        }
+      },
+      "category": "talking_head",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 448738 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-head-forest1",
+      "name": "BA_Head_Forest1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [37.44, 152.36],
+            [41.41, 136.24],
+            [50.52, 133.14],
+            [51.85, 155.2]
+          ],
+          "heights": [74.294, 84.294]
+        }
+      },
+      "category": "talking_head",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 448739 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-head-spiders1",
+      "name": "BA_Head_Spiders1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [320.94, 169.65],
+            [308.18, 159.04],
+            [309.37, 149.49],
+            [329.79, 157.93]
+          ],
+          "heights": [46.583, 56.583]
+        }
+      },
+      "category": "talking_head",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 448740 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-head-swamp1",
+      "name": "BA_Head_Swamp1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [423.78, 191.44],
+            [407.82, 186.87],
+            [405.06, 177.66],
+            [427.14, 177.14]
+          ],
+          "heights": [44.045, 54.045]
+        }
+      },
+      "category": "talking_head",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 448741 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/ba-cine-thefaeriequeen1",
+      "name": "BA_Cine_TheFaerieQueen1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [287.24, 156.88],
+            [283.64, 153.43],
+            [287.06, 149.43]
+          ],
+          "heights": [49.249, 59.249]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:5210 guid 338147 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-evilcastle-289052",
+      "name": "Collision_EvilCastle",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [441.91, 361.25],
+            [419.63, 361.89]
+          ],
+          "heights": [55.028, 65.028]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 289052 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-barrier1-289067",
+      "name": "Collision_Barrier1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [119.97, 167.91],
+            [97.64, 168.11],
+            [119.97, 168.02]
+          ],
+          "heights": [54.0, 64.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 289067 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-barrier2-289068",
+      "name": "Collision_Barrier2",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [248.11, 201.41],
+            [248.07, 228.98],
+            [248.23, 201.41]
+          ],
+          "heights": [53.986, 63.986]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 289068 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-barrier4-339761",
+      "name": "Collision_Barrier4",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [183.53, 227.27],
+            [161.21, 227.47],
+            [183.54, 227.39]
+          ],
+          "heights": [54.0, 64.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 339761 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-barrier3-289069",
+      "name": "Collision_Barrier3",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [311.27, 136.06],
+            [296.07, 136.05],
+            [296.14, 171.26],
+            [296.16, 136.18],
+            [311.45, 136.18]
+          ],
+          "heights": [47.12, 57.12]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 289069 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-fort-ice0-578273",
+      "name": "Collision_wall_fort_ice0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [85.58, 99.87],
+            [79.21, 97.79],
+            [79.42, 99.44],
+            [82.21, 101.19],
+            [85.9, 102.0],
+            [86.85, 105.96],
+            [84.92, 107.8],
+            [87.36, 113.55],
+            [87.26, 118.67],
+            [87.57, 120.39],
+            [85.26, 122.03],
+            [86.64, 121.71],
+            [85.9, 126.64],
+            [84.1, 127.98],
+            [82.81, 130.64],
+            [76.56, 131.7],
+            [74.75, 125.91],
+            [72.97, 122.99],
+            [69.81, 121.44],
+            [69.3, 122.59],
+            [71.25, 128.3],
+            [68.64, 132.13],
+            [63.29, 129.95],
+            [63.27, 131.78],
+            [68.65, 133.62],
+            [71.08, 133.95],
+            [70.94, 137.44],
+            [71.34, 146.53],
+            [67.02, 146.49],
+            [64.45, 147.45],
+            [62.64, 146.48],
+            [60.5, 148.87],
+            [57.75, 147.89],
+            [54.45, 148.16],
+            [49.71, 152.19],
+            [44.37, 150.63],
+            [44.06, 148.14],
+            [46.11, 143.23],
+            [44.38, 143.23],
+            [41.71, 148.33],
+            [39.67, 148.55],
+            [37.88, 151.77],
+            [35.32, 152.29],
+            [30.81, 148.82],
+            [29.27, 146.29],
+            [27.8, 145.67],
+            [27.97, 137.73],
+            [29.19, 134.91],
+            [28.84, 131.97],
+            [32.49, 131.63],
+            [33.67, 134.75],
+            [36.43, 137.68],
+            [38.24, 140.08],
+            [41.29, 139.68],
+            [45.13, 137.26],
+            [49.03, 136.19],
+            [53.86, 137.42],
+            [50.62, 143.9],
+            [52.05, 144.88],
+            [54.3, 141.44],
+            [56.52, 140.49],
+            [59.27, 139.47],
+            [60.56, 136.67],
+            [60.89, 135.56],
+            [58.85, 134.79],
+            [56.73, 135.01],
+            [57.52, 132.13],
+            [56.45, 128.18],
+            [58.12, 122.8],
+            [62.03, 124.04],
+            [64.68, 125.09],
+            [64.78, 123.34],
+            [60.23, 121.32],
+            [58.62, 120.7],
+            [58.71, 116.29],
+            [60.62, 111.39],
+            [63.77, 111.14],
+            [67.65, 110.28],
+            [72.46, 104.28],
+            [73.05, 90.28],
+            [80.39, 93.7],
+            [81.21, 92.2],
+            [80.28, 90.94],
+            [77.32, 89.45],
+            [73.38, 88.57]
+          ],
+          "heights": [68.354, 88.354]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578273 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-granny-approach0-578274",
+      "name": "Collision_wall_granny_approach0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [73.05, 90.28],
+            [74.19, 89.81],
+            [75.34, 71.84],
+            [84.79, 62.08],
+            [89.49, 63.85],
+            [88.74, 66.17],
+            [90.94, 68.76],
+            [93.98, 69.02],
+            [96.67, 73.76],
+            [98.13, 74.24],
+            [102.31, 71.38],
+            [115.1, 70.9],
+            [119.27, 72.4],
+            [124.29, 69.85],
+            [128.0, 66.54],
+            [132.69, 68.81],
+            [135.19, 71.49],
+            [134.24, 78.69],
+            [135.23, 80.65],
+            [134.12, 83.62],
+            [129.33, 86.55],
+            [127.21, 87.56],
+            [126.54, 90.12],
+            [123.14, 90.12],
+            [121.96, 88.77],
+            [120.84, 89.39],
+            [120.72, 92.54],
+            [122.98, 92.78],
+            [122.29, 95.6],
+            [119.87, 95.38],
+            [118.69, 98.49],
+            [120.61, 99.7],
+            [118.97, 102.41],
+            [116.15, 103.02],
+            [118.4, 107.96],
+            [118.34, 109.88],
+            [119.37, 111.79],
+            [120.83, 109.73],
+            [123.49, 108.95],
+            [124.07, 107.45],
+            [124.9, 107.48],
+            [125.07, 110.96],
+            [125.07, 117.49],
+            [119.37, 117.61],
+            [119.07, 116.52],
+            [116.0, 116.57],
+            [111.73, 114.65],
+            [110.81, 115.81],
+            [113.98, 117.32],
+            [114.38, 123.1],
+            [115.76, 124.01],
+            [120.23, 120.46],
+            [124.75, 120.46],
+            [123.93, 125.09],
+            [127.2, 124.58],
+            [129.48, 130.18],
+            [124.64, 135.4],
+            [120.98, 137.55],
+            [116.32, 135.97],
+            [116.6, 140.9],
+            [111.72, 145.65],
+            [110.45, 145.36],
+            [108.71, 155.46],
+            [113.46, 156.69],
+            [121.71, 150.09],
+            [120.98, 144.52],
+            [129.9, 139.92],
+            [133.08, 139.33],
+            [133.08, 147.16],
+            [133.72, 147.16],
+            [134.31, 144.2],
+            [140.8, 137.88],
+            [143.51, 134.89],
+            [144.41, 127.33],
+            [144.09, 125.56],
+            [155.97, 125.56],
+            [155.97, 124.85],
+            [143.43, 124.85]
+          ],
+          "heights": [51.733, 81.033]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578274 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-granny-approach1-578275",
+      "name": "Collision_wall_granny_approach1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [169.87, 124.67],
+            [170.92, 129.91],
+            [170.92, 138.31],
+            [173.3, 140.06],
+            [173.3, 146.84],
+            [170.26, 147.18],
+            [167.32, 145.72],
+            [164.84, 149.88],
+            [170.88, 153.98],
+            [160.25, 153.93],
+            [160.25, 167.01],
+            [139.23, 165.97],
+            [135.42, 162.81],
+            [135.07, 160.84],
+            [136.18, 160.54],
+            [136.26, 156.77],
+            [133.74, 156.59],
+            [133.67, 149.91],
+            [133.0, 149.86],
+            [132.75, 159.81],
+            [130.2, 159.84],
+            [124.44, 163.2],
+            [118.72, 163.08],
+            [116.78, 166.63],
+            [116.56, 171.4],
+            [119.87, 176.37],
+            [117.95, 178.75],
+            [118.7, 189.59],
+            [114.0, 198.55],
+            [109.11, 198.36],
+            [107.66, 196.78],
+            [106.33, 196.61],
+            [104.52, 194.56],
+            [102.11, 196.13],
+            [103.05, 197.74],
+            [99.14, 198.9],
+            [97.08, 195.92],
+            [94.06, 194.22],
+            [89.83, 193.69],
+            [82.6, 193.69],
+            [82.79, 189.85],
+            [89.14, 189.85],
+            [89.04, 180.65],
+            [95.36, 182.47],
+            [101.25, 175.19],
+            [104.5, 169.86],
+            [104.47, 166.56],
+            [99.08, 161.81],
+            [99.23, 156.92],
+            [98.66, 151.81],
+            [98.72, 147.53],
+            [100.43, 141.5],
+            [102.81, 139.24],
+            [101.01, 137.56],
+            [102.22, 134.86],
+            [103.66, 126.45],
+            [101.34, 124.91],
+            [99.3, 121.46],
+            [102.52, 117.78],
+            [104.9, 117.12],
+            [104.41, 109.06],
+            [107.11, 107.65],
+            [112.69, 110.12],
+            [113.1, 108.39],
+            [108.49, 105.47],
+            [105.53, 104.96],
+            [103.76, 103.69],
+            [102.39, 101.18],
+            [99.91, 102.89],
+            [97.08, 102.05],
+            [91.8, 96.02],
+            [96.27, 90.79],
+            [99.78, 88.99],
+            [98.58, 86.49],
+            [92.7, 86.79],
+            [88.12, 84.51],
+            [85.8, 90.18],
+            [86.77, 95.8],
+            [85.45, 98.36],
+            [85.23, 100.49]
+          ],
+          "heights": [54.963, 75.263]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578275 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-wolf-cave0-578276",
+      "name": "Collision_wall_wolf_cave0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [143.43, 124.85],
+            [143.78, 119.01],
+            [148.7, 114.73],
+            [155.72, 112.52],
+            [155.17, 108.36],
+            [149.77, 104.84],
+            [149.84, 98.16],
+            [146.31, 93.53],
+            [145.76, 90.5],
+            [147.87, 88.17],
+            [145.91, 85.01],
+            [154.31, 67.57],
+            [159.61, 67.61],
+            [159.61, 64.75],
+            [178.65, 62.92],
+            [184.24, 67.39],
+            [190.4, 66.74],
+            [193.55, 62.18],
+            [205.62, 63.18],
+            [206.84, 69.25],
+            [205.4, 70.99],
+            [205.38, 74.56],
+            [208.28, 76.13],
+            [211.88, 70.79],
+            [221.66, 75.14],
+            [225.3, 72.9],
+            [232.0, 66.41],
+            [232.26, 63.77],
+            [235.72, 61.87],
+            [238.22, 61.87],
+            [241.01, 60.26],
+            [248.07, 60.28],
+            [248.38, 58.71],
+            [259.17, 57.31],
+            [263.92, 58.06],
+            [265.02, 61.56],
+            [265.02, 72.88],
+            [255.82, 73.13],
+            [253.57, 70.63],
+            [252.48, 68.8],
+            [247.89, 68.81],
+            [248.07, 67.02],
+            [246.31, 67.4],
+            [245.08, 71.76],
+            [240.76, 74.37],
+            [239.53, 74.25],
+            [238.73, 73.41],
+            [235.23, 73.6],
+            [233.17, 74.97],
+            [231.93, 74.88],
+            [230.81, 76.43],
+            [231.83, 78.51],
+            [231.53, 80.67],
+            [228.91, 82.86],
+            [227.7, 88.74],
+            [229.23, 91.97],
+            [236.22, 94.94],
+            [237.99, 97.67],
+            [242.05, 99.39],
+            [246.88, 99.36],
+            [246.88, 104.67],
+            [246.27, 107.45],
+            [246.37, 110.59],
+            [242.59, 113.97],
+            [233.09, 108.5],
+            [230.41, 113.51],
+            [232.62, 114.05],
+            [231.2, 112.96],
+            [233.39, 109.15],
+            [242.19, 114.3],
+            [241.96, 120.37],
+            [239.83, 120.17],
+            [232.38, 121.32],
+            [228.89, 118.79],
+            [228.97, 116.85],
+            [230.63, 117.12],
+            [229.19, 115.54],
+            [228.5, 116.67],
+            [225.76, 116.96],
+            [225.51, 119.96],
+            [222.74, 119.16],
+            [221.6, 119.83],
+            [221.2, 123.33],
+            [222.38, 125.48],
+            [219.41, 130.25],
+            [218.55, 133.6],
+            [216.16, 134.32],
+            [209.87, 135.3],
+            [209.88, 152.95],
+            [213.32, 152.88],
+            [217.77, 155.24]
+          ],
+          "heights": [47.405, 77.405]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578276 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-wolf-cave1-578277",
+      "name": "Collision_wall_wolf_cave1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [200.62, 154.11],
+            [203.84, 155.0],
+            [206.61, 152.88],
+            [206.68, 135.15],
+            [205.46, 135.05],
+            [200.81, 130.49],
+            [201.87, 127.48],
+            [201.64, 119.96],
+            [198.66, 117.1],
+            [200.34, 113.03],
+            [202.45, 109.93],
+            [199.4, 107.05],
+            [199.07, 104.35],
+            [204.26, 101.48],
+            [206.34, 102.24],
+            [209.36, 105.38],
+            [209.99, 109.41],
+            [214.08, 107.82],
+            [217.65, 108.64],
+            [220.67, 103.97],
+            [218.59, 97.18],
+            [221.79, 96.0],
+            [221.71, 94.48],
+            [218.74, 92.44],
+            [218.49, 87.48],
+            [211.65, 82.24],
+            [206.19, 83.47],
+            [205.37, 87.65],
+            [202.2, 87.34],
+            [200.66, 89.21],
+            [201.29, 92.08],
+            [193.37, 97.54],
+            [190.36, 94.88],
+            [188.05, 95.86],
+            [186.94, 99.74],
+            [188.05, 104.27],
+            [188.39, 107.82],
+            [190.36, 110.83],
+            [188.55, 111.83],
+            [187.21, 109.78],
+            [184.26, 106.75],
+            [182.18, 103.41],
+            [179.83, 102.16],
+            [176.48, 103.67],
+            [173.35, 98.14],
+            [167.45, 97.64],
+            [167.61, 103.21],
+            [167.64, 106.93],
+            [165.72, 109.6],
+            [165.92, 111.9],
+            [168.53, 114.55],
+            [168.42, 123.28],
+            [168.28, 124.68],
+            [164.05, 124.66],
+            [163.65, 125.22],
+            [169.77, 125.28]
+          ],
+          "heights": [47.405, 64.305]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578277 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-small-area0-578278",
+      "name": "Collision_wall_small_area0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [168.98, 86.68],
+            [178.31, 90.45],
+            [181.75, 88.3],
+            [176.32, 84.74],
+            [175.88, 80.14],
+            [170.59, 76.13],
+            [167.88, 79.37]
+          ],
+          "heights": [51.407, 66.407]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578278 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-spider-good-area1-578279",
+      "name": "Collision_wall_spider_good_area1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [217.77, 155.24],
+            [220.07, 157.55],
+            [218.0, 162.97],
+            [219.41, 164.05],
+            [221.78, 163.62],
+            [226.15, 166.54],
+            [223.87, 174.22],
+            [216.35, 169.2],
+            [212.28, 171.21],
+            [213.68, 176.08],
+            [218.97, 180.12],
+            [214.98, 182.62],
+            [214.03, 186.25],
+            [210.93, 185.62],
+            [206.98, 182.4],
+            [205.88, 184.05],
+            [198.82, 183.65],
+            [194.36, 187.94],
+            [192.9, 189.89],
+            [193.57, 199.5],
+            [198.58, 199.63],
+            [202.47, 198.98],
+            [205.94, 197.12],
+            [206.5, 199.73],
+            [208.82, 198.36],
+            [208.67, 195.97],
+            [212.58, 195.82],
+            [217.27, 202.94],
+            [221.33, 203.43],
+            [222.5, 198.62],
+            [217.84, 193.01],
+            [216.41, 189.4],
+            [217.54, 184.84],
+            [220.71, 183.89],
+            [222.61, 185.04],
+            [224.98, 183.11],
+            [228.68, 185.83],
+            [227.66, 190.1],
+            [228.6, 195.65],
+            [230.33, 199.56],
+            [232.81, 199.34],
+            [233.56, 186.29],
+            [240.32, 189.54],
+            [241.31, 187.75],
+            [236.62, 185.41],
+            [237.0, 180.25],
+            [239.5, 176.25],
+            [242.0, 173.5],
+            [245.49, 172.21],
+            [258.26, 172.26],
+            [261.5, 169.02],
+            [260.24, 163.28],
+            [260.79, 160.56],
+            [263.66, 156.12],
+            [262.8, 152.44],
+            [261.35, 151.04],
+            [260.83, 148.11],
+            [263.71, 148.11],
+            [263.71, 139.93],
+            [260.12, 139.93],
+            [260.18, 137.57],
+            [261.47, 135.41],
+            [260.58, 135.52],
+            [259.3, 137.68],
+            [259.09, 140.8],
+            [262.66, 140.92],
+            [262.71, 147.21],
+            [260.41, 147.57],
+            [260.36, 158.15],
+            [259.69, 163.37],
+            [253.97, 163.32],
+            [253.61, 156.3],
+            [257.16, 156.13],
+            [257.09, 148.05],
+            [256.35, 146.6],
+            [255.78, 140.02],
+            [255.89, 136.88],
+            [257.62, 133.76],
+            [259.82, 132.55],
+            [261.36, 132.36],
+            [261.63, 128.03],
+            [261.69, 119.64],
+            [264.18, 117.73],
+            [270.91, 120.02],
+            [270.89, 103.19],
+            [266.69, 103.02],
+            [260.88, 103.08]
+          ],
+          "heights": [48.3, 63.3]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578279 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-fairy0-578280",
+      "name": "Collision_wall_fairy0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [286.88, 108.86],
+            [283.12, 108.86],
+            [283.25, 102.93],
+            [275.84, 102.26],
+            [274.01, 103.1],
+            [274.04, 119.96],
+            [280.37, 129.0],
+            [287.7, 123.59],
+            [287.4, 121.0],
+            [285.3, 119.86],
+            [285.04, 117.86],
+            [292.8, 117.8],
+            [293.75, 121.61],
+            [296.42, 122.28],
+            [296.64, 126.37],
+            [292.17, 131.03],
+            [287.93, 135.15],
+            [292.14, 137.31],
+            [297.83, 136.46],
+            [304.61, 136.37]
+          ],
+          "heights": [47.405, 62.405]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578280 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-spider-good-area3-578281",
+      "name": "Collision_wall_spider_good_area3",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [297.14, 167.84],
+            [297.24, 161.77],
+            [301.93, 158.02],
+            [312.61, 156.51],
+            [315.64, 152.28],
+            [311.93, 147.26],
+            [303.26, 148.64],
+            [295.98, 148.1],
+            [293.48, 145.97],
+            [290.86, 148.71],
+            [285.39, 148.63],
+            [285.32, 150.06],
+            [281.32, 149.19],
+            [281.29, 150.5],
+            [283.93, 151.75],
+            [285.8, 151.63],
+            [286.47, 149.87],
+            [293.38, 150.18],
+            [293.5, 156.94],
+            [285.67, 156.38],
+            [285.71, 155.03],
+            [282.19, 155.03],
+            [279.55, 153.43],
+            [278.42, 152.03],
+            [277.74, 150.39],
+            [277.71, 149.26],
+            [276.84, 149.69],
+            [277.55, 152.01],
+            [280.73, 155.26],
+            [283.2, 157.32],
+            [283.02, 161.3],
+            [284.68, 163.51],
+            [285.17, 167.48],
+            [282.72, 171.09],
+            [283.98, 172.11],
+            [282.02, 174.59],
+            [280.64, 173.62],
+            [279.25, 173.05],
+            [278.29, 174.67],
+            [275.66, 175.39],
+            [273.84, 173.52],
+            [278.45, 167.86],
+            [279.89, 168.55],
+            [281.52, 166.73],
+            [281.71, 164.64],
+            [280.8, 163.8],
+            [280.79, 165.91],
+            [278.83, 166.76],
+            [275.93, 166.72],
+            [274.06, 169.93],
+            [272.65, 174.04],
+            [278.09, 177.53],
+            [276.96, 184.22],
+            [284.23, 186.77],
+            [283.72, 192.92],
+            [277.23, 196.24],
+            [273.41, 191.79],
+            [273.47, 188.32],
+            [274.16, 187.46],
+            [272.41, 183.7],
+            [269.15, 181.32],
+            [247.37, 179.58],
+            [244.76, 183.04],
+            [247.31, 188.32],
+            [245.79, 196.12],
+            [239.28, 193.65],
+            [239.27, 195.88],
+            [244.11, 197.96],
+            [243.19, 201.59],
+            [246.12, 204.39],
+            [252.12, 204.7],
+            [256.49, 206.76],
+            [258.73, 209.38],
+            [260.47, 208.35],
+            [260.34, 204.15],
+            [262.37, 202.07],
+            [275.17, 201.94],
+            [274.04, 205.22],
+            [272.15, 206.3],
+            [273.0, 211.71],
+            [269.51, 212.19],
+            [264.6, 212.72],
+            [262.69, 215.71],
+            [261.47, 221.63],
+            [256.26, 223.75],
+            [251.41, 221.52],
+            [248.02, 223.16],
+            [244.41, 219.15],
+            [241.42, 223.31],
+            [237.11, 224.31],
+            [232.54, 222.63],
+            [229.3, 219.27],
+            [229.0, 216.42],
+            [224.6, 215.44],
+            [225.04, 220.33],
+            [224.58, 222.29],
+            [219.4, 222.58],
+            [218.49, 219.68],
+            [218.57, 217.37],
+            [214.81, 212.78],
+            [210.66, 217.3],
+            [209.12, 225.69],
+            [199.06, 225.74],
+            [198.5, 221.13],
+            [196.29, 221.41],
+            [196.46, 216.61],
+            [193.72, 216.06],
+            [193.55, 220.86],
+            [184.0, 220.19],
+            [179.1, 223.36],
+            [178.51, 226.5],
+            [179.79, 232.4],
+            [180.34, 237.71],
+            [176.76, 237.61],
+            [174.38, 238.94],
+            [173.15, 236.56],
+            [169.5, 238.36],
+            [168.44, 237.77],
+            [166.13, 238.42],
+            [164.18, 233.62],
+            [164.89, 231.61],
+            [165.98, 227.98],
+            [167.85, 219.64],
+            [162.48, 214.33],
+            [163.26, 198.37],
+            [157.91, 196.58],
+            [153.17, 196.03],
+            [152.23, 191.3],
+            [153.09, 185.68],
+            [152.87, 173.39],
+            [156.98, 173.07],
+            [158.52, 173.56],
+            [164.27, 172.92],
+            [165.42, 181.91],
+            [160.4, 182.46],
+            [160.07, 185.82],
+            [162.81, 190.64],
+            [168.3, 190.88],
+            [172.16, 184.15],
+            [176.12, 185.09],
+            [176.22, 183.05],
+            [172.29, 182.53],
+            [172.31, 177.55],
+            [177.8, 170.64],
+            [183.08, 170.27],
+            [195.78, 164.23],
+            [197.83, 160.75],
+            [196.87, 157.92],
+            [200.62, 154.11]
+          ],
+          "heights": [47.405, 62.405]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578281 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-dwarf-quarry0-578282",
+      "name": "Collision_wall_dwarf_quarry0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [260.87, 103.08],
+            [260.9, 98.92],
+            [261.75, 88.97],
+            [263.79, 89.02],
+            [264.51, 86.72],
+            [263.04, 85.92],
+            [263.45, 82.11],
+            [266.89, 79.99],
+            [270.34, 79.49],
+            [272.06, 77.13],
+            [272.83, 71.68],
+            [271.87, 66.23],
+            [272.86, 62.49],
+            [271.94, 58.85],
+            [272.19, 56.41],
+            [271.67, 51.01],
+            [276.71, 44.56],
+            [281.99, 44.85],
+            [285.81, 43.83],
+            [288.96, 40.86],
+            [290.58, 42.16],
+            [293.79, 40.35],
+            [297.34, 39.07],
+            [296.35, 36.05],
+            [299.69, 36.48],
+            [301.73, 39.29],
+            [304.67, 41.1],
+            [308.95, 41.64],
+            [311.67, 44.73],
+            [320.42, 44.97],
+            [321.78, 47.38],
+            [324.48, 47.53],
+            [326.24, 46.58],
+            [328.23, 48.34],
+            [327.61, 54.75],
+            [329.0, 57.48],
+            [329.04, 61.09],
+            [328.05, 61.45],
+            [327.72, 65.24],
+            [324.55, 65.01],
+            [324.42, 60.57],
+            [323.92, 59.5],
+            [322.45, 60.18],
+            [321.14, 58.01],
+            [314.77, 60.51],
+            [313.74, 61.88],
+            [315.39, 64.33],
+            [314.99, 66.12],
+            [315.06, 71.76],
+            [311.97, 73.2],
+            [307.51, 70.61],
+            [306.3, 71.57],
+            [306.62, 72.41],
+            [310.8, 74.95],
+            [308.88, 76.7],
+            [310.38, 78.95],
+            [315.23, 79.84],
+            [316.73, 76.6],
+            [319.99, 77.38],
+            [321.01, 67.35],
+            [328.87, 68.16],
+            [328.16, 76.11],
+            [324.28, 75.77],
+            [324.05, 77.66],
+            [326.27, 80.76],
+            [326.96, 83.74],
+            [332.04, 84.18],
+            [331.82, 86.8],
+            [326.99, 87.03],
+            [327.3, 90.88],
+            [324.59, 92.7],
+            [323.54, 95.75],
+            [321.39, 97.99],
+            [317.36, 101.05],
+            [313.03, 102.83],
+            [308.36, 103.05],
+            [304.23, 103.54],
+            [304.21, 104.62],
+            [312.01, 107.08],
+            [311.61, 116.05],
+            [309.33, 118.54],
+            [306.87, 117.35],
+            [300.65, 118.29],
+            [298.13, 119.38],
+            [296.32, 115.96],
+            [297.92, 113.42],
+            [298.43, 109.67],
+            [296.62, 103.27],
+            [298.87, 102.49],
+            [299.96, 99.96],
+            [301.8, 99.31],
+            [304.89, 98.75],
+            [306.5, 98.83],
+            [307.97, 98.01],
+            [310.41, 98.39],
+            [313.97, 97.18],
+            [316.12, 96.61],
+            [318.14, 94.79],
+            [319.42, 92.74],
+            [317.55, 91.93],
+            [315.87, 92.53],
+            [313.87, 91.96],
+            [311.97, 94.82],
+            [309.85, 95.95],
+            [307.46, 95.16],
+            [300.84, 94.33],
+            [298.18, 91.18],
+            [296.02, 88.94],
+            [293.05, 87.86],
+            [292.77, 84.05],
+            [297.6, 84.3],
+            [298.16, 83.92],
+            [292.41, 83.23],
+            [293.17, 75.22],
+            [289.18, 74.92],
+            [289.55, 71.2],
+            [297.16, 71.96],
+            [296.47, 79.83],
+            [299.11, 80.06],
+            [300.75, 77.22],
+            [298.79, 72.78],
+            [300.94, 72.0],
+            [300.29, 64.15],
+            [303.31, 63.53],
+            [308.4, 66.04],
+            [309.0, 64.2],
+            [304.77, 61.95],
+            [301.45, 61.32],
+            [301.01, 59.79],
+            [296.13, 57.98],
+            [295.0, 55.69],
+            [289.8, 56.74],
+            [287.2, 56.09],
+            [280.24, 57.79],
+            [279.79, 60.52],
+            [282.18, 72.24],
+            [287.34, 72.69],
+            [284.54, 75.45],
+            [281.73, 75.11],
+            [281.75, 80.64],
+            [279.91, 85.5],
+            [280.65, 92.22],
+            [279.36, 97.12],
+            [286.4, 96.56],
+            [286.28, 109.08]
+          ],
+          "heights": [43.278, 64.178]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578282 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-evil-forest0-578283",
+      "name": "Collision_wall_evil_forest0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [302.08, 135.55],
+            [304.29, 140.11],
+            [309.08, 139.6],
+            [311.23, 141.24],
+            [317.5, 140.96],
+            [321.41, 139.28],
+            [322.33, 137.22],
+            [326.31, 137.05],
+            [327.0, 141.72],
+            [327.05, 145.54],
+            [324.16, 149.36],
+            [326.51, 154.9],
+            [326.9, 159.13],
+            [323.78, 162.67],
+            [320.1, 161.65],
+            [314.86, 162.47],
+            [310.61, 164.36],
+            [308.59, 166.31],
+            [310.96, 172.1],
+            [314.12, 171.41],
+            [317.16, 173.04],
+            [320.58, 171.79],
+            [323.24, 172.78],
+            [327.55, 169.32],
+            [331.6, 165.61],
+            [331.14, 138.16],
+            [335.06, 132.06],
+            [352.48, 131.79],
+            [354.85, 134.54],
+            [354.46, 136.15],
+            [348.95, 139.21],
+            [349.8, 140.82],
+            [351.77, 141.92],
+            [358.52, 136.69],
+            [359.95, 134.65],
+            [365.46, 133.52],
+            [368.11, 135.27],
+            [372.33, 134.39],
+            [372.31, 130.72],
+            [374.77, 130.33],
+            [371.88, 127.75],
+            [374.1, 121.49],
+            [377.19, 123.65],
+            [383.64, 117.08],
+            [392.44, 115.28],
+            [396.67, 113.75],
+            [400.7, 109.22],
+            [405.87, 106.85],
+            [407.06, 107.35],
+            [407.87, 106.36],
+            [413.46, 107.28],
+            [420.69, 107.5],
+            [420.25, 109.51],
+            [416.53, 109.9],
+            [414.23, 110.84],
+            [410.54, 110.9],
+            [407.92, 111.54],
+            [406.62, 112.8],
+            [408.96, 115.25],
+            [411.13, 116.07],
+            [413.4, 116.66],
+            [413.78, 118.3],
+            [416.61, 119.49],
+            [416.72, 120.85],
+            [416.9, 121.03],
+            [418.97, 122.07],
+            [420.9, 120.93],
+            [424.95, 122.3],
+            [428.03, 120.49],
+            [435.09, 121.01],
+            [436.07, 123.66],
+            [434.36, 127.65],
+            [433.46, 128.68],
+            [435.68, 128.85],
+            [439.15, 123.85],
+            [441.09, 123.75],
+            [444.68, 122.4],
+            [446.49, 120.89],
+            [448.7, 121.74],
+            [449.52, 125.16],
+            [449.66, 129.56],
+            [452.66, 132.54],
+            [452.89, 134.54],
+            [455.16, 136.24],
+            [455.44, 144.22],
+            [453.81, 144.64],
+            [453.06, 147.15],
+            [447.99, 148.33],
+            [448.02, 150.6],
+            [445.92, 150.38],
+            [445.41, 147.33],
+            [443.66, 146.86],
+            [442.45, 148.93],
+            [440.42, 147.67],
+            [441.74, 141.29],
+            [441.74, 137.51],
+            [439.9, 135.2],
+            [436.52, 135.28],
+            [431.94, 135.19],
+            [427.98, 135.13],
+            [427.05, 132.62],
+            [429.13, 129.09],
+            [429.37, 127.18],
+            [428.0, 127.17],
+            [425.68, 129.55],
+            [424.1, 129.56],
+            [422.42, 131.36],
+            [419.86, 130.69],
+            [419.26, 133.0],
+            [421.03, 135.05],
+            [426.55, 139.14],
+            [430.44, 139.01],
+            [433.13, 138.6],
+            [433.49, 139.7],
+            [429.43, 141.93],
+            [430.21, 143.43],
+            [431.95, 144.07],
+            [431.24, 145.37],
+            [432.2, 147.08],
+            [431.51, 150.85],
+            [432.42, 153.24],
+            [431.02, 155.56],
+            [431.78, 157.69],
+            [430.18, 160.46],
+            [429.11, 164.73],
+            [427.6, 165.87],
+            [424.07, 167.75],
+            [419.36, 168.29],
+            [418.68, 166.65],
+            [418.01, 166.9],
+            [418.07, 183.9],
+            [420.36, 184.69],
+            [432.85, 184.82]
+          ],
+          "heights": [42.08, 57.08]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578283 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-small-area3-578284",
+      "name": "Collision_wall_small_area3",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [346.17, 160.0],
+            [345.54, 164.77],
+            [351.63, 164.28],
+            [353.33, 162.67],
+            [356.09, 156.17],
+            [358.84, 155.11],
+            [357.09, 147.65],
+            [355.63, 146.54],
+            [346.17, 149.44],
+            [343.78, 153.64],
+            [344.41, 154.71],
+            [346.82, 150.18],
+            [351.39, 149.47],
+            [354.07, 152.79],
+            [354.62, 155.93],
+            [352.52, 158.8],
+            [349.06, 157.7]
+          ],
+          "heights": [44.823, 59.823]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578284 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-small-area4-578285",
+      "name": "Collision_wall_small_area4",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [372.91, 147.06],
+            [372.87, 151.05],
+            [375.04, 153.49],
+            [376.98, 152.6],
+            [377.24, 150.22],
+            [374.82, 146.58]
+          ],
+          "heights": [43.896, 58.896]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578285 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-small-area5-578286",
+      "name": "Collision_wall_small_area5",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [337.25, 143.76],
+            [335.44, 147.39],
+            [337.72, 148.71],
+            [340.39, 147.33],
+            [341.73, 143.96],
+            [339.87, 142.8]
+          ],
+          "heights": [43.292, 58.292]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578286 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-evil-forest-2-578287",
+      "name": "Collision_wall_evil_forest_2",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [389.89, 185.22],
+            [389.95, 188.55],
+            [393.87, 192.63],
+            [392.83, 195.74],
+            [395.45, 198.07],
+            [394.99, 204.0],
+            [394.88, 209.24],
+            [391.42, 208.14],
+            [386.43, 210.53],
+            [383.67, 212.22],
+            [382.97, 215.85],
+            [383.32, 218.72],
+            [378.26, 218.8],
+            [379.81, 213.3],
+            [380.44, 207.45],
+            [379.61, 202.76],
+            [377.0, 197.68],
+            [374.21, 192.9],
+            [374.6, 187.64],
+            [373.46, 183.24],
+            [372.72, 180.18],
+            [378.06, 174.56],
+            [381.03, 173.33],
+            [377.59, 170.35],
+            [373.77, 167.77],
+            [371.44, 170.04],
+            [367.32, 168.18],
+            [364.01, 171.76],
+            [359.09, 170.83],
+            [357.42, 172.11],
+            [357.81, 175.99],
+            [359.96, 179.27],
+            [359.67, 181.76],
+            [357.52, 182.7],
+            [352.01, 176.81],
+            [353.42, 172.65],
+            [350.28, 173.23],
+            [348.45, 179.18],
+            [344.45, 178.28],
+            [342.2, 176.12],
+            [342.87, 188.96],
+            [345.79, 194.96],
+            [345.34, 197.72],
+            [342.89, 198.39],
+            [342.75, 196.92],
+            [337.6, 195.42],
+            [335.04, 196.36],
+            [330.76, 193.42],
+            [322.19, 196.89],
+            [319.02, 198.31],
+            [315.13, 198.02],
+            [312.32, 192.32],
+            [310.41, 191.4],
+            [312.45, 189.14],
+            [311.75, 187.86],
+            [309.16, 188.41],
+            [307.43, 184.88],
+            [306.77, 182.11],
+            [304.18, 180.78],
+            [303.58, 176.82],
+            [303.88, 175.48],
+            [301.74, 173.93],
+            [301.11, 171.71],
+            [297.14, 167.84]
+          ],
+          "heights": [43.754, 58.754]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578287 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-fairy1-578288",
+      "name": "Collision_wall_fairy1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [430.98, 183.95],
+            [428.16, 190.3],
+            [428.39, 192.14],
+            [425.51, 194.55],
+            [421.97, 198.5],
+            [424.7, 202.39],
+            [422.18, 206.03],
+            [426.23, 209.07],
+            [429.63, 211.62],
+            [428.32, 212.62],
+            [422.58, 211.17],
+            [422.2, 211.51],
+            [428.69, 213.09],
+            [433.03, 212.99],
+            [437.61, 214.03],
+            [440.63, 214.95],
+            [443.21, 217.36],
+            [443.73, 219.28],
+            [443.66, 221.55],
+            [444.16, 220.39],
+            [444.11, 217.45],
+            [440.33, 214.24],
+            [434.25, 212.34],
+            [435.01, 209.89],
+            [431.48, 207.08],
+            [434.24, 203.2],
+            [437.44, 205.04],
+            [446.04, 204.1],
+            [449.2, 206.16],
+            [453.43, 207.33],
+            [453.48, 210.42],
+            [455.78, 212.42],
+            [456.59, 218.32],
+            [457.07, 220.74],
+            [456.43, 222.73],
+            [455.46, 223.63],
+            [456.37, 223.56],
+            [457.33, 222.46],
+            [457.97, 219.71],
+            [457.36, 217.85],
+            [457.1, 216.4],
+            [457.46, 215.0],
+            [457.18, 211.55],
+            [464.24, 211.36],
+            [464.21, 212.93],
+            [464.74, 212.75],
+            [464.4, 210.7],
+            [461.59, 210.29],
+            [462.02, 208.4],
+            [463.57, 203.25],
+            [465.98, 201.04],
+            [471.59, 200.14],
+            [474.13, 201.75],
+            [482.79, 210.35],
+            [481.57, 218.92],
+            [478.51, 221.96],
+            [477.66, 222.87],
+            [477.6, 223.98],
+            [478.21, 226.48],
+            [478.43, 231.81],
+            [478.43, 239.29],
+            [480.01, 240.2],
+            [479.94, 242.33],
+            [479.53, 242.89],
+            [479.57, 246.39],
+            [473.05, 246.35],
+            [473.19, 244.08],
+            [464.56, 243.87],
+            [464.68, 244.3],
+            [471.16, 244.58],
+            [472.34, 247.13],
+            [484.82, 252.2],
+            [483.41, 256.6],
+            [473.84, 263.37],
+            [470.77, 262.77],
+            [467.8, 266.88],
+            [467.45, 270.29],
+            [467.78, 273.83],
+            [470.42, 275.34],
+            [468.79, 277.03],
+            [469.14, 278.8],
+            [467.94, 280.06],
+            [469.93, 285.7],
+            [468.61, 286.72],
+            [465.21, 282.78],
+            [464.26, 282.19],
+            [463.86, 281.53],
+            [462.63, 281.55],
+            [459.6, 280.12],
+            [453.48, 281.6],
+            [452.22, 283.74],
+            [449.75, 282.92],
+            [450.58, 280.44],
+            [451.55, 276.72],
+            [450.56, 276.73],
+            [448.86, 278.58],
+            [442.7, 277.48],
+            [443.25, 275.98],
+            [442.47, 275.08],
+            [443.59, 271.85],
+            [445.74, 271.51],
+            [447.73, 263.54],
+            [447.24, 263.4],
+            [445.26, 270.05],
+            [442.75, 269.06],
+            [440.95, 267.88],
+            [436.61, 264.25],
+            [435.31, 262.56],
+            [433.44, 263.07],
+            [430.62, 262.27],
+            [426.47, 261.5],
+            [419.31, 264.51],
+            [418.29, 265.95],
+            [426.41, 266.12],
+            [436.43, 274.23],
+            [437.17, 282.47],
+            [439.21, 286.29],
+            [437.87, 291.72],
+            [434.36, 291.19],
+            [431.33, 289.44],
+            [431.12, 291.9],
+            [435.73, 293.68],
+            [439.59, 295.5]
+          ],
+          "heights": [42.11, 57.11]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578288 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-small-area6-578289",
+      "name": "Collision_wall_small_area6",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [427.96, 219.7],
+            [435.27, 221.32],
+            [436.75, 217.92],
+            [438.35, 218.52],
+            [440.21, 220.8],
+            [440.59, 220.75],
+            [440.41, 219.52],
+            [438.71, 217.96],
+            [436.71, 217.03],
+            [435.68, 217.54],
+            [435.09, 220.13],
+            [432.74, 220.01],
+            [432.41, 220.41],
+            [429.21, 219.51],
+            [429.61, 217.19],
+            [421.4, 214.38],
+            [421.14, 214.82],
+            [426.29, 216.67],
+            [424.31, 221.32],
+            [424.84, 221.73]
+          ],
+          "heights": [41.676, 56.676]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578289 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-small-area7-578290",
+      "name": "Collision_wall_small_area7",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [454.51, 233.95],
+            [453.38, 236.41],
+            [455.55, 238.85],
+            [459.72, 237.75],
+            [458.96, 235.42]
+          ],
+          "heights": [41.053, 56.053]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578290 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-troll-area0-578291",
+      "name": "Collision_wall_troll_area0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [423.85, 294.61],
+            [425.59, 289.53],
+            [424.25, 287.24],
+            [425.02, 283.2],
+            [428.16, 283.33],
+            [431.4, 285.46],
+            [433.03, 284.82],
+            [432.86, 283.27],
+            [429.68, 279.49],
+            [428.65, 281.48],
+            [425.42, 280.52],
+            [425.38, 277.55],
+            [418.58, 276.11],
+            [419.1, 282.55],
+            [420.26, 284.28],
+            [420.17, 289.68],
+            [415.98, 288.97],
+            [414.56, 291.47],
+            [408.94, 291.25],
+            [403.99, 287.99],
+            [403.62, 285.68],
+            [399.52, 286.03],
+            [397.33, 282.99],
+            [396.56, 279.49],
+            [400.71, 274.08],
+            [408.55, 273.59],
+            [409.84, 268.83],
+            [414.12, 267.88],
+            [413.99, 266.61],
+            [411.37, 266.47],
+            [407.8, 267.08],
+            [405.07, 264.69],
+            [404.85, 262.42],
+            [401.89, 263.76],
+            [400.78, 262.42],
+            [404.5, 259.28],
+            [404.34, 258.03],
+            [412.58, 252.74],
+            [414.83, 254.77],
+            [415.75, 252.98],
+            [414.89, 252.18],
+            [412.68, 252.32],
+            [411.17, 253.08],
+            [403.83, 257.64],
+            [403.47, 259.36],
+            [398.22, 262.32],
+            [394.59, 256.47],
+            [399.72, 253.6],
+            [400.93, 254.99],
+            [402.36, 254.59],
+            [410.97, 248.91],
+            [414.18, 248.73],
+            [416.35, 249.58],
+            [418.29, 251.73],
+            [418.58, 251.38],
+            [416.83, 249.22],
+            [414.86, 248.22],
+            [419.52, 242.77],
+            [422.13, 242.38],
+            [425.66, 249.65],
+            [427.31, 249.9],
+            [429.22, 249.0],
+            [430.68, 247.54],
+            [435.39, 254.79],
+            [442.2, 250.75],
+            [443.04, 248.97],
+            [445.43, 246.82],
+            [446.44, 244.56],
+            [446.93, 242.23],
+            [447.91, 241.4],
+            [446.28, 241.06],
+            [445.44, 240.27],
+            [445.96, 242.66],
+            [445.79, 244.75],
+            [444.19, 247.3],
+            [442.23, 248.63],
+            [440.22, 250.45],
+            [440.01, 251.7],
+            [436.44, 253.76],
+            [435.47, 253.63],
+            [427.35, 240.56],
+            [424.89, 241.98],
+            [421.1, 235.64],
+            [426.32, 232.61],
+            [428.79, 234.36],
+            [430.96, 233.04],
+            [432.02, 230.43],
+            [431.49, 230.05],
+            [430.56, 232.78],
+            [428.92, 233.41],
+            [427.37, 231.48],
+            [425.58, 227.42],
+            [424.83, 226.74],
+            [424.2, 228.65],
+            [425.28, 231.51],
+            [420.1, 234.92],
+            [414.06, 230.51],
+            [414.73, 227.99],
+            [412.07, 226.29],
+            [412.01, 221.4],
+            [414.39, 221.79],
+            [414.87, 219.31],
+            [410.51, 212.37],
+            [410.68, 205.82],
+            [410.85, 202.34],
+            [407.88, 198.44],
+            [410.48, 194.73],
+            [409.67, 191.53],
+            [407.28, 190.63],
+            [408.1, 188.36],
+            [405.82, 187.05],
+            [405.84, 181.6],
+            [410.95, 181.46],
+            [410.58, 183.08],
+            [412.46, 183.9],
+            [414.93, 183.79],
+            [414.98, 166.75],
+            [413.71, 166.75],
+            [413.55, 165.22],
+            [415.02, 162.97],
+            [414.3, 159.37],
+            [413.14, 157.78],
+            [412.98, 153.09],
+            [414.11, 151.44],
+            [412.1, 149.08],
+            [412.13, 142.79],
+            [414.09, 138.54],
+            [411.49, 138.2],
+            [410.24, 132.94],
+            [407.21, 131.1],
+            [401.77, 129.54],
+            [396.84, 130.18],
+            [391.01, 133.12],
+            [393.49, 135.99],
+            [396.25, 137.66],
+            [397.56, 141.37],
+            [398.32, 145.19],
+            [395.87, 149.68],
+            [394.16, 152.59],
+            [391.71, 153.17],
+            [391.87, 155.35],
+            [392.88, 156.94],
+            [395.16, 158.37],
+            [397.39, 161.28],
+            [398.53, 164.04],
+            [394.79, 168.0],
+            [392.07, 170.92],
+            [390.66, 172.17],
+            [387.51, 172.5],
+            [387.9, 174.08],
+            [390.66, 175.65],
+            [389.89, 185.22]
+          ],
+          "heights": [41.032, 56.032]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578291 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-small-area8-578292",
+      "name": "Collision_wall_small_area8",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [457.36, 251.63],
+            [456.23, 254.09],
+            [458.4, 256.53],
+            [460.66, 256.42],
+            [461.35, 253.68]
+          ],
+          "heights": [39.091, 54.091]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578292 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-evil-fort0-578293",
+      "name": "Collision_wall_evil_fort0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [437.82, 294.0],
+            [439.42, 296.98],
+            [439.3, 307.05],
+            [436.16, 307.95],
+            [432.46, 306.52],
+            [431.29, 305.56],
+            [430.9, 307.3],
+            [434.07, 310.34],
+            [434.17, 311.31],
+            [436.84, 311.26],
+            [437.17, 313.97],
+            [438.96, 314.07],
+            [441.04, 314.66],
+            [442.31, 314.05],
+            [443.01, 315.37],
+            [441.83, 316.98],
+            [443.38, 318.25],
+            [444.62, 318.41],
+            [445.0, 319.66],
+            [445.02, 321.59],
+            [447.79, 322.06],
+            [447.79, 329.14],
+            [446.6, 329.89],
+            [446.84, 334.5],
+            [451.0, 334.49],
+            [451.0, 341.01],
+            [448.95, 340.83],
+            [446.02, 343.91],
+            [440.95, 342.95],
+            [434.91, 343.45],
+            [434.91, 357.55],
+            [434.54, 359.7],
+            [433.73, 360.86],
+            [433.85, 363.03],
+            [434.91, 377.5],
+            [427.91, 377.5],
+            [429.47, 361.5],
+            [429.21, 360.38],
+            [428.38, 359.58],
+            [428.01, 357.68],
+            [428.01, 342.93],
+            [424.07, 342.93],
+            [424.07, 329.17],
+            [425.68, 328.51],
+            [425.82, 326.85],
+            [429.4, 326.67],
+            [428.97, 325.9],
+            [425.43, 325.31],
+            [423.65, 323.32],
+            [421.57, 323.09],
+            [418.11, 325.32],
+            [414.78, 323.75],
+            [414.59, 321.46],
+            [414.2, 320.79],
+            [414.45, 317.99],
+            [414.5, 317.49],
+            [412.07, 317.49],
+            [412.1, 318.53],
+            [412.64, 318.55],
+            [413.66, 319.74],
+            [413.64, 320.53],
+            [412.39, 321.7],
+            [403.73, 321.6],
+            [402.55, 320.42],
+            [402.61, 311.82],
+            [403.67, 310.62],
+            [411.77, 310.59],
+            [411.77, 314.51],
+            [414.45, 314.51],
+            [414.92, 312.81],
+            [423.51, 312.3],
+            [425.76, 309.98],
+            [424.56, 303.28],
+            [424.77, 299.04],
+            [429.51, 300.07],
+            [430.95, 301.09],
+            [433.18, 301.33],
+            [433.02, 299.38],
+            [428.87, 297.45],
+            [427.01, 296.69],
+            [427.08, 294.39],
+            [422.47, 293.65]
+          ],
+          "heights": [48.522, 63.522]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578293 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-small-area9-578294",
+      "name": "Collision_wall_small_area9",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [179.65, 194.71],
+            [174.68, 203.2],
+            [171.77, 207.42],
+            [173.39, 213.19],
+            [178.32, 209.89],
+            [182.63, 201.87],
+            [188.96, 200.58],
+            [184.82, 194.88]
+          ],
+          "heights": [52.0, 67.0]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578294 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-small-area10-578295",
+      "name": "Collision_wall_small_area10",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [438.13, 244.59],
+            [439.54, 246.9],
+            [441.61, 245.05],
+            [442.88, 242.63],
+            [442.42, 241.91],
+            [441.16, 245.07],
+            [439.56, 245.49],
+            [438.16, 243.65],
+            [434.71, 245.65],
+            [430.82, 239.15],
+            [431.99, 236.52],
+            [433.94, 235.5],
+            [435.27, 233.77],
+            [435.62, 230.53],
+            [435.24, 228.62],
+            [434.75, 228.38],
+            [435.21, 230.94],
+            [434.73, 233.26],
+            [433.13, 235.48],
+            [431.22, 236.63],
+            [430.24, 239.13],
+            [434.6, 246.62]
+          ],
+          "heights": [43.294, 58.294]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578295 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-small-area11-578296",
+      "name": "Collision_wall_small_area11",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [460.01, 224.92],
+            [457.75, 226.4],
+            [455.53, 226.53],
+            [455.49, 226.9],
+            [458.04, 227.06],
+            [460.66, 225.14],
+            [462.6, 219.73],
+            [466.2, 218.62],
+            [466.24, 217.16],
+            [464.29, 217.22],
+            [464.02, 218.44],
+            [461.58, 218.23],
+            [461.36, 221.97]
+          ],
+          "heights": [43.81, 58.81]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578296 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-small-area12-578297",
+      "name": "Collision_wall_small_area12",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [474.48, 231.51],
+            [474.37, 238.53],
+            [471.93, 238.79],
+            [471.24, 240.1],
+            [464.97, 240.19],
+            [464.67, 240.78],
+            [471.91, 240.85],
+            [474.78, 240.23],
+            [475.3, 238.78],
+            [474.9, 230.37],
+            [471.65, 230.56],
+            [471.51, 228.14],
+            [470.9, 227.81],
+            [471.07, 224.52],
+            [471.69, 224.13],
+            [471.66, 221.97],
+            [470.72, 221.44],
+            [470.09, 222.32],
+            [470.63, 231.21]
+          ],
+          "heights": [44.436, 59.436]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578297 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/5210/wall-collision-wall-small-area13-578298",
+      "name": "Collision_wall_small_area13",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [450.68, 264.32],
+            [448.94, 271.15],
+            [449.06, 272.73],
+            [450.56, 272.91],
+            [450.6, 271.6],
+            [449.63, 270.91],
+            [451.06, 264.82]
+          ],
+          "heights": [45.016, 60.016]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:5210 uniqueid 578298 (extract_server_areas.py)"
     }
   ]
 }

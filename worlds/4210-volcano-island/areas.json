@@ -231,6 +231,3607 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/4210/res-rivercrossing",
+      "name": "res_rivercrossing",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [164.96, 108.97],
+            [182.25, 108.92],
+            [184.55, 130.68],
+            [163.87, 128.5]
+          ],
+          "heights": [69.273, 79.273]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 197760; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/res-volcanoentrance",
+      "name": "res_volcanoentrance",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [229.86, 275.41],
+            [248.4, 276.5],
+            [246.49, 299.31],
+            [228.34, 297.96]
+          ],
+          "heights": [97.708, 107.708]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 197761; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/res-volcanoend",
+      "name": "res_volcanoend",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [261.93, 344.47],
+            [287.23, 339.89],
+            [287.6, 367.42],
+            [260.92, 367.11]
+          ],
+          "heights": [96.007, 106.007]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 197762; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/res-pirategrotto",
+      "name": "res_pirategrotto",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [450.5, 463.86],
+            [485.38, 465.94],
+            [484.55, 484.3],
+            [438.73, 495.16]
+          ],
+          "heights": [66.384, 76.384]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 197763; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/res-footofthevolcano",
+      "name": "res_footofthevolcano",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [96.35, 192.56],
+            [130.87, 190.98],
+            [126.62, 203.67],
+            [112.73, 210.79],
+            [101.76, 203.77]
+          ],
+          "heights": [69.273, 79.273]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 448304; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/res-scorchedcity",
+      "name": "res_scorchedcity",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [374.37, 341.43],
+            [401.52, 342.35],
+            [404.08, 350.7],
+            [404.52, 358.21],
+            [385.43, 362.12],
+            [373.19, 359.42]
+          ],
+          "heights": [77.107, 87.107]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 448305; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/clearhate-rivercrossing",
+      "name": "ClearHate_rivercrossing",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [164.96, 108.97],
+            [182.25, 108.92],
+            [184.55, 130.68],
+            [163.87, 128.5]
+          ],
+          "heights": [69.273, 79.273]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 623197; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/clearhate-volcanoentrance",
+      "name": "ClearHate_volcanoentrance",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [229.86, 275.41],
+            [248.4, 276.5],
+            [246.49, 299.31],
+            [228.34, 297.96]
+          ],
+          "heights": [97.708, 107.708]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 623198; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/clearhate-volcanoend",
+      "name": "ClearHate_volcanoend",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [261.93, 344.47],
+            [287.23, 339.89],
+            [287.6, 367.42],
+            [260.92, 367.11]
+          ],
+          "heights": [96.007, 106.007]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 623199; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/clearhate-pirategrotto",
+      "name": "ClearHate_pirategrotto",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [450.5, 463.86],
+            [485.38, 465.94],
+            [484.55, 484.3],
+            [438.73, 495.16]
+          ],
+          "heights": [66.384, 76.384]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 623200; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/clearhate-footofthevolcano",
+      "name": "ClearHate_footofthevolcano",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [96.35, 192.56],
+            [130.87, 190.98],
+            [126.62, 203.67],
+            [112.73, 210.79],
+            [101.76, 203.77]
+          ],
+          "heights": [69.273, 79.273]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 623201; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/clearhate-scorchedcity",
+      "name": "ClearHate_scorchedcity",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [374.37, 341.43],
+            [401.52, 342.35],
+            [404.08, 350.7],
+            [404.52, 358.21],
+            [385.43, 362.12],
+            [373.19, 359.42]
+          ],
+          "heights": [77.107, 87.107]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 623202; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/clearhate-beach",
+      "name": "ClearHate_Beach",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [76.88, 41.11],
+            [90.57, 34.89],
+            [100.96, 45.46],
+            [90.02, 68.09],
+            [84.94, 83.73],
+            [77.69, 85.04],
+            [71.63, 69.73]
+          ],
+          "heights": [63.579, 73.579]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 623204; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/res-beach",
+      "name": "res_beach",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [84.45, 33.82],
+            [101.73, 33.77],
+            [104.03, 55.54],
+            [70.38, 48.17]
+          ],
+          "heights": [61.439, 71.439]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 636116; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/fallthroughworld",
+      "name": "FallThroughWorld",
+      "role": "kill",
+      "shape": {
+        "polygon": {
+          "points": [
+            [21.51, 495.45],
+            [7.26, 6.39],
+            [496.76, 6.64],
+            [503.32, 502.02]
+          ],
+          "heights": [-0.25, 9.75]
+        }
+      },
+      "category": "kill_volume",
+      "scry": 24774,
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 356289; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-spawnshamans",
+      "name": "ba_SpawnShamans",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [185.89, 84.94],
+            [189.59, 54.66],
+            [267.13, 67.28],
+            [258.55, 119.42],
+            [213.76, 126.37]
+          ],
+          "heights": [70.854, 80.854]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601817 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-pickup-cauldronbuff-1",
+      "name": "ba_pickup_cauldronbuff_1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [210.28, 91.09],
+            [211.51, 91.68],
+            [210.36, 92.38]
+          ],
+          "heights": [73.098, 83.098]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601827 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-pickup-cauldronbuff-2",
+      "name": "ba_pickup_cauldronbuff_2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [211.54, 86.19],
+            [212.77, 86.79],
+            [211.63, 87.48]
+          ],
+          "heights": [73.098, 83.098]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601838 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-pickup-cauldronbuff-3",
+      "name": "ba_pickup_cauldronbuff_3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [208.55, 83.45],
+            [209.78, 84.04],
+            [208.64, 84.74]
+          ],
+          "heights": [73.098, 83.098]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601839 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-pickup-cauldronbuff-4",
+      "name": "ba_pickup_cauldronbuff_4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [218.83, 82.6],
+            [220.05, 83.2],
+            [218.91, 83.89]
+          ],
+          "heights": [73.098, 83.098]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601840 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-pickup-cauldronbuff-5",
+      "name": "ba_pickup_cauldronbuff_5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [220.38, 87.35],
+            [221.61, 87.95],
+            [220.46, 88.64]
+          ],
+          "heights": [73.098, 83.098]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601841 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-hermitspawn",
+      "name": "BA_HermitSpawn",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [176.05, 307.1],
+            [186.05, 312.1],
+            [181.05, 317.1]
+          ],
+          "heights": [0.0, 10.0]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 225748 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-monkey-patrol-1",
+      "name": "ba_monkey_patrol_1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [182.68, 281.21],
+            [193.69, 303.55],
+            [184.85, 296.36]
+          ],
+          "heights": [85.03, 95.03]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601189 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-section-2-fire-hound-patrol",
+      "name": "ba_Section 2 Fire Hound Patrol",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [168.95, 365.84],
+            [192.43, 360.35],
+            [231.67, 397.13],
+            [220.07, 410.43],
+            [182.13, 388.54]
+          ],
+          "heights": [95.184, 105.184]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601373 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-lavabricks1",
+      "name": "BA_Lavabricks1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [180.25, 282.05],
+            [188.96, 291.62],
+            [193.83, 306.24]
+          ],
+          "heights": [82.876, 92.876]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 241145 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-lavabricks2",
+      "name": "BA_Lavabricks2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [161.92, 356.1],
+            [173.75, 350.84],
+            [189.16, 350.81]
+          ],
+          "heights": [96.025, 106.025]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 241146 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-lavabricks3",
+      "name": "BA_Lavabricks3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [174.52, 383.09],
+            [170.71, 362.35],
+            [181.72, 379.57],
+            [192.51, 384.1]
+          ],
+          "heights": [96.136, 106.136]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 241147 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-lavabricks4",
+      "name": "BA_Lavabricks4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [204.81, 403.93],
+            [209.06, 391.71],
+            [219.57, 380.44]
+          ],
+          "heights": [95.715, 105.715]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 241148 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-lavabricks5",
+      "name": "BA_Lavabricks5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [217.76, 367.57],
+            [225.83, 369.23],
+            [238.49, 375.7]
+          ],
+          "heights": [76.663, 86.663]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 241149 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-lavabricks6",
+      "name": "BA_Lavabricks6",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [217.41, 338.26],
+            [219.66, 347.02],
+            [215.12, 355.31]
+          ],
+          "heights": [95.785, 105.785]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 241150 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-lavabricks7",
+      "name": "BA_Lavabricks7",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [278.24, 339.43],
+            [282.34, 351.71],
+            [280.9, 367.05]
+          ],
+          "heights": [96.13, 106.13]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 241151 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-lavabricks8",
+      "name": "BA_Lavabricks8",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [225.73, 282.09],
+            [238.67, 282.04],
+            [252.79, 288.22]
+          ],
+          "heights": [97.961, 107.961]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 241152 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-fireballs-section-1",
+      "name": "ba_fireballs section 1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [161.0, 325.0],
+            [159.0, 283.0],
+            [218.0, 277.0],
+            [215.0, 308.0]
+          ],
+          "heights": [84.0, 94.0]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 600468 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-fireballs-section-2",
+      "name": "ba_fireballs section 2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [234.47, 405.83],
+            [168.06, 401.84],
+            [160.44, 328.59],
+            [185.98, 333.12]
+          ],
+          "heights": [96.906, 106.906]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601364 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-fireballs-section-3",
+      "name": "ba_fireballs section 3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [204.98, 354.71],
+            [200.45, 326.95],
+            [243.65, 324.69],
+            [255.57, 351.11]
+          ],
+          "heights": [96.957, 106.957]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601724 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-firehound-trap-trigger-1",
+      "name": "ba_firehound trap trigger_1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [171.02, 358.21],
+            [165.38, 350.57],
+            [182.62, 342.58],
+            [183.28, 357.75],
+            [177.47, 362.83]
+          ],
+          "heights": [96.084, 106.084]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 600564 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-firehound-trap-trigger-2",
+      "name": "ba_firehound trap trigger_2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [170.51, 390.22],
+            [172.35, 379.67],
+            [183.93, 380.02],
+            [185.28, 391.28],
+            [176.95, 394.83]
+          ],
+          "heights": [97.005, 107.005]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601267 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-monkey-trap-1",
+      "name": "ba_monkey trap 1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [192.66, 395.2],
+            [191.59, 383.24],
+            [203.82, 379.92],
+            [209.15, 387.25],
+            [204.39, 394.8]
+          ],
+          "heights": [97.86, 107.86]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601284 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-monkey-trap-2",
+      "name": "ba_monkey trap 2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [221.29, 339.35],
+            [218.99, 329.52],
+            [228.75, 325.37],
+            [234.07, 332.71],
+            [229.31, 340.26]
+          ],
+          "heights": [97.495, 107.495]
+        }
+      },
+      "category": "hazard",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 601308 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/story-reachskullisland1",
+      "name": "Story_ReachSkullIsland1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [79.6, 32.7],
+            [74.94, 42.86],
+            [69.77, 38.03]
+          ],
+          "heights": [63.369, 73.369]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 238262 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-head-ghostvillage1",
+      "name": "BA_Head_GhostVillage1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [341.58, 340.42],
+            [362.94, 344.9],
+            [342.65, 363.05]
+          ],
+          "heights": [88.535, 98.535]
+        }
+      },
+      "category": "talking_head",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 439614 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-head-volcanoisland1",
+      "name": "BA_Head_VolcanoIsland1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [83.68, 37.0],
+            [79.01, 47.16],
+            [73.85, 42.33]
+          ],
+          "heights": [63.213, 73.213]
+        }
+      },
+      "category": "talking_head",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 443617 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/story-reachpastvolcano1",
+      "name": "Story_ReachPastVolcano1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [307.22, 345.79],
+            [295.64, 367.05],
+            [301.3, 339.76]
+          ],
+          "heights": [92.769, 102.769]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 444275 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-speedbuff-1",
+      "name": "BA_Speedbuff_1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [179.32, 110.65],
+            [180.59, 109.97],
+            [181.56, 110.36],
+            [182.13, 111.54],
+            [181.61, 112.75],
+            [180.46, 113.1],
+            [179.3, 112.51],
+            [179.0, 111.42]
+          ],
+          "heights": [72.694, 82.694]
+        }
+      },
+      "category": "speed_or_jump",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 447832 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-speedbuff-2",
+      "name": "BA_Speedbuff_2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [106.1, 195.86],
+            [106.4, 194.94],
+            [107.3, 194.26],
+            [108.66, 194.6],
+            [109.26, 195.81],
+            [108.85, 196.89],
+            [107.5, 197.48],
+            [106.53, 196.89]
+          ],
+          "heights": [74.786, 84.786]
+        }
+      },
+      "category": "speed_or_jump",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 447833 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-speedbuff-3",
+      "name": "BA_Speedbuff_3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [235.33, 281.49],
+            [236.5, 280.64],
+            [237.45, 280.81],
+            [238.26, 281.77],
+            [238.11, 283.08],
+            [237.14, 283.78],
+            [235.93, 283.67],
+            [235.24, 282.65]
+          ],
+          "heights": [98.37, 108.37]
+        }
+      },
+      "category": "speed_or_jump",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 447834 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-speedbuff-4",
+      "name": "BA_Speedbuff_4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [266.03, 353.75],
+            [267.14, 353.49],
+            [268.35, 354.15],
+            [268.49, 355.65],
+            [267.58, 356.59],
+            [266.28, 356.48],
+            [265.53, 355.83],
+            [265.48, 354.53]
+          ],
+          "heights": [97.766, 107.766]
+        }
+      },
+      "category": "speed_or_jump",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 447835 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-speedbuff-5",
+      "name": "BA_Speedbuff_5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [392.42, 354.11],
+            [392.99, 353.84],
+            [394.59, 354.09],
+            [395.04, 355.34],
+            [394.49, 356.5],
+            [393.39, 356.96],
+            [392.15, 356.12],
+            [391.96, 354.99]
+          ],
+          "heights": [78.738, 88.738]
+        }
+      },
+      "category": "speed_or_jump",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 447836 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-speedbuff-6",
+      "name": "BA_Speedbuff_6",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [76.37, 67.15],
+            [76.64, 65.97],
+            [77.5, 65.42],
+            [78.85, 65.62],
+            [79.57, 66.83],
+            [79.19, 67.83],
+            [78.08, 68.54],
+            [76.9, 68.13]
+          ],
+          "heights": [63.716, 73.716]
+        }
+      },
+      "category": "speed_or_jump",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 447837 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-cine-dreadlegvolcano1",
+      "name": "BA_Cine_DreadlegVolcano1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [185.39, 207.56],
+            [185.14, 195.56],
+            [196.14, 196.06],
+            [195.39, 208.06]
+          ],
+          "heights": [84.218, 94.218]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:4210 guid 443620 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision0",
+      "name": "BoundedAreaCollision0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [231.83, 234.27],
+            [234.5, 229.37],
+            [235.2, 228.55],
+            [237.15, 229.21],
+            [237.86, 230.08],
+            [239.44, 230.05],
+            [239.93, 228.76],
+            [236.17, 226.92],
+            [233.46, 226.04],
+            [232.68, 225.13],
+            [230.15, 223.94],
+            [225.74, 224.23],
+            [221.76, 223.54],
+            [219.25, 221.91],
+            [218.54, 220.96],
+            [219.09, 219.06],
+            [220.14, 217.2],
+            [219.87, 216.0],
+            [218.23, 216.49],
+            [217.33, 218.7],
+            [214.93, 220.52],
+            [211.61, 222.12],
+            [208.19, 222.76],
+            [205.44, 222.19],
+            [202.77, 222.95],
+            [203.23, 219.07],
+            [202.62, 218.62],
+            [200.1, 218.75],
+            [200.48, 216.65],
+            [200.15, 213.89],
+            [199.98, 211.87],
+            [200.89, 210.76],
+            [200.7, 208.87],
+            [201.12, 206.41],
+            [200.35, 205.61],
+            [201.03, 202.54],
+            [198.75, 202.43],
+            [183.35, 202.74],
+            [181.84, 205.11],
+            [182.12, 208.63],
+            [170.47, 208.11],
+            [169.77, 207.45],
+            [170.34, 204.68],
+            [172.2, 201.52],
+            [171.67, 199.98],
+            [170.6, 200.23],
+            [168.99, 203.24],
+            [167.94, 207.7],
+            [167.97, 211.11],
+            [169.07, 213.58],
+            [171.2, 214.79],
+            [174.22, 214.63],
+            [174.67, 218.0],
+            [173.58, 220.25],
+            [167.01, 220.25],
+            [167.01, 224.56],
+            [164.51, 224.56],
+            [164.51, 221.52],
+            [163.98, 221.52],
+            [164.02, 224.55],
+            [164.5, 224.73],
+            [167.47, 224.73],
+            [167.47, 220.69],
+            [173.5, 220.69],
+            [173.5, 225.81],
+            [176.57, 225.81],
+            [176.57, 227.06],
+            [175.33, 227.99],
+            [175.33, 230.94],
+            [171.62, 230.94],
+            [171.62, 225.73],
+            [171.39, 225.73],
+            [171.39, 229.22],
+            [168.52, 229.22],
+            [167.23, 231.05],
+            [155.49, 231.05],
+            [155.49, 224.78],
+            [160.97, 224.75],
+            [161.0, 221.53],
+            [160.5, 221.53],
+            [160.5, 224.25],
+            [154.84, 224.03],
+            [154.87, 226.47],
+            [149.93, 228.23],
+            [146.64, 230.53],
+            [143.92, 225.66],
+            [141.03, 227.69],
+            [139.43, 225.73],
+            [139.64, 222.06],
+            [143.29, 221.15],
+            [143.48, 218.34],
+            [141.1, 218.85],
+            [136.85, 220.5],
+            [136.26, 220.05],
+            [135.29, 221.42],
+            [133.15, 222.41],
+            [126.37, 218.63],
+            [124.56, 218.46],
+            [120.54, 221.3],
+            [118.73, 220.97],
+            [116.22, 223.13],
+            [112.33, 223.29],
+            [111.37, 221.28],
+            [106.49, 220.67],
+            [104.39, 220.91],
+            [104.0, 222.86],
+            [102.28, 224.07],
+            [103.14, 229.83],
+            [104.37, 231.08],
+            [107.29, 232.8],
+            [110.71, 236.37],
+            [113.21, 238.28],
+            [115.41, 241.28],
+            [119.47, 244.7],
+            [124.19, 248.33],
+            [125.21, 250.58],
+            [127.94, 252.58],
+            [131.37, 253.08],
+            [134.88, 255.74],
+            [136.04, 256.93],
+            [136.89, 262.07],
+            [129.62, 269.3],
+            [128.84, 268.62],
+            [125.13, 269.49],
+            [125.2, 264.4],
+            [119.57, 256.57],
+            [113.39, 250.12],
+            [110.61, 249.44],
+            [107.58, 245.95],
+            [103.99, 241.06],
+            [101.31, 237.61],
+            [98.76, 237.87],
+            [94.02, 236.73],
+            [90.78, 236.87],
+            [90.61, 233.7],
+            [89.92, 226.53],
+            [89.03, 222.89],
+            [89.18, 221.47],
+            [90.31, 218.41],
+            [91.5, 213.98],
+            [96.49, 210.35],
+            [97.38, 207.35],
+            [91.99, 203.43],
+            [91.17, 201.09],
+            [95.11, 200.2],
+            [95.91, 197.37],
+            [97.45, 197.13],
+            [99.03, 200.22],
+            [98.69, 198.7],
+            [99.77, 196.11],
+            [101.73, 195.01],
+            [105.59, 193.73],
+            [110.06, 192.91],
+            [107.03, 177.07],
+            [104.23, 173.61],
+            [104.61, 166.55],
+            [109.95, 164.59],
+            [112.87, 162.13],
+            [118.82, 162.02],
+            [122.06, 156.32],
+            [122.69, 155.01],
+            [121.69, 151.29],
+            [120.55, 150.32],
+            [120.58, 148.2],
+            [120.26, 145.44],
+            [122.55, 145.25],
+            [125.42, 146.12],
+            [125.49, 129.5],
+            [125.33, 128.34],
+            [122.1, 127.01],
+            [121.62, 121.72],
+            [123.32, 120.92],
+            [122.92, 115.12],
+            [122.63, 105.91],
+            [122.96, 102.43],
+            [127.42, 100.22],
+            [129.92, 98.02],
+            [137.42, 98.12],
+            [140.62, 94.12],
+            [139.72, 87.12],
+            [140.92, 83.32],
+            [146.12, 83.12],
+            [148.72, 85.32],
+            [151.83, 83.42],
+            [155.89, 83.21],
+            [161.28, 84.28],
+            [166.04, 87.04],
+            [167.12, 85.13],
+            [159.47, 80.52],
+            [156.85, 80.76],
+            [154.15, 80.67],
+            [150.32, 81.24],
+            [148.72, 80.82],
+            [139.22, 79.62],
+            [138.11, 79.63],
+            [138.0, 78.21],
+            [138.64, 76.23],
+            [140.16, 73.61],
+            [140.1, 72.59],
+            [138.94, 71.95],
+            [136.43, 76.72],
+            [135.84, 78.79],
+            [133.91, 78.99],
+            [132.81, 81.75],
+            [132.74, 86.62],
+            [132.65, 90.41],
+            [128.83, 90.94],
+            [119.65, 92.82],
+            [116.3, 92.16],
+            [112.29, 90.18],
+            [110.57, 91.68],
+            [110.05, 93.46],
+            [110.26, 94.69],
+            [109.54, 95.56],
+            [108.02, 95.15],
+            [106.01, 96.93],
+            [107.28, 99.35],
+            [104.59, 107.6],
+            [104.29, 109.33],
+            [102.72, 110.74],
+            [102.65, 112.38],
+            [103.58, 114.05],
+            [106.66, 114.83],
+            [112.1, 115.01],
+            [112.59, 117.9],
+            [105.64, 120.25],
+            [103.74, 121.5],
+            [105.47, 124.67],
+            [67.9, 124.4],
+            [61.56, 122.05],
+            [59.83, 116.54],
+            [59.58, 78.04],
+            [61.63, 72.51],
+            [65.8, 69.72],
+            [71.29, 69.79],
+            [73.16, 68.97],
+            [75.64, 66.01],
+            [75.53, 57.0],
+            [75.85, 44.48],
+            [76.87, 41.36],
+            [65.77, 30.33],
+            [65.45, 28.74],
+            [65.47, 24.18],
+            [68.37, 24.21],
+            [68.41, 28.58],
+            [79.05, 39.17],
+            [81.64, 37.83],
+            [87.27, 37.5],
+            [90.04, 35.62],
+            [93.64, 38.05],
+            [100.15, 46.67],
+            [102.75, 49.57],
+            [106.63, 50.5],
+            [109.09, 52.66],
+            [109.21, 50.79],
+            [111.67, 52.27],
+            [114.18, 56.1],
+            [116.37, 59.35],
+            [114.66, 62.84],
+            [114.9, 68.66],
+            [115.68, 71.16],
+            [117.91, 71.93],
+            [118.19, 74.97],
+            [117.43, 77.82],
+            [118.65, 81.13],
+            [120.74, 79.9],
+            [120.26, 74.94],
+            [120.31, 68.37],
+            [123.16, 65.94],
+            [128.49, 65.44],
+            [132.38, 62.12],
+            [134.26, 64.8],
+            [138.13, 66.25],
+            [146.74, 66.52],
+            [147.07, 68.72],
+            [146.22, 71.47],
+            [144.66, 73.82],
+            [146.68, 73.81],
+            [148.31, 70.57],
+            [148.76, 65.09],
+            [151.16, 64.91],
+            [152.72, 61.95],
+            [150.68, 57.44],
+            [151.69, 54.01],
+            [156.45, 49.47],
+            [164.05, 45.12],
+            [170.18, 41.91],
+            [182.72, 42.23],
+            [185.98, 48.17],
+            [189.17, 53.78],
+            [187.23, 59.98],
+            [185.35, 61.63],
+            [182.28, 59.94],
+            [182.5, 57.16],
+            [180.92, 56.75],
+            [178.25, 61.93],
+            [182.17, 65.2],
+            [184.3, 70.77],
+            [188.91, 71.95],
+            [190.28, 76.26],
+            [193.51, 76.26],
+            [195.72, 75.43],
+            [197.98, 72.48],
+            [201.26, 70.62],
+            [203.42, 69.3],
+            [207.6, 67.49],
+            [211.82, 67.11],
+            [216.71, 67.22],
+            [221.8, 72.97],
+            [223.08, 75.16],
+            [222.1, 76.27],
+            [222.55, 77.12],
+            [225.64, 77.79],
+            [227.53, 80.04],
+            [227.89, 85.46],
+            [231.83, 86.01],
+            [236.05, 84.14],
+            [244.33, 85.24],
+            [249.6, 84.53],
+            [254.53, 84.87],
+            [258.67, 84.57],
+            [258.87, 104.18],
+            [256.65, 104.07],
+            [255.91, 100.05],
+            [252.59, 100.13],
+            [252.38, 103.76],
+            [249.63, 102.76],
+            [246.85, 100.79],
+            [246.54, 99.46],
+            [243.32, 98.61],
+            [236.6, 97.36],
+            [231.87, 94.95],
+            [231.47, 91.85],
+            [227.87, 91.85],
+            [225.97, 93.55],
+            [227.17, 99.55],
+            [227.01, 101.45],
+            [226.72, 104.25],
+            [223.61, 106.4],
+            [220.43, 107.27],
+            [216.83, 106.72],
+            [213.81, 106.87],
+            [211.7, 108.55],
+            [209.39, 109.03],
+            [206.5, 111.78],
+            [209.41, 116.04],
+            [207.1, 117.65],
+            [206.24, 121.56],
+            [205.36, 124.84],
+            [203.24, 126.01],
+            [201.32, 125.12],
+            [200.12, 122.09],
+            [197.84, 121.35],
+            [196.99, 124.42],
+            [194.88, 126.26],
+            [192.82, 128.34],
+            [186.59, 124.68],
+            [184.94, 122.56],
+            [184.79, 119.13],
+            [182.77, 119.21],
+            [181.91, 118.53],
+            [180.32, 119.73],
+            [178.06, 122.47],
+            [179.46, 124.36],
+            [178.32, 129.17],
+            [178.39, 145.03],
+            [178.24, 150.35],
+            [177.02, 152.99],
+            [174.95, 150.62],
+            [175.33, 145.06],
+            [175.4, 128.9],
+            [173.51, 127.91],
+            [164.07, 127.36],
+            [161.55, 125.49],
+            [158.69, 125.15],
+            [157.68, 124.82],
+            [156.59, 125.65],
+            [155.66, 125.42],
+            [154.48, 124.11],
+            [153.74, 124.93],
+            [150.46, 125.17],
+            [147.87, 127.21],
+            [145.51, 127.69],
+            [137.18, 127.9],
+            [136.87, 125.95],
+            [135.29, 126.09],
+            [132.59, 124.36],
+            [128.47, 129.44],
+            [128.54, 146.23],
+            [131.63, 149.66],
+            [135.7, 152.41],
+            [138.63, 152.17],
+            [138.75, 159.66],
+            [140.79, 159.69],
+            [140.76, 161.62],
+            [138.59, 161.73],
+            [137.95, 167.92],
+            [132.64, 172.75],
+            [130.56, 175.25],
+            [129.57, 175.28],
+            [127.97, 173.32],
+            [125.9, 173.1],
+            [123.84, 173.54],
+            [122.96, 175.45],
+            [115.61, 175.74],
+            [113.02, 172.59],
+            [111.42, 172.82],
+            [110.06, 176.59],
+            [112.99, 192.34],
+            [113.34, 193.47],
+            [119.2, 195.45],
+            [120.02, 197.67],
+            [116.04, 199.12],
+            [116.35, 200.68],
+            [119.94, 199.98],
+            [122.02, 198.39],
+            [123.62, 198.82],
+            [125.74, 196.73],
+            [125.57, 194.87],
+            [126.37, 194.03],
+            [128.73, 193.34],
+            [128.08, 195.86],
+            [128.78, 197.39],
+            [127.89, 199.61],
+            [127.52, 200.71],
+            [126.19, 200.85],
+            [124.64, 203.95],
+            [127.06, 206.51],
+            [136.01, 200.95],
+            [136.01, 195.02],
+            [144.69, 195.08],
+            [150.37, 196.81],
+            [150.37, 199.98],
+            [151.86, 199.98],
+            [151.86, 202.82],
+            [152.28, 202.82],
+            [152.28, 199.42],
+            [150.73, 199.42],
+            [150.82, 193.61],
+            [155.39, 193.61],
+            [157.0, 194.01],
+            [157.0, 199.8],
+            [155.37, 199.8],
+            [155.37, 202.87],
+            [155.82, 202.87],
+            [155.82, 200.02],
+            [157.43, 200.02],
+            [157.43, 197.13],
+            [158.71, 197.06],
+            [161.06, 195.96],
+            [163.44, 195.91],
+            [165.41, 194.74],
+            [167.39, 195.25],
+            [170.35, 193.34],
+            [178.19, 193.32],
+            [178.97, 195.56],
+            [178.68, 198.31],
+            [176.99, 201.51],
+            [178.62, 201.72],
+            [180.2, 198.54],
+            [180.93, 194.67],
+            [182.3, 195.56],
+            [182.24, 198.94],
+            [183.3, 199.73],
+            [198.92, 199.43],
+            [199.91, 194.88],
+            [204.85, 194.12],
+            [208.39, 195.04],
+            [212.06, 197.36],
+            [212.96, 199.36],
+            [213.31, 203.4],
+            [212.4, 204.34],
+            [212.5, 208.35],
+            [214.28, 211.06],
+            [221.05, 210.63],
+            [226.32, 210.77],
+            [227.08, 212.52],
+            [225.0, 217.56],
+            [226.75, 217.94],
+            [227.77, 215.44],
+            [229.0, 210.6],
+            [233.07, 210.19],
+            [237.04, 204.3],
+            [232.69, 200.96],
+            [234.06, 196.39],
+            [236.05, 195.33],
+            [237.63, 196.63],
+            [249.21, 194.59],
+            [253.47, 194.59],
+            [253.47, 194.13],
+            [257.49, 194.13],
+            [257.48, 193.88],
+            [236.4, 193.95],
+            [236.12, 179.05],
+            [263.12, 179.14],
+            [263.01, 215.63],
+            [262.56, 215.63],
+            [262.56, 219.34],
+            [261.52, 219.34],
+            [261.52, 217.28],
+            [261.02, 217.27],
+            [261.02, 219.7],
+            [262.5, 219.98],
+            [262.5, 223.93],
+            [260.06, 223.93],
+            [259.71, 224.46],
+            [259.29, 226.0],
+            [256.23, 226.0],
+            [253.49, 220.75],
+            [253.45, 219.99],
+            [257.35, 219.99],
+            [257.98, 219.72],
+            [257.98, 217.27],
+            [257.54, 217.27],
+            [257.54, 219.66],
+            [256.25, 219.66],
+            [256.25, 207.69],
+            [256.5, 207.54],
+            [256.5, 204.61],
+            [248.54, 204.61],
+            [248.54, 202.63],
+            [249.7, 202.42],
+            [253.57, 202.42],
+            [253.57, 201.61],
+            [249.55, 201.61],
+            [248.0, 202.05],
+            [248.0, 205.09],
+            [255.95, 205.09],
+            [255.95, 216.43],
+            [253.54, 219.51],
+            [252.01, 219.51],
+            [252.17, 220.41],
+            [250.22, 220.58],
+            [249.29, 221.15],
+            [248.71, 220.09],
+            [246.4, 221.34],
+            [247.15, 223.34],
+            [245.76, 223.68],
+            [245.02, 226.64],
+            [245.06, 231.77],
+            [244.05, 236.42],
+            [243.4, 237.24],
+            [240.46, 236.14],
+            [238.53, 234.76],
+            [238.13, 236.48],
+            [240.04, 237.56],
+            [243.43, 238.91]
+          ],
+          "heights": [63.858, 100.958]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588395 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision-volcano0",
+      "name": "BoundedAreaCollision_volcano0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [242.64, 237.78],
+            [242.33, 241.32],
+            [243.5, 243.85],
+            [242.74, 246.94],
+            [243.01, 251.04],
+            [244.11, 257.54],
+            [244.46, 264.2],
+            [245.7, 268.04],
+            [245.28, 271.29],
+            [245.37, 274.72],
+            [245.69, 276.62],
+            [247.94, 279.06],
+            [249.72, 280.38],
+            [249.73, 282.07],
+            [248.47, 284.38],
+            [246.77, 284.84],
+            [245.45, 286.21],
+            [244.92, 289.47],
+            [243.77, 291.16],
+            [241.96, 296.68],
+            [239.55, 295.52],
+            [237.84, 298.21],
+            [235.3, 298.3],
+            [234.66, 295.77],
+            [234.26, 291.75],
+            [231.33, 290.87],
+            [231.52, 288.43],
+            [216.7, 288.34],
+            [214.52, 292.26],
+            [211.62, 293.26],
+            [207.66, 293.01],
+            [206.98, 291.59],
+            [196.83, 292.51],
+            [191.98, 295.22],
+            [188.21, 299.41],
+            [185.1, 302.92],
+            [180.65, 306.72],
+            [179.25, 306.91],
+            [179.22, 306.08],
+            [179.91, 305.34],
+            [179.42, 304.35],
+            [178.26, 302.64],
+            [178.03, 302.34],
+            [177.47, 302.15],
+            [177.07, 301.65],
+            [175.8, 301.93],
+            [175.07, 301.85],
+            [174.01, 302.71],
+            [173.24, 304.23],
+            [173.71, 305.82],
+            [173.79, 306.72],
+            [175.42, 308.12],
+            [176.27, 307.4],
+            [178.07, 307.47],
+            [178.87, 307.22],
+            [179.02, 308.9],
+            [173.39, 314.88],
+            [170.98, 315.1],
+            [169.92, 316.12],
+            [170.02, 330.54],
+            [172.62, 331.26],
+            [174.43, 334.42],
+            [174.64, 337.66],
+            [176.63, 341.66],
+            [179.25, 344.36],
+            [180.4, 347.84],
+            [181.07, 351.73],
+            [182.24, 355.38],
+            [185.92, 358.63],
+            [187.81, 365.49],
+            [188.3, 370.31],
+            [188.39, 374.34],
+            [187.22, 374.46],
+            [187.28, 376.05],
+            [190.21, 376.92],
+            [190.47, 377.78],
+            [189.74, 378.28],
+            [190.44, 379.16],
+            [190.32, 380.61],
+            [190.68, 382.15],
+            [191.67, 382.12],
+            [192.4, 383.04],
+            [194.8, 382.19],
+            [195.04, 381.45],
+            [195.59, 380.88],
+            [196.17, 380.02],
+            [195.56, 378.48],
+            [196.05, 377.25],
+            [198.15, 377.01],
+            [203.92, 376.77],
+            [209.04, 381.81],
+            [218.75, 391.0],
+            [223.35, 376.05],
+            [222.0, 373.75],
+            [221.64, 372.98],
+            [219.57, 373.11],
+            [219.45, 369.94],
+            [221.91, 366.42],
+            [223.19, 367.44],
+            [224.25, 367.25],
+            [224.29, 365.77],
+            [227.54, 365.68],
+            [228.0, 367.25],
+            [224.4, 350.79],
+            [223.06, 349.51],
+            [221.25, 350.93],
+            [216.69, 350.62],
+            [209.16, 347.33],
+            [208.48, 342.35],
+            [209.79, 335.91],
+            [212.21, 334.87],
+            [214.2, 330.15],
+            [216.2, 327.91],
+            [224.12, 328.47],
+            [227.24, 329.28],
+            [230.69, 328.67],
+            [231.3, 331.22],
+            [231.99, 333.22],
+            [233.34, 334.25],
+            [235.68, 333.85],
+            [237.37, 333.18],
+            [238.71, 330.69],
+            [240.13, 330.21],
+            [241.62, 331.78],
+            [243.19, 332.97],
+            [246.99, 334.5],
+            [248.03, 335.57],
+            [248.97, 340.41],
+            [265.47, 351.17],
+            [266.46, 349.21],
+            [270.16, 345.78],
+            [271.57, 345.38],
+            [272.33, 346.26],
+            [272.41, 348.13],
+            [272.75, 349.21],
+            [273.49, 349.07],
+            [274.45, 350.03],
+            [275.3, 350.04],
+            [275.46, 349.58],
+            [276.31, 349.59],
+            [277.12, 348.95],
+            [276.91, 348.41],
+            [277.76, 347.79],
+            [277.7, 347.33],
+            [278.37, 346.91],
+            [277.59, 345.66],
+            [277.93, 344.68],
+            [283.86, 344.47],
+            [294.67, 344.66],
+            [303.8, 343.17],
+            [308.1, 344.45],
+            [307.88, 346.08],
+            [307.12, 348.88],
+            [305.91, 350.42],
+            [306.49, 351.91],
+            [307.9, 351.25],
+            [309.03, 348.55],
+            [309.57, 346.14],
+            [314.62, 344.92],
+            [324.22, 345.33],
+            [331.89, 343.94],
+            [337.2, 345.44],
+            [339.6, 346.33],
+            [343.75, 345.48],
+            [344.77, 345.98],
+            [349.18, 345.26],
+            [351.69, 344.45],
+            [352.49, 346.44],
+            [355.43, 348.0],
+            [355.23, 351.7],
+            [356.8, 352.4],
+            [356.6, 354.12],
+            [355.1, 355.06],
+            [354.01, 357.32],
+            [355.0, 359.65],
+            [356.82, 361.46],
+            [358.38, 371.42],
+            [357.58, 372.12],
+            [354.86, 371.53],
+            [353.11, 371.05],
+            [352.07, 369.82],
+            [350.46, 370.04],
+            [349.91, 371.24],
+            [352.66, 372.76],
+            [357.78, 374.05],
+            [357.31, 377.93],
+            [358.83, 383.38],
+            [358.31, 393.59],
+            [373.88, 395.89],
+            [375.49, 395.89],
+            [375.81, 393.97],
+            [374.9, 384.61],
+            [376.78, 380.11],
+            [381.49, 380.12],
+            [386.0, 378.16],
+            [390.02, 374.28],
+            [391.34, 358.59],
+            [389.34, 355.59],
+            [382.58, 354.81],
+            [380.42, 352.35],
+            [379.62, 350.97],
+            [379.86, 349.76],
+            [381.05, 348.24],
+            [380.66, 347.5],
+            [382.25, 346.46],
+            [382.82, 345.86],
+            [385.89, 345.21],
+            [388.07, 345.55],
+            [392.93, 346.31],
+            [398.99, 345.45],
+            [405.47, 345.89],
+            [412.24, 344.73],
+            [417.29, 346.1],
+            [423.77, 346.03],
+            [426.71, 345.5],
+            [430.14, 345.99],
+            [435.22, 345.82],
+            [440.42, 345.27],
+            [450.68, 346.51],
+            [450.52, 350.22],
+            [451.42, 354.42],
+            [451.12, 358.55],
+            [452.43, 359.67],
+            [460.18, 361.85],
+            [462.27, 360.95],
+            [467.12, 368.27],
+            [468.32, 375.65],
+            [467.39, 377.88],
+            [463.26, 377.88],
+            [463.26, 382.32],
+            [465.03, 382.32],
+            [466.36, 385.03],
+            [466.24, 386.29],
+            [467.1, 391.06],
+            [464.38, 390.89],
+            [461.15, 386.81],
+            [455.35, 388.91],
+            [454.84, 385.76],
+            [450.58, 385.84],
+            [450.58, 388.77],
+            [452.18, 388.81],
+            [451.75, 401.29],
+            [449.6, 402.7],
+            [449.15, 403.79],
+            [446.02, 401.91],
+            [444.17, 402.11],
+            [444.15, 403.15],
+            [447.51, 405.15],
+            [451.98, 406.39],
+            [452.32, 411.22],
+            [452.0, 413.39],
+            [451.88, 428.89],
+            [451.94, 437.12],
+            [459.88, 437.38],
+            [460.0, 445.62],
+            [453.19, 445.69],
+            [453.0, 445.12],
+            [453.0, 441.12],
+            [452.53, 441.12],
+            [452.53, 445.12],
+            [449.72, 445.18],
+            [449.72, 443.5],
+            [449.25, 443.53],
+            [449.41, 447.66],
+            [449.35, 451.53],
+            [451.23, 454.44],
+            [450.49, 457.05],
+            [448.17, 456.4],
+            [444.75, 457.25],
+            [440.94, 456.94],
+            [437.63, 456.22],
+            [436.0, 454.47],
+            [436.47, 453.39],
+            [435.97, 452.62],
+            [433.87, 452.08],
+            [433.28, 444.68],
+            [433.38, 425.94],
+            [438.43, 424.38],
+            [438.43, 437.98],
+            [437.0, 437.98],
+            [437.0, 438.56],
+            [438.71, 438.53],
+            [438.71, 421.98],
+            [438.36, 420.39],
+            [437.77, 418.91],
+            [438.28, 417.57],
+            [438.33, 412.29],
+            [438.45, 405.12],
+            [438.38, 395.47],
+            [440.75, 394.87],
+            [445.6, 397.06],
+            [445.77, 395.63],
+            [444.45, 394.7],
+            [441.8, 393.65],
+            [438.23, 393.18],
+            [438.16, 390.48],
+            [440.11, 390.08],
+            [440.72, 386.71],
+            [439.52, 386.59],
+            [438.28, 387.2],
+            [434.68, 386.88],
+            [434.23, 389.44],
+            [430.62, 389.39],
+            [430.52, 385.48],
+            [426.41, 385.5],
+            [426.46, 388.48],
+            [423.95, 384.91],
+            [420.44, 384.91],
+            [417.97, 381.99],
+            [418.18, 376.77],
+            [421.8, 374.76],
+            [421.96, 363.92],
+            [421.6, 359.64],
+            [420.78, 358.64],
+            [415.04, 357.97],
+            [404.99, 357.69],
+            [404.58, 353.63],
+            [402.81, 355.83],
+            [400.05, 356.14],
+            [400.12, 357.62],
+            [399.66, 358.81],
+            [402.25, 359.79],
+            [404.2, 361.89],
+            [404.47, 371.93],
+            [404.96, 382.82]
+          ],
+          "heights": [70.712, 100.712]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588396 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision-volcano2",
+      "name": "BoundedAreaCollision_volcano2",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [404.96, 382.82],
+            [404.19, 394.66],
+            [403.98, 404.22],
+            [388.93, 405.68],
+            [383.0, 406.25],
+            [379.15, 405.37],
+            [377.45, 405.08],
+            [377.1, 403.36],
+            [376.38, 402.8],
+            [375.52, 402.96],
+            [374.72, 404.83],
+            [373.69, 403.75],
+            [372.58, 402.58],
+            [373.41, 398.88],
+            [357.87, 396.58],
+            [354.34, 396.44],
+            [351.26, 398.01],
+            [353.23, 402.84],
+            [349.76, 403.66],
+            [349.25, 401.01],
+            [347.71, 398.72],
+            [344.24, 396.66],
+            [344.85, 385.84],
+            [344.32, 380.72],
+            [345.01, 375.99],
+            [344.39, 369.1],
+            [344.1, 363.47],
+            [346.72, 362.76],
+            [349.24, 363.68],
+            [351.69, 365.21],
+            [351.93, 363.4],
+            [347.27, 361.44],
+            [347.45, 359.88],
+            [341.05, 358.26],
+            [335.26, 357.6],
+            [327.24, 357.82],
+            [317.71, 357.41],
+            [308.47, 356.42],
+            [304.88, 357.46],
+            [299.24, 358.5],
+            [299.77, 355.04],
+            [301.09, 350.47],
+            [299.66, 350.3],
+            [297.18, 354.64],
+            [296.59, 358.78],
+            [291.55, 357.26],
+            [287.98, 358.45],
+            [282.12, 358.08],
+            [281.05, 356.02],
+            [277.37, 355.19],
+            [276.1, 357.35],
+            [276.89, 358.6],
+            [275.36, 361.59],
+            [273.56, 364.93],
+            [271.99, 365.6],
+            [270.05, 365.32],
+            [268.24, 362.93],
+            [264.82, 358.61],
+            [263.72, 354.95],
+            [264.84, 352.79],
+            [265.47, 351.17],
+            [248.97, 340.41],
+            [247.64, 343.72],
+            [242.15, 343.93],
+            [238.68, 343.2],
+            [236.42, 343.07],
+            [232.32, 346.72],
+            [231.16, 350.23],
+            [228.44, 349.57],
+            [228.0, 350.75],
+            [224.4, 350.79],
+            [228.0, 367.25],
+            [229.95, 367.55],
+            [231.08, 370.2],
+            [230.49, 372.85],
+            [229.76, 374.51],
+            [228.54, 375.1],
+            [227.25, 376.17],
+            [226.18, 375.31],
+            [225.36, 375.98],
+            [223.35, 376.05],
+            [218.75, 391.0],
+            [219.33, 392.52],
+            [220.58, 392.42],
+            [222.47, 393.87],
+            [226.06, 395.04],
+            [226.28, 398.22],
+            [225.5, 401.35],
+            [224.43, 401.81],
+            [223.36, 403.23],
+            [220.08, 403.6],
+            [217.0, 400.68],
+            [214.55, 399.26],
+            [212.28, 399.24],
+            [204.99, 399.24],
+            [204.77, 396.14],
+            [203.85, 393.55],
+            [202.73, 392.8],
+            [201.52, 393.51],
+            [200.13, 393.25],
+            [198.92, 393.67],
+            [198.79, 394.62],
+            [198.16, 395.38],
+            [198.07, 396.02],
+            [197.31, 396.67],
+            [196.85, 399.11],
+            [189.15, 399.11],
+            [188.24, 394.82],
+            [188.07, 393.76],
+            [187.21, 393.44],
+            [186.74, 392.72],
+            [185.82, 393.36],
+            [184.16, 393.24],
+            [182.94, 393.63],
+            [182.69, 394.73],
+            [181.95, 395.39],
+            [181.68, 396.31],
+            [180.84, 396.67],
+            [180.81, 399.11],
+            [174.0, 399.24],
+            [173.84, 394.22],
+            [173.04, 391.45],
+            [173.54, 389.32],
+            [174.34, 386.25],
+            [173.98, 383.24],
+            [176.1, 382.64],
+            [177.53, 382.69],
+            [178.77, 382.3],
+            [179.69, 380.66],
+            [178.84, 378.32],
+            [177.78, 377.57],
+            [176.83, 376.95],
+            [175.32, 377.21],
+            [174.15, 377.52],
+            [174.18, 376.86],
+            [173.71, 372.8],
+            [173.5, 369.54],
+            [173.78, 366.05],
+            [175.38, 366.08],
+            [176.44, 367.04],
+            [177.21, 366.76],
+            [177.43, 366.36],
+            [178.13, 366.45],
+            [178.94, 366.03],
+            [178.94, 365.45],
+            [179.66, 364.92],
+            [179.68, 364.64],
+            [180.22, 364.14],
+            [179.66, 362.66],
+            [179.92, 362.03],
+            [179.07, 361.02],
+            [178.28, 360.95],
+            [177.74, 360.07],
+            [175.45, 360.91],
+            [173.8, 361.1],
+            [173.6, 360.12],
+            [171.44, 356.9],
+            [169.17, 355.06],
+            [166.64, 352.44],
+            [166.05, 350.94],
+            [165.28, 348.95],
+            [165.65, 346.27],
+            [166.11, 343.85],
+            [165.56, 342.67],
+            [165.48, 340.19],
+            [163.67, 338.53],
+            [165.49, 335.42],
+            [166.49, 332.09],
+            [170.02, 330.54],
+            [169.92, 316.12],
+            [167.04, 315.3],
+            [165.95, 314.52],
+            [166.61, 311.31],
+            [165.71, 310.34],
+            [165.79, 308.66],
+            [166.68, 306.77],
+            [166.21, 303.83],
+            [165.81, 302.67],
+            [165.58, 298.54],
+            [165.95, 297.34],
+            [165.51, 294.71],
+            [164.49, 292.53],
+            [164.36, 290.51],
+            [164.16, 289.13],
+            [165.64, 286.7],
+            [167.34, 285.31],
+            [169.97, 284.06],
+            [173.33, 285.55],
+            [174.56, 285.97],
+            [175.44, 288.3],
+            [175.28, 290.8],
+            [176.35, 291.75],
+            [177.1, 291.59],
+            [177.28, 291.16],
+            [178.0, 291.26],
+            [178.8, 290.91],
+            [178.91, 290.27],
+            [179.62, 289.81],
+            [179.62, 289.25],
+            [180.19, 288.85],
+            [179.6, 287.56],
+            [180.0, 286.32],
+            [183.92, 286.28],
+            [187.22, 286.77],
+            [189.87, 286.07],
+            [191.27, 285.74],
+            [194.12, 286.46],
+            [196.67, 285.31],
+            [199.45, 285.37],
+            [200.93, 285.97],
+            [203.03, 285.61],
+            [205.55, 285.08],
+            [206.61, 283.61],
+            [208.13, 282.52],
+            [210.47, 281.54],
+            [213.13, 282.37],
+            [214.98, 284.36],
+            [216.69, 288.34],
+            [231.52, 288.43],
+            [234.2, 286.9],
+            [234.31, 284.65],
+            [232.95, 283.2],
+            [235.4, 278.84],
+            [235.51, 274.14],
+            [235.31, 266.65],
+            [234.05, 264.04],
+            [235.7, 261.79],
+            [235.51, 258.67],
+            [234.54, 257.02],
+            [233.44, 253.54],
+            [235.23, 252.57],
+            [236.52, 250.07],
+            [233.79, 247.34],
+            [233.11, 245.8],
+            [234.45, 243.65],
+            [233.89, 241.44],
+            [235.11, 240.82],
+            [233.05, 238.69],
+            [232.65, 236.37],
+            [231.83, 234.27]
+          ],
+          "heights": [78.2, 113.2]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588397 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision1",
+      "name": "BoundedAreaCollision1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [193.41, 81.92],
+            [194.47, 87.75],
+            [190.54, 81.99],
+            [187.79, 83.96],
+            [182.11, 85.45],
+            [181.18, 88.62],
+            [179.47, 89.94],
+            [179.69, 97.69],
+            [180.94, 101.22],
+            [180.15, 103.58],
+            [182.16, 108.99],
+            [184.08, 109.19],
+            [187.11, 103.33],
+            [193.73, 107.58],
+            [199.04, 104.03],
+            [202.41, 108.21],
+            [205.98, 105.36],
+            [204.52, 102.87],
+            [207.07, 99.98],
+            [205.58, 97.75],
+            [201.67, 97.41],
+            [201.67, 95.19],
+            [207.56, 92.97],
+            [204.83, 89.4],
+            [201.53, 87.01],
+            [194.47, 87.75]
+          ],
+          "heights": [73.703, 93.003]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588398 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision2",
+      "name": "BoundedAreaCollision2",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [168.8, 110.55],
+            [168.9, 108.07],
+            [168.84, 102.77],
+            [168.15, 85.49],
+            [166.71, 85.35],
+            [164.38, 85.9],
+            [165.1, 92.14],
+            [162.75, 93.44],
+            [161.9, 94.1],
+            [160.12, 96.24],
+            [156.19, 97.68],
+            [156.07, 100.14],
+            [161.46, 101.18],
+            [161.64, 104.53],
+            [163.06, 105.32],
+            [164.45, 108.21],
+            [165.25, 109.93],
+            [169.35, 109.85]
+          ],
+          "heights": [73.703, 93.003]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588399 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision-volcano1",
+      "name": "BoundedAreaCollision_volcano1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [455.0, 452.25],
+            [463.46, 452.31],
+            [463.52, 463.12],
+            [453.52, 463.14],
+            [453.31, 453.88],
+            [454.88, 453.69],
+            [455.0, 452.25]
+          ],
+          "heights": [66.875, 93.075]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588400 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision-volcano3",
+      "name": "BoundedAreaCollision_volcano3",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [466.09, 469.31],
+            [471.15, 468.81],
+            [472.47, 471.44],
+            [472.29, 477.46],
+            [470.85, 480.6],
+            [469.27, 483.04],
+            [467.01, 483.02],
+            [466.42, 481.4],
+            [467.96, 480.41],
+            [466.12, 479.5],
+            [464.86, 476.8],
+            [462.68, 475.44],
+            [459.89, 476.02],
+            [459.1, 478.65],
+            [452.59, 482.96],
+            [450.51, 485.67],
+            [450.83, 487.99],
+            [449.33, 489.51],
+            [447.19, 489.88],
+            [445.04, 487.6],
+            [445.07, 486.18],
+            [443.38, 484.41],
+            [439.0, 483.44],
+            [437.26, 485.88],
+            [435.7, 485.97],
+            [434.67, 485.71],
+            [434.69, 484.98],
+            [432.74, 485.11],
+            [431.51, 482.45],
+            [429.97, 482.08],
+            [430.23, 480.07],
+            [437.39, 481.25],
+            [437.72, 480.76],
+            [445.22, 480.17],
+            [449.43, 478.75],
+            [448.87, 470.5],
+            [452.06, 467.97],
+            [456.58, 467.5],
+            [460.33, 469.34],
+            [463.17, 468.2],
+            [466.09, 469.31]
+          ],
+          "heights": [67.859, 94.059]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588401 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision4",
+      "name": "BoundedAreaCollision4",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [150.18, 210.64],
+            [150.67, 208.89],
+            [146.22, 207.91],
+            [142.71, 209.53],
+            [142.63, 213.57],
+            [143.66, 213.7],
+            [147.62, 211.33],
+            [150.18, 210.64]
+          ],
+          "heights": [77.975, 86.575]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588402 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision3",
+      "name": "BoundedAreaCollision3",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [277.58, 409.95],
+            [278.01, 411.13],
+            [292.69, 417.14],
+            [294.99, 414.94],
+            [298.54, 414.05],
+            [302.33, 416.08],
+            [302.2, 419.25],
+            [310.38, 424.59],
+            [310.71, 427.33],
+            [308.01, 427.3],
+            [305.04, 424.77],
+            [301.65, 424.7],
+            [301.04, 423.39],
+            [299.51, 423.74],
+            [299.42, 424.57],
+            [297.99, 424.44],
+            [296.04, 425.74],
+            [293.59, 423.19],
+            [292.04, 422.93],
+            [292.28, 420.01],
+            [277.4, 414.42],
+            [275.86, 414.48],
+            [275.3, 414.9],
+            [275.86, 417.18],
+            [274.06, 419.36],
+            [269.42, 419.73],
+            [263.59, 417.07],
+            [261.26, 413.65],
+            [261.63, 408.7],
+            [265.48, 403.87],
+            [269.21, 401.55],
+            [272.57, 401.78],
+            [276.43, 403.17],
+            [278.89, 406.64],
+            [279.36, 409.51],
+            [277.58, 409.95]
+          ],
+          "heights": [55.161, 62.361]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588403 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision-lava-hole1",
+      "name": "BoundedAreaCollision_lava_hole1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [217.29, 342.36],
+            [218.14, 341.81],
+            [219.68, 341.79],
+            [221.15, 341.42],
+            [222.02, 339.22],
+            [221.36, 338.68],
+            [221.42, 337.59],
+            [220.42, 336.93],
+            [219.07, 335.91],
+            [217.7, 336.32],
+            [216.79, 336.18],
+            [216.3, 336.58],
+            [215.13, 338.7],
+            [215.93, 340.02],
+            [215.59, 340.7],
+            [217.3, 342.36]
+          ],
+          "heights": [92.759, 102.759]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588404 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision5",
+      "name": "BoundedAreaCollision5",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [102.26, 62.97],
+            [105.22, 60.19],
+            [104.96, 59.95],
+            [103.7, 60.88],
+            [101.52, 58.31],
+            [97.97, 61.09],
+            [96.54, 60.73],
+            [94.08, 63.16],
+            [95.01, 66.02],
+            [91.28, 67.43],
+            [91.4, 67.8],
+            [98.96, 65.38],
+            [102.26, 62.97]
+          ],
+          "heights": [65.26, 84.56]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588405 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision6",
+      "name": "BoundedAreaCollision6",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [90.78, 57.16],
+            [89.9, 60.22],
+            [90.82, 61.38],
+            [92.91, 61.39],
+            [93.17, 57.37],
+            [95.65, 55.56],
+            [94.54, 54.02],
+            [92.75, 54.96],
+            [90.08, 53.11],
+            [89.45, 54.02],
+            [89.08, 57.24],
+            [90.78, 57.16]
+          ],
+          "heights": [65.26, 84.56]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588406 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision7",
+      "name": "BoundedAreaCollision7",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [438.51, 441.49],
+            [436.98, 441.49],
+            [436.98, 441.73],
+            [438.31, 441.73],
+            [438.31, 447.9],
+            [441.44, 447.9],
+            [441.44, 444.19],
+            [443.2, 444.19],
+            [443.02, 445.71],
+            [443.72, 447.37],
+            [445.45, 447.1],
+            [445.45, 443.97],
+            [441.13, 443.97],
+            [441.13, 445.45],
+            [438.5, 446.41],
+            [438.51, 441.49]
+          ],
+          "heights": [69.073, 74.073]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4210 boundedareas_collision guid 588407 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/boundedareacollision-volcano",
+      "name": "BoundedAreaCollision_volcano",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [242.64, 237.78],
+            [242.33, 241.32],
+            [243.5, 243.85],
+            [242.74, 246.94],
+            [243.01, 251.04],
+            [244.11, 257.54],
+            [244.46, 264.2],
+            [245.7, 268.04],
+            [245.28, 271.29],
+            [245.37, 274.72],
+            [245.69, 276.62],
+            [247.94, 279.06],
+            [249.72, 280.38],
+            [249.73, 282.07],
+            [248.47, 284.38],
+            [246.77, 284.84],
+            [245.45, 286.21],
+            [244.92, 289.47],
+            [243.77, 291.16],
+            [241.96, 296.68],
+            [239.55, 295.52],
+            [237.84, 298.21],
+            [235.3, 298.3],
+            [234.66, 295.77],
+            [234.26, 291.75],
+            [231.33, 290.87],
+            [231.52, 288.43],
+            [216.7, 288.34],
+            [214.52, 292.26],
+            [211.62, 293.26],
+            [207.66, 293.01],
+            [206.98, 291.59],
+            [196.83, 292.51],
+            [191.98, 295.22],
+            [188.21, 299.41],
+            [185.1, 302.92],
+            [180.65, 306.72],
+            [179.25, 306.91],
+            [179.22, 306.08],
+            [179.91, 305.34],
+            [179.42, 304.35],
+            [178.26, 302.64],
+            [178.03, 302.34],
+            [177.47, 302.15],
+            [177.07, 301.65],
+            [175.8, 301.93],
+            [175.07, 301.85],
+            [174.01, 302.71],
+            [173.24, 304.23],
+            [173.71, 305.82],
+            [173.79, 306.72],
+            [175.42, 308.12],
+            [176.27, 307.4],
+            [178.07, 307.47],
+            [178.87, 307.22],
+            [179.02, 308.9],
+            [173.39, 314.88],
+            [170.98, 315.1],
+            [169.92, 316.12],
+            [170.02, 330.54],
+            [172.62, 331.26],
+            [174.43, 334.42],
+            [174.64, 337.66],
+            [176.63, 341.66],
+            [179.25, 344.36],
+            [180.4, 347.84],
+            [181.07, 351.73],
+            [182.24, 355.38],
+            [185.92, 358.63],
+            [187.81, 365.49],
+            [188.3, 370.31],
+            [188.39, 374.34],
+            [187.22, 374.46],
+            [187.28, 376.05],
+            [190.21, 376.92],
+            [190.47, 377.78],
+            [189.74, 378.28],
+            [190.44, 379.16],
+            [190.32, 380.61],
+            [190.68, 382.15],
+            [191.67, 382.12],
+            [192.4, 383.04],
+            [194.8, 382.19],
+            [195.04, 381.45],
+            [195.59, 380.88],
+            [196.17, 380.02],
+            [195.56, 378.48],
+            [196.05, 377.25],
+            [198.15, 377.01],
+            [203.92, 376.77],
+            [209.04, 381.81],
+            [218.75, 391.0],
+            [223.35, 376.05],
+            [222.0, 373.75],
+            [221.64, 372.98],
+            [219.57, 373.11],
+            [219.45, 369.94],
+            [221.91, 366.42],
+            [223.19, 367.44],
+            [224.25, 367.25],
+            [224.29, 365.77],
+            [227.54, 365.68],
+            [228.0, 367.25],
+            [224.4, 350.79],
+            [223.06, 349.51],
+            [221.25, 350.93],
+            [216.69, 350.62],
+            [209.16, 347.33],
+            [208.48, 342.35],
+            [209.79, 335.91],
+            [212.21, 334.87],
+            [214.2, 330.15],
+            [216.2, 327.91],
+            [224.12, 328.47],
+            [227.24, 329.28],
+            [230.69, 328.67],
+            [231.3, 331.22],
+            [231.99, 333.22],
+            [233.34, 334.25],
+            [235.68, 333.85],
+            [237.37, 333.18],
+            [238.71, 330.69],
+            [240.13, 330.21],
+            [241.62, 331.78],
+            [243.19, 332.97],
+            [246.99, 334.5],
+            [248.03, 335.57],
+            [248.97, 340.41],
+            [265.47, 351.17],
+            [266.46, 349.21],
+            [270.16, 345.78],
+            [271.57, 345.38],
+            [272.33, 346.26],
+            [272.41, 348.13],
+            [272.75, 349.21],
+            [273.49, 349.07],
+            [274.45, 350.03],
+            [275.3, 350.04],
+            [275.46, 349.58],
+            [276.31, 349.59],
+            [277.12, 348.95],
+            [276.91, 348.41],
+            [277.76, 347.79],
+            [277.7, 347.33],
+            [278.37, 346.91],
+            [277.59, 345.66],
+            [277.93, 344.68],
+            [283.86, 344.47],
+            [294.67, 344.66],
+            [303.8, 343.17],
+            [308.1, 344.45],
+            [307.88, 346.08],
+            [307.12, 348.88],
+            [305.91, 350.42],
+            [306.49, 351.91],
+            [307.9, 351.25],
+            [309.03, 348.55],
+            [309.57, 346.14],
+            [314.62, 344.92],
+            [324.22, 345.33],
+            [331.89, 343.94],
+            [337.2, 345.44],
+            [339.6, 346.33],
+            [343.75, 345.48],
+            [344.77, 345.98],
+            [349.18, 345.26],
+            [351.69, 344.45],
+            [352.49, 346.44],
+            [355.43, 348.0],
+            [355.23, 351.7],
+            [356.8, 352.4],
+            [356.6, 354.12],
+            [355.1, 355.06],
+            [354.01, 357.32],
+            [355.0, 359.65],
+            [356.82, 361.46],
+            [358.38, 371.42],
+            [357.58, 372.12],
+            [354.86, 371.53],
+            [353.11, 371.05],
+            [352.07, 369.82],
+            [350.46, 370.04],
+            [349.91, 371.24],
+            [352.66, 372.76],
+            [357.78, 374.05],
+            [357.31, 377.93],
+            [358.83, 383.38],
+            [358.31, 393.59],
+            [373.88, 395.89],
+            [375.49, 395.89],
+            [375.81, 393.97],
+            [374.9, 384.61],
+            [376.78, 380.11],
+            [381.49, 380.12],
+            [386.0, 378.16],
+            [390.02, 374.28],
+            [391.34, 358.59],
+            [389.34, 355.59],
+            [382.58, 354.81],
+            [380.42, 352.35],
+            [379.62, 350.97],
+            [379.86, 349.76],
+            [381.05, 348.24],
+            [380.66, 347.5],
+            [382.25, 346.46],
+            [382.82, 345.86],
+            [385.89, 345.21],
+            [388.07, 345.55],
+            [392.93, 346.31],
+            [398.99, 345.45],
+            [405.47, 345.89],
+            [412.24, 344.73],
+            [417.29, 346.1],
+            [423.77, 346.03],
+            [426.71, 345.5],
+            [430.14, 345.99],
+            [435.22, 345.82],
+            [440.42, 345.27],
+            [450.68, 346.51],
+            [450.52, 350.22],
+            [451.42, 354.42],
+            [451.12, 358.55],
+            [452.43, 359.67],
+            [460.18, 361.85],
+            [462.27, 360.95],
+            [467.12, 368.27],
+            [468.32, 375.65],
+            [467.39, 377.88],
+            [463.26, 377.88],
+            [463.26, 382.32],
+            [465.03, 382.32],
+            [466.36, 385.03],
+            [466.24, 386.29],
+            [467.1, 391.06],
+            [464.38, 390.89],
+            [461.15, 386.81],
+            [455.35, 388.91],
+            [454.84, 385.76],
+            [450.58, 385.84],
+            [450.58, 388.77],
+            [452.18, 388.81],
+            [451.75, 401.29],
+            [449.6, 402.7],
+            [449.15, 403.79],
+            [446.02, 401.91],
+            [444.17, 402.11],
+            [444.15, 403.15],
+            [447.51, 405.15],
+            [451.98, 406.39],
+            [452.32, 411.22],
+            [452.0, 413.39],
+            [451.88, 428.89],
+            [451.94, 437.12],
+            [459.88, 437.38],
+            [460.0, 445.62],
+            [453.19, 445.69],
+            [453.0, 445.12],
+            [453.0, 441.12],
+            [452.53, 441.12],
+            [452.53, 445.12],
+            [449.72, 445.18],
+            [449.72, 443.5],
+            [449.25, 443.53],
+            [449.41, 447.66],
+            [449.35, 451.53],
+            [451.23, 454.44],
+            [450.49, 457.05],
+            [448.17, 456.4],
+            [444.75, 457.25],
+            [440.94, 456.94],
+            [437.63, 456.22],
+            [436.0, 454.47],
+            [436.47, 453.39],
+            [435.97, 452.62],
+            [433.87, 452.08],
+            [433.28, 444.68],
+            [433.38, 425.94],
+            [438.43, 424.38],
+            [438.43, 437.98],
+            [437.0, 437.98],
+            [437.0, 438.56],
+            [438.71, 438.53],
+            [438.71, 421.98],
+            [438.36, 420.39],
+            [437.77, 418.91],
+            [438.28, 417.57],
+            [438.33, 412.29],
+            [438.45, 405.12],
+            [438.38, 395.47],
+            [440.75, 394.87],
+            [445.6, 397.06],
+            [445.77, 395.63],
+            [444.45, 394.7],
+            [441.8, 393.65],
+            [438.23, 393.18],
+            [438.16, 390.48],
+            [440.11, 390.08],
+            [440.72, 386.71],
+            [439.52, 386.59],
+            [438.28, 387.2],
+            [434.68, 386.88],
+            [434.23, 389.44],
+            [430.62, 389.39],
+            [430.52, 385.48],
+            [426.41, 385.5],
+            [426.46, 388.48],
+            [423.95, 384.91],
+            [420.44, 384.91],
+            [417.97, 381.99],
+            [418.18, 376.77],
+            [421.8, 374.76],
+            [421.96, 363.92],
+            [421.6, 359.64],
+            [420.78, 358.64],
+            [415.04, 357.97],
+            [404.99, 357.69],
+            [404.58, 353.63],
+            [402.81, 355.83],
+            [400.05, 356.14],
+            [400.12, 357.62],
+            [399.66, 358.81],
+            [402.25, 359.79],
+            [404.2, 361.89],
+            [404.47, 371.93],
+            [404.96, 382.82]
+          ],
+          "heights": [70.712, 100.712]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:4211 boundedareas_collision guid 73324 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanoambush1",
+      "name": "BA_VolcanoAmbush1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [175.22, 295.04],
+            [178.74, 295.07],
+            [178.74, 298.58],
+            [175.24, 298.57]
+          ],
+          "heights": [83.801, 93.801]
+        }
+      },
+      "category": "spawn_ambush",
+      "scry": 24774,
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347452; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanoambush1counter",
+      "name": "BA_VolcanoAmbush1Counter",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [171.22, 290.7],
+            [177.35, 289.02],
+            [183.53, 290.67],
+            [185.1, 297.95],
+            [183.25, 303.47],
+            [177.12, 305.28],
+            [171.39, 302.41],
+            [168.5, 296.23]
+          ],
+          "heights": [83.415, 93.415]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347453 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-jacketambush1",
+      "name": "BA_JacketAmbush1",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [170.11, 357.8],
+            [182.82, 349.67],
+            [178.13, 361.98]
+          ],
+          "heights": [97.489, 107.489]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347454 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanoambush2counter",
+      "name": "BA_VolcanoAmbush2Counter",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [169.49, 353.12],
+            [172.11, 349.42],
+            [175.02, 348.02],
+            [182.49, 349.15],
+            [185.35, 357.22],
+            [183.66, 363.01],
+            [176.67, 363.28],
+            [171.52, 361.29]
+          ],
+          "heights": [96.451, 106.451]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347455 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanoambush2",
+      "name": "BA_VolcanoAmbush2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [175.2, 354.25],
+            [178.72, 354.28],
+            [178.72, 357.79],
+            [175.22, 357.78]
+          ],
+          "heights": [96.838, 106.838]
+        }
+      },
+      "category": "spawn_ambush",
+      "scry": 24774,
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347456; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanoambush3counter",
+      "name": "BA_VolcanoAmbush3Counter",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [179.61, 381.09],
+            [186.02, 379.16],
+            [191.82, 382.55],
+            [193.15, 388.82],
+            [190.66, 394.35],
+            [184.93, 396.75],
+            [178.47, 394.32],
+            [176.8, 386.9]
+          ],
+          "heights": [96.44, 106.44]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347457 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanoambush3",
+      "name": "BA_VolcanoAmbush3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [183.18, 386.25],
+            [186.7, 386.28],
+            [186.7, 389.79],
+            [183.2, 389.78]
+          ],
+          "heights": [96.827, 106.827]
+        }
+      },
+      "category": "spawn_ambush",
+      "scry": 24774,
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347458; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanoambush4",
+      "name": "BA_VolcanoAmbush4",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [199.2, 386.21],
+            [202.72, 386.25],
+            [202.71, 389.75],
+            [199.22, 389.74]
+          ],
+          "heights": [96.827, 106.827]
+        }
+      },
+      "category": "spawn_ambush",
+      "scry": 24774,
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347459; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanoambush4counter",
+      "name": "BA_VolcanoAmbush4Counter",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [194.27, 382.13],
+            [201.12, 379.16],
+            [207.79, 382.93],
+            [209.3, 388.81],
+            [208.01, 393.95],
+            [201.54, 396.94],
+            [195.15, 394.27],
+            [192.64, 389.01]
+          ],
+          "heights": [96.44, 106.44]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347460 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanoambush5",
+      "name": "BA_VolcanoAmbush5",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [225.23, 337.26],
+            [228.75, 337.29],
+            [228.74, 340.79],
+            [225.25, 340.79]
+          ],
+          "heights": [96.916, 106.916]
+        }
+      },
+      "category": "spawn_ambush",
+      "scry": 24774,
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347461; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanoambush5counter",
+      "name": "BA_VolcanoAmbush5Counter",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [221.42, 332.71],
+            [227.06, 329.83],
+            [233.24, 333.52],
+            [236.03, 338.86],
+            [232.95, 345.7],
+            [226.41, 347.14],
+            [221.58, 345.94],
+            [218.31, 338.89]
+          ],
+          "heights": [96.529, 106.529]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347462 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanoambush6counter",
+      "name": "BA_VolcanoAmbush6Counter",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [185.71, 283.28],
+            [200.34, 282.19],
+            [198.21, 294.39],
+            [192.62, 299.66],
+            [186.35, 291.89]
+          ],
+          "heights": [83.415, 93.415]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347463 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanoambush6",
+      "name": "BA_VolcanoAmbush6",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [191.22, 287.05],
+            [194.74, 287.09],
+            [194.74, 290.59],
+            [191.24, 290.58]
+          ],
+          "heights": [83.801, 93.801]
+        }
+      },
+      "category": "spawn_ambush",
+      "scry": 24774,
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347464; Scry 24774 amarz_baenter_copy (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-volcanopathambush3",
+      "name": "BA_VolcanoPathAmbush3",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [374.13, 345.13],
+            [386.67, 341.36],
+            [386.54, 359.12],
+            [376.31, 357.24]
+          ],
+          "heights": [77.599, 87.599]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347473 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-scorchedcityambush2",
+      "name": "BA_ScorchedCityAmbush2",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [452.81, 391.31],
+            [452.02, 377.36],
+            [472.44, 379.16],
+            [471.17, 392.94]
+          ],
+          "heights": [75.334, 85.334]
+        }
+      },
+      "category": "spawn_ambush",
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347476 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/story-reachskullisland",
+      "name": "Story_ReachSkullIsland",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [79.6, 32.7],
+            [74.94, 42.86],
+            [69.77, 38.03]
+          ],
+          "heights": [63.369, 73.369]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:4212 guid 347481 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection0-566181",
+      "name": "BoundedAreaCollection0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [98.08, 199.28],
+            [98.16, 199.15],
+            [101.16, 202.95],
+            [103.98, 206.06],
+            [108.1, 208.18],
+            [108.0, 208.69],
+            [103.97, 206.43],
+            [100.67, 202.89]
+          ],
+          "heights": [72.141, 82.141]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "pathing": true,
+        "off": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 566181 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection1-588422",
+      "name": "BoundedAreaCollection1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [87.22, 110.34],
+            [87.95, 109.87],
+            [88.86, 108.03],
+            [88.15, 106.83],
+            [86.78, 107.04],
+            [85.71, 107.53],
+            [85.68, 110.35]
+          ],
+          "heights": [64.0, 68.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 588422 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection2-588423",
+      "name": "BoundedAreaCollection2",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [102.36, 107.41],
+            [103.09, 106.48],
+            [102.81, 105.33],
+            [101.68, 105.32],
+            [101.64, 107.25]
+          ],
+          "heights": [64.0, 68.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 588423 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection3-588424",
+      "name": "BoundedAreaCollection3",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [96.55, 100.72],
+            [96.74, 99.61],
+            [96.35, 98.93],
+            [95.12, 98.68],
+            [94.55, 100.14],
+            [95.54, 100.7]
+          ],
+          "heights": [64.0, 68.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 588424 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection4-588425",
+      "name": "BoundedAreaCollection4",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [79.49, 117.64],
+            [79.33, 115.97],
+            [81.19, 115.28],
+            [81.12, 114.36],
+            [79.68, 113.56],
+            [78.27, 113.97],
+            [77.67, 115.64],
+            [78.39, 117.44]
+          ],
+          "heights": [64.0, 68.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 588425 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection5-588426",
+      "name": "BoundedAreaCollection5",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [76.61, 107.75],
+            [78.03, 105.12],
+            [79.88, 105.6],
+            [81.7, 104.63],
+            [81.85, 103.81],
+            [81.28, 102.51],
+            [80.49, 102.51],
+            [79.24, 104.11],
+            [78.23, 103.65],
+            [77.55, 101.96],
+            [75.8, 102.07],
+            [73.98, 103.61],
+            [73.57, 106.65],
+            [74.54, 106.82],
+            [74.92, 107.86]
+          ],
+          "heights": [64.0, 68.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 588426 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection6-588427",
+      "name": "BoundedAreaCollection6",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [79.81, 96.19],
+            [79.03, 96.12],
+            [78.34, 98.31],
+            [79.06, 98.53]
+          ],
+          "heights": [64.0, 68.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 588427 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection7-588428",
+      "name": "BoundedAreaCollection7",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [80.62, 85.48],
+            [78.24, 85.96],
+            [76.35, 84.1],
+            [75.33, 84.63],
+            [74.55, 86.6],
+            [76.04, 88.46],
+            [76.04, 90.57],
+            [76.86, 91.22],
+            [78.57, 91.01],
+            [80.07, 89.53],
+            [81.68, 86.39],
+            [84.22, 85.3],
+            [84.75, 86.41],
+            [87.42, 86.82],
+            [87.3, 86.19],
+            [84.52, 84.38]
+          ],
+          "heights": [64.0, 68.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 588428 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection8-588429",
+      "name": "BoundedAreaCollection8",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [89.9, 78.73],
+            [89.78, 77.25],
+            [89.41, 73.33],
+            [88.94, 73.23],
+            [86.88, 74.28],
+            [86.48, 76.4],
+            [87.18, 77.13],
+            [87.19, 79.2],
+            [89.22, 79.02]
+          ],
+          "heights": [64.0, 68.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 588429 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection9-588430",
+      "name": "BoundedAreaCollection9",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [82.13, 50.73],
+            [82.22, 50.22],
+            [81.09, 49.96],
+            [80.38, 50.19],
+            [80.79, 51.23]
+          ],
+          "heights": [64.0, 68.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 588430 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection10-588431",
+      "name": "BoundedAreaCollection10",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [65.55, 97.27],
+            [65.34, 95.33],
+            [64.76, 95.21],
+            [64.19, 95.54],
+            [64.22, 96.64],
+            [64.04, 99.24],
+            [64.57, 99.4]
+          ],
+          "heights": [64.0, 68.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 588431 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection11-588432",
+      "name": "BoundedAreaCollection11",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [67.82, 113.13],
+            [67.15, 112.5],
+            [68.1, 110.96],
+            [66.2, 109.86],
+            [65.44, 111.34],
+            [66.09, 113.59],
+            [66.63, 114.79],
+            [67.44, 114.32]
+          ],
+          "heights": [64.0, 68.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 588432 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/wall-boundedareacollection12-588433",
+      "name": "BoundedAreaCollection12",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [104.8, 71.6],
+            [104.46, 71.43],
+            [103.36, 72.22],
+            [103.88, 72.59]
+          ],
+          "heights": [64.0, 68.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:4210 uniqueid 588433 (extract_server_areas.py)"
     }
   ]
 }

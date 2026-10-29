@@ -40,6 +40,31 @@
           "const": "quest",
           "description": "An area quest's region (the client's `Quest_*` bounded areas).",
           "type": "string"
+        },
+        {
+          "const": "trigger",
+          "description": "A server trigger area (the client's RDB 1000053 bounded areas): what entering it does is\na trigger's (`triggers.json`, `area`); `category` says what it seems to be for.",
+          "type": "string"
+        },
+        {
+          "const": "wall",
+          "description": "An invisible wall (`blocks` says what it blocks and who enforces it).",
+          "type": "string"
+        },
+        {
+          "const": "kill",
+          "description": "Falling into it means the player fell out of the world (`FallThroughWorld`).",
+          "type": "string"
+        },
+        {
+          "const": "story",
+          "description": "A story, cinematic or talking-head trigger area (phase 3 hangs its actions on these).",
+          "type": "string"
+        },
+        {
+          "const": "territory",
+          "description": "A territory (RDB 1000050): wander space with roaming `paths`.",
+          "type": "string"
         }
       ]
     },
@@ -70,6 +95,37 @@
             "type": "integer"
           },
           "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "Blocks": {
+      "additionalProperties": false,
+      "description": "What a wall area blocks (the bounded area's collision flags).",
+      "properties": {
+        "by": {
+          "$ref": "#/$defs/WallSide",
+          "default": "client"
+        },
+        "movement": {
+          "description": "Walking characters (MovementCollisionBehaviour).",
+          "type": "boolean"
+        },
+        "off": {
+          "description": "Off until a trigger switches it on (StaticCollisionEnabled false; `set_state` `closed`).",
+          "type": "boolean"
+        },
+        "open_line": {
+          "description": "The polygon is an open line of wall segments, not a closed shape (closedshape false).",
+          "type": "boolean"
+        },
+        "pathing": {
+          "description": "NPC paths (PathingCollisionEnabled).",
+          "type": "boolean"
+        },
+        "sight": {
+          "description": "Line of sight for combat (LOSCombatCollisionBehaviour).",
+          "type": "boolean"
         }
       },
       "type": "object"
@@ -310,6 +366,21 @@
           "type": "string"
         }
       ]
+    },
+    "WallSide": {
+      "description": "Who keeps characters out of a wall.",
+      "oneOf": [
+        {
+          "const": "client",
+          "description": "The client's own collision (RDB 1040010 `BoundedAreaCollision` layers): the server only\nkeeps its NPCs' paths out of it.",
+          "type": "string"
+        },
+        {
+          "const": "server",
+          "description": "The server (RDB 1000053's `boundedareas_collision` section): the client doesn't know it.",
+          "type": "string"
+        }
+      ]
     }
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -318,6 +389,21 @@
   "properties": {
     "author": {
       "type": "string"
+    },
+    "blocks": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Blocks"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "A wall: what it blocks."
+    },
+    "category": {
+      "description": "What the area seems to be for, from its client name (tools/re/extract_server_areas.py:\n`hazard`, `speed_or_jump`, `teleport`, `spawn_ambush`, `cinematic`, ...).",
+      "type": ["string", "null"]
     },
     "client_name": {
       "description": "The client's name for it (bounded area or point name), when `name` differs.",
@@ -355,6 +441,22 @@
     "note": {
       "description": "World-editor notes: what it is about and how far it is checked."
     },
+    "paths": {
+      "description": "A territory's roaming paths (RDB 1000050): wander points.",
+      "items": {
+        "items": {
+          "items": {
+            "format": "float",
+            "type": "number"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "type": "array"
+        },
+        "type": "array"
+      },
+      "type": "array"
+    },
     "rev": {
       "description": "Revision, raised by every saved edit (for merging concurrent edits).",
       "format": "uint64",
@@ -364,6 +466,12 @@
     "role": {
       "$ref": "#/$defs/AreaRole",
       "default": "place"
+    },
+    "scry": {
+      "description": "The client's Scry script id on the area (RDB 1000053 `scryid`; the script bodies were\nserver-side and are lost, their names are in RDB 1010029).",
+      "format": "uint32",
+      "minimum": 0,
+      "type": ["integer", "null"]
     },
     "shape": {
       "anyOf": [

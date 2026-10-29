@@ -1,0 +1,17 @@
+{
+  "id": "buff/speed-pad",
+  "name": "Speed Pad",
+  "nano": 459025,
+  "duration": "10s",
+  "effects": [
+    {
+      "stat": {
+        "stat": "MovementMultiplier",
+        "op": "add",
+        "value": 50
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Spell 459025 \"XX_Speed Buff\" (TimeExist 1000 cs; its client action Modify does the speed). The BA_Speedbuff pads give it once their speed buildie is built (extract_server_areas.py; docs/TUNABLES.md)."
+}

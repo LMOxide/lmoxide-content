@@ -339,6 +339,1797 @@
         }
       },
       "source": "client"
+    },
+    {
+      "id": "area/2500/res-firstboss",
+      "name": "Res_FirstBoss",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [159.32, 147.52],
+            [158.3, 122.12],
+            [164.37, 121.73],
+            [163.89, 147.19]
+          ],
+          "heights": [43.332, 53.332]
+        }
+      },
+      "category": "encounter",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 464779; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/res-secondboss",
+      "name": "Res_SecondBoss",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [304.84, 229.71],
+            [305.2, 248.55],
+            [301.08, 249.24],
+            [300.9, 230.03]
+          ],
+          "heights": [56.281, 66.281]
+        }
+      },
+      "category": "encounter",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 464780; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/res-cliffs",
+      "name": "Res_Cliffs",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [231.39, 220.37],
+            [233.74, 239.2],
+            [229.73, 240.36],
+            [227.51, 221.15]
+          ],
+          "heights": [51.292, 61.292]
+        }
+      },
+      "category": "hate_res",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 464781; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/res-harpyboss",
+      "name": "Res_HarpyBoss",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [334.77, 358.92],
+            [337.92, 375.84],
+            [328.09, 370.42],
+            [330.85, 358.37]
+          ],
+          "heights": [85.378, 95.378]
+        }
+      },
+      "category": "encounter",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 464782; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/res-boss",
+      "name": "Res_Boss",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [335.73, 377.87],
+            [314.94, 389.82],
+            [315.65, 383.78],
+            [333.71, 374.48]
+          ],
+          "heights": [105.942, 115.942]
+        }
+      },
+      "category": "encounter",
+      "scry": 174337,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 464783; Scry 174337 boundedarea_discoverresurrectionpoint (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/clearhate-firstboss",
+      "name": "ClearHate_FirstBoss",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [159.49, 125.99],
+            [159.53, 122.88],
+            [167.12, 125.21],
+            [162.04, 128.67]
+          ],
+          "heights": [44.74, 54.74]
+        }
+      },
+      "category": "encounter",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 623288; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/clearhate-secondboss",
+      "name": "ClearHate_SecondBoss",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [300.23, 233.51],
+            [300.27, 230.4],
+            [307.86, 232.72],
+            [305.45, 236.12],
+            [302.13, 236.14]
+          ],
+          "heights": [56.957, 66.957]
+        }
+      },
+      "category": "encounter",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 623289; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/clearhate-cliffs",
+      "name": "ClearHate_Cliffs",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [228.04, 226.94],
+            [228.09, 223.82],
+            [235.67, 226.15],
+            [233.26, 229.55],
+            [229.95, 229.57]
+          ],
+          "heights": [51.535, 61.535]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 623290; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/clearhate-harpyboss",
+      "name": "ClearHate_HarpyBoss",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [329.39, 372.19],
+            [329.71, 369.5],
+            [331.3, 368.19],
+            [334.08, 368.13],
+            [335.99, 369.01],
+            [337.03, 371.4],
+            [334.62, 374.8],
+            [331.3, 374.82]
+          ],
+          "heights": [86.526, 96.526]
+        }
+      },
+      "category": "encounter",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 623291; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/clearhate-boss",
+      "name": "ClearHate_Boss",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [315.1, 387.66],
+            [315.42, 384.97],
+            [317.01, 383.66],
+            [319.78, 383.6],
+            [321.7, 384.48],
+            [322.74, 386.87],
+            [320.32, 390.27],
+            [317.01, 390.29]
+          ],
+          "heights": [108.031, 118.031]
+        }
+      },
+      "category": "encounter",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 623292; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/clearhate-entrance",
+      "name": "ClearHate_Entrance",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [45.57, 134.54],
+            [45.89, 131.85],
+            [47.48, 130.54],
+            [50.25, 130.49],
+            [52.17, 131.37],
+            [53.2, 133.76],
+            [50.79, 137.16],
+            [47.48, 137.17]
+          ],
+          "heights": [23.082, 33.082]
+        }
+      },
+      "category": "hate_res",
+      "scry": 601883,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 623293; Scry 601883 ba_clearhatetowardsme (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/ba-teleportentrance",
+      "name": "BA_TeleportEntrance",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [59.02, 86.71],
+            [64.91, 83.94],
+            [66.6, 98.67],
+            [59.73, 98.44]
+          ],
+          "heights": [29.125, 39.125]
+        }
+      },
+      "category": "teleport",
+      "scry": 18602,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 94960; Scry 18602 teleportplayerboundedarea_wazu (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/ba-teleportexit",
+      "name": "BA_TeleportExit",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [324.95, 420.6],
+            [326.67, 421.79],
+            [323.87, 424.85],
+            [322.37, 423.25]
+          ],
+          "heights": [103.271, 113.271]
+        }
+      },
+      "category": "teleport",
+      "scry": 18602,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 94961; Scry 18602 teleportplayerboundedarea_wazu (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/fallthroughworld",
+      "name": "FallThroughWorld",
+      "role": "kill",
+      "shape": {
+        "polygon": {
+          "points": [
+            [-4.04, -2.03],
+            [516.88, -2.7],
+            [513.82, 516.01],
+            [-2.76, 514.34]
+          ],
+          "heights": [0.0, 10.0]
+        }
+      },
+      "category": "kill_volume",
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 464784 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/occlusionshield-daleatrhys",
+      "name": "OcclusionShield_DaleAtRhys",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [332.04, 405.82],
+            [340.92, 396.95],
+            [350.41, 387.46]
+          ],
+          "heights": [109.101, 119.101]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:2500 boundedareas_collision guid 149505 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/ba-gorgon-quest",
+      "name": "ba_gorgon_quest",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [180.94, 116.04],
+            [210.93, 116.95],
+            [210.61, 151.8],
+            [181.63, 152.03]
+          ],
+          "heights": [43.779, 53.779]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 156899 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/gorgonocclusionshield",
+      "name": "GorgonOcclusionShield",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [181.62, 123.35],
+            [181.62, 155.35]
+          ],
+          "heights": [44.587, 54.587]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:2500 boundedareas_collision guid 495130 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/gorgonzola-outside",
+      "name": "Gorgonzola_Outside",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [183.19, 144.35],
+            [183.19, 132.35],
+            [180.62, 132.35],
+            [180.62, 115.92],
+            [208.51, 115.42],
+            [208.51, 151.68],
+            [180.62, 151.68],
+            [180.62, 144.35]
+          ],
+          "heights": [44.151, 54.151]
+        }
+      },
+      "category": "encounter",
+      "scry": 56641,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 495131; Scry 56641 ? (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/ba-harpy-nests",
+      "name": "BA_Harpy_Nests",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [310.07, 286.79],
+            [361.48, 284.15],
+            [357.5, 293.83],
+            [355.71, 303.41],
+            [346.39, 304.98],
+            [380.18, 315.77],
+            [378.04, 353.97],
+            [355.71, 371.44],
+            [330.65, 372.36],
+            [305.48, 352.59]
+          ],
+          "heights": [64.296, 74.296]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 152394 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/satyrocclusionshield",
+      "name": "SatyrOcclusionShield",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [316.46, 225.07],
+            [316.46, 257.07]
+          ],
+          "heights": [56.67, 66.67]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "server",
+        "sight": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1000053:2500 boundedareas_collision guid 495144 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/satyr-outside",
+      "name": "Satyr_Outside",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [317.53, 246.07],
+            [317.53, 234.07],
+            [314.95, 234.07],
+            [314.95, 226.32],
+            [333.08, 225.82],
+            [332.03, 261.67],
+            [314.95, 261.67],
+            [314.95, 246.07]
+          ],
+          "heights": [56.234, 66.234]
+        }
+      },
+      "category": "encounter",
+      "scry": 56641,
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 495145; Scry 56641 ? (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/ba-dale-quest",
+      "name": "BA_Dale_quest",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [331.21, 405.47],
+            [338.57, 398.28],
+            [342.34, 394.47],
+            [349.42, 383.45],
+            [368.76, 406.44],
+            [350.34, 424.28]
+          ],
+          "heights": [107.579, 117.579]
+        }
+      },
+      "category": "other",
+      "source": "client",
+      "comment": "RDB 1000053:2500 guid 152395 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision0-583072",
+      "name": "collision0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [350.24, 359.08],
+            [351.74, 359.08],
+            [352.74, 355.95],
+            [355.37, 352.58],
+            [357.37, 350.95],
+            [360.34, 350.87],
+            [367.83, 339.19]
+          ],
+          "heights": [91.5, 101.8]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583072 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision-harpies-nest0-583073",
+      "name": "collision_harpies_nest0",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [367.89, 339.7],
+            [367.16, 338.54],
+            [366.61, 333.08],
+            [367.0, 330.41],
+            [364.1, 327.56],
+            [362.8, 325.24],
+            [364.0, 323.01],
+            [363.65, 321.42],
+            [351.46, 316.76],
+            [350.02, 316.5],
+            [350.93, 318.24],
+            [345.59, 319.79],
+            [342.7, 320.02],
+            [341.78, 318.13],
+            [340.32, 317.16]
+          ],
+          "heights": [95.449, 105.749]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583073 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision1-583074",
+      "name": "collision1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [244.61, 233.94],
+            [244.19, 235.81],
+            [233.8, 235.65],
+            [226.23, 237.85],
+            [222.15, 236.22],
+            [218.92, 237.18],
+            [217.3, 238.42],
+            [208.93, 239.73],
+            [202.09, 240.23],
+            [201.34, 234.27],
+            [201.94, 232.95],
+            [195.04, 219.29],
+            [193.91, 219.29]
+          ],
+          "heights": [50.664, 60.964]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583074 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision2-583075",
+      "name": "collision2",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [83.71, 134.08],
+            [67.89, 134.22],
+            [65.56, 134.25],
+            [62.96, 135.51],
+            [58.47, 138.03],
+            [52.68, 135.64],
+            [47.79, 137.06],
+            [45.73, 134.51],
+            [47.56, 131.33],
+            [51.45, 130.7],
+            [52.38, 129.08],
+            [51.18, 123.04],
+            [51.63, 117.59],
+            [51.51, 113.14],
+            [53.51, 112.25],
+            [57.33, 113.38],
+            [59.07, 114.74],
+            [59.64, 113.8],
+            [58.44, 112.3],
+            [55.25, 110.96],
+            [52.83, 110.81],
+            [52.76, 108.94],
+            [53.4, 108.0],
+            [51.55, 106.09],
+            [51.9, 104.58],
+            [54.05, 97.94],
+            [54.14, 93.63],
+            [59.51, 93.93],
+            [59.56, 91.3],
+            [65.82, 91.28],
+            [61.6, 95.43],
+            [62.87, 96.65],
+            [61.43, 97.88],
+            [62.54, 99.05],
+            [65.77, 101.1],
+            [63.64, 103.94],
+            [65.33, 107.18],
+            [64.18, 110.36],
+            [65.82, 113.05],
+            [66.07, 120.24]
+          ],
+          "heights": [21.198, 31.498]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583075 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision-harpies-nest1-583076",
+      "name": "collision_harpies_nest1",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [325.74, 324.65],
+            [338.77, 314.93],
+            [337.04, 312.5],
+            [341.55, 311.89],
+            [345.61, 312.22],
+            [348.71, 312.02],
+            [351.03, 313.78],
+            [364.76, 318.85],
+            [367.4, 318.39],
+            [370.51, 322.47],
+            [373.17, 328.22],
+            [373.9, 333.49],
+            [372.92, 340.63],
+            [370.98, 340.8],
+            [362.83, 353.49]
+          ],
+          "heights": [93.1, 106.6]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583076 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision4-583077",
+      "name": "collision4",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [361.59, 243.99],
+            [358.93, 242.59],
+            [340.0, 242.59],
+            [339.8, 243.97],
+            [331.97, 244.03],
+            [331.56, 259.59],
+            [325.2, 259.76],
+            [316.35, 259.82],
+            [316.35, 244.18],
+            [309.08, 244.18],
+            [302.93, 242.74],
+            [271.13, 242.5],
+            [269.19, 243.5],
+            [261.05, 242.36],
+            [259.45, 240.72],
+            [243.71, 233.39]
+          ],
+          "heights": [52.0, 62.3]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583077 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision5-583078",
+      "name": "collision5",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [146.93, 97.49],
+            [129.87, 96.41],
+            [129.38, 99.27],
+            [129.32, 120.21],
+            [127.93, 122.08],
+            [128.39, 130.11],
+            [126.89, 134.08],
+            [123.95, 135.36],
+            [118.08, 137.35],
+            [112.56, 136.97],
+            [103.83, 136.17],
+            [100.1, 134.4],
+            [93.0, 136.55],
+            [87.57, 139.14],
+            [84.42, 140.45],
+            [83.45, 134.13]
+          ],
+          "heights": [21.401, 46.401]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583078 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision6-583079",
+      "name": "collision6",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [64.33, 122.05],
+            [59.06, 119.49],
+            [57.75, 119.4],
+            [57.67, 120.81],
+            [62.05, 123.13],
+            [64.71, 123.23],
+            [61.76, 126.39],
+            [64.84, 127.59],
+            [65.24, 130.25],
+            [67.42, 130.42],
+            [67.81, 121.18]
+          ],
+          "heights": [16.995, 27.295]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583079 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision7-583080",
+      "name": "collision7",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [67.38, 130.76],
+            [83.57, 130.91],
+            [86.77, 125.88],
+            [92.09, 122.81],
+            [96.56, 123.2],
+            [94.66, 128.51],
+            [96.71, 130.28],
+            [99.02, 129.62],
+            [106.65, 130.01],
+            [107.23, 124.16],
+            [108.47, 123.63],
+            [108.64, 122.44],
+            [121.19, 122.1],
+            [122.89, 118.81],
+            [122.99, 94.17],
+            [125.34, 93.12],
+            [124.7, 89.87],
+            [148.9, 90.47],
+            [151.97, 94.87],
+            [151.99, 109.35],
+            [149.49, 113.23],
+            [143.8, 113.29]
+          ],
+          "heights": [9.832, 47.732]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583080 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision8-583081",
+      "name": "collision8",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [150.83, 139.88],
+            [147.31, 141.07],
+            [140.91, 141.38],
+            [136.35, 137.95],
+            [136.6, 132.49],
+            [136.77, 128.4],
+            [137.42, 126.76],
+            [137.4, 115.09],
+            [136.1, 108.13],
+            [137.3, 105.88],
+            [146.95, 106.34],
+            [146.71, 96.38]
+          ],
+          "heights": [42.763, 53.063]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583081 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision9-583082",
+      "name": "collision9",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [324.44, 303.4],
+            [323.67, 301.38],
+            [324.35, 298.63],
+            [328.64, 295.75],
+            [333.03, 292.03],
+            [333.99, 287.19],
+            [344.28, 287.09],
+            [358.51, 286.55],
+            [358.94, 289.36],
+            [356.39, 294.23],
+            [357.84, 295.3],
+            [359.24, 293.35],
+            [360.31, 290.8],
+            [365.3, 289.96],
+            [363.9, 287.0],
+            [362.51, 285.75],
+            [362.54, 257.79],
+            [366.41, 253.38]
+          ],
+          "heights": [60.98, 73.68]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583082 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision10-583083",
+      "name": "collision10",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [317.87, 315.08],
+            [316.52, 315.73],
+            [316.96, 318.98],
+            [316.05, 323.16],
+            [314.94, 325.48],
+            [312.64, 326.34],
+            [313.63, 341.42]
+          ],
+          "heights": [70.933, 81.233]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583083 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision11-583084",
+      "name": "collision11",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [309.23, 326.9],
+            [307.78, 325.67],
+            [307.67, 323.3],
+            [309.53, 319.54],
+            [311.67, 314.68],
+            [313.91, 313.46],
+            [324.41, 302.63]
+          ],
+          "heights": [70.933, 81.233]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583084 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision16-583085",
+      "name": "collision16",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [362.73, 353.11],
+            [363.69, 354.87],
+            [362.18, 357.71],
+            [359.58, 359.39],
+            [357.5, 362.04],
+            [354.69, 362.98],
+            [354.24, 362.59],
+            [339.73, 367.41]
+          ],
+          "heights": [88.543, 98.843]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583085 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision17-583086",
+      "name": "collision17",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [320.07, 350.46],
+            [320.33, 350.09],
+            [320.44, 336.72],
+            [320.06, 335.86],
+            [319.07, 334.78],
+            [319.42, 331.47],
+            [321.47, 329.13],
+            [323.23, 325.67],
+            [325.02, 323.5],
+            [325.97, 324.32]
+          ],
+          "heights": [103.536, 113.836]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583086 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision18-583087",
+      "name": "collision18",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [340.25, 317.52],
+            [328.27, 326.26],
+            [329.16, 327.64],
+            [328.5, 330.79],
+            [327.3, 334.27],
+            [325.06, 337.69],
+            [322.66, 336.63],
+            [320.28, 336.74]
+          ],
+          "heights": [103.536, 113.836]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583087 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision19-583088",
+      "name": "collision19",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [319.72, 350.23],
+            [324.14, 350.24],
+            [325.09, 352.17],
+            [327.39, 357.42],
+            [327.2, 361.12],
+            [324.98, 362.66],
+            [325.16, 369.12],
+            [327.75, 375.1],
+            [329.78, 379.56],
+            [329.16, 380.19],
+            [331.94, 382.91],
+            [331.22, 383.43],
+            [342.95, 395.68],
+            [350.36, 389.73],
+            [363.63, 404.22],
+            [363.27, 407.92],
+            [359.92, 410.76],
+            [360.89, 412.3],
+            [356.34, 416.85],
+            [354.8, 415.67],
+            [351.4, 419.08],
+            [346.72, 418.66],
+            [343.98, 416.13],
+            [341.14, 418.98],
+            [342.51, 421.47]
+          ],
+          "heights": [105.657, 115.957]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583088 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision20-583089",
+      "name": "collision20",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [339.32, 398.94],
+            [327.4, 387.25],
+            [326.65, 387.82],
+            [324.38, 385.6],
+            [321.1, 384.2],
+            [321.91, 387.01],
+            [320.89, 389.87],
+            [318.49, 390.31],
+            [315.94, 388.47],
+            [315.85, 386.0],
+            [317.24, 383.27],
+            [316.36, 380.58],
+            [315.22, 375.19],
+            [317.01, 369.77],
+            [318.31, 369.07],
+            [318.31, 362.28],
+            [315.53, 361.99],
+            [316.48, 355.71],
+            [316.96, 351.75],
+            [319.77, 350.7]
+          ],
+          "heights": [106.655, 116.955]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583089 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision21-583090",
+      "name": "collision21",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [343.11, 420.21],
+            [334.22, 428.65],
+            [329.12, 423.21],
+            [330.3, 422.19],
+            [327.74, 419.72],
+            [327.3, 420.14],
+            [327.7, 421.24],
+            [323.64, 424.8],
+            [321.81, 422.98],
+            [319.74, 424.82],
+            [318.18, 423.21],
+            [323.02, 418.42]
+          ],
+          "heights": [104.251, 114.551]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583090 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision22-583091",
+      "name": "collision22",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [322.13, 417.12],
+            [321.88, 414.29],
+            [330.88, 405.61],
+            [331.48, 408.97],
+            [333.9, 411.57],
+            [336.07, 411.06],
+            [337.95, 414.09],
+            [332.38, 419.28],
+            [330.15, 417.13],
+            [329.81, 417.63],
+            [332.74, 420.47],
+            [333.26, 419.98],
+            [332.85, 419.57],
+            [338.56, 413.84],
+            [340.37, 414.58],
+            [338.5, 416.3],
+            [339.1, 416.9],
+            [342.13, 413.78],
+            [340.19, 411.28],
+            [336.24, 407.84],
+            [336.2, 405.45],
+            [335.88, 404.56],
+            [338.64, 401.71],
+            [338.87, 399.14]
+          ],
+          "heights": [104.265, 114.565]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583091 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision12-583092",
+      "name": "collision12",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [313.38, 340.8],
+            [313.65, 342.02],
+            [316.5, 343.63],
+            [319.27, 346.89],
+            [320.25, 348.86],
+            [318.38, 350.66],
+            [328.54, 362.32]
+          ],
+          "heights": [81.157, 91.457]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583092 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision13-583093",
+      "name": "collision13",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [315.41, 352.96],
+            [313.56, 353.62],
+            [311.75, 349.64],
+            [309.05, 345.28],
+            [308.79, 343.12],
+            [309.98, 341.74],
+            [309.02, 326.48]
+          ],
+          "heights": [82.504, 92.804]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583093 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision14-583094",
+      "name": "collision14",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [327.83, 359.63],
+            [328.7, 361.99],
+            [331.76, 360.8],
+            [336.04, 360.71],
+            [338.42, 361.74],
+            [339.16, 364.18],
+            [353.04, 359.61],
+            [351.17, 358.91]
+          ],
+          "heights": [85.07, 95.37]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583094 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision15-583095",
+      "name": "collision15",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [339.96, 367.47],
+            [339.54, 368.85],
+            [336.2, 369.18],
+            [336.08, 371.04],
+            [335.85, 374.41],
+            [332.9, 375.16],
+            [330.09, 373.95],
+            [329.74, 370.76],
+            [331.47, 368.76],
+            [331.85, 367.54],
+            [327.63, 366.72],
+            [326.44, 365.51],
+            [315.14, 352.14]
+          ],
+          "heights": [86.489, 96.789]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583095 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision23-583096",
+      "name": "collision23",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [189.36, 150.31],
+            [184.66, 149.59],
+            [182.49, 147.89],
+            [182.23, 142.88],
+            [181.77, 141.93],
+            [180.45, 140.58],
+            [167.39, 140.53],
+            [164.37, 141.54],
+            [162.36, 139.27],
+            [158.89, 139.14],
+            [157.48, 141.48],
+            [151.75, 141.42],
+            [150.5, 139.96]
+          ],
+          "heights": [45.191, 55.491]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583096 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision24-583097",
+      "name": "collision24",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [166.66, 127.96],
+            [166.34, 132.8],
+            [166.6, 135.79],
+            [180.19, 135.79],
+            [181.42, 135.36],
+            [182.24, 133.72],
+            [182.6, 123.2],
+            [184.62, 123.08],
+            [185.87, 120.29],
+            [199.87, 119.72],
+            [199.64, 121.33],
+            [201.57, 123.46],
+            [203.95, 124.01],
+            [205.55, 126.6],
+            [205.55, 135.63],
+            [212.6, 136.63],
+            [212.99, 142.34],
+            [205.25, 141.1],
+            [204.98, 142.7],
+            [204.98, 149.95],
+            [196.99, 150.08],
+            [196.99, 166.91],
+            [205.17, 167.75]
+          ],
+          "heights": [45.191, 55.491]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583097 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision25-583098",
+      "name": "collision25",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [204.31, 167.31],
+            [203.65, 176.38],
+            [201.98, 178.67],
+            [197.79, 176.76],
+            [197.55, 182.88],
+            [200.09, 183.68],
+            [202.17, 186.27],
+            [200.14, 190.95],
+            [197.89, 191.71],
+            [199.49, 193.55],
+            [201.97, 194.55],
+            [200.83, 202.82],
+            [199.33, 202.99],
+            [196.5, 202.28],
+            [195.63, 201.23],
+            [195.13, 202.23],
+            [196.69, 203.51],
+            [197.78, 203.92],
+            [197.88, 205.19],
+            [199.33, 206.37],
+            [199.31, 208.05],
+            [198.67, 210.6],
+            [199.09, 211.99],
+            [200.55, 213.03],
+            [199.84, 216.75],
+            [197.95, 218.7],
+            [204.56, 231.6],
+            [205.57, 230.2]
+          ],
+          "heights": [45.191, 55.491]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583098 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision26-583099",
+      "name": "collision26",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [194.79, 219.85],
+            [193.27, 217.14],
+            [191.01, 216.91],
+            [190.48, 203.78],
+            [190.98, 196.25],
+            [193.17, 196.34],
+            [195.11, 197.58],
+            [196.72, 197.95],
+            [196.82, 196.94],
+            [194.26, 195.37],
+            [191.0, 193.44],
+            [191.11, 189.1],
+            [192.03, 184.12],
+            [194.24, 183.01],
+            [194.51, 176.25],
+            [191.23, 177.68],
+            [188.98, 175.7],
+            [189.62, 171.74],
+            [189.69, 168.4],
+            [189.11, 165.94],
+            [189.11, 150.42]
+          ],
+          "heights": [45.191, 55.491]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583099 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision27-583100",
+      "name": "collision27",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [371.45, 239.71],
+            [369.7, 242.38],
+            [369.59, 243.82],
+            [370.98, 244.51],
+            [373.4, 244.58],
+            [374.8, 247.49],
+            [373.75, 249.7],
+            [372.41, 248.68],
+            [370.35, 247.26],
+            [369.88, 247.69],
+            [369.93, 254.34],
+            [373.48, 256.32],
+            [377.32, 258.03]
+          ],
+          "heights": [59.615, 69.915]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583100 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision28-583101",
+      "name": "collision28",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [366.54, 253.35],
+            [366.25, 247.21],
+            [364.32, 244.4],
+            [364.07, 242.59],
+            [363.27, 242.59],
+            [361.31, 242.57],
+            [360.54, 243.24]
+          ],
+          "heights": [59.615, 69.915]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583101 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision29-583102",
+      "name": "collision29",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [333.16, 335.98],
+            [334.15, 334.43],
+            [336.93, 332.38],
+            [339.65, 331.76],
+            [342.97, 331.45],
+            [345.82, 330.97],
+            [347.41, 335.66],
+            [345.99, 340.81],
+            [343.28, 342.57],
+            [339.88, 343.1],
+            [336.88, 342.48],
+            [333.89, 340.82],
+            [332.83, 338.81]
+          ],
+          "heights": [99.618, 109.918]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583102 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision30-583103",
+      "name": "collision30",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [234.12, 228.79],
+            [235.27, 231.06],
+            [237.24, 231.05],
+            [240.65, 229.33],
+            [243.17, 229.59],
+            [246.55, 231.02],
+            [259.99, 237.24]
+          ],
+          "heights": [52.0, 62.3]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583103 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision31-583104",
+      "name": "collision31",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [204.65, 231.34],
+            [206.05, 230.5],
+            [207.72, 233.69],
+            [209.66, 234.18],
+            [211.88, 232.29],
+            [221.32, 231.95],
+            [226.9, 230.68],
+            [229.23, 230.59],
+            [229.97, 229.35],
+            [229.02, 226.27],
+            [229.62, 223.64],
+            [232.52, 222.75],
+            [235.34, 224.76],
+            [235.17, 228.04],
+            [234.14, 229.32]
+          ],
+          "heights": [52.0, 62.3]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583104 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision32-583105",
+      "name": "collision32",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [145.35, 113.43],
+            [142.64, 112.63],
+            [142.46, 127.57],
+            [144.25, 127.44],
+            [159.02, 127.43],
+            [159.98, 126.47],
+            [158.92, 124.65],
+            [159.75, 122.98],
+            [162.36, 122.2],
+            [164.84, 123.28],
+            [165.25, 125.93],
+            [163.86, 128.11],
+            [168.13, 128.06]
+          ],
+          "heights": [45.191, 55.491]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583105 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision33-583106",
+      "name": "collision33",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [259.65, 237.07],
+            [261.74, 236.49],
+            [263.57, 236.38],
+            [264.85, 236.92],
+            [265.19, 238.2],
+            [266.36, 238.93],
+            [271.66, 238.69],
+            [271.86, 237.74],
+            [299.41, 237.65],
+            [300.32, 236.43],
+            [301.9, 235.19],
+            [301.0, 233.26],
+            [301.37, 231.39],
+            [303.1, 230.35],
+            [305.18, 230.24],
+            [306.79, 231.68],
+            [307.11, 233.99],
+            [306.21, 235.77],
+            [307.89, 236.35],
+            [314.67, 236.36],
+            [316.02, 236.61],
+            [316.34, 235.96],
+            [315.84, 234.88],
+            [315.84, 229.17],
+            [331.91, 229.04],
+            [331.77, 236.24],
+            [339.2, 236.07],
+            [339.78, 237.38],
+            [343.33, 237.23],
+            [356.4, 237.34],
+            [356.69, 228.53],
+            [365.78, 229.1],
+            [371.78, 235.79],
+            [371.47, 242.15]
+          ],
+          "heights": [58.1, 68.4]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583106 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/2500/wall-collision34-583107",
+      "name": "collision34",
+      "role": "wall",
+      "shape": {
+        "polygon": {
+          "points": [
+            [376.72, 257.3],
+            [376.57, 260.19],
+            [377.05, 264.05],
+            [376.42, 269.04],
+            [376.31, 272.73],
+            [373.55, 273.55],
+            [371.93, 275.6],
+            [374.05, 276.64],
+            [376.24, 279.74],
+            [376.25, 284.93],
+            [375.07, 288.87],
+            [376.35, 290.49],
+            [376.99, 293.99],
+            [374.2, 297.58],
+            [369.74, 299.2],
+            [364.08, 295.92],
+            [361.47, 296.73],
+            [360.12, 299.68],
+            [356.02, 300.96],
+            [351.4, 300.89],
+            [350.04, 298.01],
+            [352.15, 293.45],
+            [350.61, 293.03],
+            [349.04, 295.52],
+            [348.14, 298.8],
+            [348.29, 301.05],
+            [345.29, 299.52],
+            [342.88, 297.28],
+            [339.59, 297.06],
+            [337.85, 300.51],
+            [331.62, 301.78],
+            [331.01, 303.06],
+            [329.02, 305.5],
+            [326.53, 305.49],
+            [316.61, 315.46],
+            [317.11, 316.26]
+          ],
+          "heights": [63.0, 73.3]
+        }
+      },
+      "category": "collision",
+      "blocks": {
+        "by": "client",
+        "movement": true,
+        "pathing": true,
+        "open_line": true
+      },
+      "source": "client",
+      "comment": "RDB 1040010:2500 uniqueid 583107 (extract_server_areas.py)"
     }
   ]
 }

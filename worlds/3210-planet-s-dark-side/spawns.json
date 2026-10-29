@@ -1894,6 +1894,50 @@
         "look": "empty_monsterdata_1x1x1"
       },
       "source": "client"
+    },
+    {
+      "id": "spawn/3210/speed-pad-ba-speedbuff-1",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [106.12, 501.19, 182.55],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_1, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/3210/speed-pad-ba-speedbuff-2",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [280.52, 477.52, 364.15],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_2, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/3210/speed-pad-ba-speedbuff-3",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [413.79, 122.04, 411.28],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_3, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/3210/speed-pad-ba-speedbuff-4",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [423.05, 122.02, 313.07],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_4, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
     }
   ]
 }

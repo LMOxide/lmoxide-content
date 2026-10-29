@@ -3835,6 +3835,94 @@
         "look": "empty_monsterdata_1x1x1"
       },
       "source": "client"
+    },
+    {
+      "id": "spawn/3200/speed-pad-ba-speedbuff-1",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [130.08, 80.3, 13.64],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_1, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/3200/speed-pad-ba-speedbuff-2",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [256.46, 96.18, 35.18],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_2, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/3200/speed-pad-ba-speedbuff-3",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [380.7, 104.05, 47.52],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_3, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/3200/speed-pad-ba-speedbuff-4",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [470.38, 119.74, 167.73],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_4, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/3200/speed-pad-ba-speedbuff-5",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [405.43, 119.78, 234.16],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_5, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/3200/speed-pad-ba-speedbuff-6",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [232.98, 138.5, 233.73],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_6, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/3200/speed-pad-ba-speedbuff-7",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [237.11, 125.92, 405.55],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_7, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/3200/speed-pad-ba-speedbuff-8",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [353.18, 123.73, 350.86],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_8, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
     }
   ]
 }

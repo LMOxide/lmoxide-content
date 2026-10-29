@@ -3061,6 +3061,61 @@
       "source": "surveyed",
       "author": "host",
       "updated": 1793115584
+    },
+    {
+      "id": "spawn/6200/speed-pad-ba-speedbuff-1",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [180.69, 69.06, 164.63],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_1, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/6200/speed-pad-ba-speedbuff-2",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [226.92, 63.81, 164.99],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_2, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/6200/speed-pad-ba-speedbuff-3",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [230.65, 62.28, 134.84],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_3, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/6200/speed-pad-ba-speedbuff-4",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [162.52, 64.69, 177.0],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_4, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/6200/speed-pad-ba-speedbuff-5",
+      "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
+      "kind": "buildie",
+      "template": "object/xx-buildie-level-04-5-buildie-achievement-signs-1-2",
+      "pos": [176.01, 64.39, 150.21],
+      "rot": 0.0,
+      "source": "proposed",
+      "tags": ["speed-pad"],
+      "comment": "The speed buildie of BA_Speedbuff_5, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
     }
   ]
 }

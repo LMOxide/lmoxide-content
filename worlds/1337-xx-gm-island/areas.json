@@ -1,0 +1,23 @@
+{
+  "areas": [
+    {
+      "id": "area/1337/ba-teleport",
+      "name": "BA_Teleport",
+      "role": "trigger",
+      "shape": {
+        "polygon": {
+          "points": [
+            [40.05, 42.83],
+            [42.86, 39.94],
+            [46.12, 43.03],
+            [42.86, 45.97]
+          ],
+          "heights": [-1.0, 9.0]
+        }
+      },
+      "category": "teleport",
+      "source": "client",
+      "comment": "RDB 1000053:1337 guid 615868 (extract_server_areas.py)"
+    }
+  ]
+}
