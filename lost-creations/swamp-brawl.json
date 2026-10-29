@@ -1,0 +1,25 @@
+{
+  "id": "lc/swamp-brawl",
+  "name": "Swamp Brawl",
+  "world": "world/swamp-brawl",
+  "mode": "brawl",
+  "start": {
+    "pos": [214.07, 42.77, 271.98],
+    "rot": 0.378
+  },
+  "start_gate": {
+    "shield": 532204,
+    "visual": 532203
+  },
+  "exit_gate": {
+    "shield": 530876,
+    "visual": 530877
+  },
+  "button": 532200,
+  "exit_door": 595125,
+  "quest": "quest/lost-creations-2-kill-monster-brawl",
+  "end_area": "area/7200/end",
+  "source": "guess",
+  "tags": ["approximate", "todo"],
+  "comment": "Start position guessed beside the button (the client has none): check it in game."
+}

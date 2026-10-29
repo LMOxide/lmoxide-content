@@ -1,0 +1,25 @@
+{
+  "id": "lc/isle-of-smash",
+  "name": "Isle of Smash",
+  "world": "world/isle-of-smash",
+  "mode": "smash",
+  "start": {
+    "pos": [130.81, 152.0, 129.92],
+    "rot": 0.393
+  },
+  "start_gate": {
+    "shield": 538209,
+    "visual": 538208
+  },
+  "exit_gate": {
+    "shield": 538210,
+    "visual": 538211
+  },
+  "button": 538207,
+  "exit_door": 595130,
+  "quest": "quest/lost-creations-5-smash-smash-and-dash",
+  "end_area": "area/7500/end",
+  "source": "guess",
+  "tags": ["approximate", "todo"],
+  "comment": "Start position guessed beside the button (the client has none): check it in game."
+}

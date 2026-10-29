@@ -1,0 +1,19 @@
+{
+  "id": "loot/lost-creations-enemy",
+  "name": "Lost Creations enemy",
+  "rolls": 1,
+  "entries": [
+    {
+      "chance": "31%",
+      "drop": {
+        "hearts": 1
+      },
+      "when": {
+        "bonus_stat": "orb_chance"
+      },
+      "comment": "the enemy bag's heart chance"
+    }
+  ],
+  "source": "guess",
+  "comment": "Inside a Lost Creations run enemies drop hearts only (the user's memory of live); how often is a guess (docs/TUNABLES.md)."
+}

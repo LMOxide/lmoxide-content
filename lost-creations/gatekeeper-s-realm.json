@@ -1,0 +1,27 @@
+{
+  "id": "lc/gatekeeper-s-realm",
+  "name": "Gatekeeper's Realm",
+  "world": "world/gatekeeper-s-realm",
+  "mode": "gatekeeper",
+  "start": {
+    "pos": [204.5, 42.9, 279.3],
+    "rot": 1.571
+  },
+  "start_gate": {
+    "shield": 538412,
+    "visual": 538402
+  },
+  "exit_gate": {
+    "shield": 538400,
+    "visual": 538401
+  },
+  "button": 538413,
+  "exit_door": 595131,
+  "quest": "quest/lost-creations-6-gatekeeper-gatekeeper",
+  "end_area": "area/7600/end",
+  "gatekeeper": {
+    "pos": [239.9, 42.2, 277.1],
+    "rot": -1.571
+  },
+  "source": "server"
+}

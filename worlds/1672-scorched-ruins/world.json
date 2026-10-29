@@ -3,6 +3,7 @@
   "name": "Scorched Ruins",
   "playfield": 1672,
   "kind": "pocket",
+  "element": "shadow",
   "region": "region/pirate-world",
   "arrival": {
     "pos": [235.07, 19.49, 246.48],

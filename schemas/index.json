@@ -246,6 +246,17 @@
       "prefix": "quest/",
       "schema": "quest.schema.json",
       "title": "Quest"
+    },
+    {
+      "description": "A Lost Creations level (docs/LOST-CREATIONS.md): `lost-creations/<slug>.json`. Its world\nholds the gates, button, exit door and `Start`/`End` areas the ids name.",
+      "kind": "lc",
+      "list": ["world", "mode"],
+      "path": "lost-creations/",
+      "per_world": false,
+      "plural": "Lost Creations levels",
+      "prefix": "lc/",
+      "schema": "lc.schema.json",
+      "title": "Lost Creations level"
     }
   ]
 }

@@ -3,6 +3,7 @@
   "name": "Wind Shrine",
   "playfield": 1650,
   "kind": "pocket",
+  "element": "light",
   "region": "region/pirate-world",
   "arrival": {
     "pos": [235.19, 18.49, 258.62],

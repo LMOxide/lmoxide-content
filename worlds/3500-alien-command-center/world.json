@@ -3,6 +3,7 @@
   "name": "Alien Command Center",
   "playfield": 3500,
   "kind": "pocket",
+  "element": "tech",
   "region": "region/space-world",
   "level": {
     "cap": 19

@@ -3,6 +3,7 @@
   "name": "Spider's Nest",
   "playfield": 5610,
   "kind": "pocket",
+  "element": "nature",
   "level": {
     "cap": 15
   },

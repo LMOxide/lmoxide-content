@@ -1,0 +1,25 @@
+{
+  "id": "lc/lunar-brawl",
+  "name": "Lunar Brawl",
+  "world": "world/lunar-brawl",
+  "mode": "brawl",
+  "start": {
+    "pos": [214.07, 42.77, 271.98],
+    "rot": 0.378
+  },
+  "start_gate": {
+    "shield": 550245,
+    "visual": 550246
+  },
+  "exit_gate": {
+    "shield": 550243,
+    "visual": 550244
+  },
+  "button": 550247,
+  "exit_door": 595127,
+  "quest": "quest/lost-creations-2-kill-monster-brawl",
+  "end_area": "area/7202/end",
+  "source": "guess",
+  "tags": ["approximate", "todo"],
+  "comment": "Start position guessed beside the button (the client has none): check it in game."
+}

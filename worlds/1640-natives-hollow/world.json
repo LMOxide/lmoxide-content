@@ -3,6 +3,7 @@
   "name": "Natives' Hollow",
   "playfield": 1640,
   "kind": "pocket",
+  "element": "magic",
   "region": "region/pirate-world",
   "arrival": {
     "pos": [235.44, 17.24, 254.75],

@@ -3,6 +3,7 @@
   "name": "Mysterious Crystal Cave",
   "playfield": 5620,
   "kind": "pocket",
+  "element": "light",
   "region": "region/medieval-world",
   "level": {
     "cap": 15

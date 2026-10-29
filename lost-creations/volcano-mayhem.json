@@ -1,0 +1,25 @@
+{
+  "id": "lc/volcano-mayhem",
+  "name": "Volcano Mayhem",
+  "world": "world/volcano-mayhem",
+  "mode": "mayhem",
+  "start": {
+    "pos": [178.87, 44.0, 110.64],
+    "rot": 0.381
+  },
+  "start_gate": {
+    "shield": 531704,
+    "visual": 532040
+  },
+  "exit_gate": {
+    "visual": 530186,
+    "open": true
+  },
+  "button": 532041,
+  "exit_door": 595118,
+  "quest": "quest/lost-creations-1-speedrun-timed-run",
+  "end_area": "area/7100/end",
+  "source": "guess",
+  "tags": ["approximate", "todo"],
+  "comment": "Start position guessed beside the button (the client has none): check it in game."
+}

@@ -1,0 +1,20 @@
+{
+  "spawns": [
+    {
+      "id": "spawn/7001/genesisdoordynel-no-mesh-set",
+      "name": "GenesisDoorDynel (no mesh set)",
+      "kind": "door",
+      "template": "object/genesisdoordynel-no-mesh-set",
+      "pos": [182.76, 41.08, 149.54],
+      "rot": [0.0, 0.6874, 0.0, -0.7263],
+      "scale": 3.0,
+      "client": {
+        "guid": 530333,
+        "tag": "----",
+        "script_group": 4,
+        "visual": [1010201, 465832]
+      },
+      "source": "client"
+    }
+  ]
+}

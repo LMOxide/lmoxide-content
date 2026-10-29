@@ -1,0 +1,25 @@
+{
+  "id": "lc/lost-champions-in-space",
+  "name": "Lost Champions in Space",
+  "world": "world/lost-champions-in-space",
+  "mode": "champions",
+  "start": {
+    "pos": [130.47, 152.0, 132.0],
+    "rot": 0.574
+  },
+  "start_gate": {
+    "shield": 547392,
+    "visual": 547391
+  },
+  "exit_gate": {
+    "shield": 547388,
+    "visual": 547389
+  },
+  "button": 547724,
+  "exit_door": 595128,
+  "quest": "quest/lost-creations-3-champion-champion-challenge",
+  "end_area": "area/7301/end",
+  "source": "guess",
+  "tags": ["approximate", "todo"],
+  "comment": "Start position guessed beside the button (the client has none): check it in game."
+}

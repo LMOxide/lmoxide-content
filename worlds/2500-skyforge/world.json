@@ -3,6 +3,7 @@
   "name": "Skyforge",
   "playfield": 2500,
   "kind": "pocket",
+  "element": "shadow",
   "region": "region/mythology-world",
   "level": {
     "cap": 21

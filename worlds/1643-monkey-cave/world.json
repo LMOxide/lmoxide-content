@@ -3,6 +3,7 @@
   "name": "Monkey Cave",
   "playfield": 1643,
   "kind": "pocket",
+  "element": "light",
   "region": "region/pirate-world",
   "arrival": {
     "pos": [235.44, 17.24, 254.75],

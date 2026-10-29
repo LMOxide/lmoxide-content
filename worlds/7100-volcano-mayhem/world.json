@@ -2,7 +2,7 @@
   "id": "world/volcano-mayhem",
   "name": "Volcano Mayhem",
   "playfield": 7100,
-  "kind": "other",
+  "kind": "instance",
   "arrival": {
     "pos": [174.0, 45.36, 113.75],
     "rot": 0.0

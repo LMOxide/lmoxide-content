@@ -2,7 +2,7 @@
   "id": "world/candy-mayhem",
   "name": "Candy Mayhem",
   "playfield": 7104,
-  "kind": "other",
+  "kind": "instance",
   "arrival": {
     "pos": [210.5, 35.87, 111.0],
     "rot": 0.0

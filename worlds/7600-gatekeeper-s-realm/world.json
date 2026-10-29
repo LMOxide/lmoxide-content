@@ -2,7 +2,7 @@
   "id": "world/gatekeeper-s-realm",
   "name": "Gatekeeper's Realm",
   "playfield": 7600,
-  "kind": "other",
+  "kind": "instance",
   "arrival": {
     "pos": [245.5, 44.05, 271.0],
     "rot": 0.0

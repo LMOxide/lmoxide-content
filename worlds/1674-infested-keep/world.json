@@ -3,6 +3,7 @@
   "name": "Infested Keep",
   "playfield": 1674,
   "kind": "pocket",
+  "element": "shadow",
   "region": "region/medieval-world",
   "arrival": {
     "pos": [235.07, 19.49, 246.48],

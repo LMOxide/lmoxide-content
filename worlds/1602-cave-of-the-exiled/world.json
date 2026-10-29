@@ -3,6 +3,7 @@
   "name": "Cave of the Exiled",
   "playfield": 1602,
   "kind": "pocket",
+  "element": "nature",
   "region": "region/space-world",
   "arrival": {
     "pos": [235.46, 17.24, 254.73],

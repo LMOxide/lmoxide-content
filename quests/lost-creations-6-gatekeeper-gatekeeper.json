@@ -10,18 +10,6 @@
   "cooldown_id": 109,
   "steps": [
     {
-      "quest": 237,
-      "hash": "5MFY",
-      "goals": [
-        {
-          "goal": 283,
-          "hash": "LYXM",
-          "text": "Reach the exit before the timer runs out",
-          "kind": "trigger"
-        }
-      ]
-    },
-    {
       "quest": 236,
       "hash": "I2L6",
       "goals": [
@@ -32,6 +20,18 @@
           "kind": "defeat",
           "counts": "kills",
           "enemies": ["Gatekeeper"]
+        }
+      ]
+    },
+    {
+      "quest": 237,
+      "hash": "5MFY",
+      "goals": [
+        {
+          "goal": 283,
+          "hash": "LYXM",
+          "text": "Reach the exit before the timer runs out",
+          "kind": "trigger"
         }
       ]
     }

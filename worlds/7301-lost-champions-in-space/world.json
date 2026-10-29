@@ -2,7 +2,7 @@
   "id": "world/lost-champions-in-space",
   "name": "Lost Champions in Space",
   "playfield": 7301,
-  "kind": "other",
+  "kind": "instance",
   "arrival": {
     "pos": [167.0, 153.41, 138.0],
     "rot": 0.0

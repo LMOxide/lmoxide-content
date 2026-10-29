@@ -1,0 +1,98 @@
+{
+  "spawns": [
+    {
+      "id": "spawn/7104/empty-monsterdata-1x1x1",
+      "name": "empty_monsterdata_1x1x1",
+      "kind": "door",
+      "template": "object/empty-monsterdata-1x1x1",
+      "pos": [274.28, 45.14, 180.87],
+      "rot": [0.0, 0.0, 0.0, 1.0],
+      "scale": 3.0,
+      "client": {
+        "guid": 595122,
+        "tag": "----",
+        "script_group": 0,
+        "visual": [1010201, 465832]
+      },
+      "source": "client"
+    },
+    {
+      "id": "spawn/7104/gatestartshield",
+      "name": "GateStartShield",
+      "kind": "scenery",
+      "template": "object/gatestartshield",
+      "pos": [149.96, 39.85, 137.24],
+      "rot": [0.0, 0.7071, 0.0, -0.7071],
+      "client": {
+        "guid": 538986,
+        "tag": "----",
+        "script_group": 6,
+        "visual": [1010030, 60626],
+        "bounds": [-3.0, 0.0, -0.5, 3.0, 6.0, 0.5]
+      },
+      "source": "client"
+    },
+    {
+      "id": "spawn/7104/gatestartvisual",
+      "name": "GateStartVisual",
+      "kind": "scenery",
+      "template": "object/gatestartvisual",
+      "pos": [149.45, 39.85, 137.78],
+      "rot": [0.0, 0.7071, 0.0, 0.7071],
+      "client": {
+        "guid": 538985,
+        "tag": "----",
+        "script_group": -1,
+        "visual": [1010030, 155861],
+        "bounds": [-4.125, 0.045, -0.0, 4.125, 3.238, 0.0]
+      },
+      "source": "client"
+    },
+    {
+      "id": "spawn/7104/gateexitshield",
+      "name": "GateExitShield",
+      "kind": "scenery",
+      "template": "object/gateexitshield",
+      "pos": [1.5, 0.0, 508.18],
+      "rot": [0.0, 0.7071, 0.0, -0.7071],
+      "client": {
+        "guid": 538982,
+        "tag": "----",
+        "script_group": 5,
+        "visual": [1010030, 60626],
+        "bounds": [-3.0, 0.0, -0.5, 3.0, 6.0, 0.5]
+      },
+      "source": "client"
+    },
+    {
+      "id": "spawn/7104/gateexitvisual",
+      "name": "GateExitVisual",
+      "kind": "scenery",
+      "pos": [268.59, 43.6, 175.97],
+      "rot": [0.0, -0.7071, 0.0, -0.7071],
+      "client": {
+        "guid": 538983,
+        "tag": "----",
+        "script_group": -1,
+        "visual": [1010030, 155858],
+        "bounds": [-4.125, 0.045, -0.0, 4.125, 3.238, 0.0]
+      },
+      "source": "client"
+    },
+    {
+      "id": "spawn/7104/startbutton",
+      "name": "StartButton",
+      "kind": "interactable",
+      "pos": [147.06, 40.0, 133.93],
+      "rot": [0.0, 0.7071, 0.0, -0.7071],
+      "client": {
+        "guid": 549964,
+        "tag": "PTBB",
+        "script_group": -1,
+        "visual": [1010030, 532088],
+        "bounds": [-0.5, -0.0, -0.567, 0.5, 1.986, 0.565]
+      },
+      "source": "client"
+    }
+  ]
+}

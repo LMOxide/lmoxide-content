@@ -3,6 +3,7 @@
   "name": "Cliffside",
   "playfield": 1690,
   "kind": "pocket",
+  "element": "nature",
   "region": "region/mythology-world",
   "arrival": {
     "pos": [337.96, 40.11, 176.0],

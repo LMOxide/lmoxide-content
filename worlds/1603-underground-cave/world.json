@@ -3,6 +3,7 @@
   "name": "Underground Cave",
   "playfield": 1603,
   "kind": "pocket",
+  "element": "nature",
   "region": "region/space-world",
   "arrival": {
     "pos": [235.29, 19.93, 245.0],

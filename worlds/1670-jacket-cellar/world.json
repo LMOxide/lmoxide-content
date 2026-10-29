@@ -3,6 +3,7 @@
   "name": "Jacket Cellar",
   "playfield": 1670,
   "kind": "pocket",
+  "element": "tech",
   "region": "region/pirate-world",
   "arrival": {
     "pos": [235.07, 19.49, 246.48],

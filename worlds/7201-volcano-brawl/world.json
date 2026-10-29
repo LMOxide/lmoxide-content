@@ -2,7 +2,7 @@
   "id": "world/volcano-brawl",
   "name": "Volcano Brawl",
   "playfield": 7201,
-  "kind": "other",
+  "kind": "instance",
   "arrival": {
     "pos": [268.5, 43.9, 281.0],
     "rot": 0.0

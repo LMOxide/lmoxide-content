@@ -3,6 +3,7 @@
   "name": "Beach Cave",
   "playfield": 1642,
   "kind": "pocket",
+  "element": "nature",
   "region": "region/pirate-world",
   "arrival": {
     "pos": [235.44, 17.24, 254.75],

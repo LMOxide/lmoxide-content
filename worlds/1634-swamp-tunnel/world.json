@@ -3,6 +3,7 @@
   "name": "Swamp Tunnel",
   "playfield": 1634,
   "kind": "pocket",
+  "element": "magic",
   "region": "region/medieval-world",
   "arrival": {
     "pos": [132.22, 72.0, 140.01],

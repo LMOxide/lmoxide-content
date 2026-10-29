@@ -3,6 +3,7 @@
   "name": "Mercenary Cave",
   "playfield": 1600,
   "kind": "pocket",
+  "element": "tech",
   "region": "region/space-world",
   "arrival": {
     "pos": [235.46, 17.24, 254.73],

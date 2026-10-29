@@ -3,6 +3,7 @@
   "name": "Dragon Halls",
   "playfield": 5500,
   "kind": "pocket",
+  "element": "magic",
   "region": "region/medieval-world",
   "level": {
     "cap": 15

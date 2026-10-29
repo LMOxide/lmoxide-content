@@ -2,7 +2,7 @@
   "id": "world/isle-of-smash",
   "name": "Isle of Smash",
   "playfield": 7500,
-  "kind": "other",
+  "kind": "instance",
   "arrival": {
     "pos": [187.5, 152.19, 147.0],
     "rot": 0.0

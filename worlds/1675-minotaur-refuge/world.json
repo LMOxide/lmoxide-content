@@ -3,6 +3,7 @@
   "name": "Minotaur Refuge",
   "playfield": 1675,
   "kind": "pocket",
+  "element": "shadow",
   "region": "region/mythology-world",
   "arrival": {
     "pos": [235.07, 19.49, 246.48],

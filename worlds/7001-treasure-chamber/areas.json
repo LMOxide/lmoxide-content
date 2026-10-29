@@ -1,0 +1,37 @@
+{
+  "areas": [
+    {
+      "id": "area/7001/ba-teleport",
+      "name": "BA_Teleport",
+      "role": "place",
+      "shape": {
+        "polygon": {
+          "points": [
+            [179.98, 147.51],
+            [185.29, 147.24],
+            [190.14, 152.76],
+            [176.56, 152.38]
+          ],
+          "heights": [34.49124, 44.49124]
+        }
+      },
+      "source": "client"
+    },
+    {
+      "id": "area/7001/ba-triggerdroploot",
+      "name": "BA_TriggerDropLoot",
+      "role": "place",
+      "shape": {
+        "polygon": {
+          "points": [
+            [176.5, 131.94],
+            [179.72, 136.38],
+            [176.55, 140.82]
+          ],
+          "heights": [38.413464, 48.413464]
+        }
+      },
+      "source": "client"
+    }
+  ]
+}

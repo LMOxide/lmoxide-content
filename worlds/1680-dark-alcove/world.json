@@ -3,6 +3,7 @@
   "name": "Dark Alcove",
   "playfield": 1680,
   "kind": "pocket",
+  "element": "magic",
   "region": "region/medieval-world",
   "arrival": {
     "pos": [234.78, 19.93, 244.92],

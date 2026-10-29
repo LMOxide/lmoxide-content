@@ -1,0 +1,25 @@
+{
+  "id": "lc/jungle-arena",
+  "name": "Jungle Arena",
+  "world": "world/jungle-arena",
+  "mode": "survival",
+  "start": {
+    "pos": [214.07, 42.77, 271.98],
+    "rot": 0.378
+  },
+  "start_gate": {
+    "shield": 534572,
+    "visual": 534571
+  },
+  "exit_gate": {
+    "shield": 534568,
+    "visual": 534569
+  },
+  "button": 534570,
+  "exit_door": 595129,
+  "quest": "quest/lost-creations-4-survival-survival-arena",
+  "end_area": "area/7400/end",
+  "source": "guess",
+  "tags": ["approximate", "todo"],
+  "comment": "Start position guessed beside the button (the client has none): check it in game."
+}

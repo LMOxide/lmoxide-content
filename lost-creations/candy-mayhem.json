@@ -1,0 +1,23 @@
+{
+  "id": "lc/candy-mayhem",
+  "name": "Candy Mayhem",
+  "world": "world/candy-mayhem",
+  "mode": "mayhem",
+  "start": {
+    "pos": [136.4, 40.0, 137.2],
+    "rot": 1.571
+  },
+  "start_gate": {
+    "shield": 538986,
+    "visual": 538985
+  },
+  "exit_gate": {
+    "visual": 538983,
+    "open": true
+  },
+  "button": 549964,
+  "exit_door": 595122,
+  "quest": "quest/lost-creations-1-speedrun-timed-run",
+  "end_area": "area/7104/end",
+  "source": "server"
+}

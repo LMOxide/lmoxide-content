@@ -1,5 +1,10 @@
 {
   "$defs": {
+    "Element": {
+      "description": "The five elements (minifigures have one too); the client's ids are 1-5 in this order.",
+      "enum": ["light", "shadow", "tech", "magic", "nature"],
+      "type": "string"
+    },
     "LevelRange": {
       "additionalProperties": false,
       "properties": {
@@ -271,6 +276,17 @@
     "display_name": {
       "description": "The name the client shows (TDB 52000), when it differs from `name`.",
       "type": ["string", "null"]
+    },
+    "element": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Element"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Its element (the Linux client's teleport windows, RDB 1000644): the minimap ring and\nthe portal glow; side dungeons and a few adventures have one, open worlds none."
     },
     "extends": {
       "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",

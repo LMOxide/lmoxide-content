@@ -1,0 +1,25 @@
+{
+  "id": "lc/volcano-brawl",
+  "name": "Volcano Brawl",
+  "world": "world/volcano-brawl",
+  "mode": "brawl",
+  "start": {
+    "pos": [214.07, 42.77, 271.98],
+    "rot": 0.378
+  },
+  "start_gate": {
+    "shield": 547843,
+    "visual": 547844
+  },
+  "exit_gate": {
+    "shield": 547841,
+    "visual": 547842
+  },
+  "button": 547845,
+  "exit_door": 595126,
+  "quest": "quest/lost-creations-2-kill-monster-brawl",
+  "end_area": "area/7201/end",
+  "source": "guess",
+  "tags": ["approximate", "todo"],
+  "comment": "Start position guessed beside the button (the client has none): check it in game."
+}

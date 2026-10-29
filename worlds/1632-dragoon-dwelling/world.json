@@ -3,6 +3,7 @@
   "name": "Dragoon Dwelling",
   "playfield": 1632,
   "kind": "pocket",
+  "element": "nature",
   "region": "region/pirate-world",
   "arrival": {
     "pos": [132.22, 72.0, 140.01],

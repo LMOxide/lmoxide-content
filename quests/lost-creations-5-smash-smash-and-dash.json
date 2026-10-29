@@ -9,18 +9,6 @@
   "cooldown": "3600s",
   "steps": [
     {
-      "quest": 242,
-      "hash": "YEQQ",
-      "goals": [
-        {
-          "goal": 293,
-          "hash": "5IBT",
-          "text": "Reach the exit before the timer runs out",
-          "kind": "trigger"
-        }
-      ]
-    },
-    {
       "quest": 235,
       "hash": "0OKC",
       "goals": [
@@ -32,6 +20,18 @@
           "counts": "smashes",
           "count": 3,
           "max": 100
+        }
+      ]
+    },
+    {
+      "quest": 242,
+      "hash": "YEQQ",
+      "goals": [
+        {
+          "goal": 293,
+          "hash": "5IBT",
+          "text": "Reach the exit before the timer runs out",
+          "kind": "trigger"
         }
       ]
     }

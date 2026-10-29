@@ -1,0 +1,25 @@
+{
+  "id": "lc/castle-mayhem",
+  "name": "Castle Mayhem",
+  "world": "world/castle-mayhem",
+  "mode": "mayhem",
+  "start": {
+    "pos": [178.67, 43.98, 114.33],
+    "rot": 0.396
+  },
+  "start_gate": {
+    "shield": 538170,
+    "visual": 538169
+  },
+  "exit_gate": {
+    "visual": 538168,
+    "open": true
+  },
+  "button": 538171,
+  "exit_door": 595119,
+  "quest": "quest/lost-creations-1-speedrun-timed-run",
+  "end_area": "area/7101/end",
+  "source": "guess",
+  "tags": ["approximate", "todo"],
+  "comment": "Start position guessed beside the button (the client has none): check it in game."
+}

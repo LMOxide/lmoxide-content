@@ -2,7 +2,7 @@
   "id": "world/swamp-brawl",
   "name": "Swamp Brawl",
   "playfield": 7200,
-  "kind": "other",
+  "kind": "instance",
   "arrival": {
     "pos": [238.0, 44.07, 279.0],
     "rot": 0.0

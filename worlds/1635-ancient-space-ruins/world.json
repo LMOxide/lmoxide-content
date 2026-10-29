@@ -3,6 +3,7 @@
   "name": "Ancient Space Ruins",
   "playfield": 1635,
   "kind": "pocket",
+  "element": "shadow",
   "region": "region/space-world",
   "arrival": {
     "pos": [132.22, 72.0, 140.01],

@@ -2,7 +2,7 @@
   "id": "world/castle-mayhem",
   "name": "Castle Mayhem",
   "playfield": 7101,
-  "kind": "other",
+  "kind": "instance",
   "arrival": {
     "pos": [280.0, 45.75, 135.5],
     "rot": 0.0

@@ -1,0 +1,25 @@
+{
+  "id": "lc/valley-of-the-lost-champions",
+  "name": "Valley of the Lost Champions",
+  "world": "world/valley-of-the-lost-champions",
+  "mode": "champions",
+  "start": {
+    "pos": [178.45, 44.0, 114.13],
+    "rot": 0.447
+  },
+  "start_gate": {
+    "shield": 538191,
+    "visual": 538190
+  },
+  "exit_gate": {
+    "shield": 538187,
+    "visual": 538188
+  },
+  "button": 538189,
+  "exit_door": 595216,
+  "quest": "quest/lost-creations-3-champion-champion-challenge",
+  "end_area": "area/7300/end",
+  "source": "guess",
+  "tags": ["approximate", "todo"],
+  "comment": "Start position guessed beside the button (the client has none): check it in game."
+}

@@ -3,6 +3,7 @@
   "name": "Pirate Storage",
   "playfield": 4630,
   "kind": "pocket",
+  "element": "nature",
   "region": "region/pirate-world",
   "level": {
     "cap": 11

@@ -3,6 +3,7 @@
   "name": "Mercenary Troop Transport",
   "playfield": 1620,
   "kind": "pocket",
+  "element": "tech",
   "region": "region/space-world",
   "arrival": {
     "pos": [278.23, 37.04, 123.17],

@@ -3,6 +3,7 @@
   "name": "Mercenary Assault Cruiser",
   "playfield": 1622,
   "kind": "pocket",
+  "element": "tech",
   "region": "region/space-world",
   "arrival": {
     "pos": [280.38, 36.08, 123.12],

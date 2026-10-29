@@ -367,6 +367,13 @@
       "minimum": 0,
       "type": "integer"
     },
+    "variants": {
+      "description": "A Lost Creations level's variants it appears in (`lc` `variants` ids); none: in every\none (and in every other world).",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
     "wave": {
       "anyOf": [
         {

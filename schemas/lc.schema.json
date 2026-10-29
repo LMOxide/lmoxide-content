@@ -1,0 +1,300 @@
+{
+  "$defs": {
+    "LcGate": {
+      "additionalProperties": false,
+      "description": "A gate of a level: its collision shield and the visual that shows red (closed) or green (open)\n(client simple dynel guids).",
+      "properties": {
+        "open": {
+          "description": "Open from the start (the Mayhems' exit).",
+          "type": "boolean"
+        },
+        "shield": {
+          "description": "The invisible wall (`Gate*Shield`); none: nothing blocks (the Mayhems' exit shield is\nparked off the map).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "visual": {
+          "description": "`Gate*Visual`.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": ["visual"],
+      "type": "object"
+    },
+    "LcMode": {
+      "description": "What a Lost Creations level asks of the team before its end gate opens (its quest's goal).",
+      "oneOf": [
+        {
+          "const": "mayhem",
+          "description": "Reach the end before the time is up: the end gate is open from the start.",
+          "type": "string"
+        },
+        {
+          "const": "brawl",
+          "description": "Defeat enough enemies.",
+          "type": "string"
+        },
+        {
+          "const": "champions",
+          "description": "Defeat 3 champions.",
+          "type": "string"
+        },
+        {
+          "const": "survival",
+          "description": "Survive the assault (waves).",
+          "type": "string"
+        },
+        {
+          "const": "smash",
+          "description": "Smash enough smashables.",
+          "type": "string"
+        },
+        {
+          "const": "gatekeeper",
+          "description": "Defeat the Gatekeeper (every 5th level).",
+          "type": "string"
+        }
+      ]
+    },
+    "LcVariant": {
+      "additionalProperties": false,
+      "description": "One version of a level's enemies (spawns name the variants they appear in; spawns naming none\nare in every one).",
+      "properties": {
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "weight": {
+          "default": 1,
+          "description": "How likely it is picked (relative to the others).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": ["id"],
+      "type": "object"
+    },
+    "Point": {
+      "additionalProperties": false,
+      "description": "A point with a facing.",
+      "properties": {
+        "pos": {
+          "items": {
+            "format": "float",
+            "type": "number"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "type": "array"
+        },
+        "rot": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Rot"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": ["pos"],
+      "type": "object"
+    },
+    "Rot": {
+      "anyOf": [
+        {
+          "format": "float",
+          "type": "number"
+        },
+        {
+          "items": {
+            "format": "float",
+            "type": "number"
+          },
+          "maxItems": 4,
+          "minItems": 4,
+          "type": "array"
+        }
+      ],
+      "description": "Which way something faces: a heading (radians about the up axis) or a quaternion\n`[x, y, z, w]` as the client stores it."
+    },
+    "Source": {
+      "description": "Where a value came from, so guesses stay visible next to what live did.",
+      "oneOf": [
+        {
+          "const": "client",
+          "description": "Extracted from the game client's data.",
+          "type": "string"
+        },
+        {
+          "const": "live",
+          "description": "Seen in a capture of the live server (LMO_Captures.cap).",
+          "type": "string"
+        },
+        {
+          "const": "demo",
+          "description": "Seen in the recorded 2015 demo session.",
+          "type": "string"
+        },
+        {
+          "const": "footage",
+          "description": "Taken from video footage of live.",
+          "type": "string"
+        },
+        {
+          "const": "server",
+          "description": "Values the server used before they were moved into content (docs/TUNABLES.md).",
+          "type": "string"
+        },
+        {
+          "const": "proposed",
+          "description": "Proposed by a tool from client data (navmesh, names, ...), not seen live.",
+          "type": "string"
+        },
+        {
+          "const": "surveyed",
+          "description": "Placed or confirmed by someone in the world editor.",
+          "type": "string"
+        },
+        {
+          "const": "guess",
+          "description": "A plain guess.",
+          "type": "string"
+        }
+      ]
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "A Lost Creations level (docs/LOST-CREATIONS.md): `lost-creations/<slug>.json`. Its world\nholds the gates, button, exit door and `Start`/`End` areas the ids name.",
+  "properties": {
+    "author": {
+      "type": "string"
+    },
+    "button": {
+      "description": "The start button (`StartButton` simple dynel guid).",
+      "format": "uint32",
+      "minimum": 0,
+      "type": "integer"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "end_area": {
+      "description": "Crossing it completes the level (the world's `End` area).",
+      "type": "string",
+      "x-lmoxide-ref": ["area"]
+    },
+    "exit_door": {
+      "description": "The exit door (door guid).",
+      "format": "uint32",
+      "minimum": 0,
+      "type": "integer"
+    },
+    "exit_gate": {
+      "$ref": "#/$defs/LcGate"
+    },
+    "extends": {
+      "description": "Another record of the same kind this one starts from: its fields, then this one's on top.",
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["lc"]
+    },
+    "feature": {
+      "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
+      "type": "string"
+    },
+    "gatekeeper": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Point"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Where the Gatekeeper stands (Gatekeeper's Realm).",
+      "x-lmoxide-position": true
+    },
+    "gatekeepers": {
+      "description": "The Gatekeepers one is picked from (`npc/...`).",
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "x-lmoxide-ref": ["npc"]
+    },
+    "id": {
+      "description": "Its id: `lc/<slug>`. Stable: other records refer to it.",
+      "type": "string"
+    },
+    "mode": {
+      "$ref": "#/$defs/LcMode",
+      "default": "mayhem"
+    },
+    "name": {
+      "type": "string"
+    },
+    "quest": {
+      "description": "The level's quest: its steps are the objective (none in a Mayhem) and reaching the end.",
+      "type": "string",
+      "x-lmoxide-ref": ["quest"]
+    },
+    "rev": {
+      "description": "Revision, raised by every saved edit (for merging concurrent edits).",
+      "format": "uint64",
+      "minimum": 0,
+      "type": "integer"
+    },
+    "source": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Source"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "start": {
+      "$ref": "#/$defs/Point",
+      "description": "Where the team arrives (the levels have no resurrection points).",
+      "x-lmoxide-position": true
+    },
+    "start_gate": {
+      "$ref": "#/$defs/LcGate"
+    },
+    "tags": {
+      "description": "Labels for sorting work out (\"approximate\", \"todo\", \"verified\", ...).",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "updated": {
+      "description": "Unix time of the last edit.",
+      "format": "uint64",
+      "minimum": 0,
+      "type": "integer"
+    },
+    "variants": {
+      "items": {
+        "$ref": "#/$defs/LcVariant"
+      },
+      "type": "array"
+    },
+    "world": {
+      "type": "string",
+      "x-lmoxide-ref": ["world"]
+    }
+  },
+  "required": ["id", "world", "start", "start_gate", "exit_gate", "button", "exit_door", "quest", "end_area"],
+  "title": "LcLevel",
+  "type": "object"
+}

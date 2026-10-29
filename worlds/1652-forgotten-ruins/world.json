@@ -3,6 +3,7 @@
   "name": "Forgotten Ruins",
   "playfield": 1652,
   "kind": "pocket",
+  "element": "shadow",
   "arrival": {
     "pos": [235.15, 18.49, 258.59],
     "rot": 4.71

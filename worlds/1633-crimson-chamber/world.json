@@ -3,6 +3,7 @@
   "name": "Crimson Chamber",
   "playfield": 1633,
   "kind": "pocket",
+  "element": "magic",
   "region": "region/pirate-world",
   "arrival": {
     "pos": [132.06, 72.0, 140.17],

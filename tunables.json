@@ -166,6 +166,44 @@
     "61": [75],
     "84": [111, 112, 113, 114, 115, 116, 117, 118, 120, 124, 125, 127, 128, 173, 188]
   },
+  "lost_creations": {
+    "entry_door": 544337,
+    "entry_world": "world/dinosaur-rise",
+    "requirement_quest": "81HI",
+    "level_time": "300s",
+    "warmup": "5s",
+    "invitation_time": "30s",
+    "continue_time": "60s",
+    "smashed_delay": "4s",
+    "gatekeeper_every": 5,
+    "element_block": 5,
+    "treasure_chamber": "world/treasure-chamber",
+    "treasure_arrival": {
+      "pos": [141.32, 40.0, 135.89],
+      "rot": 4.81
+    },
+    "enemy_loot": "loot/lost-creations-enemy",
+    "reward_pools": [
+      ["minifig/grandma", "minifig/grandpa"],
+      ["minifig/ice-skater", "minifig/fencer"],
+      ["minifig/sheriff", "minifig/lizard-man"],
+      ["minifig/roman-emperor", "minifig/baseball-fielder"],
+      ["minifig/tomahawk-warrior", "minifig/elf"],
+      ["minifig/robot", "minifig/hun-warrior"],
+      ["minifig/skater-girl", "minifig/unicorn-girl"],
+      ["minifig/evil-dwarf", "minifig/cowboy"],
+      ["minifig/spartan-warrior", "minifig/samurai-warrior"],
+      ["minifig/mr-gold", "minifig/ninja"]
+    ],
+    "levels_per_pool": 3,
+    "parts_per_pool": [0, 2],
+    "timer_buff": 521912,
+    "cant_equip_buff": 537723,
+    "cant_resurrect_buff": 537829,
+    "button_arrow_buff": 577484,
+    "button_effect": 474576,
+    "force_level": "lc/candy-mayhem"
+  },
   "more": {
     "achievements.area_names": {
       "1000": "LEGO World",

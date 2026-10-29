@@ -3,6 +3,7 @@
   "name": "Treasure Island",
   "playfield": 4500,
   "kind": "pocket",
+  "element": "nature",
   "region": "region/pirate-world",
   "level": {
     "cap": 11

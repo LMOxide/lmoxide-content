@@ -3,6 +3,7 @@
   "name": "Bewitched Candy Forest",
   "playfield": 1682,
   "kind": "pocket",
+  "element": "magic",
   "arrival": {
     "pos": [234.69, 19.93, 244.76],
     "rot": 4.71

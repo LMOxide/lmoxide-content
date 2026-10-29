@@ -103,6 +103,153 @@
       ],
       "type": "object"
     },
+    "LostCreations": {
+      "additionalProperties": false,
+      "description": "The Lost Creations: how a run goes (docs/LOST-CREATIONS.md).",
+      "properties": {
+        "button_arrow_buff": {
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "button_effect": {
+          "description": "The effect package played on the button when the countdown starts.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "cant_equip_buff": {
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "cant_resurrect_buff": {
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "continue_time": {
+          "$ref": "#/$defs/Duration",
+          "description": "How long a player at the exit door has to answer Continue / End Run (no answer: End Run)."
+        },
+        "element_block": {
+          "description": "The run's element changes every this many levels.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "enemy_loot": {
+          "description": "What enemies drop inside a run (hearts only; smashables drop as anywhere).",
+          "type": "string",
+          "x-lmoxide-ref": ["loot"]
+        },
+        "entry_door": {
+          "description": "The door that opens the \"Lost Creations\" window (door guid, in `entry_world`).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "entry_world": {
+          "type": "string",
+          "x-lmoxide-ref": ["world"]
+        },
+        "force_level": {
+          "description": "TEMPORARY: every level is this one (`lc/...`), the Gatekeeper's too, until the other\nlevels' details are known.",
+          "type": ["string", "null"],
+          "x-lmoxide-ref": ["lc"]
+        },
+        "gatekeeper_every": {
+          "description": "Every this many levels the Gatekeeper's level comes (5, 10, ...), and only then.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "invitation_time": {
+          "$ref": "#/$defs/Duration",
+          "description": "How long teammates have to answer the invitation (no answer: as Cancel)."
+        },
+        "level_time": {
+          "$ref": "#/$defs/Duration",
+          "description": "How long a level runs (the timer)."
+        },
+        "levels_per_pool": {
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "parts_per_pool": {
+          "description": "Parts per unlocked pool: from, to (each a part of either minifigure of the pool).",
+          "items": {
+            "format": "uint32",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "maxItems": 2,
+          "minItems": 2,
+          "type": "array"
+        },
+        "requirement_quest": {
+          "description": "The quest (hash) the entry window requires, \"Proved your strength at the Gauntlet\" (the\nclient checks the journal; every story quest is in it).",
+          "type": "string"
+        },
+        "reward_pools": {
+          "description": "The reward pools, lowest first (`minifig/...`): one more is unlocked every\n`levels_per_pool` levels completed.",
+          "items": {
+            "items": {
+              "type": "string"
+            },
+            "type": "array"
+          },
+          "type": "array",
+          "x-lmoxide-ref": ["minifig"]
+        },
+        "smashed_delay": {
+          "$ref": "#/$defs/Duration",
+          "description": "After the whole team of a player is smashed, before they go to the Treasure Chamber (the\n\"You were smashed!\" splash)."
+        },
+        "timer_buff": {
+          "description": "The client's buffs: the level timer (the HUD's clock), no equipping, no rebuilds; the\nstart button's arrow.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "treasure_arrival": {
+          "$ref": "#/$defs/Point"
+        },
+        "treasure_chamber": {
+          "description": "Where players go when their run ends.",
+          "type": "string",
+          "x-lmoxide-ref": ["world"]
+        },
+        "warmup": {
+          "$ref": "#/$defs/Duration",
+          "description": "The countdown after Start, before the start gate opens."
+        }
+      },
+      "required": [
+        "entry_door",
+        "entry_world",
+        "level_time",
+        "warmup",
+        "invitation_time",
+        "continue_time",
+        "smashed_delay",
+        "gatekeeper_every",
+        "element_block",
+        "treasure_chamber",
+        "treasure_arrival",
+        "enemy_loot",
+        "reward_pools",
+        "levels_per_pool",
+        "parts_per_pool",
+        "timer_buff",
+        "cant_equip_buff",
+        "cant_resurrect_buff",
+        "button_arrow_buff",
+        "button_effect"
+      ],
+      "type": "object"
+    },
     "NpcLife": {
       "additionalProperties": false,
       "description": "NPC life on the live server: life = base[level] x the template's life factor.",
@@ -142,6 +289,33 @@
         }
       },
       "required": ["regen_delay", "regen_tick", "regen_share", "regen_share_in_combat"],
+      "type": "object"
+    },
+    "Point": {
+      "additionalProperties": false,
+      "description": "A point with a facing.",
+      "properties": {
+        "pos": {
+          "items": {
+            "format": "float",
+            "type": "number"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "type": "array"
+        },
+        "rot": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Rot"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": ["pos"],
       "type": "object"
     },
     "Progression": {
@@ -210,6 +384,24 @@
       ],
       "description": "A share: \"20%\" or a fraction (0.2)",
       "x-lmoxide-unit": "ratio"
+    },
+    "Rot": {
+      "anyOf": [
+        {
+          "format": "float",
+          "type": "number"
+        },
+        {
+          "items": {
+            "format": "float",
+            "type": "number"
+          },
+          "maxItems": 4,
+          "minItems": 4,
+          "type": "array"
+        }
+      ],
+      "description": "Which way something faces: a heading (radians about the up axis) or a quaternion\n`[x, y, z, w]` as the client stores it."
     }
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -221,6 +413,34 @@
     },
     "loot": {
       "$ref": "#/$defs/Loot"
+    },
+    "lost_creations": {
+      "$ref": "#/$defs/LostCreations",
+      "default": {
+        "button_arrow_buff": 0,
+        "button_effect": 0,
+        "cant_equip_buff": 0,
+        "cant_resurrect_buff": 0,
+        "continue_time": "0s",
+        "element_block": 0,
+        "enemy_loot": "",
+        "entry_door": 0,
+        "entry_world": "",
+        "gatekeeper_every": 0,
+        "invitation_time": "0s",
+        "level_time": "0s",
+        "levels_per_pool": 0,
+        "parts_per_pool": [0, 0],
+        "reward_pools": [],
+        "smashed_delay": "0s",
+        "timer_buff": 0,
+        "treasure_arrival": {
+          "pos": [0.0, 0.0, 0.0]
+        },
+        "treasure_chamber": "",
+        "warmup": "0s"
+      },
+      "description": "The Lost Creations runs (docs/LOST-CREATIONS.md; the levels are `lc` records)."
     },
     "minifigure_model": {
       "description": "The client's minifigure stat model (SimpleChar_t::CalculateLife, AttackUtils): tweaks,\nplayer defaults, formulas."

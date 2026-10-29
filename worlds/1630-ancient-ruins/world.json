@@ -3,6 +3,7 @@
   "name": "Ancient Ruins",
   "playfield": 1630,
   "kind": "pocket",
+  "element": "shadow",
   "region": "region/mythology-world",
   "arrival": {
     "pos": [131.84, 72.0, 139.77],
