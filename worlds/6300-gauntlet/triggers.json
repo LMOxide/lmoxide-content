@@ -76,7 +76,7 @@
         }
       ],
       "source": "guess",
-      "comment": "dino-d06-party-685: likely (reconstructed): was the silent beat 690 on Cine_D06_Cutscene1/Fallback1 (after the T-Rex, achievement 1540); the Video Game Guy's spawn there is the owner; 1018-1024 (why he hired the T-Rex) use its actors; 1985 XX_D06, DanceParty (tools/content/import_story.py)"
+      "comment": "dino-d06-party-685: likely (reconstructed): was the silent beat 690 on Cine_D06_Cutscene1/Fallback1 (after the T-Rex: achievement 1540 Roooooar!, granted on his defeat); the Video Game Guy's spawn there is the owner; 1018-1024 (why he hired the T-Rex) use its actors; 1985 XX_D06, DanceParty (tools/content/import_story.py)"
     },
     {
       "id": "trigger/6300/story-cine-d06-cutscenefallback1",
@@ -90,7 +90,7 @@
         }
       ],
       "source": "guess",
-      "comment": "dino-d06-party-685: likely (reconstructed): was the silent beat 690 on Cine_D06_Cutscene1/Fallback1 (after the T-Rex, achievement 1540); the Video Game Guy's spawn there is the owner; 1018-1024 (why he hired the T-Rex) use its actors; 1985 XX_D06, DanceParty (tools/content/import_story.py)"
+      "comment": "dino-d06-party-685: likely (reconstructed): was the silent beat 690 on Cine_D06_Cutscene1/Fallback1 (after the T-Rex: achievement 1540 Roooooar!, granted on his defeat); the Video Game Guy's spawn there is the owner; 1018-1024 (why he hired the T-Rex) use its actors; 1985 XX_D06, DanceParty (tools/content/import_story.py)"
     }
   ]
 }

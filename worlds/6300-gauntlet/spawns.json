@@ -4463,6 +4463,17 @@
       "source": "surveyed",
       "author": "host",
       "updated": 1793088561
+    },
+    {
+      "id": "spawn/6300/t-rex",
+      "name": "T-Rex",
+      "kind": "enemy",
+      "template": "npc/t-rex",
+      "pos": [460.29, 59.0, 221.34],
+      "rot": -2.378,
+      "anchor": "Cine_TRex1",
+      "source": "guess",
+      "comment": "the Gauntlet's boss is the T-Rex (arena BossEncounter_Start; achievement Dino_Defeat T-Rex, lore 1540): at Cine_TRex1, inside the boss room by its entrance, where dino-d04-t-rex (653-661, on Cine_D04_Cutscene1 just outside) shows him and sends him back before the fight ('Come at me, bro!'); hidden while that conversation shows him; his defeat starts dino-d05-t-rex-defeated (at Cine_TRex3) and grants 1540, which the party (dino-d06-party, DanceParty) waits for. The two Quest_BossRoom dinos stay (docs/TUNABLES.md 'Story bosses')"
     }
   ]
 }

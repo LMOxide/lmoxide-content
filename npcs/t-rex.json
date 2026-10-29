@@ -1,0 +1,27 @@
+{
+  "id": "npc/t-rex",
+  "name": "T-Rex",
+  "kind": "enemy",
+  "render": {
+    "monster_data": 521311
+  },
+  "level": 21,
+  "stats": {
+    "health": 27533
+  },
+  "attack": "skill/spell-2029",
+  "skills": [
+    {
+      "skill": "skill/spear-throw-99058",
+      "weight": 1
+    },
+    {
+      "skill": "skill/stab",
+      "weight": 1
+    }
+  ],
+  "skills_from": "generic",
+  "loot": "loot/enemy",
+  "source": "guess",
+  "comment": "the Gauntlet's boss (BossEncounter_Start; TDB 51000 'T-Rex', the cinematic templates 508606/522177/526338 carry no monsterdata): the lizard_man look (monsterdata 521311, the user: the T-Rex is a lizard man in a costume, 526338 'TRexRevealed') and its spell set (npc_spells 521311: spear throw 99058, stab 194198, as the Lizard Man's); level and health as a proposed boss of the Gauntlet's level-19 enemies (extract_world_content.py: level + 2, 10 x a regular's life at 21 = 27533) (docs/TUNABLES.md 'Story bosses')"
+}
