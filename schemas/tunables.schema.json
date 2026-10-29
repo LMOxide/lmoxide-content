@@ -32,6 +32,64 @@
       "required": ["aura_min_power_level", "power_per_level", "out_of_combat", "auras"],
       "type": "object"
     },
+    "Cinematic": {
+      "additionalProperties": false,
+      "description": "One narrated cinematic, played once per character.",
+      "properties": {
+        "comment": {
+          "description": "Where it plays and how sure that is.",
+          "type": "string"
+        },
+        "effect_package": {
+          "description": "The client effect package (RDB 1000622).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer",
+          "x-lmoxide-client": "effect_package"
+        },
+        "length": {
+          "$ref": "#/$defs/Duration",
+          "description": "How long it runs."
+        },
+        "requires": {
+          "description": "Plays only for a player with all these tags ...",
+          "items": {
+            "format": "uint32",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "type": "array"
+        },
+        "tag": {
+          "description": "The lore flag (\"Cinematic Flags\") it sets, which also marks it seen; none: the server\nkeeps that itself.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "text": {
+          "description": "Its narration (TDB 50000 instance).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "then_dialogue": {
+          "description": "The dialogue the server starts when it ends (`dialogue/...`).",
+          "type": ["string", "null"],
+          "x-lmoxide-ref": ["dialogue"]
+        },
+        "unless": {
+          "description": "... and none of these.",
+          "items": {
+            "format": "uint32",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "type": "array"
+        }
+      },
+      "required": ["effect_package", "text", "length"],
+      "type": "object"
+    },
     "Combat": {
       "additionalProperties": false,
       "properties": {
@@ -600,6 +658,25 @@
         "immunity_nano"
       ],
       "type": "object"
+    },
+    "Story": {
+      "additionalProperties": false,
+      "description": "The story (story.rs; research/lmoxide-notes/client-survey/story.md).",
+      "properties": {
+        "cinematics": {
+          "additionalProperties": {
+            "$ref": "#/$defs/Cinematic"
+          },
+          "description": "The narrated cinematics by name (a trigger's `cinematic` action names one): client effect\npackages with a CinematicState timeline, the narrator's subtitles TDB 50000. Live started\nthem with an EffectPackageIIR on the player.",
+          "type": "object"
+        },
+        "pickup_drop_chance": {
+          "$ref": "#/$defs/Ratio",
+          "default": "100%",
+          "description": "A quest pickup quest's `dropped_by` defeat drops one of its pickups this often (not in the\nclient)."
+        }
+      },
+      "type": "object"
     }
   },
   "$schema": "https://json-schema.org/draft/2020-12/schema",
@@ -707,6 +784,13 @@
         "rebuild_by_level": {}
       },
       "description": "Smashed minifigures: rebuild time, the swap's knockaway and immunity."
+    },
+    "story": {
+      "$ref": "#/$defs/Story",
+      "default": {
+        "pickup_drop_chance": "100%"
+      },
+      "description": "The story: narrated cinematics, quest pickups."
     },
     "story_quests": {
       "additionalProperties": {

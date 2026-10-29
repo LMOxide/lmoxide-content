@@ -23,8 +23,10 @@
           "hash": "Y05P",
           "text": "Help the Scientist collect Golden Bananas",
           "kind": "trigger",
-          "counts": "kills_or_smashes",
-          "count": 3,
+          "counts": "pickups",
+          "pickups": [464163, 482089],
+          "dropped_by": "kills_or_smashes",
+          "count": 25,
           "max": 100,
           "marker": {
             "pos": [371.3, 69.4, 402.9],

@@ -245,6 +245,96 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/5210/story-ba-cine-thefaeriequeen1",
+      "name": "BA_Cine_TheFaerieQueen1",
+      "area": "area/5210/ba-cine-thefaeriequeen1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 292
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely: sets The Faerie Queen (433) with text 292; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5210/story-ba-head-barrier1",
+      "name": "BA_Head_Barrier1",
+      "area": "area/5210/ba-head-barrier1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 552
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head WizardBarrier, shown when its tag 552 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5210/story-ba-head-forest1",
+      "name": "BA_Head_Forest1",
+      "area": "area/5210/ba-head-forest1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 551
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head WizardForest, shown when its tag 551 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5210/story-ba-head-spiders1",
+      "name": "BA_Head_Spiders1",
+      "area": "area/5210/ba-head-spiders1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 553
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head WizardSpiderForest, shown when its tag 553 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5210/story-ba-head-swamp1",
+      "name": "BA_Head_Swamp1",
+      "area": "area/5210/ba-head-swamp1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 554
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head WizardSwamp, shown when its tag 554 is added (tools/content/import_story.py)"
     }
   ]
 }

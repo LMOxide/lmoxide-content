@@ -15,6 +15,125 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/4600/story-ba-cine-arrival",
+      "name": "BA_Cine_Arrival",
+      "area": "area/4600/ba-cine-arrival",
+      "once": "per_player",
+      "actions": [
+        {
+          "cinematic": {
+            "name": "pirate-intro"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "pirate-intro: live: on arriving in Pirate World (CharInPlay, BA_Cine_Arrival), Video Game Guy's dialogue 812 38.5 s later; it gives 4181 Arrival at Pirate World (certain) (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4600/story-ba-cine-arrival-catcher",
+      "name": "BA_Cine_Arrival_Catcher",
+      "area": "area/4600/ba-cine-arrival-catcher",
+      "once": "per_player",
+      "actions": [
+        {
+          "cinematic": {
+            "name": "pirate-intro"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "pirate-intro: live: on arriving in Pirate World (CharInPlay, BA_Cine_Arrival), Video Game Guy's dialogue 812 38.5 s later; it gives 4181 Arrival at Pirate World (certain) (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4600/story-ba-head-diamonds1",
+      "name": "BA_Head_Diamonds1",
+      "area": "area/4600/ba-head-diamonds1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 621
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head DiamondsPusher, shown when its tag 621 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4600/story-ba-head-minimap1",
+      "name": "BA_Head_Minimap1",
+      "area": "area/4600/ba-head-minimap1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 545
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head MinimapPusher, shown when its tag 545 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4600/story-story-reachbeachbackup1",
+      "name": "Story_ReachBeachBackup1",
+      "area": "area/4600/story-reachbeachbackup1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "OOPN"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "certain: the live marker of goal 116 is this area's centre: resolves story goal OOPN (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4600/story-story-reachedcannon1",
+      "name": "Story_ReachedCannon1",
+      "area": "area/4600/story-reachedcannon1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "X7OF"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely: the recording resolved it walking to the cannon: resolves story goal X7OF (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4600/story-ba-teleportjail",
+      "name": "BA_TeleportJail",
+      "area": "area/4600/ba-teleportjail",
+      "actions": [
+        {
+          "teleport": {
+            "to": {
+              "world": "world/jail",
+              "point": "TP_Jail"
+            }
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "Scry 18602 teleportplayerboundedarea_wazu: past the broken fort wall into the jail at its TP_Jail point (likely; live's dialogue 211 teleports there first, this catches who walks on) (tools/content/import_story.py)"
     }
   ]
 }

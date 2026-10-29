@@ -652,6 +652,69 @@
       },
       "source": "client",
       "comment": "RDB 1040010:4600 uniqueid 637267 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4600/story-reachbeachbackup1",
+      "name": "Story_ReachBeachBackup1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [61.98, 17.45],
+            [64.97, 17.03],
+            [64.35, 13.74],
+            [61.47, 14.09]
+          ],
+          "heights": [68.054, 78.054]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:4600+0x40000000 (the flagged copy) guid 464169 (tools/content/import_story.py)"
+    },
+    {
+      "id": "area/4600/ba-head-diamonds1",
+      "name": "BA_Head_Diamonds1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [95.92, 14.23],
+            [95.92, 18.23],
+            [90.92, 18.23],
+            [90.92, 14.99],
+            [91.92, 14.95],
+            [91.92, 17.23],
+            [94.92, 17.23],
+            [94.92, 15.23],
+            [90.92, 15.23],
+            [90.92, 14.23]
+          ],
+          "heights": [70.0, 80.0]
+        }
+      },
+      "category": "talking_head",
+      "source": "client",
+      "comment": "RDB 1000053:4600+0x40000000 (the flagged copy) guid 467894 (tools/content/import_story.py)"
+    },
+    {
+      "id": "area/4600/ba-head-minimap1",
+      "name": "BA_Head_Minimap1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [99.02, 50.5],
+            [96.17, 37.34],
+            [117.43, 33.02],
+            [118.52, 46.24]
+          ],
+          "heights": [65.872, 75.872]
+        }
+      },
+      "category": "talking_head",
+      "source": "client",
+      "comment": "RDB 1000053:4600+0x40000000 (the flagged copy) guid 465861 (tools/content/import_story.py)"
     }
   ]
 }

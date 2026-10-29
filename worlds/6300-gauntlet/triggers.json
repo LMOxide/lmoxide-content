@@ -49,6 +49,62 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: Scry 601883 ba_clearhatetowardsme: enemies stop chasing whoever walks in"
+    },
+    {
+      "id": "trigger/6300/story-cine-d04-cutscene1",
+      "name": "Cine_D04_Cutscene1",
+      "area": "area/6300/cine-d04-cutscene1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 661
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely (number): sets XX_D04 (912) with text 661; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6300/story-cine-d06-cutscene1",
+      "name": "Cine_D06_Cutscene1",
+      "area": "area/6300/cine-d06-cutscene1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "requires": [1540],
+              "text": 690
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely (number): sets XX_D06 (1985) with text 690; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6300/story-cine-d06-cutscenefallback1",
+      "name": "Cine_D06_CutsceneFallback1",
+      "area": "area/6300/cine-d06-cutscenefallback1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "requires": [1540],
+              "text": 690
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely (number): sets XX_D06 (1985) with text 690; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
     }
   ]
 }

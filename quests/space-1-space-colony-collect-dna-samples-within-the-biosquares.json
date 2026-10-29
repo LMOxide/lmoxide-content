@@ -23,8 +23,10 @@
           "hash": "GVQF",
           "text": "Collect DNA samples within the Biosquares",
           "kind": "trigger",
-          "counts": "kills_or_smashes",
-          "count": 3,
+          "counts": "pickups",
+          "pickups": [398373],
+          "dropped_by": "kills_or_smashes",
+          "count": 17,
           "max": 100,
           "marker": {
             "pos": [468.1, 114.1, 179.9],

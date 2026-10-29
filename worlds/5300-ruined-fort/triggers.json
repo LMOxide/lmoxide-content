@@ -15,6 +15,24 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/5300/story-ba-cine-workingfortheenemy1",
+      "name": "BA_Cine_WorkingForTheEnemy1",
+      "area": "area/5300/ba-cine-workingfortheenemy1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 446
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely: sets Working for the Enemy (562) with text 446; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
     }
   ]
 }

@@ -83,6 +83,24 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/3300/story-ba-head-robot1",
+      "name": "BA_Head_Robot1",
+      "area": "area/3300/ba-head-robot1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 584
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head Battle Bot X-15GuardProtocolActivated, shown when its tag 584 is added (tools/content/import_story.py)"
     }
   ]
 }

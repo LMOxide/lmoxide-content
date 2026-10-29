@@ -83,6 +83,132 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/2320/story-cine-g09-cutscene1",
+      "name": "Cine_G09_Cutscene1",
+      "area": "area/2320/cine-g09-cutscene1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 586
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely (number): sets XX_G09 (673) with text 586; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2320/story-cine-g10-cutscene1",
+      "name": "Cine_G10_Cutscene1",
+      "area": "area/2320/cine-g10-cutscene1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 591
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely (number): sets XX_G10 (674) with text 591; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2320/story-cine-g11-cutscene1",
+      "name": "Cine_G11_Cutscene1",
+      "area": "area/2320/cine-g11-cutscene1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 594
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely (number): sets XX_G11 (675) with text 594; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2320/story-head-entrance1",
+      "name": "Head_Entrance1",
+      "area": "area/2320/head-entrance1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 730
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head BattleGoddessGate, shown when its tag 730 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2320/story-head-getpastcharon1",
+      "name": "Head_GetPastCharon1",
+      "area": "area/2320/head-getpastcharon1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 701
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head BattleGoddessCharon, shown when its tag 701 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2320/story-head-herakles1",
+      "name": "Head_Herakles1",
+      "area": "area/2320/head-herakles1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 702
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head BattleGoddessHerakles, shown when its tag 702 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2320/story-story-enteredunderworlddoor1",
+      "name": "Story_EnteredUnderworldDoor1",
+      "area": "area/2320/story-enteredunderworlddoor1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "3S33"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal 3S33 (tools/content/import_story.py)"
     }
   ]
 }

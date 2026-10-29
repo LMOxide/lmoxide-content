@@ -194,6 +194,198 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/6200/story-ba-cine-intro",
+      "name": "BA_Cine_Intro",
+      "area": "area/6200/ba-cine-intro",
+      "once": "per_player",
+      "actions": [
+        {
+          "cinematic": {
+            "name": "dino-intro"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "dino-intro: likely: BA_Cine_Intro (actors there), flag 4283 Cine_Dino_Intro (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-ba-cine-lost-creations",
+      "name": "BA_Cine_Lost_Creations",
+      "area": "area/6200/ba-cine-lost-creations",
+      "once": "per_player",
+      "actions": [
+        {
+          "cinematic": {
+            "name": "lost-creations-portal"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "lost-creations-portal: likely: BA_Cine_Lost_Creations, flag 4284 Cine_Dino_Lost_Creations (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-ba-head-compies1",
+      "name": "BA_Head_Compies1",
+      "area": "area/6200/ba-head-compies1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 919
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head CompyPusher, shown when its tag 919 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-ba-head-portal1",
+      "name": "BA_Head_Portal1",
+      "area": "area/6200/ba-head-portal1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 2433
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head LostCreationsClosed, shown when its tag 2433 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-ba-head-portal2",
+      "name": "BA_Head_Portal2",
+      "area": "area/6200/ba-head-portal2",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 2433
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head LostCreationsClosed, shown when its tag 2433 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-ba-head-raptors1",
+      "name": "BA_Head_Raptors1",
+      "area": "area/6200/ba-head-raptors1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 923
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head RaptorsPusher, shown when its tag 923 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-ba-head-raptors2",
+      "name": "BA_Head_Raptors2",
+      "area": "area/6200/ba-head-raptors2",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 923
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head RaptorsPusher, shown when its tag 923 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-ba-head-spinosaurus1",
+      "name": "BA_Head_Spinosaurus1",
+      "area": "area/6200/ba-head-spinosaurus1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 970
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head DimoPusher, shown when its tag 970 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-cine-d01-cutscene1",
+      "name": "Cine_D01_Cutscene1",
+      "area": "area/6200/cine-d01-cutscene1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 621
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely (number): sets XX_D01 (909) with text 621; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-cine-d02-cutscene1",
+      "name": "Cine_D02_Cutscene1",
+      "area": "area/6200/cine-d02-cutscene1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 646
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely (number): sets XX_D02 (910) with text 646; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/6200/story-cine-d02-cutscene2",
+      "name": "Cine_D02_Cutscene2",
+      "area": "area/6200/cine-d02-cutscene2",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 646
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely (number): sets XX_D02 (910) with text 646; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
     }
   ]
 }

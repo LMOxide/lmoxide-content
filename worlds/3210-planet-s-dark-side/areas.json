@@ -2940,6 +2940,24 @@
       },
       "source": "client",
       "comment": "RDB 1040010:3210 uniqueid 627188 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/3210/ba-story-arrivedtoportal1",
+      "name": "BA_Story_ArrivedToPortal1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [308.57, 383.86],
+            [292.62, 384.72],
+            [308.71, 368.32]
+          ],
+          "heights": [484.013, 494.013]
+        }
+      },
+      "category": "cinematic",
+      "source": "client",
+      "comment": "RDB 1000053:3210+0x40000000 (the flagged copy) guid 407467 (tools/content/import_story.py)"
     }
   ]
 }

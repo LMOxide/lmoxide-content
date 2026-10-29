@@ -278,6 +278,118 @@
       "tech": "skill/champion-laser-drones"
     }
   },
+  "story": {
+    "cinematics": {
+      "after-medieval": {
+        "effect_package": 636536,
+        "text": 13,
+        "length": "46.68s",
+        "requires": [437],
+        "comment": "guess: arriving at the hub once Medieval World is done (437 Another Cube Piece)"
+      },
+      "after-mythology": {
+        "effect_package": 636982,
+        "text": 18,
+        "length": "31.16s",
+        "requires": [676],
+        "comment": "guess: arriving at the hub once Mythology World is done (676 XX_G12, 'Disrupt Hades' plan')"
+      },
+      "after-pirate-fort": {
+        "effect_package": 636510,
+        "text": 9,
+        "length": "35.17s",
+        "tag": 4241,
+        "requires": [4183],
+        "unless": [316],
+        "comment": "guess: arriving at the hub (Story_ArriveAtHub) after the Jacket Fort (4183 Dreadleg Escapes Again), before Pirate World is done; sets 4241 'Enter Hub before completed Pirate World'"
+      },
+      "after-pirate-world": {
+        "effect_package": 636511,
+        "text": 11,
+        "length": "35.01s",
+        "requires": [316],
+        "comment": "guess: arriving at the hub once Pirate World is done (316 Captain Dreadleg, its last beat; the last step is 'Travel to the LEGO Center')"
+      },
+      "after-space": {
+        "effect_package": 636598,
+        "text": 16,
+        "length": "45.53s",
+        "requires": [492],
+        "comment": "guess: arriving at the hub once Space World is done (492, 'End the Alien Invasion')"
+      },
+      "after-t-rex": {
+        "effect_package": 637098,
+        "text": 20,
+        "length": "24.36s",
+        "comment": "likely: dialogue 690's script step DanceParty (the party's actors at the Gauntlet's end)"
+      },
+      "becoming-a-pirate": {
+        "effect_package": 636509,
+        "text": 10,
+        "length": "35.47s",
+        "tag": 4286,
+        "comment": "likely: dialogue 266's script step BecomeAPirate (resolves 'Complete the Pirate Trials'); flag 4286 Cine_Pirate_Defeated_Captain_Pete is a guess"
+      },
+      "black-hole": {
+        "effect_package": 636514,
+        "text": 15,
+        "length": "30.78s",
+        "tag": 4281,
+        "comment": "likely: BA_Black_Hole_Cinematic by the portal, flag 4281 Cine_Space_BlackHole"
+      },
+      "dino-intro": {
+        "effect_package": 637077,
+        "text": 19,
+        "length": "72.5s",
+        "tag": 4283,
+        "comment": "likely: BA_Cine_Intro (actors there), flag 4283 Cine_Dino_Intro"
+      },
+      "game-intro": {
+        "effect_package": 635608,
+        "text": 6,
+        "length": "63.95s",
+        "unless": [4081],
+        "comment": "live: on arriving in the tutorial (CharInPlay), the player in BA_IntroCinematic (certain); once: until the tutorial's first beat (Knock Knock 4081)"
+      },
+      "lost-creations-portal": {
+        "effect_package": 636512,
+        "text": 21,
+        "length": "74.55s",
+        "tag": 4284,
+        "comment": "likely: BA_Cine_Lost_Creations, flag 4284 Cine_Dino_Lost_Creations"
+      },
+      "medieval-intro": {
+        "effect_package": 637080,
+        "text": 12,
+        "length": "58.18s",
+        "unless": [425],
+        "comment": "guess: arriving in the Kingdom (the arrival point is in BA_Story_AutoTeleportToThroneRoom1), before the King's Court (425)"
+      },
+      "mythology-intro": {
+        "effect_package": 636983,
+        "text": 17,
+        "length": "44.93s",
+        "tag": 4282,
+        "comment": "likely: BA_Medieval_Intro in Mythology Mountains (Zeus and Artemis actors there), flag 4282 Cine_Mythology_Intro"
+      },
+      "pirate-intro": {
+        "effect_package": 636984,
+        "text": 8,
+        "length": "39.19s",
+        "unless": [4181],
+        "then_dialogue": "dialogue/video-game-guy-812",
+        "comment": "live: on arriving in Pirate World (CharInPlay, BA_Cine_Arrival), Video Game Guy's dialogue 812 38.5 s later; it gives 4181 Arrival at Pirate World (certain)"
+      },
+      "space-intro": {
+        "effect_package": 636513,
+        "text": 14,
+        "length": "28.2s",
+        "tag": 4285,
+        "comment": "likely: BA_Space_Intro (actors at its height), flag 4285 Cine_Space_Intro"
+      }
+    },
+    "pickup_drop_chance": "100%"
+  },
   "more": {
     "achievements.area_names": {
       "1000": "LEGO World",

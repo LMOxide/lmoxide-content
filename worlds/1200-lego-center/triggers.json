@@ -36,6 +36,236 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/1200/story-ba-story-found-dinoentrance1",
+      "name": "BA_Story_Found_DinoEntrance1",
+      "area": "area/1200/ba-story-found-dinoentrance1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "6BRI"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal 6BRI (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/1200/story-ba-story-found-mythentrance1",
+      "name": "BA_Story_Found_MythEntrance1",
+      "area": "area/1200/ba-story-found-mythentrance1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "FY69"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal FY69 (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/1200/story-ba-story-space-found-castleentrance1",
+      "name": "BA_Story_Space_Found_CastleEntrance1",
+      "area": "area/1200/ba-story-space-found-castleentrance1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "WHS5"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal WHS5 (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/1200/story-ba-story-space-found-spaceport1",
+      "name": "BA_Story_Space_Found_Spaceport1",
+      "area": "area/1200/ba-story-space-found-spaceport1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "CLH1"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal CLH1 (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/1200/story-story-arriveathub",
+      "name": "Story_ArriveAtHub",
+      "area": "area/1200/story-arriveathub",
+      "actions": [
+        {
+          "cinematic": {
+            "name": "after-pirate-fort"
+          }
+        },
+        {
+          "cinematic": {
+            "name": "after-pirate-world"
+          }
+        },
+        {
+          "cinematic": {
+            "name": "after-medieval"
+          }
+        },
+        {
+          "cinematic": {
+            "name": "after-space"
+          }
+        },
+        {
+          "cinematic": {
+            "name": "after-mythology"
+          }
+        },
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "PM25",
+              "requires": [316]
+            }
+          }
+        },
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "DN3X",
+              "requires": [437]
+            }
+          }
+        },
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "143V",
+              "requires": [492]
+            }
+          }
+        },
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "PX18",
+              "requires": [676]
+            }
+          }
+        },
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "KPE1",
+              "requires": [676]
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "after-pirate-fort: guess: arriving at the hub (Story_ArriveAtHub) after the Jacket Fort (4183 Dreadleg Escapes Again), before Pirate World is done; sets 4241 'Enter Hub before completed Pirate World'; after-pirate-world: guess: arriving at the hub once Pirate World is done (316 Captain Dreadleg, its last beat; the last step is 'Travel to the LEGO Center'); after-medieval: guess: arriving at the hub once Medieval World is done (437 Another Cube Piece); after-space: guess: arriving at the hub once Space World is done (492, 'End the Alien Invasion'); after-mythology: guess: arriving at the hub once Mythology World is done (676 XX_G12, 'Disrupt Hades' plan'); the hub arrival resolves each done world's 'Travel to the LEGO Center' (guess) (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/1200/story-story-arriveathubbackup",
+      "name": "Story_ArriveAtHubBackup",
+      "area": "area/1200/story-arriveathubbackup",
+      "actions": [
+        {
+          "cinematic": {
+            "name": "after-pirate-fort"
+          }
+        },
+        {
+          "cinematic": {
+            "name": "after-pirate-world"
+          }
+        },
+        {
+          "cinematic": {
+            "name": "after-medieval"
+          }
+        },
+        {
+          "cinematic": {
+            "name": "after-space"
+          }
+        },
+        {
+          "cinematic": {
+            "name": "after-mythology"
+          }
+        },
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "PM25",
+              "requires": [316]
+            }
+          }
+        },
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "DN3X",
+              "requires": [437]
+            }
+          }
+        },
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "143V",
+              "requires": [492]
+            }
+          }
+        },
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "PX18",
+              "requires": [676]
+            }
+          }
+        },
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "KPE1",
+              "requires": [676]
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "after-pirate-fort: guess: arriving at the hub (Story_ArriveAtHub) after the Jacket Fort (4183 Dreadleg Escapes Again), before Pirate World is done; sets 4241 'Enter Hub before completed Pirate World'; after-pirate-world: guess: arriving at the hub once Pirate World is done (316 Captain Dreadleg, its last beat; the last step is 'Travel to the LEGO Center'); after-medieval: guess: arriving at the hub once Medieval World is done (437 Another Cube Piece); after-space: guess: arriving at the hub once Space World is done (492, 'End the Alien Invasion'); after-mythology: guess: arriving at the hub once Mythology World is done (676 XX_G12, 'Disrupt Hades' plan'); the hub arrival resolves each done world's 'Travel to the LEGO Center' (guess) (tools/content/import_story.py)"
     }
   ]
 }

@@ -102,7 +102,11 @@
           "goal": 168,
           "hash": "3UX1",
           "text": "Collect magic crystals at the Quarry",
-          "kind": "trigger"
+          "kind": "trigger",
+          "counts": "pickups",
+          "pickups": [464315, 464316, 464317, 464318],
+          "count": 13,
+          "max": 100
         }
       ]
     },

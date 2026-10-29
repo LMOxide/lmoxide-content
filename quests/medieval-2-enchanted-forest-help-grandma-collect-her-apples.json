@@ -23,8 +23,10 @@
           "hash": "OVIT",
           "text": "Help Grandma collect her Apples",
           "kind": "trigger",
-          "counts": "kills_or_smashes",
-          "count": 3,
+          "counts": "pickups",
+          "pickups": [464308],
+          "dropped_by": "kills_or_smashes",
+          "count": 34,
           "max": 100,
           "marker": {
             "pos": [201.1, 49.2, 91.9],

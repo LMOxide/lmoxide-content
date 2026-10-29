@@ -271,6 +271,150 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/4200/story-ba-cine-dreadlegappears1",
+      "name": "BA_Cine_DreadlegAppears1",
+      "area": "area/4200/ba-cine-dreadlegappears1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 385
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely: sets Dreadleg Appears (541) with text 385; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4200/story-ba-cine-escapefromthefort1",
+      "name": "BA_Cine_EscapeFromTheFort1",
+      "area": "area/4200/ba-cine-escapefromthefort1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 181
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely: sets Escape from the fort (309) with text 181; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4200/story-ba-cine-welcometopiratetown1",
+      "name": "BA_Cine_WelcomeToPirateTown1",
+      "area": "area/4200/ba-cine-welcometopiratetown1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 394
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely: sets Welcome to Pirate Town (542) with text 394; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4200/story-ba-head-islanders1",
+      "name": "BA_Head_Islanders1",
+      "area": "area/4200/ba-head-islanders1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 526
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head IslanderTerritoryPusher, shown when its tag 526 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4200/story-ba-head-jacketmedics1",
+      "name": "BA_Head_JacketMedics1",
+      "area": "area/4200/ba-head-jacketmedics1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 521
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head GroupsOfJackets, shown when its tag 521 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4200/story-ba-head-restingarea1",
+      "name": "BA_Head_RestingArea1",
+      "area": "area/4200/ba-head-restingarea1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 525
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head RestingAreaPusher, shown when its tag 525 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4200/story-ba-head-switchmini1",
+      "name": "BA_Head_SwitchMini1",
+      "area": "area/4200/ba-head-switchmini1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 4201
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head SecondMinifigureKeyboard, shown when its tag 4201 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4200/story-ba-head-treasureroom1",
+      "name": "BA_Head_TreasureRoom1",
+      "area": "area/4200/ba-head-treasureroom1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 523
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head TreasureRoomPusher, shown when its tag 523 is added (tools/content/import_story.py)"
     }
   ]
 }

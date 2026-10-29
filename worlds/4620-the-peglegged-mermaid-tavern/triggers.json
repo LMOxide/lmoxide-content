@@ -15,6 +15,42 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/4620/story-ba-cine-thepeglegmermaid1",
+      "name": "BA_Cine_ThePeglegMermaid1",
+      "area": "area/4620/ba-cine-thepeglegmermaid1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 156
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely: sets The Pegleg Mermaid (310) with text 156; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4620/story-story-reachtavern",
+      "name": "Story_ReachTavern",
+      "area": "area/4620/story-reachtavern",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "ATSN"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal ATSN (tools/content/import_story.py)"
     }
   ]
 }

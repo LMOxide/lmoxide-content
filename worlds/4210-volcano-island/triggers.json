@@ -278,6 +278,114 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/4210/story-ba-cine-dreadlegvolcano1",
+      "name": "BA_Cine_DreadlegVolcano1",
+      "area": "area/4210/ba-cine-dreadlegvolcano1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 408
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely: sets Dreadleg Volcano (439) with text 408; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4210/story-ba-head-ghostvillage1",
+      "name": "BA_Head_GhostVillage1",
+      "area": "area/4210/ba-head-ghostvillage1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 529
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head SkeletonTownEntrance, shown when its tag 529 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4210/story-ba-head-volcanodanger1",
+      "name": "BA_Head_VolcanoDanger1",
+      "area": "area/4210/ba-head-volcanodanger1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 528
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head VolcanoEntrance, shown when its tag 528 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4210/story-ba-head-volcanoisland1",
+      "name": "BA_Head_VolcanoIsland1",
+      "area": "area/4210/ba-head-volcanoisland1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 527
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head VolcanoIslandIntro, shown when its tag 527 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4210/story-story-reachpastvolcano1",
+      "name": "Story_ReachPastVolcano1",
+      "area": "area/4210/story-reachpastvolcano1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "VBVF"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal VBVF (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/4210/story-story-reachskullisland1",
+      "name": "Story_ReachSkullIsland1",
+      "area": "area/4210/story-reachskullisland1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "NER2"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal NER2 (tools/content/import_story.py)"
     }
   ]
 }

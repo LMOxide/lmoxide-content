@@ -3832,6 +3832,24 @@
       },
       "source": "client",
       "comment": "RDB 1040010:4210 uniqueid 588433 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/4210/ba-head-volcanodanger1",
+      "name": "BA_Head_VolcanoDanger1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [206.78, 279.94],
+            [219.52, 286.72],
+            [206.46, 293.84]
+          ],
+          "heights": [80.904, 90.904]
+        }
+      },
+      "category": "talking_head",
+      "source": "client",
+      "comment": "RDB 1000053:4210+0x40000000 (the flagged copy) guid 439613 (tools/content/import_story.py)"
     }
   ]
 }

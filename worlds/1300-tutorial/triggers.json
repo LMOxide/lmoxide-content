@@ -15,6 +15,21 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/1300/story-ba-introcinematic",
+      "name": "BA_IntroCinematic",
+      "area": "area/1300/ba-introcinematic",
+      "once": "per_player",
+      "actions": [
+        {
+          "cinematic": {
+            "name": "game-intro"
+          }
+        }
+      ],
+      "source": "client",
+      "comment": "game-intro: live: on arriving in the tutorial (CharInPlay), the player in BA_IntroCinematic (certain); once: until the tutorial's first beat (Knock Knock 4081) (tools/content/import_story.py)"
     }
   ]
 }

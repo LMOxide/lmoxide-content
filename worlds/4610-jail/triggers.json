@@ -15,6 +15,24 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/4610/story-head-miniboss1",
+      "name": "Head_Miniboss1",
+      "area": "area/4610/head-miniboss1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 522
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head MinibossWarning, shown when its tag 522 is added (tools/content/import_story.py)"
     }
   ]
 }

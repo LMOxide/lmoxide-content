@@ -14,6 +14,16 @@
     [526084, 30046],
     [160904, 30046]
   ],
+  "reward_script": {
+    "script": 1701,
+    "tags": [1101],
+    "progress": [
+      {
+        "goal": "GBWD",
+        "amount": 1
+      }
+    ]
+  },
   "steps": [
     {
       "quest": 215,

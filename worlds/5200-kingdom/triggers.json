@@ -302,6 +302,147 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/5200/story-ba-head-dragonhalls1",
+      "name": "BA_Head_DragonHalls1",
+      "area": "area/5200/ba-head-dragonhalls1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 548
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head WizardDragonHalls, shown when its tag 548 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5200/story-ba-head-drakes1",
+      "name": "BA_Head_Drakes1",
+      "area": "area/5200/ba-head-drakes1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 547
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head WizardDrakes, shown when its tag 547 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5200/story-ba-head-farm1",
+      "name": "BA_Head_Farm1",
+      "area": "area/5200/ba-head-farm1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 557
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head WizardFarms, shown when its tag 557 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5200/story-ba-head-fort1",
+      "name": "BA_Head_Fort1",
+      "area": "area/5200/ba-head-fort1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 550
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head WizardOldFort, shown when its tag 550 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5200/story-ba-head-treants1",
+      "name": "BA_Head_Treants1",
+      "area": "area/5200/ba-head-treants1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 549
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head WizardTreants, shown when its tag 549 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5200/story-ba-head-trolls1",
+      "name": "BA_Head_Trolls1",
+      "area": "area/5200/ba-head-trolls1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 556
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head WizardTrolls, shown when its tag 556 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5200/story-ba-story-autoteleporttothroneroom1",
+      "name": "BA_Story_AutoTeleportToThroneRoom1",
+      "area": "area/5200/ba-story-autoteleporttothroneroom1",
+      "once": "per_player",
+      "actions": [
+        {
+          "cinematic": {
+            "name": "medieval-intro"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "medieval-intro: guess: arriving in the Kingdom (the arrival point is in BA_Story_AutoTeleportToThroneRoom1), before the King's Court (425) (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5200/story-story-wallcheckpoint1",
+      "name": "Story_WallCheckpoint1",
+      "area": "area/5200/story-wallcheckpoint1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "24IC"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal 24IC (tools/content/import_story.py)"
     }
   ]
 }

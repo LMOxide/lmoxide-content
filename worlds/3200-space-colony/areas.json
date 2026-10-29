@@ -3419,6 +3419,24 @@
       },
       "source": "client",
       "comment": "RDB 1040010:3200 uniqueid 599181 (extract_server_areas.py)"
+    },
+    {
+      "id": "area/3200/ba-head-mushroomfield1",
+      "name": "BA_Head_MushroomField1",
+      "role": "story",
+      "shape": {
+        "polygon": {
+          "points": [
+            [398.93, 197.39],
+            [375.1, 206.6],
+            [385.27, 192.69]
+          ],
+          "heights": [119.684, 129.684]
+        }
+      },
+      "category": "talking_head",
+      "source": "client",
+      "comment": "RDB 1000053:3200+0x40000000 (the flagged copy) guid 464427 (tools/content/import_story.py)"
     }
   ]
 }

@@ -66,6 +66,24 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/4310/story-ba-cine-intotheskull1",
+      "name": "BA_Cine_IntoTheSkull1",
+      "area": "area/4310/ba-cine-intotheskull1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 204
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely: sets Into the skull (315) with text 204; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
     }
   ]
 }

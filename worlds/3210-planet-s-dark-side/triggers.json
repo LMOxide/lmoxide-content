@@ -214,6 +214,147 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/3210/story-ba-black-hole-cinematic",
+      "name": "BA_Black_Hole_Cinematic",
+      "area": "area/3210/ba-black-hole-cinematic",
+      "once": "per_player",
+      "actions": [
+        {
+          "cinematic": {
+            "name": "black-hole"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "black-hole: likely: BA_Black_Hole_Cinematic by the portal, flag 4281 Cine_Space_BlackHole (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3210/story-ba-head-alienbossencounter1",
+      "name": "BA_Head_AlienBossEncounter1",
+      "area": "area/3210/ba-head-alienbossencounter1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 578
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head CommanderZSmashEarthlings, shown when its tag 578 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3210/story-ba-head-merc-base1",
+      "name": "BA_Head_Merc_Base1",
+      "area": "area/3210/ba-head-merc-base1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 582
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head MinerHoloHiddenBase, shown when its tag 582 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3210/story-ba-story-arrivedtoalienworld1",
+      "name": "BA_Story_ArrivedToAlienWorld1",
+      "area": "area/3210/ba-story-arrivedtoalienworld1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "U5AL"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal U5AL (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3210/story-ba-story-arrivedtoportal1",
+      "name": "BA_Story_ArrivedToPortal1",
+      "area": "area/3210/ba-story-arrivedtoportal1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "UC8W"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal UC8W (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3210/story-ba-story-enter-alien-base1",
+      "name": "BA_Story_Enter_Alien_Base1",
+      "area": "area/3210/ba-story-enter-alien-base1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "3EJ9"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal 3EJ9 (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3210/story-ba-story-followthepowerline1",
+      "name": "BA_Story_FollowThePowerline1",
+      "area": "area/3210/ba-story-followthepowerline1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "7XSG"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal 7XSG (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3210/story-ba-story-jump-into-powerline1",
+      "name": "BA_Story_Jump_Into_Powerline1",
+      "area": "area/3210/ba-story-jump-into-powerline1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "MATJ"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal MATJ (tools/content/import_story.py)"
     }
   ]
 }

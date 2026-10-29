@@ -117,6 +117,219 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
+    },
+    {
+      "id": "trigger/2210/story-ba-medieval-intro",
+      "name": "BA_Medieval_Intro",
+      "area": "area/2210/ba-medieval-intro",
+      "once": "per_player",
+      "actions": [
+        {
+          "cinematic": {
+            "name": "mythology-intro"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "mythology-intro: likely: BA_Medieval_Intro in Mythology Mountains (Zeus and Artemis actors there), flag 4282 Cine_Mythology_Intro (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2210/story-cine-g01-cutscene1",
+      "name": "Cine_G01_Cutscene1",
+      "area": "area/2210/cine-g01-cutscene1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 575
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely (number): sets XX_G01 (665) with text 575; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2210/story-cine-g02-cutscene1",
+      "name": "Cine_G02_Cutscene1",
+      "area": "area/2210/cine-g02-cutscene1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 580
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely (number): sets XX_G02 (666) with text 580; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2210/story-cine-g03-cutscene1",
+      "name": "Cine_G03_Cutscene1",
+      "area": "area/2210/cine-g03-cutscene1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_beat",
+            "args": {
+              "text": 545
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "likely (number): sets XX_G03 (667) with text 545; the conversation before it isn't known, only its server side runs (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2210/story-head-blight1",
+      "name": "Head_Blight1",
+      "area": "area/2210/head-blight1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 718
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head BattleGoddessSkeletons, shown when its tag 718 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2210/story-head-harpies1",
+      "name": "Head_Harpies1",
+      "area": "area/2210/head-harpies1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 715
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head WitchesHarpies, shown when its tag 715 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2210/story-head-minotaurs1",
+      "name": "Head_Minotaurs1",
+      "area": "area/2210/head-minotaurs1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 717
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head BattleGoddessMinotaurs, shown when its tag 717 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2210/story-head-party-artemis1",
+      "name": "Head_Party_Artemis1",
+      "area": "area/2210/head-party-artemis1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 690
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head ArtemisStoneTablet, shown when its tag 690 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2210/story-head-party-commoner1",
+      "name": "Head_Party_Commoner1",
+      "area": "area/2210/head-party-commoner1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 692
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head CommonerStoneTablet, shown when its tag 692 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2210/story-head-party-mermaid1",
+      "name": "Head_Party_Mermaid1",
+      "area": "area/2210/head-party-mermaid1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 691
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head MermaidStoneTablet, shown when its tag 691 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2210/story-head-party-spartan1",
+      "name": "Head_Party_Spartan1",
+      "area": "area/2210/head-party-spartan1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 693
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head SpartanStoneTablet, shown when its tag 693 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/2210/story-head-satyrs1",
+      "name": "Head_Satyrs1",
+      "area": "area/2210/head-satyrs1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 716
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head BattleGoddessSatyrs, shown when its tag 716 is added (tools/content/import_story.py)"
     }
   ]
 }

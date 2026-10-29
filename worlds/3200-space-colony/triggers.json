@@ -377,6 +377,183 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: the speed pad (spell 459025) once its speed buildie is built"
+    },
+    {
+      "id": "trigger/3200/story-ba-head-alienshiredmercs1",
+      "name": "BA_Head_AliensHiredMercs1",
+      "area": "area/3200/ba-head-alienshiredmercs1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 572
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head MinerHoloMercsHired, shown when its tag 572 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-head-hqentrance1",
+      "name": "BA_Head_HQEntrance1",
+      "area": "area/3200/ba-head-hqentrance1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 586
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head ThraceSpaceCommandHQENtrance, shown when its tag 586 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-head-insectarea1",
+      "name": "BA_Head_InsectArea1",
+      "area": "area/3200/ba-head-insectarea1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 602
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head MinerHoloInsects, shown when its tag 602 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-head-mean-soldier1",
+      "name": "BA_Head_Mean_Soldier1",
+      "area": "area/3200/ba-head-mean-soldier1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 583
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head MeanSoldierSpaceStation, shown when its tag 583 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-head-minerbiodome1",
+      "name": "BA_Head_MinerBiodome1",
+      "area": "area/3200/ba-head-minerbiodome1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 571
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head MinerHoloBiodome, shown when its tag 571 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-head-mushroomfield1",
+      "name": "BA_Head_MushroomField1",
+      "area": "area/3200/ba-head-mushroomfield1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 574
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head MinerAncientRuins, shown when its tag 574 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-head-reachedspaceport1",
+      "name": "BA_Head_ReachedSpaceport1",
+      "area": "area/3200/ba-head-reachedspaceport1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 591
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head MinerBoardShuttle, shown when its tag 591 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-head-thracegogogo1",
+      "name": "BA_Head_ThraceGoGoGo1",
+      "area": "area/3200/ba-head-thracegogogo1",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "tag",
+            "args": {
+              "tag": 570
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (by name): talking head ThraceMoveMoveMove, shown when its tag 570 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-space-intro",
+      "name": "BA_Space_Intro",
+      "area": "area/3200/ba-space-intro",
+      "once": "per_player",
+      "actions": [
+        {
+          "cinematic": {
+            "name": "space-intro"
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "space-intro: likely: BA_Space_Intro (actors at its height), flag 4285 Cine_Space_Intro (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/3200/story-ba-story-exited-space-police-hq",
+      "name": "BA_Story_Exited_Space_Police_HQ",
+      "area": "area/3200/ba-story-exited-space-police-hq",
+      "once": "per_player",
+      "actions": [
+        {
+          "command": {
+            "name": "story_goal",
+            "args": {
+              "goal": "CZGR"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess (name): resolves story goal CZGR (tools/content/import_story.py)"
     }
   ]
 }

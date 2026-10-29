@@ -63,7 +63,8 @@
           "goal": 254,
           "hash": "GBWD",
           "text": "Gather elemental puzzle pieces",
-          "kind": "trigger"
+          "kind": "trigger",
+          "count": 4
         }
       ]
     },
