@@ -25,5 +25,6 @@
     "achievement/piggy-guy-the-lost-champion"
   ],
   "minifigure": "minifig/piggy-guy",
+  "minifigure_counter": true,
   "source": "client"
 }

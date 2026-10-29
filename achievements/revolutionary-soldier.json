@@ -25,5 +25,6 @@
     "achievement/revolutionary-soldier-the-lost-champion"
   ],
   "minifigure": "minifig/revolutionary-soldier",
+  "minifigure_counter": true,
   "source": "client"
 }

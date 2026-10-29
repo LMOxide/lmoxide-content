@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Dragon Halls",
   "minifigure": "minifig/wizard",
+  "minifigure_counter": true,
   "source": "client"
 }

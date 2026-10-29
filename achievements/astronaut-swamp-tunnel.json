@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Swamp Tunnel",
   "minifigure": "minifig/astronaut",
+  "minifigure_counter": true,
   "source": "client"
 }

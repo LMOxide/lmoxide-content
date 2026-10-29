@@ -25,5 +25,6 @@
     "achievement/warrior-woman-the-lost-champion"
   ],
   "minifigure": "minifig/warrior-woman",
+  "minifigure_counter": true,
   "source": "client"
 }

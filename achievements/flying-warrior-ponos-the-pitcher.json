@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Ponos the Pitcher",
   "minifigure": "minifig/flying-warrior",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -25,5 +25,6 @@
     "achievement/scientist-the-lost-champion"
   ],
   "minifigure": "minifig/scientist",
+  "minifigure_counter": true,
   "source": "client"
 }

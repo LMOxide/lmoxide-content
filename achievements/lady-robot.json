@@ -25,5 +25,6 @@
     "achievement/lady-robot-the-lost-champion"
   ],
   "minifigure": "minifig/lady-robot",
+  "minifigure_counter": true,
   "source": "client"
 }

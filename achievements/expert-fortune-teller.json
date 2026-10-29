@@ -8,6 +8,7 @@
   "points": 25,
   "kind": "upgrade",
   "minifigure": "minifig/fortune-teller",
+  "minifigure_counter": true,
   "n": 7,
   "source": "client"
 }

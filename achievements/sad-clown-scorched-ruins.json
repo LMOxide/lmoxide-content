@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Scorched Ruins",
   "minifigure": "minifig/sad-clown",
+  "minifigure_counter": true,
   "source": "client"
 }

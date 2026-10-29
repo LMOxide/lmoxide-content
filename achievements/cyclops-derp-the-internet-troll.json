@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Derp the Internet Troll",
   "minifigure": "minifig/cyclops",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Dragon Halls",
   "minifigure": "minifig/sea-captain",
+  "minifigure_counter": true,
   "source": "client"
 }

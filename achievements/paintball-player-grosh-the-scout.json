@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Grosh the Scout",
   "minifigure": "minifig/paintball-player",
+  "minifigure_counter": true,
   "source": "client"
 }

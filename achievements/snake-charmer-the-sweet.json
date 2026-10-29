@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000113, 50],
   "minifigure": "minifig/snake-charmer",
+  "minifigure_counter": true,
   "counts": {
     "match": "Magic Candy",
     "what": "kills_or_smashes"

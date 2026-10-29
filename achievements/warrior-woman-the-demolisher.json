@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000113, 25],
   "minifigure": "minifig/warrior-woman",
+  "minifigure_counter": true,
   "counts": {
     "match": "Minotaur Statue",
     "what": "kills_or_smashes"

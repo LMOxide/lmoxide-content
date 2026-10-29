@@ -140,6 +140,10 @@
       "type": ["string", "null"],
       "x-lmoxide-ref": ["minifig"]
     },
+    "minifigure_counter": {
+      "description": "Its reward script counts it on its minifigure (InventoryItemGeneric3 3000114 +1, the\nHeroic and Legendary \"Complete Any 5/10\" go by that count).",
+      "type": "boolean"
+    },
     "n": {
       "format": "uint32",
       "minimum": 0,

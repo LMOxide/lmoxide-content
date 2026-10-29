@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Natives' Hollow",
   "minifigure": "minifig/disco-diva",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -25,5 +25,6 @@
     "achievement/fairytale-princess-the-lost-champion"
   ],
   "minifigure": "minifig/fairytale-princess",
+  "minifigure_counter": true,
   "source": "client"
 }

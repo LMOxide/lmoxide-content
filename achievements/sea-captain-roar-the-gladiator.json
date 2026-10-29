@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Roar the Gladiator",
   "minifigure": "minifig/sea-captain",
+  "minifigure_counter": true,
   "source": "client"
 }

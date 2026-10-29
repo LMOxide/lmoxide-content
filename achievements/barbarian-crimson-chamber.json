@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Crimson Chamber",
   "minifigure": "minifig/barbarian",
+  "minifigure_counter": true,
   "source": "client"
 }

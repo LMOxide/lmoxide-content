@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Wind Shrine",
   "minifigure": "minifig/revolutionary-soldier",
+  "minifigure_counter": true,
   "source": "client"
 }

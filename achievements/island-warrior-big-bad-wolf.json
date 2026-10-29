@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Big Bad Wolf",
   "minifigure": "minifig/island-warrior",
+  "minifigure_counter": true,
   "source": "client"
 }

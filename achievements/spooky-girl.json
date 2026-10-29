@@ -25,5 +25,6 @@
     "achievement/spooky-girl-the-lost-champion"
   ],
   "minifigure": "minifig/spooky-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

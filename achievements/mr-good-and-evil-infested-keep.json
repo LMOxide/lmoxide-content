@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Infested Keep",
   "minifigure": "minifig/mr-good-and-evil",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Ouch Ouch",
   "minifigure": "minifig/jewel-thief",
+  "minifigure_counter": true,
   "source": "client"
 }

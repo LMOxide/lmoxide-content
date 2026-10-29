@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Alien Crystal Station",
   "minifigure": "minifig/video-game-guy",
+  "minifigure_counter": true,
   "source": "client"
 }

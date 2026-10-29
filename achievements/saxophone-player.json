@@ -25,5 +25,6 @@
     "achievement/saxophone-player-the-lost-champion"
   ],
   "minifigure": "minifig/saxophone-player",
+  "minifigure_counter": true,
   "source": "client"
 }

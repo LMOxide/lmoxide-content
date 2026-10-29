@@ -25,5 +25,6 @@
     "achievement/paintball-player-the-lost-champion"
   ],
   "minifigure": "minifig/paintball-player",
+  "minifigure_counter": true,
   "source": "client"
 }

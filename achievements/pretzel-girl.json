@@ -25,5 +25,6 @@
     "achievement/pretzel-girl-the-lost-champion"
   ],
   "minifigure": "minifig/pretzel-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

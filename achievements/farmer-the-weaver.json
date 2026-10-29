@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "The Weaver",
   "minifigure": "minifig/farmer",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Infested Keep",
   "minifigure": "minifig/spider-lady",
+  "minifigure_counter": true,
   "source": "client"
 }

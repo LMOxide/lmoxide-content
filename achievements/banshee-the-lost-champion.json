@@ -8,6 +8,7 @@
   "points": 25,
   "kind": "lost_creations",
   "minifigure": "minifig/banshee",
+  "minifigure_counter": true,
   "n": 15,
   "source": "client"
 }

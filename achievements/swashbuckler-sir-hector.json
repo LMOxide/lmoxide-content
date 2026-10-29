@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Sir Hector",
   "minifigure": "minifig/swashbuckler",
+  "minifigure_counter": true,
   "source": "client"
 }

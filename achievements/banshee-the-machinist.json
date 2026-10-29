@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000113, 50],
   "minifigure": "minifig/banshee",
+  "minifigure_counter": true,
   "counts": {
     "match": "Alien Machine",
     "what": "kills_or_smashes"

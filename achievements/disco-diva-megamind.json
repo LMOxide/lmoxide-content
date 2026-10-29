@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Megamind",
   "minifigure": "minifig/disco-diva",
+  "minifigure_counter": true,
   "source": "client"
 }

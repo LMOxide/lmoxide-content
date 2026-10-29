@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000112, 100],
   "minifigure": "minifig/scientist",
+  "minifigure_counter": true,
   "counts": {
     "what": "builds"
   },

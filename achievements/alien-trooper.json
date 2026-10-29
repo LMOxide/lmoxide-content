@@ -25,5 +25,6 @@
     "achievement/alien-trooper-the-lost-champion"
   ],
   "minifigure": "minifig/alien-trooper",
+  "minifigure_counter": true,
   "source": "client"
 }

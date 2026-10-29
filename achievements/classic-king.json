@@ -25,5 +25,6 @@
     "achievement/classic-king-the-lost-champion"
   ],
   "minifigure": "minifig/classic-king",
+  "minifigure_counter": true,
   "source": "client"
 }

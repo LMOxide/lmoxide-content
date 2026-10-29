@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Swamp Tunnel",
   "minifigure": "minifig/snake-charmer",
+  "minifigure_counter": true,
   "source": "client"
 }

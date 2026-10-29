@@ -25,5 +25,6 @@
     "achievement/dino-tracker-the-lost-champion"
   ],
   "minifigure": "minifig/dino-tracker",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Bishop, Master Technician",
   "minifigure": "minifig/space-miner",
+  "minifigure_counter": true,
   "source": "client"
 }

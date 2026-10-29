@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Crone of the Maze",
   "minifigure": "minifig/skeleton-guy",
+  "minifigure_counter": true,
   "source": "client"
 }

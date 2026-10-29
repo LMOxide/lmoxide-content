@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Skyforge",
   "minifigure": "minifig/waiter",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -25,5 +25,6 @@
     "achievement/holiday-elf-the-lost-champion"
   ],
   "minifigure": "minifig/holiday-elf",
+  "minifigure_counter": true,
   "source": "client"
 }

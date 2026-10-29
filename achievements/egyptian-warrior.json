@@ -25,5 +25,6 @@
     "achievement/egyptian-warrior-the-lost-champion"
   ],
   "minifigure": "minifig/egyptian-warrior",
+  "minifigure_counter": true,
   "source": "client"
 }

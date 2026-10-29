@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Giant Spider",
   "minifigure": "minifig/cyclops",
+  "minifigure_counter": true,
   "source": "client"
 }

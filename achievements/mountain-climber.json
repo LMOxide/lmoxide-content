@@ -25,5 +25,6 @@
     "achievement/mountain-climber-the-lost-champion"
   ],
   "minifigure": "minifig/mountain-climber",
+  "minifigure_counter": true,
   "source": "client"
 }

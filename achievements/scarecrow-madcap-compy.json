@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Madcap Compy",
   "minifigure": "minifig/scarecrow",
+  "minifigure_counter": true,
   "source": "client"
 }

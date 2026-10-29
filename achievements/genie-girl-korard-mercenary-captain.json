@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Korard, Mercenary Captain",
   "minifigure": "minifig/genie-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

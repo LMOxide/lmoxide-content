@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "The Triffid",
   "minifigure": "minifig/battle-goddess",
+  "minifigure_counter": true,
   "source": "client"
 }

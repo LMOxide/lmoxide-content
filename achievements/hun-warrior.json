@@ -25,5 +25,6 @@
     "achievement/hun-warrior-the-lost-champion"
   ],
   "minifigure": "minifig/hun-warrior",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Alien Command Center",
   "minifigure": "minifig/genie-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

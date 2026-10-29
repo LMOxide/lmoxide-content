@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000113, 50],
   "minifigure": "minifig/dino-tracker",
+  "minifigure_counter": true,
   "counts": {
     "match": "Triffid",
     "what": "kills_or_smashes"

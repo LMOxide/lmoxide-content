@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000113, 50],
   "minifigure": "minifig/wolf-guy",
+  "minifigure_counter": true,
   "counts": {
     "match": "Drake",
     "what": "kills_or_smashes"

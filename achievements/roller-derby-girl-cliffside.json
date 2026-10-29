@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Cliffside",
   "minifigure": "minifig/roller-derby-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

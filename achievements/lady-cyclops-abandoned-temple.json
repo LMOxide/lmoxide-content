@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Abandoned Temple",
   "minifigure": "minifig/lady-cyclops",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Umad Thundercrusher",
   "minifigure": "minifig/pretzel-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

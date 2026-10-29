@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000113, 20],
   "minifigure": "minifig/jewel-thief",
+  "minifigure_counter": true,
   "counts": {
     "match": "Speed Pad",
     "what": "builds"

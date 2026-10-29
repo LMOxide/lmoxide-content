@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Beastmaster Wulfgar",
   "minifigure": "minifig/plumber",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -25,5 +25,6 @@
     "achievement/pizza-delivery-man-the-lost-champion"
   ],
   "minifigure": "minifig/pizza-delivery-man",
+  "minifigure_counter": true,
   "source": "client"
 }

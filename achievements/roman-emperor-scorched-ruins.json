@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Scorched Ruins",
   "minifigure": "minifig/roman-emperor",
+  "minifigure_counter": true,
   "source": "client"
 }

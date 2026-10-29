@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Cave of the Exiled",
   "minifigure": "minifig/holiday-elf",
+  "minifigure_counter": true,
   "source": "client"
 }

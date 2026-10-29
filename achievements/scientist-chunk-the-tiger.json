@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Chunk the Tiger",
   "minifigure": "minifig/scientist",
+  "minifigure_counter": true,
   "source": "client"
 }

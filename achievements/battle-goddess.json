@@ -25,5 +25,6 @@
     "achievement/battle-goddess-the-lost-champion"
   ],
   "minifigure": "minifig/battle-goddess",
+  "minifigure_counter": true,
   "source": "client"
 }

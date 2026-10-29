@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Swamp Tunnel",
   "minifigure": "minifig/battle-mech",
+  "minifigure_counter": true,
   "source": "client"
 }

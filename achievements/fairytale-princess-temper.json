@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Temper",
   "minifigure": "minifig/fairytale-princess",
+  "minifigure_counter": true,
   "source": "client"
 }

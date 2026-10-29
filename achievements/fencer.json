@@ -25,5 +25,6 @@
     "achievement/fencer-the-lost-champion"
   ],
   "minifigure": "minifig/fencer",
+  "minifigure_counter": true,
   "source": "client"
 }

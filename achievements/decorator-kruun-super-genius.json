@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Kruun, Super Genius",
   "minifigure": "minifig/decorator",
+  "minifigure_counter": true,
   "source": "client"
 }

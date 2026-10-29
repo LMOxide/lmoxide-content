@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Chlora the Fungomancer",
   "minifigure": "minifig/gargoyle",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -25,5 +25,6 @@
     "achievement/lady-cyclops-the-lost-champion"
   ],
   "minifigure": "minifig/lady-cyclops",
+  "minifigure_counter": true,
   "source": "client"
 }

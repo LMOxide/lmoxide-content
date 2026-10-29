@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Scorched Ruins",
   "minifigure": "minifig/heroic-knight",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -25,5 +25,6 @@
     "achievement/paleontologist-the-lost-champion"
   ],
   "minifigure": "minifig/paleontologist",
+  "minifigure_counter": true,
   "source": "client"
 }

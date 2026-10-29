@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "The Triffid",
   "minifigure": "minifig/forest-maiden",
+  "minifigure_counter": true,
   "source": "client"
 }

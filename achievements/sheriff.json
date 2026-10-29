@@ -25,5 +25,6 @@
     "achievement/sheriff-the-lost-champion"
   ],
   "minifigure": "minifig/sheriff",
+  "minifigure_counter": true,
   "source": "client"
 }

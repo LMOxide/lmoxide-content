@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Megamind",
   "minifigure": "minifig/zombie-businessman",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Spider's Nest",
   "minifigure": "minifig/forest-maiden",
+  "minifigure_counter": true,
   "source": "client"
 }

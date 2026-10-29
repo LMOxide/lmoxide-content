@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Mysterious Crystal Cave",
   "minifigure": "minifig/hot-dog-man",
+  "minifigure_counter": true,
   "source": "client"
 }

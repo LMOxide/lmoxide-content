@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Warchief Grogrog",
   "minifigure": "minifig/battle-mech",
+  "minifigure_counter": true,
   "source": "client"
 }

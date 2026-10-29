@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Cave of the Exiled",
   "minifigure": "minifig/gargoyle",
+  "minifigure_counter": true,
   "source": "client"
 }

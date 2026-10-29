@@ -25,5 +25,6 @@
     "achievement/evil-mech-the-lost-champion"
   ],
   "minifigure": "minifig/evil-mech",
+  "minifigure_counter": true,
   "source": "client"
 }

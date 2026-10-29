@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Unexplored Crystal Cave",
   "minifigure": "minifig/genie-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

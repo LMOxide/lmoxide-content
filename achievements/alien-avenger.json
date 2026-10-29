@@ -25,5 +25,6 @@
     "achievement/alien-avenger-the-lost-champion"
   ],
   "minifigure": "minifig/alien-avenger",
+  "minifigure_counter": true,
   "source": "client"
 }

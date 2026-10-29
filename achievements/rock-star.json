@@ -25,5 +25,6 @@
     "achievement/rock-star-the-lost-champion"
   ],
   "minifigure": "minifig/rock-star",
+  "minifigure_counter": true,
   "source": "client"
 }

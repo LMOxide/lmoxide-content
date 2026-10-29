@@ -25,5 +25,6 @@
     "achievement/jester-the-lost-champion"
   ],
   "minifigure": "minifig/jester",
+  "minifigure_counter": true,
   "source": "client"
 }

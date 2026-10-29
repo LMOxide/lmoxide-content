@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Maggut the Beast Tamer",
   "minifigure": "minifig/zombie-pirate",
+  "minifigure_counter": true,
   "source": "client"
 }

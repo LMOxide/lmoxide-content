@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Ouch Ouch",
   "minifigure": "minifig/saxophone-player",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Infested Keep",
   "minifigure": "minifig/evil-wizard",
+  "minifigure_counter": true,
   "source": "client"
 }

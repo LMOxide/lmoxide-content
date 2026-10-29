@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Swamp Tunnel",
   "minifigure": "minifig/lady-robot",
+  "minifigure_counter": true,
   "source": "client"
 }

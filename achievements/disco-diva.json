@@ -25,5 +25,6 @@
     "achievement/disco-diva-the-lost-champion"
   ],
   "minifigure": "minifig/disco-diva",
+  "minifigure_counter": true,
   "source": "client"
 }

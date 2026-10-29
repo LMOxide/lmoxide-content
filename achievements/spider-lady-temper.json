@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Temper",
   "minifigure": "minifig/spider-lady",
+  "minifigure_counter": true,
   "source": "client"
 }

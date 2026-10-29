@@ -25,5 +25,6 @@
     "achievement/grandma-the-lost-champion"
   ],
   "minifigure": "minifig/grandma",
+  "minifigure_counter": true,
   "source": "client"
 }

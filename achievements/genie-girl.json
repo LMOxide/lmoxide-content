@@ -25,5 +25,6 @@
     "achievement/genie-girl-the-lost-champion"
   ],
   "minifigure": "minifig/genie-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

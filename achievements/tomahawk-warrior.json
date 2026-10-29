@@ -25,5 +25,6 @@
     "achievement/tomahawk-warrior-the-lost-champion"
   ],
   "minifigure": "minifig/tomahawk-warrior",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -25,5 +25,6 @@
     "achievement/gingerbread-man-the-lost-champion"
   ],
   "minifigure": "minifig/gingerbread-man",
+  "minifigure_counter": true,
   "source": "client"
 }

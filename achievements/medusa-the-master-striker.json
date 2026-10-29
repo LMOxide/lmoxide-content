@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000112, 10000],
   "minifigure": "minifig/medusa",
+  "minifigure_counter": true,
   "counts": {
     "what": "kills"
   },

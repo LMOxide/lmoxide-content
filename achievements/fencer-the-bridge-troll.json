@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "The Bridge Troll",
   "minifigure": "minifig/fencer",
+  "minifigure_counter": true,
   "source": "client"
 }

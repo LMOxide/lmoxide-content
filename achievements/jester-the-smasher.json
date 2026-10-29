@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000112, 500],
   "minifigure": "minifig/jester",
+  "minifigure_counter": true,
   "counts": {
     "what": "smashes"
   },

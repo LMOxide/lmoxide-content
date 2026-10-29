@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Lord Minos, the Lich",
   "minifigure": "minifig/spooky-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Nyx Blackfeather",
   "minifigure": "minifig/piggy-guy",
+  "minifigure_counter": true,
   "source": "client"
 }

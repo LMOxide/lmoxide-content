@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Maggut the Beast Tamer",
   "minifigure": "minifig/hun-warrior",
+  "minifigure_counter": true,
   "source": "client"
 }

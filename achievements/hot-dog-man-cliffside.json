@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Cliffside",
   "minifigure": "minifig/hot-dog-man",
+  "minifigure_counter": true,
   "source": "client"
 }

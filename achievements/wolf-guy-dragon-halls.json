@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Dragon Halls",
   "minifigure": "minifig/wolf-guy",
+  "minifigure_counter": true,
   "source": "client"
 }

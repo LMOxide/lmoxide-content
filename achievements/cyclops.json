@@ -25,5 +25,6 @@
     "achievement/cyclops-the-lost-champion"
   ],
   "minifigure": "minifig/cyclops",
+  "minifigure_counter": true,
   "source": "client"
 }

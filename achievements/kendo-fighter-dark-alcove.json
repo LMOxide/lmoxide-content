@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Dark Alcove",
   "minifigure": "minifig/kendo-fighter",
+  "minifigure_counter": true,
   "source": "client"
 }

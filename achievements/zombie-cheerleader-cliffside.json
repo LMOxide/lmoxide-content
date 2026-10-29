@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Cliffside",
   "minifigure": "minifig/zombie-cheerleader",
+  "minifigure_counter": true,
   "source": "client"
 }

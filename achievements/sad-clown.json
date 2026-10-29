@@ -25,5 +25,6 @@
     "achievement/sad-clown-the-lost-champion"
   ],
   "minifigure": "minifig/sad-clown",
+  "minifigure_counter": true,
   "source": "client"
 }

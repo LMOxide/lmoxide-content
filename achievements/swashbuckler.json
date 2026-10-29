@@ -25,5 +25,6 @@
     "achievement/swashbuckler-the-lost-champion"
   ],
   "minifigure": "minifig/swashbuckler",
+  "minifigure_counter": true,
   "source": "client"
 }

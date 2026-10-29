@@ -25,5 +25,6 @@
     "achievement/bumblebee-girl-the-lost-champion"
   ],
   "minifigure": "minifig/bumblebee-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

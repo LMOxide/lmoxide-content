@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Janos the Unforgiving",
   "minifigure": "minifig/scientist",
+  "minifigure_counter": true,
   "source": "client"
 }

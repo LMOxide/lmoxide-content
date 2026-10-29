@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Treasure Island",
   "minifigure": "minifig/plumber",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000112, 100],
   "minifigure": "minifig/hot-dog-man",
+  "minifigure_counter": true,
   "counts": {
     "what": "builds"
   },

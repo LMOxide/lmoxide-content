@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000112, 1000],
   "minifigure": "minifig/laser-mech",
+  "minifigure_counter": true,
   "counts": {
     "what": "kills"
   },

@@ -25,5 +25,6 @@
     "achievement/samurai-the-lost-champion"
   ],
   "minifigure": "minifig/samurai",
+  "minifigure_counter": true,
   "source": "client"
 }

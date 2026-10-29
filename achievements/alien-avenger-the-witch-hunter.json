@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000113, 50],
   "minifigure": "minifig/alien-avenger",
+  "minifigure_counter": true,
   "counts": {
     "match": "Witch",
     "what": "kills_or_smashes"

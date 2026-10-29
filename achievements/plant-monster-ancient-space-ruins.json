@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Ancient Space Ruins",
   "minifigure": "minifig/plant-monster",
+  "minifigure_counter": true,
   "source": "client"
 }

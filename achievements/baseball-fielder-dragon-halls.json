@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Dragon Halls",
   "minifigure": "minifig/baseball-fielder",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -8,6 +8,7 @@
   "points": 25,
   "kind": "lost_creations",
   "minifigure": "minifig/kendo-fighter",
+  "minifigure_counter": true,
   "n": 15,
   "source": "client"
 }

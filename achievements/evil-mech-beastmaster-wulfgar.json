@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Beastmaster Wulfgar",
   "minifigure": "minifig/evil-mech",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Siege Command Room",
   "minifigure": "minifig/plumber",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Treasure Island",
   "minifigure": "minifig/barbarian",
+  "minifigure_counter": true,
   "source": "client"
 }

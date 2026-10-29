@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000113, 50],
   "minifigure": "minifig/monster-scientist",
+  "minifigure_counter": true,
   "counts": {
     "match": "Witch Doctor",
     "what": "kills_or_smashes"

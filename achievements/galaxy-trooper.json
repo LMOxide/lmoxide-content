@@ -25,5 +25,6 @@
     "achievement/galaxy-trooper-the-lost-champion"
   ],
   "minifigure": "minifig/galaxy-trooper",
+  "minifigure_counter": true,
   "source": "client"
 }

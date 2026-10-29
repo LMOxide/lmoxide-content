@@ -25,5 +25,6 @@
     "achievement/unicorn-girl-the-lost-champion"
   ],
   "minifigure": "minifig/unicorn-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

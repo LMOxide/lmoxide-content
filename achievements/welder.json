@@ -25,5 +25,6 @@
     "achievement/welder-the-lost-champion"
   ],
   "minifigure": "minifig/welder",
+  "minifigure_counter": true,
   "source": "client"
 }

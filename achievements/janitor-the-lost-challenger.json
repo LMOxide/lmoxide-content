@@ -8,6 +8,7 @@
   "points": 25,
   "kind": "lost_creations",
   "minifigure": "minifig/janitor",
+  "minifigure_counter": true,
   "n": 5,
   "source": "client"
 }

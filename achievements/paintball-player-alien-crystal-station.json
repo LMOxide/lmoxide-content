@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Alien Crystal Station",
   "minifigure": "minifig/paintball-player",
+  "minifigure_counter": true,
   "source": "client"
 }

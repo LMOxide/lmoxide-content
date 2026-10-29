@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Mercenary Cave",
   "minifigure": "minifig/lifeguard-guy",
+  "minifigure_counter": true,
   "source": "client"
 }

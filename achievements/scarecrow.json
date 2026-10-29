@@ -25,5 +25,6 @@
     "achievement/scarecrow-the-lost-champion"
   ],
   "minifigure": "minifig/scarecrow",
+  "minifigure_counter": true,
   "source": "client"
 }

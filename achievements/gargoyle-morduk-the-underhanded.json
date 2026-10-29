@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Morduk, the Underhanded",
   "minifigure": "minifig/gargoyle",
+  "minifigure_counter": true,
   "source": "client"
 }

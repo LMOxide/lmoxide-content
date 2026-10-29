@@ -25,5 +25,6 @@
     "achievement/waiter-the-lost-champion"
   ],
   "minifigure": "minifig/waiter",
+  "minifigure_counter": true,
   "source": "client"
 }

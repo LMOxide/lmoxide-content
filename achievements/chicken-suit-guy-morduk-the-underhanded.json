@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Morduk, the Underhanded",
   "minifigure": "minifig/chicken-suit-guy",
+  "minifigure_counter": true,
   "source": "client"
 }

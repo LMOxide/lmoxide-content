@@ -25,5 +25,6 @@
     "achievement/mr-gold-the-lost-champion"
   ],
   "minifigure": "minifig/mr-gold",
+  "minifigure_counter": true,
   "source": "client"
 }

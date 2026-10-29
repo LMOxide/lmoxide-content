@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Swamp Tunnel",
   "minifigure": "minifig/decorator",
+  "minifigure_counter": true,
   "source": "client"
 }

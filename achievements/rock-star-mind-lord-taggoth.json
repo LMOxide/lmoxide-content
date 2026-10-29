@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Mind-Lord Taggoth",
   "minifigure": "minifig/rock-star",
+  "minifigure_counter": true,
   "source": "client"
 }

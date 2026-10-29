@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Temper",
   "minifigure": "minifig/mermaid",
+  "minifigure_counter": true,
   "source": "client"
 }

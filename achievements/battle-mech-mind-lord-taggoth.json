@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Mind-Lord Taggoth",
   "minifigure": "minifig/battle-mech",
+  "minifigure_counter": true,
   "source": "client"
 }

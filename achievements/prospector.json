@@ -25,5 +25,6 @@
     "achievement/prospector-the-lost-champion"
   ],
   "minifigure": "minifig/prospector",
+  "minifigure_counter": true,
   "source": "client"
 }

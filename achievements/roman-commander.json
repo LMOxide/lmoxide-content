@@ -25,5 +25,6 @@
     "achievement/roman-commander-the-lost-champion"
   ],
   "minifigure": "minifig/roman-commander",
+  "minifigure_counter": true,
   "source": "client"
 }

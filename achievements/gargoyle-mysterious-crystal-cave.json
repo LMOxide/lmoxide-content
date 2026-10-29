@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Mysterious Crystal Cave",
   "minifigure": "minifig/gargoyle",
+  "minifigure_counter": true,
   "source": "client"
 }

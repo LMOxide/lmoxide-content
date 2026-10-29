@@ -25,5 +25,6 @@
     "achievement/island-warrior-the-lost-champion"
   ],
   "minifigure": "minifig/island-warrior",
+  "minifigure_counter": true,
   "source": "client"
 }

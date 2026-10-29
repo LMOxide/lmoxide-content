@@ -25,5 +25,6 @@
     "achievement/lifeguard-guy-the-lost-champion"
   ],
   "minifigure": "minifig/lifeguard-guy",
+  "minifigure_counter": true,
   "source": "client"
 }

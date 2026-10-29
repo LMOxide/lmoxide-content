@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Wind Shrine",
   "minifigure": "minifig/fencer",
+  "minifigure_counter": true,
   "source": "client"
 }

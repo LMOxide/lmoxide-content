@@ -25,5 +25,6 @@
     "achievement/goblin-the-lost-champion"
   ],
   "minifigure": "minifig/goblin",
+  "minifigure_counter": true,
   "source": "client"
 }

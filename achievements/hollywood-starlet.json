@@ -25,5 +25,6 @@
     "achievement/hollywood-starlet-the-lost-champion"
   ],
   "minifigure": "minifig/hollywood-starlet",
+  "minifigure_counter": true,
   "source": "client"
 }

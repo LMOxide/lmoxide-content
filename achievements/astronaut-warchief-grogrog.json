@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Warchief Grogrog",
   "minifigure": "minifig/astronaut",
+  "minifigure_counter": true,
   "source": "client"
 }

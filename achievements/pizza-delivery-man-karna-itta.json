@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Karna Itta",
   "minifigure": "minifig/pizza-delivery-man",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Big Bad Wolf",
   "minifigure": "minifig/roller-derby-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

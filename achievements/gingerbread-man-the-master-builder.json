@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000112, 1000],
   "minifigure": "minifig/gingerbread-man",
+  "minifigure_counter": true,
   "counts": {
     "what": "builds"
   },

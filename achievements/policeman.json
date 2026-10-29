@@ -25,5 +25,6 @@
     "achievement/policeman-the-lost-champion"
   ],
   "minifigure": "minifig/policeman",
+  "minifigure_counter": true,
   "source": "client"
 }

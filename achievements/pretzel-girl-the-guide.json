@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000113, 30],
   "minifigure": "minifig/pretzel-girl",
+  "minifigure_counter": true,
   "counts": {
     "match": "Sign",
     "what": "builds"

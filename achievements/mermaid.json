@@ -25,5 +25,6 @@
     "achievement/mermaid-the-lost-champion"
   ],
   "minifigure": "minifig/mermaid",
+  "minifigure_counter": true,
   "source": "client"
 }

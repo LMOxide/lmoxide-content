@@ -25,5 +25,6 @@
     "achievement/constable-the-lost-champion"
   ],
   "minifigure": "minifig/constable",
+  "minifigure_counter": true,
   "source": "client"
 }

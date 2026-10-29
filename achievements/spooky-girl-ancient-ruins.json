@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Ancient Ruins",
   "minifigure": "minifig/spooky-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

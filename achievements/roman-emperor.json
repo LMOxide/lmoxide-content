@@ -25,5 +25,6 @@
     "achievement/roman-emperor-the-lost-champion"
   ],
   "minifigure": "minifig/roman-emperor",
+  "minifigure_counter": true,
   "source": "client"
 }

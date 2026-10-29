@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Nyx Blackfeather",
   "minifigure": "minifig/genie-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

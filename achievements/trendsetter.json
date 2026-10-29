@@ -25,5 +25,6 @@
     "achievement/trendsetter-the-lost-champion"
   ],
   "minifigure": "minifig/trendsetter",
+  "minifigure_counter": true,
   "source": "client"
 }

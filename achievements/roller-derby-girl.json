@@ -25,5 +25,6 @@
     "achievement/roller-derby-girl-the-lost-champion"
   ],
   "minifigure": "minifig/roller-derby-girl",
+  "minifigure_counter": true,
   "source": "client"
 }

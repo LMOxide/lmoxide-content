@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Two-Eyed Willy",
   "minifigure": "minifig/shark-suit-guy",
+  "minifigure_counter": true,
   "source": "client"
 }

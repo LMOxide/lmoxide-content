@@ -25,5 +25,6 @@
     "achievement/plumber-the-lost-champion"
   ],
   "minifigure": "minifig/plumber",
+  "minifigure_counter": true,
   "source": "client"
 }

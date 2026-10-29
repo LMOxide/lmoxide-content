@@ -25,5 +25,6 @@
     "achievement/hot-dog-man-the-lost-champion"
   ],
   "minifigure": "minifig/hot-dog-man",
+  "minifigure_counter": true,
   "source": "client"
 }

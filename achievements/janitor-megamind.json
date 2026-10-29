@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Megamind",
   "minifigure": "minifig/janitor",
+  "minifigure_counter": true,
   "source": "client"
 }

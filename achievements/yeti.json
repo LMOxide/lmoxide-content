@@ -25,5 +25,6 @@
     "achievement/yeti-the-lost-champion"
   ],
   "minifigure": "minifig/yeti",
+  "minifigure_counter": true,
   "source": "client"
 }

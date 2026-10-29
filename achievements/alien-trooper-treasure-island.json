@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Treasure Island",
   "minifigure": "minifig/alien-trooper",
+  "minifigure_counter": true,
   "source": "client"
 }

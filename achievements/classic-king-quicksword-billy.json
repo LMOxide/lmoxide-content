@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Quicksword Billy",
   "minifigure": "minifig/classic-king",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -25,5 +25,6 @@
     "achievement/motorcycle-mechanic-the-lost-champion"
   ],
   "minifigure": "minifig/motorcycle-mechanic",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -8,6 +8,7 @@
   "points": 50,
   "kind": "lost_creations",
   "minifigure": "minifig/evil-wizard",
+  "minifigure_counter": true,
   "n": 5,
   "source": "client"
 }

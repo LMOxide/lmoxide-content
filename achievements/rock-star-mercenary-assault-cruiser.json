@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Mercenary Assault Cruiser",
   "minifigure": "minifig/rock-star",
+  "minifigure_counter": true,
   "source": "client"
 }

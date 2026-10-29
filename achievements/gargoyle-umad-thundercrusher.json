@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Umad Thundercrusher",
   "minifigure": "minifig/gargoyle",
+  "minifigure_counter": true,
   "source": "client"
 }

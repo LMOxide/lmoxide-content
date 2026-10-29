@@ -25,5 +25,6 @@
     "achievement/evil-wizard-the-lost-champion"
   ],
   "minifigure": "minifig/evil-wizard",
+  "minifigure_counter": true,
   "source": "client"
 }

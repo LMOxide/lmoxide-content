@@ -25,5 +25,6 @@
     "achievement/diner-waitress-the-lost-champion"
   ],
   "minifigure": "minifig/diner-waitress",
+  "minifigure_counter": true,
   "source": "client"
 }

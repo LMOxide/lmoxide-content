@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "John the Greedy",
   "minifigure": "minifig/lady-cyclops",
+  "minifigure_counter": true,
   "source": "client"
 }

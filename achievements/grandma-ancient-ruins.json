@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Ancient Ruins",
   "minifigure": "minifig/grandma",
+  "minifigure_counter": true,
   "source": "client"
 }

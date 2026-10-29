@@ -25,5 +25,6 @@
     "achievement/mr-good-and-evil-the-lost-champion"
   ],
   "minifigure": "minifig/mr-good-and-evil",
+  "minifigure_counter": true,
   "source": "client"
 }

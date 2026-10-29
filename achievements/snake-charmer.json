@@ -25,5 +25,6 @@
     "achievement/snake-charmer-the-lost-champion"
   ],
   "minifigure": "minifig/snake-charmer",
+  "minifigure_counter": true,
   "source": "client"
 }

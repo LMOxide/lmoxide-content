@@ -25,5 +25,6 @@
     "achievement/judge-the-lost-champion"
   ],
   "minifigure": "minifig/judge",
+  "minifigure_counter": true,
   "source": "client"
 }

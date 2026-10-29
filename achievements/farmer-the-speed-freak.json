@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000113, 20],
   "minifigure": "minifig/farmer",
+  "minifigure_counter": true,
   "counts": {
     "match": "Speed Pad",
     "what": "builds"

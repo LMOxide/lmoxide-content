@@ -9,6 +9,7 @@
   "kind": "counter",
   "counter": [3000112, 5000],
   "minifigure": "minifig/egyptian-warrior",
+  "minifigure_counter": true,
   "counts": {
     "what": "smashes"
   },

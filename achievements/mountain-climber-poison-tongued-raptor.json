@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Poison-tongued Raptor",
   "minifigure": "minifig/mountain-climber",
+  "minifigure_counter": true,
   "source": "client"
 }

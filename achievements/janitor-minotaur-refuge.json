@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Minotaur Refuge",
   "minifigure": "minifig/janitor",
+  "minifigure_counter": true,
   "source": "client"
 }

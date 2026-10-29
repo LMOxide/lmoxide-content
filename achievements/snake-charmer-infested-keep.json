@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Infested Keep",
   "minifigure": "minifig/snake-charmer",
+  "minifigure_counter": true,
   "source": "client"
 }

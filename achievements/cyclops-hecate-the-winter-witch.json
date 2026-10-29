@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Hecate, the Winter Witch",
   "minifigure": "minifig/cyclops",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Minotaur Refuge",
   "minifigure": "minifig/space-miner",
+  "minifigure_counter": true,
   "source": "client"
 }

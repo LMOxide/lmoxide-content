@@ -8,6 +8,7 @@
   "points": 50,
   "kind": "lost_creations",
   "minifigure": "minifig/disco-diva",
+  "minifigure_counter": true,
   "n": 10,
   "source": "client"
 }

@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Hecate, the Winter Witch",
   "minifigure": "minifig/baseball-fielder",
+  "minifigure_counter": true,
   "source": "client"
 }

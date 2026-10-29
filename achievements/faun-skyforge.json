@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Skyforge",
   "minifigure": "minifig/faun",
+  "minifigure_counter": true,
   "source": "client"
 }

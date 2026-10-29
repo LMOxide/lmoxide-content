@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Bishop, Master Technician",
   "minifigure": "minifig/alien-trooper",
+  "minifigure_counter": true,
   "source": "client"
 }

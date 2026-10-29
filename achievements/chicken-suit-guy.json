@@ -25,5 +25,6 @@
     "achievement/chicken-suit-guy-the-lost-champion"
   ],
   "minifigure": "minifig/chicken-suit-guy",
+  "minifigure_counter": true,
   "source": "client"
 }

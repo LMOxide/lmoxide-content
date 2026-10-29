@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Abandoned Temple",
   "minifigure": "minifig/swashbuckler",
+  "minifigure_counter": true,
   "source": "client"
 }

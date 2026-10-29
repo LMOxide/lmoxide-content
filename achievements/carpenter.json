@@ -25,5 +25,6 @@
     "achievement/carpenter-the-lost-champion"
   ],
   "minifigure": "minifig/carpenter",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -25,5 +25,6 @@
     "achievement/librarian-the-lost-champion"
   ],
   "minifigure": "minifig/librarian",
+  "minifigure_counter": true,
   "source": "client"
 }

@@ -25,5 +25,6 @@
     "achievement/sea-captain-the-lost-champion"
   ],
   "minifigure": "minifig/sea-captain",
+  "minifigure_counter": true,
   "source": "client"
 }

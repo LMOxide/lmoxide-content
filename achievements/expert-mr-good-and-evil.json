@@ -8,6 +8,7 @@
   "points": 25,
   "kind": "upgrade",
   "minifigure": "minifig/mr-good-and-evil",
+  "minifigure_counter": true,
   "n": 7,
   "source": "client"
 }

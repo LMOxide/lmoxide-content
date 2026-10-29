@@ -25,5 +25,6 @@
     "achievement/forest-maiden-the-lost-champion"
   ],
   "minifigure": "minifig/forest-maiden",
+  "minifigure_counter": true,
   "source": "client"
 }

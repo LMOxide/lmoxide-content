@@ -8,6 +8,7 @@
   "points": 25,
   "kind": "upgrade",
   "minifigure": "minifig/lady-cyclops",
+  "minifigure_counter": true,
   "n": 3,
   "source": "client"
 }

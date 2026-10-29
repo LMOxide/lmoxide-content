@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Mercenary Troop Transport",
   "minifigure": "minifig/monster-rocker",
+  "minifigure_counter": true,
   "source": "client"
 }

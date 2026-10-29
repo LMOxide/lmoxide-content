@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Big Bad Wolf",
   "minifigure": "minifig/fly-monster",
+  "minifigure_counter": true,
   "source": "client"
 }

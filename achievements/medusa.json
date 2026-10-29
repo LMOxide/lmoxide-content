@@ -25,5 +25,6 @@
     "achievement/medusa-the-lost-champion"
   ],
   "minifigure": "minifig/medusa",
+  "minifigure_counter": true,
   "source": "client"
 }

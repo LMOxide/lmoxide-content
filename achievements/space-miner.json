@@ -25,5 +25,6 @@
     "achievement/space-miner-the-lost-champion"
   ],
   "minifigure": "minifig/space-miner",
+  "minifigure_counter": true,
   "source": "client"
 }

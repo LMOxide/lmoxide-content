@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Underground Cave",
   "minifigure": "minifig/scientist",
+  "minifigure_counter": true,
   "source": "client"
 }

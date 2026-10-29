@@ -25,5 +25,6 @@
     "achievement/fortune-teller-the-lost-champion"
   ],
   "minifigure": "minifig/fortune-teller",
+  "minifigure_counter": true,
   "source": "client"
 }

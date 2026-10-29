@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Ancient Space Ruins",
   "minifigure": "minifig/frightening-knight",
+  "minifigure_counter": true,
   "source": "client"
 }

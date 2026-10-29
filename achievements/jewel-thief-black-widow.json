@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Black Widow",
   "minifigure": "minifig/jewel-thief",
+  "minifigure_counter": true,
   "source": "client"
 }

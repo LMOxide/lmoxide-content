@@ -25,5 +25,6 @@
     "achievement/grandpa-the-lost-champion"
   ],
   "minifigure": "minifig/grandpa",
+  "minifigure_counter": true,
   "source": "client"
 }

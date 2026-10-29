@@ -25,5 +25,6 @@
     "achievement/video-game-guy-the-lost-champion"
   ],
   "minifigure": "minifig/video-game-guy",
+  "minifigure_counter": true,
   "source": "client"
 }

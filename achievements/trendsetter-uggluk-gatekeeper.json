@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Uggluk Gatekeeper",
   "minifigure": "minifig/trendsetter",
+  "minifigure_counter": true,
   "source": "client"
 }

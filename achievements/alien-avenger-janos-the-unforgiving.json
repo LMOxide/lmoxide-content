@@ -9,5 +9,6 @@
   "kind": "target",
   "target": "Janos the Unforgiving",
   "minifigure": "minifig/alien-avenger",
+  "minifigure_counter": true,
   "source": "client"
 }
