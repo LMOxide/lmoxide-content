@@ -65,6 +65,10 @@
         "goal": {
           "description": "The goal's hash.",
           "type": "string"
+        },
+        "wait": {
+          "description": "Waits until the player has the goal (Lua 1699's buff, whose script 4005 retries every\nsecond); otherwise it counts only if the player has it then.",
+          "type": "boolean"
         }
       },
       "required": ["goal", "amount"],
@@ -172,6 +176,18 @@
       "additionalProperties": false,
       "description": "Where a goal's minimap arrow points.",
       "properties": {
+        "district": {
+          "description": "The district the tracker names (TDB 51200 instance), as live sent it.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "playfield": {
+          "description": "The playfield it is in; none: the quest's area's.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
         "pos": {
           "items": {
             "format": "float",
@@ -195,6 +211,9 @@
       "additionalProperties": false,
       "description": "One quest of a main quest (the client's \"quest\"; a story line's step).",
       "properties": {
+        "comment": {
+          "type": ["string", "null"]
+        },
         "description": {
           "type": ["string", "null"]
         },
@@ -212,6 +231,31 @@
           "format": "uint32",
           "minimum": 0,
           "type": "integer"
+        },
+        "rewards": {
+          "description": "Rewards of this step alone (template, category), shown in the tracker; not given yet.",
+          "items": {
+            "items": {
+              "format": "uint32",
+              "minimum": 0,
+              "type": "integer"
+            },
+            "maxItems": 2,
+            "minItems": 2,
+            "type": "array"
+          },
+          "type": "array"
+        },
+        "source": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Source"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Where its place in a story line comes from (`live`: the capture's order, `guess`)."
         },
         "task": {
           "description": "The client's task name and description (TDB 50301, 50302), when they say something.",

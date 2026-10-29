@@ -11,28 +11,18 @@
   ],
   "steps": [
     {
-      "quest": 124,
-      "hash": "INH6",
+      "quest": 173,
+      "hash": "KFTR",
       "goals": [
         {
-          "goal": 165,
-          "hash": "KM38",
-          "text": "Search the Kingdom to find the Jester",
+          "goal": 216,
+          "hash": "WHS5",
+          "text": "Go to the Castle Entrance",
           "kind": "locate"
         }
-      ]
-    },
-    {
-      "quest": 128,
-      "hash": "3IOS",
-      "goals": [
-        {
-          "goal": 169,
-          "hash": "MUK4",
-          "text": "Reach the Sorcerer's Chamber",
-          "kind": "locate"
-        }
-      ]
+      ],
+      "source": "client",
+      "comment": "first: the Video Game Guy's text 271 \"[Medieval Quest]{spawn KFTR}\"; the Kingdom's teleport window requires it"
     },
     {
       "quest": 125,
@@ -44,7 +34,9 @@
           "text": "Go to the Kingdom",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "guess",
+      "comment": "The King's Court (tag 425, text 276) is the first Medieval beat after the intro"
     },
     {
       "quest": 111,
@@ -56,43 +48,93 @@
           "text": "Ask the townsfolk about suspicious activity",
           "kind": "talk"
         }
-      ]
+      ],
+      "source": "guess",
+      "comment": "Kingnapped! (426, text 277) follows the King's Court; the townsfolk (AskCommoner pushers) point at the Jester"
     },
     {
-      "quest": 173,
-      "hash": "KFTR",
+      "quest": 124,
+      "hash": "INH6",
       "goals": [
         {
-          "goal": 216,
-          "hash": "WHS5",
-          "text": "Go to the Castle Entrance",
+          "goal": 165,
+          "hash": "KM38",
+          "text": "Search the Kingdom to find the Jester",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "guess",
+      "comment": "Sir Loins Checkpoint (561, text 434); the Ruined Fort's window requires it"
     },
     {
-      "quest": 118,
-      "hash": "VM2F",
+      "quest": 188,
+      "hash": "EXK6",
       "goals": [
         {
-          "goal": 159,
-          "hash": "4H62",
-          "text": "Counter the Sorcerer's Plan",
-          "kind": "trigger"
-        }
-      ]
-    },
-    {
-      "quest": 120,
-      "hash": "DUMP",
-      "goals": [
-        {
-          "goal": 161,
-          "hash": "DN3X",
-          "text": "Travel to the LEGO Center",
+          "goal": 231,
+          "hash": "5DBM",
+          "text": "Find the Jester",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "guess",
+      "comment": "\"Find the Jester\": no text resolves it; placed before the Ruined Fort (lore 427-429 sit between)"
+    },
+    {
+      "quest": 112,
+      "hash": "8U4H",
+      "goals": [
+        {
+          "goal": 153,
+          "hash": "VB6T",
+          "text": "Find the Jester at the Ruined Fort",
+          "kind": "locate"
+        }
+      ],
+      "source": "guess",
+      "comment": "The Realm of Jest (430, text 282) at the Ruined Fort"
+    },
+    {
+      "quest": 113,
+      "hash": "Q5PW",
+      "goals": [
+        {
+          "goal": 154,
+          "hash": "I502",
+          "text": "Confront the Jester about the stolen Crown",
+          "kind": "talk"
+        }
+      ],
+      "source": "guess",
+      "comment": "My Kingdom for a Crown (431, text 287); the Enchanted Forest's window requires it (\"defeat the Jester\")"
+    },
+    {
+      "quest": 114,
+      "hash": "E5HJ",
+      "goals": [
+        {
+          "goal": 155,
+          "hash": "MZD8",
+          "text": "Find the Sorcerer's Tower",
+          "kind": "locate"
+        }
+      ],
+      "source": "guess",
+      "comment": "by wording and quest id: the tower comes before the barrier is asked about"
+    },
+    {
+      "quest": 115,
+      "hash": "VBIG",
+      "goals": [
+        {
+          "goal": 156,
+          "hash": "OEA3",
+          "text": "Ask the Faerie Queen about the Magical Barrier",
+          "kind": "talk"
+        }
+      ],
+      "source": "guess",
+      "comment": "The Faerie Queen (433, text 292)"
     },
     {
       "quest": 127,
@@ -108,55 +150,9 @@
           "count": 13,
           "max": 100
         }
-      ]
-    },
-    {
-      "quest": 112,
-      "hash": "8U4H",
-      "goals": [
-        {
-          "goal": 153,
-          "hash": "VB6T",
-          "text": "Find the Jester at the Ruined Fort",
-          "kind": "locate"
-        }
-      ]
-    },
-    {
-      "quest": 113,
-      "hash": "Q5PW",
-      "goals": [
-        {
-          "goal": 154,
-          "hash": "I502",
-          "text": "Confront the Jester about the stolen Crown",
-          "kind": "talk"
-        }
-      ]
-    },
-    {
-      "quest": 114,
-      "hash": "E5HJ",
-      "goals": [
-        {
-          "goal": 155,
-          "hash": "MZD8",
-          "text": "Find the Sorcerer's Tower",
-          "kind": "locate"
-        }
-      ]
-    },
-    {
-      "quest": 115,
-      "hash": "VBIG",
-      "goals": [
-        {
-          "goal": 156,
-          "hash": "OEA3",
-          "text": "Ask the Faerie Queen about the Magical Barrier",
-          "kind": "talk"
-        }
-      ]
+      ],
+      "source": "guess",
+      "comment": "the crystals for crossing the barrier (wording), between asking and returning"
     },
     {
       "quest": 116,
@@ -168,7 +164,9 @@
           "text": "Return to the Faerie Queen",
           "kind": "talk"
         }
-      ]
+      ],
+      "source": "guess",
+      "comment": "Crossing the Barrier (434, texts 297/321); the Sorcerer's Keep window (5310) requires it"
     },
     {
       "quest": 117,
@@ -180,22 +178,54 @@
           "text": "Go to the Sorcerer's Keep",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "guess",
+      "comment": "Tower Siege (435) by lore order; Story_ArrivedKeep"
     },
     {
-      "quest": 188,
-      "hash": "EXK6",
+      "quest": 128,
+      "hash": "3IOS",
       "goals": [
         {
-          "goal": 231,
-          "hash": "5DBM",
-          "text": "Find the Jester",
+          "goal": 169,
+          "hash": "MUK4",
+          "text": "Reach the Sorcerer's Chamber",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "guess",
+      "comment": "Danger at the Bridge (436, text 303)"
+    },
+    {
+      "quest": 118,
+      "hash": "VM2F",
+      "goals": [
+        {
+          "goal": 159,
+          "hash": "4H62",
+          "text": "Counter the Sorcerer's Plan",
+          "kind": "trigger"
+        }
+      ],
+      "source": "guess",
+      "comment": "Another Cube Piece (437, text 309)"
+    },
+    {
+      "quest": 120,
+      "hash": "DUMP",
+      "goals": [
+        {
+          "goal": 161,
+          "hash": "DN3X",
+          "text": "Travel to the LEGO Center",
+          "kind": "locate"
+        }
+      ],
+      "source": "guess",
+      "comment": "\"Travel to the LEGO Center\": every story line ends so"
     }
   ],
   "source": "client",
   "tags": ["todo"],
-  "comment": "Story order not known (only the Pirate World's was in the capture): the client's order. Not implemented yet: the quarry crystals (goal 3UX1, items 464315-464318) drop nowhere, as no client data or capture says what drops them (docs/WORLD-CONTENT.md \"Not implemented yet\")."
+  "comment": "Order: only the first step is certain (spawned by the Video Game Guy); the rest follows the lore Cinematic Flags (424-437, 561) of the texts that resolve the goals, the teleport windows' required quests and the wording (docs/TUNABLES.md \"Story quests\"). Not implemented yet: the quarry crystals (goal 3UX1, items 464315-464318) drop nowhere, as no client data or capture says what drops them (docs/WORLD-CONTENT.md \"Not implemented yet\"). Not implemented yet: what resolves the steps whose goal no text, area or Lua names (todo)."
 }

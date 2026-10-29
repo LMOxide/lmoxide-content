@@ -20,19 +20,9 @@
           "text": "Go to the Mythology Entrance",
           "kind": "locate"
         }
-      ]
-    },
-    {
-      "quest": 207,
-      "hash": "EBGH",
-      "goals": [
-        {
-          "goal": 250,
-          "hash": "PX18",
-          "text": "Travel to the LEGO Center",
-          "kind": "locate"
-        }
-      ]
+      ],
+      "source": "client",
+      "comment": "first: the Video Game Guy's text 576 \"[Mythology Quest]{spawn U3FC}\"; the Mythology window requires it"
     },
     {
       "quest": 193,
@@ -44,7 +34,9 @@
           "text": "Talk to Zeus in Mythology World",
           "kind": "talk"
         }
-      ]
+      ],
+      "source": "guess",
+      "comment": "XX_G01 (665, text 575)"
     },
     {
       "quest": 194,
@@ -56,7 +48,9 @@
           "text": "Find someone to make you a toga",
           "kind": "talk"
         }
-      ]
+      ],
+      "source": "guess",
+      "comment": "XX_G03 (667, text 545); Medusa's Lair window requires it"
     },
     {
       "quest": 195,
@@ -68,7 +62,9 @@
           "text": "Find Medusa's Lair",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "guess",
+      "comment": "quest id order"
     },
     {
       "quest": 196,
@@ -80,43 +76,9 @@
           "text": "Rescue Battle Goddess from Medusa's Lair",
           "kind": "trigger"
         }
-      ]
-    },
-    {
-      "quest": 197,
-      "hash": "5SF2",
-      "goals": [
-        {
-          "goal": 240,
-          "hash": "R1KN",
-          "text": "Get the Key to the Underworld",
-          "kind": "trigger"
-        }
-      ]
-    },
-    {
-      "quest": 198,
-      "hash": "I67G",
-      "goals": [
-        {
-          "goal": 241,
-          "hash": "3S33",
-          "text": "Pass through the Underworld Gate",
-          "kind": "locate"
-        }
-      ]
-    },
-    {
-      "quest": 199,
-      "hash": "LDS3",
-      "goals": [
-        {
-          "goal": 242,
-          "hash": "1DPQ",
-          "text": "Disrupt Hades' plan",
-          "kind": "trigger"
-        }
-      ]
+      ],
+      "source": "guess",
+      "comment": "XX_G05 (669, text 555); the Armory's window requires it"
     },
     {
       "quest": 200,
@@ -128,7 +90,51 @@
           "text": "Go to the Armory",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "guess",
+      "comment": "before the key: Battle Goddess's pusher \"the Key to the Underworld [is] in the Armory\""
+    },
+    {
+      "quest": 197,
+      "hash": "5SF2",
+      "goals": [
+        {
+          "goal": 240,
+          "hash": "R1KN",
+          "text": "Get the Key to the Underworld",
+          "kind": "trigger"
+        }
+      ],
+      "source": "guess",
+      "comment": "XX_G08 (672, text 571) in the Armory; the Underworld's window requires it"
+    },
+    {
+      "quest": 198,
+      "hash": "I67G",
+      "goals": [
+        {
+          "goal": 241,
+          "hash": "3S33",
+          "text": "Pass through the Underworld Gate",
+          "kind": "locate"
+        }
+      ],
+      "source": "guess",
+      "comment": "quest id order (Story_EnteredUnderworldDoor1)"
+    },
+    {
+      "quest": 199,
+      "hash": "LDS3",
+      "goals": [
+        {
+          "goal": 242,
+          "hash": "1DPQ",
+          "text": "Disrupt Hades' plan",
+          "kind": "trigger"
+        }
+      ],
+      "source": "guess",
+      "comment": "XX_G12 (676, text 608), the last Mythology flag"
     },
     {
       "quest": 201,
@@ -140,10 +146,26 @@
           "text": "Travel to the LEGO Center",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "guess",
+      "comment": "\"Travel to the LEGO Center\""
+    },
+    {
+      "quest": 207,
+      "hash": "EBGH",
+      "goals": [
+        {
+          "goal": 250,
+          "hash": "PX18",
+          "text": "Travel to the LEGO Center",
+          "kind": "locate"
+        }
+      ],
+      "source": "guess",
+      "comment": "a second \"Travel to the LEGO Center\" (added later); both resolve on the same hub arrival"
     }
   ],
   "source": "client",
   "tags": ["todo"],
-  "comment": "Story order not known (only the Pirate World's was in the capture): the client's order."
+  "comment": "Order: only the first step is certain (spawned by the Video Game Guy); the rest follows the lore Cinematic Flags (XX_G01..G12) of the texts that resolve the goals, the teleport windows' required quests and the wording (docs/TUNABLES.md \"Story quests\"). Not implemented yet: what resolves the steps whose goal no text, area or Lua names (todo)."
 }

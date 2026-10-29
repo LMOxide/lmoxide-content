@@ -367,7 +367,7 @@
           "type": "array"
         },
         "requirement_quest": {
-          "description": "The quest (hash) the entry window requires, \"Proved your strength at the Gauntlet\" (the\nclient checks the journal; every story quest is in it).",
+          "description": "The quest (hash) the entry window requires, \"Test your mettle inside the Gauntlet\" (the\nclient checks the journal: story `window_quests`).",
           "type": "string"
         },
         "reward_chest": {
@@ -674,6 +674,23 @@
           "$ref": "#/$defs/Ratio",
           "default": "100%",
           "description": "A quest pickup quest's `dropped_by` defeat drops one of its pickups this often (not in the\nclient)."
+        },
+        "window_quests": {
+          "additionalProperties": {
+            "items": {
+              "format": "uint32",
+              "minimum": 0,
+              "type": "integer"
+            },
+            "type": "array"
+          },
+          "description": "Main quest -> the quests the teleport windows (RDB 1000644 `required_quest_task_hash`) and\nthe Lost Creations entry window require.",
+          "type": "object"
+        },
+        "windows_unlocked": {
+          "default": true,
+          "description": "Every teleport window is open, whatever the story: the login journal lists\n`window_quests` as completed (the windows check CoreJournalHolder::HasEverCompletedQuest\nfor their required quest). False: as live, a window opens once its quest is really done.",
+          "type": "boolean"
         }
       },
       "type": "object"
@@ -788,24 +805,13 @@
     "story": {
       "$ref": "#/$defs/Story",
       "default": {
-        "pickup_drop_chance": "100%"
+        "pickup_drop_chance": "100%",
+        "windows_unlocked": true
       },
       "description": "The story: narrated cinematics, quest pickups."
-    },
-    "story_quests": {
-      "additionalProperties": {
-        "items": {
-          "format": "uint32",
-          "minimum": 0,
-          "type": "integer"
-        },
-        "type": "array"
-      },
-      "description": "Main quest giver -> its quests, marked completed for everyone (the client's teleport\nwindows and map markers need them).",
-      "type": "object"
     }
   },
-  "required": ["combat", "loot", "npc", "progression", "npc_life", "rarity", "minifigure_model", "story_quests"],
+  "required": ["combat", "loot", "npc", "progression", "npc_life", "rarity", "minifigure_model"],
   "title": "Tunables",
   "type": "object"
 }

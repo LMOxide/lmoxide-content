@@ -22,7 +22,8 @@
     "progress": [
       {
         "goal": "GBWD",
-        "amount": 1
+        "amount": 1,
+        "wait": true
       }
     ]
   },

@@ -18,9 +18,12 @@
           "goal": 330,
           "hash": "YMQL",
           "text": "Follow the Video Game Guy",
-          "kind": "defeat"
+          "kind": "defeat",
+          "counts": "kills",
+          "enemies": ["Captain Dreadleg"]
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 78,
@@ -33,10 +36,13 @@
           "kind": "locate",
           "marker": {
             "pos": [63.5, 70.9, 15.5],
-            "radius": 5.0
+            "radius": 5.0,
+            "playfield": 4600,
+            "district": 1396
           }
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 186,
@@ -48,7 +54,8 @@
           "text": "Follow the arrow in your minimap",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 79,
@@ -60,11 +67,14 @@
           "text": "Build a cannon to smash the wall",
           "kind": "locate",
           "marker": {
-            "pos": [140.4, 64.0, 107.5],
-            "radius": 10.0
+            "pos": [119.5, 70.9, 111.8],
+            "radius": 15.0,
+            "playfield": 4600,
+            "district": 714
           }
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 185,
@@ -76,7 +86,8 @@
           "text": "Talk to Swashbuckler",
           "kind": "trigger"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 177,
@@ -87,12 +98,19 @@
           "hash": "E5D8",
           "text": "Smash down the wall",
           "kind": "destroy",
+          "counts": "smashes",
+          "enemies": ["XX_Cracked wall"],
           "marker": {
             "pos": [230.6, 16.0, 258.0],
-            "radius": 5.0
+            "radius": 5.0,
+            "playfield": 4610
           }
         }
-      ]
+      ],
+      "rewards": [
+        [462445, 30046]
+      ],
+      "source": "live"
     },
     {
       "quest": 80,
@@ -104,11 +122,16 @@
           "text": "Escape from the Prison",
           "kind": "trigger",
           "marker": {
-            "pos": [176.8, 74.6, 398.3],
-            "radius": 5.0
+            "pos": [208.4, 80.0, 176.1],
+            "radius": 5.0,
+            "playfield": 4200
           }
         }
-      ]
+      ],
+      "rewards": [
+        [462445, 30046]
+      ],
+      "source": "live"
     },
     {
       "quest": 178,
@@ -121,10 +144,15 @@
           "kind": "trigger",
           "marker": {
             "pos": [329.0, 18.6, 273.9],
-            "radius": 10.0
+            "radius": 10.0,
+            "playfield": 1643
           }
         }
-      ]
+      ],
+      "rewards": [
+        [462445, 30046]
+      ],
+      "source": "live"
     },
     {
       "quest": 281,
@@ -137,10 +165,12 @@
           "kind": "trigger",
           "marker": {
             "pos": [140.4, 64.0, 107.5],
-            "radius": 10.0
+            "radius": 10.0,
+            "playfield": 1632
           }
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 282,
@@ -152,7 +182,8 @@
           "text": "Recruit a third member of the crew",
           "kind": "talk"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 286,
@@ -164,7 +195,8 @@
           "text": "Sneak into the Jacket Fort",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 287,
@@ -176,7 +208,8 @@
           "text": "Investigate the Jacket Fort",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 280,
@@ -188,7 +221,8 @@
           "text": "Travel through the Jungle",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 81,
@@ -200,7 +234,8 @@
           "text": "Reach the Pirate Town",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 179,
@@ -212,7 +247,8 @@
           "text": "Find Captain Pete in the Tavern",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 82,
@@ -224,7 +260,8 @@
           "text": "Complete the Pirate Trials",
           "kind": "trigger"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 85,
@@ -236,7 +273,8 @@
           "text": "Sail to Volcano Island",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 183,
@@ -248,7 +286,8 @@
           "text": "Explore the island to find Captain Dreadleg",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 181,
@@ -260,7 +299,8 @@
           "text": "Find a passage through the Volcano",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 83,
@@ -272,7 +312,8 @@
           "text": "Find Captain Dreadleg's hideout",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 86,
@@ -284,7 +325,8 @@
           "text": "Find and face Captain Dreadleg",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "live"
     },
     {
       "quest": 87,
@@ -296,8 +338,10 @@
           "text": "Travel to the LEGO Center",
           "kind": "locate"
         }
-      ]
+      ],
+      "source": "live"
     }
   ],
-  "source": "client"
+  "source": "live",
+  "comment": "Steps in the live order (LMO_Captures.cap MainQuestUpdateIIR: quest order 21..0). Markers, step rewards (462445) and the goals of 279 (Dreadleg defeated in the tutorial) and 177 (the cracked wall smashed) as live sent them."
 }
