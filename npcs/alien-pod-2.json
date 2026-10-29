@@ -13,6 +13,9 @@
     "health": 1314,
     "life_factor": 1.0
   },
+  "ai": {
+    "stationary": true
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

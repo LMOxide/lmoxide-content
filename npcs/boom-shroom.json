@@ -17,6 +17,9 @@
     }
   ],
   "skills_from": "named",
+  "ai": {
+    "stationary": true
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

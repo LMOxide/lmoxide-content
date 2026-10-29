@@ -585,9 +585,17 @@
           "type": "boolean"
         },
         "reach": {
-          "description": "How far it reaches with melee (m).",
+          "description": "Never leaves its spot and attacks players this close (m): Crikey the Kraken in its water.",
           "format": "float",
           "type": ["number", "null"]
+        },
+        "stationary": {
+          "description": "Never leaves its spot: it turns to players in reach of its attacks and attacks them\n(cannons, the ballista troll, spider egg sacks and mounds, most shrooms: looks without a\nwalk or run animation, tools/content/stationary-npcs.py).",
+          "type": "boolean"
+        },
+        "unarmed": {
+          "description": "Has no attack at all, not even the default one (spider egg sacks and mounds).",
+          "type": "boolean"
         }
       },
       "type": "object"

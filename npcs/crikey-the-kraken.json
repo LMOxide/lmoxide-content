@@ -34,7 +34,8 @@
   ],
   "skills_from": "named",
   "ai": {
-    "reach": 38.0
+    "reach": 38.0,
+    "stationary": true
   },
   "loot": "loot/enemy",
   "source": "client"

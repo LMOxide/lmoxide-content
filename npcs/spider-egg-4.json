@@ -13,6 +13,10 @@
     "health": 105,
     "life_factor": 0.8
   },
+  "ai": {
+    "stationary": true,
+    "unarmed": true
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

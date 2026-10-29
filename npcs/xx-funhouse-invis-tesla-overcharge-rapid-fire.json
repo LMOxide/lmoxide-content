@@ -12,6 +12,9 @@
   "stats": {
     "health": 1314
   },
+  "ai": {
+    "stationary": true
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

@@ -21,6 +21,9 @@
     }
   ],
   "skills_from": "generic",
+  "ai": {
+    "stationary": true
+  },
   "loot": "loot/enemy",
   "source": "client"
 }
