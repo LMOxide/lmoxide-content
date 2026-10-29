@@ -59,6 +59,21 @@
         }
       ]
     },
+    "LcScriptStart": {
+      "description": "When a Lost Creations level's script starts.",
+      "oneOf": [
+        {
+          "const": "gate",
+          "description": "When the start gate opens.",
+          "type": "string"
+        },
+        {
+          "const": "arrival",
+          "description": "When the team arrives in the level's copy.",
+          "type": "string"
+        }
+      ]
+    },
     "LcVariant": {
       "additionalProperties": false,
       "description": "One version of a level's enemies (spawns name the variants they appear in; spawns naming none\nare in every one).",
@@ -237,6 +252,10 @@
       "type": ["string", "null"],
       "x-lmoxide-ref": ["script"]
     },
+    "script_start": {
+      "$ref": "#/$defs/LcScriptStart",
+      "description": "When the script starts: at the start gate opening, or as soon as the team arrives\n(the Gatekeeper stands there from the start)."
+    },
     "source": {
       "anyOf": [
         {
@@ -261,6 +280,10 @@
         "type": "string"
       },
       "type": "array"
+    },
+    "telegraph": {
+      "description": "Before each wave its points show the spawn particle (tunables `wave_telegraph`,\n`wave_particle`); else the wave spawns at once.",
+      "type": "boolean"
     },
     "updated": {
       "description": "Unix time of the last edit.",

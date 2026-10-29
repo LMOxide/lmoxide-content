@@ -32,6 +32,7 @@
     }
   ],
   "script": "script/7400/survival",
+  "telegraph": true,
   "source": "guess",
   "tags": ["approximate", "todo"],
   "comment": "Start position guessed beside the button (the client has none): check it in game. Variant monster-lab is for testing only (weight 0: never picked; `!lc variant monster-lab`): the real variants come from the user's list."

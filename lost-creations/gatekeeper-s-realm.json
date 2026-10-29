@@ -77,5 +77,6 @@
     }
   ],
   "script": "script/7600/gatekeeper",
+  "script_start": "arrival",
   "source": "server"
 }

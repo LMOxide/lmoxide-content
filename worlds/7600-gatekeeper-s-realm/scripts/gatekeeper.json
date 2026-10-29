@@ -10,5 +10,5 @@
   "reference": "User: one random Gatekeeper per level, at 240.0 42.0 277.0 facing west; only its defeat completes quest 142 goal 280.",
   "status": "approved",
   "source": "surveyed",
-  "comment": "Started by lost_creations.rs when the start gate opens; one spawn per variant (the level copy's variant picks the Gatekeeper). Its adds come from its own skills and never count."
+  "comment": "Started by lost_creations.rs as soon as the team arrives (lc script_start arrival; no telegraph): the Gatekeeper stands there from the start (user, 2026-10-29). One spawn per variant (the level copy's variant picks the Gatekeeper). Its adds come from its own skills and never count."
 }
