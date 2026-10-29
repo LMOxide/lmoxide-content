@@ -315,6 +315,11 @@
         }
       ]
     },
+    "minifigure": {
+      "description": "A pocket adventure's minifigure (its teleport window's reward, RDB 1000644): given for\nclearing it.",
+      "type": ["string", "null"],
+      "x-lmoxide-ref": ["minifig"]
+    },
     "music": {
       "description": "Music tracks (client ids).",
       "items": {
@@ -337,6 +342,14 @@
           "type": "null"
         }
       ]
+    },
+    "parts": {
+      "description": "The minifigures whose parts and bags drop here (the window's \"Parts for:\"), instead\nof the region's.",
+      "items": {
+        "type": "string"
+      },
+      "type": "array",
+      "x-lmoxide-ref": ["minifig"]
     },
     "playfield": {
       "description": "The client's playfield id.",

@@ -4,6 +4,8 @@
   "playfield": 1673,
   "kind": "pocket",
   "element": "tech",
+  "minifigure": "minifig/goblin",
+  "parts": ["minifig/forest-maiden", "minifig/fortune-teller"],
   "arrival": {
     "pos": [235.07, 19.49, 246.48],
     "rot": 4.71

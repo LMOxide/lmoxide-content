@@ -5,6 +5,8 @@
   "kind": "pocket",
   "element": "magic",
   "region": "region/space-world",
+  "minifigure": "minifig/trendsetter",
+  "parts": ["minifig/hollywood-starlet", "minifig/bumblebee-girl"],
   "arrival": {
     "pos": [202.88, 34.49, 258.31],
     "rot": 4.71

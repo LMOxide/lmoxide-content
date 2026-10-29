@@ -5,6 +5,8 @@
   "kind": "pocket",
   "element": "light",
   "region": "region/medieval-world",
+  "minifigure": "minifig/prospector",
+  "parts": ["minifig/roller-derby-girl", "minifig/roman-commander"],
   "level": {
     "cap": 15
   },

@@ -154,7 +154,7 @@
           "x-lmoxide-ref": ["world"]
         },
         "force_level": {
-          "description": "TEMPORARY: every level is this one (`lc/...`), the Gatekeeper's too, until the other\nlevels' details are known.",
+          "description": "For testing: every level is this one (`lc/...`), the Gatekeeper's too (unset: any).",
           "type": ["string", "null"],
           "x-lmoxide-ref": ["lc"]
         },
@@ -191,6 +191,20 @@
         "requirement_quest": {
           "description": "The quest (hash) the entry window requires, \"Proved your strength at the Gauntlet\" (the\nclient checks the journal; every story quest is in it).",
           "type": "string"
+        },
+        "reward_chest": {
+          "description": "The chest a player's rewards come in: it drops where it stands when they walk into the\nTreasure Chamber's `BA_TriggerDropLoot`; opening it drops the parts.",
+          "type": "string",
+          "x-lmoxide-ref": ["item"]
+        },
+        "reward_chest_pos": {
+          "items": {
+            "format": "float",
+            "type": "number"
+          },
+          "maxItems": 3,
+          "minItems": 3,
+          "type": "array"
         },
         "reward_pools": {
           "description": "The reward pools, lowest first (`minifig/...`): one more is unlocked every\n`levels_per_pool` levels completed.",
@@ -238,6 +252,8 @@
         "element_block",
         "treasure_chamber",
         "treasure_arrival",
+        "reward_chest",
+        "reward_chest_pos",
         "enemy_loot",
         "reward_pools",
         "levels_per_pool",
@@ -431,6 +447,8 @@
         "level_time": "0s",
         "levels_per_pool": 0,
         "parts_per_pool": [0, 0],
+        "reward_chest": "",
+        "reward_chest_pos": [0.0, 0.0, 0.0],
         "reward_pools": [],
         "smashed_delay": "0s",
         "timer_buff": 0,

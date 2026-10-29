@@ -5,6 +5,8 @@
   "kind": "pocket",
   "element": "light",
   "region": "region/pirate-world",
+  "minifigure": "minifig/island-warrior",
+  "parts": ["minifig/hollywood-starlet", "minifig/saxophone-player"],
   "arrival": {
     "pos": [235.44, 17.24, 254.75],
     "rot": 4.71

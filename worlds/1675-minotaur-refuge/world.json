@@ -5,6 +5,8 @@
   "kind": "pocket",
   "element": "shadow",
   "region": "region/mythology-world",
+  "minifigure": "minifig/lady-cyclops",
+  "parts": ["minifig/warrior-woman", "minifig/pretzel-girl"],
   "arrival": {
     "pos": [235.07, 19.49, 246.48],
     "rot": 4.71

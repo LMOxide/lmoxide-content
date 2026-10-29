@@ -4,6 +4,8 @@
   "playfield": 1682,
   "kind": "pocket",
   "element": "magic",
+  "minifigure": "minifig/gingerbread-man",
+  "parts": ["minifig/forest-maiden", "minifig/fortune-teller"],
   "arrival": {
     "pos": [234.69, 19.93, 244.76],
     "rot": 4.71

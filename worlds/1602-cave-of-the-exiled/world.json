@@ -5,6 +5,8 @@
   "kind": "pocket",
   "element": "nature",
   "region": "region/space-world",
+  "minifigure": "minifig/disco-diva",
+  "parts": ["minifig/hollywood-starlet", "minifig/bumblebee-girl"],
   "arrival": {
     "pos": [235.46, 17.24, 254.73],
     "rot": 4.71

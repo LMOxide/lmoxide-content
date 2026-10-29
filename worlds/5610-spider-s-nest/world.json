@@ -4,6 +4,8 @@
   "playfield": 5610,
   "kind": "pocket",
   "element": "nature",
+  "minifigure": "minifig/spooky-girl",
+  "parts": ["minifig/forest-maiden", "minifig/fortune-teller"],
   "level": {
     "cap": 15
   },
