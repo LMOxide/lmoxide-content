@@ -1,0 +1,34 @@
+{
+  "id": "skill/champion-laser-drones",
+  "name": "XX_Champion: Laser Drones",
+  "client": {
+    "spell": 635575,
+    "stats": {
+      "AttackRange": 2000,
+      "SpellLine": 2020,
+      "TimeExist": 5900
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 635563
+          }
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Duration": -1,
+            "Interval": 500,
+            "Value": 635563
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

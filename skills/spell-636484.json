@@ -1,0 +1,24 @@
+{
+  "id": "skill/spell-636484",
+  "name": "XX_champion aura dread spheres area enrage nuke",
+  "client": {
+    "spell": 636484,
+    "stats": {
+      "EffectPackage": 636454,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 636155
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

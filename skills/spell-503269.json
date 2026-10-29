@@ -1,0 +1,26 @@
+{
+  "id": "skill/spell-503269",
+  "name": "XX_champion aura sunray random point",
+  "client": {
+    "spell": 503269,
+    "stats": {
+      "AttackRange": 2000,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreRandomPointAreaFormula",
+          "args": {
+            "ApplyOn": 3,
+            "FloatRadius": 5.0,
+            "Max1": 1,
+            "NanoTemplate": 503285
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

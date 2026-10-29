@@ -1,5 +1,37 @@
 {
   "$defs": {
+    "Champions": {
+      "additionalProperties": false,
+      "description": "Champions' element auras (script 3722 \"champion aura random selector\"): entering combat, a\nchampion casts its zone's element's aura (a random one where the zone has none).",
+      "properties": {
+        "aura_min_power_level": {
+          "description": "Only NPCs with at least this PowerLevel (stat 499) ...",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "auras": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "Element (`light` ... `nature`) -> the aura (`skill/...`).",
+          "type": "object",
+          "x-lmoxide-ref": ["skill"]
+        },
+        "out_of_combat": {
+          "$ref": "#/$defs/Duration",
+          "description": "The NPC is out of combat (the aura's pulses stop) this long after its last attack\n(tweak NPCBreakOOCTime)."
+        },
+        "power_per_level": {
+          "description": "... taken as level x this.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": ["aura_min_power_level", "power_per_level", "out_of_combat", "auras"],
+      "type": "object"
+    },
     "Combat": {
       "additionalProperties": false,
       "properties": {
@@ -574,6 +606,16 @@
   "additionalProperties": false,
   "description": "`tunables.json`: every global number the server uses.",
   "properties": {
+    "champions": {
+      "$ref": "#/$defs/Champions",
+      "default": {
+        "aura_min_power_level": 0,
+        "auras": {},
+        "out_of_combat": "0s",
+        "power_per_level": 0
+      },
+      "description": "Champions' element auras."
+    },
     "combat": {
       "$ref": "#/$defs/Combat"
     },

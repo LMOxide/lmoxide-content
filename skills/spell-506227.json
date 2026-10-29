@@ -1,0 +1,28 @@
+{
+  "id": "skill/spell-506227",
+  "name": "XX_champion aura brambles pge",
+  "client": {
+    "spell": 506227,
+    "stats": {
+      "AISpellCategory": 1,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg2": 1,
+            "DelayTime": 200,
+            "EffectPackage": 586060,
+            "Flags": 14,
+            "TemplateID2": 506228
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

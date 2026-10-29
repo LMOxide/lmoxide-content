@@ -1,0 +1,26 @@
+{
+  "id": "skill/spell-636582",
+  "name": "XX_champion aura firewall spawn anchor",
+  "client": {
+    "spell": 636582,
+    "stats": {
+      "AISpellCategory": 1,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "CollisionFlag": 1,
+            "NanoTemplate": 636581,
+            "StringHash": "ZVJ2"
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

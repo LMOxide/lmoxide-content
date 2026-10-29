@@ -1,0 +1,26 @@
+{
+  "id": "skill/spell-635567",
+  "name": "XX_champion aura laser drones summon anchor",
+  "client": {
+    "spell": 635567,
+    "stats": {
+      "AISpellCategory": 1,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "CollisionFlag": 1,
+            "HateValue": 1,
+            "StringHash": "MCS2"
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

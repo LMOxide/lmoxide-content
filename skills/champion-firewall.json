@@ -1,0 +1,35 @@
+{
+  "id": "skill/champion-firewall",
+  "name": "XX_Champion: Firewall",
+  "client": {
+    "spell": 506108,
+    "stats": {
+      "AISpellCategory": 16384,
+      "AttackRange": 2000,
+      "SpellLine": 2020,
+      "TimeExist": 5900
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Duration": -1,
+            "Interval": 1500,
+            "Value": 579724
+          }
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 579724
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

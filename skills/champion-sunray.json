@@ -1,0 +1,35 @@
+{
+  "id": "skill/champion-sunray",
+  "name": "XX_Champion: Sunray",
+  "client": {
+    "spell": 504532,
+    "stats": {
+      "AISpellCategory": 16384,
+      "AttackRange": 2000,
+      "SpellLine": 2020,
+      "TimeExist": 5900
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Duration": -1,
+            "Interval": 1700,
+            "Value": 503269
+          }
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 503269
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

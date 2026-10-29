@@ -1,0 +1,26 @@
+{
+  "id": "skill/spell-636155",
+  "name": "XX_champion aura dread spheres area damage",
+  "client": {
+    "spell": 636155,
+    "stats": {
+      "EffectPackage": 636454,
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 0.5,
+            "ApplyOn": 3,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

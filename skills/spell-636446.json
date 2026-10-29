@@ -1,0 +1,28 @@
+{
+  "id": "skill/spell-636446",
+  "name": "XX_Sunray Hazard Slow Buff 1s",
+  "client": {
+    "spell": 636446,
+    "stats": {
+      "AttackRange": 1300,
+      "EffectPackage": 3983,
+      "SpellLine": 800,
+      "TargetingMode": 5,
+      "TimeExist": 100
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "AddSnare",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "FloatMultiplier": 0.75
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

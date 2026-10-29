@@ -1,0 +1,23 @@
+{
+  "id": "skill/spell-582786",
+  "name": "XX_champion aura remover",
+  "client": {
+    "spell": 582786,
+    "stats": {
+      "AttackRange": 2000
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "RemoveBuff",
+          "args": {
+            "ApplyOn": 3,
+            "Arg1": 2020
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

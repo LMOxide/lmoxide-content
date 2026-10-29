@@ -266,6 +266,18 @@
       "striker": "buff/elemental-affinity-striker"
     }
   },
+  "champions": {
+    "aura_min_power_level": 300,
+    "power_per_level": 100,
+    "out_of_combat": "5s",
+    "auras": {
+      "light": "skill/champion-sunray",
+      "magic": "skill/champion-firewall",
+      "nature": "skill/champion-brambles",
+      "shadow": "skill/champion-dread-spheres",
+      "tech": "skill/champion-laser-drones"
+    }
+  },
   "more": {
     "achievements.area_names": {
       "1000": "LEGO World",

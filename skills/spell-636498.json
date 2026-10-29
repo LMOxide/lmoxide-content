@@ -1,0 +1,27 @@
+{
+  "id": "skill/spell-636498",
+  "name": "XX_champion aura sunray damage far",
+  "client": {
+    "spell": 636498,
+    "stats": {
+      "EffectPackage": 586602,
+      "SpellLine": 6160,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 0.25,
+            "ApplyOn": 3,
+            "AttackLength": 1.0,
+            "DamageType": 1000
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

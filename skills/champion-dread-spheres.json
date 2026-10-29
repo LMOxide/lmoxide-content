@@ -1,0 +1,59 @@
+{
+  "id": "skill/champion-dread-spheres",
+  "name": "XX_Champion: Dread Spheres",
+  "client": {
+    "spell": 579603,
+    "stats": {
+      "AISpellCategory": 16384,
+      "AttackRange": 2000,
+      "SpellLine": 2020,
+      "TimeExist": 5900
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 636155,
+            "Radius": 8
+          }
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 1,
+            "Duration": -1,
+            "Interval": 1250,
+            "Value": 579610
+          }
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 1,
+            "Duration": -1,
+            "Interval": 800,
+            "Value": 579608
+          },
+          "criteria": [
+            [0, 0, 19],
+            [0, 51, 153]
+          ]
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 1,
+            "Value": 579610
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

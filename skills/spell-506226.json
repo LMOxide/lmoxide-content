@@ -1,0 +1,45 @@
+{
+  "id": "skill/spell-506226",
+  "name": "XX_champion aura brambles random point",
+  "client": {
+    "spell": 506226,
+    "stats": {
+      "AttackRange": 2000,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreRandomPointAreaFormula",
+          "args": {
+            "ApplyOn": 3,
+            "FloatRadius": 8.0,
+            "FloatRadius2": 1.5,
+            "FloatValue1": 2.0,
+            "Max1": 7,
+            "NanoTemplate": 506227
+          }
+        },
+        {
+          "type": "StartEffect",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "TemplateID": 636771
+          }
+        },
+        {
+          "type": "StartEffect",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DelayTime": 200,
+            "TemplateID": 636770
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "skill/spell-636421",
+  "name": "XX_champion aura sunray aoe nuke",
+  "client": {
+    "spell": 636421,
+    "stats": {
+      "AttackRange": 2000,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 504608,
+            "Radius": 8
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

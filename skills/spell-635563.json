@@ -1,0 +1,28 @@
+{
+  "id": "skill/spell-635563",
+  "name": "XX_champion aura laser drones random point",
+  "client": {
+    "spell": 635563,
+    "stats": {
+      "AttackRange": 2000,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreRandomPointAreaFormula",
+          "args": {
+            "ApplyOn": 3,
+            "FloatRadius": 8.0,
+            "FloatRadius2": 3.0,
+            "FloatValue1": 2.0,
+            "Max1": 1,
+            "NanoTemplate": 635567
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

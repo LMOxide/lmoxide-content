@@ -1,0 +1,52 @@
+{
+  "id": "skill/champion-brambles",
+  "name": "XX_Champion: Brambles",
+  "client": {
+    "spell": 506217,
+    "stats": {
+      "AISpellCategory": 16384,
+      "AttackRange": 2000,
+      "SpellLine": 2020,
+      "TimeExist": 5900
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Duration": -1,
+            "Interval": 800,
+            "Value": 506226
+          },
+          "criteria": [
+            [0, 0, 19],
+            [0, 24, 152]
+          ]
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Duration": -1,
+            "Interval": 500,
+            "Value": 506226
+          },
+          "criteria": [
+            [0, 0, 19],
+            [0, 26, 153]
+          ]
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 506226
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

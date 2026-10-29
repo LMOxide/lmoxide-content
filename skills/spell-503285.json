@@ -1,0 +1,39 @@
+{
+  "id": "skill/spell-503285",
+  "name": "XX_champion aura sunray pge",
+  "client": {
+    "spell": 503285,
+    "stats": {
+      "AISpellCategory": 1,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg1": 60,
+            "Arg2": 10,
+            "DelayTime": 100,
+            "EffectPackage": 582819,
+            "Flags": 14,
+            "NanoTemplate": 504491
+          }
+        },
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg1": 700,
+            "Arg2": 1,
+            "Flags": 14,
+            "NanoTemplate": 636421
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}

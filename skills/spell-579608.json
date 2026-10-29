@@ -1,0 +1,53 @@
+{
+  "id": "skill/spell-579608",
+  "name": "XX_champion aura dread spheres random point",
+  "client": {
+    "spell": 579608,
+    "stats": {
+      "AttackRange": 2000,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreRandomPointAreaFormula",
+          "args": {
+            "ApplyOn": 3,
+            "FloatRadius": 8.0,
+            "Max1": 1,
+            "NanoTemplate": 636113
+          }
+        },
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 636484,
+            "Radius": 5
+          },
+          "criteria": [
+            [0, 0, 19],
+            [636464, 1, 160]
+          ]
+        },
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 636464,
+            "Value": 1
+          },
+          "criteria": [
+            [0, 0, 19],
+            [636464, 1, 160]
+          ]
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A champion's element aura (script 3722) or a nano it casts; tools/re/extract_champion_auras.py."
+}
