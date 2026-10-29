@@ -316,7 +316,7 @@
       ]
     },
     "minifigure": {
-      "description": "A pocket adventure's minifigure (its teleport window's reward, RDB 1000644): given for\nclearing it.",
+      "description": "A pocket adventure's minifigure (its teleport window's reward, RDB 1000644): given for\nclearing it or defeating its boss, and never dropped.",
       "type": ["string", "null"],
       "x-lmoxide-ref": ["minifig"]
     },
