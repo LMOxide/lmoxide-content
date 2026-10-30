@@ -199,6 +199,198 @@
       },
       "type": "object"
     },
+    "EnemyAbilities": {
+      "additionalProperties": false,
+      "description": "Enemies' support abilities no client spell describes (server enemy_abilities.rs). The\nclient has their effects (and animations), not who cast them how: the numbers are guesses.",
+      "properties": {
+        "healers": {
+          "items": {
+            "$ref": "#/$defs/EnemyHealer"
+          },
+          "type": "array"
+        },
+        "heals_bosses": {
+          "default": true,
+          "description": "Healers heal bosses too (the user thinks live did).",
+          "type": "boolean"
+        },
+        "shields": {
+          "items": {
+            "$ref": "#/$defs/EnemyShield"
+          },
+          "type": "array"
+        },
+        "totems": {
+          "items": {
+            "$ref": "#/$defs/EnemyTotem"
+          },
+          "type": "array"
+        }
+      },
+      "type": "object"
+    },
+    "EnemyHealer": {
+      "additionalProperties": false,
+      "description": "An enemy that heals a hurt ally (the Medic).",
+      "properties": {
+        "below": {
+          "$ref": "#/$defs/Ratio",
+          "description": "Heals an ally (not itself) below this share of its maximum."
+        },
+        "cooldown": {
+          "$ref": "#/$defs/Duration"
+        },
+        "heal": {
+          "$ref": "#/$defs/Ratio",
+          "description": "Health given, a share of the healed ally's maximum."
+        },
+        "heal_effect": {
+          "description": "Played on the ally when healed.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "npcs": {
+          "description": "The enemies (their looks: every NPC with the same monster data heals).",
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "x-lmoxide-ref": ["npc"]
+        },
+        "projectile_effect": {
+          "description": "Played from the healer at the ally (a thrown bottle).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "range": {
+          "description": "How far away the ally may be (m).",
+          "format": "float",
+          "type": "number"
+        },
+        "travel": {
+          "$ref": "#/$defs/Duration",
+          "description": "The heal lands this long after the cast (the thrown bottle's flight)."
+        }
+      },
+      "required": ["npcs", "heal", "below", "range", "cooldown", "travel"],
+      "type": "object"
+    },
+    "EnemyShield": {
+      "additionalProperties": false,
+      "description": "An enemy that shields itself or allies for a while (Skeleton Trident, Space Merc Defender).",
+      "properties": {
+        "cast_effect": {
+          "description": "Played on the caster when it casts.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "cooldown": {
+          "$ref": "#/$defs/Duration",
+          "description": "From one shield's start to the next one's."
+        },
+        "duration": {
+          "$ref": "#/$defs/Duration"
+        },
+        "effect": {
+          "description": "Shown on the shielded while it lasts.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "npcs": {
+          "description": "The enemies (by monster data, as healers).",
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "x-lmoxide-ref": ["npc"]
+        },
+        "on": {
+          "$ref": "#/$defs/ShieldOn",
+          "default": "itself"
+        },
+        "projectile_effect": {
+          "description": "Played from the caster at a shielded ally.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "range": {
+          "default": 0.0,
+          "description": "`ally`: how far away the ally may be; `area`: the radius (m).",
+          "format": "float",
+          "type": "number"
+        },
+        "taken": {
+          "$ref": "#/$defs/Ratio",
+          "description": "Damage a shielded enemy still takes: 0% none at all, 50% half."
+        }
+      },
+      "required": ["npcs", "taken", "duration", "cooldown"],
+      "type": "object"
+    },
+    "EnemyTotem": {
+      "additionalProperties": false,
+      "description": "An enemy that marks the ground under a player and drops something on it after a moment (the\nWitch Doctor's tiki totem).",
+      "properties": {
+        "ability_mod": {
+          "description": "The hit: the enemy's damage x this (as a spell's AbilityMod).",
+          "format": "float",
+          "type": "number"
+        },
+        "cooldown": {
+          "$ref": "#/$defs/Duration"
+        },
+        "delay": {
+          "$ref": "#/$defs/Duration",
+          "description": "From the mark to the hit."
+        },
+        "drop_effect": {
+          "description": "Played on the mark when it hits.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "effect": {
+          "description": "Played on the caster (code hook \"charge\") and on the mark (hook \"onhit\").",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "npcs": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "x-lmoxide-ref": ["npc"]
+        },
+        "radius": {
+          "description": "Players within this of the mark are hit (m).",
+          "format": "float",
+          "type": "number"
+        },
+        "range": {
+          "description": "Cast at players this close (m); the enemy keeps 80% of it away.",
+          "format": "float",
+          "type": "number"
+        },
+        "stun_buff": {
+          "description": "A buff given to the players hit (a stun), for `stun_time`.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "stun_time": {
+          "$ref": "#/$defs/Duration",
+          "default": "0s"
+        }
+      },
+      "required": ["npcs", "range", "radius", "delay", "cooldown", "ability_mod"],
+      "type": "object"
+    },
     "Faction": {
       "additionalProperties": false,
       "description": "A side of enemies (`npc.factions`): its name and the looks (monster data) on it.",
@@ -810,6 +1002,26 @@
       ],
       "description": "Which way something faces: a heading (radians about the up axis) or a quaternion\n`[x, y, z, w]` as the client stores it."
     },
+    "ShieldOn": {
+      "description": "Who an enemy's shield covers.",
+      "oneOf": [
+        {
+          "const": "itself",
+          "description": "The enemy itself.",
+          "type": "string"
+        },
+        {
+          "const": "ally",
+          "description": "The most hurt unshielded ally in `range` (else itself).",
+          "type": "string"
+        },
+        {
+          "const": "area",
+          "description": "Itself and every ally within `radius`.",
+          "type": "string"
+        }
+      ]
+    },
     "Smashed": {
       "additionalProperties": false,
       "description": "Smashed minifigures (scripts 973 and 3804, \"minifigure swapper smashed\").",
@@ -941,6 +1153,13 @@
       "$ref": "#/$defs/Elements",
       "default": {},
       "description": "Zone elements: Wrong Element and Elemental Affinity."
+    },
+    "enemy_abilities": {
+      "$ref": "#/$defs/EnemyAbilities",
+      "default": {
+        "heals_bosses": false
+      },
+      "description": "Enemies' support abilities no client spell describes: healers, shields, the Witch\nDoctor's totem (server enemy_abilities.rs)."
     },
     "health": {
       "$ref": "#/$defs/Health",

@@ -477,6 +477,79 @@
   "achievements": {
     "target_minifigs": "unsmashed"
   },
+  "enemy_abilities": {
+    "heals_bosses": true,
+    "healers": [
+      {
+        "npcs": ["npc/medic", "npc/medic-2"],
+        "heal": "20%",
+        "below": "70%",
+        "range": 12.0,
+        "cooldown": "8s",
+        "travel": "600ms",
+        "projectile_effect": 272222,
+        "heal_effect": 194648
+      }
+    ],
+    "shields": [
+      {
+        "npcs": ["npc/skeleton-trident", "npc/gatekeeper-skeleton-trident"],
+        "taken": "50%",
+        "on": "itself",
+        "range": 0.0,
+        "duration": "8s",
+        "cooldown": "20s",
+        "effect": 103205
+      },
+      {
+        "npcs": ["npc/space-merc-defender"],
+        "taken": "50%",
+        "on": "ally",
+        "range": 12.0,
+        "duration": "6s",
+        "cooldown": "15s",
+        "effect": 379341,
+        "cast_effect": 381834,
+        "projectile_effect": 381835
+      },
+      {
+        "npcs": ["npc/medieval-ogre-defender-melee-war"],
+        "taken": "50%",
+        "on": "area",
+        "range": 6.0,
+        "duration": "6s",
+        "cooldown": "20s",
+        "effect": 355292
+      },
+      {
+        "npcs": ["npc/gremlin-warlock-lvl1"],
+        "taken": "50%",
+        "on": "ally",
+        "range": 12.0,
+        "duration": "5s",
+        "cooldown": "15s",
+        "effect": 350427
+      }
+    ],
+    "totems": [
+      {
+        "npcs": [
+          "npc/witch-doctor",
+          "npc/witch-doctor-2",
+          "npc/pirate-islander-witch-doctor",
+          "npc/crazy-kotaki",
+          "npc/totemus-maximus"
+        ],
+        "range": 12.0,
+        "radius": 2.5,
+        "delay": "1s",
+        "cooldown": "5s",
+        "ability_mod": 3.0,
+        "effect": 237749,
+        "stun_time": "0s"
+      }
+    ]
+  },
   "more": {
     "achievements.area_names": {
       "1000": "LEGO World",
