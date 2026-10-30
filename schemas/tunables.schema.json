@@ -187,6 +187,25 @@
       },
       "type": "object"
     },
+    "Faction": {
+      "additionalProperties": false,
+      "description": "A side of enemies (`npc.factions`): its name and the looks (monster data) on it.",
+      "properties": {
+        "monster_data": {
+          "items": {
+            "format": "uint32",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "type": "array"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": ["name", "monster_data"],
+      "type": "object"
+    },
     "Health": {
       "additionalProperties": false,
       "description": "Potions, health orbs and level-ups (the server Lua shipped with the client).",
@@ -614,6 +633,13 @@
     "NpcTunables": {
       "additionalProperties": false,
       "properties": {
+        "factions": {
+          "description": "Rival sides of enemies in every world: enemies of different sides that meet attack each\nother (as well as players). A world's `npc_fights.rivals` comes first there.",
+          "items": {
+            "$ref": "#/$defs/Faction"
+          },
+          "type": "array"
+        },
         "regen_delay": {
           "$ref": "#/$defs/Duration",
           "description": "Out of combat this long after the last hit taken, enemy attack or damage dealt to an\nenemy before health comes back at `regen_share`."
