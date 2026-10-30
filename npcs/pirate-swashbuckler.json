@@ -13,11 +13,12 @@
   "attack": "skill/spell-230615",
   "skills": [
     {
-      "skill": "skill/slash",
+      "skill": "skill/slash-188671",
       "weight": 1
     }
   ],
   "skills_from": "generic",
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "Melee: the pirates' XX_Slash 188671 (abilities 1, 2). (2026-10-30: its old skill asked for an ability animation its look lacks, so it stood stiff; tools/content/anim_audit.py)"
 }

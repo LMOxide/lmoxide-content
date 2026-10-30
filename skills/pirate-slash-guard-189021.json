@@ -1,0 +1,25 @@
+{
+  "id": "skill/pirate-slash-guard-189021",
+  "name": "XX_Guard",
+  "client": {
+    "spell": 189021,
+    "stats": {
+      "TimeExist": 1000
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Modify",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "FloatValue1": 0.75,
+            "Stat": 3000056
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A spell its enemy's look can animate (tools/content/anim_audit.py, anim_fit.py; docs/ENEMY-SKILLS.md)."
+}

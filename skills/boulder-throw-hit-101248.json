@@ -1,0 +1,27 @@
+{
+  "id": "skill/boulder-throw-hit-101248",
+  "name": "XX_Clone of Throw",
+  "client": {
+    "spell": 160679,
+    "stats": {
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 101248,
+            "Radius": 2
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A spell its enemy's look can animate (tools/content/anim_audit.py, anim_fit.py; docs/ENEMY-SKILLS.md)."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "skill/boulder-throw-damage-160679",
+  "name": "XX_Throw",
+  "client": {
+    "spell": 101248,
+    "stats": {
+      "SpellLine": 100,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 1.0,
+            "ApplyOn": 3,
+            "DamageType": 1004,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A spell its enemy's look can animate (tools/content/anim_audit.py, anim_fit.py; docs/ENEMY-SKILLS.md)."
+}

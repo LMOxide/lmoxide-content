@@ -1,0 +1,41 @@
+{
+  "id": "skill/pirate-slash-guard-189182",
+  "name": "XX_Guard",
+  "client": {
+    "spell": 189182,
+    "stats": {
+      "TimeExist": 100
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 188672,
+            "Value": 200
+          }
+        }
+      ],
+      "20": [
+        {
+          "type": "RemoveBuff",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 189021
+          }
+        },
+        {
+          "type": "RemoveBuff",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 188676
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A spell its enemy's look can animate (tools/content/anim_audit.py, anim_fit.py; docs/ENEMY-SKILLS.md)."
+}

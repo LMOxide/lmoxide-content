@@ -12,11 +12,12 @@
   "attack": "skill/spell-2029",
   "skills": [
     {
-      "skill": "skill/smack",
+      "skill": "skill/bash-191516",
       "weight": 1
     }
   ],
   "skills_from": "generic",
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "Melee: XX_Bash 191516 (ability 1, a 2 m knockback). (2026-10-30: its old skill asked for an ability animation its look lacks, so it stood stiff; tools/content/anim_audit.py)"
 }

@@ -1,0 +1,38 @@
+{
+  "id": "skill/slash-188671",
+  "name": "XX_Slash",
+  "client": {
+    "spell": 188671,
+    "stats": {
+      "AIPowerrating": 10,
+      "AISpellCategory": 512,
+      "AttackRange": 50,
+      "EffectPackage": 194641,
+      "ItemDelay": 34,
+      "RechargeDelay": 166,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 1,
+            "Value": 189182
+          }
+        },
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 1.0,
+            "ApplyOn": 3,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A spell its enemy's look can animate (tools/content/anim_audit.py, anim_fit.py; docs/ENEMY-SKILLS.md)."
+}

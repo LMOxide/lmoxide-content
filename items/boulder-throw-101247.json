@@ -1,0 +1,18 @@
+{
+  "id": "item/boulder-throw-101247",
+  "name": "XX_Throw",
+  "kind": "projectile",
+  "template": 101247,
+  "effect_package": 151407,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 160679
+      }
+    }
+  ],
+  "source": "client"
+}

@@ -12,11 +12,12 @@
   "attack": "skill/spell-2029",
   "skills": [
     {
-      "skill": "skill/spear-throw",
+      "skill": "skill/boulder-throw-101246",
       "weight": 1
     }
   ],
   "skills_from": "generic",
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "Ranged: XX_Throw 101246 (a boulder, 15 m, ability 1): no spear throw has an animation its look has. (2026-10-30: its old skill asked for an ability animation its look lacks, so it stood stiff; tools/content/anim_audit.py)"
 }

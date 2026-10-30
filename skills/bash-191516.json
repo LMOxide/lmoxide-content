@@ -1,0 +1,84 @@
+{
+  "id": "skill/bash-191516",
+  "name": "XX_Bash",
+  "client": {
+    "spell": 191516,
+    "stats": {
+      "AttackRange": 150,
+      "EffectPackage": 194649,
+      "ItemDelay": 8,
+      "RechargeDelay": 80
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1000,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1005,
+            "Value": 500
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1010,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1015,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1020,
+            "Value": 100
+          }
+        },
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 1.0,
+            "ApplyOn": 3,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        },
+        {
+          "type": "Knockaway",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "Arg1": 1,
+            "Distance": 2,
+            "PowerRating": 9001,
+            "Speed": 25
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A spell its enemy's look can animate (tools/content/anim_audit.py, anim_fit.py; docs/ENEMY-SKILLS.md)."
+}

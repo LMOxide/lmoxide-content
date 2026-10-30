@@ -3,7 +3,7 @@
   "name": "Medusa",
   "kind": "enemy",
   "render": {
-    "monster_data": 23373
+    "monster_data": 487260
   },
   "level": 20,
   "stats": {
@@ -22,5 +22,6 @@
   ],
   "skills_from": "named",
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "Look medusa_npc (487260), not the Medusa minifigure's (23373): her own boss spells ask for abilities 1–3 (and 5 on combat), which only medusa_npc has (the user, 2026-10-30: enemies stood stiff; tools/content/anim_audit.py)."
 }

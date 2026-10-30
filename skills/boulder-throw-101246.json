@@ -1,0 +1,42 @@
+{
+  "id": "skill/boulder-throw-101246",
+  "name": "XX_Throw",
+  "client": {
+    "spell": 101246,
+    "stats": {
+      "AIPowerrating": 10,
+      "AISpellCategory": 1024,
+      "AttackRange": 1500,
+      "EffectPackage": 151408,
+      "ItemDelay": 128,
+      "RechargeDelay": 72,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "AttractorID": 1,
+            "ItemInstance": 101247,
+            "ProjectileType": 2,
+            "Speed": 750
+          }
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 101246,
+            "Value": 500
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A spell its enemy's look can animate (tools/content/anim_audit.py, anim_fit.py; docs/ENEMY-SKILLS.md)."
+}
