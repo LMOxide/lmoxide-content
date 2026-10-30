@@ -50,6 +50,30 @@
           "type": "object",
           "x-lmoxide-ref": ["skill"]
         },
+        "boss_ring": {
+          "default": 0,
+          "description": "The buff a boss wears while it fights (from engaging until it leaves combat or is\ndefeated): 161771 \"XX_champion feet aura castable\" (162435, the same ring), sent by live\nwith no caster, its TimeExist and the boss's level as the casting level. 0: none.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer",
+          "x-lmoxide-client": "nano"
+        },
+        "forced": {
+          "additionalProperties": {
+            "type": "string"
+          },
+          "description": "NPC template (`render.npc_template`) -> element (`light` ... `nature`): champions the live\nserver gave a forced element aura (Crazy Kotaki 1044 nature, Bull the Armsmaster 1049\ntech). They count as champions whatever their health, wear `forced_rings`' buff and cast\nthat element's aura.",
+          "type": "object"
+        },
+        "forced_rings": {
+          "additionalProperties": {
+            "format": "uint32",
+            "minimum": 0,
+            "type": "integer"
+          },
+          "description": "Element -> the forced aura buff (586164 ... 586168 \"XX_champion forced <element> aura\",\ntheir EffectPackages the element's ground circle).",
+          "type": "object"
+        },
         "out_of_combat": {
           "$ref": "#/$defs/Duration",
           "description": "The NPC is out of combat (the aura's pulses stop) this long after its last attack\n(tweak NPCBreakOOCTime)."
@@ -59,6 +83,14 @@
           "format": "uint32",
           "minimum": 0,
           "type": "integer"
+        },
+        "ring": {
+          "default": 0,
+          "description": "The buff a champion wears from its spawn until it is defeated, whose EffectPackage is the\nring at its feet: 581634 \"XX_champion aura random selector\" (162435,\nparticle_generic_champion_aura). Live sent the champions' (forced ones, below) in their\nfull update. 0: none.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer",
+          "x-lmoxide-client": "nano"
         }
       },
       "required": ["aura_min_power_level", "power_per_level", "out_of_combat", "auras"],
@@ -1309,8 +1341,10 @@
       "default": {
         "aura_min_power_level": 0,
         "auras": {},
+        "boss_ring": 0,
         "out_of_combat": "0s",
-        "power_per_level": 0
+        "power_per_level": 0,
+        "ring": 0
       },
       "description": "Champions' element auras."
     },

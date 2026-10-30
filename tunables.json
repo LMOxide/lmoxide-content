@@ -598,7 +598,20 @@
       "nature": "skill/champion-brambles",
       "shadow": "skill/champion-dread-spheres",
       "tech": "skill/champion-laser-drones"
-    }
+    },
+    "ring": 581634,
+    "forced": {
+      "1044": "nature",
+      "1049": "tech"
+    },
+    "forced_rings": {
+      "light": 586167,
+      "magic": 586168,
+      "nature": 586164,
+      "shadow": 586165,
+      "tech": 586166
+    },
+    "boss_ring": 161771
   },
   "story": {
     "cinematics": {
