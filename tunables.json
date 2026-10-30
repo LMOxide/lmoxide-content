@@ -474,6 +474,9 @@
     },
     "repeat_conversation_minifigures": false
   },
+  "achievements": {
+    "target_minifigs": "unsmashed"
+  },
   "more": {
     "achievements.area_names": {
       "1000": "LEGO World",

@@ -1,11 +1,11 @@
 {
   "$defs": {
     "AchievementMinifigs": {
-      "description": "Who a completed Lost Creations level counts for.",
+      "description": "Which of a player's minifigures an achievement counts for (a completed Lost Creations level,\na defeated boss, a conquered dungeon).",
       "oneOf": [
         {
           "const": "unsmashed",
-          "description": "The equipped minifigures not smashed in the run (user's rule).",
+          "description": "The equipped minifigures not smashed (in the Lost Creations: in the run; user's rule).",
           "type": "string"
         },
         {
@@ -19,6 +19,18 @@
           "type": "string"
         }
       ]
+    },
+    "AchievementTunables": {
+      "additionalProperties": false,
+      "description": "Who achievements count for.",
+      "properties": {
+        "target_minifigs": {
+          "$ref": "#/$defs/AchievementMinifigs",
+          "default": "unsmashed",
+          "description": "Which of a player's minifigures a defeated boss or a conquered dungeon or pocket adventure\ncounts for (the \"<minifigure>_<target>\" achievements: \"Defeat X as Y\", \"Conquer X as Y\")."
+        }
+      },
+      "type": "object"
     },
     "Champions": {
       "additionalProperties": false,
@@ -905,6 +917,13 @@
   "additionalProperties": false,
   "description": "`tunables.json`: every global number the server uses.",
   "properties": {
+    "achievements": {
+      "$ref": "#/$defs/AchievementTunables",
+      "default": {
+        "target_minifigs": "unsmashed"
+      },
+      "description": "Who achievements count for."
+    },
     "champions": {
       "$ref": "#/$defs/Champions",
       "default": {
