@@ -1,0 +1,78 @@
+{
+  "id": "skill/passive-skatergirl-newrecord-buff",
+  "name": "passive skatergirl newrecord buff",
+  "client": {
+    "spell": 595623,
+    "stats": {
+      "EffectPackage": 599636,
+      "MaxBuffCounters": 5,
+      "MoreFlags": 67108864,
+      "TimeExist": 250
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Modify",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "FloatValue1": 0.05000000074505806,
+            "Stat": 3000095
+          },
+          "criteria": [
+            [595623, 1, 166]
+          ]
+        },
+        {
+          "type": "Modify",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "FloatValue1": 0.10000000149011612,
+            "Stat": 3000095
+          },
+          "criteria": [
+            [595623, 2, 166]
+          ]
+        },
+        {
+          "type": "Modify",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "FloatValue1": 0.15000000596046448,
+            "Stat": 3000095
+          },
+          "criteria": [
+            [595623, 3, 166]
+          ]
+        },
+        {
+          "type": "Modify",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "FloatValue1": 0.20000000298023224,
+            "Stat": 3000095
+          },
+          "criteria": [
+            [595623, 4, 166]
+          ]
+        },
+        {
+          "type": "Modify",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "FloatValue1": 0.25,
+            "Stat": 3000095
+          },
+          "criteria": [
+            [595623, 5, 166]
+          ]
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

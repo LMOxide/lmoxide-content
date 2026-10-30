@@ -1,0 +1,17 @@
+{
+  "id": "item/shooting-stars-50728",
+  "name": "Shooting Stars",
+  "kind": "projectile",
+  "template": 50728,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 16211
+      }
+    }
+  ],
+  "source": "client"
+}

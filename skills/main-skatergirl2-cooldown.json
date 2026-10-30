@@ -1,0 +1,23 @@
+{
+  "id": "skill/main-skatergirl2-cooldown",
+  "name": "main skatergirl2 cooldown",
+  "client": {
+    "spell": 595567,
+    "stats": {
+      "LuaScriptID": 3823
+    }
+  },
+  "effects": [
+    {
+      "command": {
+        "name": "ability.cooldown",
+        "args": {
+          "add": -1,
+          "spell": 595462
+        }
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Server Lua 3823: ModifyTemplateCooldown(595462, false, -1, 0, 2): each enemy Air Time's landing hits takes 1 s off its cooldown (the arguments' meaning is a guess); `add` in seconds."
+}

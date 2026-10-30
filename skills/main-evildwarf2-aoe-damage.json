@@ -1,0 +1,25 @@
+{
+  "id": "skill/main-evildwarf2-aoe-damage",
+  "name": "main evildwarf2 aoe damage",
+  "client": {
+    "spell": 595420,
+    "stats": {
+      "EffectPackage": 656385,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 0.75,
+            "ApplyOn": 3,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

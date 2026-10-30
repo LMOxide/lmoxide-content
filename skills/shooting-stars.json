@@ -13,5 +13,18 @@
     }
   },
   "minifigure": "Fairy: Shooting Stars",
-  "source": "client"
+  "effects": [
+    {
+      "command": {
+        "name": "ability.ground_cast",
+        "args": {
+          "buffs": [16197, 20344, 20345],
+          "spell": 20903,
+          "spell_with_buff": 20904
+        }
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Server Lua 462: ground-casts 20903 at the ground target (or the target's position); 20904 (more shots) instead while the Fairy has a buff of spell line 5000 (the pixies 16197, 20344, 20345)."
 }

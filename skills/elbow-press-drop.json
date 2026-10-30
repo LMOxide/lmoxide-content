@@ -12,5 +12,17 @@
     }
   },
   "minifigure": "Wrestling Champion: Elbow Press Drop",
-  "source": "client"
+  "effects": [
+    {
+      "command": {
+        "name": "ability.dash_by_distance",
+        "args": {
+          "cooldown_spell": 668775,
+          "dashes": [668765, 668767, 668768, 668769, 668770, 668771, 668772, 668773, 668774, 668766]
+        }
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Server Lua 4622: casts the cooldown 668775, then the dash for the whole metres to the target (1 ... 10)."
 }

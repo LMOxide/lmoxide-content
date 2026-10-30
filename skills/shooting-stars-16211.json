@@ -1,0 +1,25 @@
+{
+  "id": "skill/shooting-stars-16211",
+  "name": "Shooting Stars",
+  "client": {
+    "spell": 16211,
+    "stats": {
+      "EffectPackage": 636859
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 0.75,
+            "ApplyOn": 3,
+            "AttackLength": 1.0,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

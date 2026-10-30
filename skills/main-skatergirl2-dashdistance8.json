@@ -1,0 +1,27 @@
+{
+  "id": "skill/main-skatergirl2-dashdistance8",
+  "name": "main skatergirl2 dashdistance8",
+  "client": {
+    "spell": 595484,
+    "stats": {
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "ColumnDash",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 8,
+            "FloatValue1": 0.5,
+            "NPCSelectMode": 3,
+            "TemplateID2": 595494,
+            "Value1": 598780
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

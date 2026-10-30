@@ -1,0 +1,23 @@
+{
+  "id": "skill/shooting-stars-20691",
+  "name": "Shooting Stars",
+  "client": {
+    "spell": 20691,
+    "stats": {
+      "LuaScriptID": 202,
+      "TimeExist": 10
+    }
+  },
+  "effects": [
+    {
+      "command": {
+        "name": "ability.remove_last_buff",
+        "args": {
+          "buffs": [16197, 20344, 20345]
+        }
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Server Lua 202 (OnConstruct): each empowered Shooting Stars removes the last of the Fairy's pixie buffs (with none left, 20339)."
+}

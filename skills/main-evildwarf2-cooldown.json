@@ -1,0 +1,21 @@
+{
+  "id": "skill/main-evildwarf2-cooldown",
+  "name": "main evildwarf2 cooldown",
+  "client": {
+    "spell": 595442,
+    "actions": {
+      "0": [
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 595406,
+            "Value": 750
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

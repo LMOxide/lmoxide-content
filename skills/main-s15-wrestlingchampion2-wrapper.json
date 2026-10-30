@@ -1,0 +1,29 @@
+{
+  "id": "skill/main-s15-wrestlingchampion2-wrapper",
+  "name": "main s15 wrestlingchampion2 wrapper",
+  "client": {
+    "spell": 667140,
+    "stats": {
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 667139
+          }
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 667138
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

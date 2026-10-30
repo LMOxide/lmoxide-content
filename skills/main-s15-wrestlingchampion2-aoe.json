@@ -1,0 +1,34 @@
+{
+  "id": "skill/main-s15-wrestlingchampion2-aoe",
+  "name": "main s15 wrestlingchampion2 aoe",
+  "client": {
+    "spell": 667141,
+    "stats": {
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 667140,
+            "Radius": 3
+          }
+        },
+        {
+          "type": "StartEffect",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "TemplateID": 667382
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

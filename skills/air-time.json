@@ -8,5 +8,17 @@
     }
   },
   "minifigure": "Skater Girl: Air Time",
-  "source": "client"
+  "effects": [
+    {
+      "command": {
+        "name": "ability.dash_by_distance",
+        "args": {
+          "cooldown": "6.5s",
+          "dashes": [595489, 595490, 595491, 595492, 595493, 595487, 595486, 595484, 595483, 595488]
+        }
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Server Lua 3822: ModifyTemplateCooldown(595462, true, 6.5, 0, 0), then the dash for the whole metres to the target (1 ... 10)."
 }

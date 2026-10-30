@@ -1,0 +1,28 @@
+{
+  "id": "skill/main-s15-faun1-projectile1",
+  "name": "main s15 faun1 projectile1",
+  "client": {
+    "spell": 668572,
+    "stats": {
+      "AttackRange": 1250,
+      "EffectPackage": 668532,
+      "MoreFlags": 536870912,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 667240,
+            "ProjectileType": 1,
+            "Speed": 1000
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}
