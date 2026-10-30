@@ -1,0 +1,38 @@
+{
+  "id": "skill/trample-100385",
+  "name": "XX_Trample",
+  "client": {
+    "spell": 100385,
+    "stats": {
+      "AttackRange": 150,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 1.0,
+            "ApplyOn": 3,
+            "DamageType": 1004,
+            "Value": 1
+          }
+        },
+        {
+          "type": "Knockaway",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "Arg1": 1,
+            "Arg2": 4,
+            "Distance": 3,
+            "PowerRating": 9001,
+            "Speed": 25
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Crooked Tooth Brute's (ogre_green; the user, 2026-10-30: charge, ground smash, swing repeatedly)."
+}

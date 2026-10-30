@@ -14,10 +14,14 @@
     {
       "skill": "skill/bash-191516",
       "weight": 1
+    },
+    {
+      "skill": "skill/call-to-arms-319342",
+      "weight": 1
     }
   ],
   "skills_from": "generic",
   "loot": "loot/enemy",
   "source": "client",
-  "comment": "Melee: XX_Bash 191516 (ability 1, a 2 m knockback). (2026-10-30: its old skill asked for an ability animation its look lacks, so it stood stiff; tools/content/anim_audit.py)"
+  "comment": "Melee: XX_Bash 191516 (ability 1, a 2 m knockback). (2026-10-30: its old skill asked for an ability animation its look lacks, so it stood stiff; tools/content/anim_audit.py) Blows his horn (Call to Arms 319342: channel animation, troll_hornblower_notes) and a Crooked Tooth Ruffian comes (MXEB), every 0.5 s while fewer than 5 are up (his counter 470914)."
 }

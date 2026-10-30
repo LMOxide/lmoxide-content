@@ -18,10 +18,6 @@
     {
       "skill": "skill/wild-swing",
       "weight": 1
-    },
-    {
-      "skill": "skill/bull-charge",
-      "weight": 1
     }
   ],
   "skills_from": "generic",

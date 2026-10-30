@@ -13,9 +13,24 @@
     "health": 2463,
     "life_factor": 1.85
   },
+  "skills": [
+    {
+      "skill": "skill/trample",
+      "weight": 1
+    },
+    {
+      "skill": "skill/smash",
+      "weight": 1
+    },
+    {
+      "skill": "skill/rampage",
+      "weight": 1
+    }
+  ],
   "movement": {
     "set": "ogre"
   },
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "His kit (the user, 2026-10-30: charge, smash the ground, swing repeatedly), the client's ogre spells of one family (100xxx, all animated by ogre_green): XX_Trample 100331 (a 12 m charge, the ogre charge indicator), XX_Smash 101016 (ground smash, ogre ground impact) and XX_Rampage 100799 (a 3 s spin of swings)."
 }

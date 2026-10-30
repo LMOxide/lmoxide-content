@@ -1,0 +1,31 @@
+{
+  "id": "skill/call-to-arms-319342",
+  "name": "XX_Call to Arms",
+  "client": {
+    "spell": 319342,
+    "stats": {
+      "AIPowerrating": 10,
+      "AISpellCategory": 1,
+      "AttackRange": 600,
+      "EffectPackage": 338673,
+      "ItemDelay": 300,
+      "RechargeDelay": 50,
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "HateValue": 1,
+            "NanoTemplate": 470913,
+            "StringHash": "MXEB"
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Troll Hornblower's (Crooked Tooth Piper's) Call to Arms: blows his horn and a Crooked Tooth Ruffian comes (MXEB; the user, 2026-10-30)."
+}

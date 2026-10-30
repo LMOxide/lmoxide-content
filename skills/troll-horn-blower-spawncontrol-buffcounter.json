@@ -1,0 +1,12 @@
+{
+  "id": "skill/troll-horn-blower-spawncontrol-buffcounter",
+  "name": "XX_troll horn blower spawncontrol buffcounter",
+  "client": {
+    "spell": 470914,
+    "stats": {
+      "MaxBuffCounters": 5
+    }
+  },
+  "source": "client",
+  "comment": "The Troll Hornblower's (Crooked Tooth Piper's) Call to Arms: blows his horn and a Crooked Tooth Ruffian comes (MXEB; the user, 2026-10-30)."
+}

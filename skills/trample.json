@@ -1,0 +1,44 @@
+{
+  "id": "skill/trample",
+  "name": "XX_Trample",
+  "client": {
+    "spell": 100331,
+    "stats": {
+      "AISpellCategory": 1,
+      "AttackRange": 800,
+      "EffectPackage": 496594,
+      "ItemDelay": 150,
+      "MoreFlags": 536870912,
+      "RechargeDelay": 25,
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "ColumnDash",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 12,
+            "FloatValue1": 1.0,
+            "NPCSelectMode": 3,
+            "Radius": 1,
+            "TemplateID": 100385,
+            "Value1": 141533
+          }
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 100331,
+            "Value": 1000
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Crooked Tooth Brute's (ogre_green; the user, 2026-10-30: charge, ground smash, swing repeatedly)."
+}
