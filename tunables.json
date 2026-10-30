@@ -400,7 +400,8 @@
         "text": 21,
         "length": "74.55s",
         "tag": 4284,
-        "comment": "likely: BA_Cine_Lost_Creations, flag 4284 Cine_Dino_Lost_Creations"
+        "requires": [913],
+        "comment": "likely: BA_Cine_Lost_Creations, flag 4284 Cine_Dino_Lost_Creations; once the Gauntlet is done (913 XX_D05, as the Lost Creations entry: user 2026-10-29)"
       },
       "medieval-intro": {
         "effect_package": 637080,
@@ -452,6 +453,7 @@
       "7WZE": "minifig/space-miner",
       "8G4X": "minifig/wizard",
       "9UO2": "minifig/battle-goddess",
+      "FXMI": "minifig/alien-trooper",
       "GQKS": "minifig/jester",
       "RG5K": "minifig/revolutionary-soldier",
       "SIKZ": "minifig/island-warrior"

@@ -7,8 +7,9 @@
   "npc": "Paleontologist",
   "start": "trigger",
   "pos": [198.33, 70.12, 180.03],
+  "goals": ["YPFX"],
   "order": 156,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
-  "comment": "likely: was the silent beat 646 on Cine_D02_Cutscene1/2 (2-6 m from its 9 markers); Swashbuckler's 'Treasures?!' (1010-1012, Cine_CampSwashbuckler1) and the adventurers' 652 use its actors; 910 XX_D02, I8D5 (tools/content/story_dialogues.py)"
+  "comment": "likely: was the silent beat 646 on Cine_D02_Cutscene1/2 (2-6 m from its 9 markers); Swashbuckler's 'Treasures?!' (1010-1012, Cine_CampSwashbuckler1) and the adventurers' 652 use its actors; 910 XX_D02, I8D5. Only once the plane parts are found (YPFX, the airplane-parts quest's reward; user 2026-10-29) (tools/content/story_dialogues.py)"
 }
