@@ -5,6 +5,7 @@
   "render": {
     "monster_data": 630454,
     "npc_template": 2921,
+    "icon": 659673,
     "look": "mad_scientist",
     "cars_group": 5
   },

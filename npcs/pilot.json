@@ -5,6 +5,7 @@
   "render": {
     "monster_data": 522161,
     "npc_template": 1922,
+    "icon": 526237,
     "look": "pilot_npc",
     "cars_group": 5
   },

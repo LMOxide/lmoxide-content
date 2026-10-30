@@ -5,6 +5,7 @@
   "render": {
     "monster_data": 51057,
     "npc_template": 2941,
+    "icon": 659673,
     "look": "invisible_monsterdata",
     "cars_group": 5
   },

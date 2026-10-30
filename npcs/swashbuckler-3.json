@@ -5,6 +5,7 @@
   "render": {
     "monster_data": 436742,
     "npc_template": 961,
+    "icon": 443660,
     "look": "pirate_swashbuckler_story_npc",
     "cars_group": 5
   },

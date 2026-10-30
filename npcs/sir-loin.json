@@ -4,6 +4,7 @@
   "kind": "npc",
   "render": {
     "monster_data": 460064,
+    "icon": 462794,
     "cars_group": 5
   },
   "level": 1,

@@ -728,6 +728,12 @@
           "type": ["integer", "null"],
           "x-lmoxide-client": "effect_package"
         },
+        "icon": {
+          "description": "Portrait in the conversation window (npc_stats.icon, a client Flash file, RDB 1000007):\nthe client NPC template's Icon stat (RDB 1000620 dynel type 30035); without one the\nwindow shows the default portrait (25278, the DJ).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
         "look": {
           "description": "The look's name, for reading.",
           "type": ["string", "null"]

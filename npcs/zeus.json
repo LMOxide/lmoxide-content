@@ -5,6 +5,7 @@
   "render": {
     "monster_data": 486295,
     "npc_template": 1821,
+    "icon": 494525,
     "look": "zeus",
     "cars_group": 5
   },
