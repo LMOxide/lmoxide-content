@@ -5,6 +5,8 @@
   "kind": "pocket",
   "region": "region/mythology-world",
   "super_region": 2000,
+  "minifigure": "minifig/samurai",
+  "parts": ["minifig/medusa"],
   "level": {
     "cap": 21
   },

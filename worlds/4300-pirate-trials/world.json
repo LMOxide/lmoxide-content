@@ -5,6 +5,8 @@
   "kind": "pocket",
   "region": "region/pirate-world",
   "super_region": 4000,
+  "minifigure": "minifig/paintball-player",
+  "parts": ["minifig/sad-clown"],
   "level": {
     "cap": 11
   },

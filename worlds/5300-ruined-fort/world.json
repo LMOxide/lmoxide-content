@@ -5,6 +5,8 @@
   "kind": "pocket",
   "region": "region/medieval-world",
   "super_region": 5000,
+  "minifigure": "minifig/jester",
+  "parts": ["minifig/judge"],
   "level": {
     "cap": 15
   },
