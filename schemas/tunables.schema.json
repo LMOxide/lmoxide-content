@@ -373,7 +373,7 @@
           "type": "number"
         },
         "range": {
-          "description": "Cast at players this close (m); the enemy keeps 80% of it away.",
+          "description": "Cast at players this close (m).",
           "format": "float",
           "type": "number"
         },
