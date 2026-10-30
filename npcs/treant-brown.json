@@ -12,7 +12,7 @@
   "attack": "skill/spell-2029",
   "skills": [
     {
-      "skill": "skill/smash-238037",
+      "skill": "skill/treant-smash",
       "weight": 1
     },
     {
@@ -26,5 +26,5 @@
   },
   "loot": "loot/enemy",
   "source": "client",
-  "comment": "Smash: XX_Smash 238037 (ability 1). (2026-10-30: its old skill asked for an ability animation its look lacks, so it stood stiff; tools/content/anim_audit.py)"
+  "comment": "Smash: its own XX_Smash 331516 (particle_treant_ground_smash on the ground; ability 1). The user (2026-10-30): its pound showed no ground effect with the generic smash."
 }
