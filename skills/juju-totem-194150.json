@@ -1,0 +1,25 @@
+{
+  "id": "skill/juju-totem-194150",
+  "name": "JuJu Totem",
+  "client": {
+    "spell": 194150,
+    "stats": {
+      "EffectPackage": 237840,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 2.5,
+            "ApplyOn": 3,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

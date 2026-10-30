@@ -1,0 +1,37 @@
+{
+  "id": "skill/juju-totem",
+  "name": "JuJu Totem",
+  "client": {
+    "spell": 194144,
+    "stats": {
+      "AttackRange": 1000,
+      "EffectPackage": 237749,
+      "ItemDelay": 48,
+      "RechargeDelay": 152,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg1": 150,
+            "Arg2": 1,
+            "NanoTemplate": 194145
+          }
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 194144,
+            "Value": 250
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

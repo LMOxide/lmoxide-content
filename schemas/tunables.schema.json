@@ -334,10 +334,10 @@
     },
     "EnemyTotem": {
       "additionalProperties": false,
-      "description": "An enemy that marks the ground under a player and drops something on it after a moment (the\nWitch Doctor's tiki totem).",
+      "description": "An enemy that marks the ground under a player and drops something on it after a moment (the\nWitch Doctor's tiki totem), on its own cooldown besides its attacks. With `spell` that client\nspell is cast at the player (its animation, ground effect and hit); otherwise the server\nshows `effect` and hits within `radius` after `delay` itself.",
       "properties": {
         "ability_mod": {
-          "description": "The hit: the enemy's damage x this (as a spell's AbilityMod).",
+          "description": "Without `spell`: the hit, the enemy's damage x this (as a spell's AbilityMod).",
           "format": "float",
           "type": "number"
         },
@@ -346,7 +346,7 @@
         },
         "delay": {
           "$ref": "#/$defs/Duration",
-          "description": "From the mark to the hit."
+          "description": "Without `spell`: from the mark to the hit."
         },
         "drop_effect": {
           "description": "Played on the mark when it hits.",
@@ -368,7 +368,7 @@
           "x-lmoxide-ref": ["npc"]
         },
         "radius": {
-          "description": "Players within this of the mark are hit (m).",
+          "description": "Without `spell`: players within this of the mark are hit (m).",
           "format": "float",
           "type": "number"
         },
@@ -377,6 +377,11 @@
           "format": "float",
           "type": "number"
         },
+        "spell": {
+          "description": "The skill cast (its client spell).",
+          "type": ["string", "null"],
+          "x-lmoxide-ref": ["skill"]
+        },
         "stun_buff": {
           "description": "A buff given to the players hit (a stun), for `stun_time`.",
           "format": "uint32",
@@ -384,11 +389,10 @@
           "type": ["integer", "null"]
         },
         "stun_time": {
-          "$ref": "#/$defs/Duration",
-          "default": "0s"
+          "$ref": "#/$defs/Duration"
         }
       },
-      "required": ["npcs", "range", "radius", "delay", "cooldown", "ability_mod"],
+      "required": ["npcs", "range", "cooldown"],
       "type": "object"
     },
     "Faction": {

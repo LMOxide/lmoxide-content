@@ -1,0 +1,26 @@
+{
+  "id": "skill/juju-totem-194145",
+  "name": "JuJu Totem",
+  "client": {
+    "spell": 194145,
+    "stats": {
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 194150,
+            "Radius": 2
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}
