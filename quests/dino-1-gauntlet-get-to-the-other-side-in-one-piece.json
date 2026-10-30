@@ -20,6 +20,7 @@
           "hash": "AXFA",
           "text": "Get to the other side in one piece",
           "kind": "trigger",
+          "area": "area/6300/quest-buzzroomcomplete",
           "marker": {
             "pos": [198.4, 43.4, 171.6],
             "radius": 28.4
@@ -29,5 +30,5 @@
     }
   ],
   "source": "guess",
-  "tags": ["approximate", "todo"]
+  "tags": ["approximate"]
 }

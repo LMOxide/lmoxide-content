@@ -20,6 +20,7 @@
           "hash": "9JDH",
           "text": "Activate all the pressure plates",
           "kind": "trigger",
+          "area": "area/6300/quest-pressureplateroomcomplete",
           "marker": {
             "pos": [243.6, 47.5, 170.7],
             "radius": 15.5
@@ -29,5 +30,5 @@
     }
   ],
   "source": "guess",
-  "tags": ["approximate", "todo"]
+  "tags": ["approximate"]
 }

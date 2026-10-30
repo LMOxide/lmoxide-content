@@ -82,6 +82,11 @@
           "description": "Counts anywhere in the world; otherwise only inside the quest's area.",
           "type": "boolean"
         },
+        "area": {
+          "description": "Entering this area while the quest runs completes the goal (the client's\n`Quest_*Complete` areas: the Tar Pit's nest, the Gauntlet's room exits), also when the\nquest is paused (the area may lie outside the quest's).",
+          "type": ["string", "null"],
+          "x-lmoxide-ref": ["area"]
+        },
         "count": {
           "description": "How many are needed.",
           "format": "uint32",

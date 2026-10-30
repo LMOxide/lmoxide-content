@@ -20,6 +20,7 @@
           "hash": "0R13",
           "text": "Maneuver through the piston pushers",
           "kind": "trigger",
+          "area": "area/6300/quest-dodgeroomcomplete",
           "marker": {
             "pos": [351.1, 45.3, 182.6],
             "radius": 35.1
@@ -29,5 +30,5 @@
     }
   ],
   "source": "guess",
-  "tags": ["approximate", "todo"]
+  "tags": ["approximate"]
 }
