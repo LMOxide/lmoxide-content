@@ -1,0 +1,25 @@
+{
+  "id": "item/bolas",
+  "name": "Bolas",
+  "kind": "projectile",
+  "template": 194203,
+  "effect_package": 236421,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 194207
+      }
+    },
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 600597
+      }
+    }
+  ],
+  "source": "client"
+}

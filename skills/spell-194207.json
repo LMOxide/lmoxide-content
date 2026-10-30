@@ -1,9 +1,34 @@
 {
   "id": "skill/spell-194207",
-  "name": "spell 194207",
+  "name": "Bolas Snare",
   "client": {
-    "spell": 194207
+    "spell": 194207,
+    "stats": {
+      "EffectPackage": 449088,
+      "TargetingMode": 5,
+      "TimeExist": 100
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "AddDiminishingReturn",
+          "args": {
+            "ApplyOn": 3,
+            "FloatValue1": 0.34,
+            "Type": 802,
+            "Value": 1000
+          }
+        },
+        {
+          "type": "AddSnare",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "FloatMultiplier": 0.85
+          }
+        }
+      ]
+    }
   },
-  "source": "client",
-  "tags": ["no-client-definition"]
+  "source": "client"
 }

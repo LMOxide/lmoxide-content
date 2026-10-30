@@ -1,0 +1,38 @@
+{
+  "id": "skill/bolas",
+  "name": "Bolas",
+  "client": {
+    "spell": 194199,
+    "stats": {
+      "AttackRange": 1000,
+      "EffectPackage": 237211,
+      "ItemDelay": 32,
+      "RechargeDelay": 68,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 194203,
+            "ProjectileType": 1,
+            "Speed": 1000
+          }
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 194199,
+            "Value": 350
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}
