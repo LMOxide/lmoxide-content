@@ -1,0 +1,74 @@
+{
+  "id": "skill/boss-dreadleg-bomb-aoe",
+  "name": "boss dreadleg bomb aoe",
+  "client": {
+    "spell": 238199,
+    "stats": {
+      "EffectPackage": 239180,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 238198,
+            "Radius": 2
+          }
+        },
+        {
+          "type": "ColumnFormula",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 10,
+            "FloatValue1": 1.0,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 238198
+          }
+        },
+        {
+          "type": "ColumnFormula",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 10,
+            "FloatValue1": 1.0,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 238198,
+            "Value1": 1
+          }
+        },
+        {
+          "type": "ColumnFormula",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 10,
+            "FloatValue1": 1.0,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 238198,
+            "Value1": 2
+          }
+        },
+        {
+          "type": "ColumnFormula",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 10,
+            "FloatValue1": 1.0,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 238198,
+            "Value1": 3
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}
