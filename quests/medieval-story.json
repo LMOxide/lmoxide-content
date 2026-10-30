@@ -147,6 +147,8 @@
           "kind": "trigger",
           "counts": "pickups",
           "pickups": [464315, 464316, 464317, 464318],
+          "dropped_by": "kills_or_smashes",
+          "drops_in": "area/5210/quest-quarry",
           "count": 13,
           "max": 100
         }

@@ -101,6 +101,11 @@
           "description": "`counts: pickups`: what drops them while the quest runs (`kills`, `smashes` or\n`kills_or_smashes`, of `enemies`), one each with tunables `story.pickup_drop_chance`.\nNot in the client (docs/TUNABLES.md).",
           "type": ["string", "null"]
         },
+        "drops_in": {
+          "description": "`dropped_by` a story goal's: only defeats inside this area drop them (the Medieval\nstory's quarry crystals, from the Quarry's enemies). None: anywhere. (An area quest's\ndrop inside its own area.)",
+          "type": ["string", "null"],
+          "x-lmoxide-ref": ["area"]
+        },
         "enemies": {
           "description": "The enemies or smashables that count, by name (`@<category>` for a smash rule category's);\nempty: any. For `pickups`: the ones that drop them.",
           "items": {
