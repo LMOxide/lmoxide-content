@@ -3046,23 +3046,6 @@
       "source": "live"
     },
     {
-      "id": "spawn/6200/p-host-ad6c2f5f72d77a23",
-      "name": "Crazy Kotaki ",
-      "kind": "enemy",
-      "template": "npc/crazy-kotaki-2",
-      "pos": [206.01308, 72.10009, 180.81903],
-      "rot": 3.5953782,
-      "patrol": [
-        [204.55124, 72.10009, 177.32762],
-        [203.1397, 72.10009, 177.33157],
-        [200.80682, 72.1, 177.06625]
-      ],
-      "removed": true,
-      "source": "surveyed",
-      "author": "host",
-      "updated": 1793115584
-    },
-    {
       "id": "spawn/6200/speed-pad-ba-speedbuff-1",
       "name": "XX_Buildie : Level 04 : 5 Buildie Achievement : Signs : 1",
       "kind": "buildie",

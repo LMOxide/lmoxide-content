@@ -1,21 +1,6 @@
 {
   "spawns": [
     {
-      "id": "spawn/6300/dino-raptor",
-      "name": "Dino Raptor",
-      "kind": "enemy",
-      "template": "npc/dino-raptor",
-      "pos": [279.5, 48.65, 163.5],
-      "overrides": {
-        "level": 20,
-        "stats": {
-          "health": 2618
-        }
-      },
-      "anchor": "Quest_TikiRoom",
-      "source": "proposed"
-    },
-    {
       "id": "spawn/6300/dino-coelophysis",
       "name": "Dino Coelophysis",
       "kind": "enemy",
@@ -4459,7 +4444,6 @@
       "template": "npc/corrupted-chicken-suit-guy-3",
       "pos": [278.1, 48.65, 163.5],
       "rot": 5.497787,
-      "replaces": "spawn/6300/dino-raptor",
       "source": "surveyed",
       "author": "host",
       "updated": 1793088561
