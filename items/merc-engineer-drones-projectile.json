@@ -1,0 +1,18 @@
+{
+  "id": "item/merc-engineer-drones-projectile",
+  "name": "merc engineer drones projectile",
+  "kind": "projectile",
+  "template": 374203,
+  "effect_package": 376220,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 374204
+      }
+    }
+  ],
+  "source": "client"
+}
