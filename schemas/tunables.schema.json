@@ -471,6 +471,31 @@
       "required": ["radius", "distance", "speed"],
       "type": "object"
     },
+    "LevelUpTag": {
+      "additionalProperties": false,
+      "description": "A tag the level script of `level` adds (`player:addtag`).",
+      "properties": {
+        "level": {
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "script": {
+          "description": "The client Lua script it comes from (shown).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        },
+        "tag": {
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer",
+          "x-lmoxide-client": "lore"
+        }
+      },
+      "required": ["level", "tag"],
+      "type": "object"
+    },
     "Loot": {
       "additionalProperties": false,
       "properties": {
@@ -910,6 +935,20 @@
           },
           "description": "Super-region (world `super_region`) -> the level cap there; none: no cap.",
           "type": "object"
+        },
+        "level_up_effect": {
+          "description": "A level-up plays this effect package on the player: the level toast (the level scripts\n556-585 and 1015, \"Level toast hack\": `addeffect{effectid=162167}`).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"],
+          "x-lmoxide-client": "effect_package"
+        },
+        "level_up_tags": {
+          "description": "Tags the level scripts add when the player reaches a level.",
+          "items": {
+            "$ref": "#/$defs/LevelUpTag"
+          },
+          "type": "array"
         },
         "minifigure_xp": {
           "additionalProperties": {

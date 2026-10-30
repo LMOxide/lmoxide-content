@@ -143,7 +143,45 @@
       "4000": 11,
       "5000": 15,
       "6000": 30
-    }
+    },
+    "level_up_effect": 162167,
+    "level_up_tags": [
+      {
+        "level": 2,
+        "tag": 393,
+        "script": 556
+      },
+      {
+        "level": 3,
+        "tag": 720,
+        "script": 558
+      },
+      {
+        "level": 6,
+        "tag": 642,
+        "script": 561
+      },
+      {
+        "level": 8,
+        "tag": 721,
+        "script": 563
+      },
+      {
+        "level": 10,
+        "tag": 445,
+        "script": 565
+      },
+      {
+        "level": 13,
+        "tag": 798,
+        "script": 568
+      },
+      {
+        "level": 15,
+        "tag": 796,
+        "script": 570
+      }
+    ]
   },
   "npc_life": {
     "interpolation": "linear between the listed levels, and beyond the first two / last two",
