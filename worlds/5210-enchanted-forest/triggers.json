@@ -336,6 +336,500 @@
       ],
       "source": "guess",
       "comment": "guess (by name): talking head WizardSwamp, shown when its tag 554 is added (tools/content/import_story.py)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-firstbarrier1",
+      "name": "BA_FirstBarrier1",
+      "area": "area/5210/ba-firstbarrier1",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-firstbarrier4"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier1 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_FirstBarrier4 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-firstbarrier4",
+      "name": "BA_FirstBarrier4",
+      "area": "area/5210/ba-firstbarrier4",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-firstbarrier1"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier1 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_FirstBarrier1 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-firstbarrier2",
+      "name": "BA_FirstBarrier2",
+      "area": "area/5210/ba-firstbarrier2",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-firstbarrier5"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier1 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_FirstBarrier5 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-firstbarrier5",
+      "name": "BA_FirstBarrier5",
+      "area": "area/5210/ba-firstbarrier5",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-firstbarrier2"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier1 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_FirstBarrier2 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-firstbarrier3",
+      "name": "BA_FirstBarrier3",
+      "area": "area/5210/ba-firstbarrier3",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-firstbarrier6"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier1 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_FirstBarrier6 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-firstbarrier6",
+      "name": "BA_FirstBarrier6",
+      "area": "area/5210/ba-firstbarrier6",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-firstbarrier3"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier1 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_FirstBarrier3 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump1",
+      "name": "BA_SpiderJump1",
+      "area": "area/5210/ba-spiderjump1",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump4"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier2 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump4 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump4",
+      "name": "BA_SpiderJump4",
+      "area": "area/5210/ba-spiderjump4",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump1"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier2 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump1 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump2",
+      "name": "BA_SpiderJump2",
+      "area": "area/5210/ba-spiderjump2",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump5"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier2 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump5 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump5",
+      "name": "BA_SpiderJump5",
+      "area": "area/5210/ba-spiderjump5",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump2"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier2 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump2 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump3",
+      "name": "BA_SpiderJump3",
+      "area": "area/5210/ba-spiderjump3",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump6"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier2 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump6 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump6",
+      "name": "BA_SpiderJump6",
+      "area": "area/5210/ba-spiderjump6",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump3"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier2 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump3 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump11",
+      "name": "BA_SpiderJump11",
+      "area": "area/5210/ba-spiderjump11",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump12"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier2 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump12 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump12",
+      "name": "BA_SpiderJump12",
+      "area": "area/5210/ba-spiderjump12",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump11"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier2 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump11 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump7",
+      "name": "BA_SpiderJump7",
+      "area": "area/5210/ba-spiderjump7",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump9"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier4 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump9 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump9",
+      "name": "BA_SpiderJump9",
+      "area": "area/5210/ba-spiderjump9",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump7"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier4 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump7 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump8",
+      "name": "BA_SpiderJump8",
+      "area": "area/5210/ba-spiderjump8",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump10"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier4 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump10 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump10",
+      "name": "BA_SpiderJump10",
+      "area": "area/5210/ba-spiderjump10",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump8"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier4 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump8 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump13",
+      "name": "BA_SpiderJump13",
+      "area": "area/5210/ba-spiderjump13",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump14"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier4 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump14 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-spiderjump14",
+      "name": "BA_SpiderJump14",
+      "area": "area/5210/ba-spiderjump14",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-spiderjump13"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier4 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_SpiderJump13 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-fairievillage1",
+      "name": "BA_FairieVillage1",
+      "area": "area/5210/ba-fairievillage1",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-fairievillage3"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier3 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_FairieVillage3 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-fairievillage3",
+      "name": "BA_FairieVillage3",
+      "area": "area/5210/ba-fairievillage3",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-fairievillage1"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier3 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_FairieVillage1 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-fairievillage2",
+      "name": "BA_FairieVillage2",
+      "area": "area/5210/ba-fairievillage2",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-fairievillage4"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier3 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_FairieVillage4 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-fairievillage4",
+      "name": "BA_FairieVillage4",
+      "area": "area/5210/ba-fairievillage4",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-fairievillage2"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier3 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_FairieVillage2 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-fairievillage5",
+      "name": "BA_FairieVillage5",
+      "area": "area/5210/ba-fairievillage5",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-fairievillage6"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier3 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_FairieVillage6 (story.rs story_cross; how live did it is unknown)"
+    },
+    {
+      "id": "trigger/5210/barrier-ba-fairievillage6",
+      "name": "BA_FairieVillage6",
+      "area": "area/5210/ba-fairievillage6",
+      "actions": [
+        {
+          "command": {
+            "name": "story_cross",
+            "args": {
+              "goal": "XOAJ",
+              "requires": [434],
+              "to": "area/5210/ba-fairievillage5"
+            }
+          }
+        }
+      ],
+      "source": "guess",
+      "comment": "guess: the server areas on both sides of the client wall Collision_Barrier3 (a magical barrier the client never opens) carry a player whom the Faerie Queen's spell protects (434 Crossing the Barrier, text 321 'This spell will protect you against the sorcery behind the barrier'; or 'Return to the Faerie Queen' XOAJ done) across to BA_FairieVillage5 (story.rs story_cross; how live did it is unknown)"
     }
   ]
 }

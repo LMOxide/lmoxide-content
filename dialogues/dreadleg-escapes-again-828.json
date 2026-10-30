@@ -5,11 +5,12 @@
   "world": "world/isle-of-yarr",
   "npc_name": 2728,
   "npc": "Cinematic Start Dreadleg Escapes Again",
-  "start": "trigger",
+  "start": "boss",
   "pos": [311.17, 69.43, 318.97],
+  "defeated": "Captain Dreadleg",
   "requires": [4161],
   "order": 104,
   "source": "guess",
   "tags": ["reconstructed", "likely"],
-  "comment": "likely: area Cinematic_Dreadleg1 19.9 m from its 11 markers (Cine_*AfterFight*); epilogue 840 gives 4183 Dreadleg Escapes Again, resolves AKJH (Pirate step after H1DR) and teleports; needs 4161 (inside the fort) (tools/content/story_dialogues.py)"
+  "comment": "likely: after Captain Dreadleg's fight in the Jacket Fort (828 'Enough! Ye a strong scallywag fer sure!'; its markers Cine_*AfterFight* are in area Cinematic_Dreadleg1, where the fight starts: trigger/4200/dreadleg-fort-fight, script/4200/dreadleg-fort); epilogue 840 gives 4183 Dreadleg Escapes Again, resolves AKJH (Pirate step after H1DR) and teleports; needs 4161 (inside the fort) (tools/content/story_dialogues.py)"
 }

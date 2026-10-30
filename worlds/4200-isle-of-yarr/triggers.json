@@ -430,18 +430,23 @@
       "comment": "pizza-delivery-to-fort-811: likely (reconstructed): the live capture spawned 'Cinematic Start Pizza Delivery To Fort' on Isle of Yarr; area Cine_PizzaDeliveryTrigger1 4.2 m from its 17 markers; speaker label 'With Pizza Guy' -> needs 4143 (Pizza Guy rescued); epilogue 810 gives 4161 Stop at the Fort Gate, resolves H1DR; 857-859 (Pizza Guy, 'even the bad guys tip') use its actors; pizza-delivery-to-fort-turned-away-801: guess (reconstructed): the same gate 'Without Pizza Guy' (speaker labels of 801/802): the guard turns the crew away; epilogue 802 gives nothing; 805/806 and 803/856, 804/855 are duplicates (806, 855, 856 left out) (tools/content/import_story.py)"
     },
     {
-      "id": "trigger/4200/story-cinematic-dreadleg1",
+      "id": "trigger/4200/dreadleg-fort-fight",
       "name": "Cinematic_Dreadleg1",
       "area": "area/4200/cinematic-dreadleg1",
       "actions": [
         {
-          "dialogue": {
-            "dialogue": "dialogue/dreadleg-escapes-again-828"
+          "command": {
+            "name": "story_script",
+            "args": {
+              "requires": [4161],
+              "script": "script/4200/dreadleg-fort",
+              "unless": [4183]
+            }
           }
         }
       ],
       "source": "guess",
-      "comment": "dreadleg-escapes-again-828: likely (reconstructed): area Cinematic_Dreadleg1 19.9 m from its 11 markers (Cine_*AfterFight*); epilogue 840 gives 4183 Dreadleg Escapes Again, resolves AKJH (Pirate step after H1DR) and teleports; needs 4161 (inside the fort) (tools/content/import_story.py)"
+      "comment": "guess: inside the Jacket Fort (4161 Stop at the Fort Gate, from the pizza delivery 810) Captain Dreadleg fights the player before 'Dreadleg Escapes Again' (828: 'Enough! Ye a strong scallywag fer sure!', the Cine_*AfterFight* markers); his defeat starts that conversation (dialogue start: boss). Not for who has 4183 (its epilogue). The live fight isn't in the capture (story.rs story_script)"
     }
   ]
 }
