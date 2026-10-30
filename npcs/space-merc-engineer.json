@@ -9,10 +9,14 @@
   "stats": {
     "health": 1576
   },
-  "attack": "skill/spell-374158",
+  "attack": "skill/merc-engineer-shot-castable",
   "skills": [
     {
       "skill": "skill/merc-engineer-shot-castable",
+      "weight": 1
+    },
+    {
+      "skill": "skill/merc-engineer-bomb-ring",
       "weight": 1
     }
   ],

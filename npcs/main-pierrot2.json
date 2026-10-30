@@ -12,5 +12,8 @@
   "stats": {
     "health": 4542
   },
-  "source": "client"
+  "lifetime": "6s",
+  "spawn_hash": "FXCX",
+  "source": "client",
+  "comment": "What the Sad Clown's From Bad to Worse spawns (SpawnMonster FXCX) where it was aimed: the invisible centre its three clouds circle. Live capture (Dinosaur Rise, 2016): spawned with this look and template, the clouds' spells shown on it as 5 s buffs, faded out 6 s after it appeared."
 }

@@ -1,0 +1,19 @@
+{
+  "id": "npc/merc-engineer-bomb-anchor",
+  "name": "XX_InvisibleDummy",
+  "kind": "trigger",
+  "render": {
+    "monster_data": 51057,
+    "npc_template": 1961,
+    "look": "invisible_monsterdata",
+    "cars_group": 5
+  },
+  "level": 16,
+  "stats": {
+    "health": 1576
+  },
+  "lifetime": "6s",
+  "spawn_hash": "lmoxide-merc-engineer-bombs",
+  "source": "guess",
+  "comment": "The invisible spot the Space Merc Engineer's bombs circle (skill/merc-engineer-bomb-ring), as the Sad Clown's npc/main-pierrot2."
+}

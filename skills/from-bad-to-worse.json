@@ -34,10 +34,5 @@
     }
   },
   "minifigure": "Sad Clown: From Bad to Worse",
-  "summon": {
-    "npc": "npc/balloon-buddy",
-    "count": 1,
-    "lifetime": "15s"
-  },
   "source": "client"
 }

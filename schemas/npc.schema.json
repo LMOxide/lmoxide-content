@@ -998,7 +998,7 @@
           "type": "null"
         }
       ],
-      "description": "Summons: how long they stay."
+      "description": "Summons and spawned monsters: how long they stay."
     },
     "loot": {
       "type": ["string", "null"],
@@ -1042,6 +1042,10 @@
           "type": "null"
         }
       ]
+    },
+    "spawn_hash": {
+      "description": "The original server's monster template that SpawnMonster game actions name by\n`StringHash` (e.g. `FXCX`: the Sad Clown's invisible cloud anchor): what they\nspawn. The client doesn't have these templates, so each one is matched by hand.",
+      "type": ["string", "null"]
     },
     "stats": {
       "$ref": "#/$defs/NpcStats"

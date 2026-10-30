@@ -1,0 +1,28 @@
+{
+  "id": "skill/merc-engineer-bomb-ring",
+  "name": "merc engineer bomb ring",
+  "client": {
+    "spell": 374158,
+    "stats": {
+      "AttackRange": 600,
+      "ItemDelay": 50,
+      "RechargeDelay": 1500,
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 1,
+            "CollisionFlag": 1,
+            "NanoTemplate": 2000374158,
+            "StringHash": "lmoxide-merc-engineer-bombs"
+          }
+        }
+      ]
+    }
+  },
+  "source": "guess",
+  "comment": "The Space Merc Engineer's bomb ring, as players remember it: four bombs circling the spot he cast it on (they stay there when he moves) that blow up on a player. Spell 374158 is the engineer's (next to his shot's 374159-374161) but has no client definition, so its stats and actions are made up: an invisible anchor at his feet (npc/merc-engineer-bomb-anchor) that the bombs (skill/merc-engineer-bombs) circle."
+}

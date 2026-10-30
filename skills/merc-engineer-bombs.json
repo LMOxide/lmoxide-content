@@ -1,0 +1,61 @@
+{
+  "id": "skill/merc-engineer-bombs",
+  "name": "merc engineer bombs",
+  "client": {
+    "spell": 2000374158,
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentX": 250,
+            "ItemInstance": 238118,
+            "ProjectileType": 3,
+            "RotY": 0,
+            "Speed": 90
+          }
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentX": 250,
+            "ItemInstance": 238118,
+            "ProjectileType": 3,
+            "RotY": 90,
+            "Speed": 90
+          }
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentX": 250,
+            "ItemInstance": 238118,
+            "ProjectileType": 3,
+            "RotY": 180,
+            "Speed": 90
+          }
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentX": 250,
+            "ItemInstance": 238118,
+            "ProjectileType": 3,
+            "RotY": 270,
+            "Speed": 90
+          }
+        }
+      ]
+    }
+  },
+  "source": "guess",
+  "comment": "Server-made nano (no client spell: id 2000000000 + the bomb ring's): four grenades (item/grenade: they burst for the grenade's 1 m blast) circling the anchor it is cast on, 2.5 m out, a quarter turn a second."
+}
