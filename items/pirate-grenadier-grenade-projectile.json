@@ -1,0 +1,18 @@
+{
+  "id": "item/pirate-grenadier-grenade-projectile",
+  "name": "XX_Grenade",
+  "kind": "projectile",
+  "template": 190613,
+  "effect_package": 202069,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 190614
+      }
+    }
+  ],
+  "source": "client"
+}

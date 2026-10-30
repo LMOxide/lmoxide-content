@@ -1,0 +1,17 @@
+{
+  "id": "item/space-pd-policehq-boss-mech-volley-marker",
+  "name": "XX_space pd policeHQ boss mech volley marker",
+  "kind": "projectile",
+  "template": 413359,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 380572
+      }
+    }
+  ],
+  "source": "client"
+}

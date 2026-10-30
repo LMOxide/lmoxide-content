@@ -1,0 +1,25 @@
+{
+  "id": "skill/pirate-grenadier-grenade-damage",
+  "name": "XX_Grenade",
+  "client": {
+    "spell": 190615,
+    "stats": {
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 1.0,
+            "ApplyOn": 3,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spell (docs/ENEMY-SKILLS.md); tools/re/import_spells.py."
+}

@@ -12,14 +12,18 @@
   "attack": "skill/spell-2029",
   "skills": [
     {
-      "skill": "skill/shot-331628",
+      "skill": "skill/space-pd-policehq-boss-mech-stomp-castable",
+      "weight": 1
+    },
+    {
+      "skill": "skill/space-pd-policehq-boss-mech-volley-bullet",
       "weight": 1
     }
   ],
-  "skills_from": "generic",
   "movement": {
     "set": "treant"
   },
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "A regular Bot Battle Merc (not the Space Command HQ dungeon's mech, which has more: minigun levels, missile volleys by health, drones; the user, 2026-10-30): the mech's stomp up close (361429: 4 m, knockaway, particle_bot_battle_merc_stomp) and a missile with its red X marker (361424). Which of the boss mech's spells the regular ones had is the user's memory (missiles) and a guess (the stomp). It was the generic Shot before, which played a jumping animation the mech's look lacks."
 }

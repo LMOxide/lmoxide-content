@@ -1,0 +1,44 @@
+{
+  "id": "skill/space-pd-policehq-boss-mech-volley-bullet",
+  "name": "XX_space pd policeHQ boss mech volley bullet",
+  "client": {
+    "spell": 361424,
+    "stats": {
+      "AIPowerrating": 5,
+      "AttackRange": 2500,
+      "ItemDelay": 50,
+      "RechargeDelay": 300,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentY": 220,
+            "ItemInstance": 361423,
+            "MinimumAttackRange": 600,
+            "ProjectileType": 2,
+            "Speed": 600
+          }
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentY": 220,
+            "ItemInstance": 413359,
+            "MinimumAttackRange": 600,
+            "ProjectileType": 2,
+            "Speed": 500000
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "A missile from the Bot Battle Merc's launcher: lands where the player is (6–25 m away; ×0.33 on a hit) with the red X marker (413361) where it will land. The Police HQ boss mech fires many by Lua 885 (more as its health drops); a regular Bot Battle Merc fires one per cast (the user: it shoots missiles). RechargeDelay 3 s, ItemDelay 0.5 s and AIPowerrating 5 are guesses: the client gives none."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "skill/space-pd-policehq-boss-mech-volley-marker-aoe",
+  "name": "XX_space pd policeHQ boss mech volley marker aoe",
+  "client": {
+    "spell": 380572,
+    "stats": {
+      "EffectPackage": 413361,
+      "TargetingMode": 7
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spell (docs/ENEMY-SKILLS.md); tools/re/import_spells.py."
+}

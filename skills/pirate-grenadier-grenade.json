@@ -1,0 +1,30 @@
+{
+  "id": "skill/pirate-grenadier-grenade",
+  "name": "XX_Grenade",
+  "client": {
+    "spell": 190612,
+    "stats": {
+      "AttackRange": 1000,
+      "EffectPackage": 194647,
+      "ItemDelay": 32,
+      "RechargeDelay": 168,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 190613,
+            "ProjectileType": 2,
+            "Speed": 600
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spell (docs/ENEMY-SKILLS.md); tools/re/import_spells.py."
+}

@@ -813,6 +813,12 @@
           "minimum": 0,
           "type": "integer"
         },
+        "health_per_level": {
+          "default": 0.0,
+          "description": "How much more health a level's wave enemies (the Gatekeepers too) have on each level of\nthe run after the first: health × (1 + this × (level − 1)). 0: the same on every level.",
+          "format": "float",
+          "type": "number"
+        },
         "invitation_time": {
           "$ref": "#/$defs/Duration",
           "description": "How long teammates have to answer the invitation (no answer: as Cancel)."
@@ -1412,6 +1418,7 @@
         "entry_world": "",
         "gatekeeper_adds_vanish": false,
         "gatekeeper_every": 0,
+        "health_per_level": 0.0,
         "invitation_time": "0s",
         "level_time": "0s",
         "levels_per_pool": 0,

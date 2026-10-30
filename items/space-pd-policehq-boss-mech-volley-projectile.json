@@ -1,0 +1,18 @@
+{
+  "id": "item/space-pd-policehq-boss-mech-volley-projectile",
+  "name": "XX_space pd policeHQ boss mech volley projectile",
+  "kind": "projectile",
+  "template": 361423,
+  "effect_package": 390855,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 413363
+      }
+    }
+  ],
+  "source": "client"
+}

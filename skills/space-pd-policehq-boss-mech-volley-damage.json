@@ -1,0 +1,25 @@
+{
+  "id": "skill/space-pd-policehq-boss-mech-volley-damage",
+  "name": "XX_space pd policeHQ boss mech volley damage",
+  "client": {
+    "spell": 361427,
+    "stats": {
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 0.33000001311302185,
+            "ApplyOn": 3,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spell (docs/ENEMY-SKILLS.md); tools/re/import_spells.py."
+}
