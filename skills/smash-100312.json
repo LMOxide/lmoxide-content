@@ -1,0 +1,32 @@
+{
+  "id": "skill/smash-100312",
+  "name": "XX_Smash",
+  "client": {
+    "spell": 100312,
+    "stats": {
+      "AttackRange": 50,
+      "EffectPackage": 154034,
+      "ItemDelay": 150,
+      "MoreFlags": 536870912,
+      "RechargeDelay": 100
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 90,
+            "AngleStart": -45,
+            "ApplyOn": 1,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 160282,
+            "Radius": 4
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Crooked Tooth Brute's ground smash (ability 1; the lightning ogres' 101016 plays ability 4: the user, 2026-10-30)."
+}

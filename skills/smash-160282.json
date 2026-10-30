@@ -1,0 +1,25 @@
+{
+  "id": "skill/smash-160282",
+  "name": "XX_Smash",
+  "client": {
+    "spell": 160282,
+    "stats": {
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 2.0,
+            "ApplyOn": 3,
+            "DamageType": 1004,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Crooked Tooth Brute's ground smash (ability 1; the lightning ogres' 101016 plays ability 4: the user, 2026-10-30)."
+}

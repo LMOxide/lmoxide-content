@@ -19,7 +19,7 @@
       "weight": 1
     },
     {
-      "skill": "skill/smash",
+      "skill": "skill/smash-100312",
       "weight": 1
     },
     {
@@ -32,5 +32,5 @@
   },
   "loot": "loot/enemy",
   "source": "client",
-  "comment": "His kit (the user, 2026-10-30: charge, smash the ground, swing repeatedly), the client's ogre spells of one family (100xxx, all animated by ogre_green): XX_Trample 100331 (a 12 m charge, the ogre charge indicator), XX_Smash 101016 (ground smash, ogre ground impact) and XX_Rampage 100799 (a 3 s spin of swings)."
+  "comment": "His kit (the user, 2026-10-30: charge, smash the ground, swing repeatedly), the client's ogre spells of one family (100xxx, all animated by ogre_green): XX_Trample 100331 (a 12 m charge, the ogre charge indicator), XX_Smash 100312 (ground smash, ogre ground impact on ability 1, ×2 in a 4 m cone; 101016 played the lightning ogres' ability 4: the user) and XX_Rampage 100799 (a 3 s spin of swings)."
 }
