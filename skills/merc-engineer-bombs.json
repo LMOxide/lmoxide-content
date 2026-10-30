@@ -3,6 +3,9 @@
   "name": "merc engineer bombs",
   "client": {
     "spell": 2000374158,
+    "stats": {
+      "TimeExist": 1000
+    },
     "actions": {
       "0": [
         {
@@ -57,5 +60,5 @@
     }
   },
   "source": "guess",
-  "comment": "Server-made nano (no client spell: id 2000000000 + the bomb ring's): four grenades (item/grenade: they burst for the grenade's 1 m blast) circling the anchor it is cast on, 2.5 m out, a quarter turn a second."
+  "comment": "Server-made nano (no client spell: id 2000000000 + the bomb ring's; its TimeExist is only how long the bombs last, 10 s): four grenade items circling the anchor it is cast on, 2.5 m out, a quarter turn a second, bursting for the grenade's 1 m blast. The look is wrong (the grenade item renders as a potion): the user will find the right one."
 }

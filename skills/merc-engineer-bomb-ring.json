@@ -4,17 +4,17 @@
   "client": {
     "spell": 374158,
     "stats": {
-      "AttackRange": 600,
+      "AttackRange": 1100,
       "ItemDelay": 50,
-      "RechargeDelay": 1500,
-      "TargetingMode": 8
+      "RechargeDelay": 900,
+      "TargetingMode": 5
     },
     "actions": {
       "0": [
         {
           "type": "SpawnMonster",
           "args": {
-            "ApplyOn": 1,
+            "ApplyOn": 3,
             "CollisionFlag": 1,
             "NanoTemplate": 2000374158,
             "StringHash": "lmoxide-merc-engineer-bombs"
@@ -24,5 +24,5 @@
     }
   },
   "source": "guess",
-  "comment": "The Space Merc Engineer's bomb ring, as players remember it: four bombs circling the spot he cast it on (they stay there when he moves) that blow up on a player. Spell 374158 is the engineer's (next to his shot's 374159-374161) but has no client definition, so its stats and actions are made up: an invisible anchor at his feet (npc/merc-engineer-bomb-anchor) that the bombs (skill/merc-engineer-bombs) circle."
+  "comment": "The Space Merc Engineer's bomb ring: four bombs circling the player he casts it at (footage), staying where they were spawned, lasting ~10 s on a ~9 s cooldown and blowing up on a player (user's memory). Spell 374158 is the engineer's (next to his shot's 374159-374161) but has no client definition, so the rest is made up: an invisible anchor where the player stands (npc/merc-engineer-bomb-anchor) that the bombs (skill/merc-engineer-bombs) circle; his shot's range (11 m). The bombs' look is still to be found (item/grenade renders a potion)."
 }

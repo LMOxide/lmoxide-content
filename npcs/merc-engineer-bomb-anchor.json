@@ -12,8 +12,8 @@
   "stats": {
     "health": 1576
   },
-  "lifetime": "6s",
+  "lifetime": "11s",
   "spawn_hash": "lmoxide-merc-engineer-bombs",
   "source": "guess",
-  "comment": "The invisible spot the Space Merc Engineer's bombs circle (skill/merc-engineer-bomb-ring), as the Sad Clown's npc/main-pierrot2."
+  "comment": "The invisible spot the Space Merc Engineer's bombs circle (skill/merc-engineer-bomb-ring): where the player stood, for a little longer than the bombs (10 s), as the Sad Clown's npc/main-pierrot2."
 }

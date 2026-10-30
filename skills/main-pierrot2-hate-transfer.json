@@ -26,5 +26,6 @@
     }
   },
   "minifigure": "Sad Clown: From Bad to Worse",
-  "source": "client"
+  "source": "client",
+  "comment": "HateTransfer (enemies turn on the spawned anchor) isn't run by the server: the latest live version of From Bad to Worse didn't have it (user, 2026-10-29), though the client data still lists it."
 }
