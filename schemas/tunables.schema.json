@@ -360,6 +360,11 @@
           "minimum": 0,
           "type": ["integer", "null"]
         },
+        "min_range": {
+          "description": "...but not closer than this (m): up close it uses its attacks (the Witch Doctor his knife).",
+          "format": "float",
+          "type": "number"
+        },
         "npcs": {
           "items": {
             "type": "string"
