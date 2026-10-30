@@ -1,0 +1,13 @@
+{
+  "id": "skill/merc-defender-reflect-castable",
+  "name": "XX_merc defender reflect castable",
+  "client": {
+    "spell": 373290,
+    "stats": {
+      "AISpellCategory": 128,
+      "TimeExist": 5900
+    }
+  },
+  "source": "client",
+  "comment": "The Space Merc Defender's reflect (server Lua 1813 / 905, npc_spells.rs REFLECT_*); tools/re/import_spells.py."
+}

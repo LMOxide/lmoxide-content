@@ -14,9 +14,14 @@
     {
       "skill": "skill/merc-defender-shot-castable",
       "weight": 1
+    },
+    {
+      "skill": "skill/merc-defender-reflect-castable",
+      "weight": 1
     }
   ],
   "skills_from": "named",
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "His shot (373106, a laser) and his reflect (373290, server Lua 1813 / 905): while he fights his reflect buff (373291, effect 379341) is up; a player's hit takes it down and he answers with the counter (373292: a charge-up, then an orb back at the attacker, ×1.25); it comes back after 3 s (531804). The user (2026-10-30): two attacks, a laser and a charged orb. It replaces a made-up ally shield that used the charge effect."
 }

@@ -1,0 +1,18 @@
+{
+  "id": "item/merc-defender-reflect-counter-projectile",
+  "name": "XX_merc defender reflect counter projectile",
+  "kind": "projectile",
+  "template": 373293,
+  "effect_package": 381835,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 373294
+      }
+    }
+  ],
+  "source": "client"
+}

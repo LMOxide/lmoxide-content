@@ -1,0 +1,23 @@
+{
+  "id": "skill/merc-defender-reflect-reapplier",
+  "name": "XX_merc defender reflect reapplier",
+  "client": {
+    "spell": 531804,
+    "stats": {
+      "TimeExist": 300
+    },
+    "actions": {
+      "37": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 373291
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Space Merc Defender's reflect (server Lua 1813 / 905, npc_spells.rs REFLECT_*); tools/re/import_spells.py."
+}

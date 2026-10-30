@@ -20,10 +20,6 @@
       "weight": 1
     },
     {
-      "skill": "skill/slash-238115",
-      "weight": 1
-    },
-    {
       "skill": "skill/pirate-grenadier-grenade",
       "weight": 1
     }
@@ -34,5 +30,5 @@
   },
   "loot": "loot/enemy",
   "source": "client",
-  "comment": "Also his grenade (190612 XX_Grenade: particle_pirate_grenadier_grenade, a 2 m blast ×1.0 where it lands), the client's grenadier spell beside his bomb (the user, 2026-10-30: he had more than the bomb). His bomb's recast is 5 or 7.5 s at random (its criteria)."
+  "comment": "His bomb (190796, recast 5 or 7.5 s at random) and his grenade (190612: particle_pirate_grenadier_grenade, a 2 m blast, recast 1.7 s), the client's grenadier spells. No melee: the XX_Slash (238115) he had asked for an ability_5 animation his look (ability_1, ability_2 only) lacks, so he stood stiff (the user, 2026-10-30; tools/content/anim_audit.py)."
 }

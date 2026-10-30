@@ -785,17 +785,6 @@
         "effect": 103205
       },
       {
-        "npcs": ["npc/space-merc-defender"],
-        "taken": "50%",
-        "on": "ally",
-        "range": 12.0,
-        "duration": "6s",
-        "cooldown": "15s",
-        "effect": 379341,
-        "cast_effect": 381834,
-        "projectile_effect": 381835
-      },
-      {
         "npcs": ["npc/medieval-ogre-defender-melee-war"],
         "taken": "50%",
         "on": "area",

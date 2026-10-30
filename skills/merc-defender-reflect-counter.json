@@ -1,0 +1,28 @@
+{
+  "id": "skill/merc-defender-reflect-counter",
+  "name": "XX_merc defender reflect counter",
+  "client": {
+    "spell": 373292,
+    "stats": {
+      "AttackRange": 1250,
+      "EffectPackage": 381834,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 373293,
+            "ProjectileType": 1,
+            "Speed": 600
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Space Merc Defender's counter: charges (381834) and fires an orb (item 373293, ×1.25) at whoever hit him while his reflect was up. TargetingMode 5 replaces the client's 8: its Lua (905) casts it on the attacker."
+}
