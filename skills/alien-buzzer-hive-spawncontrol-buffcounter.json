@@ -1,0 +1,13 @@
+{
+  "id": "skill/alien-buzzer-hive-spawncontrol-buffcounter",
+  "name": "XX_alien buzzer hive spawncontrol buffcounter",
+  "client": {
+    "spell": 470835,
+    "stats": {
+      "MaxBuffCounters": 5,
+      "TimeExist": 5900
+    }
+  },
+  "source": "client",
+  "comment": "The Vespid Colony's spawn counter. MaxBuffCounters 5 is added (a guess, as the spider nests' and the Hurler's): the client's has none, and its spawn spell has no criterion, so it would spawn a Vespid every 2.5 s without end."
+}

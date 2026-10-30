@@ -12,11 +12,25 @@
     "health": 9198
   },
   "attack": "skill/spell-2029",
+  "skills": [
+    {
+      "skill": "skill/merc-bot-artillery-melee-castable",
+      "weight": 1
+    },
+    {
+      "skill": "skill/merc-bot-artillery-shot-right-castable",
+      "weight": 1
+    },
+    {
+      "skill": "skill/merc-bot-artillery-shot-left-castable",
+      "weight": 1
+    }
+  ],
   "movement": {
     "set": "treant"
   },
   "loot": "loot/enemy",
   "source": "surveyed",
   "tags": ["approximate"],
-  "comment": "A Gatekeeper's Realm variant (user, research/lmoxide-notes/gatekeeper-variants.md): look bot_artillery_merc 359202. npc_template 2410 is one of the client's 14 \"Gatekeeper\" names (TDB 51000), paired in order (a guess); level 15 and 7x a regular level-15 enemy's life (boss rank) are guesses. Summon/buff skills (adds) not added yet."
+  "comment": "A Gatekeeper's Realm variant (user, research/lmoxide-notes/gatekeeper-variants.md): look bot_artillery_merc 359202. npc_template 2410 is one of the client's 14 \"Gatekeeper\" names (TDB 51000), paired in order (a guess); level 15 and 7x a regular level-15 enemy's life (boss rank) are guesses. Summon/buff skills (adds) not added yet. Its kit is the client's bot_artillery_merc spells (the user asked for their animations, 2026-10-30): the stomp up close (445569: 4 m around, ×1.0 and a 10 m knockaway, animation and particle 444664) and its two cannons' shells (380345 / 445578, 5–20 m, animation 400918)."
 }

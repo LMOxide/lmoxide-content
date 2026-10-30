@@ -1,0 +1,46 @@
+{
+  "id": "skill/merc-bot-artillery-shot-left-castable",
+  "name": "XX_merc bot artillery shot left castable",
+  "client": {
+    "spell": 445578,
+    "stats": {
+      "AIPowerrating": 5,
+      "AttackRange": 2000,
+      "EffectPackage": 400918,
+      "ItemDelay": 50,
+      "RechargeDelay": 400
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "AttractorID": 2,
+            "DisplaceMentY": 220,
+            "ItemInstance": 380346,
+            "MinimumAttackRange": 500,
+            "ProjectileType": 2,
+            "Speed": 500
+          }
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "AttractorID": 2,
+            "DisplaceMentY": 220,
+            "ItemInstance": 599302,
+            "MinimumAttackRange": 500,
+            "ProjectileType": 2,
+            "Speed": 500000
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Merc Artillery Bot's shell from its left cannon (AttractorID): a shell landing where the player was (2 m, ×1.5) and an instant marker there. The client gives it no AI stats (the original server's AI fired it); AttackRange 20 m, RechargeDelay 4 s, ItemDelay 0.5 s and AIPowerrating 5 are guesses. Its EffectPackage 400918 is the firing animation."
+}

@@ -1,0 +1,43 @@
+{
+  "id": "skill/merc-bot-artillery-melee-castable",
+  "name": "XX_merc bot artillery melee castable",
+  "client": {
+    "spell": 445569,
+    "stats": {
+      "AIPowerrating": 10,
+      "AISpellCategory": 1,
+      "AttackRange": 150,
+      "EffectPackage": 444664,
+      "ItemDelay": 100,
+      "MoreFlags": 536870912,
+      "RechargeDelay": 100,
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 445576,
+            "Radius": 4
+          }
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 445569,
+            "Value": 500
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Merc Artillery Bot's (bot_artillery_merc) attack; tools/re/import_spells.py."
+}

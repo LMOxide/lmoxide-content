@@ -1,0 +1,33 @@
+{
+  "id": "npc/vespid-colony",
+  "name": "Vespid Colony",
+  "kind": "enemy",
+  "render": {
+    "monster_data": 387199,
+    "npc_template": 1453,
+    "look": "space_buzzer_hive",
+    "cars_group": 3
+  },
+  "level": 26,
+  "stats": {
+    "health": 3083,
+    "life_factor": 0.8
+  },
+  "attack": "skill/spell-2029",
+  "skills": [
+    {
+      "skill": "skill/alien-buzzer-hive-spawn-castable",
+      "weight": 1
+    }
+  ],
+  "ai": {
+    "stationary": true,
+    "fixed_facing": true
+  },
+  "movement": {
+    "set": "monster-fast"
+  },
+  "loot": "loot/enemy",
+  "source": "guess",
+  "comment": "The space_buzzer_hive look: spawns a Vespid (387622 \"alien buzzer hive spawn castable\", SpawnMonster VOOL) beside itself every 2.5 s while players are within 12.5 m, up to 5 alive (the cap a guess). The user (2026-10-30): the hive spawns Space Buzzers like the mounds. Its name is TDB 51000 #1453 \"Vespid Colony\" (among the Space Port templates; live called the space_buzzer look Vespid); level and stats as the Small Spider Mound's. Nothing places it: neither the live capture nor the client's data has one."
+}

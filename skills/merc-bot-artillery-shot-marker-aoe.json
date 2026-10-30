@@ -1,0 +1,13 @@
+{
+  "id": "skill/merc-bot-artillery-shot-marker-aoe",
+  "name": "XX_merc bot artillery shot marker aoe",
+  "client": {
+    "spell": 599301,
+    "stats": {
+      "EffectPackage": 413361,
+      "TargetingMode": 7
+    }
+  },
+  "source": "client",
+  "comment": "The Merc Artillery Bot's (bot_artillery_merc) attack; tools/re/import_spells.py."
+}

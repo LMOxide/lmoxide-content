@@ -1,0 +1,17 @@
+{
+  "id": "item/merc-bot-artillery-shot-marker",
+  "name": "XX_merc bot artillery shot marker",
+  "kind": "projectile",
+  "template": 599302,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 599301
+      }
+    }
+  ],
+  "source": "client"
+}

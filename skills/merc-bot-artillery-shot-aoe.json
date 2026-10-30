@@ -1,0 +1,27 @@
+{
+  "id": "skill/merc-bot-artillery-shot-aoe",
+  "name": "XX_merc bot artillery shot aoe",
+  "client": {
+    "spell": 380350,
+    "stats": {
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 380347,
+            "Radius": 2
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Merc Artillery Bot's (bot_artillery_merc) attack; tools/re/import_spells.py."
+}

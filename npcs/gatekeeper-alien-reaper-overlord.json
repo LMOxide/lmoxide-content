@@ -14,6 +14,10 @@
   "attack": "skill/spell-2029",
   "skills": [
     {
+      "skill": "skill/alien-overlord-bolt-castable",
+      "weight": 1
+    },
+    {
       "skill": "skill/alien-overlord-spawn-4-castable",
       "weight": 1
     }
@@ -21,5 +25,5 @@
   "loot": "loot/enemy",
   "source": "surveyed",
   "tags": ["approximate"],
-  "comment": "Spawns four Alien Pods around himself, N/E/S/W (379720, every 16.4 s within 15 m, up to 5 alive: his counter 440771); the client's spell, the user's memory (2026-10-30)."
+  "comment": "Shoots his bolt (379497: a projectile, 15 m, ×1.0) and spawns four Alien Pods on the points north, east, south and west of himself (379720, every 16.4 s within 15 m, up to 5 alive: his counter 440771), each beamed from him by its spawn visuals (440781, effect 464434: 3 s stunned); the client's spells, the user's memory (2026-10-30)."
 }

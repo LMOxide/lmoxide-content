@@ -1,0 +1,32 @@
+{
+  "id": "skill/alien-overlord-bolt-castable",
+  "name": "XX_alien overlord bolt castable",
+  "client": {
+    "spell": 379497,
+    "stats": {
+      "AISpellCategory": 1024,
+      "AttackRange": 1500,
+      "EffectPackage": 385595,
+      "ItemDelay": 36,
+      "RechargeDelay": 164,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "AttackRange": 2000,
+            "ItemInstance": 379498,
+            "ProjectileType": 1,
+            "Speed": 1250
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

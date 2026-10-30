@@ -1,0 +1,18 @@
+{
+  "id": "item/alien-overlord-bolt-projectile",
+  "name": "XX_alien overlord bolt projectile",
+  "kind": "projectile",
+  "template": 379498,
+  "effect_package": 401030,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 379499
+      }
+    }
+  ],
+  "source": "client"
+}

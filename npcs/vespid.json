@@ -25,5 +25,7 @@
     "set": "character-default"
   },
   "loot": "loot/enemy",
-  "source": "client"
+  "spawn_hash": "VOOL",
+  "source": "client",
+  "comment": "Also what the Vespid Colony spawns (VOOL, a guess by look: the hive is space_buzzer_hive, this space_buzzer)."
 }

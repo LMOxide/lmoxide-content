@@ -1,0 +1,30 @@
+{
+  "id": "skill/merc-bot-artillery-melee-wrapper",
+  "name": "XX_merc bot artillery melee wrapper",
+  "client": {
+    "spell": 445576,
+    "stats": {
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 445570
+          }
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 445577
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Merc Artillery Bot's (bot_artillery_merc) attack; tools/re/import_spells.py."
+}

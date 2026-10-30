@@ -1,0 +1,38 @@
+{
+  "id": "skill/alien-buzzer-hive-spawn-castable",
+  "name": "XX_alien buzzer hive spawn castable",
+  "client": {
+    "spell": 387622,
+    "stats": {
+      "AIPowerrating": 10,
+      "AISpellCategory": 1,
+      "AttackRange": 1250,
+      "ItemDelay": 200,
+      "RechargeDelay": 50
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "HateValue": 1,
+            "NanoTemplate": 470836,
+            "StringHash": "VOOL"
+          }
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 387622,
+            "Value": 250
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

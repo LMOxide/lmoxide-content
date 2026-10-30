@@ -1,0 +1,18 @@
+{
+  "id": "item/merc-bot-artillery-shot-projectile",
+  "name": "XX_merc bot artillery shot projectile",
+  "kind": "projectile",
+  "template": 380346,
+  "effect_package": 390855,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 380350
+      }
+    }
+  ],
+  "source": "client"
+}

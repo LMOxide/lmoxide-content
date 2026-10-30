@@ -1,0 +1,34 @@
+{
+  "id": "skill/merc-bot-artillery-melee-knockaway",
+  "name": "XX_merc bot artillery melee knockaway",
+  "client": {
+    "spell": 445577,
+    "stats": {
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 365804
+          }
+        },
+        {
+          "type": "Knockaway",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "Arg1": 1,
+            "Distance": 10,
+            "PowerRating": 9001,
+            "Speed": 25
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Merc Artillery Bot's (bot_artillery_merc) attack; tools/re/import_spells.py."
+}
