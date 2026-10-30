@@ -10,6 +10,53 @@
       "source": "client"
     },
     {
+      "id": "portal/5200/to-siege-command-room",
+      "pos": [146.81, 17.13, 58.34],
+      "window": 50,
+      "to": {
+        "world": "world/siege-command-room"
+      },
+      "source": "client"
+    },
+    {
+      "id": "portal/5200/to-spider-s-nest",
+      "pos": [276.89, 14.75, 178.46],
+      "window": 10,
+      "to": {
+        "world": "world/spider-s-nest"
+      },
+      "source": "client"
+    },
+    {
+      "id": "portal/5200/to-dragon-halls",
+      "pos": [347.99, 33.62, 283.4],
+      "window": 17,
+      "to": {
+        "world": "world/dragon-halls"
+      },
+      "source": "guess",
+      "comment": "The Dragon Hill entrance (genesisdoordynel, by the Quest_DragonHill trolls): magic like the Candy Kingdom one (1682); which leads where is told apart by place (the user reported both broken, 2026-10-30)"
+    },
+    {
+      "id": "portal/5200/to-forgotten-ruins",
+      "pos": [386.89, 16.3, 163.83],
+      "window": 51,
+      "to": {
+        "world": "world/forgotten-ruins"
+      },
+      "source": "client"
+    },
+    {
+      "id": "portal/5200/to-bewitched-candy-forest",
+      "pos": [497.54, 21.07, 175.95],
+      "window": 52,
+      "to": {
+        "world": "world/bewitched-candy-forest"
+      },
+      "source": "guess",
+      "comment": "The Candy Kingdom entrance (its door spawn; the user stood 11.6 m north of it, 496.9 20.0 187.5, 2026-10-30): magic like the Dragon Hill one (5500); which leads where is told apart by place"
+    },
+    {
       "id": "portal/5200/to-kingdom",
       "pos": [112.65, 25.0, 265.84],
       "window": 73,

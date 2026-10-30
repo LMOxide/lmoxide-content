@@ -15,9 +15,29 @@
   },
   "arrival_guid": 289435,
   "arrival_from": {
+    "world/bewitched-candy-forest": {
+      "pos": [493.21, 20.65, 173.45],
+      "rot": 4.189
+    },
+    "world/dragon-halls": {
+      "pos": [345.49, 33.18, 279.07],
+      "rot": 3.665
+    },
+    "world/forgotten-ruins": {
+      "pos": [382.06, 15.77, 165.12],
+      "rot": 4.974
+    },
     "world/ruined-fort": {
       "pos": [496.08, 40.64, 318.08],
       "rot": 4.451
+    },
+    "world/siege-command-room": {
+      "pos": [144.31, 16.67, 62.67],
+      "rot": 5.76
+    },
+    "world/spider-s-nest": {
+      "pos": [272.06, 14.31, 179.75],
+      "rot": 4.974
     }
   },
   "window": 9,
