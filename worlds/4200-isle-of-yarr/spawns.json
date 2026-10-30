@@ -8075,6 +8075,22 @@
       "source": "proposed",
       "tags": ["speed-pad"],
       "comment": "The speed buildie of BA_Speedbuff_6, as the live capture had them on Isle of Yarr's pads (extract_server_areas.py)"
+    },
+    {
+      "id": "spawn/4200/captain-dreadleg-fort",
+      "name": "Captain Dreadleg",
+      "kind": "enemy",
+      "template": "npc/captain-dreadleg",
+      "pos": [317.87, 72.0, 320.36],
+      "overrides": {
+        "level": 4
+      },
+      "wave": {
+        "script": "script/4200/dreadleg-fort",
+        "wave": "w1"
+      },
+      "anchor": "fort dreadleg",
+      "source": "guess"
     }
   ]
 }

@@ -1,0 +1,14 @@
+{
+  "id": "script/4200/dreadleg-fort",
+  "name": "Captain Dreadleg in the Jacket Fort",
+  "waves": [
+    {
+      "id": "w1",
+      "name": "Captain Dreadleg"
+    }
+  ],
+  "reference": "Pirate line 'Investigate the Jacket Fort' (AKJH): dialogue 828 'Enough! Ye a strong scallywag fer sure!' plays after a fight with him (Cine_DreadlegAfterFight1-3, Cine_PlayerAfterFight1-3 markers) and resolves AKJH; he stands on the client's 'fort dreadleg' marker (guid 637072), its end marker 'fort dreadleg end' is where 840 teleports the player.",
+  "status": "approved",
+  "source": "guess",
+  "comment": "Started by trigger/4200/dreadleg-fort-fight (story_script: players with 4161, without 4183). Guess: the live fight isn't recorded; template and level as the tutorial's Captain Dreadleg (live 1300) at the fort enemies' level 4."
+}
