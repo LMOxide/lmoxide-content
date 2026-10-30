@@ -13,7 +13,7 @@
   "attack": "skill/spell-237324",
   "skills": [
     {
-      "skill": "skill/grenade-throw",
+      "skill": "skill/grenadier-bomb",
       "weight": 1
     },
     {

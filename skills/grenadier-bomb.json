@@ -1,0 +1,56 @@
+{
+  "id": "skill/grenadier-bomb",
+  "name": "Bomb",
+  "client": {
+    "spell": 190796,
+    "stats": {
+      "AISpellCategory": 1024,
+      "AttackRange": 1000,
+      "EffectPackage": 194646,
+      "ItemDelay": 32,
+      "RechargeDelay": 168,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 190832,
+            "ProjectileType": 2,
+            "Speed": 600
+          }
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 190796,
+            "Value": 500
+          },
+          "criteria": [
+            [0, 0, 19],
+            [520, 50, 7]
+          ]
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 190796,
+            "Value": 750
+          },
+          "criteria": [
+            [0, 0, 19],
+            [522, 51, 8]
+          ]
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

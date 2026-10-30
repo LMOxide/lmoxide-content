@@ -1,0 +1,19 @@
+{
+  "id": "item/grenadier-bomb",
+  "name": "Bomb",
+  "kind": "projectile",
+  "template": 190832,
+  "effect_package": 202159,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 190829
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "The Pirate Grenadier's lobbed bomb: effect package 202159 is particle_pirate_grenadier_bomb_projectile; where it lands, 190829 leaves the pirate_grenadier_bomb fuse (237761) and 191106 explodes."
+}

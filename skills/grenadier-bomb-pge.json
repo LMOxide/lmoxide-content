@@ -1,0 +1,26 @@
+{
+  "id": "skill/grenadier-bomb-pge",
+  "name": "Bomb Fuse",
+  "client": {
+    "spell": 190829,
+    "stats": {
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg2": 1,
+            "DelayTime": 200,
+            "EffectPackage": 237761,
+            "Flags": 8,
+            "NanoTemplate": 191106
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

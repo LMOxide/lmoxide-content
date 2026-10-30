@@ -1,0 +1,74 @@
+{
+  "id": "skill/grenadier-bomb-aoe",
+  "name": "Bomb Explosion",
+  "client": {
+    "spell": 191106,
+    "stats": {
+      "EffectPackage": 227964,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "ColumnFormula",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 7,
+            "FloatValue1": 0.5,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 191107
+          }
+        },
+        {
+          "type": "ColumnFormula",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 7,
+            "FloatValue1": 0.5,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 191107,
+            "Value1": 1
+          }
+        },
+        {
+          "type": "ColumnFormula",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 7,
+            "FloatValue1": 0.5,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 191107,
+            "Value1": 2
+          }
+        },
+        {
+          "type": "ColumnFormula",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 7,
+            "FloatValue1": 0.5,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 191107,
+            "Value1": 3
+          }
+        },
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 191107,
+            "Radius": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

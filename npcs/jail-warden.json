@@ -1,0 +1,23 @@
+{
+  "id": "npc/jail-warden",
+  "name": "Jail Warden",
+  "kind": "enemy",
+  "render": {
+    "monster_data": 192827,
+    "npc_template": 1681,
+    "look": "pirate_officer",
+    "cars_group": 3
+  },
+  "level": 2,
+  "stats": {
+    "health": 337,
+    "life_factor": 1.5
+  },
+  "attack": "skill/spell-2029",
+  "movement": {
+    "set": "monster-fast"
+  },
+  "loot": "loot/boss",
+  "source": "live",
+  "comment": "The live capture's Jail Warden (4610): NPC template 1681, pirate_officer (192827), level 2, 337 life, the monster-fast speeds; his bag was a boss bag (loot/boss). The jail's gate behind him opens when he falls (gates.rs)."
+}

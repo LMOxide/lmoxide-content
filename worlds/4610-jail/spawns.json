@@ -31,6 +31,16 @@
       "source": "demo"
     },
     {
+      "id": "spawn/4610/jail-warden",
+      "name": "Jail Warden",
+      "kind": "enemy",
+      "template": "npc/jail-warden",
+      "pos": [240.05, 14.03, 299.89],
+      "rot": -3.077,
+      "source": "live",
+      "comment": "The live capture's Jail Warden (instance 6936) in front of the jail's gate; the gate (guid 576082) and its door collision (576750) open when he falls, as live did (gates.rs)."
+    },
+    {
       "id": "spawn/4610/swashbuckler",
       "name": "Swashbuckler",
       "kind": "npc",
