@@ -713,6 +713,43 @@
       "description": "A share: \"20%\" or a fraction (0.2)",
       "x-lmoxide-unit": "ratio"
     },
+    "Refusal": {
+      "additionalProperties": false,
+      "description": "A quest-goal CARS rule: while a player has story goal `goal` (a quest goal's `hash`), these\nactions on the object are refused.",
+      "properties": {
+        "actions": {
+          "items": {
+            "$ref": "#/$defs/RefusedAction"
+          },
+          "type": "array"
+        },
+        "goal": {
+          "type": "string"
+        },
+        "rule": {
+          "description": "The client's rule group id (RDB 1010505; shown).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": ["integer", "null"]
+        }
+      },
+      "required": ["goal", "actions"],
+      "type": "object"
+    },
+    "RefusedAction": {
+      "oneOf": [
+        {
+          "const": "hit",
+          "description": "Hostile actions: hitting or smashing it.",
+          "type": "string"
+        },
+        {
+          "const": "use",
+          "description": "Using it (friendly actions).",
+          "type": "string"
+        }
+      ]
+    },
     "Render": {
       "additionalProperties": false,
       "description": "How a template looks in the client.",
@@ -1001,6 +1038,13 @@
     "on_use": {
       "items": {
         "$ref": "#/$defs/Action"
+      },
+      "type": "array"
+    },
+    "refused": {
+      "description": "What players can't do to it while they have a story goal (the client's quest-goal\nCARS rules, RDB 1010505: the jail's cracked wall before talking to Swashbuckler).",
+      "items": {
+        "$ref": "#/$defs/Refusal"
       },
       "type": "array"
     },

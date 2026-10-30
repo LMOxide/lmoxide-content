@@ -7,5 +7,12 @@
     "look": "crystal_compass",
     "visual": [1010201, 635274]
   },
+  "refused": [
+    {
+      "goal": "YMQL",
+      "actions": ["hit", "use"],
+      "rule": 611819
+    }
+  ],
   "source": "demo"
 }
