@@ -517,6 +517,16 @@
               "properties": {
                 "args": {
                   "additionalProperties": true,
+                  "properties": {
+                    "script": {
+                      "type": "string",
+                      "x-lmoxide-ref": ["script"]
+                    },
+                    "to": {
+                      "type": "string",
+                      "x-lmoxide-ref": ["area"]
+                    }
+                  },
                   "type": "object"
                 },
                 "name": {
