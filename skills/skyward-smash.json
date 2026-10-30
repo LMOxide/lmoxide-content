@@ -8,5 +8,17 @@
     }
   },
   "minifigure": "Evil Dwarf: Skyward Smash",
-  "source": "client"
+  "effects": [
+    {
+      "command": {
+        "name": "ability.dash_by_distance",
+        "args": {
+          "cooldown_spell": 595442,
+          "dashes": [595416, 595417, 595413, 668769, 668770, 668771, 668772, 668773, 668774, 668766]
+        }
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Server Lua 3821: casts the cooldown 595442, then the dash for the whole metres to the target (1 ... 10). From 4 m the script names the Wrestling Champion's dashes (668769 ...), as shipped."
 }

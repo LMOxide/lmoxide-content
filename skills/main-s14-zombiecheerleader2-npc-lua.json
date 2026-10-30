@@ -1,0 +1,23 @@
+{
+  "id": "skill/main-s14-zombiecheerleader2-npc-lua",
+  "name": "main s14 zombiecheerleader2 npc lua",
+  "client": {
+    "spell": 642562,
+    "stats": {
+      "LuaScriptID": 4355,
+      "TargetingMode": 5
+    }
+  },
+  "effects": [
+    {
+      "command": {
+        "name": "pet.owner_casts",
+        "args": {
+          "spell": 642556
+        }
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "The Team Zombie pets' attack. Server Lua 4355: the pet's owner (stat 433) casts 642556 on the pet's target."
+}

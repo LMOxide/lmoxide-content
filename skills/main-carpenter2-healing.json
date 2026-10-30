@@ -9,5 +9,13 @@
       "TargetingMode": 1
     }
   },
-  "source": "client"
+  "effects": [
+    {
+      "heal": {
+        "amount": "2%"
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Carpenter's Craft's heal, 5 pulses 0.5 s apart within 3 m (563177). Server Lua 3242: setstat(27, health + life × 0.02)."
 }

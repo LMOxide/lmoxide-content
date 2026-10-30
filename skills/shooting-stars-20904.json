@@ -1,0 +1,108 @@
+{
+  "id": "skill/shooting-stars-20904",
+  "name": "Shooting Stars",
+  "client": {
+    "spell": 20904,
+    "stats": {
+      "AttackRange": 1500,
+      "TargetingMode": 6
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 50728,
+            "ProjectileType": 1,
+            "RotY": -15,
+            "Speed": 900
+          },
+          "criteria": [
+            [0, 448001, 101]
+          ]
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 50728,
+            "ProjectileType": 1,
+            "Speed": 1000
+          },
+          "criteria": [
+            [0, 448001, 101]
+          ]
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 50728,
+            "ProjectileType": 1,
+            "RotY": 15,
+            "Speed": 900
+          },
+          "criteria": [
+            [0, 448001, 101]
+          ]
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 50728,
+            "MaxRicochets": 1,
+            "ProjectileType": 1,
+            "RotY": 15,
+            "Speed": 1300
+          },
+          "criteria": [
+            [0, 448001, 91]
+          ]
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 50728,
+            "MaxRicochets": 1,
+            "ProjectileType": 1,
+            "RotY": -15,
+            "Speed": 1300
+          },
+          "criteria": [
+            [0, 448001, 91]
+          ]
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 50728,
+            "MaxRicochets": 1,
+            "ProjectileType": 1,
+            "Speed": 1450
+          },
+          "criteria": [
+            [0, 448001, 91]
+          ]
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 1,
+            "Value": 20691
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

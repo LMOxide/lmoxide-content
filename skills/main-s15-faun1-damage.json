@@ -1,0 +1,25 @@
+{
+  "id": "skill/main-s15-faun1-damage",
+  "name": "main s15 faun1 damage",
+  "client": {
+    "spell": 667226,
+    "stats": {
+      "EffectPackage": 668722,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 1.0,
+            "ApplyOn": 3,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "skill/main-s15-wrestlingchampion2-dashdistance06",
+  "name": "main s15 wrestlingchampion2 dashdistance06",
+  "client": {
+    "spell": 668771,
+    "stats": {
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "ColumnDash",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 6,
+            "FloatValue1": 0.5,
+            "NPCSelectMode": 3,
+            "TemplateID2": 667141,
+            "Value1": 668841
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

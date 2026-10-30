@@ -12,5 +12,18 @@
     }
   },
   "minifigure": "Faun: Mythic Song",
-  "source": "client"
+  "effects": [
+    {
+      "command": {
+        "name": "ability.alternate",
+        "args": {
+          "first": 668572,
+          "marker": 668568,
+          "second": 668573
+        }
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Server Lua 4621: without the marker buff 668568 casts projectile 668572 and the marker (0.6 s); with it, projectile 668573, so the shots alternate."
 }

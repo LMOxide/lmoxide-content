@@ -1,0 +1,42 @@
+{
+  "id": "skill/main-skatergirl2-aoe-wrapper",
+  "name": "main skatergirl2 aoe wrapper",
+  "client": {
+    "spell": 595495,
+    "stats": {
+      "EffectPackage": 598800,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 595496
+          }
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 1,
+            "Value": 595567
+          }
+        },
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 595623,
+            "Value": 1
+          },
+          "criteria": [
+            [0, 0, 19],
+            [0, 596059, 91]
+          ]
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

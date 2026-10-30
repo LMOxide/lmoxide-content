@@ -1,0 +1,11 @@
+{
+  "id": "skill/main-s15-faun1-buff",
+  "name": "main s15 faun1 buff",
+  "client": {
+    "spell": 668568,
+    "stats": {
+      "TimeExist": 60
+    }
+  },
+  "source": "client"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "item/main-s15-faun1-projectile2",
+  "name": "main s15 faun1 projectile2",
+  "kind": "projectile",
+  "template": 668570,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 667226
+      }
+    }
+  ],
+  "source": "client"
+}

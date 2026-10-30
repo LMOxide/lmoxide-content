@@ -1,0 +1,43 @@
+{
+  "id": "skill/shooting-stars-20903",
+  "name": "Shooting Stars",
+  "client": {
+    "spell": 20903,
+    "stats": {
+      "AttackRange": 1500,
+      "TargetingMode": 6
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 50717,
+            "ProjectileType": 1,
+            "Speed": 1000
+          },
+          "criteria": [
+            [0, 448001, 101]
+          ]
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 50717,
+            "MaxRicochets": 1,
+            "ProjectileType": 1,
+            "Speed": 1450
+          },
+          "criteria": [
+            [0, 448001, 91]
+          ]
+        }
+      ]
+    }
+  },
+  "source": "client"
+}

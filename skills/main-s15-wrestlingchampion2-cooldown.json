@@ -1,0 +1,21 @@
+{
+  "id": "skill/main-s15-wrestlingchampion2-cooldown",
+  "name": "main s15 wrestlingchampion2 cooldown",
+  "client": {
+    "spell": 668775,
+    "actions": {
+      "0": [
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 663965,
+            "Value": 750
+          }
+        }
+      ]
+    }
+  },
+  "source": "client"
+}
