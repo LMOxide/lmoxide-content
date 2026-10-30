@@ -445,6 +445,59 @@
       "required": ["potion_heal", "barely_alive_below", "barely_alive_tag", "level_up_knockaway"],
       "type": "object"
     },
+    "Homestone": {
+      "additionalProperties": false,
+      "description": "The Homestone (server homestone.rs). A dialogue's `spawn <hash>` gives its item\n(`[Give Homestone]{spawn SLXS 1 m}`, text 823; the live capture's AddItem carries the hash),\nwhose actions put the spell on its shortcut; the spell is game action 637122\n(`ga_teleportplayer` with `Teleport_X=330;Teleport_Y=49;Teleport_Z=67;Teleport_Rotation=45;\nTeleportPlayfieldID=1200;DenyFromEndless=1`).",
+      "properties": {
+        "arrival": {
+          "$ref": "#/$defs/Point"
+        },
+        "cast": {
+          "$ref": "#/$defs/Duration",
+          "description": "The cast: nano 637122's ItemDelay, and its effect package (the hearthstone particles,\n5 s) on the caster."
+        },
+        "denied_text": {
+          "description": "Refused in a Lost Creations level (DenyFromEndless), with this line (TDB 50018 8617458).",
+          "type": "string"
+        },
+        "effect_package": {
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer",
+          "x-lmoxide-client": "effect_package"
+        },
+        "hash": {
+          "description": "The `spawn <hash>` that gives it (empty: nothing gives it).",
+          "type": "string"
+        },
+        "item": {
+          "description": "\"XX_Item that gives Homestone\" (LearnSpell, AddToShortcutbar).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer",
+          "x-lmoxide-client": "item"
+        },
+        "shortcut": {
+          "description": "The shortcut bar position the item puts the spell on.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "spell": {
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer",
+          "x-lmoxide-client": "spell"
+        },
+        "world": {
+          "description": "Where it goes.",
+          "type": "string",
+          "x-lmoxide-ref": ["world"]
+        }
+      },
+      "required": ["hash", "item", "spell", "shortcut", "cast", "effect_package", "world", "arrival", "denied_text"],
+      "type": "object"
+    },
     "Knockaway": {
       "additionalProperties": false,
       "description": "A push away from a point (the client's AreaKnockaway: Radius, Distance, Speed).",
@@ -1183,6 +1236,23 @@
         "potion_heal": "0%"
       },
       "description": "Potions, health orbs and level-ups."
+    },
+    "homestone": {
+      "$ref": "#/$defs/Homestone",
+      "default": {
+        "arrival": {
+          "pos": [0.0, 0.0, 0.0]
+        },
+        "cast": "0s",
+        "denied_text": "",
+        "effect_package": 0,
+        "hash": "",
+        "item": 0,
+        "shortcut": 0,
+        "spell": 0,
+        "world": ""
+      },
+      "description": "The Homestone: the jail escape gives it, its spell returns to the LEGO Center."
     },
     "loot": {
       "$ref": "#/$defs/Loot"
