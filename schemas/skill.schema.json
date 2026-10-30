@@ -1090,6 +1090,10 @@
     "name": {
       "type": "string"
     },
+    "parallel": {
+      "description": "An enemy casts it alongside its other actions: it neither waits for the one under way\nnor holds the next one back (enemies otherwise see each action through first).",
+      "type": "boolean"
+    },
     "projectile": {
       "anyOf": [
         {
