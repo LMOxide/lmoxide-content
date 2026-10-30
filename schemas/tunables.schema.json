@@ -841,6 +841,11 @@
           "default": "100%",
           "description": "A quest pickup quest's `dropped_by` defeat drops one of its pickups this often (not in the\nclient)."
         },
+        "repeat_conversation_minifigures": {
+          "default": false,
+          "description": "A pocket adventure whose minifigure a conversation gives (the Monkey Cave's Island\nWarrior rescue) gives it again on later clears, as a bag, once that conversation has\nplayed (it plays once). False (the user's choice, 2026-10-29): only the conversation does.",
+          "type": "boolean"
+        },
         "spawn_minifigures": {
           "additionalProperties": {
             "type": "string"
@@ -985,6 +990,7 @@
       "$ref": "#/$defs/Story",
       "default": {
         "pickup_drop_chance": "100%",
+        "repeat_conversation_minifigures": false,
         "windows_unlocked": true
       },
       "description": "The story: narrated cinematics, quest pickups."

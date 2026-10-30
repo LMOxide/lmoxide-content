@@ -457,7 +457,8 @@
       "GQKS": "minifig/jester",
       "RG5K": "minifig/revolutionary-soldier",
       "SIKZ": "minifig/island-warrior"
-    }
+    },
+    "repeat_conversation_minifigures": false
   },
   "more": {
     "achievements.area_names": {

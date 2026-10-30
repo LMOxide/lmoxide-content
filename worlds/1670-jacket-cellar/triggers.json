@@ -32,20 +32,6 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
-    },
-    {
-      "id": "trigger/1670/story-cine-rescue-pizza-guy1",
-      "name": "Cine_Rescue_Pizza_Guy1",
-      "area": "area/1670/cine-rescue-pizza-guy1",
-      "actions": [
-        {
-          "dialogue": {
-            "dialogue": "dialogue/rescue-pizza-guy-783"
-          }
-        }
-      ],
-      "source": "guess",
-      "comment": "rescue-pizza-guy-783: likely (reconstructed): area Cine_Rescue_Pizza_Guy1 14.3 m from its 11 markers (1670); epilogue 788 gives 4143, resolves CFBT (next Pirate step); 860 answers 786 (\"didn't tip me last time?\" - \"No...that was someone else\") (tools/content/import_story.py)"
     }
   ]
 }
