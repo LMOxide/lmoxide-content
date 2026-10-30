@@ -14,6 +14,7 @@
           "args": {
             "ApplyOn": 3,
             "DisplaceMentX": 250,
+            "HitNano": 2000374159,
             "ItemInstance": 238118,
             "ProjectileType": 3,
             "RotY": 0,
@@ -26,6 +27,7 @@
           "args": {
             "ApplyOn": 3,
             "DisplaceMentX": 250,
+            "HitNano": 2000374159,
             "ItemInstance": 238118,
             "ProjectileType": 3,
             "RotY": 90,
@@ -38,6 +40,7 @@
           "args": {
             "ApplyOn": 3,
             "DisplaceMentX": 250,
+            "HitNano": 2000374159,
             "ItemInstance": 238118,
             "ProjectileType": 3,
             "RotY": 180,
@@ -50,6 +53,7 @@
           "args": {
             "ApplyOn": 3,
             "DisplaceMentX": 250,
+            "HitNano": 2000374159,
             "ItemInstance": 238118,
             "ProjectileType": 3,
             "RotY": 270,
@@ -60,5 +64,5 @@
     }
   },
   "source": "guess",
-  "comment": "Server-made nano (no client spell: id 2000000000 + the bomb ring's; its TimeExist is only how long the bombs last, 10 s): four grenade items circling the anchor it is cast on, 2.5 m out, a quarter turn a second, bursting for the grenade's 1 m blast. The look is wrong (the grenade item renders as a potion): the user will find the right one."
+  "comment": "Server-made nano (no client spell: id 2000000000 + the bomb ring's; its TimeExist is only how long the bombs last, 10 s): four grenade items circling the anchor it is cast on, 2.5 m out, a quarter turn a second, bursting with skill/merc-engineer-bomb-blast (HitNano: a server-made extension). The look is wrong (the grenade item renders as a potion): the user will find the right one."
 }
