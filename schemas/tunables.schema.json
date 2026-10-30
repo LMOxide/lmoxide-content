@@ -849,6 +849,59 @@
       ],
       "type": "object"
     },
+    "MovementDefault": {
+      "additionalProperties": false,
+      "description": "The movement set of an NPC without its own `movement`, by kind.",
+      "properties": {
+        "enemy": {
+          "description": "Enemies and friendly fighters.",
+          "type": "string"
+        },
+        "other": {
+          "description": "Friendly NPCs, pets and the rest.",
+          "type": "string"
+        }
+      },
+      "required": ["enemy", "other"],
+      "type": "object"
+    },
+    "MovementSet": {
+      "additionalProperties": false,
+      "description": "The client's movement sets (RDB 1010205 `movementset`; monster data names them). The speed\nstats an NPC gets: 1396 MovementWalkSpeed = `walk` (basewalkspeed), 1397 MovementRunSpeed =\n`run`, 1398 MovementSprintSpeed = `sprint`, 1399 MovementWalkBackwardsSpeed =\n`walk_backwards` (basereversewalkspeed), 1400 MovementChargeSpeed = `charge` (dashes).",
+      "properties": {
+        "charge": {
+          "format": "float",
+          "type": "number"
+        },
+        "id": {
+          "description": "The client's id (RDB 1010205) and name.",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        },
+        "name": {
+          "type": "string"
+        },
+        "run": {
+          "format": "float",
+          "type": "number"
+        },
+        "sprint": {
+          "format": "float",
+          "type": "number"
+        },
+        "walk": {
+          "format": "float",
+          "type": "number"
+        },
+        "walk_backwards": {
+          "format": "float",
+          "type": "number"
+        }
+      },
+      "required": ["id", "name", "walk", "run", "sprint", "walk_backwards", "charge"],
+      "type": "object"
+    },
     "NpcLife": {
       "additionalProperties": false,
       "description": "NPC life on the live server: life = base[level] x the template's life factor.",
@@ -877,6 +930,20 @@
             "$ref": "#/$defs/Faction"
           },
           "type": "array"
+        },
+        "movement_default": {
+          "$ref": "#/$defs/MovementDefault",
+          "default": {
+            "enemy": "",
+            "other": ""
+          }
+        },
+        "movement_sets": {
+          "additionalProperties": {
+            "$ref": "#/$defs/MovementSet"
+          },
+          "description": "The client's movement sets by slug (npc `movement.set`).",
+          "type": "object"
         },
         "regen_delay": {
           "$ref": "#/$defs/Duration",

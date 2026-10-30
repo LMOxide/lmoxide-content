@@ -25,6 +25,9 @@
     }
   ],
   "skills_from": "generic",
+  "movement": {
+    "set": "character-default"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

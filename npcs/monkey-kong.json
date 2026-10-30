@@ -14,6 +14,9 @@
     "life_factor": 7.5
   },
   "attack": "skill/spell-240264",
+  "movement": {
+    "set": "monster-fast"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

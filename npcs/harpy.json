@@ -22,6 +22,9 @@
     }
   ],
   "skills_from": "generic",
+  "movement": {
+    "set": "harpy"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

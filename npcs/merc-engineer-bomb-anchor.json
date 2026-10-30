@@ -12,6 +12,9 @@
   "stats": {
     "health": 1576
   },
+  "movement": {
+    "set": "character-default"
+  },
   "lifetime": "11s",
   "spawn_hash": "lmoxide-merc-engineer-bombs",
   "source": "guess",

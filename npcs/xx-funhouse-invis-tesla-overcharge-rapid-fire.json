@@ -15,6 +15,9 @@
   "ai": {
     "stationary": true
   },
+  "movement": {
+    "set": "monster-fast"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

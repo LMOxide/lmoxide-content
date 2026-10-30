@@ -9,6 +9,9 @@
   "stats": {
     "life_factor": 0.75
   },
+  "movement": {
+    "set": "monster-fast"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

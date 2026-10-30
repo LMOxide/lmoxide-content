@@ -21,6 +21,9 @@
     }
   ],
   "skills_from": "generic",
+  "movement": {
+    "set": "treant"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

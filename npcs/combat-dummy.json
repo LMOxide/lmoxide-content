@@ -12,5 +12,8 @@
   "stats": {
     "health": 1
   },
+  "movement": {
+    "set": "monster-slow"
+  },
   "source": "client"
 }

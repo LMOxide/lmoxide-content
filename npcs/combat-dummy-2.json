@@ -13,5 +13,8 @@
     "health": 75,
     "life_factor": 0.1
   },
+  "movement": {
+    "set": "monster-slow"
+  },
   "source": "client"
 }

@@ -121,7 +121,238 @@
         "name": "Red-coats",
         "monster_data": [192825, 192826, 192827]
       }
-    ]
+    ],
+    "movement_sets": {
+      "cerberus": {
+        "id": 149183,
+        "name": "cerberus_movementset",
+        "walk": 4.8,
+        "run": 4.8,
+        "sprint": 4.8,
+        "walk_backwards": 4.8,
+        "charge": 25.0
+      },
+      "character-default": {
+        "id": 1056,
+        "name": "CharacterDefaultMovementSet",
+        "walk": 5.6,
+        "run": 5.6,
+        "sprint": 5.6,
+        "walk_backwards": 5.6,
+        "charge": 37.5
+      },
+      "dev-christian-h-ship": {
+        "id": 205506,
+        "name": "Dev_ChristianH_ShipMovement",
+        "walk": 10.0,
+        "run": 10.0,
+        "sprint": 8.0,
+        "walk_backwards": 10.0,
+        "charge": 28.0
+      },
+      "grandma-visitor": {
+        "id": 301790,
+        "name": "grandma_visitor_movementset",
+        "walk": 5.6,
+        "run": 5.6,
+        "sprint": 5.6,
+        "walk_backwards": 5.6,
+        "charge": 7.0
+      },
+      "grandma-visitor-wolfrider": {
+        "id": 428714,
+        "name": "grandma_visitor_wolfrider_movementset",
+        "walk": 10.0,
+        "run": 10.0,
+        "sprint": 10.0,
+        "walk_backwards": 10.0,
+        "charge": 7.0
+      },
+      "half-speed": {
+        "id": 77871,
+        "name": "half_speed_movementset",
+        "walk": 2.8,
+        "run": 2.8,
+        "sprint": 8.0,
+        "walk_backwards": 2.8,
+        "charge": 28.0
+      },
+      "harpy": {
+        "id": 159598,
+        "name": "HarpyMonsterMovementSet",
+        "walk": 4.2,
+        "run": 4.2,
+        "sprint": 8.4,
+        "walk_backwards": 4.2,
+        "charge": 12.0
+      },
+      "kraken-tentacle": {
+        "id": 187850,
+        "name": "KrakenTentacleMovementSet",
+        "walk": 4.2,
+        "run": 4.2,
+        "sprint": 8.4,
+        "walk_backwards": 4.2,
+        "charge": 8.4
+      },
+      "minotaur": {
+        "id": 159597,
+        "name": "MinotaurMonsterMovementSet",
+        "walk": 2.8,
+        "run": 2.8,
+        "sprint": 5.6,
+        "walk_backwards": 2.8,
+        "charge": 14.0
+      },
+      "monster": {
+        "id": 80337,
+        "name": "MonsterMovementSet",
+        "walk": 2.8,
+        "run": 2.8,
+        "sprint": 5.6,
+        "walk_backwards": 2.8,
+        "charge": 8.4
+      },
+      "monster-fast": {
+        "id": 80336,
+        "name": "MonsterFastMovementSet",
+        "walk": 2.1,
+        "run": 4.2,
+        "sprint": 8.4,
+        "walk_backwards": 2.1,
+        "charge": 8.4
+      },
+      "monster-slow": {
+        "id": 80338,
+        "name": "MonsterSlowMovementSet",
+        "walk": 1.4,
+        "run": 1.4,
+        "sprint": 2.8,
+        "walk_backwards": 1.4,
+        "charge": 2.8
+      },
+      "motorcycle-mechanic": {
+        "id": 319935,
+        "name": "motorcycle_mechanic_movementset",
+        "walk": 5.6,
+        "run": 5.6,
+        "sprint": 5.6,
+        "walk_backwards": 5.6,
+        "charge": 14.0
+      },
+      "myth-forge-dale-lightning-pillar": {
+        "id": 105382,
+        "name": "myth_forge_dale_lightning_pillar",
+        "walk": 1.4,
+        "run": 1.4,
+        "sprint": 2.8,
+        "walk_backwards": 1.4,
+        "charge": 2.8
+      },
+      "myth-forge-rhyz-sun-pillar": {
+        "id": 105383,
+        "name": "myth_forge_rhyz_sun_pillar",
+        "walk": 1.4,
+        "run": 1.4,
+        "sprint": 2.8,
+        "walk_backwards": 1.4,
+        "charge": 2.8
+      },
+      "no-turning": {
+        "id": 209403,
+        "name": "no_turning_movementset",
+        "walk": 5.6,
+        "run": 5.6,
+        "sprint": 5.6,
+        "walk_backwards": 5.6,
+        "charge": 37.5
+      },
+      "ogre": {
+        "id": 102402,
+        "name": "ogre_movementset",
+        "walk": 4.2,
+        "run": 4.2,
+        "sprint": 4.2,
+        "walk_backwards": 4.2,
+        "charge": 12.0
+      },
+      "ogre-ranged": {
+        "id": 156666,
+        "name": "ogre_ranged_movementset",
+        "walk": 1.4,
+        "run": 1.4,
+        "sprint": 1.4,
+        "walk_backwards": 1.4,
+        "charge": 8.4
+      },
+      "paintball-player": {
+        "id": 206604,
+        "name": "paintball_player_movementset",
+        "walk": 5.6,
+        "run": 5.6,
+        "sprint": 5.6,
+        "walk_backwards": 5.6,
+        "charge": 8.75
+      },
+      "pirate-corsair": {
+        "id": 237709,
+        "name": "PirateCorsairMovementset",
+        "walk": 4.2,
+        "run": 4.2,
+        "sprint": 8.0,
+        "walk_backwards": 4.2,
+        "charge": 8.0
+      },
+      "player": {
+        "id": 791,
+        "name": "PlayerMovementSet",
+        "walk": 5.6,
+        "run": 5.6,
+        "sprint": 8.0,
+        "walk_backwards": 5.6,
+        "charge": 0.0
+      },
+      "satyr": {
+        "id": 157144,
+        "name": "satyr_movementset",
+        "walk": 4.2,
+        "run": 4.2,
+        "sprint": 4.2,
+        "walk_backwards": 4.2,
+        "charge": 13.4
+      },
+      "tiger": {
+        "id": 241098,
+        "name": "tiger_movementset",
+        "walk": 4.2,
+        "run": 4.2,
+        "sprint": 8.4,
+        "walk_backwards": 4.2,
+        "charge": 12.5
+      },
+      "tomahawk-player": {
+        "id": 355940,
+        "name": "tomahawk_player_movementset",
+        "walk": 5.6,
+        "run": 5.6,
+        "sprint": 5.6,
+        "walk_backwards": 5.6,
+        "charge": 20.0
+      },
+      "treant": {
+        "id": 343951,
+        "name": "treant_movementset",
+        "walk": 2.2,
+        "run": 2.2,
+        "sprint": 2.2,
+        "walk_backwards": 2.2,
+        "charge": 12.0
+      }
+    },
+    "movement_default": {
+      "enemy": "monster-fast",
+      "other": "character-default"
+    }
   },
   "progression": {
     "minifigure_xp": {

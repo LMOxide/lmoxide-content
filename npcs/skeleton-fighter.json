@@ -21,6 +21,9 @@
     }
   ],
   "skills_from": "generic",
+  "movement": {
+    "set": "monster-slow"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

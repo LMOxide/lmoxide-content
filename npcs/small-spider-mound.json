@@ -18,6 +18,9 @@
     "stationary": true,
     "unarmed": true
   },
+  "movement": {
+    "set": "character-default"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

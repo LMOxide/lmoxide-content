@@ -17,6 +17,9 @@
     }
   ],
   "skills_from": "generic",
+  "movement": {
+    "set": "satyr"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

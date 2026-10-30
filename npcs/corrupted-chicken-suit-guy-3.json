@@ -9,6 +9,9 @@
   "stats": {
     "life_factor": 1.0
   },
+  "movement": {
+    "set": "satyr"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

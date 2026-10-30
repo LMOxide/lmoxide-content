@@ -13,6 +13,9 @@
     "health": 262,
     "life_factor": 0.2
   },
+  "movement": {
+    "set": "character-default"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }
