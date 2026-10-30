@@ -1,0 +1,456 @@
+{
+  "spawns": [
+    {
+      "id": "spawn/5610/troll-melee-war",
+      "name": "Troll Melee War",
+      "kind": "enemy",
+      "template": "npc/troll-melee-war",
+      "pos": [346.25, 18.55, 283.0],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/troll-heavy-hitter-war",
+      "name": "Troll Heavy Hitter War",
+      "kind": "enemy",
+      "template": "npc/troll-heavy-hitter-war",
+      "pos": [348.45, 18.51, 284.2],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/troll-heavy-hitter-war-2",
+      "name": "Troll Heavy Hitter War",
+      "kind": "enemy",
+      "template": "npc/troll-heavy-hitter-war",
+      "pos": [303.25, 18.17, 242.5],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/troll-ranged-war",
+      "name": "Troll Ranged War",
+      "kind": "enemy",
+      "template": "npc/troll-ranged-war",
+      "pos": [305.45, 18.08, 243.7],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/troll-heavy-hitter-war-3",
+      "name": "Troll Heavy Hitter War",
+      "kind": "enemy",
+      "template": "npc/troll-heavy-hitter-war",
+      "pos": [301.45, 18.14, 244.1],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/troll-ranged-war-2",
+      "name": "Troll Ranged War",
+      "kind": "enemy",
+      "template": "npc/troll-ranged-war",
+      "pos": [335.75, 17.85, 247.0],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/troll-hornblower-war",
+      "name": "Troll Hornblower War",
+      "kind": "enemy",
+      "template": "npc/troll-hornblower-war",
+      "pos": [337.95, 18.16, 248.2],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/troll-hornblower-war-2",
+      "name": "Troll Hornblower War",
+      "kind": "enemy",
+      "template": "npc/troll-hornblower-war",
+      "pos": [277.75, 18.05, 258.25],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/medieval-wolf",
+      "name": "Medieval Wolf",
+      "kind": "enemy",
+      "template": "npc/medieval-wolf",
+      "pos": [279.95, 18.05, 259.45],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/troll-hornblower-war-3",
+      "name": "Troll Hornblower War",
+      "kind": "enemy",
+      "template": "npc/troll-hornblower-war",
+      "pos": [275.95, 18.05, 259.85],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/medieval-wolf-2",
+      "name": "Medieval Wolf",
+      "kind": "enemy",
+      "template": "npc/medieval-wolf",
+      "pos": [323.5, 18.05, 269.75],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/medieval-ogre-defender-melee-war",
+      "name": "Medieval Ogre Defender Melee War",
+      "kind": "enemy",
+      "template": "npc/medieval-ogre-defender-melee-war",
+      "pos": [325.7, 18.05, 270.95],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/medieval-ogre-defender-melee-war-2",
+      "name": "Medieval Ogre Defender Melee War",
+      "kind": "enemy",
+      "template": "npc/medieval-ogre-defender-melee-war",
+      "pos": [285.5, 18.05, 240.75],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/troll-melee-war-2",
+      "name": "Troll Melee War",
+      "kind": "enemy",
+      "template": "npc/troll-melee-war",
+      "pos": [287.7, 18.09, 241.95],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/medieval-ogre-defender-melee-war-3",
+      "name": "Medieval Ogre Defender Melee War",
+      "kind": "enemy",
+      "template": "npc/medieval-ogre-defender-melee-war",
+      "pos": [283.7, 18.29, 242.35],
+      "overrides": {
+        "level": 10,
+        "stats": {
+          "health": 538
+        }
+      },
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-crate",
+      "name": "XX_Crate",
+      "kind": "smashable",
+      "template": "object/xx-crate-3",
+      "pos": [318.5, 17.85, 253.0],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-barrel",
+      "name": "XX_Barrel",
+      "kind": "smashable",
+      "template": "object/xx-barrel",
+      "pos": [319.3, 17.85, 254.2],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-table",
+      "name": "XX_Table",
+      "kind": "smashable",
+      "template": "object/xx-table",
+      "pos": [317.9, 17.85, 254.4],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-chair-red",
+      "name": "XX_Chair Red",
+      "kind": "smashable",
+      "template": "object/xx-chair-red",
+      "pos": [339.25, 18.05, 263.0],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-small-chest",
+      "name": "XX_Small chest",
+      "kind": "smashable",
+      "template": "object/xx-small-chest",
+      "pos": [340.05, 18.05, 264.2],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-crate-2",
+      "name": "XX_Crate",
+      "kind": "smashable",
+      "template": "object/xx-crate-3",
+      "pos": [338.65, 18.05, 264.4],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-barrel-2",
+      "name": "XX_Barrel",
+      "kind": "smashable",
+      "template": "object/xx-barrel",
+      "pos": [265.25, 18.31, 260.75],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-table-2",
+      "name": "XX_Table",
+      "kind": "smashable",
+      "template": "object/xx-table",
+      "pos": [266.05, 18.31, 261.95],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-chair-red-2",
+      "name": "XX_Chair Red",
+      "kind": "smashable",
+      "template": "object/xx-chair-red",
+      "pos": [264.65, 18.31, 262.15],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-small-chest-2",
+      "name": "XX_Small chest",
+      "kind": "smashable",
+      "template": "object/xx-small-chest",
+      "pos": [337.0, 18.22, 278.75],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-crate-3",
+      "name": "XX_Crate",
+      "kind": "smashable",
+      "template": "object/xx-crate-3",
+      "pos": [337.8, 18.22, 279.95],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-barrel-3",
+      "name": "XX_Barrel",
+      "kind": "smashable",
+      "template": "object/xx-barrel",
+      "pos": [336.4, 18.22, 280.15],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-table-3",
+      "name": "XX_Table",
+      "kind": "smashable",
+      "template": "object/xx-table",
+      "pos": [291.75, 17.97, 234.25],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-chair-red-3",
+      "name": "XX_Chair Red",
+      "kind": "smashable",
+      "template": "object/xx-chair-red",
+      "pos": [292.55, 17.97, 235.45],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-small-chest-3",
+      "name": "XX_Small chest",
+      "kind": "smashable",
+      "template": "object/xx-small-chest",
+      "pos": [291.15, 17.97, 235.65],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-crate-4",
+      "name": "XX_Crate",
+      "kind": "smashable",
+      "template": "object/xx-crate-3",
+      "pos": [289.0, 18.0, 248.25],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-barrel-4",
+      "name": "XX_Barrel",
+      "kind": "smashable",
+      "template": "object/xx-barrel",
+      "pos": [289.8, 18.0, 249.45],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/xx-table-4",
+      "name": "XX_Table",
+      "kind": "smashable",
+      "template": "object/xx-table",
+      "pos": [288.4, 18.0, 249.65],
+      "anchor": "navmesh",
+      "source": "proposed"
+    },
+    {
+      "id": "spawn/5610/invisible-monsterdata",
+      "name": "invisible_monsterdata",
+      "kind": "scenery",
+      "template": "object/invisible-monsterdata",
+      "pos": [276.12, 18.49, 254.55],
+      "rot": [0.0, 0.0, 0.0, 1.0],
+      "client": {
+        "guid": 352354,
+        "tag": "28EI",
+        "script_group": -1,
+        "visual": [1010030, 95472],
+        "bounds": [-0.025, 0.0, -0.025, 0.025, 0.05, 0.025]
+      },
+      "source": "client"
+    },
+    {
+      "id": "spawn/5610/invisible-monsterdata-2",
+      "name": "invisible_monsterdata",
+      "kind": "scenery",
+      "template": "object/invisible-monsterdata",
+      "pos": [345.26, 18.88, 283.9],
+      "rot": [-0.1135, -0.004, 0.0523, 0.9922],
+      "client": {
+        "guid": 352355,
+        "tag": "28EI",
+        "script_group": -1,
+        "visual": [1010030, 95472],
+        "bounds": [-0.025, 0.0, -0.025, 0.025, 0.05, 0.025]
+      },
+      "source": "client"
+    },
+    {
+      "id": "spawn/5610/invisible-monsterdata-3",
+      "name": "invisible_monsterdata",
+      "kind": "scenery",
+      "template": "object/invisible-monsterdata",
+      "pos": [268.25, 17.75, 266.75],
+      "rot": [0.0, 0.0, 0.0, 1.0],
+      "client": {
+        "guid": 352320,
+        "tag": "28EI",
+        "script_group": -1,
+        "visual": [1010030, 95472],
+        "bounds": [-0.025, 0.0, -0.025, 0.025, 0.05, 0.025]
+      },
+      "source": "client"
+    },
+    {
+      "id": "spawn/5610/empty-monsterdata-1x1x1",
+      "name": "empty_monsterdata_1x1x1",
+      "kind": "door",
+      "template": "object/empty-monsterdata-1x1x1",
+      "pos": [242.25, 20.45, 233.98],
+      "rot": [-0.7071, 0.0, 0.0, 0.7071],
+      "scale": 3.0,
+      "client": {
+        "guid": 595015,
+        "tag": "----",
+        "script_group": 8,
+        "visual": [1010201, 465832],
+        "look": "empty_monsterdata_1x1x1"
+      },
+      "source": "client"
+    }
+  ]
+}
