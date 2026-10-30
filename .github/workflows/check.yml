@@ -1,5 +1,4 @@
-# Checks every push and pull request with lmoxide-content (from the lmoxide repository, private
-# for now: the LMOXIDE_READ_TOKEN secret is a fine-grained token that can read it).
+# Checks every push and pull request with lmoxide-content (from the lmoxide repository).
 name: check
 on: [push, pull_request]
 jobs:
@@ -10,7 +9,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: LMOxide/lmoxide
-          token: ${{ secrets.LMOXIDE_READ_TOKEN }}
           path: lmoxide
       - name: this content, where lmoxide expects it
         run: rm -rf lmoxide/content
