@@ -32,21 +32,6 @@
       ],
       "source": "client",
       "comment": "extract_server_areas.py: falling out of the world (live's script for it is lost; docs/TUNABLES.md): back at the nearest respawn point"
-    },
-    {
-      "id": "trigger/1643/story-cine-rescue-island-warrior1",
-      "name": "Cine_Rescue_Island_Warrior1",
-      "area": "area/1643/cine-rescue-island-warrior1",
-      "once": "per_player",
-      "actions": [
-        {
-          "dialogue": {
-            "dialogue": "dialogue/xx-cinematic-rescue-island-warrior-773"
-          }
-        }
-      ],
-      "source": "guess",
-      "comment": "xx-cinematic-rescue-island-warrior-773: likely: the live capture's Island Warrior rescue (4141), its area by name (tools/content/import_story.py)"
     }
   ]
 }
