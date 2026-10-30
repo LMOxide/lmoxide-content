@@ -1,0 +1,43 @@
+{
+  "id": "skill/ogre-hurler-throw-spawn-castable",
+  "name": "XX_ogre hurler throw spawn castable",
+  "client": {
+    "spell": 319947,
+    "stats": {
+      "AIPowerrating": 10,
+      "AISpellCategory": 1024,
+      "AttackRange": 1000,
+      "EffectPackage": 350615,
+      "ItemDelay": 150,
+      "RechargeDelay": 150,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentY": 100,
+            "ItemInstance": 319952,
+            "MinimumAttackRange": 350,
+            "ProjectileType": 2,
+            "Speed": 750
+          }
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 319947,
+            "Value": 400
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

@@ -14,13 +14,20 @@
     "life_factor": 0.8
   },
   "attack": "skill/spell-2029",
+  "skills": [
+    {
+      "skill": "skill/spider-nest-small-spawn",
+      "weight": 1
+    }
+  ],
   "ai": {
     "stationary": true,
-    "unarmed": true
+    "fixed_facing": true
   },
   "movement": {
     "set": "character-default"
   },
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "Spawns a Summoned Spider beside itself every 2.5 s while players are within 12.5 m, up to 5 alive (609797, client: the newer of the small nest's two spawn spells, with the cap). Never turns."
 }

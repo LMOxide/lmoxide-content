@@ -567,6 +567,10 @@
           "format": "float",
           "type": ["number", "null"]
         },
+        "fixed_facing": {
+          "description": "Never turns, not even to attack (spider egg sacks, mounds, Alien Pods: objects that hatch\nor spawn); stationary enemies turn to players otherwise (cannons).",
+          "type": "boolean"
+        },
         "flee_below": {
           "anyOf": [
             {

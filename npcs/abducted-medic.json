@@ -1,0 +1,24 @@
+{
+  "id": "npc/abducted-medic",
+  "name": "Abducted Medic",
+  "kind": "enemy",
+  "render": {
+    "monster_data": 192825,
+    "npc_template": 1480,
+    "look": "pirate_medic",
+    "cars_group": 3
+  },
+  "level": 15,
+  "stats": {
+    "health": 985,
+    "life_factor": 0.75
+  },
+  "attack": "skill/spell-2029",
+  "movement": {
+    "set": "monster-fast"
+  },
+  "lifetime": "45s",
+  "spawn_hash": "NQKR",
+  "source": "guess",
+  "comment": "One of the three minifigures the Alien Mindslicer abducts (378128: SpawnMonster NQKR / ROT1 / 25XL, picked by one roll of 1–100: ≤33 / 34–66 / ≥67). The template (TDB 51000 #1480 \"Abducted Medic\") and look (the Medic's) from the user's memory (2026-10-30: he spawned the Medic and the Witch Doctor, level scaled); which hash is which is a guess. It comes at the Mindslicer's level (npc.rs SpawnHow::level) and heals like the Medic (same look, tunables enemy_abilities). 45 s: the death buff the Mindslicer puts on it (440446, TimeExist 4500, Health 0 when it ends)."
+}

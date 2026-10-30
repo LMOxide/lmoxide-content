@@ -1,0 +1,12 @@
+{
+  "id": "skill/spider-nest-medium-spawncontrol-buffcounter",
+  "name": "XX_spider nest medium spawncontrol buffcounter",
+  "client": {
+    "spell": 470830,
+    "stats": {
+      "MaxBuffCounters": 5
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

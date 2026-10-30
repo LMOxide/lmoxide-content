@@ -1,0 +1,71 @@
+{
+  "id": "skill/alien-mindslicer-spawn-castable",
+  "name": "XX_alien mindslicer spawn castable",
+  "client": {
+    "spell": 378128,
+    "stats": {
+      "AISpellCategory": 1,
+      "AttackRange": 1000,
+      "EffectPackage": 388604,
+      "ItemDelay": 36,
+      "RechargeDelay": 164,
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "HateValue": 1,
+            "NanoTemplate": 440438,
+            "StringHash": "NQKR"
+          },
+          "criteria": [
+            [0, 0, 19],
+            [520, 33, 7]
+          ]
+        },
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "HateValue": 1,
+            "NanoTemplate": 440438,
+            "StringHash": "ROT1"
+          },
+          "criteria": [
+            [0, 0, 19],
+            [522, 34, 8],
+            [522, 66, 7],
+            [0, 0, 4]
+          ]
+        },
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "HateValue": 1,
+            "NanoTemplate": 440438,
+            "StringHash": "25XL"
+          },
+          "criteria": [
+            [0, 0, 19],
+            [522, 67, 8]
+          ]
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 378128,
+            "Value": 1250
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

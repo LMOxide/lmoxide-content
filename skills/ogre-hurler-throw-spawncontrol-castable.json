@@ -1,0 +1,34 @@
+{
+  "id": "skill/ogre-hurler-throw-spawncontrol-castable",
+  "name": "XX_ogre hurler throw spawncontrol castable",
+  "client": {
+    "spell": 439740,
+    "stats": {
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 439741,
+            "Value": 1
+          }
+        }
+      ],
+      "20": [
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 439741,
+            "Value": -1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

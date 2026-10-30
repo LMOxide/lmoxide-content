@@ -1,0 +1,26 @@
+{
+  "id": "skill/ogre-hurler-gremlin-impact-damage",
+  "name": "XX_Throw",
+  "client": {
+    "spell": 319950,
+    "stats": {
+      "SpellLine": 100,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 1.0,
+            "ApplyOn": 3,
+            "DamageType": 1004,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

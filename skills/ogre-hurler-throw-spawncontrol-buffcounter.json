@@ -1,0 +1,12 @@
+{
+  "id": "skill/ogre-hurler-throw-spawncontrol-buffcounter",
+  "name": "XX_ogre hurler throw spawncontrol buffcounter",
+  "client": {
+    "spell": 439741,
+    "stats": {
+      "MaxBuffCounters": 5
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

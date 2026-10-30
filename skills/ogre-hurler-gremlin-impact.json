@@ -1,0 +1,27 @@
+{
+  "id": "skill/ogre-hurler-gremlin-impact",
+  "name": "XX_Throw",
+  "client": {
+    "spell": 319951,
+    "stats": {
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 319950,
+            "Radius": 2
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

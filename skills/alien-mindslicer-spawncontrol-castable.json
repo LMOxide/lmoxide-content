@@ -1,0 +1,43 @@
+{
+  "id": "skill/alien-mindslicer-spawncontrol-castable",
+  "name": "XX_alien mindslicer spawncontrol castable",
+  "client": {
+    "spell": 440438,
+    "stats": {
+      "EffectPackage": 442939,
+      "TargetingMode": 5,
+      "TimeExist": 5900
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 440439,
+            "Value": 1
+          }
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 440446
+          }
+        }
+      ],
+      "20": [
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 440439,
+            "Value": -1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "skill/champion-minion-spawncontrol-buffcounter",
+  "name": "XX_champion minion spawncontrol buffcounter",
+  "client": {
+    "spell": 440439,
+    "stats": {
+      "MaxBuffCounters": 5
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

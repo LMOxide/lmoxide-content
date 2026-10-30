@@ -1,0 +1,25 @@
+{
+  "id": "item/ogre-hurler-thrown-gremlin",
+  "name": "XX_Throw",
+  "kind": "projectile",
+  "template": 319952,
+  "effect_package": 350616,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 319951
+      }
+    },
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 319953
+      }
+    }
+  ],
+  "source": "client"
+}

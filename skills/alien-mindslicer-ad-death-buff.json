@@ -1,0 +1,24 @@
+{
+  "id": "skill/alien-mindslicer-ad-death-buff",
+  "name": "XX_alien mindslicer ad death buff",
+  "client": {
+    "spell": 440446,
+    "stats": {
+      "TimeExist": 4500
+    },
+    "actions": {
+      "20": [
+        {
+          "type": "Set",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "Stat": 27
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

@@ -1,0 +1,29 @@
+{
+  "id": "npc/summoned-gremlin",
+  "name": "Summoned Gremlin",
+  "kind": "enemy",
+  "render": {
+    "monster_data": 344488,
+    "npc_template": 1164,
+    "look": "gremlin_melee_greenforest",
+    "cars_group": 3
+  },
+  "level": 12,
+  "stats": {
+    "health": 750,
+    "life_factor": 0.4
+  },
+  "attack": "skill/spell-2029",
+  "skills": [
+    {
+      "skill": "skill/smack-196232",
+      "weight": 1
+    }
+  ],
+  "movement": {
+    "set": "monster-fast"
+  },
+  "spawn_hash": "4IWQ",
+  "source": "guess",
+  "comment": "What the Crooked Tooth Hurler throws (319947: projectile item 319952 lands, 319953 SpawnMonster 4IWQ there; up to 5 alive, its counter's MaxBuffCounters). The user (2026-10-30): the Hurler summons a Gremlin Melee. TDB 51000 #1164 \"Summoned Gremlin\" by name (#1185 \"Spawned Gremlin\" is the other candidate); the look and stats as npc/gremlin-melee-greenforest; it comes at the Hurler's level."
+}

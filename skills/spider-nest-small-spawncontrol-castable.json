@@ -1,0 +1,34 @@
+{
+  "id": "skill/spider-nest-small-spawncontrol-castable",
+  "name": "XX_spider nest small spawncontrol castable",
+  "client": {
+    "spell": 609798,
+    "stats": {
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 609799,
+            "Value": 1
+          }
+        }
+      ],
+      "20": [
+        {
+          "type": "RemoveBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 609799,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

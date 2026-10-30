@@ -1,0 +1,39 @@
+{
+  "id": "skill/spider-nest-medium-spawn",
+  "name": "XX_Spawn",
+  "client": {
+    "spell": 342565,
+    "stats": {
+      "AIPowerrating": 10,
+      "AISpellCategory": 1,
+      "AttackRange": 2000,
+      "EffectPackage": 470876,
+      "ItemDelay": 100,
+      "RechargeDelay": 100
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 1,
+            "HateValue": 1,
+            "NanoTemplate": 470829,
+            "StringHash": "M6TD"
+          }
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 342565,
+            "Value": 500
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

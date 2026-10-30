@@ -20,7 +20,8 @@
     }
   ],
   "ai": {
-    "stationary": true
+    "stationary": true,
+    "fixed_facing": true
   },
   "movement": {
     "set": "monster-fast"

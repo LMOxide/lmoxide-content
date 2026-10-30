@@ -1,0 +1,22 @@
+{
+  "id": "npc/summoned-spider",
+  "name": "Summoned Spider",
+  "kind": "enemy",
+  "render": {
+    "monster_data": 212584,
+    "npc_template": 1331,
+    "look": "spiderling",
+    "cars_group": 3
+  },
+  "level": 15,
+  "stats": {
+    "health": 262,
+    "life_factor": 0.2
+  },
+  "movement": {
+    "set": "monster-fast"
+  },
+  "spawn_hash": "SWUP",
+  "source": "guess",
+  "comment": "What a Small Spider Mound spawns beside itself (609797 \"XX_Spawn\", SpawnMonster SWUP, every 2.5 s while fighting, up to 5 alive: its criterion on counter 609799). TDB 51000 #1331 \"Summoned Spider\" (next to the DEV zoo spider and spider nest templates) by name; the spiderling look and stats as npc/spiderling-2 are guesses. It comes at the mound's level."
+}

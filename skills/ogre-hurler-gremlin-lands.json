@@ -1,0 +1,25 @@
+{
+  "id": "skill/ogre-hurler-gremlin-lands",
+  "name": "XX_Throw",
+  "client": {
+    "spell": 319953,
+    "stats": {
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "HateValue": 1,
+            "NanoTemplate": 439740,
+            "StringHash": "4IWQ"
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spawn spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}
