@@ -1,0 +1,62 @@
+{
+  "id": "skill/boss-trex-smash-castable",
+  "name": "XX_boss trex smash castable",
+  "client": {
+    "spell": 623001,
+    "stats": {
+      "AIPowerrating": 20,
+      "AISpellCategory": 1,
+      "AttackRange": 350,
+      "EffectPackage": 623015,
+      "ItemDelay": 150,
+      "MoreFlags": 65536,
+      "RechargeDelay": 50,
+      "SpellLine": 1000,
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "ColumnFormula",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 9,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 623087,
+            "Value": 1
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1000,
+            "Value": 750
+          }
+        }
+      ],
+      "1": [
+        {
+          "type": "RemoveBuff",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 623085
+          }
+        }
+      ],
+      "39": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 1,
+            "Value": 623085
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Gauntlet's T-Rex (the lizard_man_npc look: its particles name it); tools/re/import_spells.py."
+}

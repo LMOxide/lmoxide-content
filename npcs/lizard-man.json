@@ -3,7 +3,7 @@
   "name": "Lizard Man",
   "kind": "enemy",
   "render": {
-    "monster_data": 521311
+    "monster_data": 522158
   },
   "level": 19,
   "stats": {
@@ -12,12 +12,16 @@
   "attack": "skill/spell-2029",
   "skills": [
     {
-      "skill": "skill/slash-18241",
+      "skill": "skill/boss-trex-hit-castable",
+      "weight": 1
+    },
+    {
+      "skill": "skill/boss-trex-rawr-castable",
       "weight": 1
     }
   ],
   "skills_from": "generic",
   "loot": "loot/enemy",
   "source": "client",
-  "comment": "Melee only: XX_Slash 18241 (ability 1). The lizard_man look (the minifigure's) has ability_1 and chain motions only, and every spear throw asks for ability 2 or none at all (2026-10-30: its old skill asked for an ability animation its look lacks, so it stood stiff; tools/content/anim_audit.py)."
+  "comment": "Melee only: XX_Slash 18241 (ability 1). The lizard_man look (the minifigure's) has ability_1 and chain motions only, and every spear throw asks for ability 2 or none at all (2026-10-30: its old skill asked for an ability animation its look lacks, so it stood stiff; tools/content/anim_audit.py). Look lizard_man_npc (522158; the minifigure's had no attack animations) with the T-Rex's hit and rawr (the user, 2026-10-30: the lizard guy has a basic melee attack and the minifigure's rawr). The bone and the stomp stay the boss's."
 }

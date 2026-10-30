@@ -1,0 +1,118 @@
+{
+  "id": "skill/boss-trex-rawr-castable",
+  "name": "XX_boss trex rawr castable",
+  "client": {
+    "spell": 521607,
+    "stats": {
+      "AIPowerrating": 20,
+      "AISpellCategory": 1,
+      "AttackRange": 2000,
+      "ChannelingInterval": 20,
+      "ChannelingTicks": 8,
+      "EffectPackage": 527163,
+      "ItemDelay": 150,
+      "MoreFlags": 65536,
+      "RechargeDelay": 50,
+      "SpellLine": 1000,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 522439,
+            "Value": 1
+          }
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 521608,
+            "ProjectileType": 1,
+            "Speed": 750
+          },
+          "criteria": [
+            [0, 0, 19],
+            [522439, 1, 166]
+          ]
+        }
+      ],
+      "33": [
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 522439,
+            "Value": 1
+          }
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 522437,
+            "ProjectileType": 1,
+            "Speed": 750
+          },
+          "criteria": [
+            [0, 0, 19],
+            [522439, 2, 166]
+          ]
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 522438,
+            "ProjectileType": 1,
+            "Speed": 750
+          },
+          "criteria": [
+            [0, 0, 19],
+            [522439, 3, 166]
+          ]
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 521608,
+            "ProjectileType": 1,
+            "Speed": 750
+          },
+          "criteria": [
+            [0, 0, 19],
+            [522439, 4, 166]
+          ]
+        }
+      ],
+      "36": [
+        {
+          "type": "RemoveBuff",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 522439
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1000,
+            "Value": 750
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Gauntlet's T-Rex (the lizard_man_npc look: its particles name it); tools/re/import_spells.py."
+}

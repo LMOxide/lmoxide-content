@@ -3,7 +3,8 @@
   "name": "T-Rex",
   "kind": "enemy",
   "render": {
-    "monster_data": 521311
+    "monster_data": 522158,
+    "npc_template": 2022
   },
   "level": 21,
   "stats": {
@@ -12,12 +13,24 @@
   "attack": "skill/spell-2029",
   "skills": [
     {
-      "skill": "skill/slash-18241",
+      "skill": "skill/boss-trex-hit-castable",
+      "weight": 1
+    },
+    {
+      "skill": "skill/boss-trex-rawr-castable",
+      "weight": 1
+    },
+    {
+      "skill": "skill/boss-trex-stomp-castable",
+      "weight": 1
+    },
+    {
+      "skill": "skill/boss-trex-smash-castable",
       "weight": 1
     }
   ],
   "skills_from": "generic",
   "loot": "loot/enemy",
   "source": "guess",
-  "comment": "the Gauntlet's boss (BossEncounter_Start; TDB 51000 'T-Rex', the cinematic templates 508606/522177/526338 carry no monsterdata): the lizard_man look (monsterdata 521311, the user: the T-Rex is a lizard man in a costume, 526338 'TRexRevealed') and its spell set (npc_spells 521311: spear throw 99058, stab 194198, as the Lizard Man's); level and health as a proposed boss of the Gauntlet's level-19 enemies (extract_world_content.py: level + 2, 10 x a regular's life at 21 = 27533) (docs/TUNABLES.md 'Story bosses') Melee only: XX_Slash 18241 (ability 1). The lizard_man look (the minifigure's) has ability_1 and chain motions only, and every spear throw asks for ability 2 or none at all (2026-10-30: its old skill asked for an ability animation its look lacks, so it stood stiff; tools/content/anim_audit.py)."
+  "comment": "the Gauntlet's boss (BossEncounter_Start; TDB 51000 'T-Rex', the cinematic templates 508606/522177/526338 carry no monsterdata): the lizard_man look (monsterdata 521311, the user: the T-Rex is a lizard man in a costume, 526338 'TRexRevealed') and its spell set (npc_spells 521311: spear throw 99058, stab 194198, as the Lizard Man's); level and health as a proposed boss of the Gauntlet's level-19 enemies (extract_world_content.py: level + 2, 10 x a regular's life at 21 = 27533) (docs/TUNABLES.md 'Story bosses') Look lizard_man_npc (522158) and the client's T-Rex boss kit (\"XX_boss trex\": its particles are lizard_man_npc's): hit (521897, melee chain), rawr (521607: four roars down the line, like the Lizard Man minifigure's), stomp (521704: feet come down at every player within 30 m) and the bone smash (623001: a 9 m line). His roll (623003, a 30 m dash) isn't done (enemies don't dash). The user (2026-10-30): a basic melee attack, the rawr, the bone, the stomp with a bunch of feet."
 }

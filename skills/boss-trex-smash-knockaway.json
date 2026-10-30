@@ -1,0 +1,28 @@
+{
+  "id": "skill/boss-trex-smash-knockaway",
+  "name": "XX_boss trex smash knockaway",
+  "client": {
+    "spell": 623088,
+    "stats": {
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Knockaway",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "Arg1": 1,
+            "Arg2": 7,
+            "Distance": 5,
+            "PowerRating": 9001,
+            "Speed": 15
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Gauntlet's T-Rex (the lizard_man_npc look: its particles name it); tools/re/import_spells.py."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "skill/boss-trex-smash-turnrate",
+  "name": "XX_boss trex smash turnrate",
+  "client": {
+    "spell": 623085,
+    "stats": {
+      "TimeExist": 300
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "TempChangeStat",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "FloatValue1": 0.5,
+            "Stat": 1402
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Gauntlet's T-Rex (the lizard_man_npc look: its particles name it); tools/re/import_spells.py."
+}

@@ -1,0 +1,30 @@
+{
+  "id": "skill/boss-trex-smash-wrapper",
+  "name": "XX_boss trex smash wrapper",
+  "client": {
+    "spell": 623087,
+    "stats": {
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 623002
+          }
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 623088
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Gauntlet's T-Rex (the lizard_man_npc look: its particles name it); tools/re/import_spells.py."
+}

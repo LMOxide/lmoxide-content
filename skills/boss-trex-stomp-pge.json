@@ -1,0 +1,112 @@
+{
+  "id": "skill/boss-trex-stomp-pge",
+  "name": "XX_boss trex stomp pge",
+  "client": {
+    "spell": 623089,
+    "stats": {
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg2": 1,
+            "DelayTime": 50,
+            "EffectPackage": 522144,
+            "NanoTemplate": 521702,
+            "RelXPos": -1,
+            "RelZPos": -7
+          }
+        },
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg2": 1,
+            "DelayTime": 100,
+            "EffectPackage": 522145,
+            "NanoTemplate": 521702,
+            "RelXPos": 1,
+            "RelZPos": -5
+          }
+        },
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg2": 1,
+            "DelayTime": 150,
+            "EffectPackage": 522146,
+            "NanoTemplate": 521702,
+            "RelXPos": -1,
+            "RelZPos": -3
+          }
+        },
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg2": 1,
+            "DelayTime": 200,
+            "EffectPackage": 522155,
+            "NanoTemplate": 521702,
+            "RelXPos": 1,
+            "RelZPos": -1
+          }
+        },
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg2": 1,
+            "DelayTime": 250,
+            "EffectPackage": 522153,
+            "NanoTemplate": 521702,
+            "RelXPos": -1,
+            "RelZPos": 1
+          }
+        },
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg2": 1,
+            "DelayTime": 300,
+            "EffectPackage": 522154,
+            "NanoTemplate": 521702,
+            "RelXPos": 1,
+            "RelZPos": 3
+          }
+        },
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg2": 1,
+            "DelayTime": 350,
+            "EffectPackage": 623146,
+            "NanoTemplate": 521702,
+            "RelXPos": -1,
+            "RelZPos": 5
+          }
+        },
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg2": 1,
+            "DelayTime": 400,
+            "EffectPackage": 623147,
+            "NanoTemplate": 521702,
+            "RelXPos": 1,
+            "RelZPos": 7
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Gauntlet's T-Rex (the lizard_man_npc look: its particles name it); tools/re/import_spells.py."
+}

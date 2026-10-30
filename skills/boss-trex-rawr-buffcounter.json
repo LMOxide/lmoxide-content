@@ -1,0 +1,12 @@
+{
+  "id": "skill/boss-trex-rawr-buffcounter",
+  "name": "XX_boss trex rawr buffcounter",
+  "client": {
+    "spell": 522439,
+    "stats": {
+      "MaxBuffCounters": 4
+    }
+  },
+  "source": "client",
+  "comment": "The Gauntlet's T-Rex (the lizard_man_npc look: its particles name it); tools/re/import_spells.py."
+}

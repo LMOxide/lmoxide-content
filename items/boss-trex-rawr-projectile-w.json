@@ -1,0 +1,18 @@
+{
+  "id": "item/boss-trex-rawr-projectile-w",
+  "name": "XX_boss trex rawr projectile w",
+  "kind": "projectile",
+  "template": 522438,
+  "effect_package": 522200,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 521609
+      }
+    }
+  ],
+  "source": "client"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "skill/boss-trex-stomp-damage",
+  "name": "XX_boss trex stomp damage",
+  "client": {
+    "spell": 521703,
+    "stats": {
+      "EffectPackage": 522267,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 1.0,
+            "ApplyOn": 3,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Gauntlet's T-Rex (the lizard_man_npc look: its particles name it); tools/re/import_spells.py."
+}

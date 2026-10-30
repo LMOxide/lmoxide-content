@@ -1,0 +1,33 @@
+{
+  "id": "skill/boss-trex-hit-castable",
+  "name": "XX_boss trex hit castable",
+  "client": {
+    "spell": 521897,
+    "stats": {
+      "AIPowerrating": 10,
+      "AISpellCategory": 1,
+      "AttackRange": 50,
+      "EffectPackage": 527164,
+      "ItemDelay": 32,
+      "RechargeDelay": 16,
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 521898,
+            "Radius": 2
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Gauntlet's T-Rex (the lizard_man_npc look: its particles name it); tools/re/import_spells.py."
+}
