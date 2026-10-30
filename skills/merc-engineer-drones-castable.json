@@ -1,0 +1,40 @@
+{
+  "id": "skill/merc-engineer-drones-castable",
+  "name": "merc engineer drones castable",
+  "client": {
+    "spell": 374162,
+    "stats": {
+      "AISpellCategory": 1024,
+      "AttackRange": 1500,
+      "EffectPackage": 388457,
+      "ItemDelay": 36,
+      "RechargeDelay": 164,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "CollisionFlag": 1,
+            "HateValue": 1,
+            "NanoTemplate": 374164,
+            "StringHash": "P9TE"
+          }
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 374162,
+            "Value": 750
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Space Merc Engineer's drones (the bombs that circle a player): npc/merc-engineer-drones-holder (P9TE) where the player stands, then skill/merc-engineer-drones-buff on it. The client's SpawnMonster has no NanoTemplate; 374164 is a guess (the drones buff is the only spell that circles something with the drones projectile; the Sad Clown's From Bad to Worse names its own the same way). Everything else is the client's."
+}

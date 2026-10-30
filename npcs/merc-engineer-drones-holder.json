@@ -1,0 +1,22 @@
+{
+  "id": "npc/merc-engineer-drones-holder",
+  "name": "XX_merc engineer drones holder",
+  "kind": "trigger",
+  "render": {
+    "monster_data": 51057,
+    "npc_template": 1464,
+    "look": "invisible_monsterdata",
+    "cars_group": 5
+  },
+  "level": 16,
+  "stats": {
+    "health": 1576
+  },
+  "movement": {
+    "set": "character-default"
+  },
+  "lifetime": "11s",
+  "spawn_hash": "P9TE",
+  "source": "guess",
+  "comment": "What the Space Merc Engineer's drones castable spawns (SpawnMonster P9TE) where the player stands: the invisible centre the drones circle. The template (TDB 51000 #1464) matches the hash by name; the client has no template data, so the invisible look as other anchors (npc/main-pierrot2), level and health as the engineer's, and a lifetime a little longer than the drones' 10 s are guesses."
+}

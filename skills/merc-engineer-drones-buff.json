@@ -1,0 +1,68 @@
+{
+  "id": "skill/merc-engineer-drones-buff",
+  "name": "merc engineer drones buff",
+  "client": {
+    "spell": 374164,
+    "stats": {
+      "AISpellCategory": 256,
+      "TimeExist": 1000
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentY": 50,
+            "DisplaceMentZ": 300,
+            "ItemInstance": 374203,
+            "ProjectileType": 3,
+            "Speed": 110
+          }
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentY": 50,
+            "DisplaceMentZ": 300,
+            "ItemInstance": 374203,
+            "ProjectileType": 3,
+            "RotY": 180,
+            "Speed": 110
+          }
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentY": 50,
+            "DisplaceMentZ": 300,
+            "ItemInstance": 374203,
+            "ProjectileType": 3,
+            "RotY": 270,
+            "Speed": 110
+          }
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentY": 50,
+            "DisplaceMentZ": 300,
+            "ItemInstance": 374203,
+            "ProjectileType": 3,
+            "RotY": 90,
+            "Speed": 110
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Four drones (item/merc-engineer-drones-projectile) circling the holder they are cast on, 3 m out, 110°/s. TimeExist 1000 (10 s) is a guess: the client has none (the server would end them after 5 s); the drone's particle plays for 10 s and the user remembers ~10 s."
+}
