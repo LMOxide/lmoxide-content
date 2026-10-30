@@ -2,12 +2,14 @@
   "portals": [
     {
       "id": "portal/1643/to-isle-of-yarr",
-      "pos": [346.6, 18.1, 279.73],
-      "window": 23,
+      "pos": [343.7, 18.5, 280.4],
       "to": {
-        "world": "world/isle-of-yarr"
+        "world": "world/isle-of-yarr",
+        "pos": [102.7, 76.4, 115.1]
       },
-      "source": "client"
+      "opens_after": "Monkey Kong",
+      "source": "surveyed",
+      "comment": "the exit after Monkey Kong, out onto the Isle of Yarr (user, 2026-10-30; the client's portal point was [346.6, 18.1, 279.73] with window 23, the way back out)"
     },
     {
       "id": "portal/1643/to-isle-of-yarr-2",
