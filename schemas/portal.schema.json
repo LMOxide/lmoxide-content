@@ -39,6 +39,28 @@
       },
       "type": "object"
     },
+    "PortalGlow": {
+      "additionalProperties": false,
+      "description": "A portal's glow: a looping particle on each of its marker spawns, as live started it on the\ndungeon exits' invisible markers when the boss fell (Monkey Cave: 462841\n`particle_entrance_trials_tavern` on \"exit particle 1\" and \"2\").",
+      "properties": {
+        "at": {
+          "description": "The spawns it shows on (markers in the same world).",
+          "items": {
+            "type": "string"
+          },
+          "type": "array",
+          "x-lmoxide-ref": ["spawn"]
+        },
+        "particle": {
+          "description": "The particle (client particle resource id, RDB 1010207).",
+          "format": "uint32",
+          "minimum": 0,
+          "type": "integer"
+        }
+      },
+      "required": ["particle", "at"],
+      "type": "object"
+    },
     "Source": {
       "description": "Where a value came from, so guesses stay visible next to what live did.",
       "oneOf": [
@@ -103,6 +125,17 @@
     "feature": {
       "description": "The feature it belongs to: `live` (recreating live), `feature/...` or `other/...`.\nA record with the id of one in a parent feature changes it while this feature is on.",
       "type": "string"
+    },
+    "glow": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/PortalGlow"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Its glow once it opens (with `opens_after`; else always)."
     },
     "id": {
       "description": "Its id: `portal/<slug>`. Stable: other records refer to it.",

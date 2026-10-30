@@ -8,8 +8,12 @@
         "pos": [102.7, 76.4, 115.1]
       },
       "opens_after": "Monkey Kong",
+      "glow": {
+        "particle": 462841,
+        "at": ["spawn/1643/exit-particle-1", "spawn/1643/exit-particle-2"]
+      },
       "source": "surveyed",
-      "comment": "the exit after Monkey Kong, out onto the Isle of Yarr (user, 2026-10-30; the client's portal point was [346.6, 18.1, 279.73] with window 23, the way back out)"
+      "comment": "the exit after Monkey Kong, out onto the Isle of Yarr (user, 2026-10-30; the client's portal point was [346.6, 18.1, 279.73] with window 23, the way back out). Its glow as live (LMO_Captures.cap frames 65674 and 65693, 7.3 s after Monkey Kong fell, as his body faded): particle 462841 particle_entrance_trials_tavern started on the two exit particle markers, the exit door made usable (CARS group 1) at the same time"
     },
     {
       "id": "portal/1643/to-isle-of-yarr-2",
