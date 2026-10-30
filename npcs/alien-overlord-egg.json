@@ -1,0 +1,34 @@
+{
+  "id": "npc/alien-overlord-egg",
+  "name": "Alien Pod",
+  "kind": "enemy",
+  "render": {
+    "monster_data": 387952,
+    "npc_template": 2873,
+    "look": "space_alien_reaper_egg",
+    "cars_group": 3
+  },
+  "level": 15,
+  "stats": {
+    "health": 1314,
+    "life_factor": 1.0
+  },
+  "attack": "skill/alien-reaper-slash-castable",
+  "skills": [
+    {
+      "skill": "skill/alien-reaper-egg-spawn-castable",
+      "weight": 1
+    }
+  ],
+  "ai": {
+    "stationary": true,
+    "fixed_facing": true,
+    "hatch_after": "3s"
+  },
+  "movement": {
+    "set": "monster-fast"
+  },
+  "spawn_hash": "J27F",
+  "source": "guess",
+  "comment": "What the Alien Reaper Overlord spawns four at a time (379720, J27F, N/E/S/W of him: the user). It hatches by itself (the user, 2026-10-30): 3 s after it appears, when the client's spawn visuals (440781: stunned, the beam and glow 464434) end and set the Mantis Nymph's look, it casts the pods' hatch (379451) wherever the players are. Matching J27F to the Alien Pod's look is a guess."
+}

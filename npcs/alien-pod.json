@@ -28,7 +28,6 @@
     "set": "monster-fast"
   },
   "loot": "loot/enemy",
-  "spawn_hash": "J27F",
   "source": "client",
-  "comment": "Also what the Alien Reaper Overlord spawns, four at a time north, east, south and west of himself (379720, SpawnMonster J27F at RelXPos/RelZPos ±2; the user, 2026-10-30). Matching J27F to this template is a guess. The client's spawn visuals (440781: 3 s stunned, then the client sets the look to the Mantis Nymph's) suggest it hatches by itself; here it hatches like the placed pods when a player comes close."
+  "comment": "Hatches a Mantis Nymph (379451 \"alien reaper egg spawn\", SpawnMonster 68MJ) and breaks (the spell sets its Health to 0): live capture, 8060."
 }

@@ -581,6 +581,17 @@
             }
           ]
         },
+        "hatch_after": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Duration"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "What a spawn spell brings: it hatches (casts its first skill, whatever the range) this\nlong after it appears (the Alien Reaper Overlord's eggs)."
+        },
         "leash": {
           "description": "Gives up this far from home (m).",
           "format": "float",
