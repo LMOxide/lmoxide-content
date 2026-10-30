@@ -1,0 +1,41 @@
+{
+  "id": "skill/alien-overlord-spawncontrol-castable",
+  "name": "XX_alien overlord spawncontrol castable",
+  "client": {
+    "spell": 440770,
+    "stats": {
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 440771,
+            "Value": 1
+          }
+        },
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 440781
+          }
+        }
+      ],
+      "20": [
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 440771,
+            "Value": -1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

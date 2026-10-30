@@ -1,0 +1,30 @@
+{
+  "id": "npc/abducted-doctor",
+  "name": "Abducted Doctor",
+  "kind": "enemy",
+  "render": {
+    "monster_data": 201479,
+    "npc_template": 1482,
+    "look": "pirate_islander_witch_doctor",
+    "cars_group": 3
+  },
+  "level": 15,
+  "stats": {
+    "health": 985,
+    "life_factor": 0.75
+  },
+  "attack": "skill/spell-2029",
+  "skills": [
+    {
+      "skill": "skill/stab",
+      "weight": 1
+    }
+  ],
+  "movement": {
+    "set": "monster-fast"
+  },
+  "lifetime": "45s",
+  "spawn_hash": "25XL",
+  "source": "guess",
+  "comment": "One of the three minifigures the Alien Mindslicer abducts (see npc/abducted-medic): TDB 51000 #1482 \"Abducted Doctor\" with the Witch Doctor's look (the user, 2026-10-30). It plants the Witch Doctor's totems (same look, tunables enemy_abilities). Which of the three hashes is which is a guess; the pick is random anyway."
+}

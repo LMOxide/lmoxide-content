@@ -1,0 +1,78 @@
+{
+  "id": "skill/alien-overlord-spawn-4-castable",
+  "name": "XX_alien overlord spawn 4 castable",
+  "client": {
+    "spell": 379720,
+    "stats": {
+      "AIPowerrating": 50,
+      "AISpellCategory": 1,
+      "AttackRange": 1500,
+      "EffectPackage": 385596,
+      "ItemDelay": 36,
+      "RechargeDelay": 164
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "CollisionFlag": 1,
+            "HateValue": 1,
+            "NanoTemplate": 440770,
+            "RelXPos": 2,
+            "StringHash": "J27F",
+            "Value": 1
+          }
+        },
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "CollisionFlag": 1,
+            "HateValue": 1,
+            "NanoTemplate": 440770,
+            "RelXPos": -2,
+            "StringHash": "J27F",
+            "Value": 1
+          }
+        },
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "CollisionFlag": 1,
+            "HateValue": 1,
+            "NanoTemplate": 440770,
+            "RelZPos": 2,
+            "StringHash": "J27F",
+            "Value": 1
+          }
+        },
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "CollisionFlag": 1,
+            "HateValue": 1,
+            "NanoTemplate": 440770,
+            "RelZPos": -2,
+            "StringHash": "J27F",
+            "Value": 1
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1010,
+            "Value": 1000
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

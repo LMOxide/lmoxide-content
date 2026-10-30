@@ -1,0 +1,22 @@
+{
+  "id": "item/ogre-hurler-throw-spin-projectile",
+  "name": "XX_ogre hurler throw spin projectile",
+  "kind": "projectile",
+  "template": 439792,
+  "effect_package": 151407,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CoreFilteredAreaFormula",
+      "args": {
+        "Angle": 360,
+        "ApplyOn": 3,
+        "Ascending": 1,
+        "NPCSelectMode": 3,
+        "NanoTemplate": 439796,
+        "Radius": 2
+      }
+    }
+  ],
+  "source": "client"
+}

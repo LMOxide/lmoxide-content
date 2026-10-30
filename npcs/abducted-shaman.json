@@ -3,9 +3,9 @@
   "name": "Abducted Shaman",
   "kind": "enemy",
   "render": {
-    "monster_data": 201479,
+    "monster_data": 331183,
     "npc_template": 1481,
-    "look": "pirate_islander_witch_doctor",
+    "look": "troll_shaman_swamp",
     "cars_group": 3
   },
   "level": 15,
@@ -16,7 +16,7 @@
   "attack": "skill/spell-2029",
   "skills": [
     {
-      "skill": "skill/stab",
+      "skill": "skill/bolt",
       "weight": 1
     }
   ],
@@ -26,5 +26,5 @@
   "lifetime": "45s",
   "spawn_hash": "ROT1",
   "source": "guess",
-  "comment": "One of the three minifigures the Alien Mindslicer abducts (see npc/abducted-medic). TDB 51000 #1481 \"Abducted Shaman\" with the Witch Doctor's look (the user: he spawned the Witch Doctor); the hash and life factor are guesses. It plants the Witch Doctor's totems (same look, tunables enemy_abilities)."
+  "comment": "One of the three minifigures the Alien Mindslicer abducts (see npc/abducted-medic): TDB 51000 #1481 \"Abducted Shaman\" with the Troll Shaman Swamp's look and bolt (the user, 2026-10-30). The hash and life factor are guesses."
 }

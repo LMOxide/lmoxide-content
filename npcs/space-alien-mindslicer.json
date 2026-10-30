@@ -23,5 +23,5 @@
   "skills_from": "named",
   "loot": "loot/enemy",
   "source": "client",
-  "comment": "Abducts a minifigure (378128, every 12.5 s within 10 m): a random one of three (npc/abducted-medic, npc/abducted-shaman; the third, #1482 Abducted Doctor (25XL), has no look yet), beside him, beamed and buffed by his spawncontrol (440438), gone after 45 s."
+  "comment": "Abducts a minifigure (378128, every 12.5 s within 10 m): a random one of npc/abducted-medic, npc/abducted-shaman (Troll Shaman Swamp) and npc/abducted-doctor (Witch Doctor), beside him at his level, with his spawncontrol buff (440438) on it; gone after 45 s."
 }

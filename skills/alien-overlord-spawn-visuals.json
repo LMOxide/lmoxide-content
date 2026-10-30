@@ -1,0 +1,42 @@
+{
+  "id": "skill/alien-overlord-spawn-visuals",
+  "name": "XX_alien overlord spawn visuals",
+  "client": {
+    "spell": 440781,
+    "stats": {
+      "TimeExist": 300
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Stun",
+          "client": true,
+          "args": {
+            "ApplyOn": 3
+          }
+        },
+        {
+          "type": "StartEffect",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "TemplateID": 464434
+          }
+        }
+      ],
+      "37": [
+        {
+          "type": "Set",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "Stat": 359,
+            "Value": 368330
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

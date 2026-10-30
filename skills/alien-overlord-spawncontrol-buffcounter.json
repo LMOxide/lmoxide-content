@@ -1,0 +1,12 @@
+{
+  "id": "skill/alien-overlord-spawncontrol-buffcounter",
+  "name": "XX_alien overlord spawncontrol buffcounter",
+  "client": {
+    "spell": 440771,
+    "stats": {
+      "MaxBuffCounters": 5
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}

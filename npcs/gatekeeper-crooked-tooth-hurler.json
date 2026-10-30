@@ -16,10 +16,14 @@
     {
       "skill": "skill/ogre-hurler-throw-spawn-castable",
       "weight": 1
+    },
+    {
+      "skill": "skill/ogre-hurler-throw-spin-castable",
+      "weight": 1
     }
   ],
   "loot": "loot/enemy",
   "source": "surveyed",
   "tags": ["approximate"],
-  "comment": "A Gatekeeper's Realm variant (user, research/lmoxide-notes/gatekeeper-variants.md): look medieval_ogre_hurler_ranged_summon_war 355217. npc_template 2391 is one of the client's 14 \"Gatekeeper\" names (TDB 51000), paired in order (a guess); level 15 and 7x a regular level-15 enemy's life (boss rank) are guesses. Throws gremlins (319947: npc/summoned-gremlin where it lands, 3.5–10 m away, every 4 s, up to 5 alive)."
+  "comment": "A Gatekeeper's Realm variant (user, research/lmoxide-notes/gatekeeper-variants.md): look medieval_ogre_hurler_ranged_summon_war 355217. npc_template 2391 is one of the client's 14 \"Gatekeeper\" names (TDB 51000), paired in order (a guess); level 15 and 7x a regular level-15 enemy's life (boss rank) are guesses. Throws gremlins (319947: npc/summoned-gremlin where it lands, 3.5–10 m away, every 4 s, up to 5 alive). Also his spin throw (439790: a projectile hitting everyone within 2 m where it lands, ×1.0; its ability animation 160451 may be the chest pound the user remembers)."
 }

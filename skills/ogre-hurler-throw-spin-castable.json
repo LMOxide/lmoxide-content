@@ -1,0 +1,32 @@
+{
+  "id": "skill/ogre-hurler-throw-spin-castable",
+  "name": "XX_ogre hurler throw spin castable",
+  "client": {
+    "spell": 439790,
+    "stats": {
+      "AttackRange": 1000,
+      "EffectPackage": 160451,
+      "ItemDelay": 150,
+      "RechargeDelay": 150,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentY": 100,
+            "ItemInstance": 439792,
+            "MinimumAttackRange": 350,
+            "ProjectileType": 2,
+            "Speed": 750
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "An enemy's spell (docs/SPAWN-RESEARCH.md, 2026-10-30); tools/re/import_spells.py."
+}
