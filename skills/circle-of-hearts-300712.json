@@ -8,5 +8,13 @@
       "LuaScriptID": 802
     }
   },
-  "source": "client"
+  "effects": [
+    {
+      "heal": {
+        "amount": "10%"
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Circle of Hearts: each heart that hits heals the Trendsetter (item hearts casts it on its caster). Server Lua 802: setstat(27, health + life × 0.1)."
 }

@@ -9,5 +9,13 @@
       "TargetingMode": 1
     }
   },
-  "source": "client"
+  "effects": [
+    {
+      "heal": {
+        "amount": "1.25%"
+      }
+    }
+  ],
+  "source": "client",
+  "comment": "Healing Song's heal, every 0.25 s for 5 s within 3 m of the Faun (667243). Server Lua 4582: setstat(27, health + life × 0.0125)."
 }
