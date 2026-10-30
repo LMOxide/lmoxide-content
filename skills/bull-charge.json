@@ -1,0 +1,42 @@
+{
+  "id": "skill/bull-charge",
+  "name": "XX_Bull Charge",
+  "client": {
+    "spell": 3202,
+    "stats": {
+      "AISpellCategory": 1,
+      "AttackRange": 800,
+      "EffectPackage": 141523,
+      "ItemDelay": 200,
+      "RechargeDelay": 150,
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "ColumnDash",
+          "args": {
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "Distance": 8,
+            "NPCSelectMode": 3,
+            "Radius": 1,
+            "TemplateID": 69943,
+            "Value1": 85355
+          }
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 3202,
+            "Value": 800
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Minotaur's (the user, 2026-10-30: he charges and has melee attacks; docs/ENEMY-SKILLS.md)."
+}

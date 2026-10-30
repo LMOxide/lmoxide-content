@@ -1,0 +1,31 @@
+{
+  "id": "skill/smash-319298",
+  "name": "XX_Smash",
+  "client": {
+    "spell": 319298,
+    "stats": {
+      "AISpellCategory": 512,
+      "AttackRange": 100,
+      "EffectPackage": 338670,
+      "ItemDelay": 36,
+      "RechargeDelay": 164,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 1.0,
+            "ApplyOn": 3,
+            "AttackLength": 1.0,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Minotaur's (the user, 2026-10-30: he charges and has melee attacks; docs/ENEMY-SKILLS.md)."
+}

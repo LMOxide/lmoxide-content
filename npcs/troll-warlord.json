@@ -12,15 +12,16 @@
   "attack": "skill/spell-2029",
   "skills": [
     {
-      "skill": "skill/smash-319946",
+      "skill": "skill/smash-319338",
       "weight": 1
     },
     {
-      "skill": "skill/rampage",
+      "skill": "skill/smash-319946",
       "weight": 1
     }
   ],
   "skills_from": "generic",
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "Its own ground smash (XX_Smash 319338: particle_troll_heavy_hitter_groundsmash, slows its turning while it swings) and a second smash (319946); Rampage went: it asks for a channel_1 animation this look lacks (tools/content/anim_audit.py, 2026-10-30)."
 }

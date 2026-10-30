@@ -12,11 +12,15 @@
   "attack": "skill/spell-2029",
   "skills": [
     {
+      "skill": "skill/smash-319298",
+      "weight": 1
+    },
+    {
       "skill": "skill/rampage-319891",
       "weight": 1
     },
     {
-      "skill": "skill/smash-319338",
+      "skill": "skill/bull-charge",
       "weight": 1
     }
   ],
@@ -25,5 +29,6 @@
     "set": "minotaur"
   },
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "His kit (the client has no Minotaur spells; these are generic ones his look, minotaur_monster_boss, animates): a quick XX_Smash 319298 (ability 1/2), Rampage 319891 (a 3 s spin) and XX_Bull Charge 3202 (an 8 m charge, ×2 and a knockback on whom it runs into). The user (2026-10-30): he froze up close (the troll heavy hitter's 3.17 s ground smash, which he had, was recast every 2 s; enemies now wait out their cast animations) and should charge and have melee attacks."
 }

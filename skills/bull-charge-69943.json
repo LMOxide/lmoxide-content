@@ -1,0 +1,46 @@
+{
+  "id": "skill/bull-charge-69943",
+  "name": "XX_Bull Charge",
+  "client": {
+    "spell": 69943,
+    "stats": {
+      "EffectPackage": 70095,
+      "MoreFlags": 33554432
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Value": 365804
+          }
+        },
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 2.0,
+            "ApplyOn": 3,
+            "AttackLength": 1.0,
+            "DamageType": 1001,
+            "Value": 1
+          }
+        },
+        {
+          "type": "Knockaway",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "Arg1": 1,
+            "Arg2": 4,
+            "Distance": 3,
+            "PowerRating": 9001,
+            "Speed": 25
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The Minotaur's (the user, 2026-10-30: he charges and has melee attacks; docs/ENEMY-SKILLS.md)."
+}

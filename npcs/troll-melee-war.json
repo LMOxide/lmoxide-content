@@ -18,9 +18,14 @@
     {
       "skill": "skill/wild-swing",
       "weight": 1
+    },
+    {
+      "skill": "skill/bull-charge",
+      "weight": 1
     }
   ],
   "skills_from": "generic",
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "Charges (XX_Bull Charge 3202: 8 m, ×2 and a knockback; its ability_2 animation is the only one of this look's two its other skills don't use). The user (2026-10-30): certain trolls charge."
 }
