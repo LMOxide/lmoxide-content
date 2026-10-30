@@ -1,0 +1,37 @@
+{
+  "id": "skill/funhouse-poison-hazard-pge",
+  "name": "XX_funhouse poison hazard pge",
+  "client": {
+    "spell": 661547,
+    "stats": {
+      "AISpellCategory": 1,
+      "AttackRange": 3000,
+      "RechargeDelay": 200,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CorePersistentGroundEffect",
+          "args": {
+            "ApplyOn": 3,
+            "Arg1": 20,
+            "Arg2": 75,
+            "EffectPackage": 661550,
+            "NanoTemplate": 661553
+          }
+        },
+        {
+          "type": "StartEffect",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 657497
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

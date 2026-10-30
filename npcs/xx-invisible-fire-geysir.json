@@ -12,6 +12,12 @@
   "stats": {
     "health": 1971
   },
+  "skills": [
+    {
+      "skill": "skill/funhouse-fire-spirit-buff",
+      "weight": 1
+    }
+  ],
   "ai": {
     "stationary": true
   },
@@ -19,5 +25,8 @@
     "set": "character-default"
   },
   "loot": "loot/enemy",
-  "source": "client"
+  "lifetime": "6s",
+  "spawn_hash": "YY1Z",
+  "source": "client",
+  "comment": "Live capture (docs/SPAWN-RESEARCH.md \"Found 2026-10-29\"): what the dragon geysir projectile's hit (636105) spawns; all 9 seen in 8060 faded after 6.0 s. It burns around itself with its fire spirit buff (659526: a 2 m area every 0.25 s)."
 }

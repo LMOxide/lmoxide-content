@@ -1,0 +1,28 @@
+{
+  "id": "skill/funhouse-poison-hazard-660139",
+  "name": "XX_Funhouse Poison Hazard",
+  "client": {
+    "spell": 660139,
+    "stats": {
+      "AISpellCategory": 1,
+      "AttackRange": 3000,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreRandomPointAreaFormula",
+          "args": {
+            "ApplyOn": 3,
+            "FloatRadius": 18.0,
+            "FloatValue1": 4.0,
+            "Max1": 1,
+            "NanoTemplate": 661545
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

@@ -13,13 +13,19 @@
     "health": 105,
     "life_factor": 0.8
   },
+  "skills": [
+    {
+      "skill": "skill/spider-egg-spawn",
+      "weight": 1
+    }
+  ],
   "ai": {
-    "stationary": true,
-    "unarmed": true
+    "stationary": true
   },
   "movement": {
     "set": "monster-fast"
   },
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "Hatches a Spiderling (XX_Spawn 236107, SpawnMonster JVYN) when a player comes close, and breaks (the spell sets its Health to 0): live capture, 4200."
 }

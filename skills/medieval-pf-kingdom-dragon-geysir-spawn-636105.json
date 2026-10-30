@@ -1,0 +1,24 @@
+{
+  "id": "skill/medieval-pf-kingdom-dragon-geysir-spawn-636105",
+  "name": "XX_medieval pf kingdom dragon geysir spawn",
+  "client": {
+    "spell": 636105,
+    "stats": {
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "HateValue": 1,
+            "StringHash": "YY1Z"
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "skill/medieval-pf-kingdom-dragon-geysir-attack",
+  "name": "XX_medieval pf kingdom dragon geysir attack",
+  "client": {
+    "spell": 636103,
+    "stats": {
+      "AttackRange": 200,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 636104,
+            "ProjectileType": 2,
+            "RotX": 45,
+            "Speed": 400
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

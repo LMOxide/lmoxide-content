@@ -1,0 +1,26 @@
+{
+  "id": "skill/medieval-pf-kingdom-dragon-geysir-damage",
+  "name": "XX_medieval pf kingdom dragon geysir damage",
+  "client": {
+    "spell": 636106,
+    "stats": {
+      "EffectPackage": 344544,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 0.5,
+            "ApplyOn": 3,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

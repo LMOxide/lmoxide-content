@@ -1,0 +1,39 @@
+{
+  "id": "skill/medieval-pf-kingdom-dragon-geysir-random-point",
+  "name": "XX_medieval pf kingdom dragon geysir random point",
+  "client": {
+    "spell": 636102,
+    "stats": {
+      "MoreFlags": 33619968,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreRandomPointAreaFormula",
+          "args": {
+            "ApplyOn": 3,
+            "FloatRadius": 7.0,
+            "FloatRadius2": 1.0,
+            "FloatValue1": 2.0,
+            "Max1": 1,
+            "NanoTemplate": 636103
+          }
+        },
+        {
+          "type": "CoreRandomPointAreaFormula",
+          "args": {
+            "ApplyOn": 3,
+            "FloatRadius": 8.0,
+            "FloatRadius2": 1.0,
+            "FloatValue1": 3.0,
+            "Max1": 1,
+            "NanoTemplate": 636103
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

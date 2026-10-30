@@ -1,0 +1,28 @@
+{
+  "id": "skill/medieval-pf-kingdom-dragon-geysir-buff",
+  "name": "XX_medieval pf kingdom dragon geysir buff",
+  "client": {
+    "spell": 636101,
+    "stats": {
+      "AISpellCategory": 256,
+      "AttackRange": 2000,
+      "SpellLine": 100,
+      "TimeExist": 101
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Duration": -1,
+            "Interval": 50,
+            "Value": 636102
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "item/funhouse-poison-hazard-anchor-projectile",
+  "name": "XX_funhouse poison hazard anchor projectile",
+  "kind": "projectile",
+  "template": 660600,
+  "effect_package": 660440,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 661547
+      }
+    }
+  ],
+  "source": "client"
+}

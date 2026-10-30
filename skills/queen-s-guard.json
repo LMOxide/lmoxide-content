@@ -37,9 +37,9 @@
   },
   "minifigure": "Queen: Queen's Guard",
   "summon": {
-    "npc": "npc/royal-guard",
-    "count": 1,
-    "lifetime": "15s"
+    "npc": "npc/queen-s-guard-summon",
+    "count": 1
   },
-  "source": "client"
+  "source": "client",
+  "comment": "Summons the Queen's Guard (npc/queen-s-guard-summon, live capture: SpawnMonster U1XT) as a pet."
 }

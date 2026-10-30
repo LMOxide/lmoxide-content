@@ -1,0 +1,22 @@
+{
+  "id": "npc/champion-aura-dread-spheres-anchor",
+  "name": "XX_champion aura dread spheres invis anchor",
+  "kind": "trigger",
+  "render": {
+    "monster_data": 51057,
+    "npc_template": 2505,
+    "look": "invisible_monsterdata",
+    "cars_group": 5
+  },
+  "level": 15,
+  "stats": {
+    "health": 1971
+  },
+  "movement": {
+    "set": "character-default"
+  },
+  "lifetime": "12s",
+  "spawn_hash": "JIMV",
+  "source": "guess",
+  "comment": "What a Shadow champion's Dread Spheres aura spawns (SpawnMonster JIMV, 579610 / 636113) at a random point near a player: the invisible centre the spheres circle (636118 / 579609 cast on it: the warning orbs, then the orb wrapper every 2 s, 10 s orbs). The template (TDB 51000 #2505) matches the hash by name only; the invisible look as other anchors, level and health, and a lifetime of the first pulse plus the orbs' 10 s are guesses."
+}

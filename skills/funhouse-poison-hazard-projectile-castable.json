@@ -1,0 +1,31 @@
+{
+  "id": "skill/funhouse-poison-hazard-projectile-castable",
+  "name": "XX_funhouse poison hazard projectile castable",
+  "client": {
+    "spell": 661546,
+    "stats": {
+      "AISpellCategory": 128,
+      "AttackRange": 3000,
+      "RechargeDelay": 200,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "DisplaceMentY": 500,
+            "ItemInstance": 660600,
+            "ProjectileType": 2,
+            "RotZ": -90,
+            "Speed": 750
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

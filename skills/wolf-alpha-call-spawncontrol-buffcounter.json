@@ -1,0 +1,12 @@
+{
+  "id": "skill/wolf-alpha-call-spawncontrol-buffcounter",
+  "name": "XX_wolf alpha call spawncontrol buffcounter",
+  "client": {
+    "spell": 438237,
+    "stats": {
+      "MaxBuffCounters": 3
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

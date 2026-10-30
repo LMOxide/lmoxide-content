@@ -1,0 +1,22 @@
+{
+  "id": "npc/champion-aura-firewall-anchor",
+  "name": "XX_champion aura firewall invis anchor",
+  "kind": "trigger",
+  "render": {
+    "monster_data": 51057,
+    "npc_template": 2766,
+    "look": "invisible_monsterdata",
+    "cars_group": 5
+  },
+  "level": 15,
+  "stats": {
+    "health": 1971
+  },
+  "movement": {
+    "set": "character-default"
+  },
+  "lifetime": "11s",
+  "spawn_hash": "ZVJ2",
+  "source": "guess",
+  "comment": "What a champion's Firewall aura spawns (SpawnMonster ZVJ2, 636582) on a player within 10 m: the invisible centre of the fire on the ground (636581 cast on it: 506109, a ground effect starting after 4 s, 25 pulses 0.25 s apart). The template (TDB 51000 #2766) matches the hash by name only; the invisible look as other anchors, level and health, and a lifetime covering the ground effect are guesses."
+}

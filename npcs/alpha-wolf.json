@@ -17,6 +17,10 @@
     {
       "skill": "skill/bite",
       "weight": 1
+    },
+    {
+      "skill": "skill/call-to-arms",
+      "weight": 1
     }
   ],
   "skills_from": "generic",
@@ -24,5 +28,6 @@
     "set": "monster-fast"
   },
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "Call to Arms (338311, SpawnMonster E9ER: a Summoned Wolf) from the live capture, where Alpha Wolves cast it in 8030."
 }

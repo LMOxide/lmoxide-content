@@ -1,0 +1,36 @@
+{
+  "id": "skill/funhouse-poison-hazard",
+  "name": "XX_Funhouse Poison Hazard",
+  "client": {
+    "spell": 661554,
+    "stats": {
+      "AISpellCategory": 128,
+      "AttackRange": 3000,
+      "TargetingMode": 8,
+      "TimeExist": 9999
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Duration": -1,
+            "Interval": 100,
+            "Value": 660139
+          }
+        },
+        {
+          "type": "StartEffect",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "TemplateID": 234500
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The funhouse dummy casts this on itself (live capture: the poison anchors fell within ~15 m of the dummy); TargetingMode 8 (self) is added for the enemy AI, the client names none."
+}

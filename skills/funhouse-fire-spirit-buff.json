@@ -1,0 +1,31 @@
+{
+  "id": "skill/funhouse-fire-spirit-buff",
+  "name": "XX_funhouse fire spirit buff",
+  "client": {
+    "spell": 659526,
+    "stats": {
+      "AISpellCategory": 129,
+      "AttackRange": 2000,
+      "EffectPackage": 636601,
+      "RechargeDelay": 1000,
+      "SpellLine": 100,
+      "TargetingMode": 8,
+      "TimeExist": 201
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CastNano",
+          "args": {
+            "ApplyOn": 3,
+            "Duration": -1,
+            "Interval": 25,
+            "Value": 636107
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The fire geysir casts this on itself (live capture: its 2 m burn stays at the geysir); TargetingMode 8 (self) is added for the enemy AI, the client names none."
+}

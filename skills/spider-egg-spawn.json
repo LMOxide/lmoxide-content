@@ -1,0 +1,34 @@
+{
+  "id": "skill/spider-egg-spawn",
+  "name": "XX_Spawn",
+  "client": {
+    "spell": 236107,
+    "stats": {
+      "AISpellCategory": 256,
+      "EffectPackage": 427034,
+      "ItemDelay": 400
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "HateValue": 1,
+            "StringHash": "JVYN"
+          }
+        },
+        {
+          "type": "Set",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Stat": 27
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

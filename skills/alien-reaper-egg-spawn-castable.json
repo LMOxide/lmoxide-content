@@ -1,0 +1,35 @@
+{
+  "id": "skill/alien-reaper-egg-spawn-castable",
+  "name": "XX_alien reaper egg spawn castable",
+  "client": {
+    "spell": 379451,
+    "stats": {
+      "AISpellCategory": 256,
+      "EffectPackage": 387959,
+      "ItemDelay": 400
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "CollisionFlag": 1,
+            "HateValue": 1,
+            "StringHash": "68MJ"
+          }
+        },
+        {
+          "type": "Set",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Stat": 27
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

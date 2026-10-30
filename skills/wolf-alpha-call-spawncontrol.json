@@ -1,0 +1,34 @@
+{
+  "id": "skill/wolf-alpha-call-spawncontrol",
+  "name": "XX_wolf alpha call spawncontrol",
+  "client": {
+    "spell": 438236,
+    "stats": {
+      "EffectPackage": 438371
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 438237,
+            "Value": 1
+          }
+        }
+      ],
+      "20": [
+        {
+          "type": "AddBuffCounter",
+          "args": {
+            "ApplyOn": 1,
+            "TemplateID": 438237,
+            "Value": -1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

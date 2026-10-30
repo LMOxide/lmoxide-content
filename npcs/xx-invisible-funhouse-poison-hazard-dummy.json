@@ -12,6 +12,12 @@
   "stats": {
     "health": 1971
   },
+  "skills": [
+    {
+      "skill": "skill/funhouse-poison-hazard",
+      "weight": 1
+    }
+  ],
   "ai": {
     "stationary": true
   },
@@ -19,5 +25,6 @@
     "set": "character-default"
   },
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "Casts the Funhouse Poison Hazard (661554: every second a poison anchor, SS34, at a random point within 18 m) while players are within its 30 m: the live capture showed the anchors around the dummy; who started it there was the server's."
 }

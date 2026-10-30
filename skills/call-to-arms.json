@@ -1,0 +1,40 @@
+{
+  "id": "skill/call-to-arms",
+  "name": "XX_Call to Arms",
+  "client": {
+    "spell": 338311,
+    "stats": {
+      "AIPowerrating": 10,
+      "AISpellCategory": 1,
+      "AttackRange": 600,
+      "EffectPackage": 350922,
+      "ItemDelay": 200,
+      "RechargeDelay": 100,
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "HateValue": 1,
+            "NanoTemplate": 438236,
+            "StringHash": "E9ER"
+          }
+        },
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 338311,
+            "Value": 750
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

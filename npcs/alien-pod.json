@@ -14,6 +14,12 @@
     "life_factor": 1.0
   },
   "attack": "skill/alien-reaper-slash-castable",
+  "skills": [
+    {
+      "skill": "skill/alien-reaper-egg-spawn-castable",
+      "weight": 1
+    }
+  ],
   "ai": {
     "stationary": true
   },
@@ -21,5 +27,6 @@
     "set": "monster-fast"
   },
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "Hatches a Mantis Nymph (379451 \"alien reaper egg spawn\", SpawnMonster 68MJ) and breaks (the spell sets its Health to 0): live capture, 8060."
 }

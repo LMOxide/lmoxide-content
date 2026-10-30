@@ -17,5 +17,7 @@
     "set": "character-default"
   },
   "loot": "loot/enemy",
-  "source": "client"
+  "spawn_hash": "JVYN",
+  "source": "client",
+  "comment": "Live capture (docs/SPAWN-RESEARCH.md \"Found 2026-10-29\"): what the spider eggs' XX_Spawn (236106, 236107) hatch in 4200."
 }

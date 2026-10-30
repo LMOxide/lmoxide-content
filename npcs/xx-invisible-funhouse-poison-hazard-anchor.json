@@ -15,5 +15,8 @@
   "movement": {
     "set": "character-default"
   },
-  "source": "client"
+  "lifetime": "16s",
+  "spawn_hash": "SS34",
+  "source": "client",
+  "comment": "Live capture (docs/SPAWN-RESEARCH.md \"Found 2026-10-29\"): what the Funhouse Poison Hazard Dummy's 661545 spawns about every second within 18 m; all 60 seen faded 16.1 s after they appeared. The poison projectile (661546) falling on it is the spawn's NanoTemplate, a guess (live showed it as a buff on every anchor)."
 }

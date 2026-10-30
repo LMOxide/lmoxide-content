@@ -1,0 +1,13 @@
+{
+  "id": "npc/queen-s-guard-summon",
+  "name": "Queen's Guard",
+  "kind": "summon",
+  "render": {
+    "monster_data": 352446,
+    "npc_template": 3002
+  },
+  "attack": "skill/main-s15-queen2-npc-lua",
+  "lifetime": "10s",
+  "source": "client",
+  "comment": "What Queen's Guard summons (SpawnMonster U1XT): the Queen's Guard (TDB #3002) of the live capture in 1200, where 8 of 9 faded 10.1 s after they appeared (it was a guessed Royal Guard for 15 s). Its attack is the pet spell whose server Lua has the owner cast the damage. A summon of its own, apart from npc/queen-s-guard (the live-placed one in 1200)."
+}

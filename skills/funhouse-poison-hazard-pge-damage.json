@@ -1,0 +1,29 @@
+{
+  "id": "skill/funhouse-poison-hazard-pge-damage",
+  "name": "XX_funhouse poison hazard pge damage",
+  "client": {
+    "spell": 661548,
+    "stats": {
+      "AISpellCategory": 1,
+      "AttackRange": 3000,
+      "EffectPackage": 662150,
+      "RechargeDelay": 200,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 0.75,
+            "ApplyOn": 3,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

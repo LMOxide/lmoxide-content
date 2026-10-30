@@ -1,0 +1,18 @@
+{
+  "id": "item/medieval-pf-kingdom-dragon-geysir-projectile",
+  "name": "XX_medieval pf kingdom dragon geysir projectile",
+  "kind": "projectile",
+  "template": 636104,
+  "effect_package": 630429,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 636105
+      }
+    }
+  ],
+  "source": "client"
+}

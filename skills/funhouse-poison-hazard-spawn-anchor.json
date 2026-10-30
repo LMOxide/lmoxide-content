@@ -1,0 +1,27 @@
+{
+  "id": "skill/funhouse-poison-hazard-spawn-anchor",
+  "name": "XX_funhouse poison hazard spawn anchor",
+  "client": {
+    "spell": 661545,
+    "stats": {
+      "AISpellCategory": 1,
+      "AttackRange": 3000,
+      "RechargeDelay": 200,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SpawnMonster",
+          "args": {
+            "ApplyOn": 3,
+            "NanoTemplate": 661546,
+            "StringHash": "SS34"
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Spawns the poison hazard anchor (SS34, npc/xx-invisible-funhouse-poison-hazard-anchor) at the random point. The client names no NanoTemplate; 661546 (the poison falling on the anchor) is a guess from the live capture, where every anchor showed it as a buff."
+}

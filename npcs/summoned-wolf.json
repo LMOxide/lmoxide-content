@@ -24,5 +24,7 @@
     "set": "monster-fast"
   },
   "loot": "loot/enemy",
-  "source": "client"
+  "spawn_hash": "E9ER",
+  "source": "client",
+  "comment": "Live capture (docs/SPAWN-RESEARCH.md \"Found 2026-10-29\"): one appeared per Alpha Wolf Call to Arms (338311) cast in 8030; none outlived its fight (killed 2–11 s), so no lifetime."
 }

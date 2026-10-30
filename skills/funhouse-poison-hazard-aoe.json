@@ -1,0 +1,30 @@
+{
+  "id": "skill/funhouse-poison-hazard-aoe",
+  "name": "XX_funhouse poison hazard aoe",
+  "client": {
+    "spell": 661553,
+    "stats": {
+      "AISpellCategory": 1,
+      "AttackRange": 3000,
+      "RechargeDelay": 200,
+      "TargetingMode": 7
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 661548,
+            "Radius": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}

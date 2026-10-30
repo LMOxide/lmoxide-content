@@ -1,0 +1,27 @@
+{
+  "id": "skill/medieval-pf-kingdom-dragon-geysir-aoe",
+  "name": "XX_medieval pf kingdom dragon geysir aoe",
+  "client": {
+    "spell": 636107,
+    "stats": {
+      "TargetingMode": 6
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 636106,
+            "Radius": 2
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "Client spell matched to a SpawnMonster from the live capture (docs/SPAWN-RESEARCH.md); tools/re/import_spells.py."
+}
