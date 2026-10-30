@@ -2676,37 +2676,37 @@
     {
       "id": "spawn/4200/commodore-moksey",
       "name": "Commodore Moksey",
-      "kind": "npc",
+      "kind": "enemy",
       "template": "npc/commodore-moksey",
       "pos": [97.0, 70.35, 75.5],
-      "fight": "fighter",
+      "fight": "enemy",
       "source": "server"
     },
     {
       "id": "spawn/4200/dragoon-11",
       "name": "Dragoon",
-      "kind": "npc",
+      "kind": "enemy",
       "template": "npc/dragoon-3",
       "pos": [99.5, 70.35, 74.3],
-      "fight": "fighter",
+      "fight": "enemy",
       "source": "server"
     },
     {
       "id": "spawn/4200/musketeer-23",
       "name": "Musketeer",
-      "kind": "npc",
+      "kind": "enemy",
       "template": "npc/musketeer-4",
       "pos": [98.5, 70.35, 77.8],
-      "fight": "fighter",
+      "fight": "enemy",
       "source": "server"
     },
     {
       "id": "spawn/4200/musketeer-24",
       "name": "Musketeer",
-      "kind": "npc",
+      "kind": "enemy",
       "template": "npc/musketeer-4",
       "pos": [100.0, 70.35, 77.0],
-      "fight": "fighter",
+      "fight": "enemy",
       "source": "server"
     },
     {

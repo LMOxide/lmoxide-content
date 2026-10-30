@@ -123,7 +123,7 @@
     }
   ],
   "npc_fights": {
-    "about": "Landing Beach (bounded area Quest_Beach, ~50 m from the arrival point; quest 'Push back the Ghost Pirates'): the proposed Jacket/pirate camp there becomes ghost pirates, the Imperial navy ('Jackets': Commodore Moksey, a Dragoon, two Musketeers) fights them",
+    "about": "Landing Beach (bounded area Quest_Beach, ~50 m from the arrival point; quest 'Push back the Ghost Pirates'): the proposed Jacket/pirate camp there becomes ghost pirates, the Imperial navy ('Jackets': Commodore Moksey, a Dragoon, two Musketeers) fights them; the navy is hostile to players too (user, 2026-10-30: the live capture has hostile Musketeers guarding the prison cells there)",
     "replace_anchors": ["Quest_Beach"],
     "rivals_about": "ghost pirates (skeleton_pirate_1/2) and the hostile Jackets (red coats: pirate_musketeer, pirate_medic, pirate_officer) attack each other wherever they meet; a ghost group is added next to the Jackets (a Dragoon, two Musketeers) the live server had at (111, 101) near Res_JacketBridge (10-11 m away) so they meet there",
     "rivals": [

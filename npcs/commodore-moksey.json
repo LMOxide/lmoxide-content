@@ -1,7 +1,7 @@
 {
   "id": "npc/commodore-moksey",
   "name": "Commodore Moksey",
-  "kind": "npc",
+  "kind": "enemy",
   "render": {
     "monster_data": 192827,
     "npc_template": 901
@@ -11,5 +11,6 @@
     "health": 120,
     "life_factor": 1.5
   },
+  "loot": "loot/enemy",
   "source": "client"
 }

@@ -1,7 +1,7 @@
 {
   "id": "npc/musketeer-4",
   "name": "Musketeer",
-  "kind": "npc",
+  "kind": "enemy",
   "render": {
     "monster_data": 192826,
     "npc_template": 900
@@ -21,5 +21,6 @@
   "movement": {
     "set": "monster-fast"
   },
+  "loot": "loot/enemy",
   "source": "client"
 }

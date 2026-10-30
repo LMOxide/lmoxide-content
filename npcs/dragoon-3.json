@@ -1,7 +1,7 @@
 {
   "id": "npc/dragoon-3",
   "name": "Dragoon",
-  "kind": "npc",
+  "kind": "enemy",
   "render": {
     "monster_data": 192827,
     "npc_template": 899
@@ -14,5 +14,6 @@
   "movement": {
     "set": "monster-fast"
   },
+  "loot": "loot/enemy",
   "source": "client"
 }
