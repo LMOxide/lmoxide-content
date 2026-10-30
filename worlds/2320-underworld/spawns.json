@@ -5,9 +5,12 @@
       "name": "Hades",
       "kind": "enemy",
       "template": "npc/hades",
-      "pos": [358.04, 17.34, 275.8],
-      "anchor": "Res_hades",
-      "source": "proposed"
+      "pos": [384.6, 24.75, 355.33],
+      "rot": -1.857,
+      "anchor": "Cine_Hades1",
+      "source": "proposed",
+      "tags": ["approximate"],
+      "comment": "moved from Res_hades (358.0, 17.3, 275.8), a respawn area 60 m before his arena, to Cine_Hades1 inside BossArea, past the arena's door BossEncounter_Start; the user saw him only as G11's cinematic actor (361.6, 24.6, 332.0), never in his arena (docs/TUNABLES.md 'Story bosses')"
     },
     {
       "id": "spawn/2320/charon",
