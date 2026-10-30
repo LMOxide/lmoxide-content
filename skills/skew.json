@@ -1,0 +1,74 @@
+{
+  "id": "skill/skew",
+  "name": "XX_Skew",
+  "client": {
+    "spell": 197776,
+    "stats": {
+      "AttackRange": 150,
+      "EffectPackage": 234456,
+      "ItemDelay": 50,
+      "RechargeDelay": 50,
+      "SpellLine": 1000
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1000,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1005,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1010,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1015,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1020,
+            "Value": 100
+          }
+        },
+        {
+          "type": "WeaponHit",
+          "args": {
+            "AbilityMod": 1.0,
+            "ApplyOn": 3,
+            "DamageType": 1000,
+            "Value": 1
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The spiders' (look spider_red 231991) as cast live by The Weaver and the Giant spiders (data/live-capture npc-movement.json)."
+}

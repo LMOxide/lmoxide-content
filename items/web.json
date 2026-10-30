@@ -1,0 +1,18 @@
+{
+  "id": "item/web",
+  "name": "XX_Web",
+  "kind": "projectile",
+  "template": 197781,
+  "effect_package": 238303,
+  "radius": 0.5,
+  "actions": [
+    {
+      "type": "CastNano",
+      "args": {
+        "ApplyOn": 3,
+        "Value": 197788
+      }
+    }
+  ],
+  "source": "client"
+}

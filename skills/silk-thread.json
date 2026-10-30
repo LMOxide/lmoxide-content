@@ -1,0 +1,70 @@
+{
+  "id": "skill/silk-thread",
+  "name": "XX_Silk Thread",
+  "client": {
+    "spell": 198074,
+    "stats": {
+      "AttackRange": 800,
+      "EffectPackage": 234172,
+      "ItemDelay": 60,
+      "RechargeDelay": 116
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1000,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1005,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1010,
+            "Value": 1000
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1015,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1020,
+            "Value": 100
+          }
+        },
+        {
+          "type": "Blink",
+          "args": {
+            "ApplyOn": 3
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The spiders' (look spider_red 231991) as cast live by The Weaver and the Giant spiders (data/live-capture npc-movement.json)."
+}

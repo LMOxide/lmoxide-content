@@ -13,15 +13,24 @@
   "attack": "skill/spell-2029",
   "skills": [
     {
-      "skill": "skill/venom",
+      "skill": "skill/skew",
       "weight": 1
     },
     {
-      "skill": "skill/stab-342475",
+      "skill": "skill/web",
+      "weight": 1
+    },
+    {
+      "skill": "skill/silk-thread",
+      "weight": 1
+    },
+    {
+      "skill": "skill/taunt",
       "weight": 1
     }
   ],
-  "skills_from": "generic",
+  "skills_from": "recorded",
   "loot": "loot/enemy",
-  "source": "client"
+  "source": "client",
+  "comment": "The spider_red look's kit as the live capture's The Weaver and Giant spiders cast it (data/live-capture npc-movement.json): XX_Skew 197776 (bite), XX_Web 197778 (a lobbed web: a 3 m patch that slows 50%), XX_Silk Thread 198074 (hops next to the player), XX_Taunt 198187. Was a generic Venom + Stab (user: it shot a snake, not a web). XX_Spawn Spiders 198051 (hash YTZO) was never cast live and is left out."
 }

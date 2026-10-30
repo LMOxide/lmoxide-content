@@ -1,0 +1,27 @@
+{
+  "id": "skill/web-197789",
+  "name": "XX_Web",
+  "client": {
+    "spell": 197789,
+    "stats": {
+      "TargetingMode": 8
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "CoreFilteredAreaFormula",
+          "args": {
+            "Angle": 360,
+            "ApplyOn": 3,
+            "Ascending": 1,
+            "NPCSelectMode": 3,
+            "NanoTemplate": 197790,
+            "Radius": 3
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The spiders' (look spider_red 231991) as cast live by The Weaver and the Giant spiders (data/live-capture npc-movement.json)."
+}

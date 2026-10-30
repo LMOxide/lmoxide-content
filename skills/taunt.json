@@ -1,0 +1,29 @@
+{
+  "id": "skill/taunt",
+  "name": "XX_Taunt",
+  "client": {
+    "spell": 198187,
+    "stats": {
+      "AISpellCategory": 2048,
+      "AttackRange": 800,
+      "EffectPackage": 66089,
+      "ItemDelay": 200,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 197418,
+            "Value": 500
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The spiders' (look spider_red 231991) as cast live by The Weaver and the Giant spiders (data/live-capture npc-movement.json)."
+}

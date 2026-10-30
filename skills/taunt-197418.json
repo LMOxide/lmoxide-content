@@ -1,0 +1,29 @@
+{
+  "id": "skill/taunt-197418",
+  "name": "XX_Taunt",
+  "client": {
+    "spell": 197418,
+    "stats": {
+      "AISpellCategory": 2048,
+      "AttackRange": 800,
+      "EffectPackage": 66089,
+      "ItemDelay": 200,
+      "TargetingMode": 5
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SetSpellRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "NanoTemplate": 197418,
+            "Value": 500
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The spiderlings' taunt; the spiders' XX_Taunt (198187) puts its 5 s recast on this one."
+}

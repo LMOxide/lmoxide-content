@@ -1,0 +1,74 @@
+{
+  "id": "skill/web",
+  "name": "XX_Web",
+  "client": {
+    "spell": 197778,
+    "stats": {
+      "AttackRange": 1200,
+      "EffectPackage": 236648,
+      "ItemDelay": 16,
+      "RechargeDelay": 84
+    },
+    "actions": {
+      "0": [
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1000,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1005,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1010,
+            "Value": 1000
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1015,
+            "Value": 100
+          }
+        },
+        {
+          "type": "SetSpellLineRecastTime",
+          "client": true,
+          "args": {
+            "ApplyOn": 1,
+            "Type": 1020,
+            "Value": 100
+          }
+        },
+        {
+          "type": "Projectile",
+          "client": true,
+          "args": {
+            "ApplyOn": 3,
+            "ItemInstance": 197781,
+            "ProjectileType": 2,
+            "Speed": 750
+          }
+        }
+      ]
+    }
+  },
+  "source": "client",
+  "comment": "The spiders' (look spider_red 231991) as cast live by The Weaver and the Giant spiders (data/live-capture npc-movement.json)."
+}
