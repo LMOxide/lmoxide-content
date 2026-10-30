@@ -12,6 +12,9 @@
     "health": 9198
   },
   "attack": "skill/spell-2029",
+  "movement": {
+    "set": "treant"
+  },
   "loot": "loot/enemy",
   "source": "surveyed",
   "tags": ["approximate"],

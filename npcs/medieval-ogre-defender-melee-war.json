@@ -17,6 +17,9 @@
     }
   ],
   "skills_from": "generic",
+  "movement": {
+    "set": "ogre"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

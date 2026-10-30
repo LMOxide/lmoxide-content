@@ -13,6 +13,9 @@
     "health": 1314,
     "life_factor": 4.25
   },
+  "movement": {
+    "set": "monster"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

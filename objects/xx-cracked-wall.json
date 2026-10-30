@@ -15,5 +15,12 @@
     "dynel_type": 51321,
     "loot_table": 162
   },
+  "refused": [
+    {
+      "goal": "9AQ4",
+      "actions": ["hit", "use"],
+      "rule": 446247
+    }
+  ],
   "source": "client"
 }

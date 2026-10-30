@@ -12,5 +12,8 @@
   "stats": {
     "health": 93
   },
+  "movement": {
+    "set": "character-default"
+  },
   "source": "client"
 }

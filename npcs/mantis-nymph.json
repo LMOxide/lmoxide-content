@@ -21,6 +21,9 @@
     }
   ],
   "skills_from": "named",
+  "movement": {
+    "set": "monster-fast"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

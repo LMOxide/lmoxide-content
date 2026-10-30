@@ -13,6 +13,9 @@
     "health": 2463,
     "life_factor": 1.85
   },
+  "movement": {
+    "set": "ogre"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

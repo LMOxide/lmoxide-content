@@ -17,6 +17,9 @@
     "stationary": true,
     "unarmed": true
   },
+  "movement": {
+    "set": "monster-fast"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

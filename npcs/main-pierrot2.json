@@ -12,6 +12,9 @@
   "stats": {
     "health": 4542
   },
+  "movement": {
+    "set": "character-default"
+  },
   "lifetime": "6s",
   "spawn_hash": "FXCX",
   "source": "client",

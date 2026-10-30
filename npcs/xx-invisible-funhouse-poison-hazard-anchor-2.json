@@ -15,6 +15,9 @@
   "ai": {
     "stationary": true
   },
+  "movement": {
+    "set": "character-default"
+  },
   "loot": "loot/enemy",
   "source": "client"
 }

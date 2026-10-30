@@ -14,5 +14,8 @@
     "health": 3927,
     "life_factor": 1.5
   },
+  "movement": {
+    "set": "character-default"
+  },
   "source": "client"
 }

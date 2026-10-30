@@ -18,5 +18,8 @@
     }
   ],
   "skills_from": "recorded",
+  "movement": {
+    "set": "monster-fast"
+  },
   "source": "client"
 }

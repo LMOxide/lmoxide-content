@@ -652,6 +652,38 @@
       "description": "A length of time: \"1.5s\", \"200ms\", \"2m\", \"1h\", or a number of seconds",
       "x-lmoxide-unit": "duration"
     },
+    "Movement": {
+      "additionalProperties": false,
+      "description": "How an NPC moves: one of the client's movement sets (tunables `npc.movement_sets`), with the\nspeeds the original server changed for it (m/s; the live Queen's Guard ran at 4.5).",
+      "properties": {
+        "charge": {
+          "format": "float",
+          "type": ["number", "null"]
+        },
+        "run": {
+          "format": "float",
+          "type": ["number", "null"]
+        },
+        "set": {
+          "description": "A key of tunables `npc.movement_sets`.",
+          "type": "string"
+        },
+        "sprint": {
+          "format": "float",
+          "type": ["number", "null"]
+        },
+        "walk": {
+          "format": "float",
+          "type": ["number", "null"]
+        },
+        "walk_backwards": {
+          "format": "float",
+          "type": ["number", "null"]
+        }
+      },
+      "required": ["set"],
+      "type": "object"
+    },
     "NpcKind": {
       "oneOf": [
         {
@@ -1009,6 +1041,17 @@
     "loot": {
       "type": ["string", "null"],
       "x-lmoxide-ref": ["loot"]
+    },
+    "movement": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/Movement"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Its movement speeds; none: tunables `npc.movement_default` by kind."
     },
     "name": {
       "type": "string"
