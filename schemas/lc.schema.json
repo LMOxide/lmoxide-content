@@ -106,7 +106,8 @@
           },
           "maxItems": 3,
           "minItems": 3,
-          "type": "array"
+          "type": "array",
+          "x-lmoxide-position": true
         },
         "rot": {
           "anyOf": [
@@ -116,7 +117,8 @@
             {
               "type": "null"
             }
-          ]
+          ],
+          "x-lmoxide-rotation": true
         }
       },
       "required": ["pos"],
