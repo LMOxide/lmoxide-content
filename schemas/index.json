@@ -228,7 +228,7 @@
     {
       "description": "An achievement (the client's lore tree), or a rule-only key (`category:`, `drop:`,\n`find:`): `achievements/<slug>.json`.",
       "kind": "achievement",
-      "list": ["title", "kind", "lore"],
+      "list": ["title", "kind", "lore", "text", "parent", "children", "counter", "n", "target"],
       "path": "achievements/",
       "per_world": false,
       "plural": "Achievements",
